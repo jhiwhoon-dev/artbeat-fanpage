@@ -1,7 +1,841 @@
 [
   {
+    "id": "yun-jihong",
+    "name": "윤지홍",
+    "birth_date": "1996-06-05",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2017-07-??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/chamele_hong/"
+      ],
+      "threads": [
+        "https://www.threads.com/@chamele_hong"
+      ]
+    }
+  },
+  {
+    "id": "jeon-hyeongwook",
+    "name": "전형욱",
+    "birth_date": "1999-02-06",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2017-07-??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/h_1_uk/"
+      ]
+    }
+  },
+  {
+    "id": "kwon-dohyeon",
+    "name": "권도현",
+    "birth_date": "1997-05-01",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2018-04-30",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yolo__plan/"
+      ]
+    }
+  },
+  {
+    "id": "park-munsu",
+    "name": "박문수",
+    "birth_date": "1999-04-01",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2019-09-14",
+    "rejoined_date": "2026-03-07",
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/munsuu_"
+      ]
+    }
+  },
+  {
+    "id": "kim-hojun",
+    "name": "김호준",
+    "birth_date": "2002-10-07",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2020-02-21",
+    "rejoined_date": "2025-08-03",
+    "left_date": "2024-06-30",
+    "photo_filename": null,
+    "bio": "대한민국의 댄서. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hhojun_"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@hojunindeayo"
+      ]
+    }
+  },
+  {
+    "id": "kim-taehwan",
+    "name": "김태환",
+    "birth_date": "1999-12-11",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "military",
+    "joined_date": "2020-03-07",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서. ARTBEAT에서 활동 중이다.",
+    "sns": {}
+  },
+  {
+    "id": "kim-jeongseo",
+    "name": "김정서",
+    "birth_date": "1998-11-12",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2020-04-02",
+    "rejoined_date": "2026-03-07",
+    "left_date": null,
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-gyeongju",
+    "name": "김경주",
+    "birth_date": "2003-01-04",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-04-08",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/kyungjupiter/"
+      ]
+    }
+  },
+  {
+    "id": "park-hyeonmin",
+    "name": "박현민",
+    "birth_date": "2002-06-16",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-04-08",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-suhwan",
+    "name": "김수환",
+    "birth_date": "2001-11-23",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-04-08",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 인플루언서. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/soomile_11"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EC%88%98%EB%A7%88%EC%9D%BC_soomile",
+        "https://www.youtube.com/@sugar_su_ga"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@soomile"
+      ],
+      "naverclip": [
+        "https://clip.naver.com/@soomile_11"
+      ]
+    }
+  },
+  {
+    "id": "won-jin",
+    "name": "원진",
+    "birth_date": "2001-09-15",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-07-29",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 가수, 보이그룹 VNX의 멤버. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jwon_0915"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@wonjin915"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@jwon_00915"
+      ]
+    }
+  },
+  {
+    "id": "hwang-jiho",
+    "name": "황지호",
+    "birth_date": "2000-05-18",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-07-29",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서다. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/o___xlip"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@o___xlip",
+        "https://www.youtube.com/@%ED%95%AB%ED%88%AC%EB%8D%B0%EC%9D%B4_H2_day"
+      ],
+      "threads": [
+        "https://www.threads.com/@o___xlip"
+      ]
+    }
+  },
+  {
+    "id": "kim-mingi",
+    "name": "김민기",
+    "birth_date": "2002-01-29",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-07-29",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서이자 유튜버.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ki.ro_ro"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@ki.ro_ro"
+      ],
+      "threads": [
+        "https://www.threads.com/@ki.ro_ro"
+      ]
+    }
+  },
+  {
+    "id": "kim-yeongjin",
+    "name": "김영진",
+    "birth_date": "1999-03-23",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-07-29",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/xvyoungjin"
+      ]
+    }
+  },
+  {
+    "id": "lim-donghun",
+    "name": "임동훈",
+    "birth_date": "2000-10-07",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "military",
+    "joined_date": "2021-08-03",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hun_001007/"
+      ]
+    }
+  },
+  {
+    "id": "chae-yunsu",
+    "name": "채윤수",
+    "birth_date": "2006-09-05",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-08-03",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yun__su905"
+      ],
+      "threads": [
+        "https://www.threads.com/@yun__su905"
+      ]
+    }
+  },
+  {
+    "id": "gang-taehyeon",
+    "name": "강태현",
+    "birth_date": "2001-12-28",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-02-18",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/t_aehyu_n"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@t_aehyu_n"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@t_aehyu_n"
+      ]
+    }
+  },
+  {
+    "id": "cho-uhyeong",
+    "name": "조우형",
+    "birth_date": "1997-12-02",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-04-13",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/wh.marchin.dec/"
+      ],
+      "threads": [
+        "https://www.threads.com/@wh.marchin.dec"
+      ]
+    }
+  },
+  {
+    "id": "kim-daehan",
+    "name": "김대한",
+    "birth_date": "2000-11-08",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-10-29",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/daehanee_/"
+      ]
+    }
+  },
+  {
+    "id": "ahn-gihyeon",
+    "name": "안기현",
+    "birth_date": "2002-11-09",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2023-05-22",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄스 크루 ARTBEAT 소속 댄서. 보이그룹 NTX의 前 멤버이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/gimoann/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@gimoan"
+      ],
+      "threads": [
+        "https://www.threads.com/@gimoann"
+      ]
+    }
+  },
+  {
+    "id": "hwang-geumryul",
+    "name": "황금률",
+    "birth_date": "1998-04-16",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2023-05-22",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/geum_ryul_/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@geum_ryul_"
+      ]
+    }
+  },
+  {
+    "id": "do-hyeonseong",
+    "name": "도현성",
+    "birth_date": "1999-05-11",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/_llo.oll/"
+      ]
+    }
+  },
+  {
+    "id": "yang-hwanhui",
+    "name": "양환희",
+    "birth_date": "2004-04-04",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hwagu04"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@hwagu04"
+      ],
+      "twitch": [
+        "https://www.twitch.tv/hwagu"
+      ]
+    }
+  },
+  {
+    "id": "park-seongmin",
+    "name": "박성민",
+    "birth_date": "2001-01-04",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/seongmin_parker"
+      ]
+    }
+  },
+  {
+    "id": "lee-garam",
+    "name": "이가람",
+    "birth_date": "2003-06-25",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/e_.river22/"
+      ],
+      "threads": [
+        "https://www.threads.com/@e_.river22"
+      ]
+    }
+  },
+  {
+    "id": "cho-gyuso",
+    "name": "조규소",
+    "birth_date": "2005-02-15",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/gyusojo/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EC%A1%B0%EA%B7%9C%EC%86%8C"
+      ]
+    }
+  },
+  {
+    "id": "jang-daehyeon",
+    "name": "장대현",
+    "birth_date": "2000-12-27",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hyunxxang/"
+      ]
+    }
+  },
+  {
+    "id": "jung-hyeonchang",
+    "name": "정현창",
+    "birth_date": "2002-03-05",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jeong_hyeonchang/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@jeong_hyeonchang"
+      ],
+      "threads": [
+        "https://www.threads.com/@jeong_hyeonchang"
+      ]
+    }
+  },
+  {
+    "id": "shim-jiho",
+    "name": "심지호",
+    "birth_date": "2008????",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/s_j_h_08/"
+      ]
+    }
+  },
+  {
+    "id": "yamamoto-reno",
+    "name": "야마모토 레노",
+    "birth_date": "2000-10-20",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2026-05-07",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yamatoleno/"
+      ],
+      "threads": [
+        "https://www.threads.com/@yamatoleno"
+      ]
+    }
+  },
+  {
+    "id": "park-seonyeong",
+    "name": "박선영",
+    "birth_date": "1995-09-04",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "201707??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/suntrawberry"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@suntrawberry_"
+      ],
+      "threads": [
+        "https://www.threads.com/@suntrawberry"
+      ]
+    }
+  },
+  {
+    "id": "park-soyeong",
+    "name": "박소영",
+    "birth_date": "1997-02-04",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "201707??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ddo_y0204?utm_medium=copy_link"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@Ssoha"
+      ],
+      "threads": [
+        "https://www.threads.com/@ddo_y0204"
+      ]
+    }
+  },
+  {
+    "id": "kim-hayeon",
+    "name": "김하연",
+    "birth_date": "1998-06-05",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "201707??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서, 치어리더.\n\n2019년에 데뷔하였으며 대구 출신으로 전형적인 대구·경북 출신 치어리더 루트로 활약한 바 있다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hayeon_98k"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EA%B9%80%ED%95%98%EC%97%B0-l5i3s"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@hayeon98k"
+      ],
+      "threads": [
+        "https://www.threads.com/@hayeon_98k"
+      ],
+      "soop": [
+        "https://www.sooplive.com/station/hgkdusy"
+      ]
+    }
+  },
+  {
+    "id": "kwon-soyeong",
+    "name": "권소영",
+    "birth_date": "2000-10-08",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "201708??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sovely_a"
+      ]
+    }
+  },
+  {
+    "id": "hwang-dageon",
+    "name": "황다건",
+    "birth_date": "2000-07-14",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "201709??",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서이자 전직 치어리더.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/dgxnno_o/"
+      ]
+    }
+  },
+  {
     "id": "lee-gaeun",
     "name": "이가은",
+    "birth_date": "2000-07-18",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -10,6 +844,7 @@
     ],
     "status": "active",
     "joined_date": "2018-01-16",
+    "rejoined_date": null,
     "left_date": null,
     "photo_filename": null,
     "bio": "걸그룹 ARTBEAT v의 멤버.\n\n대한민국의 댄서로, ARTBEAT의 멤버로 활동 중이다.",
@@ -25,8 +860,37 @@
     }
   },
   {
+    "id": "ahn-yoojin",
+    "name": "안유진",
+    "birth_date": "2000-02-29",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT",
+      "ARTBEAT v"
+    ],
+    "status": "active",
+    "joined_date": "2018-04-14",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "걸그룹 ARTBEAT v의 멤버.\n\n대한민국의 댄서로, ARTBEAT의 멤버로 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yj_2.29"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EC%95%88%EB%89%B4%ED%95%98%EC%84%B8%EC%9A%94"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@yj__2.29"
+      ]
+    }
+  },
+  {
     "id": "yun-haeun",
     "name": "윤하은",
+    "birth_date": "2002-06-25",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -35,6 +899,7 @@
     ],
     "status": "active",
     "joined_date": "2018-10-01",
+    "rejoined_date": null,
     "left_date": null,
     "photo_filename": null,
     "bio": "걸그룹 ARTBEAT v의 멤버이자 막내를 맡고 있다.\n\n대한민국의 댄서이자 유튜버이다. ARTBEAT의 멤버로 활동하고 있으며 개인채널 하토피아 HATOPIA 도 운영 중이다.",
@@ -51,8 +916,34 @@
     }
   },
   {
+    "id": "kim-hyerim",
+    "name": "김혜림",
+    "birth_date": "2002-09-04",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2018-10-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서다. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hye_ri__mi"
+      ],
+      "threads": [
+        "https://www.threads.com/@hye_ri__mi"
+      ]
+    }
+  },
+  {
     "id": "ha-seyoung",
     "name": "하세영",
+    "birth_date": "1999-02-03",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -61,6 +952,7 @@
     ],
     "status": "active",
     "joined_date": "2018-10-04",
+    "rejoined_date": null,
     "left_date": null,
     "photo_filename": null,
     "bio": "ARTBEAT 소속으로 활동 중이며 걸그룹 ARTBEAT v의 멤버이다.",
@@ -73,6 +965,634 @@
         "https://www.youtube.com/@%EC%84%B8%EC%98%81_is",
         "https://www.youtube.com/@%ED%95%AB%ED%88%AC%EB%8D%B0%EC%9D%B4_H2_day",
         "https://www.youtube.com/@SE-HY"
+      ]
+    }
+  },
+  {
+    "id": "oh-yubin",
+    "name": "오유빈",
+    "birth_date": "1998-11-26",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT",
+      "ARTBEAT v"
+    ],
+    "status": "active",
+    "joined_date": "2019-08-06",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서, 인플루언서, 유튜버.\n\n댄스 크루 'ARTBEAT'의 멤버로 활동하고 있으며 이 크루가 결성한 걸그룹 ARTBEAT v의 멤버로도 활동했다. 개인 유튜브 채널 '우유 빈 Yubin'을 운영 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yub__ni"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@wooyubin"
+      ]
+    }
+  },
+  {
+    "id": "kim-minjin",
+    "name": "김민진",
+    "birth_date": "2004-07-10",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2019-08-06",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/m1ndd1n/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@m1ndd1n"
+      ]
+    }
+  },
+  {
+    "id": "lee-seohyeon",
+    "name": "이서현",
+    "birth_date": "2003-11-12",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2020-06-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sh._.yun"
+      ]
+    }
+  },
+  {
+    "id": "gang-yejin",
+    "name": "강예진",
+    "birth_date": "2004-01-28",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-04-21",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/bblue_128"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@bblue_128"
+      ]
+    }
+  },
+  {
+    "id": "bang-juyeon",
+    "name": "방주연",
+    "birth_date": "2006-09-16",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-01-30",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/joo._.yeon06/"
+      ],
+      "threads": [
+        "https://www.threads.com/@joo._.yeon06"
+      ]
+    }
+  },
+  {
+    "id": "ji-ayeong",
+    "name": "지아영",
+    "birth_date": "2000-06-17",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-07-30",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서 출신 치어리더.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ayeong_ji/"
+      ],
+      "threads": [
+        "https://www.threads.com/@ayeong_ji"
+      ]
+    }
+  },
+  {
+    "id": "jang-sein",
+    "name": "장세인",
+    "birth_date": "2004-07-12",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2021-08-03",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/se_inuu"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@se_inuu"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@se_inuu"
+      ]
+    }
+  },
+  {
+    "id": "ha-jeuki",
+    "name": "하즈키",
+    "birth_date": "2002-08-17",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2023-02-27",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다. ARTBEAT에서 2명 있는 일본인 멤버 중 하나이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/02.0817/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@myhazuki17"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@02.0817"
+      ]
+    }
+  },
+  {
+    "id": "jung-gyeolgyeong",
+    "name": "정결경",
+    "birth_date": "2007-04-15",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-02-18",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/j.gyeong__7"
+      ]
+    }
+  },
+  {
+    "id": "kim-soyeon",
+    "name": "김소연",
+    "birth_date": "1999-02-19",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be",
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2022-10-13",
+    "rejoined_date": "2025-09-14",
+    "left_date": "2024-06-02",
+    "photo_filename": null,
+    "bio": "대한민국의 프리랜서 모델 겸 댄서. ARTBEAT에서 활동 중이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/voirunefleur"
+      ]
+    }
+  },
+  {
+    "id": "yoo-ka",
+    "name": "유카",
+    "birth_date": "2003-10-19",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2023-05-24",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "댄스 크루 ARTBEAT의 멤버이자, PRODUCE 101 JAPAN THE GIRLS의 참가자.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ao_kr5"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@yukachiiiii03"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@yukaoki1019"
+      ],
+      "threads": [
+        "https://www.threads.com/@ao_kr5"
+      ]
+    }
+  },
+  {
+    "id": "jung-hyeonjin",
+    "name": "정현진",
+    "birth_date": "2000-04-25",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국에서 활동하는 댄스팀 ARTBEAT 소속 댄서이며 유튜버이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/lara._.jinnie",
+        "https://www.instagram.com/archivejinnn"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@lara._.jinnie"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@lara._.jinnie"
+      ]
+    }
+  },
+  {
+    "id": "kim-chan",
+    "name": "김찬",
+    "birth_date": "2007-05-07",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "유튜브 크리에이터이자 피겨 스케이팅 선수 출신이다. 오빠의 유튜브 채널에 여러 차례 출연한 것을 계기로 개인 유튜브 활동을 시작했다.\nARTBEAT 소속 댄서로 활동하고 있다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/chanfigure",
+        "https://www.instagram.com/c0aniii/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@chaniiifigure"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@chanfigure"
+      ],
+      "naverclip": [
+        "https://clip.naver.com/@chanfigure"
+      ]
+    }
+  },
+  {
+    "id": "won-seoa",
+    "name": "원서아",
+    "birth_date": "2006-12-01",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2024-01-31",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/firstsa.06/"
+      ]
+    }
+  },
+  {
+    "id": "kim-nagyeong",
+    "name": "김나경",
+    "birth_date": "2003-10-24",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/nakyo__e/"
+      ]
+    }
+  },
+  {
+    "id": "gang-minji",
+    "name": "강민지",
+    "birth_date": "2004-02-28",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "대한민국의 댄서, 치어리더.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/snowwhiteji"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@snowwhiteji"
+      ]
+    }
+  },
+  {
+    "id": "jung-yujin",
+    "name": "정유진",
+    "birth_date": "1999-04-13",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/__dilla__y/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@yuwhajeong"
+      ]
+    }
+  },
+  {
+    "id": "lee-wina",
+    "name": "이위나",
+    "birth_date": "2003-12-15",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/aniwrna/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@aniwrna"
+      ]
+    }
+  },
+  {
+    "id": "lee-jeonghui",
+    "name": "이정희",
+    "birth_date": "2000-12-22",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/imjeorijeori/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@imjeorijeori"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@imjeorijeori22"
+      ]
+    }
+  },
+  {
+    "id": "won-hyegyeong",
+    "name": "원혜경",
+    "birth_date": "2003-08-21",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-02-02",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hg__ry_lye/"
+      ]
+    }
+  },
+  {
+    "id": "baek-jina",
+    "name": "백지나",
+    "birth_date": "2003-08-13",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jinaooi/"
+      ]
+    }
+  },
+  {
+    "id": "lee-yejin",
+    "name": "이예진",
+    "birth_date": "2007-08-02",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/7doiiiii/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@7doiiiii"
+      ],
+      "threads": [
+        "https://www.threads.com/@7doiiiii"
+      ]
+    }
+  },
+  {
+    "id": "lee-yunjae",
+    "name": "이윤재",
+    "birth_date": "2005-03-09",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yunzaei/"
+      ],
+      "threads": [
+        "https://www.threads.com/@yunzaei"
+      ]
+    }
+  },
+  {
+    "id": "cho-yuna",
+    "name": "조윤아",
+    "birth_date": "2006-10-19",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ya._.1o/"
+      ]
+    }
+  },
+  {
+    "id": "kim-soeun",
+    "name": "김소은",
+    "birth_date": "2009-02-10",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/xoeun.k/"
+      ]
+    }
+  },
+  {
+    "id": "jung-siyun",
+    "name": "정시윤",
+    "birth_date": "2009-05-11",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "active",
+    "joined_date": "2025-05-01",
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sityxutn/"
       ]
     }
   }
