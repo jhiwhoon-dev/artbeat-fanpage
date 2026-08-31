@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import MemberAvatar from '../components/MemberAvatar.astro';
 import members from '../data/members.json';
 ---
 <Layout title="Members">
@@ -9,8 +10,9 @@ import members from '../data/members.json';
     <ul class="member-list">
       {members.map((m, i) => (
         <li>
-          <a href={`${import.meta.env.BASE_URL}members/${m.id}`}>
+          <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members/${m.id}`}>
             <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <MemberAvatar member={m} size={44} />
             <span class="name">{m.name}</span>
           </a>
         </li>
@@ -30,9 +32,9 @@ import members from '../data/members.json';
   li { border-bottom: 1px solid var(--line); }
   li a {
     display: flex;
-    align-items: baseline;
-    gap: 20px;
-    padding: 22px 4px;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 4px;
     text-decoration: none;
     color: var(--ink);
     transition: padding-left 0.15s ease, color 0.15s ease;
@@ -49,7 +51,7 @@ import members from '../data/members.json';
     min-width: 24px;
   }
   .name {
-    font-size: clamp(22px, 4vw, 30px);
+    font-size: clamp(20px, 4vw, 26px);
     font-weight: 700;
   }
   footer {

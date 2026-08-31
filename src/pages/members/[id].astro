@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import MemberAvatar from '../../components/MemberAvatar.astro';
 import members from '../../data/members.json';
 
 // 빌드 타임에 members.json을 순회하며 멤버 수만큼 정적 페이지를 미리 생성합니다.
@@ -12,11 +13,20 @@ export function getStaticPaths() {
 }
 
 const { member } = Astro.props;
-const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok' };
+const snsLabels = {
+  instagram: 'Instagram',
+  youtube: 'YouTube',
+  tiktok: 'TikTok',
+  threads: 'Threads',
+  naverclip: '네이버 클립',
+  twitch: 'Twitch',
+  soop: 'SOOP',
+};
 ---
 <Layout title={member.name}>
   <div class="wrap">
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members/${m.id}`}>
+    <a class="back" href={import.meta.env.BASE_URL}>← 멤버 목록</a>
+    <div class="avatar-wrap"><MemberAvatar member={member} size={128} /></div>
     <p class="eyebrow">{member.role} · {member.status === 'active' ? '활동 중' : member.status}</p>
     <h1>{member.name}</h1>
 
@@ -57,6 +67,7 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
     text-decoration: none;
   }
   .back:hover { color: var(--accent); }
+  .avatar-wrap { margin-bottom: 24px; }
   .units {
     font-size: 15px;
     color: var(--muted);
