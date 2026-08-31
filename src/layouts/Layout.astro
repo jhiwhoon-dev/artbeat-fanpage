@@ -1,0 +1,58 @@
+---
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} — ARTBEAT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <slot />
+</body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #0e0e10;
+    --ink: #f4f2ee;
+    --muted: #8b8a8f;
+    --accent: #ffd400;
+    --line: #232326;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Archivo', sans-serif;
+    min-height: 100vh;
+  }
+  a { color: inherit; }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(40px, 9vw, 72px);
+    line-height: 0.95;
+    margin: 0 0 48px;
+    letter-spacing: -0.01em;
+  }
+  h1 span { color: var(--accent); }
+</style>

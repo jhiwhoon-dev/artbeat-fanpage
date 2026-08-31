@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import members from '../../data/members.json';
+
+// 빌드 타임에 members.json을 순회하며 멤버 수만큼 정적 페이지를 미리 생성합니다.
+// 멤버가 3명이든 66명이든 이 코드는 그대로 두면 됩니다.
+export function getStaticPaths() {
+  return members.map((member) => ({
+    params: { id: member.id },
+    props: { member },
+  }));
+}
+
+const { member } = Astro.props;
+const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok' };
+---
+<Layout title={member.name}>
+  <div class="wrap">
+    <a class="back" href="/">← 멤버 목록</a>
+    <p class="eyebrow">{member.role} · {member.status === 'active' ? '활동 중' : member.status}</p>
+    <h1>{member.name}</h1>
+
+    {member.unit.length > 0 && (
+      <p class="units">{member.unit.join(' · ')}</p>
+    )}
+
+    {member.bio && (
+      <p class="bio">{member.bio}</p>
+    )}
+
+    <dl class="meta">
+      <dt>가입일</dt>
+      <dd>{member.joined_date ?? '-'}</dd>
+    </dl>
+
+    {Object.keys(member.sns).length > 0 && (
+      <div class="sns">
+        {Object.entries(member.sns).map(([platform, urls]) => (
+          <div class="sns-group">
+            <span class="platform">{snsLabels[platform] ?? platform}</span>
+            {urls.map((url) => (
+              <a href={url} target="_blank" rel="noopener noreferrer">바로가기 ↗</a>
+            ))}
+          </div>
+        ))}
+      </div>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .back {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .back:hover { color: var(--accent); }
+  .units {
+    font-size: 15px;
+    color: var(--muted);
+    margin: -32px 0 24px;
+  }
+  .bio {
+    white-space: pre-line;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .meta {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .meta dt { color: var(--muted); }
+  .meta dd { margin: 0; }
+  .sns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .sns-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .platform {
+    color: var(--muted);
+    min-width: 80px;
+  }
+  .sns-group a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .sns-group a:hover { text-decoration: underline; }
+</style>
