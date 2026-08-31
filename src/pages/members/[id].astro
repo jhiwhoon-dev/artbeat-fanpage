@@ -16,7 +16,7 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
 ---
 <Layout title={member.name}>
   <div class="wrap">
-    <a class="back" href="/">← 멤버 목록</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members/${m.id}`}>
     <p class="eyebrow">{member.role} · {member.status === 'active' ? '활동 중' : member.status}</p>
     <h1>{member.name}</h1>
 
