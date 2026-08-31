@@ -1,0 +1,153 @@
+---
+import Layout from '../layouts/Layout.astro';
+import videos from '../data/videos.json';
+
+// 등장하는 모든 커버 그룹을 중복 없이 뽑아서 필터 버튼 목록으로 사용
+const allGroups = [...new Set(videos.flatMap((v) => v.covered_group))].sort();
+---
+<Layout title="Videos">
+  <div class="wrap">
+    <p class="eyebrow">ARTBEAT</p>
+    <h1>Video<span>s</span></h1>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-group="all">전체</button>
+      {allGroups.map((group) => (
+        <button class="filter-btn" data-group={group}>{group}</button>
+      ))}
+    </div>
+
+    <div class="grid" id="grid">
+      {videos.map((v) => (
+        <a
+          class="card"
+          href={`https://www.youtube.com/watch?v=${v.youtube_id}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-groups={v.covered_group.join(',')}
+        >
+          <div class="thumb-wrap">
+            <img
+              class="thumb"
+              src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`}
+              alt={v.title}
+              loading="lazy"
+            />
+            <span class="play">▶</span>
+          </div>
+          <p class="title">{v.title}</p>
+          <div class="tags">
+            {v.covered_group.map((g) => <span class="tag">{g}</span>)}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p class="empty" id="empty" hidden>이 그룹으로 태깅된 영상이 아직 없어요.</p>
+  </div>
+</Layout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('.card');
+  const empty = document.getElementById('empty');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const group = btn.dataset.group;
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const groups = card.dataset.groups?.split(',') ?? [];
+        const show = group === 'all' || groups.includes(group ?? '');
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+
+      if (empty) empty.hidden = visibleCount > 0;
+    });
+  });
+</script>
+
+<style>
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+  .filter-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .filter-btn:hover { border-color: var(--muted); color: var(--ink); }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  .card {
+    display: block;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .thumb-wrap {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1a1a1c;
+  }
+  .thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+  }
+  .card:hover .thumb { transform: scale(1.04); }
+  .play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .card:hover .play { opacity: 1; }
+  .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 10px 0 6px;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 11px;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 2px 6px;
+  }
+  .empty {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 40px;
+  }
+</style>

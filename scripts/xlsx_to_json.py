@@ -4,8 +4,8 @@ import re
 import math
 from pathlib import Path
 
-SRC = "/mnt/user-data/uploads/artbeat_claude.xlsx"
-OUT = "/mnt/user-data/outputs/members.json"
+SRC = "D:/ARTBEAT/artbeat_claude.xlsx"
+OUT = "D:/ARTBEAT/artbeat-site/src/data/members.json"
 
 # ---------- 한글 -> 로마자 (id 자동 생성용) ----------
 CHO = ['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h']
@@ -21,7 +21,7 @@ SURNAME_OVERRIDES = {
     '양': 'yang', '손': 'son', '배': 'bae', '백': 'baek', '허': 'heo',
     '남': 'nam', '심': 'shim', '노': 'noh', '하': 'ha', '곽': 'kwak',
     '차': 'cha', '주': 'joo', '우': 'woo', '구': 'koo', '나': 'na',
-    '민': 'min', '류': 'ryu', '진': 'jin', '천': 'chun',
+    '민': 'min', '류': 'ryu', '진': 'jin', '천': 'chun', '강': 'kang',
 }
 
 def romanize_char(ch):

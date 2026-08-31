@@ -368,7 +368,7 @@
     }
   },
   {
-    "id": "gang-taehyeon",
+    "id": "kang-taehyeon",
     "name": "강태현",
     "birth_date": "2001-12-28",
     "gender": "M",
@@ -1039,7 +1039,7 @@
     }
   },
   {
-    "id": "gang-yejin",
+    "id": "kang-yejin",
     "name": "강예진",
     "birth_date": "2004-01-28",
     "gender": "F",
@@ -1342,7 +1342,7 @@
     }
   },
   {
-    "id": "gang-minji",
+    "id": "kang-minji",
     "name": "강민지",
     "birth_date": "2004-02-28",
     "gender": "F",
@@ -1354,7 +1354,7 @@
     "joined_date": "2025-02-02",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "kang-minji.jpg",
     "bio": "대한민국의 댄서, 치어리더.",
     "sns": {
       "instagram": [

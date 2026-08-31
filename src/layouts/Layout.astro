@@ -14,6 +14,11 @@ const { title } = Astro.props;
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <nav class="topnav">
+    <a href={import.meta.env.BASE_URL}>Members</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/videos`}>Videos</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/history`}>History</a>
+  </nav>
   <slot />
 </body>
 </html>
@@ -35,6 +40,22 @@ const { title } = Astro.props;
     min-height: 100vh;
   }
   a { color: inherit; }
+  .topnav {
+    display: flex;
+    gap: 24px;
+    padding: 20px 24px 0;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .topnav a {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--muted);
+  }
+  .topnav a:hover { color: var(--accent); }
   .wrap {
     max-width: 720px;
     margin: 0 auto;
