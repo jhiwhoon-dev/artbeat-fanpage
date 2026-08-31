@@ -9,7 +9,7 @@ import members from '../data/members.json';
     <ul class="member-list">
       {members.map((m, i) => (
         <li>
-          <a href={`${import.meta.env.BASE_URL}members/${m.id}`}>
+          <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members/${m.id}`}>
             <span class="num">{String(i + 1).padStart(2, '0')}</span>
             <span class="name">{m.name}</span>
           </a>
