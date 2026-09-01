@@ -15,11 +15,25 @@ const { title } = Astro.props;
 </head>
 <body>
   <nav class="topnav">
-    <a href={import.meta.env.BASE_URL}>Members</a>
+    <a href={import.meta.env.BASE_URL}>About</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members`}>Members</a>
     <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/videos`}>Videos</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/shorts`}>Shorts</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/live`}>Live</a>
+    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/schedule`}>Schedule</a>
     <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/history`}>History</a>
   </nav>
   <slot />
+  <footer class="disclaimer">
+    <p>
+      본 팬 페이지는 수익을 창출하지 않으며, 순수한 팬심으로 제작된 비공식 사이트입니다.
+      버그를 발견하셨거나 문의사항이 있으시면 <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>으로 한글 또는 영어로 남겨주세요.
+    </p>
+    <p>
+      This fan page does not generate any revenue and is an unofficial site made purely out of fan passion.
+      If you encounter a bug or have any inquiries, please contact <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a> in English or Korean.
+    </p>
+  </footer>
 </body>
 </html>
 
@@ -28,7 +42,7 @@ const { title } = Astro.props;
     --bg: #0e0e10;
     --ink: #f4f2ee;
     --muted: #8b8a8f;
-    --accent: #ffd400;
+    --accent: #ffffff;
     --line: #232326;
   }
   * { box-sizing: border-box; }
@@ -44,7 +58,7 @@ const { title } = Astro.props;
     display: flex;
     gap: 24px;
     padding: 20px 24px 0;
-    max-width: 720px;
+    max-width: 1100px;
     margin: 0 auto;
   }
   .topnav a {
@@ -57,7 +71,7 @@ const { title } = Astro.props;
   }
   .topnav a:hover { color: var(--accent); }
   .wrap {
-    max-width: 720px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 64px 24px;
   }
@@ -76,4 +90,18 @@ const { title } = Astro.props;
     letter-spacing: -0.01em;
   }
   h1 span { color: var(--accent); }
+  .disclaimer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 24px 48px;
+    border-top: 1px solid var(--line);
+  }
+  .disclaimer p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  .disclaimer a { color: var(--muted); text-decoration: underline; }
+  .disclaimer a:hover { color: var(--ink); }
 </style>

@@ -3,51 +3,34 @@ import Layout from '../layouts/Layout.astro';
 import allVideos from '../data/videos.json';
 import members from '../data/members.json';
 
-// Shorts, Live는 별도 페이지에서 다루므로 여기서는 video만
-// (예전 is_short 필드로만 표시된 데이터도 계속 인식되도록 fallback 처리)
 function getType(v) {
   if (v.content_type) return v.content_type;
   return v.is_short ? 'short' : 'video';
 }
-const videos = allVideos.filter((v) => getType(v) === 'video');
+const videos = allVideos.filter((v) => getType(v) === 'short');
 
-// 등장하는 모든 커버 그룹을 중복 없이 뽑아서 필터 버튼 목록으로 사용
 const allGroups = [...new Set(videos.flatMap((v) => v.covered_group))].sort();
-
-// 태그된 멤버 id -> 이름 조회용
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<Layout title="Videos">
+<Layout title="Shorts">
   <div class="wrap">
     <p class="eyebrow">ARTBEAT</p>
-    <h1>Video<span>s</span></h1>
+    <h1>Short<span>s</span></h1>
 
-    <div class="controls">
-      <div class="filters" id="filters">
-        <button class="filter-btn active" data-group="all">전체</button>
-        {allGroups.map((group) => (
-          <button class="filter-btn" data-group={group}>{group}</button>
-        ))}
-      </div>
-      <select id="sort-select" class="sort-select">
-        <option value="newest">최신순</option>
-        <option value="oldest">오래된순</option>
-        <option value="views">조회수순</option>
-      </select>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-group="all">전체</button>
+      {allGroups.map((group) => (
+        <button class="filter-btn" data-group={group}>{group}</button>
+      ))}
     </div>
 
     <div class="grid" id="grid">
       {videos.map((v) => (
-        <div
-          class="card"
-          data-groups={v.covered_group.join(',')}
-          data-date={v.published_date}
-          data-views={v.view_count ?? 0}
-        >
+        <div class="card" data-groups={v.covered_group.join(',')}>
           <a
             class="thumb-link"
-            href={`https://www.youtube.com/watch?v=${v.youtube_id}`}
+            href={`https://www.youtube.com/shorts/${v.youtube_id}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -74,7 +57,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       ))}
     </div>
 
-    <p class="empty" id="empty" hidden>조건에 맞는 영상이 없어요.</p>
+    <p class="empty" id="empty" hidden>이 그룹으로 태깅된 Shorts가 아직 없어요.</p>
   </div>
 </Layout>
 
@@ -82,55 +65,34 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
   const cards = document.querySelectorAll<HTMLDivElement>('.card');
   const empty = document.getElementById('empty');
-  const grid = document.getElementById('grid');
-  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
-
-  let activeGroup = 'all';
-
-  function applyFilter() {
-    let visibleCount = 0;
-    cards.forEach((card) => {
-      const groups = card.dataset.groups?.split(',') ?? [];
-      const show = activeGroup === 'all' || groups.includes(activeGroup);
-      card.style.display = show ? '' : 'none';
-      if (show) visibleCount++;
-    });
-    if (empty) empty.hidden = visibleCount > 0;
-  }
-
-  function applySort() {
-    if (!grid) return;
-    const sorted = Array.from(cards).sort((a, b) => {
-      const mode = sortSelect.value;
-      if (mode === 'views') return Number(b.dataset.views) - Number(a.dataset.views);
-      if (mode === 'oldest') return (a.dataset.date ?? '').localeCompare(b.dataset.date ?? '');
-      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? ''); // newest (기본)
-    });
-    sorted.forEach((card) => grid.appendChild(card));
-  }
 
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
       buttons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
-      activeGroup = btn.dataset.group ?? 'all';
-      applyFilter();
+
+      const group = btn.dataset.group;
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const groups = card.dataset.groups?.split(',') ?? [];
+        const show = group === 'all' || groups.includes(group ?? '');
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+
+      if (empty) empty.hidden = visibleCount > 0;
     });
   });
-
-  sortSelect?.addEventListener('change', applySort);
 </script>
 
 <style>
-  .controls {
+  .filters {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
     margin-bottom: 40px;
   }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
     font-family: 'Archivo', sans-serif;
     font-size: 13px;
@@ -145,28 +107,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .filter-btn:hover { border-color: var(--muted); color: var(--ink); }
   .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
 
-  .sort-select {
-    font-family: 'Archivo', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 8px 14px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: var(--bg);
-    color: var(--ink);
-    cursor: pointer;
-  }
-
+  /* Shorts는 세로형이라 그리드 칸을 좁고 길게 */
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
   }
   .card { display: flex; flex-direction: column; }
   .thumb-link { display: block; text-decoration: none; color: var(--ink); }
   .thumb-wrap {
     position: relative;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 9 / 16;
     border-radius: 8px;
     overflow: hidden;
     background: #1a1a1c;
@@ -196,7 +147,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     font-size: 13px;
     font-weight: 500;
     line-height: 1.4;
-    margin: 10px 0 8px;
+    margin: 8px 0 6px;
   }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag {

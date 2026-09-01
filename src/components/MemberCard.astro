@@ -1,0 +1,99 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  member: {
+    id: string;
+    name: string;
+    name_en?: string | null;
+    unit: string[];
+    photo_filename: string | null;
+  };
+}
+
+const { member } = Astro.props;
+
+const hasPhoto =
+  !!member.photo_filename &&
+  fs.existsSync(path.join(process.cwd(), 'public', 'photos', member.photo_filename));
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const unitLabel = member.unit[0] || 'ARTBEAT';
+const initial = member.name.trim().charAt(0);
+---
+<a class="member-card" href={`${base}/members/${member.id}`}>
+  {hasPhoto ? (
+    <img class="card-photo" src={`${base}/photos/${member.photo_filename}`} alt={member.name} loading="lazy" />
+  ) : (
+    <div class="card-photo card-photo-fallback">{initial}</div>
+  )}
+  <div class="card-overlay">
+    <div class="card-top">
+      <strong>{unitLabel}</strong>
+      <span>ARTBEAT</span>
+    </div>
+    <div class="card-bottom">
+      <span class="name-kr">{member.name}</span>
+      <span class="name-en">{member.name_en}</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .member-card {
+    position: relative;
+    display: block;
+    aspect-ratio: 3 / 4;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--ink);
+    background: #1a1a1c;
+  }
+  .card-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-photo-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 64px;
+    color: var(--muted);
+  }
+  .card-overlay {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 16px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.55) 35%, rgba(0,0,0,0.92) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 55%;
+  }
+  .card-top strong {
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(15px, 2vw, 20px);
+    line-height: 1.1;
+  }
+  .card-top span {
+    display: block;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+  }
+  .card-bottom {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+  .name-kr { font-size: 12px; color: var(--muted); }
+  .name-en { font-size: 15px; font-weight: 700; margin-top: 2px; }
+</style>

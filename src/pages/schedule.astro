@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+import schedule from '../data/schedule.json';
+
+const sorted = [...schedule].sort((a, b) => a.date.localeCompare(b.date));
+const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
+---
+<Layout title="Schedule">
+  <div class="wrap">
+    <p class="eyebrow">ARTBEAT</p>
+    <h1>Schedule</h1>
+
+    <ul class="list">
+      {sorted.map((event) => {
+        const d = new Date(event.date);
+        const day = String(d.getDate()).padStart(2, '0');
+        const month = d.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+        return (
+          <li>
+            <div class="date-block">
+              <span class="day">{day}</span>
+              <span class="month">{month}</span>
+            </div>
+            <div class="content">
+              <h2>{event.title}</h2>
+              {event.description && <p>{event.description}</p>}
+            </div>
+            <span class={`badge badge-${event.status}`}>
+              {statusLabel[event.status] ?? event.status}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</Layout>
+
+<style>
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .date-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 48px;
+  }
+  .day { font-family: 'Archivo Black', sans-serif; font-size: 22px; line-height: 1; }
+  .month { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .content { flex: 1; }
+  .content h2 { font-size: 16px; margin: 0 0 4px; }
+  .content p { font-size: 13px; color: var(--muted); margin: 0; }
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .badge-live { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+</style>

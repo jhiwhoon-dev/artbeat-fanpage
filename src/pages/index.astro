@@ -1,62 +1,287 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import MemberAvatar from '../components/MemberAvatar.astro';
+import MemberCard from '../components/MemberCard.astro';
 import members from '../data/members.json';
+import allVideos from '../data/videos.json';
+import schedule from '../data/schedule.json';
+import channel from '../data/channel.json';
+import social from '../data/social.json';
+
+function getType(v) {
+  if (v.content_type) return v.content_type;
+  return v.is_short ? 'short' : 'video';
+}
+const longVideos = allVideos.filter((v) => getType(v) === 'video');
+
+const latestVideos = [...longVideos]
+  .sort((a, b) => b.published_date.localeCompare(a.published_date))
+  .slice(0, 3);
+
+const popularVideos = [...longVideos]
+  .sort((a, b) => (b.view_count ?? 0) - (a.view_count ?? 0))
+  .slice(0, 3);
+
+const upcomingSchedule = [...schedule]
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .slice(0, 3);
+
+const previewMembers = members.filter((m) => m.status === 'active').slice(0, 4);
+
+function formatViews(n) {
+  if (!n) return '0 views';
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M views`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K views`;
+  return `${n} views`;
+}
+
+const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<Layout title="Members">
-  <div class="wrap">
-    <p class="eyebrow">ARTBEAT</p>
-    <h1>Member<span>s</span></h1>
-    <ul class="member-list">
-      {members.map((m, i) => (
+<Layout title="ARTBEAT">
+  <!-- HERO: 실제 배경 사진 준비되면 .hero 의 background-image 를 교체하세요 -->
+  <section class="hero">
+    <p class="tag"><span class="dot"></span>OFFICIAL FAN COLLECTIVE</p>
+    <h1>ARTBEAT</h1>
+    <p class="sub">Redefining K-POP Cover Choreography. Experience precision, movement,
+      and performance from South Korea's premiere dance creators.</p>
+    {latestVideos[0] && (
+      <a class="watch-latest" href={`https://www.youtube.com/watch?v=${latestVideos[0].youtube_id}`} target="_blank" rel="noopener noreferrer">
+        <span class="play-circle">▶</span>
+        <span>
+          <strong>WATCH LATEST RELEASE</strong>
+          <br />{latestVideos[0].title}
+        </span>
+      </a>
+    )}
+  </section>
+
+  <!-- LATEST VIDEOS -->
+  <section class="section">
+    <p class="eyebrow2">CREATIVE CONTENTS</p>
+    <div class="section-head">
+      <h2>LATEST VIDEOS</h2>
+      <a href={`${base}/videos`} class="more-link">최신 영상 →</a>
+    </div>
+    <div class="video-grid">
+      {latestVideos.map((v) => (
+        <a class="video-card" href={`https://www.youtube.com/watch?v=${v.youtube_id}`} target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`} alt={v.title} loading="lazy" />
+            <span class="play-mini">▶</span>
+          </div>
+          <p class="v-title">{v.title}</p>
+          <p class="v-date">{v.published_date.replaceAll('-', '.')}</p>
+        </a>
+      ))}
+      {latestVideos.length === 0 && <p class="empty-note">아직 등록된 영상이 없어요.</p>}
+    </div>
+  </section>
+
+  <!-- POPULAR VIDEOS -->
+  <section class="section">
+    <p class="eyebrow2">THE BENCHMARK</p>
+    <div class="section-head">
+      <h2>POPULAR VIDEOS</h2>
+      <a href={`${base}/videos`} class="more-link">인기 영상 →</a>
+    </div>
+    <ol class="rank-list">
+      {popularVideos.map((v, i) => (
         <li>
-          <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members/${m.id}`}>
-            <span class="num">{String(i + 1).padStart(2, '0')}</span>
-            <MemberAvatar member={m} size={44} />
-            <span class="name">{m.name}</span>
+          <span class="rank-num">{String(i + 1).padStart(2, '0')}</span>
+          <a class="rank-thumb" href={`https://www.youtube.com/watch?v=${v.youtube_id}`} target="_blank" rel="noopener noreferrer">
+            <img src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`} alt={v.title} loading="lazy" />
           </a>
+          <div>
+            <a class="rank-title" href={`https://www.youtube.com/watch?v=${v.youtube_id}`} target="_blank" rel="noopener noreferrer">{v.title}</a>
+            <p class="rank-meta">{formatViews(v.view_count)} · {v.published_date.replaceAll('-', '.')}</p>
+          </div>
         </li>
       ))}
+      {popularVideos.length === 0 && <p class="empty-note">아직 등록된 영상이 없어요.</p>}
+    </ol>
+  </section>
+
+  <!-- UPCOMING SCHEDULE -->
+  <section class="section">
+    <p class="eyebrow2">TIMELINE</p>
+    <div class="section-head">
+      <h2>UPCOMING SCHEDULE</h2>
+      <a href={`${base}/schedule`} class="more-link">주요 일정 →</a>
+    </div>
+    <ul class="sched-list">
+      {upcomingSchedule.map((e) => {
+        const d = new Date(e.date);
+        return (
+          <li>
+            <div class="date-block">
+              <span class="day">{String(d.getDate()).padStart(2, '0')}</span>
+              <span class="month">{d.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</span>
+            </div>
+            <div class="content">
+              <h3>{e.title}</h3>
+              {e.description && <p>{e.description}</p>}
+            </div>
+            <span class={`badge ${e.status === 'live' ? 'badge-live' : ''}`}>{statusLabel[e.status] ?? e.status}</span>
+          </li>
+        );
+      })}
+      {upcomingSchedule.length === 0 && <p class="empty-note">예정된 일정이 아직 없어요.</p>}
     </ul>
-    <footer>총 {members.length}명</footer>
-  </div>
+  </section>
+
+  <!-- MEMBERS PROFILE -->
+  <section class="section">
+    <p class="eyebrow2">THE CREW</p>
+    <div class="section-head">
+      <h2>MEMBERS PROFILE</h2>
+      <a href={`${base}/members`} class="more-link">멤버 소개 →</a>
+    </div>
+    <div class="member-grid">
+      {previewMembers.map((m) => <MemberCard member={m} />)}
+    </div>
+  </section>
+
+  <!-- ABOUT THE CHANNEL: 실제 배경 사진 준비되면 .about-photo 의 background-image 교체하세요 -->
+  <section class="section">
+    <p class="eyebrow2">IDENTITY</p>
+    <h2>ABOUT THE CHANNEL</h2>
+    <div class="about-grid">
+      <div class="about-photo"></div>
+      <div class="about-text">
+        <h3>{channel.tagline}</h3>
+        <p>{channel.description}</p>
+        <div class="stats">
+          <div><strong>{channel.subscribers}</strong><span>SUBSCRIBERS</span></div>
+          <div><strong>{channel.total_views}</strong><span>TOTAL VIEWS</span></div>
+          <div><strong>{channel.videos_uploaded}</strong><span>VIDEOS UPLOADED</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY INDEX -->
+  <section class="section">
+    <p class="eyebrow2">CONNECT</p>
+    <h2>COMMUNITY INDEX</h2>
+    <div class="social-grid">
+      {social.map((s) => (
+        <a class="social-card" href={s.url} target="_blank" rel="noopener noreferrer">
+          <strong>{s.platform.toUpperCase()}</strong>
+          <span>{s.handle}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div>
+        <h3>Stay Synced with ARTBEAT.</h3>
+        <p>Receive notifications on flash mobs, merchandise drops, and community events directly.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {new Date().getFullYear()} ARTBEAT FAN COLLECTIVE.<br />All K-POP song properties belong to their respective labels.</p>
+      <p class="footer-logo">ARTBEAT</p>
+    </div>
+  </footer>
 </Layout>
 
 <style>
-  ul.member-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid var(--line);
-  }
-  li { border-bottom: 1px solid var(--line); }
-  li a {
+  .hero {
+    min-height: 70vh;
     display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px 4px;
-    text-decoration: none;
-    color: var(--ink);
-    transition: padding-left 0.15s ease, color 0.15s ease;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 48px 24px 64px;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.08), transparent 60%),
+      linear-gradient(180deg, #0a0a0b 0%, #0e0e10 100%);
   }
-  li a:hover, li a:focus-visible {
-    padding-left: 12px;
-    color: var(--accent);
+  .tag { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; margin: 0 0 16px; max-width: 720px; margin-inline: auto; }
+  .dot { width: 8px; height: 8px; background: var(--ink); display: inline-block; }
+  .hero h1 {
+    font-size: clamp(56px, 12vw, 140px);
+    text-align: left;
+    max-width: 720px;
+    margin: 0 auto 20px;
   }
-  li a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-  .num {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 14px;
-    color: var(--muted);
-    min-width: 24px;
+  .sub { max-width: 720px; margin: 0 auto 32px; color: var(--muted); font-size: 16px; line-height: 1.6; }
+  .watch-latest { max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); }
+  .play-circle {
+    width: 44px; height: 44px; border-radius: 50%; background: var(--ink); color: #0e0e10;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 14px;
   }
-  .name {
-    font-size: clamp(20px, 4vw, 26px);
-    font-weight: 700;
+  .watch-latest strong { font-size: 13px; letter-spacing: 0.05em; }
+  .watch-latest span { font-size: 13px; color: var(--muted); }
+
+  .section { max-width: 1000px; margin: 0 auto; padding: 72px 24px; border-top: 1px solid var(--line); }
+  .eyebrow2 { font-size: 12px; letter-spacing: 0.15em; color: var(--muted); margin: 0 0 10px; }
+  .section-head { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+  .section h2 { font-family: 'Archivo Black', sans-serif; font-size: clamp(28px, 5vw, 40px); margin: 0; }
+  .more-link { font-size: 13px; color: var(--muted); text-decoration: none; }
+  .more-link:hover { color: var(--ink); }
+
+  .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; }
+  .video-card { text-decoration: none; color: var(--ink); }
+  .thumb-wrap { position: relative; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; background: #1a1a1c; }
+  .thumb-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .play-mini { position: absolute; bottom: 10px; left: 10px; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: #0e0e10; display: flex; align-items: center; justify-content: center; font-size: 11px; }
+  .v-title { font-size: 14px; font-weight: 500; margin: 10px 0 4px; }
+  .v-date { font-size: 12px; color: var(--muted); margin: 0; }
+
+  .rank-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 32px; }
+  .rank-list li { display: flex; align-items: center; gap: 24px; }
+  .rank-num { font-family: 'Archivo Black', sans-serif; font-size: 40px; color: var(--line); min-width: 64px; }
+  .rank-thumb { display: block; width: 160px; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; background: #1a1a1c; flex-shrink: 0; }
+  .rank-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .rank-title { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 16px; }
+  .rank-meta { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
+
+  .sched-list { list-style: none; margin: 0; padding: 0; }
+  .sched-list li { display: flex; align-items: center; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .date-block { display: flex; flex-direction: column; align-items: center; min-width: 48px; }
+  .day { font-family: 'Archivo Black', sans-serif; font-size: 22px; line-height: 1; }
+  .month { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .content { flex: 1; }
+  .content h3 { font-size: 16px; margin: 0 0 4px; }
+  .content p { font-size: 13px; color: var(--muted); margin: 0; }
+  .badge { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .badge-live { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  .member-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+  .about-photo {
+    aspect-ratio: 4/3; border-radius: 8px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e 40%, #0e0e10);
   }
-  footer {
-    margin-top: 40px;
-    font-size: 13px;
-    color: var(--muted);
+  .about-text h3 { font-size: 22px; margin: 0 0 16px; }
+  .about-text p { color: var(--muted); font-size: 15px; line-height: 1.7; margin: 0 0 32px; }
+  .stats { display: flex; gap: 32px; flex-wrap: wrap; }
+  .stats strong { display: block; font-family: 'Archivo Black', sans-serif; font-size: 28px; }
+  .stats span { font-size: 11px; color: var(--muted); letter-spacing: 0.05em; }
+
+  .social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+  .social-card {
+    display: flex; flex-direction: column; gap: 4px;
+    padding: 20px; border: 1px solid var(--line); border-radius: 8px;
+    text-decoration: none; color: var(--ink);
+  }
+  .social-card:hover { border-color: var(--muted); }
+  .social-card span { font-size: 13px; color: var(--muted); }
+
+  .site-footer { max-width: 1000px; margin: 0 auto; padding: 72px 24px 40px; border-top: 1px solid var(--line); }
+  .footer-top h3 { font-size: 28px; margin: 0 0 8px; }
+  .footer-top p { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
+  .footer-bottom { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; padding-top: 24px; border-top: 1px solid var(--line); }
+  .footer-bottom p { font-size: 12px; color: var(--muted); margin: 0; line-height: 1.6; }
+  .footer-logo { font-family: 'Archivo Black', sans-serif; font-size: 20px; color: var(--muted) !important; }
+
+  .empty-note { color: var(--muted); font-size: 14px; }
+
+  @media (max-width: 640px) {
+    .about-grid { grid-template-columns: 1fr; }
   }
 </style>

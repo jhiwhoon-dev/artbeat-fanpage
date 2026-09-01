@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import MemberAvatar from '../../components/MemberAvatar.astro';
 import members from '../../data/members.json';
+import allVideos from '../../data/videos.json';
 
 // 빌드 타임에 members.json을 순회하며 멤버 수만큼 정적 페이지를 미리 생성합니다.
 // 멤버가 3명이든 66명이든 이 코드는 그대로 두면 됩니다.
@@ -22,10 +23,17 @@ const snsLabels = {
   twitch: 'Twitch',
   soop: 'SOOP',
 };
+
+// 이 멤버가 tagged_members에 포함된 영상만 모아서 최신순으로 정렬
+const taggedVideos = allVideos
+  .filter((v) => (v.tagged_members ?? []).includes(member.id))
+  .sort((a, b) => b.published_date.localeCompare(a.published_date));
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Layout title={member.name}>
   <div class="wrap">
-    <a class="back" href={import.meta.env.BASE_URL}>← 멤버 목록</a>
+    <a class="back" href={`${base}/members`}>← 멤버 목록</a>
     <div class="avatar-wrap"><MemberAvatar member={member} size={128} /></div>
     <p class="eyebrow">{member.role} · {member.status === 'active' ? '활동 중' : member.status}</p>
     <h1>{member.name}</h1>
@@ -53,6 +61,22 @@ const snsLabels = {
             ))}
           </div>
         ))}
+      </div>
+    )}
+
+    {taggedVideos.length > 0 && (
+      <div class="tagged-videos">
+        <h2>출연 영상 ({taggedVideos.length})</h2>
+        <div class="tv-grid">
+          {taggedVideos.map((v) => (
+            <a class="tv-card" href={`https://www.youtube.com/watch?v=${v.youtube_id}`} target="_blank" rel="noopener noreferrer">
+              <div class="tv-thumb">
+                <img src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`} alt={v.title} loading="lazy" />
+              </div>
+              <p>{v.title}</p>
+            </a>
+          ))}
+        </div>
       </div>
     )}
   </div>
@@ -110,4 +134,27 @@ const snsLabels = {
     text-decoration: none;
   }
   .sns-group a:hover { text-decoration: underline; }
+  .tagged-videos {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .tagged-videos h2 {
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .tv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+  .tv-card { text-decoration: none; color: var(--ink); }
+  .tv-thumb {
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1a1a1c;
+  }
+  .tv-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .tv-card p { font-size: 12px; margin: 8px 0 0; line-height: 1.4; }
 </style>

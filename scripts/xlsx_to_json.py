@@ -4,8 +4,8 @@ import re
 import math
 from pathlib import Path
 
-SRC = "D:/ARTBEAT/artbeat_claude.xlsx"
-OUT = "D:/ARTBEAT/artbeat-site/src/data/members.json"
+SRC = "d:/ARTBEAT/artbeat_claude.xlsx"
+OUT = "d:/ARTBEAT/artbeat-site/src/data/members.json"
 
 # ---------- 한글 -> 로마자 (id 자동 생성용) ----------
 CHO = ['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h']
