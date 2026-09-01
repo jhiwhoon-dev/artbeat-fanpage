@@ -1,4 +1,4 @@
-name: Fetch New Videos
+name: Sync Videos
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,10 +20,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch new videos
+      - name: Sync full video catalog
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node scripts/fetch_new_videos.mjs
+        run: node scripts/sync_videos.mjs
 
       - name: Commit changes if any
         run: |
@@ -33,6 +33,6 @@ jobs:
             echo "변경 사항 없음, 커밋 생략"
           else
             git add src/data/videos.json
-            git commit -m "chore: 신규 영상 자동 반영"
+            git commit -m "chore: 영상 목록/조회수 자동 동기화"
             git push
           fi
