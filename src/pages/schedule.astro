@@ -2,8 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import schedule from '../data/schedule.json';
 
-const sorted = [...schedule].sort((a, b) => a.date.localeCompare(b.date));
-const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
+// 날짜 있는 일정은 날짜순, 날짜 없는(null) 일정은 맨 뒤로
+const sorted = [...schedule].sort((a, b) => {
+  if (!a.date) return 1;
+  if (!b.date) return -1;
+  return a.date.localeCompare(b.date);
+});
+const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', in_progress: 'IN PROGRESS', done: 'DONE' };
+const highlightedStatuses = ['live', 'in_progress'];
 ---
 <Layout title="Schedule">
   <div class="wrap">
@@ -12,20 +18,20 @@ const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
 
     <ul class="list">
       {sorted.map((event) => {
-        const d = new Date(event.date);
-        const day = String(d.getDate()).padStart(2, '0');
-        const month = d.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+        const d = event.date ? new Date(event.date) : null;
+        const day = d ? String(d.getDate()).padStart(2, '0') : 'TBD';
+        const month = d ? d.toLocaleString('en-US', { month: 'short' }).toUpperCase() : '';
         return (
           <li>
             <div class="date-block">
               <span class="day">{day}</span>
-              <span class="month">{month}</span>
+              {month && <span class="month">{month}</span>}
             </div>
             <div class="content">
               <h2>{event.title}</h2>
               {event.description && <p>{event.description}</p>}
             </div>
-            <span class={`badge badge-${event.status}`}>
+            <span class={`badge ${highlightedStatuses.includes(event.status) ? 'badge-live' : ''}`}>
               {statusLabel[event.status] ?? event.status}
             </span>
           </li>
@@ -51,10 +57,10 @@ const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
     min-width: 48px;
   }
   .day { font-family: 'Archivo Black', sans-serif; font-size: 22px; line-height: 1; }
-  .month { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .month { font-size: 11px; color: var(--ink); margin-top: 2px; }
   .content { flex: 1; }
-  .content h2 { font-size: 16px; margin: 0 0 4px; }
-  .content p { font-size: 13px; color: var(--muted); margin: 0; }
+  .content h2 { font-size: 16px; margin: 0 0 4px; white-space: pre-line; }
+  .content p { font-size: 13px; color: var(--muted); margin: 0; white-space: pre-line; }
   .badge {
     font-size: 11px;
     font-weight: 700;

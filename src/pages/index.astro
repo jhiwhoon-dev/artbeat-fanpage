@@ -1,11 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import MemberCard from '../components/MemberCard.astro';
+import PlatformIcon from '../components/PlatformIcon.astro';
 import members from '../data/members.json';
 import allVideos from '../data/videos.json';
 import schedule from '../data/schedule.json';
 import channel from '../data/channel.json';
 import social from '../data/social.json';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// public/images/ 안에서 확장자 상관없이 파일을 찾아주는 헬퍼
+// (jpg로 저장하든 png로 저장하든 알아서 찾음)
+function findImage(basename) {
+  const exts = ['jpg', 'jpeg', 'png', 'webp'];
+  for (const ext of exts) {
+    const file = `${basename}.${ext}`;
+    if (fs.existsSync(path.join(process.cwd(), 'public', 'images', file))) return file;
+  }
+  return null;
+}
 
 function getType(v) {
   if (v.content_type) return v.content_type;
@@ -22,10 +36,16 @@ const popularVideos = [...longVideos]
   .slice(0, 3);
 
 const upcomingSchedule = [...schedule]
-  .sort((a, b) => a.date.localeCompare(b.date))
+  .sort((a, b) => {
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return a.date.localeCompare(b.date);
+  })
   .slice(0, 3);
 
-const previewMembers = members.filter((m) => m.status === 'active').slice(0, 4);
+const previewMembers = members; // 오디션 포함 전체 멤버
+// 카드 수가 몇 명이든 이동 속도(초당 픽셀)가 일정하게 유지되도록 duration을 인원수에 비례해서 계산
+const marqueeDuration = `${previewMembers.length * 6}s`;
 
 function formatViews(n) {
   if (!n) return '0 views';
@@ -34,12 +54,24 @@ function formatViews(n) {
   return `${n} views`;
 }
 
-const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', done: 'DONE' };
+const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', in_progress: 'IN PROGRESS', done: 'DONE' };
+const highlightedStatuses = ['live', 'in_progress'];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const heroFile = findImage('hero');
+const aboutFile = findImage('about');
+
+const heroStyle = heroFile
+  ? `background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%), url('${base}/images/${heroFile}') center / cover no-repeat;`
+  : undefined;
+
+const aboutStyle = aboutFile
+  ? `background: url('${base}/images/${aboutFile}') center / cover no-repeat;`
+  : undefined;
 ---
 <Layout title="ARTBEAT">
   <!-- HERO: 실제 배경 사진 준비되면 .hero 의 background-image 를 교체하세요 -->
-  <section class="hero">
+  <section class="hero" style={heroStyle}>
     <p class="tag"><span class="dot"></span>OFFICIAL FAN COLLECTIVE</p>
     <h1>ARTBEAT</h1>
     <p class="sub">Redefining K-POP Cover Choreography. Experience precision, movement,
@@ -110,18 +142,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
     <ul class="sched-list">
       {upcomingSchedule.map((e) => {
-        const d = new Date(e.date);
+        const d = e.date ? new Date(e.date) : null;
         return (
           <li>
             <div class="date-block">
-              <span class="day">{String(d.getDate()).padStart(2, '0')}</span>
-              <span class="month">{d.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</span>
+              <span class="day">{d ? String(d.getDate()).padStart(2, '0') : 'TBD'}</span>
+              {d && <span class="month">{d.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</span>}
             </div>
             <div class="content">
               <h3>{e.title}</h3>
               {e.description && <p>{e.description}</p>}
             </div>
-            <span class={`badge ${e.status === 'live' ? 'badge-live' : ''}`}>{statusLabel[e.status] ?? e.status}</span>
+            <span class={`badge ${highlightedStatuses.includes(e.status) ? 'badge-live' : ''}`}>{statusLabel[e.status] ?? e.status}</span>
           </li>
         );
       })}
@@ -136,8 +168,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <h2>MEMBERS PROFILE</h2>
       <a href={`${base}/members`} class="more-link">멤버 소개 →</a>
     </div>
-    <div class="member-grid">
-      {previewMembers.map((m) => <MemberCard member={m} />)}
+    <div class="marquee-wrap">
+      <div class="marquee-track" style={`animation-duration: ${marqueeDuration}`}>
+        {[...previewMembers, ...previewMembers].map((m) => (
+          <div class="marquee-item"><MemberCard member={m} /></div>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -146,7 +182,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <p class="eyebrow2">IDENTITY</p>
     <h2>ABOUT THE CHANNEL</h2>
     <div class="about-grid">
-      <div class="about-photo"></div>
+      <div class="about-photo" style={aboutStyle}></div>
       <div class="about-text">
         <h3>{channel.tagline}</h3>
         <p>{channel.description}</p>
@@ -166,8 +202,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="social-grid">
       {social.map((s) => (
         <a class="social-card" href={s.url} target="_blank" rel="noopener noreferrer">
-          <strong>{s.platform.toUpperCase()}</strong>
-          <span>{s.handle}</span>
+          <div class="social-icon"><PlatformIcon platform={s.platform} /></div>
+          <div>
+            <strong>{s.platform.toUpperCase()}</strong>
+            <span>{s.handle}</span>
+          </div>
         </a>
       ))}
     </div>
@@ -216,7 +255,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .watch-latest strong { font-size: 13px; letter-spacing: 0.05em; }
   .watch-latest span { font-size: 13px; color: var(--muted); }
 
-  .section { max-width: 1000px; margin: 0 auto; padding: 72px 24px; border-top: 1px solid var(--line); }
+  .section { max-width: var(--content-width); margin: 0 auto; padding: 72px 24px; border-top: 1px solid var(--line); }
   .eyebrow2 { font-size: 12px; letter-spacing: 0.15em; color: var(--muted); margin: 0 0 10px; }
   .section-head { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
   .section h2 { font-family: 'Archivo Black', sans-serif; font-size: clamp(28px, 5vw, 40px); margin: 0; }
@@ -245,12 +284,45 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .day { font-family: 'Archivo Black', sans-serif; font-size: 22px; line-height: 1; }
   .month { font-size: 11px; color: var(--muted); margin-top: 2px; }
   .content { flex: 1; }
-  .content h3 { font-size: 16px; margin: 0 0 4px; }
-  .content p { font-size: 13px; color: var(--muted); margin: 0; }
+  .content h3 { font-size: 16px; margin: 0 0 4px; white-space: pre-line; }
+  .content p { font-size: 13px; color: var(--muted); margin: 0; white-space: pre-line; }
   .badge { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
   .badge-live { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
 
-  .member-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+  .marquee-wrap {
+    overflow: hidden;
+    /* 부모(.section)의 max-width:1000px 제약을 벗어나 화면 끝-끝까지 확장 */
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 0 40px;
+    box-sizing: border-box;
+    /* 좌우 끝이 서서히 배경색으로 사라지는 효과 (선택사항, 없어도 동작함) */
+    mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+  }
+  .marquee-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation-name: marquee;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+  .marquee-item {
+    width: min(380px, 28vw);
+    flex-shrink: 0;
+    opacity: 0.55;
+    transition: opacity 0.25s ease;
+  }
+  .marquee-item:hover {
+    opacity: 1;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
 
   .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
   .about-photo {
@@ -265,14 +337,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   .social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
   .social-card {
-    display: flex; flex-direction: column; gap: 4px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
     padding: 20px; border: 1px solid var(--line); border-radius: 8px;
     text-decoration: none; color: var(--ink);
   }
+  .social-icon {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--line);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .social-card strong { display: block; font-size: 14px; }
   .social-card:hover { border-color: var(--muted); }
   .social-card span { font-size: 13px; color: var(--muted); }
 
-  .site-footer { max-width: 1000px; margin: 0 auto; padding: 72px 24px 40px; border-top: 1px solid var(--line); }
+  .site-footer { max-width: var(--content-width); margin: 0 auto; padding: 72px 24px 40px; border-top: 1px solid var(--line); }
   .footer-top h3 { font-size: 28px; margin: 0 0 8px; }
   .footer-top p { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
   .footer-bottom { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; padding-top: 24px; border-top: 1px solid var(--line); }

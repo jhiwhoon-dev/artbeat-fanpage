@@ -3,6 +3,17 @@ interface Props {
   title: string;
 }
 const { title } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const navLinks = [
+  { href: base || '/', label: 'About' },
+  { href: `${base}/members`, label: 'Members' },
+  { href: `${base}/videos`, label: 'Videos' },
+  { href: `${base}/shorts`, label: 'Shorts' },
+  { href: `${base}/live`, label: 'Live' },
+  { href: `${base}/schedule`, label: 'Schedule' },
+  { href: `${base}/history`, label: 'History' },
+];
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -15,23 +26,36 @@ const { title } = Astro.props;
 </head>
 <body>
   <nav class="topnav">
-    <a href={import.meta.env.BASE_URL}>About</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/members`}>Members</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/videos`}>Videos</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/shorts`}>Shorts</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/live`}>Live</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/schedule`}>Schedule</a>
-    <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/history`}>History</a>
+    <div class="topnav-inner">
+      {navLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+    </div>
   </nav>
   <slot />
+
+  <footer class="footer-nav">
+    <div class="footer-nav-inner">
+      <p class="footer-brand">ARTBEAT</p>
+      <nav class="footer-links">
+        {navLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+      </nav>
+    </div>
+  </footer>
+
   <footer class="disclaimer">
     <p>
-      본 팬 페이지는 수익을 창출하지 않으며, 순수한 팬심으로 제작된 비공식 사이트입니다.
-      버그를 발견하셨거나 문의사항이 있으시면 <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>으로 한글 또는 영어로 남겨주세요.
+      <strong>안내</strong><br /><br />
+      본 웹사이트는 순수한 팬심을 바탕으로 1인 개발자가 제작한 비공식 팬 페이지로, 어떠한 상업적 수익도 창출하지 않는 비영리 목적으로 운영됩니다.<br />본 사이트는 아티스트의 공식 소속사 및 채널과 직접적인 관련이 없습니다.<br /><br />
+      또한, 본 페이지는 YouTube의 공식 API 규정을 준수하여 영상 콘텐츠를 제공하고 있습니다.<br />사이트 내에서 발생하는 모든 영상 조회수 및 관련 광고 수익은 100% 원작자(공식 채널)에게 귀속되어 아티스트의 활동에 기여합니다.<br /><br />
+      시스템 오류(버그) 제보나 기타 문의 사항이 있으신 경우, 아래 이메일로 남겨주시면 감사하겠습니다. (한국어/영어 모두 가능)<br />
+      문의 및 제보: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
+    <hr class="disclaimer-divider" />
     <p>
-      This fan page does not generate any revenue and is an unofficial site made purely out of fan passion.
-      If you encounter a bug or have any inquiries, please contact <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a> in English or Korean.
+      <strong>Notice</strong><br /><br />
+      This website is an unofficial fan page created by a single developer out of pure support and admiration for the artist.<br />It is strictly a non-profit project and does not generate any commercial revenue. This site is not affiliated with the artist's official agency or management.<br /><br />
+      Furthermore, this page operates in full compliance with the official YouTube API.<br />All video views and ad revenue generated through this site are directed entirely to the original creator's official channel, directly supporting the artist.<br /><br />
+      If you encounter any bugs or have any inquiries, please feel free to reach out via email. (Inquiries are welcome in both English and Korean.)<br />
+      Contact / Bug Report: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
   </footer>
 </body>
@@ -44,6 +68,8 @@ const { title } = Astro.props;
     --muted: #8b8a8f;
     --accent: #ffffff;
     --line: #232326;
+    /* 사이트 전체 콘텐츠 폭. 이 값 하나만 바꾸면 nav/본문/disclaimer 폭이 한 번에 같이 바뀝니다. */
+    --content-width: 1500px;
   }
   * { box-sizing: border-box; }
   body {
@@ -54,24 +80,37 @@ const { title } = Astro.props;
     min-height: 100vh;
   }
   a { color: inherit; }
+
+  /* 상단 네비게이션: 스크롤해도 화면에 고정 */
   .topnav {
-    display: flex;
-    gap: 24px;
-    padding: 20px 24px 0;
-    max-width: 1100px;
-    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
   }
-  .topnav a {
-    font-size: 13px;
+  .topnav-inner {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 18px 24px;
+  }
+  .topnav-inner a {
+    font-size: 15px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--muted);
+    color: var(--ink);
+    opacity: 0.7;
+    transition: opacity 0.15s ease, color 0.15s ease;
   }
-  .topnav a:hover { color: var(--accent); }
+  .topnav-inner a:hover { opacity: 1; color: var(--accent); }
+
   .wrap {
-    max-width: 1100px;
+    max-width: var(--content-width);
     margin: 0 auto;
     padding: 64px 24px;
   }
@@ -90,18 +129,59 @@ const { title } = Astro.props;
     letter-spacing: -0.01em;
   }
   h1 span { color: var(--accent); }
+
+  /* 하단 네비게이션 (빠른 이동용) */
+  .footer-nav {
+    border-top: 1px solid var(--line);
+  }
+  .footer-nav-inner {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 40px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-brand {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 22px;
+    margin: 0;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-links a {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--muted);
+  }
+  .footer-links a:hover { color: var(--ink); }
+
   .disclaimer {
-    max-width: 1100px;
+    max-width: var(--content-width);
     margin: 0 auto;
     padding: 32px 24px 48px;
     border-top: 1px solid var(--line);
   }
   .disclaimer p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
     color: var(--muted);
     margin: 0 0 8px;
   }
+  .disclaimer strong { color: var(--ink); }
   .disclaimer a { color: var(--muted); text-decoration: underline; }
   .disclaimer a:hover { color: var(--ink); }
+  .disclaimer-divider {
+    border: none;
+    border-top: 1px solid var(--ink);
+    margin: 24px 0;
+  }
 </style>
