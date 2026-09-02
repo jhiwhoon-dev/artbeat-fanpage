@@ -220,8 +220,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -248,8 +248,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -277,8 +277,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A3Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -305,8 +305,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A4Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -327,8 +327,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A5Be"
     ],
     "status": "military",
     "joined_date": "2021-08-03",
@@ -349,8 +349,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A6Be"
     ],
     "status": "active",
     "joined_date": "2021-08-03",
@@ -374,8 +374,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A7Be"
     ],
     "status": "active",
     "joined_date": "2022-02-18",
@@ -402,8 +402,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A8Be"
     ],
     "status": "active",
     "joined_date": "2022-04-13",
@@ -448,8 +448,8 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A8Be"
     ],
     "status": "active",
     "joined_date": "2023-05-22",
@@ -846,7 +846,7 @@
     "joined_date": "2018-01-16",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "lee-gaeun.jpg",
     "bio": "걸그룹 ARTBEAT v의 멤버.\n\n대한민국의 댄서로, ARTBEAT의 멤버로 활동 중이다.",
     "sns": {
       "instagram": [
@@ -901,7 +901,7 @@
     "joined_date": "2018-10-01",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "yun-haeun.jpg",
     "bio": "걸그룹 ARTBEAT v의 멤버이자 막내를 맡고 있다.\n\n대한민국의 댄서이자 유튜버이다. ARTBEAT의 멤버로 활동하고 있으며 개인채널 하토피아 HATOPIA 도 운영 중이다.",
     "sns": {
       "instagram": [
@@ -922,8 +922,8 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2018-10-01",
@@ -982,7 +982,7 @@
     "joined_date": "2019-08-06",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "oh-yubin.jpg",
     "bio": "대한민국의 댄서, 인플루언서, 유튜버.\n\n댄스 크루 'ARTBEAT'의 멤버로 활동하고 있으며 이 크루가 결성한 걸그룹 ARTBEAT v의 멤버로도 활동했다. 개인 유튜브 채널 '우유 빈 Yubin'을 운영 중이다.",
     "sns": {
       "instagram": [
@@ -1093,14 +1093,14 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-07-30",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "ji-ayeong.png",
     "bio": "대한민국의 댄서 출신 치어리더.",
     "sns": {
       "instagram": [
@@ -1118,8 +1118,8 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-08-03",
@@ -1173,8 +1173,8 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2022-02-18",
@@ -1195,8 +1195,8 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "A2Be",
-      "AB PROJECT"
+      "AB PROJECT",
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2022-10-13",
@@ -1223,7 +1223,7 @@
     "joined_date": "2023-05-24",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "yoo-ka.jpg",
     "bio": "댄스 크루 ARTBEAT의 멤버이자, PRODUCE 101 JAPAN THE GIRLS의 참가자.",
     "sns": {
       "instagram": [
@@ -1426,7 +1426,7 @@
     "joined_date": "2025-02-02",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "lee-jeonghee.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -1546,7 +1546,7 @@
     "joined_date": "2025-05-01",
     "rejoined_date": null,
     "left_date": null,
-    "photo_filename": null,
+    "photo_filename": "cho-yuna.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -1593,6 +1593,300 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/sityxutn/"
+      ]
+    }
+  },
+  {
+    "id": "lee-jongmin",
+    "name": "이종민",
+    "birth_date": "2005-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jongmjn"
+      ]
+    }
+  },
+  {
+    "id": "lee-jimin",
+    "name": "이지민",
+    "birth_date": "2006-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/aslu_jv"
+      ]
+    }
+  },
+  {
+    "id": "seo-hanseung",
+    "name": "서한승",
+    "birth_date": "2004-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ivxixu"
+      ]
+    }
+  },
+  {
+    "id": "gawoo",
+    "name": "여가우",
+    "birth_date": "2001-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/iiiu.51"
+      ]
+    }
+  },
+  {
+    "id": "kim-yonghyeon",
+    "name": "김용현",
+    "birth_date": "2004-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yong_doong_d"
+      ]
+    }
+  },
+  {
+    "id": "joo-hyunah",
+    "name": "주현아",
+    "birth_date": "2010-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/_heunaa"
+      ]
+    }
+  },
+  {
+    "id": "lee-yoobin",
+    "name": "이유빈",
+    "birth_date": "2000-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/2_yub2n"
+      ]
+    }
+  },
+  {
+    "id": "baek-seoyoon",
+    "name": "백서윤",
+    "birth_date": "2004-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/h_one_it"
+      ]
+    }
+  },
+  {
+    "id": "cho-eunseo",
+    "name": "조은서",
+    "birth_date": "2006-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/eun.__s"
+      ]
+    }
+  },
+  {
+    "id": "yang-jimo",
+    "name": "양지모",
+    "birth_date": "2006-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jimo_obolzq"
+      ]
+    }
+  },
+  {
+    "id": "lee-seonu",
+    "name": "이선우",
+    "birth_date": "2002-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/miho._.__"
+      ]
+    }
+  },
+  {
+    "id": "lee-jookhang",
+    "name": "이주강",
+    "birth_date": "2003-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/joo_khang23"
+      ]
+    }
+  },
+  {
+    "id": "yu-minhye",
+    "name": "유민혜",
+    "birth_date": "1999-00-00",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/umi_inne"
+      ]
+    }
+  },
+  {
+    "id": "kang-seongwoon",
+    "name": "강성운",
+    "birth_date": "2001-00-00",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "audition 'AB PROJECT'"
+    ],
+    "status": "audition",
+    "joined_date": null,
+    "rejoined_date": null,
+    "left_date": null,
+    "photo_filename": null,
+    "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sungwooni__"
       ]
     }
   }

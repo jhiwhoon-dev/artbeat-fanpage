@@ -2,15 +2,28 @@
 import Layout from '../layouts/Layout.astro';
 import MemberCard from '../components/MemberCard.astro';
 import members from '../data/members.json';
+
+// 오디션 중인 멤버는 별도 섹션으로 분리
+const auditionMembers = members.filter((m) => m.status === 'audition');
+const mainMembers = members.filter((m) => m.status !== 'audition');
 ---
 <Layout title="Members">
   <div class="page-wrap">
     <p class="eyebrow">ARTBEAT</p>
     <h1>Member<span>s</span></h1>
     <div class="member-grid">
-      {members.map((m) => <MemberCard member={m} />)}
+      {mainMembers.map((m) => <MemberCard member={m} />)}
     </div>
-    <footer>총 {members.length}명</footer>
+    <footer>총 {mainMembers.length}명</footer>
+
+    {auditionMembers.length > 0 && (
+      <div class="audition-section">
+        <h2>오디션 진행중</h2>
+        <div class="member-grid">
+          {auditionMembers.map((m) => <MemberCard member={m} />)}
+        </div>
+      </div>
+    )}
   </div>
 </Layout>
 
@@ -25,5 +38,14 @@ import members from '../data/members.json';
     margin-top: 40px;
     font-size: 13px;
     color: var(--muted);
+  }
+  .audition-section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--ink);
+  }
+  .audition-section h2 {
+    font-size: 20px;
+    margin: 0 0 24px;
   }
 </style>
