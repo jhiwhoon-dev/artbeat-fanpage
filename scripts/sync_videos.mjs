@@ -26,22 +26,55 @@ if (!API_KEY) {
 const members = JSON.parse(fs.readFileSync(MEMBERS_PATH, "utf-8"));
 const coveredGroups = JSON.parse(fs.readFileSync(GROUPS_PATH, "utf-8"));
 
-// 대소문자 무시 + 공백 전부 제거 후 비교 ("New Jeans" === "newjeans")
+// 대소문자 무시 + 공백 전부 제거 후 비교 ("New Jeans" === "newjeans") — 한글 등에 사용
 function normalize(s) {
   return s.toLowerCase().replace(/\s+/g, "");
 }
 
+// 후보 문자열(그룹명/별칭) 하나에 대한 매칭 함수를 만든다.
+// - 영문/숫자/공백으로만 된 이름(예: "IVE", "New Jeans")은 "단어 경계" 매칭을 써서,
+//   "LIVE" 안의 "ive"처럼 다른 단어 속에 우연히 낀 경우를 걸러낸다.
+//   여러 단어(New Jeans)는 단어 사이에 공백이 있어도/없어도 매칭되게 \s*를 넣는다.
+// - 한글 등 그 외 이름은 기존처럼 공백 무시 부분일치를 그대로 쓴다 (오탐 위험이 낮음).
+function buildMatcher(candidate) {
+  const isAsciiOnly = /^[\x00-\x7F\s]+$/.test(candidate);
+  if (isAsciiOnly) {
+    const pattern = candidate
+      .trim()
+      .split(/\s+/)
+      .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("\\s*");
+    const re = new RegExp(`\\b${pattern}\\b`, "i");
+    return (text) => re.test(text);
+  }
+  const norm = normalize(candidate);
+  return (text) => normalize(text).includes(norm);
+}
+
+const groupMatchers = coveredGroups.map((g) => ({
+  name: g.name,
+  matchers: [g.name, ...(g.aliases ?? [])].map(buildMatcher),
+}));
+
 // 제목+설명란 텍스트에서 covered_groups.json에 등록된 그룹을 찾아서 추천
 function suggestCoveredGroups(text) {
-  const norm = normalize(text);
   const found = [];
-  for (const g of coveredGroups) {
-    const candidates = [g.name, ...(g.aliases ?? [])];
-    if (candidates.some((c) => norm.includes(normalize(c)))) {
+  for (const g of groupMatchers) {
+    if (g.matchers.some((match) => match(text))) {
       found.push(g.name);
     }
   }
   return found;
+}
+
+// 크레딧에는 보통 성 없이 이름만 적혀있는 경우가 많음 (예: "김소은" -> "소은 SoEun")
+// 그래서 전체 이름뿐 아니라, 성 한 글자를 뗀 이름도 같이 후보로 확인한다.
+function nameCandidates(fullName) {
+  const candidates = [fullName];
+  if (fullName.length > 2) {
+    candidates.push(fullName.slice(1));
+  }
+  return candidates;
 }
 
 // 제목+설명란 텍스트에서 우리 멤버(members.json) 이름이 등장하는지 찾아서 추천
@@ -49,7 +82,8 @@ function suggestCoveredGroups(text) {
 function suggestTaggedMembers(text) {
   const found = [];
   for (const m of members) {
-    if (m.name && text.includes(m.name)) {
+    if (!m.name) continue;
+    if (nameCandidates(m.name).some((c) => text.includes(c))) {
       found.push(m.id);
     }
   }
