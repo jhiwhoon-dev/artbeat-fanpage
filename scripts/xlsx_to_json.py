@@ -25,6 +25,7 @@ SURNAME_OVERRIDES = {
     '남': 'nam', '심': 'shim', '노': 'noh', '하': 'ha', '곽': 'kwak',
     '차': 'cha', '주': 'joo', '우': 'woo', '구': 'koo', '나': 'na',
     '민': 'min', '류': 'ryu', '진': 'jin', '천': 'chun', '강': 'kang',
+    '희': 'hee',
 }
 
 def romanize_char(ch):

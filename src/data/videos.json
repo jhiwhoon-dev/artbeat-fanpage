@@ -3,7 +3,9 @@
     "youtube_id": "xTASQ3j5goo",
     "title": "안녕하세오",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "jung-siyun"
+    ],
     "published_date": "2026-09-02",
     "content_type": "live",
     "view_count": 7065
@@ -11,8 +13,12 @@
   {
     "youtube_id": "hn7Xs62pwps",
     "title": "팝옵팝옵이 이렇게 상큼할 일인가 #PopOffPopOff #윤아 #Yuna",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
+    "tagged_members": [
+      "cho-yuna"
+    ],
     "published_date": "2026-09-02",
     "content_type": "short",
     "view_count": 2844
@@ -20,8 +26,12 @@
   {
     "youtube_id": "_ScxaIechHs",
     "title": "야구장에서 누가 돌아왔게~⚾️ #PopOffPopOff #아영 #Ayeong",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
+    "tagged_members": [
+      "ji-ayeong"
+    ],
     "published_date": "2026-09-02",
     "content_type": "short",
     "view_count": 2596
@@ -29,8 +39,12 @@
   {
     "youtube_id": "Eeu_sUHOhg0",
     "title": "냥이 머리하고 냥이인 척 하는 막내냥이🐱 #PopOffPopOff #소은 #Soeun",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
+    "tagged_members": [
+      "kim-soeun"
+    ],
     "published_date": "2026-09-02",
     "content_type": "short",
     "view_count": 3882
@@ -38,8 +52,12 @@
   {
     "youtube_id": "-YBVNo1Vpfs",
     "title": "웬만해션 이 텐션을 막을 수 없다🤣 #PopOffPopOff #시윤 #Siyun",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
+    "tagged_members": [
+      "jung-siyun"
+    ],
     "published_date": "2026-09-02",
     "content_type": "short",
     "view_count": 4211
@@ -47,8 +65,12 @@
   {
     "youtube_id": "_bD_BWAaeYU",
     "title": "여기 사막여우가 사람 홀려요~🦊 #PopOffPopOff #지나",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
+    "tagged_members": [
+      "baek-jina"
+    ],
     "published_date": "2026-09-02",
     "content_type": "short",
     "view_count": 4248
@@ -56,8 +78,12 @@
   {
     "youtube_id": "94RuYk3NMFQ",
     "title": "진짜 나띠느낌 있네~ #SWEAT #나경",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "kim-nakyeong"
+    ],
     "published_date": "2026-09-01",
     "content_type": "short",
     "view_count": 26473
@@ -65,8 +91,12 @@
   {
     "youtube_id": "KfTzi_lEvAk",
     "title": "갭차이 기여워ㅋㅋㅋㅋ #SWEAT #혜경",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "won-hyegyeong"
+    ],
     "published_date": "2026-09-01",
     "content_type": "short",
     "view_count": 12851
@@ -74,8 +104,12 @@
   {
     "youtube_id": "YHW8oQoDoLo",
     "title": "너무 핫걸이자나🔥 #SWEAT #정희",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "lee-jeonghui"
+    ],
     "published_date": "2026-09-01",
     "content_type": "short",
     "view_count": 18996
@@ -83,8 +117,12 @@
   {
     "youtube_id": "TVWLLHzT2l0",
     "title": "Imma be the girl I wanna be✨️ #SWEAT #윤재",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "lee-yoonjae"
+    ],
     "published_date": "2026-09-01",
     "content_type": "short",
     "view_count": 11658
@@ -92,7 +130,9 @@
   {
     "youtube_id": "qECOd-DyR5M",
     "title": "키키 KiiiKiii - Pop Off Pop Off | Dance Practice",
-    "covered_group": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
     "tagged_members": [
       "cho-yuna",
       "ji-ayeong",
@@ -107,12 +147,15 @@
   {
     "youtube_id": "kUwEQEdTT6k",
     "title": "팝옵팝옵팝옵팝옵🍭 #PopOffPopOff #릴레이댄스 #relaydance",
-    "covered_group": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-yuna",
+      "ji-ayeong",
+      "kim-soeun",
+      "jung-siyun",
+      "baek-jina"
     ],
     "published_date": "2026-09-01",
     "view_count": 93023,
@@ -121,12 +164,15 @@
   {
     "youtube_id": "jdgVGsjPbCg",
     "title": "Pop off pop off flipsy baby~ #PopOffPopOff #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "KiiiKiii"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-yuna",
+      "ji-ayeong",
+      "kim-soeun",
+      "jung-siyun",
+      "baek-jina"
     ],
     "published_date": "2026-08-31",
     "view_count": 22927,
@@ -135,12 +181,13 @@
   {
     "youtube_id": "-M7d1EW1N7w",
     "title": "천 원으로 성수에서 디저트 먹는 법 (ft.쪽팔려게임) | 아트비트 본편 EP.05 | KiiiKiii - POP OFF POP OFF",
-    "covered_group": [],
+    "covered_group": [
+      "아트비트 본편",
+      "KiiiKiii"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-soeun",
+      "jung-siyun"
     ],
     "published_date": "2026-08-31",
     "view_count": 40365,
@@ -151,10 +198,11 @@
     "title": "이번 의상 노란색 아니었어?😮 #PopOffPopOff #ARTBEAT #여기서요",
     "covered_group": [],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-yuna",
+      "ji-ayeong",
+      "kim-soeun",
+      "jung-siyun",
+      "baek-jina"
     ],
     "published_date": "2026-08-31",
     "view_count": 68773,
@@ -165,10 +213,11 @@
     "title": "야구장에서 누가 돌아왔게~⚾️ #PopOffPopOff #ARTBEAT #여기서요",
     "covered_group": [],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-yuna",
+      "ji-ayeong",
+      "kim-soeun",
+      "jung-siyun",
+      "baek-jina"
     ],
     "published_date": "2026-08-31",
     "view_count": 33089,
@@ -194,12 +243,11 @@
   {
     "youtube_id": "hfNDfIjgsow",
     "title": "내향인 모드 종료 #종민 #JongMin",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-jongmin"
     ],
     "published_date": "2026-08-30",
     "view_count": 12307,
@@ -208,12 +256,11 @@
   {
     "youtube_id": "ZEPW7lfqyoI",
     "title": "이 노래는 역시 춤선이지 #지민 #JiMin",
-    "covered_group": [],
+    "covered_group": [
+      "제니"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-jimin"
     ],
     "published_date": "2026-08-30",
     "view_count": 17480,
@@ -222,12 +269,11 @@
   {
     "youtube_id": "wKYsXmkLPaE",
     "title": "이 선곡은 자신감인데? #한승 #HanSeung",
-    "covered_group": [],
+    "covered_group": [
+      "카이"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "seo-hanseung"
     ],
     "published_date": "2026-08-30",
     "view_count": 10728,
@@ -236,12 +282,11 @@
   {
     "youtube_id": "1zOGS3VA4_g",
     "title": "알고 보니 전투캐였던 것 #은서 #EunSeo",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-eunseo"
     ],
     "published_date": "2026-08-30",
     "view_count": 11817,
@@ -250,12 +295,11 @@
   {
     "youtube_id": "g9M6xWhgXeg",
     "title": "댄동 회장님, 실력 확인 들어갑니다 #용현 #YongHyeon",
-    "covered_group": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-yonghyeon"
     ],
     "published_date": "2026-08-30",
     "view_count": 11963,
@@ -264,12 +308,11 @@
   {
     "youtube_id": "89ackCEJXZY",
     "title": "뮤지컬 한 편 보는줄 #민혜 #MinHye",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "yu-minhye"
     ],
     "published_date": "2026-08-30",
     "view_count": 16536,
@@ -278,12 +321,11 @@
   {
     "youtube_id": "VpQtWZ1AL1w",
     "title": "일단 저질렀습니다 #성운 #SeongWoon",
-    "covered_group": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kang-seongwoon"
     ],
     "published_date": "2026-08-30",
     "view_count": 14364,
@@ -292,12 +334,11 @@
   {
     "youtube_id": "te6z-dC4SmI",
     "title": "집착의 결과, 보여드립니다  #서윤 #SeoYoon",
-    "covered_group": [],
+    "covered_group": [
+      "aespa"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "baek-seoyoon"
     ],
     "published_date": "2026-08-30",
     "view_count": 19720,
@@ -306,12 +347,11 @@
   {
     "youtube_id": "4nUBaP2E4ew",
     "title": "우리 편이라니까 이렇게 든든할 수가 없다 #유빈 #YooBin",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoobin"
     ],
     "published_date": "2026-08-30",
     "view_count": 17348,
@@ -320,12 +360,11 @@
   {
     "youtube_id": "2nrF1z-zlSM",
     "title": "무대 체질은 못 숨긴다 #현아 #HyunAh",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "joo-hyunah"
     ],
     "published_date": "2026-08-30",
     "view_count": 38607,
@@ -334,12 +373,11 @@
   {
     "youtube_id": "R4YwfAst1cQ",
     "title": "우리가 감히 양지모를 품어도 될까? #지모 #JiMo",
-    "covered_group": [],
+    "covered_group": [
+      "NCT 127"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "yang-jimo"
     ],
     "published_date": "2026-08-30",
     "view_count": 10493,
@@ -348,12 +386,11 @@
   {
     "youtube_id": "bCN3T6uyyZM",
     "title": "보여줄게요. 제대로 #선우 #SeonU",
-    "covered_group": [],
+    "covered_group": [
+      "KARINA"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-seonu"
     ],
     "published_date": "2026-08-30",
     "view_count": 21174,
@@ -362,12 +399,11 @@
   {
     "youtube_id": "5MOfQxe-zNU",
     "title": "얘 힘 미쳤는데..? #주강 #JooKhang",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-jookhang"
     ],
     "published_date": "2026-08-30",
     "view_count": 12026,
@@ -378,10 +414,7 @@
     "title": "갭차이 뭐냐고🫢 #가우 #GaWoo",
     "covered_group": [],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "gawoo"
     ],
     "published_date": "2026-08-30",
     "view_count": 66430,
@@ -390,12 +423,24 @@
   {
     "youtube_id": "28P-JK7FPSc",
     "title": "2026 AB PROJECT 최종 오디션 참가자 영상",
-    "covered_group": [],
+    "covered_group": [
+      "나는 신입"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-jongmin",
+      "lee-jimin",
+      "seo-hanseung",
+      "gawoo",
+      "kim-yonghyeon",
+      "joo-hyunah",
+      "lee-yoobin",
+      "baek-seoyoon",
+      "cho-eunseo",
+      "yang-jimo",
+      "lee-seonu",
+      "lee-jookhang",
+      "yu-minhye",
+      "kang-seongwoon"
     ],
     "published_date": "2026-08-29",
     "view_count": 189400,
@@ -404,26 +449,30 @@
   {
     "youtube_id": "d1KaEa9DjsQ",
     "title": "키스오브라이프 KISS OF LIFE - SWEAT | Dance Practice",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-27",
     "view_count": 36794,
-    "content_type": "short"
+    "content_type": "video"
   },
   {
     "youtube_id": "pnD5op0DqFI",
     "title": "너무 핫해🔥 #SWEAT #릴레이댄스 #relaydance",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-27",
     "view_count": 93950,
@@ -432,12 +481,14 @@
   {
     "youtube_id": "5t7yJ1OK2g4",
     "title": "여기가 ㄹㅈㄷ 극락파트 #SWEAT #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-26",
     "view_count": 45359,
@@ -446,12 +497,14 @@
   {
     "youtube_id": "m-TahqH-8t0",
     "title": "의상까지 찰떡이다~ #SWEAT #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-26",
     "view_count": 40313,
@@ -460,12 +513,14 @@
   {
     "youtube_id": "s0uCzn5_o5I",
     "title": "그렇게 끼를 부려버리면..❤️‍🔥 #SWEAT #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-26",
     "view_count": 41532,
@@ -474,12 +529,14 @@
   {
     "youtube_id": "V6aVDOFNNZo",
     "title": "[여기서요?] 키스오브라이프 KISS OF LIFE - SWEAT | 커버댄스 Dance Cover @홍대",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-26",
     "view_count": 92951,
@@ -488,12 +545,13 @@
   {
     "youtube_id": "3jPanymtOAY",
     "title": "이제 여기로 정착합니다❤️‍🔥 #FLIRTY #유화 #기현",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "jung-yujin",
+      "ahn-gihyun"
     ],
     "published_date": "2026-08-24",
     "view_count": 196557,
@@ -502,12 +560,13 @@
   {
     "youtube_id": "lqmEgu4CDdk",
     "title": "눈에서 꿀 떨어진다😍 #FLIRTY #윤수 #결경",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "chae-yunsu",
+      "jung-gyeolgyeong"
     ],
     "published_date": "2026-08-24",
     "view_count": 216138,
@@ -516,12 +575,13 @@
   {
     "youtube_id": "cjWuWfc7guw",
     "title": "비주얼 미쳤는데?! #FLIRTY #환희 #위나",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "yang-hwanhee",
+      "lee-wina"
     ],
     "published_date": "2026-08-24",
     "view_count": 170354,
@@ -530,12 +590,13 @@
   {
     "youtube_id": "fINatEWRG1U",
     "title": "음..?ㅋㅋㅋㅋ #FLIRTY #규소 #혜경",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-gyuso",
+      "won-hyegyeong"
     ],
     "published_date": "2026-08-24",
     "view_count": 204412,
@@ -544,12 +605,13 @@
   {
     "youtube_id": "eAclAdGyiJw",
     "title": "왜 내던졐ㅋㅋㅋㅋ #FLIRTY #정서 #서아",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-jeongseo",
+      "won-seoa"
     ],
     "published_date": "2026-08-24",
     "view_count": 74230,
@@ -558,26 +620,44 @@
   {
     "youtube_id": "pAzWWDYZpQk",
     "title": "다영 X 박재범 DAYOUNG X JAY PARK - FLIRTY | Dance Practice",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-24",
     "view_count": 71388,
-    "content_type": "short"
+    "content_type": "video"
   },
   {
     "youtube_id": "y3V3X951XBw",
     "title": "역시 페어는 조타..🤭 #FLIRTY #릴레이댄스 #relaydance",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-24",
     "view_count": 111483,
@@ -586,12 +666,21 @@
   {
     "youtube_id": "obRGxucX6nY",
     "title": "나 이 조합 찬성이야🫶🏻 #FLIRTY #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-23",
     "view_count": 76843,
@@ -600,12 +689,21 @@
   {
     "youtube_id": "IeDiECf14VI",
     "title": "이 케미 좋아하는 사람?! #FLIRTY #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-23",
     "view_count": 114755,
@@ -614,12 +712,21 @@
   {
     "youtube_id": "o2H5JK-jFU0",
     "title": "둘이 뭐야..💗 #FLIRTY #ARTBEAT #여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-23",
     "view_count": 66923,
@@ -628,12 +735,21 @@
   {
     "youtube_id": "EE6NVTyHpm4",
     "title": "[여기서요?] 다영 X 박재범 DAYOUNG X JAY PARK - FLIRTY | 커버댄스 Dance Cover @홍대",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina",
+      "yang-hwanhee",
+      "jung-yujin",
+      "ahn-gihyun",
+      "jung-gyeolgyeong",
+      "chae-yunsu",
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
     ],
     "published_date": "2026-08-23",
     "view_count": 221538,
@@ -642,12 +758,14 @@
   {
     "youtube_id": "57kJBjDUlwg",
     "title": "첫만남에 술부터 까기 | 아트비트 본편 EP.04 | DAYOUNG X JAY PARK - FLIRTY",
-    "covered_group": [],
+    "covered_group": [
+      "아트비트 본편",
+      "DAYOUNG",
+      "박재범"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "ahn-gihyun",
+      "jung-yujin"
     ],
     "published_date": "2026-08-23",
     "view_count": 69584,
@@ -658,10 +776,7 @@
     "title": "누구 눈👀이게요",
     "covered_group": [],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "jung-yujin"
     ],
     "published_date": "2026-08-22",
     "view_count": 15505,
@@ -670,12 +785,11 @@
   {
     "youtube_id": "JIFESsa6v8M",
     "title": "프리티 YOON🫶🏻 #PrettyGirl #윤재",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoonjae"
     ],
     "published_date": "2026-08-20",
     "view_count": 48654,
@@ -684,12 +798,11 @@
   {
     "youtube_id": "PRRw-yOk4Qk",
     "title": "난 Beautiful Girl✨️ #PrettyGirl #위나",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-wina"
     ],
     "published_date": "2026-08-20",
     "view_count": 26850,
@@ -698,12 +811,11 @@
   {
     "youtube_id": "ILbdHtvNX8o",
     "title": "귀엽게 당당💛 #PrettyGirl #윤아",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "cho-yuna"
     ],
     "published_date": "2026-08-20",
     "view_count": 30738,
@@ -712,12 +824,11 @@
   {
     "youtube_id": "Mv5UbvONF4Y",
     "title": "어때? 나 예뻐?! #PrettyGirl #유화",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "jung-yujin"
     ],
     "published_date": "2026-08-20",
     "view_count": 23329,
@@ -726,12 +837,11 @@
   {
     "youtube_id": "g6gXq38dPKo",
     "title": "주인공은 마지막에💝 #PrettyGirl #소은",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "kim-soeun"
     ],
     "published_date": "2026-08-20",
     "view_count": 81315,
@@ -740,12 +850,15 @@
   {
     "youtube_id": "nbGW6VXj848",
     "title": "리센느 RESCENE - Pretty Girl | Dance Practice",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
     ],
     "published_date": "2026-08-18",
     "view_count": 20595,
@@ -756,10 +869,8 @@
     "title": "하~~~~이",
     "covered_group": [],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoonjae",
+      "cho-yuna"
     ],
     "published_date": "2026-08-18",
     "view_count": 10535,
@@ -768,12 +879,15 @@
   {
     "youtube_id": "HqKDlJgcdh4",
     "title": "누구 연습복이 제일 Pretty 해?🪞 #PrettyGirl #ARTBEAT #OOTD",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
     ],
     "published_date": "2026-08-18",
     "view_count": 31406,
@@ -782,12 +896,15 @@
   {
     "youtube_id": "Xm5yr_O5SoI",
     "title": "어디서나 당당하게 걷기~💕 #VitamineMe #릴레이댄스 #relaydance",
-    "covered_group": [],
+    "covered_group": [
+      "RESCENE"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
     ],
     "published_date": "2026-08-17",
     "view_count": 56515,
@@ -796,12 +913,11 @@
   {
     "youtube_id": "FfS7ZWSKLOI",
     "title": "영양제를 왜 챙겨? 비타민이 여깄는데 #VitamineMe #혜경",
-    "covered_group": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
     "tagged_members": [
-      "ha-eun",
-      "se-young",
-      "min-ji",
-      "a-young"
+      "won-hyegyeong"
     ],
     "published_date": "2026-08-17",
     "view_count": 22463,
@@ -810,8 +926,12 @@
   {
     "youtube_id": "7tod-GuGKyw",
     "title": "비타민 A, B 말고 비타민 하은이요~ #VitamineMe #하은",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "yun-haeun"
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 31114
@@ -819,8 +939,12 @@
   {
     "youtube_id": "RVs6oplmato",
     "title": "왜 이렇게 상큼해! #VitamineMe #정희",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "lee-jeonghee"
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 38048
@@ -828,8 +952,12 @@
   {
     "youtube_id": "wJC_5cbf8xo",
     "title": "오랜만에 비타민처럼 등장✨️ #VitamineMe #가은",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 101480
@@ -837,8 +965,12 @@
   {
     "youtube_id": "8prpJ5DPvf8",
     "title": "비타민 막내💛 #VitamineMe #찬",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 22908
@@ -846,8 +978,16 @@
   {
     "youtube_id": "sXuUMqtwTuk",
     "title": "여름엔 연습복도 상큼하게💫",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 93873
@@ -855,8 +995,16 @@
   {
     "youtube_id": "iIpZyyZQHRI",
     "title": "눈썹이 어떻게 된거야🤣 #PrettyGirl #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
+    ],
     "published_date": "2026-08-16",
     "content_type": "short",
     "view_count": 50029
@@ -864,8 +1012,16 @@
   {
     "youtube_id": "qNMBebDaiTo",
     "title": "나는 파이리를 사랑해~🔥 #PrettyGirl #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
+    ],
     "published_date": "2026-08-16",
     "content_type": "short",
     "view_count": 22215
@@ -873,8 +1029,16 @@
   {
     "youtube_id": "3vK5B_KFIag",
     "title": "난 beautiful gir~🫶🏻 #PrettyGirl #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
+    ],
     "published_date": "2026-08-16",
     "content_type": "short",
     "view_count": 20204
@@ -882,8 +1046,17 @@
   {
     "youtube_id": "Tfk-YG_P0VA",
     "title": "[여기서요?] 리센느 RESCENE - Pretty Girl | 커버댄스 Dance Cover @홍대",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "아트비트 본편",
+      "RESCENE"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "kim-soeun",
+      "jung-yujin",
+      "cho-yuna",
+      "lee-wina"
+    ],
     "published_date": "2026-08-16",
     "content_type": "video",
     "view_count": 96925
@@ -891,8 +1064,14 @@
   {
     "youtube_id": "RzgAuz7O_So",
     "title": "MZ 키우기가 이렇게 어렵습니다😅 | 아트비트 본편 EP.03 | RESCENE - Pretty Girl",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "tagged_members": [
+      "kim-junseok",
+      "lee-yoonjae",
+      "cho-yuna"
+    ],
     "published_date": "2026-08-16",
     "content_type": "video",
     "view_count": 27069
@@ -900,8 +1079,16 @@
   {
     "youtube_id": "4gMHha9rVVk",
     "title": "비타민 美 충전🌟 #VitamineMe #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 86300
@@ -909,8 +1096,16 @@
   {
     "youtube_id": "Bs0cSDJDy1Y",
     "title": "프로미스나인 fromis_9 - Vitamine ME | Dance Practice",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-13",
     "content_type": "video",
     "view_count": 26417
@@ -918,8 +1113,16 @@
   {
     "youtube_id": "EMl3_68SNkk",
     "title": "하늘이랑 너무 찰떡이다🫶🏻 #VitamineMe #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 122291
@@ -927,8 +1130,16 @@
   {
     "youtube_id": "ecHRL1xAEtw",
     "title": "이번 여름 비타민은 이거다🌟 #VitamineMe #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 31511
@@ -936,8 +1147,16 @@
   {
     "youtube_id": "kD68fGEmDg4",
     "title": "과즙상들 다 모였네~ #VitamineMe #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 29615
@@ -945,8 +1164,16 @@
   {
     "youtube_id": "Jkajb84jd8M",
     "title": "[여기서요?] 프로미스나인 fromis_9 - Vitamin ME | 커버댄스 Dance Cover @홍대",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "lee-gaeun"
+    ],
     "published_date": "2026-08-12",
     "content_type": "video",
     "view_count": 105469
@@ -954,8 +1181,19 @@
   {
     "youtube_id": "2MtFyVbMXi4",
     "title": "8명 버전 미쳤다..ㄷㄷ #WDA #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "jung-yujin",
+      "ahn-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-wina",
+      "yun-haeun",
+      "lee-jeonghee",
+      "bang-juyeon"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 47493
@@ -963,8 +1201,19 @@
   {
     "youtube_id": "shFN2YGYIaM",
     "title": "나 여기 좋아❤️‍🔥 #WDA #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "jung-yujin",
+      "ahn-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-wina",
+      "yun-haeun",
+      "lee-jeonghee",
+      "bang-juyeon"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 57380
@@ -972,8 +1221,15 @@
   {
     "youtube_id": "yh-tRB44vCg",
     "title": "인트로 맘에 들어✨️ #WDA #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "jung-yujin",
+      "ahn-yoojin",
+      "oh-yubin",
+      "jang-sein"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 172757
@@ -981,8 +1237,19 @@
   {
     "youtube_id": "9iRCAH3QBBs",
     "title": "(흐뭇🤭) #FaceTime #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LNGSHOT"
+    ],
+    "tagged_members": [
+      "park-seongmin",
+      "lee-garam",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 36120
@@ -990,8 +1257,15 @@
   {
     "youtube_id": "1Kf-WpHXYSE",
     "title": "너한테 페타 걸어도 돼?☺️ #FaceTime #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LNGSHOT"
+    ],
+    "tagged_members": [
+      "park-seongmin",
+      "lee-garam",
+      "yang-hwanhee",
+      "cho-gyuso"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 19944
@@ -999,8 +1273,15 @@
   {
     "youtube_id": "1i5wQA3mS8Y",
     "title": "인트로부터 얼굴 공격 에바지~ #FaceTime #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LNGSHOT"
+    ],
+    "tagged_members": [
+      "park-seongmin",
+      "lee-garam",
+      "yang-hwanhee",
+      "cho-gyuso"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 19378
@@ -1008,8 +1289,16 @@
   {
     "youtube_id": "qFMJ33xt1gk",
     "title": "마틴 빙의됐네..🫢 #REDRED #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "jung-gyeolgyeong",
+      "won-seoa",
+      "kim-yeongjin",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-12",
     "content_type": "short",
     "view_count": 21338
@@ -1017,8 +1306,16 @@
   {
     "youtube_id": "jyQgUe9nq4w",
     "title": "도가니 사리좌~ #REDRED #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "jung-gyeolgyeong",
+      "won-seoa",
+      "kim-yeongjin",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-11",
     "content_type": "short",
     "view_count": 21794
@@ -1026,8 +1323,16 @@
   {
     "youtube_id": "_pIJ7-5o_K4",
     "title": "❤️❤️ #REDRED #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "jung-gyeolgyeong",
+      "won-seoa",
+      "kim-yeongjin",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-11",
     "content_type": "short",
     "view_count": 23574
@@ -1035,8 +1340,14 @@
   {
     "youtube_id": "L-Se9JQiuds",
     "title": "100% 내향인의 딸깍 모먼트 모음 | 아트비트 본편 EP.02 | fromis_9 - Vitamine ME",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "아트비트 본편",
+      "프로미스나인"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "lee-jeonghee"
+    ],
     "published_date": "2026-08-11",
     "content_type": "video",
     "view_count": 26314
@@ -1044,8 +1355,17 @@
   {
     "youtube_id": "NMt2qL29fQY",
     "title": "댄브 시원하다~ #너의모든가능성이되어줄게 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "yun-haeun",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "won-seoa",
+      "kang-yejin"
+    ],
     "published_date": "2026-08-11",
     "content_type": "short",
     "view_count": 18381
@@ -1053,8 +1373,17 @@
   {
     "youtube_id": "4v8o_w5Bea8",
     "title": "all the possibilities💙 #너의모든가능성이되어줄게 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "yun-haeun",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "won-seoa",
+      "kang-yejin"
+    ],
     "published_date": "2026-08-11",
     "content_type": "short",
     "view_count": 15700
@@ -1062,8 +1391,17 @@
   {
     "youtube_id": "S2-mwOBtiJ8",
     "title": "나 착하지? #너의모든가능성이되어줄게 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "yun-haeun",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "won-seoa",
+      "kang-yejin"
+    ],
     "published_date": "2026-08-11",
     "content_type": "short",
     "view_count": 11791
@@ -1071,8 +1409,17 @@
   {
     "youtube_id": "re1mGLgJBJE",
     "title": "우리랑 같이 놀자🎈 #CHOOM #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "oh-yubin",
+      "ahn-yoojin",
+      "yun-haeun",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 47587
@@ -1080,8 +1427,17 @@
   {
     "youtube_id": "gy659QlyVPo",
     "title": "이거지~~ #CHOOM #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "oh-yubin",
+      "ahn-yoojin",
+      "yun-haeun",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 32697
@@ -1089,8 +1445,18 @@
   {
     "youtube_id": "nSxfCJM98BA",
     "title": "옴마옴마.. Mine♡ #CHOOM #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "oh-yubin",
+      "ahn-yoojin",
+      "yun-haeun",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 29427
@@ -1098,8 +1464,19 @@
   {
     "youtube_id": "gPlrh2P4aMQ",
     "title": "[방구석 여기서요?] 에스파 aespa - WDA (A+B Team ver.) | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "jung-yujin",
+      "ahn-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-wina",
+      "yun-haeun",
+      "lee-jeonghee",
+      "bang-juyeon"
+    ],
     "published_date": "2026-08-10",
     "content_type": "video",
     "view_count": 196485
@@ -1107,8 +1484,17 @@
   {
     "youtube_id": "NPYYE9TdTZQ",
     "title": "따름 따름🚴🏻‍♂️ #널따라가 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "jung-hyeonchang",
+      "cho-gyuso",
+      "won-seoa",
+      "jang-daehyeon",
+      "lee-garam",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 17424
@@ -1116,8 +1502,17 @@
   {
     "youtube_id": "0ge9_-wSj98",
     "title": "유 리마인드 미🤍 #널따라가 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "jung-hyeonchang",
+      "cho-gyuso",
+      "won-seoa",
+      "jang-daehyeon",
+      "lee-garam",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 15410
@@ -1125,8 +1520,17 @@
   {
     "youtube_id": "K0QkQqa5IHQ",
     "title": "날 따라올래? #널따라가 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "jung-hyeonchang",
+      "cho-gyuso",
+      "won-seoa",
+      "jang-daehyeon",
+      "lee-garam",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-10",
     "content_type": "short",
     "view_count": 14964
@@ -1134,8 +1538,17 @@
   {
     "youtube_id": "oQ_6WTDvOHQ",
     "title": "[방구석 여기서요?] 투어스 TWS - 너의 모든 가능성이 되어줄게 | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "jung-hyeonchang",
+      "cho-gyuso",
+      "won-seoa",
+      "jang-daehyeon",
+      "lee-garam",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-09",
     "content_type": "video",
     "view_count": 45084
@@ -1143,8 +1556,17 @@
   {
     "youtube_id": "GQEYFUzt1rc",
     "title": "[방구석 여기서요?] 코르티스 CORTIS - REDRED | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "jung-gyeolgyeong",
+      "won-seoa",
+      "kim-yeongjin",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-09",
     "content_type": "video",
     "view_count": 115083
@@ -1153,7 +1575,9 @@
     "youtube_id": "o3noZ1aQKtU",
     "title": "안녕 나 오요빈",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin"
+    ],
     "published_date": "2026-08-08",
     "content_type": "live",
     "view_count": 33240
@@ -1161,8 +1585,20 @@
   {
     "youtube_id": "qrU-uvdHJeQ",
     "title": "[방구석 여기서요?] 롱샷 LNGSHOT - FaceTime | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LNGSHOT",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "park-seongmin",
+      "lee-garam",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-08-08",
     "content_type": "video",
     "view_count": 109615
@@ -1170,8 +1606,18 @@
   {
     "youtube_id": "I-sVkb0w88k",
     "title": "[방구석 여기서요?] 베이비몬스터 BABYMONSTER - 춤 (CHOOM) | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "oh-yubin",
+      "ahn-yoojin",
+      "yun-haeun",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-08-08",
     "content_type": "video",
     "view_count": 251034
@@ -1179,8 +1625,18 @@
   {
     "youtube_id": "QMMWdg6aOmo",
     "title": "[방구석 여기서요?] 투어스 TWS - 널 따라가 (You, You) | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "jung-hyeonchang",
+      "cho-gyuso",
+      "won-seoa",
+      "jang-daehyeon",
+      "lee-garam",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-07",
     "content_type": "video",
     "view_count": 35109
@@ -1188,8 +1644,21 @@
   {
     "youtube_id": "UyoL3ETLzUs",
     "title": "왜인지 모르게 다들 행복해 보이네 ㅎㅎ #What'sagirltodo #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "kim-nakyeong",
+      "kim-jeongseo",
+      "kim-hojun",
+      "cho-gyuso",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-07",
     "content_type": "short",
     "view_count": 36034
@@ -1197,8 +1666,17 @@
   {
     "youtube_id": "CFxf39sfMBg",
     "title": "최애 파트 등장합니다🔥🔥 #What'sagirltodo #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "kim-nakyeong",
+      "kim-jeongseo",
+      "kang-taehyeon"
+    ],
     "published_date": "2026-08-07",
     "content_type": "short",
     "view_count": 217876
@@ -1206,8 +1684,21 @@
   {
     "youtube_id": "Sg6Obht59Nc",
     "title": "다영 신곡 듣기 전 복습은 어때? #What'sagirltodo #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "kim-nakyeong",
+      "kim-jeongseo",
+      "kim-hojun",
+      "cho-gyuso",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-07",
     "content_type": "short",
     "view_count": 125795
@@ -1215,8 +1706,17 @@
   {
     "youtube_id": "R22Sp1ePUYw",
     "title": "사실 핑키업은 이거 보려고 보는 거지💗 #PINKYUP #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 47469
@@ -1224,8 +1724,17 @@
   {
     "youtube_id": "9ffiVkNFJ4A",
     "title": "이 파트 너무 잘 살리는데? #PINKYUP #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 63801
@@ -1233,8 +1742,17 @@
   {
     "youtube_id": "ejUBmtyUTTI",
     "title": "뿅뿅☆ 핑키업 #PINKYUP #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 55827
@@ -1242,8 +1760,21 @@
   {
     "youtube_id": "5E_0nuDNnkM",
     "title": "[방구석 여기서요?] 다영 DAYOUNG - What's a girl to do | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "kang-yejin",
+      "kim-nakyeong",
+      "kim-jeongseo",
+      "kim-hojun",
+      "cho-gyuso",
+      "kang-taehyeon",
+      "jang-daehyeon",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-06",
     "content_type": "video",
     "view_count": 159980
@@ -1251,8 +1782,12 @@
   {
     "youtube_id": "WbDsamRiF44",
     "title": "막내의 날티라..🔥 #BAD #윤수",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "chae-yunsu"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 98937
@@ -1260,8 +1795,12 @@
   {
     "youtube_id": "PPLnvJsM2Fc",
     "title": "춤 진짜 맛깔나게 추네~ #BAD #기현",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "ahn-gihyun"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 74159
@@ -1269,8 +1808,12 @@
   {
     "youtube_id": "XgvZ9UA2wXc",
     "title": "카메라 뚫리겠다..👀 #BAD #정서",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 65388
@@ -1278,8 +1821,12 @@
   {
     "youtube_id": "cosc_1uAIjY",
     "title": "He's so BAD❗️ #BAD #레노",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "yamamoto-leno"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 85369
@@ -1287,8 +1834,12 @@
   {
     "youtube_id": "bomN-Ggbrww",
     "title": "표정 미쳤는데?? #BAD #현성",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "do-hyeonsung"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 25956
@@ -1296,8 +1847,12 @@
   {
     "youtube_id": "JbWsIblIvLg",
     "title": "웃는 얼굴 사이 배드미 #BAD #환희",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "yang-hwanhee"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 33715
@@ -1305,8 +1860,12 @@
   {
     "youtube_id": "2otcA6_EJTc",
     "title": "치명력 맥스세요..🫣 #BAD #진",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "won-jin"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 129033
@@ -1314,8 +1873,12 @@
   {
     "youtube_id": "czIothUENA0",
     "title": "나쁜남자st #BAD #가람",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "lee-garam"
+    ],
     "published_date": "2026-08-06",
     "content_type": "short",
     "view_count": 30112
@@ -1323,8 +1886,17 @@
   {
     "youtube_id": "vlnz1VmufNE",
     "title": "[방구석 여기서요?] 캣츠아이 KATSEYE - PINKY UP | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-08-05",
     "content_type": "video",
     "view_count": 198095
@@ -1332,8 +1904,18 @@
   {
     "youtube_id": "DXKlvUgaleQ",
     "title": "아니 이렇게까지 즐긴다고?ㅋㅋ #ADIOS! #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyeon",
+      "jung-hyeonchang",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "ahn-gihyun"
+    ],
     "published_date": "2026-08-04",
     "content_type": "short",
     "view_count": 25659
@@ -1341,8 +1923,18 @@
   {
     "youtube_id": "0hCRBA080GY",
     "title": "걱정은 전부 다 ADIOS✨️ #ADIOS! #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyeon",
+      "jung-hyeonchang",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "ahn-gihyun"
+    ],
     "published_date": "2026-08-04",
     "content_type": "short",
     "view_count": 26969
@@ -1350,8 +1942,18 @@
   {
     "youtube_id": "wWbAq4shI7Y",
     "title": "젊음은 가 아픔도 지나가~ #ADIOS! #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyeon",
+      "jung-hyeonchang",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "ahn-gihyun"
+    ],
     "published_date": "2026-08-04",
     "content_type": "short",
     "view_count": 21826
@@ -1359,17 +1961,38 @@
   {
     "youtube_id": "6MtXkcmdu5E",
     "title": "에이티즈 ATEEZ - BAD | Dance Practice",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-04",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 265812
   },
   {
     "youtube_id": "K7V5gtB7WrY",
     "title": "[방구석 여기서요?] 보이넥스트도어 BOYNEXTDOOR - ADIOS | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyeon",
+      "jung-hyeonchang",
+      "yang-hwanhee",
+      "cho-gyuso",
+      "ahn-gihyun"
+    ],
     "published_date": "2026-08-04",
     "content_type": "video",
     "view_count": 55111
@@ -1377,8 +2000,19 @@
   {
     "youtube_id": "7G6tvHLX0-Y",
     "title": "이번에 쫌 이 갈았는데?🕶 #BAD #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-04",
     "content_type": "short",
     "view_count": 435970
@@ -1386,8 +2020,17 @@
   {
     "youtube_id": "OmnMD-yal7c",
     "title": "AB어택☆ #LOVEATTACK #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 30827
@@ -1395,8 +2038,17 @@
   {
     "youtube_id": "VSzAY21Vhog",
     "title": "혹시 아트비트 아시나요? #LOVEATTACK #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 39420
@@ -1404,8 +2056,17 @@
   {
     "youtube_id": "e-MVS1BsdOs",
     "title": "파트 분배 오이쉬에~ #LOVEATTACK #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 25551
@@ -1413,8 +2074,20 @@
   {
     "youtube_id": "TIaI2wJToNY",
     "title": "VILLIAN이 왔다~ #BAD #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ",
+      "여기서요?"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 76714
@@ -1422,8 +2095,20 @@
   {
     "youtube_id": "BZd8rLtreHs",
     "title": "북부대공 느낌 미쳤다고 #BAD #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ",
+      "여기서요?"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 59840
@@ -1431,8 +2116,20 @@
   {
     "youtube_id": "USAwCa7YnLE",
     "title": "GO BAD!! #BAD #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ",
+      "여기서요?"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-03",
     "content_type": "short",
     "view_count": 53352
@@ -1440,8 +2137,17 @@
   {
     "youtube_id": "XQ7rEQA2aVM",
     "title": "[방구석 여기서요?] 리센느 RESCENE - LOVE ATTACK | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2026-08-03",
     "content_type": "video",
     "view_count": 75905
@@ -1449,8 +2155,20 @@
   {
     "youtube_id": "bTPod-TGU38",
     "title": "[여기서요?] 에이티즈 ATEEZ - BAD | 커버댄스 Dance Cover @홍대",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ",
+      "여기서요?"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "yang-hwanhee",
+      "ahn-gihyun",
+      "yamamoto-leno",
+      "chae-yunsu",
+      "won-jin",
+      "do-hyeonsung",
+      "kim-jeongseo"
+    ],
     "published_date": "2026-08-03",
     "content_type": "video",
     "view_count": 920796
@@ -1458,8 +2176,18 @@
   {
     "youtube_id": "CvqY04SC6vA",
     "title": "춤 실력이 어디까지 느는 거야?? #Doyourdance #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyeon",
+      "hwang-jiho",
+      "park-seongmin",
+      "jang-daehyeon"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 20055
@@ -1467,8 +2195,18 @@
   {
     "youtube_id": "zEZ18F9S1kg",
     "title": "여기 춤을 너무 잘 살리네🤟🏻 #Doyourdance #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyeon",
+      "hwang-jiho",
+      "park-seongmin",
+      "jang-daehyeon"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 30647
@@ -1476,8 +2214,15 @@
   {
     "youtube_id": "XQW-txDptk0",
     "title": "그래서 누가 선배인데? | 아트비트 본편 EP.01 | ATEEZ - BAD",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ",
+      "아트비트 본편"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "kim-jeongseo",
+      "won-jin"
+    ],
     "published_date": "2026-08-02",
     "content_type": "video",
     "view_count": 29184
@@ -1485,8 +2230,18 @@
   {
     "youtube_id": "OlxVnkTIgsY",
     "title": "왜 겁 먹어? 씹고 뱉지~ #Doyourdance #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyeon",
+      "hwang-jiho",
+      "park-seongmin",
+      "jang-daehyeon"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 15615
@@ -1494,8 +2249,17 @@
   {
     "youtube_id": "Ku0rqcIeBnA",
     "title": "인간 구미호 등장👀 #Gabriela #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "jung-yujin",
+      "lee-yejin",
+      "aoki-yuka"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 59646
@@ -1503,8 +2267,17 @@
   {
     "youtube_id": "9Uy8FgIwVXU",
     "title": "손풍기 칼군무 쾌감 미쳤다☆ #Gabriela #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "jung-yujin",
+      "lee-yejin",
+      "aoki-yuka"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 38808
@@ -1512,8 +2285,17 @@
   {
     "youtube_id": "Y3usKv_FDcM",
     "title": "안무도 되게 미드같다🔥 #Gabriela #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "jung-yujin",
+      "lee-yejin",
+      "aoki-yuka"
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 38789
@@ -1521,8 +2303,18 @@
   {
     "youtube_id": "Tu0tk1PxnW8",
     "title": "[방구석 여기서요?] 라이즈 RIIZE - Do your dance | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyeon",
+      "hwang-jiho",
+      "park-seongmin",
+      "jang-daehyeon"
+    ],
     "published_date": "2026-08-02",
     "content_type": "video",
     "view_count": 54110
@@ -1530,8 +2322,17 @@
   {
     "youtube_id": "S92yTz-ZysY",
     "title": "[방구석 여기서요?] 캣츠아이 KATSEYE - Gabriela | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "lee-jeonghee",
+      "jung-yujin",
+      "lee-yejin",
+      "aoki-yuka"
+    ],
     "published_date": "2026-08-02",
     "content_type": "video",
     "view_count": 330413
@@ -1539,8 +2340,18 @@
   {
     "youtube_id": "uQvLwkOcKHc",
     "title": "힙합 컨셉 찰떡멤만 모았을 때🕶 #똑똑똑 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yejin",
+      "jung-gyeolgyeong",
+      "lee-wina",
+      "lee-jeonghee",
+      "kim-nakyeong",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 30771
@@ -1548,8 +2359,18 @@
   {
     "youtube_id": "e7WObBeKG8Y",
     "title": "We gon knock💥 #똑똑똑 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yejin",
+      "jung-gyeolgyeong",
+      "lee-wina",
+      "lee-jeonghee",
+      "kim-nakyeong",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 39200
@@ -1557,8 +2378,18 @@
   {
     "youtube_id": "CFCDitAb7II",
     "title": "똑똑똑👐🏻 저희 왔어요~ #똑똑똑 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yejin",
+      "jung-gyeolgyeong",
+      "lee-wina",
+      "lee-jeonghee",
+      "kim-nakyeong",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 41041
@@ -1566,8 +2397,17 @@
   {
     "youtube_id": "PpzaI6Iuh5w",
     "title": "Who's your bias? #It'sMe  #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "kim-soeun",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 93516
@@ -1575,8 +2415,17 @@
   {
     "youtube_id": "_GZ6Rqtl0mU",
     "title": "Hey~ just say I'm your fave! #It'sMe  #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "kim-soeun",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 62407
@@ -1584,8 +2433,17 @@
   {
     "youtube_id": "lkiqX6b8oGo",
     "title": "입술 앙~ #It'sMe  #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "kim-soeun",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "short",
     "view_count": 34393
@@ -1593,8 +2451,18 @@
   {
     "youtube_id": "0dX90vqALv0",
     "title": "[방구석 여기서요?] 보이넥스트도어 BOYNEXTDOOR - 똑똑똑 | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "lee-yejin",
+      "jung-gyeolgyeong",
+      "lee-wina",
+      "lee-jeonghee",
+      "kim-nakyeong",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "video",
     "view_count": 133720
@@ -1602,8 +2470,17 @@
   {
     "youtube_id": "1yzoeOcBpAg",
     "title": "[방구석 여기서요?] 아일릿 ILLIT - It's Me | 커버댄스 Dance Cover",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT",
+      "방구석 여기서요? S23"
+    ],
+    "tagged_members": [
+      "kim-soeun",
+      "won-hyegyeong",
+      "cho-yuna",
+      "aoki-yuka",
+      "won-seoa"
+    ],
     "published_date": "2026-08-01",
     "content_type": "video",
     "view_count": 132646

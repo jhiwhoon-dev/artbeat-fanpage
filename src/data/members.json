@@ -1,5 +1,33 @@
 [
   {
+    "id": "kim-junseok",
+    "name": "김준석",
+    "name_en": "Junseok Kim",
+    "birth_date": "1982-02-12",
+    "gender": "M",
+    "role": "Director",
+    "unit": [],
+    "status": "active",
+    "joined_date": "2016-03-08",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2016-03-08",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 창립자이자 감독이다. 현재는 대표직을 맡고 있지만 감독 역할 또한 수행한다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ab.junseok/"
+      ],
+      "threads": [
+        "https://www.threads.com/@ab.junseok"
+      ]
+    }
+  },
+  {
     "id": "yun-jihong",
     "name": "윤지홍",
     "name_en": "Jihong Yun",
@@ -363,7 +391,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A3Be"
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -397,7 +425,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A4Be"
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -425,7 +453,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A5Be"
+      "A2Be"
     ],
     "status": "military",
     "joined_date": "2021-08-03",
@@ -453,7 +481,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A6Be"
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2021-08-03",
@@ -484,7 +512,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A7Be"
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2022-02-18",
@@ -518,7 +546,7 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A8Be"
+      "A2Be"
     ],
     "status": "withdrawn",
     "joined_date": "2022-04-13",
@@ -568,15 +596,15 @@
     }
   },
   {
-    "id": "ahn-gihyeon",
+    "id": "ahn-gihyun",
     "name": "안기현",
-    "name_en": "Gihyeon Ahn",
+    "name_en": "Gihyun Ahn",
     "birth_date": "2002-11-09",
     "gender": "M",
     "role": "Dancer",
     "unit": [
       "AB PROJECT",
-      "A8Be"
+      "A2Be"
     ],
     "status": "active",
     "joined_date": "2023-05-22",
@@ -632,9 +660,9 @@
     }
   },
   {
-    "id": "do-hyeonseong",
+    "id": "do-hyeonsung",
     "name": "도현성",
-    "name_en": "Hyeonseong Do",
+    "name_en": "Hyeonsung Do",
     "birth_date": "1999-05-11",
     "gender": "M",
     "role": "Dancer",
@@ -659,9 +687,9 @@
     }
   },
   {
-    "id": "yang-hwanhui",
+    "id": "yang-hwanhee",
     "name": "양환희",
-    "name_en": "Hwanhui Yang",
+    "name_en": "Hwanhee Yang",
     "birth_date": "2004-04-04",
     "gender": "M",
     "role": "Dancer",
@@ -866,9 +894,9 @@
     }
   },
   {
-    "id": "yamamoto-reno",
+    "id": "yamamoto-leno",
     "name": "야마모토 레노",
-    "name_en": "Reno Yamamoto",
+    "name_en": "Leno Yamamoto",
     "birth_date": "2000-10-20",
     "gender": "M",
     "role": "Dancer",
@@ -1527,9 +1555,9 @@
     }
   },
   {
-    "id": "yoo-ka",
-    "name": "유카",
-    "name_en": "Ka Yoo",
+    "id": "aoki-yuka",
+    "name": "아오키 유카",
+    "name_en": "Yuka Aoki",
     "birth_date": "2003-10-19",
     "gender": "F",
     "role": "Dancer",
@@ -1545,7 +1573,7 @@
         "left": null
       }
     ],
-    "photo_filename": "yoo-ka.jpg",
+    "photo_filename": "aoki-yuka.jpg",
     "bio": "댄스 크루 ARTBEAT의 멤버이자, PRODUCE 101 JAPAN THE GIRLS의 참가자.",
     "sns": {
       "instagram": [
@@ -1661,9 +1689,9 @@
     }
   },
   {
-    "id": "kim-nagyeong",
+    "id": "kim-nakyeong",
     "name": "김나경",
-    "name_en": "Nagyeong Kim",
+    "name_en": "Nakyeong Kim",
     "birth_date": "2003-10-24",
     "gender": "F",
     "role": "Dancer",
@@ -1778,9 +1806,9 @@
     }
   },
   {
-    "id": "lee-jeonghui",
+    "id": "lee-jeonghee",
     "name": "이정희",
-    "name_en": "Jeonghui Lee",
+    "name_en": "Jeonghee Lee",
     "birth_date": "2000-12-22",
     "gender": "F",
     "role": "Dancer",
@@ -1898,9 +1926,9 @@
     }
   },
   {
-    "id": "lee-yunjae",
+    "id": "lee-yoonjae",
     "name": "이윤재",
-    "name_en": "Yunjae Lee",
+    "name_en": "Yoonjae Lee",
     "birth_date": "2005-03-09",
     "gender": "F",
     "role": "Dancer",
@@ -2076,7 +2104,7 @@
   },
   {
     "id": "gawoo",
-    "name": "여가우",
+    "name": "가우",
     "name_en": "Gawoo",
     "birth_date": "2001-00-00",
     "gender": "F",

@@ -4,7 +4,8 @@
 // 3) 기존 videos.json과 병합한다.
 //    - 이미 있던 영상: view_count만 갱신, content_type은 없을 때만 채움,
 //      covered_group / tagged_members 등 손으로 넣은 값은 절대 안 건드림
-//    - 새로 발견된 영상: covered_group: [] / tagged_members: [] 로 새로 추가 (수동 태깅 필요)
+//    - 새로 발견된 영상: 제목+설명란을 스캔해서 covered_group / tagged_members를
+//      "자동 추천"으로 채워 넣음 (틀릴 수 있으니 꼭 검수 필요)
 
 import fs from "node:fs";
 import path from "node:path";
@@ -13,11 +14,46 @@ const CHANNEL_ID = "UCgZlBRLRB1-0l-qL9BkecLQ"; // ARTBEAT (@artbeat.official)
 const UPLOADS_PLAYLIST_ID = CHANNEL_ID.replace(/^UC/, "UU");
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const VIDEOS_PATH = path.join(process.cwd(), "src", "data", "videos.json");
+const MEMBERS_PATH = path.join(process.cwd(), "src", "data", "members.json");
+const GROUPS_PATH = path.join(process.cwd(), "src", "data", "covered_groups.json");
 const SHORTS_MAX_SECONDS = 180;
 
 if (!API_KEY) {
   console.error("환경변수 YOUTUBE_API_KEY가 없습니다. GitHub Secret 설정을 확인하세요.");
   process.exit(1);
+}
+
+const members = JSON.parse(fs.readFileSync(MEMBERS_PATH, "utf-8"));
+const coveredGroups = JSON.parse(fs.readFileSync(GROUPS_PATH, "utf-8"));
+
+// 대소문자 무시 + 공백 전부 제거 후 비교 ("New Jeans" === "newjeans")
+function normalize(s) {
+  return s.toLowerCase().replace(/\s+/g, "");
+}
+
+// 제목+설명란 텍스트에서 covered_groups.json에 등록된 그룹을 찾아서 추천
+function suggestCoveredGroups(text) {
+  const norm = normalize(text);
+  const found = [];
+  for (const g of coveredGroups) {
+    const candidates = [g.name, ...(g.aliases ?? [])];
+    if (candidates.some((c) => norm.includes(normalize(c)))) {
+      found.push(g.name);
+    }
+  }
+  return found;
+}
+
+// 제목+설명란 텍스트에서 우리 멤버(members.json) 이름이 등장하는지 찾아서 추천
+// 주의: 원곡 아이돌 멤버 실명이 우연히 우리 멤버 이름과 같으면 오탐 가능 (검수 필요)
+function suggestTaggedMembers(text) {
+  const found = [];
+  for (const m of members) {
+    if (m.name && text.includes(m.name)) {
+      found.push(m.id);
+    }
+  }
+  return found;
 }
 
 function parseDurationToSeconds(iso) {
@@ -107,27 +143,56 @@ async function main() {
 
   let addedCount = 0;
   let updatedCount = 0;
+  let backfilledCount = 0;
 
   const merged = playlistItems.map((item) => {
     const id = item.snippet.resourceId.videoId;
     const d = details[id];
     const prev = existingMap[id];
+    const description = item.snippet.description ?? "";
+    const text = `${item.snippet.title}\n${description}`;
 
     if (prev) {
       updatedCount++;
+
+      // 기존 영상이라도 covered_group/tagged_members가 "비어있을 때만" 자동 추천으로 채움.
+      // 이미 뭔가 채워져 있으면(직접 태깅했든, 예전에 추천됐든) 절대 안 건드림.
+      const hadEmptyGroup = !prev.covered_group || prev.covered_group.length === 0;
+      const hadEmptyMembers = !prev.tagged_members || prev.tagged_members.length === 0;
+      const coveredGroup = hadEmptyGroup ? suggestCoveredGroups(text) : prev.covered_group;
+      const taggedMembers = hadEmptyMembers ? suggestTaggedMembers(text) : prev.tagged_members;
+
+      if ((hadEmptyGroup && coveredGroup.length > 0) || (hadEmptyMembers && taggedMembers.length > 0)) {
+        backfilledCount++;
+        console.log(`  [기존 영상 자동 보완] ${prev.title}`);
+        if (hadEmptyGroup && coveredGroup.length > 0) console.log(`    그룹: ${coveredGroup.join(', ')}`);
+        if (hadEmptyMembers && taggedMembers.length > 0) console.log(`    멤버: ${taggedMembers.join(', ')}`);
+      }
+
       return {
-        ...prev, // covered_group, tagged_members, title 등 기존 값 전부 유지
+        ...prev, // title, published_date 등 나머지는 그대로 유지
+        covered_group: coveredGroup,
+        tagged_members: taggedMembers,
         view_count: d ? d.view_count : prev.view_count ?? 0,
-        content_type: prev.content_type ?? (d ? d.content_type : "video"), // 이미 있으면 안 건드림
+        content_type: prev.content_type ?? (d ? d.content_type : "video"),
       };
     }
 
     addedCount++;
+    const suggestedGroups = suggestCoveredGroups(text);
+    const suggestedMembers = suggestTaggedMembers(text);
+
+    if (suggestedGroups.length > 0 || suggestedMembers.length > 0) {
+      console.log(`  [자동 추천] ${item.snippet.title}`);
+      if (suggestedGroups.length > 0) console.log(`    그룹: ${suggestedGroups.join(', ')}`);
+      if (suggestedMembers.length > 0) console.log(`    멤버: ${suggestedMembers.join(', ')}`);
+    }
+
     return {
       youtube_id: id,
       title: item.snippet.title,
-      covered_group: [], // 수동 태깅 필요
-      tagged_members: [], // 수동 태깅 필요
+      covered_group: suggestedGroups, // 자동 추천됨 — 꼭 검수 필요
+      tagged_members: suggestedMembers, // 자동 추천됨 — 꼭 검수 필요
       published_date: item.snippet.publishedAt.slice(0, 10),
       content_type: d ? d.content_type : "video",
       view_count: d ? d.view_count : 0,
@@ -135,7 +200,7 @@ async function main() {
   });
 
   fs.writeFileSync(VIDEOS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf-8");
-  console.log(`\n완료: 신규 ${addedCount}개, 기존 갱신 ${updatedCount}개, 총 ${merged.length}개`);
+  console.log(`\n완료: 신규 ${addedCount}개, 기존 갱신 ${updatedCount}개(그중 자동 보완 ${backfilledCount}개), 총 ${merged.length}개`);
 }
 
 main().catch((err) => {
