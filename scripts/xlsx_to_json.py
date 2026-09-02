@@ -25,7 +25,6 @@ SURNAME_OVERRIDES = {
     '남': 'nam', '심': 'shim', '노': 'noh', '하': 'ha', '곽': 'kwak',
     '차': 'cha', '주': 'joo', '우': 'woo', '구': 'koo', '나': 'na',
     '민': 'min', '류': 'ryu', '진': 'jin', '천': 'chun', '강': 'kang',
-    '희': 'hee',
 }
 
 def romanize_char(ch):
@@ -139,6 +138,7 @@ for _, row in df.iterrows():
         "id": member_id,
         "name": name,
         "name_en": clean(row.get("name_en")) or derive_name_en(member_id),
+        "nickname": clean(row.get("nickname")),  # 활동명(있으면 태깅 시 본명 대신 이걸로 매칭)
         "birth_date": parse_date(row.get("date")),
         "gender": clean(row.get("gender")),
         "role": clean(row.get("role")),

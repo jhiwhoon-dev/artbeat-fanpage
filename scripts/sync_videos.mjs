@@ -69,10 +69,15 @@ function suggestCoveredGroups(text) {
 
 // 크레딧에는 보통 성 없이 이름만 적혀있는 경우가 많음 (예: "김소은" -> "소은 SoEun")
 // 그래서 전체 이름뿐 아니라, 성 한 글자를 뗀 이름도 같이 후보로 확인한다.
-function nameCandidates(fullName) {
-  const candidates = [fullName];
-  if (fullName.length > 2) {
-    candidates.push(fullName.slice(1));
+// 단, 활동명(nickname)이 따로 있는 멤버는 본명 대신 활동명으로만 매칭한다.
+// (본명이 다른 멤버와 겹쳐서 활동명으로 개명한 경우, 본명으로 매칭하면 오탐이 나기 때문)
+function nameCandidates(member) {
+  if (member.nickname) {
+    return [member.nickname];
+  }
+  const candidates = [member.name];
+  if (member.name.length > 2) {
+    candidates.push(member.name.slice(1));
   }
   return candidates;
 }
@@ -83,7 +88,7 @@ function suggestTaggedMembers(text) {
   const found = [];
   for (const m of members) {
     if (!m.name) continue;
-    if (nameCandidates(m.name).some((c) => text.includes(c))) {
+    if (nameCandidates(m).some((c) => text.includes(c))) {
       found.push(m.id);
     }
   }
