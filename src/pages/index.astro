@@ -44,7 +44,7 @@ const upcomingSchedule = [...schedule]
   })
   .slice(0, 3);
 
-const previewMembers = members; // 오디션 포함 전체 멤버
+const previewMembers = members.filter((m) => m.status !== 'withdrawn'); // 오디션 포함, 탈퇴 멤버는 제외
 // 카드 수가 몇 명이든 이동 속도(초당 픽셀)가 일정하게 유지되도록 duration을 인원수에 비례해서 계산
 const marqueeDuration = `${previewMembers.length * 6}s`;
 

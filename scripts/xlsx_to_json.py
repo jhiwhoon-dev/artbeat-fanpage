@@ -4,8 +4,11 @@ import re
 import math
 from pathlib import Path
 
-SRC = "d:/ARTBEAT/artbeat_claude.xlsx"
-OUT = "d:/ARTBEAT/artbeat-site/src/data/members.json"
+# 이 스크립트 파일(scripts/xlsx_to_json.py) 기준으로 프로젝트 루트를 자동 계산.
+# 그래서 어떤 PC/환경에서 돌리든 경로를 수동으로 안 고쳐도 됩니다.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent  # scripts/ 의 부모 = 프로젝트 루트
+SRC = PROJECT_ROOT.parent / "artbeat_claude.xlsx"       # 프로젝트 루트 바로 위(d:/ARTBEAT/)에 엑셀이 있다고 가정
+OUT = PROJECT_ROOT / "src" / "data" / "members.json"
 
 # ---------- 한글 -> 로마자 (id 자동 생성용) ----------
 CHO = ['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h']
@@ -22,7 +25,6 @@ SURNAME_OVERRIDES = {
     '남': 'nam', '심': 'shim', '노': 'noh', '하': 'ha', '곽': 'kwak',
     '차': 'cha', '주': 'joo', '우': 'woo', '구': 'koo', '나': 'na',
     '민': 'min', '류': 'ryu', '진': 'jin', '천': 'chun', '강': 'kang',
-    '희': 'hee',
 }
 
 def romanize_char(ch):
@@ -71,6 +73,33 @@ def split_list(v):
         return []
     return [p.strip() for p in str(v).split(";") if p.strip()]
 
+def derive_name_en(member_id):
+    """id(예: kang-minji)에서 영문 표기(예: Minji Kang) 자동 유추 (성-이름 순서를 뒤집음)"""
+    if not member_id:
+        return None
+    parts = member_id.split("-")
+    return " ".join(p.capitalize() for p in reversed(parts))
+
+def build_periods(row, columns):
+    """joined_date/left_date(번호 붙은 것 포함)를 묶어서 활동 기간 배열로 변환.
+    실제 컬럼명: joined_date(1번째는 번호 없음), left_date1, joined_date2, left_date2, ...
+    예: joined_date, left_date1, joined_date2, left_date2 -> [{joined,left}, {joined,left}]"""
+    joined_cols = sorted(
+        [c for c in columns if re.fullmatch(r"joined_date\d*", c)],
+        key=lambda c: int(re.sub(r"\D", "", c) or 1)
+    )
+
+    periods = []
+    for jc in joined_cols:
+        n = re.sub(r"\D", "", jc) or "1"
+        lc = f"left_date{n}"  # 1번째 기간도 left_date1 (번호 있음)
+        joined = parse_date(row.get(jc))
+        left = parse_date(row.get(lc)) if lc in columns else None
+        if joined is not None:
+            periods.append({"joined": joined, "left": left})
+
+    return periods
+
 # ---------- 변환 ----------
 df = pd.read_excel(SRC, sheet_name="artbeat_member", header=1)
 df = df.drop(columns=[c for c in df.columns if str(c).startswith("Unnamed")])
@@ -103,24 +132,27 @@ for _, row in df.iterrows():
         if urls:
             sns[platform] = urls
 
+    periods = build_periods(row, df.columns)
+
     member = {
         "id": member_id,
         "name": name,
+        "name_en": clean(row.get("name_en")) or derive_name_en(member_id),
         "birth_date": parse_date(row.get("date")),
         "gender": clean(row.get("gender")),
         "role": clean(row.get("role")),
         "unit": split_list(row.get("unit")),
         "status": clean(row.get("status")),
-        "joined_date": parse_date(row.get("joined_date")),
-        "rejoined_date": parse_date(row.get("rejoined_date")),
-        "left_date": parse_date(row.get("left_date")),
+        "joined_date": periods[0]["joined"] if periods else None,
+        "left_date": periods[-1]["left"] if periods else None,
+        "membership_periods": periods,
         "photo_filename": clean(row.get("photo_filename")),
         "bio": clean(row.get("bio")),
         "sns": sns,
     }
     members.append(member)
 
-Path("/mnt/user-data/outputs").mkdir(parents=True, exist_ok=True)
+OUT.parent.mkdir(parents=True, exist_ok=True)
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(members, f, ensure_ascii=False, indent=2)
 

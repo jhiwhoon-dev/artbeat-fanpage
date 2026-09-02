@@ -29,6 +29,25 @@ const taggedVideos = allVideos
   .filter((v) => (v.tagged_members ?? []).includes(member.id))
   .sort((a, b) => b.published_date.localeCompare(a.published_date));
 
+// 여러 활동 기간(membership_periods)을 합산해 총 활동일수를 계산
+// (공백 기간 - 탈퇴~재합류 사이 - 은 제외하고 계산)
+function calcActiveDays(periods) {
+  if (!periods || periods.length === 0) return 0;
+  const now = new Date();
+  let totalMs = 0;
+  for (const p of periods) {
+    const start = new Date(p.joined);
+    const end = p.left ? new Date(p.left) : now;
+    if (!isNaN(start) && !isNaN(end)) totalMs += Math.max(0, end - start);
+  }
+  return Math.floor(totalMs / 86400000);
+}
+
+const periods = member.membership_periods ?? [];
+const activeDays = calcActiveDays(periods);
+const anniversaryYears = Math.floor(activeDays / 365);
+const isCurrentlyActive = periods.length > 0 && periods[periods.length - 1].left === null;
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Layout title={member.name}>
@@ -47,9 +66,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     )}
 
     <dl class="meta">
-      <dt>가입일</dt>
-      <dd>{member.joined_date ?? '-'}</dd>
+      <div class="meta-row"><dt>가입일</dt><dd>{member.joined_date ?? '-'}</dd></div>
+      {periods.length > 1 && (
+        <div class="meta-row"><dt>재합류일</dt><dd>{periods[periods.length - 1].joined}</dd></div>
+      )}
+      {member.status === 'withdrawn' && member.left_date && (
+        <div class="meta-row"><dt>탈퇴일</dt><dd>{member.left_date}</dd></div>
+      )}
     </dl>
+
+    {activeDays > 0 && (
+      <p class="tenure">
+        {isCurrentlyActive
+          ? <>소속일로부터 <strong>+{activeDays}일</strong>, {anniversaryYears > 0 ? `${anniversaryYears}주년` : '1주년 미만'}</>
+          : <>총 활동 <strong>{activeDays}일</strong> ({anniversaryYears > 0 ? `${anniversaryYears}주년 분` : '1년 미만'})</>
+        }
+      </p>
+    )}
 
     {Object.keys(member.sns).length > 0 && (
       <div class="sns">
@@ -105,12 +138,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
   .meta {
     display: flex;
-    gap: 8px;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    column-gap: 24px;
     font-size: 14px;
     margin-bottom: 32px;
   }
+  .meta-row { display: flex; gap: 6px; }
   .meta dt { color: var(--muted); }
   .meta dd { margin: 0; }
+  .tenure {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--muted);
+    background: var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    margin-bottom: 32px;
+  }
+  .tenure strong { color: var(--ink); }
   .sns {
     display: flex;
     flex-direction: column;

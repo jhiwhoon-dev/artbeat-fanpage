@@ -3,32 +3,87 @@ import Layout from '../layouts/Layout.astro';
 import MemberCard from '../components/MemberCard.astro';
 import members from '../data/members.json';
 
-// 오디션 중인 멤버는 별도 섹션으로 분리
+const activeMembers = members.filter((m) => m.status !== 'audition' && m.status !== 'withdrawn');
 const auditionMembers = members.filter((m) => m.status === 'audition');
-const mainMembers = members.filter((m) => m.status !== 'audition');
+const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
 ---
 <Layout title="Members">
   <div class="page-wrap">
     <p class="eyebrow">ARTBEAT</p>
     <h1>Member<span>s</span></h1>
-    <div class="member-grid">
-      {mainMembers.map((m) => <MemberCard member={m} />)}
-    </div>
-    <footer>총 {mainMembers.length}명</footer>
 
-    {auditionMembers.length > 0 && (
-      <div class="audition-section">
-        <h2>오디션 진행중</h2>
-        <div class="member-grid">
-          {auditionMembers.map((m) => <MemberCard member={m} />)}
-        </div>
-      </div>
-    )}
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-group="current">현재 멤버</button>
+      {auditionMembers.length > 0 && (
+        <button class="filter-btn" data-group="audition">오디션</button>
+      )}
+      {withdrawnMembers.length > 0 && (
+        <button class="filter-btn" data-group="withdrawn">탈퇴 멤버</button>
+      )}
+    </div>
+
+    <div class="member-grid" id="grid">
+      {activeMembers.map((m) => (
+        <div class="grid-item" data-group="current"><MemberCard member={m} /></div>
+      ))}
+      {auditionMembers.map((m) => (
+        <div class="grid-item" data-group="audition" hidden><MemberCard member={m} /></div>
+      ))}
+      {withdrawnMembers.map((m) => (
+        <div class="grid-item" data-group="withdrawn" hidden><MemberCard member={m} /></div>
+      ))}
+    </div>
+
+    <footer id="count">총 {activeMembers.length}명</footer>
   </div>
 </Layout>
 
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const items = document.querySelectorAll<HTMLDivElement>('.grid-item');
+  const countEl = document.getElementById('count');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const group = btn.dataset.group;
+      let visibleCount = 0;
+      items.forEach((item) => {
+        const show = item.dataset.group === group;
+        item.hidden = !show;
+        if (show) visibleCount++;
+      });
+
+      if (countEl) countEl.textContent = `총 ${visibleCount}명`;
+    });
+  });
+</script>
+
 <style>
   .page-wrap { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  .filter-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .filter-btn:hover { border-color: var(--muted); color: var(--ink); }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
   .member-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -38,14 +93,5 @@ const mainMembers = members.filter((m) => m.status !== 'audition');
     margin-top: 40px;
     font-size: 13px;
     color: var(--muted);
-  }
-  .audition-section {
-    margin-top: 40px;
-    padding-top: 40px;
-    border-top: 1px solid var(--ink);
-  }
-  .audition-section h2 {
-    font-size: 20px;
-    margin: 0 0 24px;
   }
 </style>
