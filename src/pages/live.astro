@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import allVideos from '../data/videos.json';
 import members from '../data/members.json';
+import liveStatus from '../data/live_status.json';
 
 // Shorts, Live는 별도 페이지에서 다루므로 여기서는 video만
 // (예전 is_short 필드로만 표시된 데이터도 계속 인식되도록 fallback 처리)
@@ -22,6 +23,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <div class="wrap">
     <p class="eyebrow">ARTBEAT</p>
     <h1>Live</h1>
+
+    {liveStatus.is_live && (
+      <a
+        class="live-banner"
+        href={`https://www.youtube.com/watch?v=${liveStatus.video_id}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="live-banner-dot" />
+        <span class="live-banner-label">LIVE NOW</span>
+        <span class="live-banner-title">{liveStatus.title}</span>
+      </a>
+    )}
 
     <div class="controls">
       <div class="filters" id="filters">
@@ -122,6 +136,40 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 </script>
 
 <style>
+  .live-banner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    border: 1px solid var(--live);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--ink);
+    background: rgba(255, 59, 48, 0.08);
+  }
+  .live-banner-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--live);
+    flex-shrink: 0;
+    animation: live-pulse 1.4s ease-in-out infinite;
+  }
+  .live-banner-label {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 14px;
+    color: var(--live);
+    flex-shrink: 0;
+  }
+  .live-banner-title {
+    font-size: 14px;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .controls {
     display: flex;
     justify-content: space-between;

@@ -4,16 +4,29 @@ interface Props {
 }
 const { title } = Astro.props;
 
+import liveStatus from '../data/live_status.json';
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Videos는 하위에 Video/Shorts/Live를 모아둔 드롭다운으로 구성
 const navLinks = [
   { href: base || '/', label: 'About' },
   { href: `${base}/members`, label: 'Members' },
-  { href: `${base}/videos`, label: 'Videos' },
-  { href: `${base}/shorts`, label: 'Shorts' },
-  { href: `${base}/live`, label: 'Live' },
+  {
+    label: 'Videos',
+    href: `${base}/videos`,
+    children: [
+      { href: `${base}/videos`, label: 'Video' },
+      { href: `${base}/shorts`, label: 'Shorts' },
+      { href: `${base}/live`, label: 'Live', live: true },
+    ],
+  },
   { href: `${base}/schedule`, label: 'Schedule' },
   { href: `${base}/history`, label: 'History' },
 ];
+
+// 하단 네비게이션은 드롭다운 없이 전체 페이지를 한 줄로 다 보여주는 게 더 유용해서 평탄화
+const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -27,7 +40,27 @@ const navLinks = [
 <body>
   <nav class="topnav">
     <div class="topnav-inner">
-      {navLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+      {navLinks.map((link) =>
+        link.children ? (
+          <div class="nav-dropdown">
+            <a href={link.href}>
+              {link.label}
+              <span class="chevron">▾</span>
+              {liveStatus.is_live && <span class="live-dot" aria-label="LIVE" />}
+            </a>
+            <div class="dropdown-panel">
+              {link.children.map((child) => (
+                <a href={child.href}>
+                  {child.label}
+                  {child.live && liveStatus.is_live && <span class="live-dot" aria-label="LIVE" />}
+                </a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a href={link.href}>{link.label}</a>
+        )
+      )}
     </div>
   </nav>
   <slot />
@@ -36,24 +69,29 @@ const navLinks = [
     <div class="footer-nav-inner">
       <p class="footer-brand">ARTBEAT</p>
       <nav class="footer-links">
-        {navLinks.map((link) => <a href={link.href}>{link.label}</a>)}
+        {footerLinks.map((link) => (
+          <a href={link.href}>
+            {link.label}
+            {link.live && liveStatus.is_live && <span class="live-dot" aria-label="LIVE" />}
+          </a>
+        ))}
       </nav>
     </div>
   </footer>
 
   <footer class="disclaimer">
     <p>
-      <strong>안내</strong><br /><br />
-      본 웹사이트는 순수한 팬심을 바탕으로 1인 개발자가 제작한 비공식 팬 페이지로, 어떠한 상업적 수익도 창출하지 않는 비영리 목적으로 운영됩니다.<br />본 사이트는 아티스트의 공식 소속사 및 채널과 직접적인 관련이 없습니다.<br /><br />
-      또한, 본 페이지는 YouTube의 공식 API 규정을 준수하여 영상 콘텐츠를 제공하고 있습니다.<br />사이트 내에서 발생하는 모든 영상 조회수 및 관련 광고 수익은 100% 원작자(공식 채널)에게 귀속되어 아티스트의 활동에 기여합니다.<br /><br />
+      <strong>안내 및 면책 조항 (Disclaimer)</strong><br /><br />
+      본 웹사이트는 순수한 팬심을 바탕으로 1인 개발자가 제작한 비공식 팬 페이지로, 어떠한 상업적 수익도 창출하지 않는 비영리 목적으로 운영됩니다. 본 사이트는 아티스트의 공식 소속사 및 채널과 직접적인 관련이 없습니다.<br />
+      또한, 본 페이지는 YouTube의 공식 API 규정을 준수하여 영상 콘텐츠를 제공하고 있습니다. 사이트 내에서 발생하는 모든 영상 조회수 및 관련 광고 수익은 100% 원작자(공식 채널)에게 귀속되어 아티스트의 활동에 기여합니다.<br />
       시스템 오류(버그) 제보나 기타 문의 사항이 있으신 경우, 아래 이메일로 남겨주시면 감사하겠습니다. (한국어/영어 모두 가능)<br />
       문의 및 제보: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
     <hr class="disclaimer-divider" />
     <p>
-      <strong>Notice</strong><br /><br />
-      This website is an unofficial fan page created by a single developer out of pure support and admiration for the artist.<br />It is strictly a non-profit project and does not generate any commercial revenue. This site is not affiliated with the artist's official agency or management.<br /><br />
-      Furthermore, this page operates in full compliance with the official YouTube API.<br />All video views and ad revenue generated through this site are directed entirely to the original creator's official channel, directly supporting the artist.<br /><br />
+      <strong>Notice &amp; Disclaimer</strong><br /><br />
+      This website is an unofficial fan page created by a single developer out of pure support and admiration for the artist. It is strictly a non-profit project and does not generate any commercial revenue. This site is not affiliated with the artist's official agency or management.<br />
+      Furthermore, this page operates in full compliance with the official YouTube API. All video views and ad revenue generated through this site are directed entirely to the original creator's official channel, directly supporting the artist.<br />
       If you encounter any bugs or have any inquiries, please feel free to reach out via email. (Inquiries are welcome in both English and Korean.)<br />
       Contact / Bug Report: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
@@ -68,8 +106,9 @@ const navLinks = [
     --muted: #8b8a8f;
     --accent: #ffffff;
     --line: #232326;
+    --live: #ff3b30;
     /* 사이트 전체 콘텐츠 폭. 이 값 하나만 바꾸면 nav/본문/disclaimer 폭이 한 번에 같이 바뀝니다. */
-    --content-width: 1500px;
+    --content-width: 1300px;
   }
   * { box-sizing: border-box; }
   body {
@@ -80,6 +119,20 @@ const navLinks = [
     min-height: 100vh;
   }
   a { color: inherit; }
+
+  .live-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--live);
+    margin-left: 6px;
+    animation: live-pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes live-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
 
   /* 상단 네비게이션: 스크롤해도 화면에 고정 */
   .topnav {
@@ -97,7 +150,7 @@ const navLinks = [
     margin: 0 auto;
     padding: 18px 24px;
   }
-  .topnav-inner a {
+  .topnav-inner > a {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -107,7 +160,60 @@ const navLinks = [
     opacity: 0.7;
     transition: opacity 0.15s ease, color 0.15s ease;
   }
-  .topnav-inner a:hover { opacity: 1; color: var(--accent); }
+  .topnav-inner > a:hover { opacity: 1; color: var(--accent); }
+
+  .nav-dropdown { position: relative; }
+  .nav-dropdown > a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink);
+    opacity: 0.7;
+    transition: opacity 0.15s ease, color 0.15s ease;
+  }
+  .nav-dropdown > a:hover { opacity: 1; color: var(--accent); }
+  .chevron { font-size: 10px; margin-left: 4px; opacity: 0.7; }
+
+  .dropdown-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-top: 10px; /* 트리거와 패널 사이 hover 끊김 방지용 여유 */
+    min-width: 140px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s ease;
+    z-index: 200;
+  }
+  .nav-dropdown:hover .dropdown-panel,
+  .nav-dropdown:focus-within .dropdown-panel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .dropdown-panel > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--ink);
+    white-space: nowrap;
+    background: #17171a;
+    border: 1px solid var(--line);
+    border-bottom: none;
+  }
+  .dropdown-panel > a:first-child { border-radius: 8px 8px 0 0; }
+  .dropdown-panel > a:last-child { border-radius: 0 0 8px 8px; border-bottom: 1px solid var(--line); }
+  .dropdown-panel > a:hover { background: var(--line); }
 
   .wrap {
     max-width: var(--content-width);
@@ -155,6 +261,8 @@ const navLinks = [
     gap: 20px;
   }
   .footer-links a {
+    display: inline-flex;
+    align-items: center;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -171,7 +279,7 @@ const navLinks = [
     border-top: 1px solid var(--line);
   }
   .disclaimer p {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.6;
     color: var(--muted);
     margin: 0 0 8px;
