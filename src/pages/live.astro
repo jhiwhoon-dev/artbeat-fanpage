@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import allVideos from '../data/videos.json';
 import members from '../data/members.json';
 import liveStatus from '../data/live_status.json';
+import contentSeriesDict from '../data/content_series.json';
 
 function getType(v) {
   if (v.content_type) return v.content_type;
@@ -12,12 +13,17 @@ const videos = allVideos.filter((v) => getType(v) === 'live');
 
 const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
 
-// "방구석 여기서요? S23" -> 베이스 이름 "방구석 여기서요?"만 추려서 1차 목록 구성 (시즌은 2차에서 선택)
+// "방구석 여기서요? S23" -> "방구석 여기서요?", "Dance Cover MV::A2Be" -> "Dance Cover MV"
+// 시즌/하위그룹 둘 다 잘라내고 베이스 이름만 남겨서 1차 목록을 구성 (세부 선택은 2차에서)
 function seriesBase(tag) {
+  if (tag.includes('::')) return tag.split('::')[0];
   const m = tag.match(/^(.*?)\s*S(\d+)$/i);
   return m ? m[1].trim() : tag;
 }
 const allSeries = [...new Set(videos.flatMap((v) => (v.content_series ?? []).map(seriesBase)))].sort();
+
+// 시리즈별 제작 상태(active/paused/ended)를 클라이언트에 넘겨서 배지로 표시
+const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
 
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -88,6 +94,9 @@ function safeJson(obj) {
       </div>
     </div>
 
+    <!-- 선택한 콘텐츠의 제작 상태(진행중/일시중단/종료) 배지 -->
+    <div class="series-status" id="series-status" style="display:none"></div>
+
     <!-- 시즌제 콘텐츠 선택 시에만 나타나는 2차 시즌 필터 -->
     <div class="filter-panel" id="panel-season" style="display:none">
       <div class="filters" id="filters-season"></div>
@@ -102,6 +111,7 @@ function safeJson(obj) {
   <script type="application/json" id="videos-data" set:html={safeJson(videosData)} />
   <script type="application/json" id="member-map-data" set:html={safeJson(memberMap)} />
   <script type="application/json" id="base-data" set:html={safeJson(base)} />
+  <script type="application/json" id="series-status-data" set:html={safeJson(seriesStatusMap)} />
 </Layout>
 
 <script>
@@ -118,6 +128,7 @@ function safeJson(obj) {
   const DATA: VideoItem[] = JSON.parse(document.getElementById('videos-data')!.textContent!);
   const MEMBER_MAP: Record<string, string> = JSON.parse(document.getElementById('member-map-data')!.textContent!);
   const BASE: string = JSON.parse(document.getElementById('base-data')!.textContent!);
+  const SERIES_STATUS: Record<string, string> = JSON.parse(document.getElementById('series-status-data')!.textContent!);
 
   const PAGE_SIZE = 30;
   let currentPage = 1;
@@ -158,6 +169,22 @@ function safeJson(obj) {
 
   const panelSeason = document.getElementById('panel-season');
   const filtersSeason = document.getElementById('filters-season');
+  const seriesStatusEl = document.getElementById('series-status');
+
+  const STATUS_LABEL: Record<string, string> = { active: '진행중', paused: '일시중단', ended: '종료' };
+
+  function updateSeriesStatus(base: string) {
+    if (!seriesStatusEl) return;
+    const status = SERIES_STATUS[base];
+    if (activeMode !== 'series' || base === 'all' || !status) {
+      seriesStatusEl.style.display = 'none';
+      seriesStatusEl.innerHTML = '';
+      return;
+    }
+    const cls = status === 'active' ? 'status-active' : status === 'paused' ? 'status-paused' : 'status-ended';
+    seriesStatusEl.innerHTML = `<span class="status-badge ${cls}">${STATUS_LABEL[status] ?? status}</span>`;
+    seriesStatusEl.style.display = '';
+  }
 
   // 선택된 콘텐츠 베이스에 시즌(또는 하위그룹)이 있으면 버튼들을 만들어 보여줌, 없으면 숨김
   function updateSeasonPanel(base: string) {
@@ -270,6 +297,7 @@ function safeJson(obj) {
       if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
       if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
       if (panelSeason) panelSeason.style.display = 'none';
+      if (seriesStatusEl) { seriesStatusEl.style.display = 'none'; seriesStatusEl.innerHTML = ''; }
       activeSeason = null;
 
       document.querySelectorAll<HTMLInputElement>('.filter-search').forEach((input) => (input.value = ''));
@@ -289,7 +317,10 @@ function safeJson(obj) {
       btn.classList.add('active');
       activeValue = btn.dataset.value ?? 'all';
       currentPage = 1;
-      if (activeMode === 'series') updateSeasonPanel(activeValue);
+      if (activeMode === 'series') {
+        updateSeasonPanel(activeValue);
+        updateSeriesStatus(activeValue);
+      }
       render();
     });
   });
@@ -418,6 +449,19 @@ function safeJson(obj) {
     color: var(--ink);
     cursor: pointer;
   }
+
+  .series-status { margin: -4px 0 16px; }
+  .status-badge {
+    display: inline-block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    padding: 5px 14px;
+    border-radius: 999px;
+  }
+  .status-active { background: #22c55e; color: #fff; }
+  .status-paused { background: #ef4444; color: #fff; }
+  .status-ended { background: #fff; color: #0e0e10; }
 
   .count-label { font-size: 12px; color: var(--muted); margin: 0 0 20px; }
 

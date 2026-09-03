@@ -263,9 +263,9 @@
     }
   },
   {
-    "id": "park-hyeonmin",
+    "id": "park-hyunmin",
     "name": "박현민",
-    "name_en": "Hyeonmin Park",
+    "name_en": "Hyunmin Park",
     "nickname": null,
     "birth_date": "2002-06-16",
     "gender": "M",
@@ -1063,9 +1063,9 @@
     }
   },
   {
-    "id": "kwon-soyeong",
+    "id": "kwon-soyoung",
     "name": "권소영",
-    "name_en": "Soyeong Kwon",
+    "name_en": "Soyoung Kwon",
     "nickname": null,
     "birth_date": "2000-10-08",
     "gender": "F",
@@ -2422,6 +2422,310 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/sungwooni__"
+      ]
+    }
+  },
+  {
+    "id": "seol-heejeong",
+    "name": "설희정",
+    "name_en": "Heejeong Seol",
+    "nickname": null,
+    "birth_date": "2000-12-18",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2023-05-24",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2023-05-24",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sithchinggg"
+      ],
+      "youtube": [
+        "https://www.youtube.com/c/sithchinggg"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@sithchinggg1"
+      ],
+      "threads": [
+        "https://www.threads.com/@sithchinggg"
+      ]
+    }
+  },
+  {
+    "id": "shin-yerin",
+    "name": "신예린",
+    "name_en": "Yerin Shin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2024-01-31",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2024-01-31",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "lee-dabin",
+    "name": "이다빈",
+    "name_en": "Dabin Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2024-01-31",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2024-01-31",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ra.r_0310/"
+      ],
+      "threads": [
+        "https://www.threads.com/@ra.r_0310"
+      ]
+    }
+  },
+  {
+    "id": "jeong-jihye",
+    "name": "정지혜",
+    "name_en": "Jihye Jeong",
+    "nickname": null,
+    "birth_date": "2000-09-08",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT",
+      "A2Be"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2021-07-30",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2021-07-30",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sophy_spade/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@Sophyspade2000"
+      ]
+    }
+  },
+  {
+    "id": "lee-sieun",
+    "name": "이시은",
+    "name_en": "Sieun Lee",
+    "nickname": null,
+    "birth_date": "2001-05-29",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT",
+      "ARTBEAT v"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2017-07-00",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2017-07-00",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/mydy0/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@heungeun"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@mydy0"
+      ],
+      "threads": [
+        "https://www.threads.com/@mydy0"
+      ],
+      "soop": [
+        "https://www.sooplive.com/station/mydy529"
+      ]
+    }
+  },
+  {
+    "id": "park-damhee",
+    "name": "박담희",
+    "name_en": "Damhee Park",
+    "nickname": null,
+    "birth_date": "2000-06-21",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT",
+      "ARTBEAT v"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2017-08-00",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2017-08-00",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/damhee_00/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@damhee0621"
+      ]
+    }
+  },
+  {
+    "id": "kim-eunbin",
+    "name": "김은빈",
+    "name_en": "Eunbin Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2017-11-15",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2017-11-15",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "seo-jaemin",
+    "name": "서재민",
+    "name_en": "Jaemin Seo",
+    "nickname": null,
+    "birth_date": "2001-01-17",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2017-07-00",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2017-07-00",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "her-naeun",
+    "name": "허나은",
+    "name_en": "Naeun Her",
+    "nickname": null,
+    "birth_date": "1995-11-15",
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2017-11-15",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2017-11-15",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hernaeun/"
+      ]
+    }
+  },
+  {
+    "id": "choi-nara",
+    "name": "최나라",
+    "name_en": "Nara Choi",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "status": "withdrawn",
+    "joined_date": "2018-04-30",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2018-04-30",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": "ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/eden_crush/"
+      ],
+      "threads": [
+        "https://www.threads.com/@eden_crush?xmt=AQG0byObBwhR_2AV6Er5fOJIu8ebZK4yEsAVYV6-kItKQC0"
       ]
     }
   }

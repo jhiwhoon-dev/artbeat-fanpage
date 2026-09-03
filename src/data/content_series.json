@@ -25,6 +25,11 @@
     "status": "active"
   },
   {
+    "name": "AB STAGE",
+    "titleContains": ["AB STAGE"],
+    "status": "active"
+  },
+  {
     "name": "DANCE ASMR",
     "titleContains": ["DANCE ASMR"],
     "status": "ended"
@@ -109,5 +114,10 @@
     "titleContains": ["A2Be", "AB PRODUCER", "bEAT1"],
     "subgroups": ["A2Be", "AB PRODUCER", "bEAT1"],
     "status": "paused"
+  },
+  {
+    "name": "A or B",
+    "titleContains": ["A or B"],
+    "status": "ended"
   }
 ]

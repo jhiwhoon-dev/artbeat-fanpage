@@ -15,6 +15,7 @@
   { "name": "소녀시대", "aliases": ["GIRLSGENERATION"] },
   { "name": "수진", "aliases": ["SUJIN"] },
   { "name": "슬기", "aliases": ["SEULGI"] },
+  { "name": "아이린", "aliases": ["IRENE"] },
   { "name": "ENHYPEN", "aliases": ["엔하이픈"] },
   { "name": "YEONJUN", "aliases": ["연준"] },
   { "name": "오마이걸", "aliases": ["OHMYGIRL"] },
@@ -106,5 +107,8 @@
   { "name": "XG", "aliases": ["XG"] },
   { "name": "XLOV", "aliases": ["엑스러브"] },
   { "name": "YOUNG POSSE", "aliases": ["영파씨"] },
-  { "name": "VIVIZ", "aliases": ["비비지"] }
+  { "name": "VIVIZ", "aliases": ["비비지"] },
+  { "name": "이하이", "aliases": ["비비지"] },
+  { "name": "유아", "aliases": ["YooA"] },
+  { "name": "여자친구", "aliases": ["LEE HI"] }
 ]
