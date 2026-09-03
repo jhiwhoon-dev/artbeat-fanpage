@@ -74,7 +74,40 @@ function suggestTags(text, tagMatchers) {
 }
 
 const groupMatchers = buildTagMatchers(coveredGroups);
-const seriesMatchers = buildTagMatchers(contentSeries);
+
+// 콘텐츠 시리즈는 그룹과 달리 규칙이 더 복잡해서(겹치는 시리즈 배제, 위치태그 필요, 시즌/하위그룹 추출)
+// 전용 함수로 처리한다. 제목만 검사한다(설명란은 안 봄 — 규칙이 "제목에 ~있으면"으로 정의됐기 때문).
+function suggestContentSeries(title) {
+  const found = [];
+  const consumedGroups = new Set();
+
+  for (const s of contentSeries) {
+    if (s.exclusiveGroup && consumedGroups.has(s.exclusiveGroup)) continue;
+
+    const candidates = s.titleContains ?? [s.name];
+    let matched = candidates.some((c) => buildMatcher(c)(title));
+
+    if (matched && s.requiresLocationTag) {
+      matched = /@\S+/.test(title); // "@홍대" 같은 위치 태그가 있어야만 인정
+    }
+    if (!matched) continue;
+
+    if (s.exclusiveGroup) consumedGroups.add(s.exclusiveGroup);
+
+    let tagName = s.name;
+
+    if (s.detectSeason) {
+      const seasonMatch = title.match(/S(\d{1,3})\b/i);
+      if (seasonMatch) tagName = `${s.name} S${seasonMatch[1]}`;
+    } else if (s.subgroups && s.subgroups.length > 0) {
+      const sub = s.subgroups.find((g) => buildMatcher(g)(title));
+      if (sub) tagName = `${s.name}::${sub}`;
+    }
+
+    found.push(tagName);
+  }
+  return found;
+}
 
 // 크레딧에는 보통 성 없이 이름만 적혀있는 경우가 많음 (예: "김소은" -> "소은 SoEun")
 // 그래서 전체 이름뿐 아니라, 성 한 글자를 뗀 이름도 같이 후보로 확인한다.
@@ -209,7 +242,7 @@ async function main() {
       const hadEmptySeries = !prev.content_series || prev.content_series.length === 0;
       const hadEmptyMembers = !prev.tagged_members || prev.tagged_members.length === 0;
       const coveredGroup = hadEmptyGroup ? suggestTags(text, groupMatchers) : prev.covered_group;
-      const series = hadEmptySeries ? suggestTags(text, seriesMatchers) : prev.content_series;
+      const series = hadEmptySeries ? suggestContentSeries(item.snippet.title) : prev.content_series;
       const taggedMembers = hadEmptyMembers ? suggestTaggedMembers(text) : prev.tagged_members;
 
       const backfilled =
@@ -236,7 +269,7 @@ async function main() {
 
     addedCount++;
     const suggestedGroups = suggestTags(text, groupMatchers);
-    const suggestedSeries = suggestTags(text, seriesMatchers);
+    const suggestedSeries = suggestContentSeries(item.snippet.title);
     const suggestedMembers = suggestTaggedMembers(text);
 
     if (suggestedGroups.length > 0 || suggestedSeries.length > 0 || suggestedMembers.length > 0) {

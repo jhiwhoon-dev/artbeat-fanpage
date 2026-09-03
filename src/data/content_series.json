@@ -1,5 +1,113 @@
 [
-  { "name": "여기서요?", "aliases": [] },
-  { "name": "방구석 여기서요?", "aliases": [] },
-  { "name": "DANCE PRACTICE", "aliases": ["댄스 프랙티스", "연습영상"] }
+  {
+    "name": "방구석 여기서요?",
+    "titleContains": ["방구석 여기서요?"],
+    "exclusiveGroup": "여기서요?",
+    "detectSeason": true,
+    "status": "active"
+  },
+  {
+    "name": "버스킹 여기서요?",
+    "titleContains": ["버스킹 여기서요?"],
+    "exclusiveGroup": "여기서요?",
+    "status": "active"
+  },
+  {
+    "name": "여기서요?",
+    "titleContains": ["여기서요?"],
+    "requiresLocationTag": true,
+    "exclusiveGroup": "여기서요?",
+    "status": "active"
+  },
+  {
+    "name": "AB PRACTICE",
+    "titleContains": ["연습실 Practice ver.", "Dance Practice"],
+    "status": "active"
+  },
+  {
+    "name": "DANCE ASMR",
+    "titleContains": ["DANCE ASMR"],
+    "status": "ended"
+  },
+  {
+    "name": "2배속 커버댄스",
+    "titleContains": ["2배속 커버댄스"],
+    "status": "ended"
+  },
+  {
+    "name": "AB야 학교가자",
+    "titleContains": ["AB야 학교가자"],
+    "status": "paused"
+  },
+  {
+    "name": "AB 레벨업",
+    "titleContains": ["AB 레벨업"],
+    "status": "ended"
+  },
+  {
+    "name": "나는 신입",
+    "titleContains": ["AB Recruit", "오디션", "나는 신입"],
+    "status": "active"
+  },
+  {
+    "name": "티어전쟁",
+    "titleContains": ["티어전쟁"],
+    "status": "ended"
+  },
+  {
+    "name": "이곳이 K-POP의 나라입니다",
+    "titleContains": ["이곳이 K-POP의 나라입니다"],
+    "status": "paused"
+  },
+  {
+    "name": "AB VLOG",
+    "titleContains": ["AB VLOG", "브이로그"],
+    "status": "active"
+  },
+  {
+    "name": "삶은 AB",
+    "titleContains": ["삶은 AB"],
+    "status": "paused"
+  },
+  {
+    "name": "AB PLAYLIST",
+    "titleContains": ["playlist"],
+    "status": "paused"
+  },
+  {
+    "name": "MV 리액션",
+    "titleContains": ["MV 리액션"],
+    "status": "paused"
+  },
+  {
+    "name": "마전드",
+    "titleContains": ["마전드"],
+    "status": "paused"
+  },
+  {
+    "name": "ABCC",
+    "titleContains": ["ABCC"],
+    "status": "paused"
+  },
+  {
+    "name": "AB TMI",
+    "titleContains": ["AB TMI"],
+    "status": "paused"
+  },
+  {
+    "name": "AB생파",
+    "titleContains": ["AB생파"],
+    "status": "paused"
+  },
+  {
+    "name": "전지적 막내 PD 시점",
+    "titleContains": ["전지적 막내 PD 시점"],
+    "status": "paused"
+  },
+  {
+    "name": "Dance Cover MV",
+    "titleContains": ["A2Be", "AB PRODUCER", "bEAT1"],
+    "subgroups": ["A2Be", "AB PRODUCER", "bEAT1"],
+    "status": "paused"
+  }
 ]

@@ -10,36 +10,43 @@ function getType(v) {
 const videos = allVideos.filter((v) => getType(v) === 'short');
 
 const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
-const allSeries = [...new Set(videos.flatMap((v) => v.content_series ?? []))].sort();
+
+// "방구석 여기서요? S23" -> 베이스 이름 "방구석 여기서요?"만 추려서 1차 목록 구성 (시즌은 2차에서 선택)
+function seriesBase(tag) {
+  const m = tag.match(/^(.*?)\s*S(\d+)$/i);
+  return m ? m[1].trim() : tag;
+}
+const allSeries = [...new Set(videos.flatMap((v) => (v.content_series ?? []).map(seriesBase)))].sort();
+
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// 카드 렌더링에 필요한 필드만 추려서 클라이언트로 넘김 (페이지네이션은 이 데이터를 기준으로 JS가 처리)
+const videosData = videos.map((v) => ({
+  id: v.youtube_id,
+  title: v.title,
+  groups: v.covered_group ?? [],
+  series: v.content_series ?? [],
+  members: v.tagged_members ?? [],
+  date: v.published_date,
+  views: v.view_count ?? 0,
+}));
+
+// JSON을 <script> 태그에 안전하게 넣기 위해 "</script" 조기 종료를 막는 이스케이프
+function safeJson(obj) {
+  return JSON.stringify(obj).replace(/</g, '\\u003c');
+}
 ---
 <Layout title="Shorts">
   <div class="wrap">
     <p class="eyebrow">ARTBEAT</p>
     <h1>Short<span>s</span></h1>
 
-    <div class="controls">
-      <div class="filter-block">
-        <div class="mode-tabs" id="mode-tabs">
-          <button class="mode-btn active" data-mode="group">그룹별</button>
-          <button class="mode-btn" data-mode="series">콘텐츠별</button>
-        </div>
-
-        <div class="filters" id="filters-group">
-          <button class="filter-btn active" data-value="all">전체</button>
-          {allGroups.map((group) => (
-            <button class="filter-btn" data-value={group}>{group}</button>
-          ))}
-        </div>
-        <div class="filters" id="filters-series" hidden>
-          <button class="filter-btn active" data-value="all">전체</button>
-          {allSeries.map((series) => (
-            <button class="filter-btn" data-value={series}>{series}</button>
-          ))}
-        </div>
+    <div class="controls-top">
+      <div class="mode-tabs" id="mode-tabs">
+        <button class="mode-btn active" data-mode="group">그룹별</button>
+        <button class="mode-btn" data-mode="series">콘텐츠별</button>
       </div>
-
       <select id="sort-select" class="sort-select">
         <option value="newest">최신순</option>
         <option value="oldest">오래된순</option>
@@ -47,83 +54,196 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </select>
     </div>
 
-    <div class="grid" id="grid">
-      {videos.map((v) => (
-        <div
-          class="card"
-          data-groups={(v.covered_group ?? []).join(',')}
-          data-series={(v.content_series ?? []).join(',')}
-          data-date={v.published_date}
-          data-views={v.view_count ?? 0}
-        >
-          <a
-            class="thumb-link"
-            href={`https://www.youtube.com/shorts/${v.youtube_id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="thumb-wrap">
-              <img
-                class="thumb"
-                src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`}
-                alt={v.title}
-                loading="lazy"
-              />
-              <span class="play">▶</span>
-            </div>
-            <p class="title">{v.title}</p>
-          </a>
-          <div class="tags">
-            {(v.covered_group ?? []).map((g) => <span class="tag tag-group">{g}</span>)}
-            {(v.content_series ?? []).map((s) => <span class="tag tag-series">{s}</span>)}
-            {(v.tagged_members ?? [])
-              .filter((id) => memberMap[id])
-              .map((id) => (
-                <a class="tag tag-member" href={`${base}/members/${id}`}>#{memberMap[id]}</a>
-              ))}
-          </div>
-        </div>
-      ))}
+    <div class="filter-panel" id="panel-group">
+      <input type="text" class="filter-search" id="group-search" placeholder="그룹 검색..." />
+      <div class="filters" id="filters-group">
+        <button class="filter-btn active" data-value="all">전체</button>
+        {allGroups.map((group) => (
+          <button class="filter-btn" data-value={group}>{group}</button>
+        ))}
+      </div>
     </div>
 
+    <div class="filter-panel" id="panel-series" style="display:none">
+      <input type="text" class="filter-search" id="series-search" placeholder="콘텐츠 검색..." />
+      <div class="filters" id="filters-series">
+        <button class="filter-btn active" data-value="all">전체</button>
+        {allSeries.map((series) => (
+          <button class="filter-btn" data-value={series}>{series}</button>
+        ))}
+      </div>
+    </div>
+
+    <!-- 시즌제 콘텐츠 선택 시에만 나타나는 2차 시즌 필터 -->
+    <div class="filter-panel" id="panel-season" style="display:none">
+      <div class="filters" id="filters-season"></div>
+    </div>
+
+    <p class="count-label" id="count-label"></p>
+    <div class="grid" id="grid"></div>
+    <button class="load-more" id="load-more" hidden>더 보기</button>
     <p class="empty" id="empty" hidden>조건에 맞는 Shorts가 없어요.</p>
   </div>
+
+  <script type="application/json" id="videos-data" set:html={safeJson(videosData)} />
+  <script type="application/json" id="member-map-data" set:html={safeJson(memberMap)} />
+  <script type="application/json" id="base-data" set:html={safeJson(base)} />
 </Layout>
 
 <script>
-  const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
-  const filterGroupEl = document.getElementById('filters-group');
-  const filterSeriesEl = document.getElementById('filters-series');
-  const cards = document.querySelectorAll<HTMLDivElement>('.card');
-  const empty = document.getElementById('empty');
-  const grid = document.getElementById('grid');
-  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+  interface VideoItem {
+    id: string;
+    title: string;
+    groups: string[];
+    series: string[];
+    members: string[];
+    date: string;
+    views: number;
+  }
 
+  const DATA: VideoItem[] = JSON.parse(document.getElementById('videos-data')!.textContent!);
+  const MEMBER_MAP: Record<string, string> = JSON.parse(document.getElementById('member-map-data')!.textContent!);
+  const BASE: string = JSON.parse(document.getElementById('base-data')!.textContent!);
+
+  const PAGE_SIZE = 30;
+  let currentPage = 1;
   let activeMode: 'group' | 'series' = 'group';
   let activeValue = 'all';
+  let activeSeason: string | null = null; // null = 전체 시즌
+  let sortMode = 'newest';
 
-  function applyFilter() {
-    let visibleCount = 0;
-    cards.forEach((card) => {
-      const dataAttr = activeMode === 'group' ? card.dataset.groups : card.dataset.series;
-      const values = dataAttr ? dataAttr.split(',') : [];
-      const show = activeValue === 'all' || values.includes(activeValue);
-      card.style.display = show ? '' : 'none';
-      if (show) visibleCount++;
-    });
-    if (empty) empty.hidden = visibleCount > 0;
+  // "방구석 여기서요? S23" -> { base: "방구석 여기서요?", season: "23" }
+  // "Dance Cover MV::A2Be" -> { base: "Dance Cover MV", season: "A2Be" } (하위그룹도 같은 슬롯 재사용)
+  function parseSeriesTag(tag: string): { base: string; season: string | null } {
+    if (tag.includes('::')) {
+      const [base, sub] = tag.split('::');
+      return { base, season: sub };
+    }
+    const m = tag.match(/^(.*?)\s*S(\d+)$/i);
+    return m ? { base: m[1].trim(), season: m[2] } : { base: tag, season: null };
   }
 
-  function applySort() {
-    if (!grid) return;
-    const sorted = Array.from(cards).sort((a, b) => {
-      const mode = sortSelect.value;
-      if (mode === 'views') return Number(b.dataset.views) - Number(a.dataset.views);
-      if (mode === 'oldest') return (a.dataset.date ?? '').localeCompare(b.dataset.date ?? '');
-      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? '');
-    });
-    sorted.forEach((card) => grid.appendChild(card));
+  // 시리즈 베이스 이름 -> 존재하는 시즌 목록 (시즌 없는 콘텐츠는 빈 Set)
+  const seriesSeasons = new Map<string, Set<string>>();
+  for (const v of DATA) {
+    for (const tag of v.series) {
+      const { base, season } = parseSeriesTag(tag);
+      if (!seriesSeasons.has(base)) seriesSeasons.set(base, new Set());
+      if (season) seriesSeasons.get(base)!.add(season);
+    }
   }
+
+  const grid = document.getElementById('grid')!;
+  const emptyEl = document.getElementById('empty')!;
+  const loadMoreBtn = document.getElementById('load-more')!;
+  const countLabel = document.getElementById('count-label')!;
+  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+  const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
+  const panelGroup = document.getElementById('panel-group');
+  const panelSeries = document.getElementById('panel-series');
+
+  const panelSeason = document.getElementById('panel-season');
+  const filtersSeason = document.getElementById('filters-season');
+
+  // 선택된 콘텐츠 베이스에 시즌(또는 하위그룹)이 있으면 버튼들을 만들어 보여줌, 없으면 숨김
+  function updateSeasonPanel(base: string) {
+    activeSeason = null;
+    if (!panelSeason || !filtersSeason) return;
+
+    const raw = [...(seriesSeasons.get(base) ?? [])];
+    if (activeMode !== 'series' || base === 'all' || raw.length === 0) {
+      panelSeason.style.display = 'none';
+      filtersSeason.innerHTML = '';
+      return;
+    }
+
+    // 전부 숫자면(시즌 번호) 숫자 정렬 + "S" 접두사, 아니면(하위그룹 이름) 가나다/알파벳순 그대로
+    const isNumeric = raw.every((s) => /^\d+$/.test(s));
+    const items = isNumeric ? [...raw].sort((a, b) => Number(a) - Number(b)) : [...raw].sort();
+
+    filtersSeason.innerHTML =
+      `<button class="filter-btn active" data-season="all">전체</button>` +
+      items.map((s) => `<button class="filter-btn" data-season="${escapeHtml(s)}">${isNumeric ? 'S' + s : escapeHtml(s)}</button>`).join('');
+    panelSeason.style.display = '';
+
+    filtersSeason.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filtersSeason.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeSeason = btn.dataset.season === 'all' ? null : (btn.dataset.season ?? null);
+        currentPage = 1;
+        render();
+      });
+    });
+  }
+
+  function escapeHtml(s: string): string {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] ?? c));
+  }
+
+  function displaySeriesTag(tag: string): string {
+    const { base, season } = parseSeriesTag(tag);
+    return season ? `${base} · ${season}` : base;
+  }
+
+  function cardHTML(v: VideoItem): string {
+    const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(g)}</span>`).join('');
+    const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displaySeriesTag(s))}</span>`).join('');
+    const memberTags = v.members
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
+      .join('');
+    return `
+      <div class="card">
+        <a class="thumb-link" href="https://www.youtube.com/shorts/${v.id}" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
+            <span class="play">▶</span>
+          </div>
+          <p class="title">${escapeHtml(v.title)}</p>
+        </a>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}</div>
+      </div>`;
+  }
+
+  function getFiltered(): VideoItem[] {
+    return DATA.filter((v) => {
+      if (activeMode === 'group') {
+        return activeValue === 'all' || v.groups.includes(activeValue);
+      }
+      // 콘텐츠별: 베이스 이름 일치 + (시즌 선택했으면 시즌까지 일치)
+      if (activeValue === 'all') return true;
+      return v.series.some((tag) => {
+        const { base, season } = parseSeriesTag(tag);
+        if (base !== activeValue) return false;
+        if (activeSeason && season !== activeSeason) return false;
+        return true;
+      });
+    });
+  }
+
+  function getSorted(list: VideoItem[]): VideoItem[] {
+    const arr = [...list];
+    if (sortMode === 'views') arr.sort((a, b) => b.views - a.views);
+    else if (sortMode === 'oldest') arr.sort((a, b) => a.date.localeCompare(b.date));
+    else arr.sort((a, b) => b.date.localeCompare(a.date));
+    return arr;
+  }
+
+  function render() {
+    const filtered = getSorted(getFiltered());
+    const slice = filtered.slice(0, currentPage * PAGE_SIZE);
+
+    grid.innerHTML = slice.map(cardHTML).join('');
+    emptyEl.hidden = filtered.length > 0;
+    loadMoreBtn.hidden = slice.length >= filtered.length;
+    countLabel.textContent = filtered.length > 0 ? `총 ${filtered.length}개 중 ${slice.length}개 표시` : '';
+  }
+
+  loadMoreBtn.addEventListener('click', () => {
+    currentPage++;
+    render();
+  });
 
   modeButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -131,15 +251,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       btn.classList.add('active');
       activeMode = (btn.dataset.mode as 'group' | 'series') ?? 'group';
       activeValue = 'all';
+      currentPage = 1;
 
-      if (filterGroupEl) filterGroupEl.hidden = activeMode !== 'group';
-      if (filterSeriesEl) filterSeriesEl.hidden = activeMode !== 'series';
+      if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
+      if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
+      if (panelSeason) panelSeason.style.display = 'none';
+      activeSeason = null;
 
+      document.querySelectorAll<HTMLInputElement>('.filter-search').forEach((input) => (input.value = ''));
       document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => {
+        b.style.display = '';
         b.classList.toggle('active', b.dataset.value === 'all');
       });
 
-      applyFilter();
+      render();
     });
   });
 
@@ -149,28 +274,50 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       parent?.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
       activeValue = btn.dataset.value ?? 'all';
-      applyFilter();
+      currentPage = 1;
+      if (activeMode === 'series') updateSeasonPanel(activeValue);
+      render();
     });
   });
 
-  sortSelect?.addEventListener('change', applySort);
+  function setupSearch(inputId: string, filtersId: string) {
+    const input = document.getElementById(inputId) as HTMLInputElement | null;
+    const container = document.getElementById(filtersId);
+    if (!input || !container) return;
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      container.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+        if (btn.dataset.value === 'all') return;
+        const text = btn.textContent?.toLowerCase() ?? '';
+        btn.style.display = text.includes(q) ? '' : 'none';
+      });
+    });
+  }
+  setupSearch('group-search', 'filters-group');
+  setupSearch('series-search', 'filters-series');
+
+  sortSelect?.addEventListener('change', () => {
+    sortMode = sortSelect.value;
+    currentPage = 1;
+    render();
+  });
+
+  render();
 </script>
 
-<style>
-  .controls {
+<style is:global>
+  .controls-top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 12px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
-  .filter-block { display: flex; flex-direction: column; gap: 12px; }
 
-  .mode-tabs { display: flex; gap: 4px; }
+  .mode-tabs { display: flex; }
   .mode-btn {
     font-family: 'Archivo', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.03em;
     padding: 6px 4px;
@@ -180,8 +327,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     color: var(--muted);
     cursor: pointer;
   }
-  .mode-btn + .mode-btn { margin-left: 12px; }
+  .mode-btn + .mode-btn { margin-left: 20px; }
   .mode-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  .filter-panel { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .filter-search {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    max-width: 220px;
+  }
+  .filter-search::placeholder { color: var(--muted); }
+  .filter-search:focus { outline: none; border-color: var(--muted); }
 
   .filters { display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
@@ -209,6 +370,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     color: var(--ink);
     cursor: pointer;
   }
+
+  .count-label { font-size: 12px; color: var(--muted); margin: 0 0 20px; }
 
   /* Shorts는 세로형이라 그리드 칸을 좁고 길게 */
   .grid {
@@ -250,7 +413,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     font-size: 13px;
     font-weight: 500;
     line-height: 1.4;
-    margin: 8px 0 6px;
+    margin: 10px 0 8px;
   }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag {
@@ -263,6 +426,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
+
+  .load-more {
+    display: block;
+    margin: 40px auto 0;
+    padding: 12px 32px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .load-more:hover { border-color: var(--muted); }
+
   .empty {
     color: var(--muted);
     font-size: 14px;
