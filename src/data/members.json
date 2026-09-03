@@ -8,6 +8,7 @@
     "gender": "M",
     "role": "Director",
     "unit": [],
+    "unit_periods": [],
     "status": "active",
     "joined_date": "2016-03-08",
     "left_date": null,
@@ -38,6 +39,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2017-07-??",
@@ -70,6 +80,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2017-07-??",
     "left_date": null,
@@ -98,6 +117,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-04",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2018-04-30",
     "left_date": null,
@@ -125,6 +153,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2019-09",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2019-09-14",
@@ -157,6 +194,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2020-02",
+        "end": "2024-06"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-08",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2020-02-21",
@@ -193,6 +246,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2020-03",
+        "end": "2025-06"
+      }
+    ],
     "status": "military",
     "joined_date": "2020-03-07",
     "left_date": null,
@@ -202,9 +264,13 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kim-taewhan.jpg",
     "bio": "대한민국의 댄서. ARTBEAT에서 활동 중이다.",
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/k.tae_11/"
+      ]
+    }
   },
   {
     "id": "kim-jeongseo",
@@ -216,6 +282,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2020-04",
+        "end": "2022-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-03",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2020-04-02",
@@ -245,6 +327,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2021-03",
+        "end": "2021-04"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2021-04-08",
     "left_date": null,
@@ -254,7 +352,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kim-gyeongju.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -273,6 +371,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2021-04-08",
     "left_date": null,
@@ -282,9 +389,13 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "park-hyunmin.jpg",
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/mineeex._/"
+      ]
+    }
   },
   {
     "id": "kim-suhwan",
@@ -296,6 +407,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2021-03",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-07",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-04-08",
@@ -310,7 +437,8 @@
     "bio": "대한민국의 인플루언서. ARTBEAT에서 활동 중이다.",
     "sns": {
       "instagram": [
-        "https://www.instagram.com/soomile_11"
+        "https://www.instagram.com/soomile_11",
+        "https://www.instagram.com/sugar_secret_love/"
       ],
       "youtube": [
         "https://www.youtube.com/@%EC%88%98%EB%A7%88%EC%9D%BC_soomile",
@@ -333,8 +461,30 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-12"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-06",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -345,7 +495,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "won-jin.jpg",
     "bio": "대한민국의 가수, 보이그룹 VNX의 멤버. ARTBEAT에서 활동 중이다.",
     "sns": {
       "instagram": [
@@ -368,8 +518,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -404,8 +569,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -439,8 +619,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-07-29",
@@ -468,8 +663,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-08",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2025-08"
+      }
     ],
     "status": "military",
     "joined_date": "2021-08-03",
@@ -480,7 +690,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "lim-donghun.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -497,8 +707,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-08",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-08-03",
@@ -509,7 +734,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "chae-yunsu.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -529,8 +754,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-02",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2022-02-18",
@@ -541,7 +781,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kang-taehyeon.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -564,8 +804,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-04",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2022-04-13",
@@ -598,6 +853,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2022-10-29",
     "left_date": null,
@@ -624,8 +888,23 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2023-05",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2023-05-22",
@@ -661,6 +940,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-05",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2023-05-22",
     "left_date": null,
@@ -692,6 +980,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2024-01-31",
     "left_date": null,
@@ -719,6 +1023,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2024-01-31",
@@ -754,6 +1074,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2024-01-31",
     "left_date": null,
@@ -781,6 +1117,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-02-02",
@@ -813,6 +1165,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -844,6 +1212,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -871,6 +1255,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-02-02",
@@ -906,6 +1306,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": null,
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-05-01",
     "left_date": null,
@@ -924,6 +1340,135 @@
     }
   },
   {
+    "id": "kang-jaesin",
+    "name": "강재신",
+    "name_en": "Jaesin Kang",
+    "nickname": null,
+    "birth_date": "0000-00-00",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": "2025-10"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "yang-hyeju",
+    "name": "양혜주",
+    "name_en": "Hyeju Yang",
+    "nickname": null,
+    "birth_date": "2005-00-00",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-minju",
+    "name": "김민주",
+    "name_en": "Minju Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2025-01-14",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2025-01-14",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "ham-juhong",
+    "name": "함주홍",
+    "name_en": "Juhong Ham",
+    "nickname": null,
+    "birth_date": "2003-00-00",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2025-01-14",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2025-01-14",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
     "id": "yamamoto-leno",
     "name": "야마모토 레노",
     "name_en": "Leno Yamamoto",
@@ -933,6 +1478,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-05",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2026-05-07",
@@ -964,6 +1518,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "201707??",
@@ -999,6 +1562,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "201707??",
     "left_date": null,
@@ -1033,6 +1605,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "201707??",
     "left_date": null,
@@ -1042,7 +1623,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kim-hayeon.jpg",
     "bio": "대한민국의 댄서, 치어리더.\n\n2019년에 데뷔하였으며 대구 출신으로 전형적인 대구·경북 출신 치어리더 루트로 활약한 바 있다.",
     "sns": {
       "instagram": [
@@ -1073,6 +1654,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-08",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "201708??",
     "left_date": null,
@@ -1082,7 +1672,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kwon-soyoung.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -1100,6 +1690,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-09",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "201709??",
@@ -1127,8 +1726,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2018-01-16",
@@ -1161,8 +1768,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-04",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2018-04-14",
@@ -1196,8 +1811,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2018-10-01",
@@ -1231,8 +1854,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-10",
+        "end": "2026-09"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2018-10-01",
@@ -1255,6 +1886,39 @@
     }
   },
   {
+    "id": "prim",
+    "name": "프림",
+    "name_en": "Prim",
+    "nickname": null,
+    "birth_date": "2002-09-04",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-04",
+        "end": "2022-10"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2022-04",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2022-04",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
     "id": "ha-seyoung",
     "name": "하세영",
     "name_en": "Seyoung Ha",
@@ -1263,8 +1927,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2018-10-04",
@@ -1275,7 +1947,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "ha-seyoung.jpg",
     "bio": "ARTBEAT 소속으로 활동 중이며 걸그룹 ARTBEAT v의 멤버이다.",
     "sns": {
       "instagram": [
@@ -1298,8 +1970,16 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2019-08",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2019-08-06",
@@ -1332,6 +2012,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2019-08",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2019-08-06",
     "left_date": null,
@@ -1363,6 +2052,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2020-06",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2020-06-01",
     "left_date": null,
@@ -1381,6 +2079,80 @@
     }
   },
   {
+    "id": "hye-in",
+    "name": "혜인",
+    "name_en": "In Hye",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": "2023-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2021-04-21",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2021-04-21",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/102.6mhz/"
+      ]
+    }
+  },
+  {
+    "id": "song-haeun",
+    "name": "송하은",
+    "name_en": "Haeun Song",
+    "nickname": "송하",
+    "birth_date": "2001-03-20",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": "2023-06"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2021-04-21",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2021-04-21",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/gnosah/"
+      ]
+    }
+  },
+  {
     "id": "kang-yejin",
     "name": "강예진",
     "name_en": "Yejin Kang",
@@ -1391,6 +2163,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2021-04-21",
     "left_date": null,
@@ -1400,7 +2181,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kang-yejin.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -1421,6 +2202,15 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2022-01-30",
@@ -1451,8 +2241,23 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-07-30",
@@ -1483,8 +2288,23 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-08",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2021-08-03",
@@ -1520,6 +2340,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2023-02-27",
     "left_date": null,
@@ -1552,8 +2381,23 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-02",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2022-02-18",
@@ -1581,8 +2425,30 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-10",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-06"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-09",
+        "end": "2026-09"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2022-10-13",
@@ -1616,6 +2482,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-05",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2023-05-24",
     "left_date": null,
@@ -1643,15 +2518,59 @@
     }
   },
   {
-    "id": "jung-hyeonjin",
+    "id": "hong-seokju",
+    "name": "홍석주",
+    "name_en": "Seokju Hong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "jeong-hyunjin",
     "name": "정현진",
-    "name_en": "Hyeonjin Jung",
+    "name_en": "Hyunjin Jeong",
     "nickname": null,
     "birth_date": "2000-04-25",
     "gender": "F",
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2024-01-31",
@@ -1662,7 +2581,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "jeong-hyunjin.jpg",
     "bio": "대한민국에서 활동하는 댄스팀 ARTBEAT 소속 댄서이며 유튜버이다.",
     "sns": {
       "instagram": [
@@ -1687,6 +2606,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2024-01-31",
@@ -1716,6 +2651,62 @@
     }
   },
   {
+    "id": "joo-hyeonseo",
+    "name": "주현서",
+    "name_en": "Hyeonseo Joo",
+    "nickname": null,
+    "birth_date": "2008-00-00",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "park-seoyeon",
+    "name": "박서연",
+    "name_en": "Seoyeon Park",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
     "id": "won-seoa",
     "name": "원서아",
     "name_en": "Seoa Won",
@@ -1725,6 +2716,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2024-01-31",
@@ -1754,6 +2761,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -1781,6 +2804,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-02-02",
@@ -1813,6 +2852,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -1844,6 +2899,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -1874,6 +2945,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-02-02",
@@ -1909,6 +2996,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-02",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-02-02",
     "left_date": null,
@@ -1937,6 +3040,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2025-02",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-05",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-05-01",
     "left_date": null,
@@ -1964,6 +3083,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2025-02",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-05",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-05-01",
@@ -1999,6 +3134,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2025-02",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-05",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-05-01",
     "left_date": null,
@@ -2030,6 +3181,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2025-02",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-05",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-05-01",
     "left_date": null,
@@ -2057,6 +3224,22 @@
     "role": "Dancer",
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2025-02",
+        "end": "2025-05"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-05",
+        "end": null
+      }
     ],
     "status": "active",
     "joined_date": "2025-05-01",
@@ -2086,6 +3269,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2024-11",
+        "end": "2025-02"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2025-10",
+        "end": null
+      }
+    ],
     "status": "active",
     "joined_date": "2025-05-01",
     "left_date": null,
@@ -2112,7 +3311,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2135,7 +3343,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2158,7 +3375,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2181,7 +3407,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2204,7 +3439,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2227,7 +3471,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2250,7 +3503,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2273,7 +3535,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2296,7 +3567,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2319,7 +3599,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2342,7 +3631,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2365,7 +3663,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2388,7 +3695,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2411,7 +3727,16 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition 'AB PROJECT'"
+      "audition"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2026-08",
+        "end": null
+      }
     ],
     "status": "audition",
     "joined_date": null,
@@ -2435,6 +3760,15 @@
     "role": null,
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-05",
+        "end": "2025-05"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2023-05-24",
@@ -2473,6 +3807,22 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": "2025-05"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2024-01-31",
     "left_date": null,
@@ -2496,6 +3846,22 @@
     "role": null,
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "audition"
+        ],
+        "start": "2023-11",
+        "end": "2024-01"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2024-01",
+        "end": "2025-10"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2024-01-31",
@@ -2526,8 +3892,23 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "AB PROJECT",
-      "A2Be"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-06"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2021-07-30",
@@ -2558,8 +3939,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": "2024-06"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2017-07-00",
@@ -2599,8 +3988,16 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "AB PROJECT",
-      "ARTBEAT v"
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-08",
+        "end": "2023-05"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2017-08-00",
@@ -2633,6 +4030,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-11",
+        "end": "2019-02"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2017-11-15",
     "left_date": null,
@@ -2657,6 +4063,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-07",
+        "end": "2019-02"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2017-07-00",
     "left_date": null,
@@ -2680,6 +4095,15 @@
     "role": null,
     "unit": [
       "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-11",
+        "end": "2019-02"
+      }
     ],
     "status": "withdrawn",
     "joined_date": "2017-11-15",
@@ -2709,6 +4133,15 @@
     "unit": [
       "AB PROJECT"
     ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-04",
+        "end": "2019-02"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2018-04-30",
     "left_date": null,
@@ -2728,5 +4161,226 @@
         "https://www.threads.com/@eden_crush?xmt=AQG0byObBwhR_2AV6Er5fOJIu8ebZK4yEsAVYV6-kItKQC0"
       ]
     }
+  },
+  {
+    "id": "park-jaehui",
+    "name": "박재희",
+    "name_en": "Jaehui Park",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2022-02",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-06"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "lim-jiu",
+    "name": "임지우",
+    "name_en": "Jiu Lim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-05",
+        "end": "2024-06"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "jeon-minseo",
+    "name": "전민서",
+    "name_en": "Minseo Jeon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-05",
+        "end": "2025-05"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "lee-mungyu",
+    "name": "이문규",
+    "name_en": "Mungyu Lee",
+    "nickname": null,
+    "birth_date": "1995-01-11",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-06",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/channel/UCIsmt0eOaz6gQ2HFldJJeTg"
+      ]
+    }
+  },
+  {
+    "id": "choi-seongjun",
+    "name": "최성준",
+    "name_en": "Seongjun Choi",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-04",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-minji",
+    "name": "김민지",
+    "name_en": "Minji Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "son-wonye",
+    "name": "손원예",
+    "name_en": "Wonye Son",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": "2022-10"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2022-10",
+        "end": "2024-01"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
   }
 ]

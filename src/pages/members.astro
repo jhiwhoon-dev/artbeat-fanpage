@@ -1,16 +1,198 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import MemberCard from '../components/MemberCard.astro';
+import MemberAvatar from '../components/MemberAvatar.astro';
 import members from '../data/members.json';
+import recruitmentRounds from '../data/recruitment_rounds.json';
 
 const activeMembers = members.filter((m) => m.status !== 'audition' && m.status !== 'withdrawn');
 const auditionMembers = members.filter((m) => m.status === 'audition');
 const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
+
+// ---------- 유닛별 인원수 추이 그래프용 데이터 계산 ----------
+// "2026-3-15"처럼 월이 한 자리여도 "2026-03"으로 정규화. 형식이 이상하면(예: 날짜가 아닌 값)
+// null을 반환해서 그래프 계산에서 아예 제외시킴 — 잘못된 값이 그래프를 오염시키는 걸 막기 위해서.
+function toMonthKey(dateStr) {
+  if (!dateStr) return null;
+  const m = String(dateStr).match(/^(\d{4})-(\d{1,2})(?:-\d{1,2})?/);
+  if (!m) return null;
+  const month = m[2].padStart(2, '0');
+  if (Number(month) < 1 || Number(month) > 12) return null;
+  return `${m[1]}-${month}`;
+}
+function nextMonth(key) {
+  let [y, m] = key.split('-').map(Number);
+  m += 1;
+  if (m > 12) { m = 1; y += 1; }
+  return `${y}-${String(m).padStart(2, '0')}`;
+}
+
+const allUnitPeriods = members.flatMap((m) =>
+  (m.unit_periods ?? []).flatMap((p) =>
+    (p.unit ?? []).map((u) => ({ unit: u, start: p.start, end: p.end }))
+  )
+);
+
+let chartMonths = [];
+let chartSeries = {};
+let unitNames = [];
+
+if (allUnitPeriods.length > 0) {
+  // 정규화된 "YYYY-MM" 형태로 정렬해야 시간순이 정확히 맞음. 형식이 이상한 값은 toMonthKey가 null을 줘서 자동 제외됨.
+  const startKeys = allUnitPeriods.map((p) => toMonthKey(p.start)).filter((k) => k !== null).sort();
+  if (startKeys.length > 0) {
+    const todayKey = toMonthKey(new Date().toISOString().slice(0, 10));
+    let cursor = startKeys[0];
+    while (cursor <= todayKey) {
+      chartMonths.push(cursor);
+      cursor = nextMonth(cursor);
+    }
+    unitNames = [...new Set(allUnitPeriods.map((p) => p.unit))];
+    for (const u of unitNames) {
+      chartSeries[u] = chartMonths.map((month) =>
+        allUnitPeriods.filter((p) => {
+          if (p.unit !== u) return false;
+          const startKey = toMonthKey(p.start);
+          if (!startKey || startKey > month) return false;
+          if (p.end) {
+            const endKey = toMonthKey(p.end);
+            if (endKey && endKey < month) return false;
+          }
+          return true;
+        }).length
+      );
+    }
+  }
+}
+
+const CHART_W = 900;
+const CHART_H = 220;
+const PAD_L = 32;
+const PAD_B = 24;
+const PAD_T = 12;
+const PAD_R = 12;
+const maxCount = Math.max(1, ...Object.values(chartSeries).flat(), 1);
+
+function seriesPoints(counts) {
+  return counts
+    .map((c, i) => {
+      const x = PAD_L + (chartMonths.length > 1 ? (i / (chartMonths.length - 1)) * (CHART_W - PAD_L - PAD_R) : 0);
+      const y = CHART_H - PAD_B - (c / maxCount) * (CHART_H - PAD_B - PAD_T);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    })
+    .join(' ');
+}
+
+const CHART_COLORS = ['#22d3ee', '#fb923c', '#a78bfa', '#facc15', '#f472b6', '#34d399'];
+
+// 가로축에 표시할 월 라벨의 인덱스를 고름 (너무 촘촘하지 않게, 최대 8개 정도)
+function pickLabelIndexes(count) {
+  if (count <= 1) return [0];
+  const step = Math.max(1, Math.ceil(count / 8));
+  const idx = [];
+  for (let i = 0; i < count; i += step) idx.push(i);
+  if (idx[idx.length - 1] !== count - 1) idx.push(count - 1);
+  return idx;
+}
+const labelIndexes = pickLabelIndexes(chartMonths.length);
+
+function xForIndex(i, total) {
+  return PAD_L + (total > 1 ? (i / (total - 1)) * (CHART_W - PAD_L - PAD_R) : 0);
+}
+
+// 시리즈별 실제 최댓값 (전체 공통 스케일 때문에 작은 유닛이 눌려 보일 수 있어서, 숫자로도 같이 보여줌)
+const seriesMax = Object.fromEntries(unitNames.map((u) => [u, Math.max(...chartSeries[u], 0)]));
+
+// ---------- History 탭: 모집 라운드(공고+합격) + 그 외 개별 합류/재합류를 합쳐서 연도별로 묶기 ----------
+
+// 모집 라운드로 이미 설명된 "멤버id + 합류일" 조합은 아래 자동 추출에서 제외 (중복 방지)
+const coveredJoins = new Set(
+  recruitmentRounds.flatMap((r) =>
+    (r.accepted_members ?? []).map((mid) => `${mid}|${r.accepted_date}`)
+  )
+);
+
+function buildJoinEvents(memberList) {
+  const map = new Map();
+  for (const m of memberList) {
+    const periods = m.membership_periods && m.membership_periods.length > 0
+      ? m.membership_periods
+      : (m.joined_date ? [{ joined: m.joined_date, left: m.left_date ?? null }] : []);
+    periods.forEach((p, idx) => {
+      if (!p.joined) return;
+      if (coveredJoins.has(`${m.id}|${p.joined}`)) return; // 모집 라운드에서 이미 다룸
+      if (!map.has(p.joined)) map.set(p.joined, []);
+      map.get(p.joined).push({ id: m.id, name: m.name, isRejoin: idx > 0 });
+    });
+  }
+  return [...map.entries()].map(([date, joiners]) => ({ date, kind: 'join', title: null, description: null, joiners }));
+}
+
+function buildRoundEvents(rounds, memberList) {
+  const events = [];
+  for (const r of rounds) {
+    if (r.announced_date) {
+      events.push({ date: r.announced_date, kind: 'announcement', title: r.title, description: r.description || null, joiners: [] });
+    }
+    if (r.accepted_date) {
+      const joiners = (r.accepted_members ?? [])
+        .map((mid) => memberList.find((m) => m.id === mid))
+        .filter(Boolean)
+        .map((m) => ({ id: m.id, name: m.name, isRejoin: false }));
+      events.push({ date: r.accepted_date, kind: 'acceptance', title: r.title, description: null, joiners });
+    }
+  }
+  return events;
+}
+
+const joinEvents = [...buildRoundEvents(recruitmentRounds, members), ...buildJoinEvents(members)]
+  .sort((a, b) => a.date.localeCompare(b.date));
+
+const eventsByYear = new Map();
+for (const e of joinEvents) {
+  const year = e.date.slice(0, 4);
+  if (!eventsByYear.has(year)) eventsByYear.set(year, []);
+  eventsByYear.get(year).push(e);
+}
+const years = [...eventsByYear.keys()];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Layout title="Members">
   <div class="page-wrap">
     <p class="eyebrow">ARTBEAT</p>
     <h1>Member<span>s</span></h1>
+
+    {chartMonths.length > 0 && (
+      <div class="unit-chart">
+        <p class="chart-title">유닛별 인원 추이</p>
+        <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} class="chart-svg">
+          <line x1={PAD_L} y1={CHART_H - PAD_B} x2={CHART_W - PAD_R} y2={CHART_H - PAD_B} class="chart-axis" />
+          {unitNames.map((u, i) => (
+            <polyline points={seriesPoints(chartSeries[u])} fill="none" stroke={CHART_COLORS[i % CHART_COLORS.length]} stroke-width="2.5" />
+          ))}
+          <text x={PAD_L} y={PAD_T + 8} class="chart-label">{maxCount}명</text>
+          <text x={PAD_L} y={CHART_H - PAD_B - 4} class="chart-label">0명</text>
+          {labelIndexes.map((i) => (
+            <text
+              x={xForIndex(i, chartMonths.length)}
+              y={CHART_H - 6}
+              class="chart-label chart-xlabel"
+              text-anchor={i === 0 ? 'start' : i === chartMonths.length - 1 ? 'end' : 'middle'}
+            >
+              {chartMonths[i]}
+            </text>
+          ))}
+        </svg>
+        <div class="chart-legend">
+          {unitNames.map((u, i) => (
+            <span class="legend-item">
+              <span class="legend-dot" style={`background:${CHART_COLORS[i % CHART_COLORS.length]}`}></span>
+              {u} <span class="legend-max">(최대 {seriesMax[u]}명)</span>
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
 
     <div class="filters" id="filters">
       <button class="filter-btn active" data-group="current">현재 멤버</button>
@@ -20,6 +202,7 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
       {withdrawnMembers.length > 0 && (
         <button class="filter-btn" data-group="withdrawn">탈퇴 멤버</button>
       )}
+      <button class="filter-btn" data-group="history">History</button>
     </div>
 
     <div class="member-grid" id="grid">
@@ -35,6 +218,39 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
     </div>
 
     <footer id="count">총 {activeMembers.length}명</footer>
+
+    <!-- History: 연도/월별 합류 타임라인 -->
+    <div class="history-timeline" id="history-panel" style="display:none">
+      {years.map((year) => (
+        <div class="year-block">
+          <div class="year-label">{year}</div>
+          <ul class="event-list">
+            {eventsByYear.get(year).map((e) => (
+              <li class={`event-item event-${e.kind}`}>
+                <span class="event-date">
+                  {e.date}
+                  {e.kind === 'announcement' && <span class="event-tag tag-announce">모집 공고</span>}
+                  {e.kind === 'acceptance' && <span class="event-tag tag-accept">합격 발표</span>}
+                </span>
+                {e.title && <h3 class="event-title">{e.title}</h3>}
+                {e.description && <p class="event-desc">{e.description}</p>}
+                {e.joiners.length > 0 && (
+                  <div class="event-joiners">
+                    {e.joiners.map((j) => (
+                      <a class="joiner" href={`${base}/members/${j.id}`}>
+                        <MemberAvatar member={members.find((m) => m.id === j.id)} size={32} />
+                        <span>{j.name}{j.isRejoin && <em> (재합류)</em>}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      {years.length === 0 && <p class="empty-note">합류 기록이 아직 없어요.</p>}
+    </div>
   </div>
 </Layout>
 
@@ -42,6 +258,8 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
   const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
   const items = document.querySelectorAll<HTMLDivElement>('.grid-item');
   const countEl = document.getElementById('count');
+  const grid = document.getElementById('grid');
+  const historyPanel = document.getElementById('history-panel');
 
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -49,6 +267,18 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
       btn.classList.add('active');
 
       const group = btn.dataset.group;
+
+      if (group === 'history') {
+        if (grid) grid.style.display = 'none';
+        if (countEl) countEl.style.display = 'none';
+        if (historyPanel) historyPanel.style.display = '';
+        return;
+      }
+
+      if (grid) grid.style.display = '';
+      if (countEl) countEl.style.display = '';
+      if (historyPanel) historyPanel.style.display = 'none';
+
       let visibleCount = 0;
       items.forEach((item) => {
         const show = item.dataset.group === group;
@@ -63,6 +293,18 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
 
 <style>
   .page-wrap { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+
+  /* 유닛별 인원 추이 그래프 */
+  .unit-chart { margin: 0 0 40px; padding: 24px; border: 1px solid var(--line); border-radius: 12px; }
+  .chart-title { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+  .chart-svg { width: 100%; height: auto; display: block; }
+  .chart-axis { stroke: var(--line); stroke-width: 1; }
+  .chart-label { font-size: 10px; fill: var(--muted); font-family: 'Archivo', sans-serif; }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .legend-max { color: var(--muted); opacity: 0.7; }
+  .chart-xlabel { fill: var(--muted); }
 
   .filters {
     display: flex;
@@ -94,4 +336,53 @@ const withdrawnMembers = members.filter((m) => m.status === 'withdrawn');
     font-size: 13px;
     color: var(--muted);
   }
+
+  /* History 타임라인 */
+  .history-timeline { border-left: 2px solid var(--line); margin-left: 8px; }
+  .year-block { position: relative; padding: 0 0 40px 32px; }
+  .year-label {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    color: var(--muted);
+    margin: 0 0 16px;
+  }
+  .event-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 20px; }
+  .event-item { position: relative; }
+  .event-item::before {
+    content: '';
+    position: absolute;
+    left: -37px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .event-date { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .event-tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .tag-announce { background: var(--line); color: var(--muted); }
+  .tag-accept { background: var(--accent); color: #0e0e10; }
+  .event-title { font-size: 16px; margin: 0 0 6px; }
+  .event-desc { font-size: 13px; color: var(--muted); line-height: 1.6; margin: 0 0 8px; }
+  .event-joiners { display: flex; flex-wrap: wrap; gap: 12px; }
+  .joiner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 13px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 4px 12px 4px 4px;
+  }
+  .joiner:hover { border-color: var(--muted); }
+  .joiner em { color: var(--muted); font-style: normal; font-size: 11px; }
+  .empty-note { color: var(--muted); font-size: 14px; }
 </style>

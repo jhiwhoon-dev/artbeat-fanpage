@@ -100,6 +100,27 @@ def build_periods(row, columns):
 
     return periods
 
+def build_unit_periods(row, columns):
+    """unit1/unit1_start/unit1_end (번호 붙은 것 포함)를 묶어서 유닛 소속 기간 배열로 변환.
+    예: unit1=A2Be, unit1_start=2020-03, unit1_end=2021-08, unit2=AB PROJECT, unit2_start=2021-09
+    -> [{"unit": ["A2Be"], "start": "2020-03", "end": "2021-08"}, {"unit": ["AB PROJECT"], "start": "2021-09", "end": None}]"""
+    unit_cols = sorted(
+        [c for c in columns if re.fullmatch(r"unit\d+", c)],
+        key=lambda c: int(re.sub(r"\D", "", c))
+    )
+
+    periods = []
+    for uc in unit_cols:
+        n = re.sub(r"\D", "", uc)
+        start_col, end_col = f"unit{n}_start", f"unit{n}_end"
+        unit_val = split_list(row.get(uc))
+        start = parse_date(row.get(start_col)) if start_col in columns else None
+        end = parse_date(row.get(end_col)) if end_col in columns else None
+        if unit_val:
+            periods.append({"unit": unit_val, "start": start, "end": end})
+
+    return periods
+
 # ---------- 변환 ----------
 df = pd.read_excel(SRC, sheet_name="artbeat_member", header=1)
 df = df.drop(columns=[c for c in df.columns if str(c).startswith("Unnamed")])
@@ -133,6 +154,10 @@ for _, row in df.iterrows():
             sns[platform] = urls
 
     periods = build_periods(row, df.columns)
+    unit_periods = build_unit_periods(row, df.columns)
+
+    # 현재 소속 유닛: unit1~N 컬럼이 있으면 그중 가장 최근(마지막) 기간, 없으면 기존 unit 컬럼 사용 (하위호환)
+    current_unit = unit_periods[-1]["unit"] if unit_periods else split_list(row.get("unit"))
 
     member = {
         "id": member_id,
@@ -142,7 +167,8 @@ for _, row in df.iterrows():
         "birth_date": parse_date(row.get("date")),
         "gender": clean(row.get("gender")),
         "role": clean(row.get("role")),
-        "unit": split_list(row.get("unit")),
+        "unit": current_unit,
+        "unit_periods": unit_periods,  # 유닛 이동 이력 (그래프용)
         "status": clean(row.get("status")),
         "joined_date": periods[0]["joined"] if periods else None,
         "left_date": periods[-1]["left"] if periods else None,
