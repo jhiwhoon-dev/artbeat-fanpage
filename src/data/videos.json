@@ -2512,10 +2512,7 @@
       "ha-seyoung",
       "oh-yubin",
       "kang-yejin",
-      "jang-sein",
-      "jung-yujin",
-      "lee-yejin",
-      "lee-yoobin"
+      "jang-sein"
     ],
     "published_date": "2026-07-31",
     "content_type": "video",
@@ -2560,6 +2557,7 @@
       "chae-yunsu",
       "ahn-gihyun",
       "lee-garam",
+      "lee-yejin",
       "jung-gyeolgyeong"
     ],
     "published_date": "2026-07-30",
@@ -2603,6 +2601,7 @@
       "jung-gyeolgyeong",
       "kim-nakyeong",
       "won-hyegyeong",
+      "aoki-yuka",
       "lee-yoonjae"
     ],
     "published_date": "2026-07-29",
@@ -2646,8 +2645,7 @@
       "kim-hojun",
       "hwang-jiho",
       "yang-hwanhee",
-      "jung-hyeonchang",
-      "shim-jiho"
+      "jung-hyeonchang"
     ],
     "published_date": "2026-07-28",
     "content_type": "video",
@@ -2694,8 +2692,7 @@
       "baek-jina",
       "lee-yoonjae",
       "cho-yuna",
-      "kim-soeun",
-      "lee-yoobin"
+      "kim-soeun"
     ],
     "published_date": "2026-07-27",
     "content_type": "video",
@@ -2785,8 +2782,7 @@
       "jang-sein",
       "jung-yujin",
       "lee-yejin",
-      "jung-siyun",
-      "lee-yoobin"
+      "jung-siyun"
     ],
     "published_date": "2026-07-26",
     "content_type": "video",
@@ -2914,6 +2910,7 @@
       "aespa"
     ],
     "tagged_members": [
+      "jung-yujin",
       "jung-hyeonjin",
       "kim-nakyeong",
       "lee-jeonghee"
@@ -3013,7 +3010,8 @@
       "oh-yubin",
       "kim-nakyeong",
       "won-hyegyeong",
-      "lee-yoobin"
+      "lee-yejin",
+      "aoki-yuka"
     ],
     "published_date": "2026-07-22",
     "content_type": "video",
@@ -3076,10 +3074,11 @@
   {
     "youtube_id": "637FgczVvOY",
     "title": "나 뭐 바뀐 거 없어? ㅎㅎ #LemonTang #유빈",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
-      "oh-yubin",
-      "lee-yoobin"
+      "oh-yubin"
     ],
     "published_date": "2026-07-15",
     "content_type": "short",
@@ -3164,7 +3163,8 @@
     "youtube_id": "5JS2GUaAaro",
     "title": "하츠투하츠 Hearts2Hearts - Lemon Tang | Dance Practice",
     "covered_group": [
-      "Hearts2Hearts"
+      "Hearts2Hearts",
+      "Dance Practice"
     ],
     "tagged_members": [
       "yun-haeun",
@@ -3174,8 +3174,7 @@
       "baek-jina",
       "lee-yoonjae",
       "cho-yuna",
-      "kim-soeun",
-      "lee-yoobin"
+      "kim-soeun"
     ],
     "published_date": "2026-07-13",
     "content_type": "short",

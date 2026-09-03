@@ -16,6 +16,7 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 const VIDEOS_PATH = path.join(process.cwd(), "src", "data", "videos.json");
 const MEMBERS_PATH = path.join(process.cwd(), "src", "data", "members.json");
 const GROUPS_PATH = path.join(process.cwd(), "src", "data", "covered_groups.json");
+const SERIES_PATH = path.join(process.cwd(), "src", "data", "content_series.json");
 const SHORTS_MAX_SECONDS = 180;
 
 if (!API_KEY) {
@@ -25,6 +26,7 @@ if (!API_KEY) {
 
 const members = JSON.parse(fs.readFileSync(MEMBERS_PATH, "utf-8"));
 const coveredGroups = JSON.parse(fs.readFileSync(GROUPS_PATH, "utf-8"));
+const contentSeries = JSON.parse(fs.readFileSync(SERIES_PATH, "utf-8"));
 
 // 대소문자 무시 + 공백 전부 제거 후 비교 ("New Jeans" === "newjeans") — 한글 등에 사용
 function normalize(s) {
@@ -51,21 +53,28 @@ function buildMatcher(candidate) {
   return (text) => normalize(text).includes(norm);
 }
 
-const groupMatchers = coveredGroups.map((g) => ({
-  name: g.name,
-  matchers: [g.name, ...(g.aliases ?? [])].map(buildMatcher),
-}));
+// covered_groups.json / content_series.json처럼 [{name, aliases}] 형태의 "태그 사전"을
+// 매칭 함수 목록으로 미리 변환해두는 공용 헬퍼 (그룹, 콘텐츠 시리즈 둘 다 이걸로 처리)
+function buildTagMatchers(tagList) {
+  return tagList.map((t) => ({
+    name: t.name,
+    matchers: [t.name, ...(t.aliases ?? [])].map(buildMatcher),
+  }));
+}
 
-// 제목+설명란 텍스트에서 covered_groups.json에 등록된 그룹을 찾아서 추천
-function suggestCoveredGroups(text) {
+// 텍스트 안에서 사전에 등록된 태그(그룹 또는 콘텐츠 시리즈)를 찾아서 추천
+function suggestTags(text, tagMatchers) {
   const found = [];
-  for (const g of groupMatchers) {
-    if (g.matchers.some((match) => match(text))) {
-      found.push(g.name);
+  for (const t of tagMatchers) {
+    if (t.matchers.some((match) => match(text))) {
+      found.push(t.name);
     }
   }
   return found;
 }
+
+const groupMatchers = buildTagMatchers(coveredGroups);
+const seriesMatchers = buildTagMatchers(contentSeries);
 
 // 크레딧에는 보통 성 없이 이름만 적혀있는 경우가 많음 (예: "김소은" -> "소은 SoEun")
 // 그래서 전체 이름뿐 아니라, 성 한 글자를 뗀 이름도 같이 후보로 확인한다.
@@ -194,23 +203,31 @@ async function main() {
     if (prev) {
       updatedCount++;
 
-      // 기존 영상이라도 covered_group/tagged_members가 "비어있을 때만" 자동 추천으로 채움.
+      // 기존 영상이라도 covered_group/content_series/tagged_members가 "비어있을 때만" 자동 추천으로 채움.
       // 이미 뭔가 채워져 있으면(직접 태깅했든, 예전에 추천됐든) 절대 안 건드림.
       const hadEmptyGroup = !prev.covered_group || prev.covered_group.length === 0;
+      const hadEmptySeries = !prev.content_series || prev.content_series.length === 0;
       const hadEmptyMembers = !prev.tagged_members || prev.tagged_members.length === 0;
-      const coveredGroup = hadEmptyGroup ? suggestCoveredGroups(text) : prev.covered_group;
+      const coveredGroup = hadEmptyGroup ? suggestTags(text, groupMatchers) : prev.covered_group;
+      const series = hadEmptySeries ? suggestTags(text, seriesMatchers) : prev.content_series;
       const taggedMembers = hadEmptyMembers ? suggestTaggedMembers(text) : prev.tagged_members;
 
-      if ((hadEmptyGroup && coveredGroup.length > 0) || (hadEmptyMembers && taggedMembers.length > 0)) {
+      const backfilled =
+        (hadEmptyGroup && coveredGroup.length > 0) ||
+        (hadEmptySeries && series.length > 0) ||
+        (hadEmptyMembers && taggedMembers.length > 0);
+      if (backfilled) {
         backfilledCount++;
         console.log(`  [기존 영상 자동 보완] ${prev.title}`);
         if (hadEmptyGroup && coveredGroup.length > 0) console.log(`    그룹: ${coveredGroup.join(', ')}`);
+        if (hadEmptySeries && series.length > 0) console.log(`    시리즈: ${series.join(', ')}`);
         if (hadEmptyMembers && taggedMembers.length > 0) console.log(`    멤버: ${taggedMembers.join(', ')}`);
       }
 
       return {
         ...prev, // title, published_date 등 나머지는 그대로 유지
         covered_group: coveredGroup,
+        content_series: series,
         tagged_members: taggedMembers,
         view_count: d ? d.view_count : prev.view_count ?? 0,
         content_type: prev.content_type ?? (d ? d.content_type : "video"),
@@ -218,12 +235,14 @@ async function main() {
     }
 
     addedCount++;
-    const suggestedGroups = suggestCoveredGroups(text);
+    const suggestedGroups = suggestTags(text, groupMatchers);
+    const suggestedSeries = suggestTags(text, seriesMatchers);
     const suggestedMembers = suggestTaggedMembers(text);
 
-    if (suggestedGroups.length > 0 || suggestedMembers.length > 0) {
+    if (suggestedGroups.length > 0 || suggestedSeries.length > 0 || suggestedMembers.length > 0) {
       console.log(`  [자동 추천] ${item.snippet.title}`);
       if (suggestedGroups.length > 0) console.log(`    그룹: ${suggestedGroups.join(', ')}`);
+      if (suggestedSeries.length > 0) console.log(`    시리즈: ${suggestedSeries.join(', ')}`);
       if (suggestedMembers.length > 0) console.log(`    멤버: ${suggestedMembers.join(', ')}`);
     }
 
@@ -231,6 +250,7 @@ async function main() {
       youtube_id: id,
       title: item.snippet.title,
       covered_group: suggestedGroups, // 자동 추천됨 — 꼭 검수 필요
+      content_series: suggestedSeries, // 자동 추천됨 — 꼭 검수 필요
       tagged_members: suggestedMembers, // 자동 추천됨 — 꼭 검수 필요
       published_date: item.snippet.publishedAt.slice(0, 10),
       content_type: d ? d.content_type : "video",

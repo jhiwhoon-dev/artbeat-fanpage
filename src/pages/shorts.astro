@@ -9,7 +9,8 @@ function getType(v) {
 }
 const videos = allVideos.filter((v) => getType(v) === 'short');
 
-const allGroups = [...new Set(videos.flatMap((v) => v.covered_group))].sort();
+const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
+const allSeries = [...new Set(videos.flatMap((v) => v.content_series ?? []))].sort();
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
@@ -18,16 +19,43 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <p class="eyebrow">ARTBEAT</p>
     <h1>Short<span>s</span></h1>
 
-    <div class="filters" id="filters">
-      <button class="filter-btn active" data-group="all">전체</button>
-      {allGroups.map((group) => (
-        <button class="filter-btn" data-group={group}>{group}</button>
-      ))}
+    <div class="controls">
+      <div class="filter-block">
+        <div class="mode-tabs" id="mode-tabs">
+          <button class="mode-btn active" data-mode="group">그룹별</button>
+          <button class="mode-btn" data-mode="series">콘텐츠별</button>
+        </div>
+
+        <div class="filters" id="filters-group">
+          <button class="filter-btn active" data-value="all">전체</button>
+          {allGroups.map((group) => (
+            <button class="filter-btn" data-value={group}>{group}</button>
+          ))}
+        </div>
+        <div class="filters" id="filters-series" hidden>
+          <button class="filter-btn active" data-value="all">전체</button>
+          {allSeries.map((series) => (
+            <button class="filter-btn" data-value={series}>{series}</button>
+          ))}
+        </div>
+      </div>
+
+      <select id="sort-select" class="sort-select">
+        <option value="newest">최신순</option>
+        <option value="oldest">오래된순</option>
+        <option value="views">조회수순</option>
+      </select>
     </div>
 
     <div class="grid" id="grid">
       {videos.map((v) => (
-        <div class="card" data-groups={v.covered_group.join(',')}>
+        <div
+          class="card"
+          data-groups={(v.covered_group ?? []).join(',')}
+          data-series={(v.content_series ?? []).join(',')}
+          data-date={v.published_date}
+          data-views={v.view_count ?? 0}
+        >
           <a
             class="thumb-link"
             href={`https://www.youtube.com/shorts/${v.youtube_id}`}
@@ -46,7 +74,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <p class="title">{v.title}</p>
           </a>
           <div class="tags">
-            {v.covered_group.map((g) => <span class="tag tag-group">{g}</span>)}
+            {(v.covered_group ?? []).map((g) => <span class="tag tag-group">{g}</span>)}
+            {(v.content_series ?? []).map((s) => <span class="tag tag-series">{s}</span>)}
             {(v.tagged_members ?? [])
               .filter((id) => memberMap[id])
               .map((id) => (
@@ -57,42 +86,104 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       ))}
     </div>
 
-    <p class="empty" id="empty" hidden>이 그룹으로 태깅된 Shorts가 아직 없어요.</p>
+    <p class="empty" id="empty" hidden>조건에 맞는 Shorts가 없어요.</p>
   </div>
 </Layout>
 
 <script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
+  const filterGroupEl = document.getElementById('filters-group');
+  const filterSeriesEl = document.getElementById('filters-series');
   const cards = document.querySelectorAll<HTMLDivElement>('.card');
   const empty = document.getElementById('empty');
+  const grid = document.getElementById('grid');
+  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
 
-  buttons.forEach((btn) => {
+  let activeMode: 'group' | 'series' = 'group';
+  let activeValue = 'all';
+
+  function applyFilter() {
+    let visibleCount = 0;
+    cards.forEach((card) => {
+      const dataAttr = activeMode === 'group' ? card.dataset.groups : card.dataset.series;
+      const values = dataAttr ? dataAttr.split(',') : [];
+      const show = activeValue === 'all' || values.includes(activeValue);
+      card.style.display = show ? '' : 'none';
+      if (show) visibleCount++;
+    });
+    if (empty) empty.hidden = visibleCount > 0;
+  }
+
+  function applySort() {
+    if (!grid) return;
+    const sorted = Array.from(cards).sort((a, b) => {
+      const mode = sortSelect.value;
+      if (mode === 'views') return Number(b.dataset.views) - Number(a.dataset.views);
+      if (mode === 'oldest') return (a.dataset.date ?? '').localeCompare(b.dataset.date ?? '');
+      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? '');
+    });
+    sorted.forEach((card) => grid.appendChild(card));
+  }
+
+  modeButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
-      buttons.forEach((b) => b.classList.remove('active'));
+      modeButtons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
+      activeMode = (btn.dataset.mode as 'group' | 'series') ?? 'group';
+      activeValue = 'all';
 
-      const group = btn.dataset.group;
-      let visibleCount = 0;
+      if (filterGroupEl) filterGroupEl.hidden = activeMode !== 'group';
+      if (filterSeriesEl) filterSeriesEl.hidden = activeMode !== 'series';
 
-      cards.forEach((card) => {
-        const groups = card.dataset.groups?.split(',') ?? [];
-        const show = group === 'all' || groups.includes(group ?? '');
-        card.style.display = show ? '' : 'none';
-        if (show) visibleCount++;
+      document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => {
+        b.classList.toggle('active', b.dataset.value === 'all');
       });
 
-      if (empty) empty.hidden = visibleCount > 0;
+      applyFilter();
     });
   });
+
+  document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('.filters');
+      parent?.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeValue = btn.dataset.value ?? 'all';
+      applyFilter();
+    });
+  });
+
+  sortSelect?.addEventListener('change', applySort);
 </script>
 
 <style>
-  .filters {
+  .controls {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
     margin-bottom: 40px;
   }
+  .filter-block { display: flex; flex-direction: column; gap: 12px; }
+
+  .mode-tabs { display: flex; gap: 4px; }
+  .mode-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 6px 4px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .mode-btn + .mode-btn { margin-left: 12px; }
+  .mode-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
     font-family: 'Archivo', sans-serif;
     font-size: 13px;
@@ -106,6 +197,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
   .filter-btn:hover { border-color: var(--muted); color: var(--ink); }
   .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  .sort-select {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    cursor: pointer;
+  }
 
   /* Shorts는 세로형이라 그리드 칸을 좁고 길게 */
   .grid {
@@ -157,6 +260,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     text-decoration: none;
   }
   .tag-group { color: var(--muted); border: 1px solid var(--line); }
+  .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
   .empty {

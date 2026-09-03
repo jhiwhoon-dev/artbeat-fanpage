@@ -4,18 +4,14 @@ import allVideos from '../data/videos.json';
 import members from '../data/members.json';
 import liveStatus from '../data/live_status.json';
 
-// Shorts, Live는 별도 페이지에서 다루므로 여기서는 video만
-// (예전 is_short 필드로만 표시된 데이터도 계속 인식되도록 fallback 처리)
 function getType(v) {
   if (v.content_type) return v.content_type;
   return v.is_short ? 'short' : 'video';
 }
 const videos = allVideos.filter((v) => getType(v) === 'live');
 
-// 등장하는 모든 커버 그룹을 중복 없이 뽑아서 필터 버튼 목록으로 사용
-const allGroups = [...new Set(videos.flatMap((v) => v.covered_group))].sort();
-
-// 태그된 멤버 id -> 이름 조회용
+const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
+const allSeries = [...new Set(videos.flatMap((v) => v.content_series ?? []))].sort();
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
@@ -38,12 +34,26 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     )}
 
     <div class="controls">
-      <div class="filters" id="filters">
-        <button class="filter-btn active" data-group="all">전체</button>
-        {allGroups.map((group) => (
-          <button class="filter-btn" data-group={group}>{group}</button>
-        ))}
+      <div class="filter-block">
+        <div class="mode-tabs" id="mode-tabs">
+          <button class="mode-btn active" data-mode="group">그룹별</button>
+          <button class="mode-btn" data-mode="series">콘텐츠별</button>
+        </div>
+
+        <div class="filters" id="filters-group">
+          <button class="filter-btn active" data-value="all">전체</button>
+          {allGroups.map((group) => (
+            <button class="filter-btn" data-value={group}>{group}</button>
+          ))}
+        </div>
+        <div class="filters" id="filters-series" hidden>
+          <button class="filter-btn active" data-value="all">전체</button>
+          {allSeries.map((series) => (
+            <button class="filter-btn" data-value={series}>{series}</button>
+          ))}
+        </div>
       </div>
+
       <select id="sort-select" class="sort-select">
         <option value="newest">최신순</option>
         <option value="oldest">오래된순</option>
@@ -55,7 +65,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {videos.map((v) => (
         <div
           class="card"
-          data-groups={v.covered_group.join(',')}
+          data-groups={(v.covered_group ?? []).join(',')}
+          data-series={(v.content_series ?? []).join(',')}
           data-date={v.published_date}
           data-views={v.view_count ?? 0}
         >
@@ -77,7 +88,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <p class="title">{v.title}</p>
           </a>
           <div class="tags">
-            {v.covered_group.map((g) => <span class="tag tag-group">{g}</span>)}
+            {(v.covered_group ?? []).map((g) => <span class="tag tag-group">{g}</span>)}
+            {(v.content_series ?? []).map((s) => <span class="tag tag-series">{s}</span>)}
             {(v.tagged_members ?? [])
               .filter((id) => memberMap[id])
               .map((id) => (
@@ -93,19 +105,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 </Layout>
 
 <script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
+  const filterGroupEl = document.getElementById('filters-group');
+  const filterSeriesEl = document.getElementById('filters-series');
   const cards = document.querySelectorAll<HTMLDivElement>('.card');
   const empty = document.getElementById('empty');
   const grid = document.getElementById('grid');
   const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
 
-  let activeGroup = 'all';
+  let activeMode: 'group' | 'series' = 'group';
+  let activeValue = 'all';
 
   function applyFilter() {
     let visibleCount = 0;
     cards.forEach((card) => {
-      const groups = card.dataset.groups?.split(',') ?? [];
-      const show = activeGroup === 'all' || groups.includes(activeGroup);
+      const dataAttr = activeMode === 'group' ? card.dataset.groups : card.dataset.series;
+      const values = dataAttr ? dataAttr.split(',') : [];
+      const show = activeValue === 'all' || values.includes(activeValue);
       card.style.display = show ? '' : 'none';
       if (show) visibleCount++;
     });
@@ -118,16 +134,35 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       const mode = sortSelect.value;
       if (mode === 'views') return Number(b.dataset.views) - Number(a.dataset.views);
       if (mode === 'oldest') return (a.dataset.date ?? '').localeCompare(b.dataset.date ?? '');
-      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? ''); // newest (기본)
+      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? '');
     });
     sorted.forEach((card) => grid.appendChild(card));
   }
 
-  buttons.forEach((btn) => {
+  modeButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
-      buttons.forEach((b) => b.classList.remove('active'));
+      modeButtons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
-      activeGroup = btn.dataset.group ?? 'all';
+      activeMode = (btn.dataset.mode as 'group' | 'series') ?? 'group';
+      activeValue = 'all';
+
+      if (filterGroupEl) filterGroupEl.hidden = activeMode !== 'group';
+      if (filterSeriesEl) filterSeriesEl.hidden = activeMode !== 'series';
+
+      document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => {
+        b.classList.toggle('active', b.dataset.value === 'all');
+      });
+
+      applyFilter();
+    });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('.filters');
+      parent?.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeValue = btn.dataset.value ?? 'all';
       applyFilter();
     });
   });
@@ -173,11 +208,29 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .controls {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 40px;
   }
+  .filter-block { display: flex; flex-direction: column; gap: 12px; }
+
+  .mode-tabs { display: flex; gap: 4px; }
+  .mode-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 6px 4px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .mode-btn + .mode-btn { margin-left: 12px; }
+  .mode-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+
   .filters { display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
     font-family: 'Archivo', sans-serif;
@@ -254,6 +307,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     text-decoration: none;
   }
   .tag-group { color: var(--muted); border: 1px solid var(--line); }
+  .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
   .empty {
