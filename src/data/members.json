@@ -317,9 +317,9 @@
     "sns": {}
   },
   {
-    "id": "kim-gyeongju",
+    "id": "kim-kyungju",
     "name": "김경주",
-    "name_en": "Gyeongju Kim",
+    "name_en": "Kyungju Kim",
     "nickname": null,
     "birth_date": "2003-01-04",
     "gender": "M",
@@ -352,7 +352,7 @@
         "left": null
       }
     ],
-    "photo_filename": "kim-gyeongju.jpg",
+    "photo_filename": "kim-kyungju.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -376,7 +376,7 @@
         "unit": [
           "AB PROJECT"
         ],
-        "start": "2021-04",
+        "start": "2021-03",
         "end": null
       }
     ],
@@ -2079,9 +2079,9 @@
     }
   },
   {
-    "id": "hye-in",
-    "name": "혜인",
-    "name_en": "In Hye",
+    "id": "jung-hyein",
+    "name": "정혜인",
+    "name_en": "Hyein Jung",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
@@ -2094,7 +2094,7 @@
         "unit": [
           "AB PROJECT"
         ],
-        "start": "2021-04",
+        "start": "2021-03",
         "end": "2023-01"
       }
     ],
@@ -2193,9 +2193,9 @@
     }
   },
   {
-    "id": "bang-juyeon",
+    "id": "bang-jooyeon",
     "name": "방주연",
-    "name_en": "Juyeon Bang",
+    "name_en": "Jooyeon Bang",
     "nickname": null,
     "birth_date": "2006-09-16",
     "gender": "F",
@@ -2204,6 +2204,13 @@
       "AB PROJECT"
     ],
     "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2021-03",
+        "end": "2022-01"
+      },
       {
         "unit": [
           "AB PROJECT"
@@ -2221,7 +2228,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "bang-jooyeon.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -4286,9 +4293,9 @@
     }
   },
   {
-    "id": "choi-seongjun",
+    "id": "choi-sungjun",
     "name": "최성준",
-    "name_en": "Seongjun Choi",
+    "name_en": "Sungjun Choi",
     "nickname": null,
     "birth_date": null,
     "gender": "M",
@@ -4301,7 +4308,7 @@
         "unit": [
           "AB PROJECT"
         ],
-        "start": "2021-04",
+        "start": "2021-03",
         "end": "2024-01"
       }
     ],
@@ -4379,6 +4386,39 @@
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-woonggyeom",
+    "name": "김웅겸",
+    "name_en": "Woonggyeom Kim",
+    "nickname": null,
+    "birth_date": "2001-01-08",
+    "gender": "M",
+    "role": null,
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-02",
+        "end": "2021-12"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2018-02-02",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2018-02-02",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {}

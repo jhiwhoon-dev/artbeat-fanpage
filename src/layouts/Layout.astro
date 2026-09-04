@@ -8,9 +8,16 @@ import liveStatus from '../data/live_status.json';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Videos는 하위에 Video/Shorts/Live를 모아둔 드롭다운으로 구성
+// ARTBEAT: 소개/History를 하위로 묶은 드롭다운. Videos도 동일 패턴(Video/Shorts/Live).
 const navLinks = [
-  { href: base || '/', label: 'About' },
+  {
+    label: 'ARTBEAT',
+    href: base || '/',
+    children: [
+      { href: `${base}/about`, label: '소개' },
+      { href: `${base}/history`, label: 'History' },
+    ],
+  },
   { href: `${base}/members`, label: 'Members' },
   {
     label: 'Videos',
@@ -22,7 +29,6 @@ const navLinks = [
     ],
   },
   { href: `${base}/schedule`, label: 'Schedule' },
-  { href: `${base}/history`, label: 'History' },
   { href: `${base}/community`, label: 'Community' },
 ];
 
@@ -44,10 +50,13 @@ const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
       {navLinks.map((link) =>
         link.children ? (
           <div class="nav-dropdown">
-            <a href={link.href}>
-              {link.label}
-              <span class="chevron">▾</span>
-              {liveStatus.is_live && <span class="live-dot" aria-label="LIVE" />}
+            <a href={link.href} class="nav-top">
+              <span class="fill-bg"></span>
+              <span class="nav-content">
+                {link.label}
+                <span class="chevron">▾</span>
+                {liveStatus.is_live && <span class="live-dot" aria-label="LIVE" />}
+              </span>
             </a>
             <div class="dropdown-panel">
               {link.children.map((child) => (
@@ -59,7 +68,10 @@ const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
             </div>
           </div>
         ) : (
-          <a href={link.href}>{link.label}</a>
+          <a href={link.href} class="nav-top">
+            <span class="fill-bg"></span>
+            <span class="nav-content">{link.label}</span>
+          </a>
         )
       )}
     </div>
@@ -82,23 +94,46 @@ const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
 
   <footer class="disclaimer">
     <p>
-      <strong>안내 및 면책 조항 (Disclaimer)</strong><br /><br />
-      본 웹사이트는 순수한 팬심을 바탕으로 1인 개발자가 제작한 비공식 팬 페이지로, 어떠한 상업적 수익도 창출하지 않는 비영리 목적으로 운영됩니다. 본 사이트는 아티스트의 공식 소속사 및 채널과 직접적인 관련이 없습니다.<br />
-      또한, 본 페이지는 YouTube의 공식 API 규정을 준수하여 영상 콘텐츠를 제공하고 있습니다. 사이트 내에서 발생하는 모든 영상 조회수 및 관련 광고 수익은 100% 원작자(공식 채널)에게 귀속되어 아티스트의 활동에 기여합니다.<br />
-      시스템 오류(버그) 제보나 기타 문의 사항이 있으신 경우, 아래 이메일로 남겨주시면 감사하겠습니다. (한국어/영어 모두 가능)<br />
+      <strong>안내</strong><br /><br />
+      본 웹사이트는 순수한 팬심을 바탕으로 1인 개발자가 제작한 비공식 팬 페이지로, 어떠한 상업적 수익도 창출하지 않는 비영리 목적으로 운영됩니다.</br>본 사이트는 아티스트의 공식 소속사 및 채널과 직접적인 관련이 없습니다.<br />
+      <span class="notice-subtitle">저작권 및 수익 귀속</span>
+      사이트 내에 사용된 모든 영상, 사진, 로고 등 콘텐츠의 저작권 및 초상권은 원작자(공식 채널 및 소속사)에게 있습니다.<br />
+      본 페이지는 YouTube의 공식 API 규정을 준수하여 영상 콘텐츠를 제공하며, 사이트 내에서 발생하는 모든 영상 조회수 및 관련 광고 수익은 100% 원작자에게 귀속되어 아티스트의 활동에 기여합니다.<br />
+      <span class="notice-subtitle">권리자 요청 및 문의</span>
+      본 사이트는 방문자의 개인정보를 별도로 수집하지 않습니다.<br />
+      원작자 또는 소속사 측에서 사이트 운영이나 특정 콘텐츠의 게시 중단을 원하실 경우, 아래의 연락처로 요청해 주시면 즉각 조치하겠습니다.<br />
+      시스템 오류(버그) 제보나 기타 문의 사항 역시 아래 이메일로 남겨주시면 감사하겠습니다. (한국어/영어 모두 가능)<br />
       문의 및 제보: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
     <hr class="disclaimer-divider" />
     <p>
-      <strong>Notice &amp; Disclaimer</strong><br /><br />
-      This website is an unofficial fan page created by a single developer out of pure support and admiration for the artist. It is strictly a non-profit project and does not generate any commercial revenue. This site is not affiliated with the artist's official agency or management.<br />
-      Furthermore, this page operates in full compliance with the official YouTube API. All video views and ad revenue generated through this site are directed entirely to the original creator's official channel, directly supporting the artist.<br />
-      If you encounter any bugs or have any inquiries, please feel free to reach out via email. (Inquiries are welcome in both English and Korean.)<br />
+      <strong>Notice</strong><br /><br />
+      This website is an unofficial fan page created by a solo developer out of pure support for the artist. It is operated strictly for non-profit purposes and generates no commercial revenue.<br />This site is not directly affiliated with the artist's official agency or channels.
+      <span class="notice-subtitle">Copyright & Revenue Attribution</span>
+      All copyrights and portrait rights for the content used on this site, including videos, photos, and logos, belong to the original creators (the official channel and agency).<br />
+      This page provides video content in compliance with YouTube's official API guidelines. All video views and related ad revenue generated through this site are attributed 100% to the original creators, supporting the artist's activities.<br />
+      <span class="notice-subtitle">Takedown Requests & Inquiries</span>
+      This site does not collect any personal information from its visitors. <br />
+      If the original creators or the agency wish to request the removal of specific content or the suspension of the site, please contact us at the email below, and we will take immediate action.<br />
+      For system error (bug) reports or any other inquiries, please feel free to reach out to the same email address. (Both Korean and English are supported)<br />
       Contact / Bug Report: <a href="mailto:kangjw0914@gmail.com">kangjw0914@gmail.com</a>
     </p>
   </footer>
 </body>
 </html>
+
+<script>
+  // 최상위 탭(.nav-top)에만 적용 — 하위 드롭다운 항목은 이 클래스가 없어서 자동으로 제외됨
+  document.querySelectorAll<HTMLAnchorElement>('.nav-top').forEach((el) => {
+    el.addEventListener('mouseenter', (e) => {
+      const rect = el.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      el.style.setProperty('--mx', `${x}%`);
+      el.style.setProperty('--my', `${y}%`);
+    });
+  });
+</script>
 
 <style is:global>
   :root {
@@ -151,32 +186,50 @@ const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
     margin: 0 auto;
     padding: 18px 24px;
   }
-  .topnav-inner > a {
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--ink);
-    opacity: 0.7;
-    transition: opacity 0.15s ease, color 0.15s ease;
-  }
-  .topnav-inner > a:hover { opacity: 1; color: var(--accent); }
-
-  .nav-dropdown { position: relative; }
-  .nav-dropdown > a {
+  .topnav-inner > .nav-top,
+  .nav-dropdown > .nav-top {
+    position: relative;
     display: inline-flex;
     align-items: center;
+    overflow: hidden;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--ink);
-    opacity: 0.7;
-    transition: opacity 0.15s ease, color 0.15s ease;
+    opacity: 0.75;
+    padding: 6px 10px;
+    margin: -6px -10px;
+    border-radius: 4px;
+    transition: opacity 0.15s ease;
   }
-  .nav-dropdown > a:hover { opacity: 1; color: var(--accent); }
+  .topnav-inner > .nav-top:hover,
+  .nav-dropdown > .nav-top:hover { opacity: 1; }
+
+  /* 마우스가 들어온 지점을 기준으로 흰색이 박스 끝까지 퍼져나가는 효과 (최상위 탭에만 적용) */
+  .fill-bg {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    clip-path: circle(0% at var(--mx, 50%) var(--my, 50%));
+    transition: clip-path 0.4s ease;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .nav-top:hover .fill-bg {
+    clip-path: circle(140% at var(--mx, 50%) var(--my, 50%));
+  }
+  .nav-content {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease 0.05s;
+  }
+  .nav-top:hover .nav-content { color: #0e0e10; }
+
+  .nav-dropdown { position: relative; }
   .chevron { font-size: 10px; margin-left: 4px; opacity: 0.7; }
 
   .dropdown-panel {
@@ -293,4 +346,15 @@ const footerLinks = navLinks.flatMap((l) => (l.children ? l.children : [l]));
     border-top: 1px solid var(--ink);
     margin: 24px 0;
   }
+</style>
+
+<style>
+  .notice-subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff; /* 글씨 색상 */
+    display: block; /* 요소가 한 줄을 차지하게 하여 자연스럽게 줄바꿈 적용 */
+    margin-top: 24px; /* 위쪽 텍스트와의 간격 */
+    margin-bottom: 8px; /* 아래쪽 본문과의 간격 */
+}
 </style>

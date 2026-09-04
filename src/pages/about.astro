@@ -1,0 +1,174 @@
+---
+import Layout from '../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+function findImage(basename) {
+  const exts = ['jpg', 'jpeg', 'png', 'webp', 'svg'];
+  for (const ext of exts) {
+    const file = `${basename}.${ext}`;
+    if (fs.existsSync(path.join(process.cwd(), 'public', 'images', file))) return file;
+  }
+  return null;
+}
+ 
+const logoFile = findImage('logo');
+const logoDetailFile = findImage('logo-detail-image');
+---
+<Layout title="ARTBEAT 소개">
+  <div class="about-wrap">
+    <aside class="side-nav">
+      <a href="#intro" class="side-link active">소개</a>
+      <a href="#name" class="side-link">이름의 의미</a>
+      <a href="#logo" class="side-link">로고의 의미</a>
+      <a href="#fandom-name" class="side-link">팬덤명 의미</a>
+    </aside>
+
+    <div class="about-content">
+      <p class="eyebrow">ARTBEAT</p>
+      <h1 id="intro">ARTBEAT를<br />소개합니다.</h1>
+
+      <section class="wordmark-block">
+        <p class="wordmark">ART + BEAT</p>
+      </section>
+
+      <section id="name" class="about-section">
+        <h2>이름의 의미</h2>
+        <p>
+          ARTBEAT(아트비트)라는 이름은 채널 설립자인 김준석 님의 자녀 이름인 <strong><span class="text-white">'ART(예술)'</span></strong>와 <strong><span class="text-white">'BEAT'</span></strong>를 결합하여 탄생했습니다.<br />          
+        </p>
+      </section>
+
+      <section id="logo" class="about-section">
+        <h2>로고의 의미</h2>
+        <div class="logo-detail-row">
+          {logoDetailFile && (
+            <img class="logo-detail-image" src={`${base}/images/${logoDetailFile}`} alt="ARTBEAT 로고 상세" />
+          )}
+        <p>
+          ARTBEAT의 상징인 <strong>"A"</strong>와 <strong>"B"</strong>의 외형으로 제작되었으며, 다양하게 변형이 가능하여 앞으로 만들 다양한 콘텐츠에 다양한 형태로 사용될 예정입니다.<br />
+        </p>
+        </div>
+      </section>
+
+      <section id="fandom-name" class="about-section">
+        <h2>팬덤명 '에이블(ABle)' 탄생</h2>
+          <p>
+            아트비트(ARTBEAT) 채널은 구독자와 시청자 수가 크게 증가함에 따라, 기존의 '구독자'라는 명칭을 대체할 고유한 팬 애칭의 필요성을 느꼈습니다.<br />
+            이에 지속적으로 이어진 팬들의 요청을 수렴하여 영상을 통해 애칭 아이디어를 공모했습니다.<br/><br/>
+            멤버들은 팬들이 남겨준 수많은 의견을 바탕으로, 채널의 방향성과 어울리며 좋은 의미를 담은 후보군을 자체적으로 선별했습니다.<br/><br/>
+            최종 애칭은 팬들의 의견을 최우선으로 반영하기 위해 유튜브 커뮤니티 투표를 통해 결정되었으며,<br/>그 결과 가장 많은 표를 획득한 <strong><span class="text-white">'에이블(ABle)'</span></strong>이 공식 애칭으로 채택되었습니다.<br />
+            늘 응원해 주시는 '에이블' 여러분의 성원에 부응할 수 있도록, 앞으로도 적극적인 소통을 바탕으로 팬들과 함께 성장하는 아트비트가 되겠습니다.
+          </p>
+      </section>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  // 스크롤 위치에 따라 좌측 메뉴 활성 표시 전환
+  const sections = document.querySelectorAll<HTMLElement>('#intro, .about-section');
+  const links = document.querySelectorAll<HTMLAnchorElement>('.side-link');
+
+  window.addEventListener('scroll', () => {
+    let current = sections[0]?.id ?? '';
+    sections.forEach((sec) => {
+      if (window.scrollY >= sec.offsetTop - 120) current = sec.id;
+    });
+    links.forEach((link) => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+    });
+  });
+</script>
+
+<style is:global>
+  .about-wrap {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 64px 24px 100px;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 48px;
+  }
+
+  .side-nav {
+    position: sticky;
+    top: 90px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .side-link {
+    font-size: 13px;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 8px 0;
+    border-left: 2px solid transparent;
+    padding-left: 14px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .side-link:hover { color: var(--ink); }
+  .side-link.active { color: var(--ink); border-left-color: var(--accent); font-weight: 700; }
+
+  .about-content h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(36px, 6vw, 56px);
+    line-height: 1.1;
+    margin: 0 0 48px;
+  }
+
+  .wordmark-block {
+    padding: 56px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px;
+    text-align: center;
+  }
+  .wordmark {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(48px, 9vw, 96px);
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+
+  .logo-image {
+    max-width: 100%;
+    max-height: 240px;
+  }
+  .logo-detail-image {
+    max-width: 30%;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    display: block;
+  }
+
+  .about-section { margin-bottom: 56px; scroll-margin-top: 100px; }
+  .about-section h2 {
+    font-size: 22px;
+    margin: 0 0 16px;
+  }
+  .about-section p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--muted);
+    margin: 0;
+  }  
+
+  @media (max-width: 640px) {
+    .about-wrap { grid-template-columns: 1fr; }
+    .side-nav { position: static; flex-direction: row; overflow-x: auto; }
+  }
+</style>
+
+<style>
+  .text-white {
+    color: #ffffff; /* 글씨 색상을 흰색으로 설정 */
+    background-color: #000000; /* (선택 사항) 가독성을 위한 어두운 배경색 추가 */
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+</style>
