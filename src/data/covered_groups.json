@@ -110,5 +110,14 @@
   { "name": "VIVIZ", "aliases": ["비비지"] },
   { "name": "이하이", "aliases": ["비비지"] },
   { "name": "유아", "aliases": ["YooA"] },
+  { "name": "안유진", "aliases": ["AN YUJIN"] },
+  { "name": "나연", "aliases": ["NAYEON"] },
+  { "name": "Baauer", "aliases": ["Baauer"] },
+  { "name": "M.I.A.", "aliases": ["M.I.A."] },
+  { "name": "G-DRAGON", "aliases": ["G-DRAGON"] },
+  { "name": "JENO", "aliases": ["제노"] },
+  { "name": "Ed Sheeran", "aliases": ["에드 시런"] },
+  { "name": "MCND", "aliases": ["MCND"] },
+  { "name": "청하", "aliases": ["CHUNG HA"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }
 ]

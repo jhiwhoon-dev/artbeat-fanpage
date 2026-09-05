@@ -12,7 +12,7 @@ const videos = allVideos.filter((v) => getType(v) === 'video');
 
 const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
 
-// "방구석 여기서요? S23" -> "방구석 여기서요?", "Dance Cover MV::A2Be" -> "Dance Cover MV"
+// "방구석 여기서요?::S23" -> "방구석 여기서요?", "Dance Cover MV::A2Be" -> "Dance Cover MV"
 // 시즌/하위그룹 둘 다 잘라내고 베이스 이름만 남겨서 1차 목록을 구성 (세부 선택은 2차에서)
 function seriesBase(tag) {
   if (tag.includes('::')) return tag.split('::')[0];
@@ -123,7 +123,7 @@ function safeJson(obj) {
   let activeSeason: string | null = null; // null = 전체 시즌
   let sortMode = 'newest';
 
-  // "방구석 여기서요? S23" -> { base: "방구석 여기서요?", season: "23" }
+  // "방구석 여기서요?::S23" -> { base: "방구석 여기서요?", season: "23" }
   // "Dance Cover MV::A2Be" -> { base: "Dance Cover MV", season: "A2Be" } (하위그룹도 같은 슬롯 재사용)
   function parseSeriesTag(tag: string): { base: string; season: string | null } {
     if (tag.includes('::')) {

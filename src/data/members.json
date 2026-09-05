@@ -107,9 +107,9 @@
     }
   },
   {
-    "id": "kwon-dohyeon",
+    "id": "kwon-dohyun",
     "name": "권도현",
-    "name_en": "Dohyeon Kwon",
+    "name_en": "Dohyun Kwon",
     "nickname": null,
     "birth_date": "1997-05-01",
     "gender": "M",
@@ -551,12 +551,12 @@
       "instagram": [
         "https://www.instagram.com/o___xlip"
       ],
+      "threads": [
+        "https://www.threads.com/@o___xlip"
+      ],
       "youtube": [
         "https://www.youtube.com/@o___xlip",
         "https://www.youtube.com/@%ED%95%AB%ED%88%AC%EB%8D%B0%EC%9D%B4_H2_day"
-      ],
-      "threads": [
-        "https://www.threads.com/@o___xlip"
       ]
     }
   },
@@ -602,11 +602,11 @@
       "instagram": [
         "https://www.instagram.com/ki.ro_ro"
       ],
-      "youtube": [
-        "https://www.youtube.com/@ki.ro_ro"
-      ],
       "threads": [
         "https://www.threads.com/@ki.ro_ro"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@ki.ro_ro"
       ]
     }
   },
@@ -746,9 +746,9 @@
     }
   },
   {
-    "id": "kang-taehyeon",
+    "id": "kang-taehyun",
     "name": "강태현",
-    "name_en": "Taehyeon Kang",
+    "name_en": "Taehyun Kang",
     "nickname": null,
     "birth_date": "2001-12-28",
     "gender": "M",
@@ -796,9 +796,9 @@
     }
   },
   {
-    "id": "cho-uhyeong",
+    "id": "cho-woohyeong",
     "name": "조우형",
-    "name_en": "Uhyeong Cho",
+    "name_en": "Woohyeong Cho",
     "nickname": null,
     "birth_date": "1997-12-02",
     "gender": "M",
@@ -921,11 +921,11 @@
       "instagram": [
         "https://www.instagram.com/gimoann/"
       ],
-      "youtube": [
-        "https://www.youtube.com/@gimoan"
-      ],
       "threads": [
         "https://www.threads.com/@gimoann"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@gimoan"
       ]
     }
   },
@@ -1246,9 +1246,9 @@
     }
   },
   {
-    "id": "jung-hyeonchang",
+    "id": "jeong-hyeonchang",
     "name": "정현창",
-    "name_en": "Hyeonchang Jung",
+    "name_en": "Hyeonchang Jeong",
     "nickname": null,
     "birth_date": "2002-03-05",
     "gender": "M",
@@ -1287,11 +1287,11 @@
       "instagram": [
         "https://www.instagram.com/jeong_hyeonchang/"
       ],
-      "youtube": [
-        "https://www.youtube.com/@jeong_hyeonchang"
-      ],
       "threads": [
         "https://www.threads.com/@jeong_hyeonchang"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@jeong_hyeonchang"
       ]
     }
   },
@@ -1375,9 +1375,9 @@
     "sns": {}
   },
   {
-    "id": "yang-hyeju",
+    "id": "yang-hyuejoo",
     "name": "양혜주",
-    "name_en": "Hyeju Yang",
+    "name_en": "Hyuejoo Yang",
     "nickname": null,
     "birth_date": "2005-00-00",
     "gender": "F",
@@ -1407,16 +1407,16 @@
     "name": "김민주",
     "name_en": "Minju Kim",
     "nickname": null,
-    "birth_date": null,
+    "birth_date": "2003-00-00",
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-01"
@@ -1433,7 +1433,11 @@
     ],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/minbeen_/"
+      ]
+    }
   },
   {
     "id": "ham-juhong",
@@ -1509,9 +1513,9 @@
     }
   },
   {
-    "id": "park-seonyeong",
+    "id": "park-sunyoung",
     "name": "박선영",
-    "name_en": "Seonyeong Park",
+    "name_en": "Sunyoung Park",
     "nickname": null,
     "birth_date": "1995-09-04",
     "gender": "F",
@@ -1543,18 +1547,18 @@
       "instagram": [
         "https://www.instagram.com/suntrawberry"
       ],
-      "youtube": [
-        "https://www.youtube.com/@suntrawberry_"
-      ],
       "threads": [
         "https://www.threads.com/@suntrawberry"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@suntrawberry_"
       ]
     }
   },
   {
-    "id": "park-soyeong",
+    "id": "park-soyoung",
     "name": "박소영",
-    "name_en": "Soyeong Park",
+    "name_en": "Soyoung Park",
     "nickname": null,
     "birth_date": "1997-02-04",
     "gender": "F",
@@ -1586,11 +1590,11 @@
       "instagram": [
         "https://www.instagram.com/ddo_y0204?utm_medium=copy_link"
       ],
-      "youtube": [
-        "https://www.youtube.com/@Ssoha"
-      ],
       "threads": [
         "https://www.threads.com/@ddo_y0204"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@Ssoha"
       ]
     }
   },
@@ -1629,14 +1633,14 @@
       "instagram": [
         "https://www.instagram.com/hayeon_98k"
       ],
+      "threads": [
+        "https://www.threads.com/@hayeon_98k"
+      ],
       "youtube": [
         "https://www.youtube.com/@%EA%B9%80%ED%95%98%EC%97%B0-l5i3s"
       ],
       "tiktok": [
         "https://www.tiktok.com/@hayeon98k"
-      ],
-      "threads": [
-        "https://www.threads.com/@hayeon_98k"
       ],
       "soop": [
         "https://www.sooplive.com/station/hgkdusy"
@@ -1681,9 +1685,9 @@
     }
   },
   {
-    "id": "hwang-dageon",
+    "id": "hwang-dagun",
     "name": "황다건",
-    "name_en": "Dageon Hwang",
+    "name_en": "Dagun Hwang",
     "nickname": null,
     "birth_date": "2000-07-14",
     "gender": "F",
@@ -2513,14 +2517,14 @@
       "instagram": [
         "https://www.instagram.com/ao_kr5"
       ],
+      "threads": [
+        "https://www.threads.com/@ao_kr5"
+      ],
       "youtube": [
         "https://www.youtube.com/@yukachiiiii03"
       ],
       "tiktok": [
         "https://www.tiktok.com/@yukaoki1019"
-      ],
-      "threads": [
-        "https://www.threads.com/@ao_kr5"
       ]
     }
   },
@@ -3122,11 +3126,11 @@
       "instagram": [
         "https://www.instagram.com/7doiiiii/"
       ],
-      "youtube": [
-        "https://www.youtube.com/@7doiiiii"
-      ],
       "threads": [
         "https://www.threads.com/@7doiiiii"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@7doiiiii"
       ]
     }
   },
@@ -3318,12 +3322,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3350,12 +3354,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3382,12 +3386,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3414,12 +3418,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3446,12 +3450,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3478,12 +3482,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3510,12 +3514,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3542,12 +3546,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3574,12 +3578,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3606,12 +3610,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3638,12 +3642,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3670,12 +3674,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3702,12 +3706,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3734,12 +3738,12 @@
     "gender": "M",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2026-08",
         "end": null
@@ -3792,14 +3796,14 @@
       "instagram": [
         "https://www.instagram.com/sithchinggg"
       ],
+      "threads": [
+        "https://www.threads.com/@sithchinggg"
+      ],
       "youtube": [
         "https://www.youtube.com/c/sithchinggg"
       ],
       "tiktok": [
         "https://www.tiktok.com/@sithchinggg1"
-      ],
-      "threads": [
-        "https://www.threads.com/@sithchinggg"
       ]
     }
   },
@@ -3972,14 +3976,14 @@
       "instagram": [
         "https://www.instagram.com/mydy0/"
       ],
+      "threads": [
+        "https://www.threads.com/@mydy0"
+      ],
       "youtube": [
         "https://www.youtube.com/@heungeun"
       ],
       "tiktok": [
         "https://www.tiktok.com/@mydy0"
-      ],
-      "threads": [
-        "https://www.threads.com/@mydy0"
       ],
       "soop": [
         "https://www.sooplive.com/station/mydy529"
@@ -4170,9 +4174,9 @@
     }
   },
   {
-    "id": "park-jaehui",
+    "id": "park-jaehee",
     "name": "박재희",
-    "name_en": "Jaehui Park",
+    "name_en": "Jaehee Park",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
@@ -4202,12 +4206,16 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/cerisek8/"
+      ]
+    }
   },
   {
-    "id": "lim-jiu",
+    "id": "lim-jiwoo",
     "name": "임지우",
-    "name_en": "Jiu Lim",
+    "name_en": "Jiwoo Lim",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
@@ -4258,12 +4266,16 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/nsewmin/"
+      ]
+    }
   },
   {
-    "id": "lee-mungyu",
+    "id": "lee-moonkyu",
     "name": "이문규",
-    "name_en": "Mungyu Lee",
+    "name_en": "Moonkyu Lee",
     "nickname": null,
     "birth_date": "1995-01-11",
     "gender": "M",
@@ -4422,5 +4434,390 @@
     "photo_filename": null,
     "bio": null,
     "sns": {}
+  },
+  {
+    "id": "yun-bogyeong",
+    "name": "윤보경",
+    "name_en": "Bogyeong Yun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yoo.__.n_/"
+      ]
+    }
+  },
+  {
+    "id": "suvin",
+    "name": "수빈",
+    "name_en": "Suvin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "suuvinee"
+      ]
+    }
+  },
+  {
+    "id": "lee-heejin",
+    "name": "이희진",
+    "name_en": "Heejin Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "Jxinn_2in",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/bikisayoh/"
+      ]
+    }
+  },
+  {
+    "id": "jin-hui",
+    "name": "진희",
+    "name_en": "Hui Jin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/gnay_______/"
+      ]
+    }
+  },
+  {
+    "id": "park-jaebum",
+    "name": "박재범",
+    "name_en": "Jaebum Park",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/j.l3_99/"
+      ]
+    }
+  },
+  {
+    "id": "min-ju",
+    "name": "민주",
+    "name_en": "Ju Min",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": "2018",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2018",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/3rdblue_/"
+      ]
+    }
+  },
+  {
+    "id": "kim-jaewook",
+    "name": "김재욱",
+    "name_en": "Jaewook Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jae_wook_02/"
+      ]
+    }
+  },
+  {
+    "id": "jin-hyunwoo",
+    "name": "진현우",
+    "name_en": "Hyunwoo Jin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jin_hyun_woo/"
+      ]
+    }
+  },
+  {
+    "id": "kim-chanhee",
+    "name": "김찬희",
+    "name_en": "Chanhee Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/cha_ni_02/"
+      ]
+    }
+  },
+  {
+    "id": "kim-yeongjae",
+    "name": "김영재",
+    "name_en": "Yeongjae Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/mando_s_men/"
+      ]
+    }
+  },
+  {
+    "id": "park-seonu",
+    "name": "박선우",
+    "name_en": "Seonu Park",
+    "nickname": "성민",
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/xxunwooo/"
+      ]
+    }
+  },
+  {
+    "id": "kim-leeyoung",
+    "name": "김이영",
+    "name_en": "Leeyoung Kim",
+    "nickname": null,
+    "birth_date": "2001-03-16",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/leeoncherish/"
+      ]
+    }
+  },
+  {
+    "id": "yuna",
+    "name": "유우나",
+    "name_en": "Yuna",
+    "nickname": "유나",
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "2023-06",
+        "end": "2023-06"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2023-06",
+        "end": "2023-09"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/yuna0313_h/"
+      ],
+      "threads": [
+        "https://www.threads.com/@yuna0313_h"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@surimi1111"
+      ]
+    }
+  },
+  {
+    "id": "yoon-taegyeong",
+    "name": "윤태경",
+    "name_en": "Taegyeong Yoon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "lee-seunghyun",
+    "name": "이승현",
+    "name_en": "Seunghyun Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/seanlee_16/"
+      ],
+      "threads": [
+        "https://www.threads.com/@seanlee_16"
+      ]
+    }
+  },
+  {
+    "id": "lee-jihoon",
+    "name": "이지훈",
+    "name_en": "Jihoon Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/channel/UC4IvoCecB24px7atdeK3lrw"
+      ]
+    }
   }
 ]

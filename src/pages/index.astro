@@ -8,6 +8,7 @@ import schedule from '../data/schedule.json';
 import channel from '../data/channel.json';
 import social from '../data/social.json';
 import liveStatus from '../data/live_status.json';
+import announcements from '../data/announcements.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -59,6 +60,32 @@ const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', in_progress: 'IN
 const highlightedStatuses = ['live', 'in_progress'];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+// ---------- 전광판 티커: 공지사항 + 예정 일정(TBD/진행중) + 오늘 생일인 멤버 ----------
+const todayMonthDay = new Date().toISOString().slice(5, 10); // "MM-DD"
+
+const birthdayMembers = members.filter(
+  (m) => m.birth_date && m.birth_date.length >= 10 && m.birth_date.slice(5, 10) === todayMonthDay
+);
+
+// 날짜 미정(TBD)이거나 진행중인 일정만 티커에 노출.
+// ticker_text가 있으면 그걸 쓰고, 없으면 title을 그대로 씀 (title은 딱딱하게 느껴질 수 있어서)
+const tickerScheduleItems = schedule
+  .filter((e) => !e.date || e.status === 'in_progress')
+  .map((e) => `📅 ${(e.ticker_text ?? e.title).replace(/\n/g, ' / ')}`);
+
+// 새 항목을 추가하고 싶으면 여기 배열에 .map()으로 만든 문자열 배열을 이어붙이면 됨
+const tickerItems = [
+  ...announcements.map((a) => `📢 ${a.title}`),
+  ...tickerScheduleItems,
+  ...birthdayMembers.map((m) => `🎂 오늘은 ${m.name}님의 생일입니다! 축하해주세요!`),
+];
+
+// 항목이 적으면(짧으면) 화면 폭을 못 채우고 왼쪽에만 몰려 보이는 문제 방지: 최소 12개 슬롯이 되도록 반복
+const baseRepeats = tickerItems.length > 0 ? Math.max(1, Math.ceil(12 / tickerItems.length)) : 1;
+const tickerOnce = Array.from({ length: baseRepeats }, () => tickerItems).flat();
+const tickerRepeated = [...tickerOnce, ...tickerOnce]; // 앞뒤 절반이 동일해야 매끄럽게 루프됨
+const tickerDuration = `${Math.max(tickerOnce.length, 1) * 6}s`;
+
 const heroFile = findImage('logo-artbeatartbeatartbeatartbeatartbeat');
 const aboutFile = findImage('about');
 
@@ -73,7 +100,7 @@ const aboutStyle = aboutFile
 <Layout title="ARTBEAT">
   <!-- HERO: 실제 배경 사진 준비되면 .hero 의 background-image 를 교체하세요 -->
   <section class="hero" style={heroStyle}>
-    <p class="tag"><span class="dot"></span>OFFICIAL FAN COLLECTIVE</p>
+    <p class="tag"><span class="dot"></span>For All ABle 🌟 Welcome to ARTBEAT Fan Space!</p>
     <h1>ARTBEAT</h1>
     <p class="sub">Redefining K-POP Cover Choreography. Experience precision, movement,
       and performance from South Korea's premiere dance creators.</p>
@@ -113,6 +140,17 @@ const aboutStyle = aboutFile
       </div>
     )}
   </section>
+
+  <!-- 전광판 티커: 공지사항 + 오늘 생일인 멤버 (우->좌 무한 스크롤) -->
+  {tickerItems.length > 0 && (
+    <section class="ticker-strip">
+      <div class="ticker-track" style={`animation-duration: ${tickerDuration}`}>
+        {tickerRepeated.map((item) => (
+          <span class="ticker-item">{item}</span>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- LATEST VIDEOS -->
   <section class="section">
@@ -239,19 +277,6 @@ const aboutStyle = aboutFile
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="footer-top">
-      <div>
-        <h3>Stay Synced with ARTBEAT.</h3>
-        <p>Receive notifications on flash mobs, merchandise drops, and community events directly.</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© {new Date().getFullYear()} ARTBEAT FAN COLLECTIVE.<br />All K-POP song properties belong to their respective labels.</p>
-      <p class="footer-logo">ARTBEAT</p>
-    </div>
-  </footer>
 </Layout>
 
 <style>
@@ -353,6 +378,37 @@ const aboutStyle = aboutFile
     font-size: 13px;
     color: var(--muted);
     margin: 0;
+  }
+
+  /* 전광판 티커 */
+  .ticker-strip {
+    overflow: hidden;
+    background: #050505;
+    border-top: 1px solid var(--live);
+    border-bottom: 1px solid var(--live);
+    padding: 10px 0;
+  }
+  .ticker-track {
+    display: flex;
+    width: max-content;
+    animation-name: ticker-scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .ticker-item {
+    flex-shrink: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    font-size: 13px;
+    color: var(--ink);
+    padding: 0 40px;
+    white-space: nowrap;
+  }
+  .ticker-item:not(:last-child) { border-right: 1px solid var(--line); }
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
   }
 
   .section { max-width: var(--content-width); margin: 0 auto; padding: 72px 24px; border-top: 1px solid var(--line); }

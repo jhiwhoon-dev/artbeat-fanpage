@@ -2,12 +2,14 @@
   {
     "date": "2026-08-29",
     "title": "2026년 ARTBEAT AB PROJECT 최종 오디션\n2026 ARTBEAT AB PROJECT Final Audition",
+    "ticker_text": "2026년 ARTBEAT AB PROJECT 최종 오디션이 진행 중입니다. 🔥",
     "description": "2026 ARTBEAT AB PROJECT 최종 오디션 참가자들은 <방구석 여기서요? S24>까지의 여정을 거쳐 마침내 최종 멤버로 발탁됩니다.\nThe participants of the 2026 ARTBEAT AB PROJECT Final Audition will go through the journey of <Here? in the gym S24> before ultimately being selected as the final members.",
     "status": "in_progress"
   },
   {
     "date": null,
     "title": "방구석 여기서요? S24\nHere? in the gym S24",
+    "ticker_text": "<방구석 여기서요? S24>가 곧 시작됩니다. 특별히 이번 시즌은 오디션 참가 멤버들과 함께 다채로운 영상을 꾸며갈 예정입니다.",
     "description": "<방구석 여기서요? S24>가 곧 시작됩니다. 특별히 이번 시즌은 오디션 참가 멤버들과 함께 다채로운 영상을 꾸며갈 예정입니다.\n<Here? in the gym S24> is coming soon. In this special season, we will be creating videos together with the audition members.",
     "status": "coming_soon"
   }
