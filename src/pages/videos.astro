@@ -10,24 +10,13 @@ function getType(v) {
 }
 const videos = allVideos.filter((v) => getType(v) === 'video');
 
-const allGroups = [...new Set(videos.flatMap((v) => v.covered_group ?? []))].sort();
-
-// "방구석 여기서요?::S23" -> "방구석 여기서요?", "Dance Cover MV::A2Be" -> "Dance Cover MV"
-// 시즌/하위그룹 둘 다 잘라내고 베이스 이름만 남겨서 1차 목록을 구성 (세부 선택은 2차에서)
-function seriesBase(tag) {
-  if (tag.includes('::')) return tag.split('::')[0];
-  const m = tag.match(/^(.*?)\s*S(\d+)$/i);
-  return m ? m[1].trim() : tag;
-}
-const allSeries = [...new Set(videos.flatMap((v) => (v.content_series ?? []).map(seriesBase)))].sort();
-
-// 시리즈별 제작 상태(active/paused/ended)를 클라이언트에 넘겨서 배지로 표시
+// 시리즈별 제작 상태(active/paused/ended) — 최상위 단계 이름 기준으로 배지 표시에 사용
 const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
 
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// 카드 렌더링에 필요한 필드만 추려서 클라이언트로 넘김 (페이지네이션은 이 데이터를 기준으로 JS가 처리)
+// 카드 렌더링에 필요한 필드만 추려서 클라이언트로 넘김 (필터링/페이지네이션은 이 데이터를 기준으로 JS가 처리)
 const videosData = videos.map((v) => ({
   id: v.youtube_id,
   title: v.title,
@@ -38,7 +27,6 @@ const videosData = videos.map((v) => ({
   views: v.view_count ?? 0,
 }));
 
-// JSON을 <script> 태그에 안전하게 넣기 위해 "</script" 조기 종료를 막는 이스케이프
 function safeJson(obj) {
   return JSON.stringify(obj).replace(/</g, '\\u003c');
 }
@@ -53,39 +41,24 @@ function safeJson(obj) {
         <button class="mode-btn active" data-mode="group">그룹별</button>
         <button class="mode-btn" data-mode="series">콘텐츠별</button>
       </div>
-      <select id="sort-select" class="sort-select">
-        <option value="newest">최신순</option>
-        <option value="oldest">오래된순</option>
-        <option value="views">조회수순</option>
-      </select>
+      <div class="controls-right">
+        <input type="text" class="title-search" id="title-search" placeholder="영상 제목 검색..." />
+        <select id="sort-select" class="sort-select">
+          <option value="newest">최신순</option>
+          <option value="oldest">오래된순</option>
+          <option value="views">조회수순</option>
+        </select>
+      </div>
     </div>
 
+    <!-- 그룹별 / 콘텐츠별 둘 다 같은 트리형 필터 엔진을 씀. JS가 단계별 버튼 행을 동적으로 채움 -->
     <div class="filter-panel" id="panel-group">
-      <input type="text" class="filter-search" id="group-search" placeholder="그룹 검색..." />
-      <div class="filters" id="filters-group">
-        <button class="filter-btn active" data-value="all">전체</button>
-        {allGroups.map((group) => (
-          <button class="filter-btn" data-value={group}>{group}</button>
-        ))}
-      </div>
+      <div id="group-levels"></div>
     </div>
 
     <div class="filter-panel" id="panel-series" style="display:none">
-      <input type="text" class="filter-search" id="series-search" placeholder="콘텐츠 검색..." />
-      <div class="filters" id="filters-series">
-        <button class="filter-btn active" data-value="all">전체</button>
-        {allSeries.map((series) => (
-          <button class="filter-btn" data-value={series}>{series}</button>
-        ))}
-      </div>
-    </div>
-
-    <!-- 선택한 콘텐츠의 제작 상태(진행중/일시중단/종료) 배지 -->
-    <div class="series-status" id="series-status" style="display:none"></div>
-
-    <!-- 시즌제 콘텐츠 선택 시에만 나타나는 2차 시즌 필터 -->
-    <div class="filter-panel" id="panel-season" style="display:none">
-      <div class="filters" id="filters-season"></div>
+      <div class="series-status" id="series-status" style="display:none"></div>
+      <div id="series-levels"></div>
     </div>
 
     <p class="count-label" id="count-label"></p>
@@ -119,29 +92,84 @@ function safeJson(obj) {
   const PAGE_SIZE = 30;
   let currentPage = 1;
   let activeMode: 'group' | 'series' = 'group';
-  let activeValue = 'all';
-  let activeSeason: string | null = null; // null = 전체 시즌
+  let activeGroupPath: string[] = [];
+  let activeSeriesPath: string[] = [];
   let sortMode = 'newest';
+  let titleQuery = '';
 
-  // "방구석 여기서요?::S23" -> { base: "방구석 여기서요?", season: "23" }
-  // "Dance Cover MV::A2Be" -> { base: "Dance Cover MV", season: "A2Be" } (하위그룹도 같은 슬롯 재사용)
-  function parseSeriesTag(tag: string): { base: string; season: string | null } {
-    if (tag.includes('::')) {
-      const [base, sub] = tag.split('::');
-      return { base, season: sub };
-    }
-    const m = tag.match(/^(.*?)\s*S(\d+)$/i);
-    return m ? { base: m[1].trim(), season: m[2] } : { base: tag, season: null };
+  function escapeHtml(s: string): string {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] ?? c));
   }
 
-  // 시리즈 베이스 이름 -> 존재하는 시즌 목록 (시즌 없는 콘텐츠는 빈 Set)
-  const seriesSeasons = new Map<string, Set<string>>();
-  for (const v of DATA) {
-    for (const tag of v.series) {
-      const { base, season } = parseSeriesTag(tag);
-      if (!seriesSeasons.has(base)) seriesSeasons.set(base, new Set());
-      if (season) seriesSeasons.get(base)!.add(season);
+  // "::"로 몇 단계든 이어붙인 태그를 배열로 분해 (그룹/콘텐츠 공통 규칙).
+  // "::" 없이 "이름 S23" 형식(예전 방식)도 2단계로 인식.
+  // 예: "BOYS PLANET::SAY YES!" -> ["BOYS PLANET", "SAY YES!"]
+  //     "NCT::NCT 127" -> ["NCT", "NCT 127"]
+  //     "방구석 여기서요? S23" -> ["방구석 여기서요?", "S23"]
+  function splitTagLevels(tag: string): string[] {
+    if (tag.includes('::')) return tag.split('::').map((s) => s.trim()).filter(Boolean);
+    const m = tag.match(/^(.*?)\s*S(\d+)$/i);
+    return m ? [m[1].trim(), `S${m[2]}`] : [tag];
+  }
+
+  // 태그가 현재 선택 경로(path)로 시작하는지 확인 (경로가 비어있으면 항상 매칭 = "전체")
+  function matchesPath(tag: string, path: string[]): boolean {
+    if (path.length === 0) return true;
+    const segs = splitTagLevels(tag);
+    if (segs.length < path.length) return false;
+    return path.every((p, i) => segs[i] === p);
+  }
+
+  type TreeNode = Map<string, TreeNode>;
+
+  // 영상들의 태그(그룹 또는 콘텐츠) 목록으로부터 트리를 만듦 — 깊이 제한 없이 몇 단계든 처리
+  function buildTree(tagLists: string[][]): TreeNode {
+    const root: TreeNode = new Map();
+    for (const tags of tagLists) {
+      for (const tag of tags) {
+        const segs = splitTagLevels(tag);
+        let node = root;
+        for (const seg of segs) {
+          if (!node.has(seg)) node.set(seg, new Map());
+          node = node.get(seg)!;
+        }
+      }
     }
+    return root;
+  }
+
+  const groupTree = buildTree(DATA.map((v) => v.groups));
+  const seriesTree = buildTree(DATA.map((v) => v.series));
+
+  // 트리 + 현재 선택 경로를 받아서, 선택할 때마다 하위 단계 버튼 행이 자동으로 늘어나는 UI를 그려줌.
+  // 그룹/콘텐츠 둘 다 이 함수 하나를 공유해서 씀.
+  function renderLevels(container: HTMLElement, tree: TreeNode, path: string[], onChange: (newPath: string[]) => void) {
+    let rowsHtml = '';
+    let node = tree;
+
+    for (let depth = 0; ; depth++) {
+      const keys = [...node.keys()].sort();
+      if (keys.length === 0) break;
+
+      const activeKeyAtDepth = path[depth];
+      const buttons =
+        `<button class="filter-btn ${activeKeyAtDepth === undefined ? 'active' : ''}" data-depth="${depth}" data-value="__all__">전체</button>` +
+        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('');
+      rowsHtml += `<div class="filters series-level" data-depth="${depth}">${buttons}</div>`;
+
+      if (!activeKeyAtDepth) break;
+      node = node.get(activeKeyAtDepth)!;
+    }
+
+    container.innerHTML = rowsHtml;
+    container.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const depth = Number(btn.dataset.depth);
+        const value = btn.dataset.value!;
+        const newPath = value === '__all__' ? path.slice(0, depth) : [...path.slice(0, depth), value];
+        onChange(newPath);
+      });
+    });
   }
 
   const grid = document.getElementById('grid')!;
@@ -152,17 +180,17 @@ function safeJson(obj) {
   const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
   const panelGroup = document.getElementById('panel-group');
   const panelSeries = document.getElementById('panel-series');
-
-  const panelSeason = document.getElementById('panel-season');
-  const filtersSeason = document.getElementById('filters-season');
+  const groupLevelsEl = document.getElementById('group-levels')!;
+  const seriesLevelsEl = document.getElementById('series-levels')!;
   const seriesStatusEl = document.getElementById('series-status');
 
   const STATUS_LABEL: Record<string, string> = { active: '진행중', paused: '일시중단', ended: '종료' };
 
-  function updateSeriesStatus(base: string) {
+  function updateSeriesStatus() {
     if (!seriesStatusEl) return;
-    const status = SERIES_STATUS[base];
-    if (activeMode !== 'series' || base === 'all' || !status) {
+    const topLevel = activeSeriesPath[0];
+    const status = topLevel ? SERIES_STATUS[topLevel] : undefined;
+    if (!status) {
       seriesStatusEl.style.display = 'none';
       seriesStatusEl.innerHTML = '';
       return;
@@ -172,50 +200,32 @@ function safeJson(obj) {
     seriesStatusEl.style.display = '';
   }
 
-  // 선택된 콘텐츠 베이스에 시즌(또는 하위그룹)이 있으면 버튼들을 만들어 보여줌, 없으면 숨김
-  function updateSeasonPanel(base: string) {
-    activeSeason = null;
-    if (!panelSeason || !filtersSeason) return;
-
-    const raw = [...(seriesSeasons.get(base) ?? [])];
-    if (activeMode !== 'series' || base === 'all' || raw.length === 0) {
-      panelSeason.style.display = 'none';
-      filtersSeason.innerHTML = '';
-      return;
-    }
-
-    // 전부 숫자면(시즌 번호) 숫자 정렬 + "S" 접두사, 아니면(하위그룹 이름) 가나다/알파벳순 그대로
-    const isNumeric = raw.every((s) => /^\d+$/.test(s));
-    const items = isNumeric ? [...raw].sort((a, b) => Number(a) - Number(b)) : [...raw].sort();
-
-    filtersSeason.innerHTML =
-      `<button class="filter-btn active" data-season="all">전체</button>` +
-      items.map((s) => `<button class="filter-btn" data-season="${escapeHtml(s)}">${isNumeric ? 'S' + s : escapeHtml(s)}</button>`).join('');
-    panelSeason.style.display = '';
-
-    filtersSeason.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        filtersSeason.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeSeason = btn.dataset.season === 'all' ? null : (btn.dataset.season ?? null);
-        currentPage = 1;
-        render();
-      });
+  function renderGroupLevels() {
+    renderLevels(groupLevelsEl, groupTree, activeGroupPath, (newPath) => {
+      activeGroupPath = newPath;
+      currentPage = 1;
+      renderGroupLevels();
+      render();
     });
   }
 
-  function escapeHtml(s: string): string {
-    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] ?? c));
+  function renderSeriesLevels() {
+    renderLevels(seriesLevelsEl, seriesTree, activeSeriesPath, (newPath) => {
+      activeSeriesPath = newPath;
+      currentPage = 1;
+      updateSeriesStatus();
+      renderSeriesLevels();
+      render();
+    });
   }
 
-  function displaySeriesTag(tag: string): string {
-    const { base, season } = parseSeriesTag(tag);
-    return season ? `${base} · ${season}` : base;
+  function displayTagPath(tag: string): string {
+    return splitTagLevels(tag).join(' · ');
   }
 
   function cardHTML(v: VideoItem): string {
-    const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(g)}</span>`).join('');
-    const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displaySeriesTag(s))}</span>`).join('');
+    const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(displayTagPath(g))}</span>`).join('');
+    const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displayTagPath(s))}</span>`).join('');
     const memberTags = v.members
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
@@ -235,17 +245,11 @@ function safeJson(obj) {
 
   function getFiltered(): VideoItem[] {
     return DATA.filter((v) => {
+      if (titleQuery && !v.title.toLowerCase().includes(titleQuery)) return false;
       if (activeMode === 'group') {
-        return activeValue === 'all' || v.groups.includes(activeValue);
+        return v.groups.some((tag) => matchesPath(tag, activeGroupPath));
       }
-      // 콘텐츠별: 베이스 이름 일치 + (시즌 선택했으면 시즌까지 일치)
-      if (activeValue === 'all') return true;
-      return v.series.some((tag) => {
-        const { base, season } = parseSeriesTag(tag);
-        if (base !== activeValue) return false;
-        if (activeSeason && season !== activeSeason) return false;
-        return true;
-      });
+      return v.series.some((tag) => matchesPath(tag, activeSeriesPath));
     });
   }
 
@@ -277,55 +281,21 @@ function safeJson(obj) {
       modeButtons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
       activeMode = (btn.dataset.mode as 'group' | 'series') ?? 'group';
-      activeValue = 'all';
       currentPage = 1;
 
       if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
       if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
-      if (panelSeason) panelSeason.style.display = 'none';
-      if (seriesStatusEl) { seriesStatusEl.style.display = 'none'; seriesStatusEl.innerHTML = ''; }
-      activeSeason = null;
-
-      document.querySelectorAll<HTMLInputElement>('.filter-search').forEach((input) => (input.value = ''));
-      document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => {
-        b.style.display = '';
-        b.classList.toggle('active', b.dataset.value === 'all');
-      });
 
       render();
     });
   });
 
-  document.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const parent = btn.closest('.filters');
-      parent?.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeValue = btn.dataset.value ?? 'all';
-      currentPage = 1;
-      if (activeMode === 'series') {
-        updateSeasonPanel(activeValue);
-        updateSeriesStatus(activeValue);
-      }
-      render();
-    });
+  const titleSearchInput = document.getElementById('title-search') as HTMLInputElement | null;
+  titleSearchInput?.addEventListener('input', () => {
+    titleQuery = titleSearchInput.value.trim().toLowerCase();
+    currentPage = 1;
+    render();
   });
-
-  function setupSearch(inputId: string, filtersId: string) {
-    const input = document.getElementById(inputId) as HTMLInputElement | null;
-    const container = document.getElementById(filtersId);
-    if (!input || !container) return;
-    input.addEventListener('input', () => {
-      const q = input.value.trim().toLowerCase();
-      container.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
-        if (btn.dataset.value === 'all') return;
-        const text = btn.textContent?.toLowerCase() ?? '';
-        btn.style.display = text.includes(q) ? '' : 'none';
-      });
-    });
-  }
-  setupSearch('group-search', 'filters-group');
-  setupSearch('series-search', 'filters-series');
 
   sortSelect?.addEventListener('change', () => {
     sortMode = sortSelect.value;
@@ -333,6 +303,8 @@ function safeJson(obj) {
     render();
   });
 
+  renderGroupLevels();
+  renderSeriesLevels();
   render();
 </script>
 
@@ -343,7 +315,21 @@ function safeJson(obj) {
     align-items: center;
     gap: 12px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
   }
+  .controls-right { display: flex; align-items: center; gap: 10px; }
+  .title-search {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    width: 200px;
+  }
+  .title-search::placeholder { color: var(--muted); }
+  .title-search:focus { outline: none; border-color: var(--muted); }
 
   .mode-tabs { display: flex; }
   .mode-btn {
@@ -362,18 +348,9 @@ function safeJson(obj) {
   .mode-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
 
   .filter-panel { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
-  .filter-search {
-    font-family: 'Archivo', sans-serif;
-    font-size: 13px;
-    padding: 8px 14px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: var(--bg);
-    color: var(--ink);
-    max-width: 220px;
-  }
-  .filter-search::placeholder { color: var(--muted); }
-  .filter-search:focus { outline: none; border-color: var(--muted); }
+
+  #group-levels, #series-levels { display: flex; flex-direction: column; gap: 10px; }
+  .series-level:not(:first-child) { padding-left: 20px; border-left: 2px solid var(--line); }
 
   .filters { display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
@@ -402,7 +379,7 @@ function safeJson(obj) {
     cursor: pointer;
   }
 
-  .series-status { margin: -4px 0 16px; }
+  .series-status { margin: 0 0 4px; }
   .status-badge {
     display: inline-block;
     font-family: 'Archivo Black', sans-serif;
