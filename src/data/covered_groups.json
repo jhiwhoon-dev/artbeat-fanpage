@@ -81,6 +81,7 @@
   { "name": "LNGSHOT", "aliases": ["롱샷"] },
   { "name": "MEOVV", "aliases": ["미야오"] },
   { "name": "MISAMO", "aliases": ["미사모"] },
+  { "name": "NCT", "aliases": ["NCT"] },
   { "name": "NCT 127", "aliases": ["엔시티 127"] },
   { "name": "NCT DOJAEJUNG", "aliases": ["엔시티 도재정"] },
   { "name": "NCT DREAM", "aliases": ["엔시티 드림"] },
@@ -125,5 +126,10 @@
   { "name": "MINO", "aliases": ["송민호"] },
   { "name": "몬스타엑스", "aliases": ["Monsta X"] },
   { "name": "마마무", "aliases": ["MAMAMOO"] },
+  { "name": "GOT the beat", "aliases": ["GOT the beat"] },
+  { "name": "오렌지 캬라멜", "aliases": ["Orange Caramel"] },
+  { "name": "태연", "aliases": ["TAEYEON"] },
+  { "name": "조유리", "aliases": ["JOYURI"] },
+  { "name": "2PM", "aliases": ["2PM"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }
 ]

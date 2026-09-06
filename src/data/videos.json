@@ -72307,7 +72307,9 @@
     "content_type": "video",
     "view_count": 219375,
     "content_series": [
-      "여기서요?"
+      "방구석 여기서요?::S09",
+      "AB VLOG::방구석 여기서요?::S09",
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -72438,7 +72440,9 @@
     "content_type": "video",
     "view_count": 368322,
     "content_series": [
-      "여기서요?"
+      "방구석 여기서요?::S09",
+      "AB VLOG::방구석 여기서요?::S09",
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -72544,7 +72548,9 @@
     "content_type": "video",
     "view_count": 278826,
     "content_series": [
-      "여기서요?"
+      "방구석 여기서요?::S09",
+      "AB VLOG::방구석 여기서요?::S09",
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -72745,8 +72751,9 @@
     "content_type": "video",
     "view_count": 233568,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S09",
+      "AB VLOG::방구석 여기서요?::S09",
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -72960,7 +72967,7 @@
     "content_type": "video",
     "view_count": 131331,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -73109,7 +73116,7 @@
     "content_type": "video",
     "view_count": 114584,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -73769,7 +73776,8 @@
     "youtube_id": "_gwANrAjS9E",
     "title": "AB 공주 등장!? [AB VLOG] 'NCT x aespa - ZOO' 브이로그 | 전지적 혜림 시점 | HyeRim VLOG",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
       "kim-hyerim"
@@ -73778,7 +73786,7 @@
     "content_type": "video",
     "view_count": 195658,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -74469,16 +74477,17 @@
   {
     "youtube_id": "Is196eijMPk",
     "title": "드디어 대장이 왔다 [AB VLOG] 'GOT the beat - Step Back' 브이로그 | 전지적 큰소영 시점 | SoYoung.P VLOG",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung"
+      "park-soyoung"
     ],
     "published_date": "2022-02-12",
     "content_type": "video",
     "view_count": 123187,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -74494,7 +74503,7 @@
     "content_type": "video",
     "view_count": 181906,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -74816,7 +74825,7 @@
     "content_type": "video",
     "view_count": 145221,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -74912,7 +74921,7 @@
     "content_type": "video",
     "view_count": 122401,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -75083,8 +75092,9 @@
     "content_type": "video",
     "view_count": 498905,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S08",
+      "AB VLOG::방구석 여기서요?::S08",
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -75161,7 +75171,7 @@
     "content_type": "video",
     "view_count": 147754,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -75312,8 +75322,9 @@
     "content_type": "video",
     "view_count": 287327,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S08",
+      "AB VLOG::방구석 여기서요?::S08",
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -75578,7 +75589,7 @@
     "content_type": "video",
     "view_count": 89917,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76067,22 +76078,19 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [
-      "seo-jaemin"
-    ],
+    "tagged_members": [],
     "published_date": "2021-11-17",
     "content_type": "video",
     "view_count": 120984,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
     "youtube_id": "-bZBtAx_TmE",
     "title": "세븐틴 SEVENTEEN - Rock with you | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "jeon-hyeongwook",
@@ -76101,7 +76109,7 @@
     "content_type": "video",
     "view_count": 156892,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -76155,7 +76163,7 @@
     "content_type": "video",
     "view_count": 130876,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76186,7 +76194,7 @@
     "content_type": "video",
     "view_count": 132823,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76204,24 +76212,21 @@
     "content_type": "video",
     "view_count": 165284,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "hLv5mICdRWY",
     "title": "세영 vs 시은? 브이로그 대결!?[ABehind] '있지 ITZY - LOCO' 릴레이 브이로그 | AB Relay VLOG",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
-    "tagged_members": [
-      "ha-seyoung"
-    ],
+    "tagged_members": [],
     "published_date": "2021-11-08",
     "content_type": "video",
     "view_count": 122926,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76242,7 +76247,7 @@
     "content_type": "video",
     "view_count": 65419,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -76270,15 +76275,14 @@
     "youtube_id": "ucCdTHnKvGg",
     "title": "슬기로운 신입생활!! [ABehind] '세븐틴 SEVENTEEN - 아낀다 Adore U' 릴레이 브이로그 | AB Relay VLOG",
     "covered_group": [
-      "세븐틴",
-      "슬기"
+      "세븐틴"
     ],
     "tagged_members": [],
     "published_date": "2021-11-05",
     "content_type": "video",
     "view_count": 83332,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76308,7 +76312,7 @@
     "content_type": "video",
     "view_count": 40680,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76327,7 +76331,7 @@
     "content_type": "video",
     "view_count": 275435,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -76371,7 +76375,9 @@
   {
     "youtube_id": "qWKqrV9E9QE",
     "title": "19살 여고생의 댄스촬영 브이로그 [AB VLOG] '태연 TAEYEON - Weekend' 브이로그 | AB VLOG",
-    "covered_group": [],
+    "covered_group": [
+      "태연"
+    ],
     "tagged_members": [
       "hye-in"
     ],
@@ -76379,7 +76385,7 @@
     "content_type": "video",
     "view_count": 54464,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76478,31 +76484,35 @@
   {
     "youtube_id": "g7hqxxH2Fpc",
     "title": "조유리 JOYURI - GLASSY | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
-    "covered_group": [],
+    "covered_group": [
+      "조유리"
+    ],
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "yoon-taegyeong"
     ],
     "published_date": "2021-10-22",
     "content_type": "video",
     "view_count": 79370,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "nClab_AOzOQ",
     "title": "짐승남이 되고픈 순둥이들의 댄스촬영 브이로그 [AB VLOG] '2PM - 해야 해 (Make It)' 브이로그 | AB VLOG",
-    "covered_group": [],
+    "covered_group": [
+      "2PM"
+    ],
     "tagged_members": [],
     "published_date": "2021-10-21",
     "content_type": "video",
     "view_count": 50908,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -76522,7 +76532,7 @@
     "content_type": "video",
     "view_count": 510800,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -76668,21 +76678,19 @@
     ],
     "tagged_members": [
       "kim-hayeon",
-      "kim-minjin",
-      "lee-seohyeon"
+      "kim-minjin"
     ],
     "published_date": "2021-10-09",
     "content_type": "video",
     "view_count": 64123,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
     "youtube_id": "q7v-M5HqRsw",
     "title": "[AB] 있지 ITZY - LOCO (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -76695,7 +76703,9 @@
     "published_date": "2021-10-09",
     "content_type": "video",
     "view_count": 539515,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::AB"
+    ]
   },
   {
     "youtube_id": "W25FeWR1Y0k",
@@ -76712,7 +76722,7 @@
     "content_type": "video",
     "view_count": 162477,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -76981,7 +76991,7 @@
     "content_type": "video",
     "view_count": 121441,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -77130,22 +77140,19 @@
     "covered_group": [
       "세븐틴"
     ],
-    "tagged_members": [
-      "her-naeun"
-    ],
+    "tagged_members": [],
     "published_date": "2021-09-22",
     "content_type": "video",
     "view_count": 105377,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
     "youtube_id": "k7iBn8qxhyQ",
     "title": "[방구석 여기서요?] 세븐틴 SEVENTEEN - Ready to Love | 커버댄스 Dance Cover",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "kwon-dohyun",
@@ -77154,13 +77161,14 @@
       "kim-gyeongju",
       "ahn-yoojin",
       "yun-haeun",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kim-hyerim"
     ],
     "published_date": "2021-09-22",
     "content_type": "video",
     "view_count": 505205,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "e3IMKLLyIyo",
@@ -77342,13 +77350,15 @@
       "lee-gaeun",
       "ahn-yoojin",
       "ha-seyoung",
-      "jeong-yoojin"
+      "hye-in",
+      "lee-sieun",
+      "park-damhee"
     ],
     "published_date": "2021-09-17",
     "content_type": "video",
     "view_count": 125970,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -77736,17 +77746,21 @@
   {
     "youtube_id": "hR5RYAbyAK4",
     "title": "[ABehind] '몬스타엑스 Monsta X - GAMBLER' 릴레이 브이로그 | AB Relay VLOG",
-    "covered_group": [],
+    "covered_group": [
+      "몬스타엑스"
+    ],
     "tagged_members": [
       "yun-jihong",
       "kim-suhwan",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-woonggyeom",
+      "lee-sieun"
     ],
     "published_date": "2021-08-26",
     "content_type": "video",
     "view_count": 157033,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -77795,7 +77809,7 @@
     "content_type": "video",
     "view_count": 104482,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -78434,7 +78448,7 @@
     "content_type": "video",
     "view_count": 70781,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -78516,7 +78530,7 @@
     "content_type": "video",
     "view_count": 136419,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -78595,7 +78609,7 @@
     "content_type": "video",
     "view_count": 127996,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -78641,7 +78655,6 @@
     "youtube_id": "yuG2HMBLoQk",
     "title": "[ABehind] 'ITZY - 마.피.아. in the morning' (B Team) 릴레이 브이로그 | AB Relay VLOG",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -78649,7 +78662,7 @@
     "content_type": "video",
     "view_count": 93959,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -78922,14 +78935,14 @@
     "youtube_id": "H7D3240HvPQ",
     "title": "[ABehind] 'NCT DREAM - 맛 (Hot Sauce)' 릴레이 브이로그 | AB Relay VLOG",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [],
     "published_date": "2021-06-22",
     "content_type": "video",
     "view_count": 99138,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -79348,7 +79361,7 @@
     "content_type": "video",
     "view_count": 106534,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -79395,7 +79408,6 @@
     "youtube_id": "3S3NWcR5ERM",
     "title": "[ABehind] 'ITZY - 마.피.아. in the morning' (A Team) 릴레이 브이로그 | AB Relay VLOG",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -79403,7 +79415,7 @@
     "content_type": "video",
     "view_count": 132732,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -82101,7 +82113,7 @@
     "content_type": "video",
     "view_count": 112017,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -82799,7 +82811,7 @@
     "content_type": "video",
     "view_count": 140698,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -82813,7 +82825,9 @@
     "published_date": "2020-11-10",
     "content_type": "video",
     "view_count": 159723,
-    "content_series": []
+    "content_series": [
+      "AB 자기소개"
+    ]
   },
   {
     "youtube_id": "3AJRZM_7KJc",
@@ -84461,14 +84475,13 @@
     "content_type": "video",
     "view_count": 417148,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
     "youtube_id": "UEQyGI17vC8",
     "title": "ITZY - Not Shy (B Team ver.) | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -84482,7 +84495,7 @@
     "content_type": "video",
     "view_count": 394548,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -85376,7 +85389,7 @@
     "content_type": "video",
     "view_count": 170400,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -86123,7 +86136,7 @@
     "content_type": "video",
     "view_count": 275366,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -87269,14 +87282,13 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2020-03-17",
     "content_type": "video",
     "view_count": 164313,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -87297,7 +87309,7 @@
     "content_type": "video",
     "view_count": 345151,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -87462,14 +87474,13 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2020-03-05",
     "content_type": "video",
     "view_count": 185056,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -88154,7 +88165,7 @@
     "content_type": "video",
     "view_count": 193424,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2020y"
     ]
   },
   {
@@ -88710,7 +88721,7 @@
     "content_type": "video",
     "view_count": 175262,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -89432,14 +89443,13 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kwon-soyoung"
     ],
     "published_date": "2019-10-12",
     "content_type": "video",
     "view_count": 163506,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -89458,7 +89468,9 @@
     "published_date": "2019-10-11",
     "content_type": "video",
     "view_count": 2922883,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "QSFkUCFs4IU",
@@ -90365,7 +90377,7 @@
     "content_type": "video",
     "view_count": 162007,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -91002,7 +91014,7 @@
     "content_type": "video",
     "view_count": 75253,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -91634,18 +91646,17 @@
   {
     "youtube_id": "NmDoUpfANoY",
     "title": "17살 댄스팀 막내의 댄스 영상 촬영하기 [AB VLOG] '마마무 - 고고베베' 브이로그 | EunBin VLOG | 전지적 은빈 시점 | ENG SUB",
-    "covered_group": [],
+    "covered_group": [
+      "마마무"
+    ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "ha-seyoung"
+      "kim-eunbin"
     ],
     "published_date": "2019-04-20",
     "content_type": "video",
     "view_count": 334709,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -92128,8 +92139,6 @@
     "youtube_id": "vsWCn2K_9S8",
     "title": "[AB] TXT - CROWN 어느날 머리에서 뿔이 자랐다 (Girls ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
@@ -92141,7 +92150,9 @@
     "published_date": "2019-03-18",
     "content_type": "video",
     "view_count": 842186,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::AB"
+    ]
   },
   {
     "youtube_id": "GY4eONUtn2k",
@@ -92804,7 +92815,7 @@
     "content_type": "video",
     "view_count": 257766,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2019y"
     ]
   },
   {
@@ -93217,6 +93228,7 @@
     "content_type": "video",
     "view_count": 530445,
     "content_series": [
+      "ARTBEAT 콘서트",
       "AB VLOG::2018y"
     ]
   },
@@ -93224,8 +93236,6 @@
     "youtube_id": "6zdHhO_4TfA",
     "title": "[여기서요?] EXO 엑소 - LOVE SHOT (Boys ver.) | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
@@ -93237,7 +93247,7 @@
     "content_type": "video",
     "view_count": 8815438,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
