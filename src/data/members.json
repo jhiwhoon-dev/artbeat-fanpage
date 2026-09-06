@@ -140,6 +140,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/yolo__plan/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCtEjwD92QGcO1avfEWWgbwQ"
       ]
     }
   },
@@ -4502,9 +4505,9 @@
     }
   },
   {
-    "id": "jin-hui",
+    "id": "jinhee",
     "name": "진희",
-    "name_en": "Hui Jin",
+    "name_en": "Jinhee",
     "nickname": null,
     "birth_date": null,
     "gender": null,
@@ -4819,5 +4822,45 @@
         "https://www.youtube.com/channel/UC4IvoCecB24px7atdeK3lrw"
       ]
     }
+  },
+  {
+    "id": "garin",
+    "name": "가린",
+    "name_en": "Garin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "gyungmin",
+    "name": "경민",
+    "name_en": "Gyungmin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
   }
 ]

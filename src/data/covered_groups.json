@@ -121,5 +121,9 @@
   { "name": "청하", "aliases": ["CHUNG HA"] },
   { "name": "ZEROBASEONE", "aliases": ["제로베이스원"] },
   { "name": "Billlie", "aliases": ["빌리"] },
+  { "name": "Say Yes!", "aliases": ["Say Yes!"] },
+  { "name": "MINO", "aliases": ["송민호"] },
+  { "name": "몬스타엑스", "aliases": ["Monsta X"] },
+  { "name": "마마무", "aliases": ["MAMAMOO"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }
 ]
