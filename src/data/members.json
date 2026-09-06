@@ -330,7 +330,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2021-03",
         "end": "2021-04"
@@ -411,7 +411,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2021-03",
         "end": "2021-07"
@@ -983,7 +983,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -1027,7 +1027,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -1077,7 +1077,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -1121,7 +1121,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1168,7 +1168,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1215,7 +1215,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1259,7 +1259,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1309,7 +1309,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-05"
@@ -1353,7 +1353,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1383,12 +1383,12 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -1448,12 +1448,12 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-01"
@@ -2537,12 +2537,12 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2570,7 +2570,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2621,7 +2621,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2670,12 +2670,12 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2698,12 +2698,12 @@
     "gender": "F",
     "role": null,
     "unit": [
-      "audition"
+      "auditionee"
     ],
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2731,7 +2731,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -2775,7 +2775,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -2819,7 +2819,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -2853,9 +2853,9 @@
     }
   },
   {
-    "id": "jung-yujin",
+    "id": "jeong-yoojin",
     "name": "정유진",
-    "name_en": "Yujin Jung",
+    "name_en": "Yoojin Jeong",
     "nickname": "유화",
     "birth_date": "1999-04-13",
     "gender": "F",
@@ -2866,7 +2866,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -2913,7 +2913,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -2960,7 +2960,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -3010,7 +3010,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -3054,7 +3054,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2025-02",
         "end": "2025-05"
@@ -3098,7 +3098,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2025-02",
         "end": "2025-05"
@@ -3148,7 +3148,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2025-02",
         "end": "2025-05"
@@ -3195,7 +3195,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2025-02",
         "end": "2025-05"
@@ -3239,7 +3239,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2025-02",
         "end": "2025-05"
@@ -3283,7 +3283,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2024-11",
         "end": "2025-02"
@@ -3821,7 +3821,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
@@ -3861,7 +3861,7 @@
     "unit_periods": [
       {
         "unit": [
-          "audition"
+          "auditionee"
         ],
         "start": "2023-11",
         "end": "2024-01"
