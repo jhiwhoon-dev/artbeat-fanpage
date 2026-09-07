@@ -147,5 +147,9 @@
   { "name": "아이오아이", "aliases": ["I.O.I"] },
   { "name": "Bruno Mars", "aliases": ["Bruno Mars"] },
   { "name": "위키미키", "aliases": ["Weki Meki"] },
+  { "name": "Weeekly", "aliases": ["위클리"] },
+  { "name": "Fifth Harmony", "aliases": ["Fifth Harmony"] },
+  { "name": "싸이", "aliases": ["PSY"] },
+  { "name": "ROSÉ", "aliases": ["로제"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }
 ]

@@ -2569,7 +2569,11 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/lsj_gnol123/"
+      ]
+    }
   },
   {
     "id": "jeong-hyunjin",
@@ -3860,7 +3864,11 @@
     ],
     "photo_filename": null,
     "bio": "ARTBEAT 소속 댄서이다.",
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/sour_yeahrin/"
+      ]
+    }
   },
   {
     "id": "lee-dabin",
@@ -4384,7 +4392,11 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/p/CR8n0zVl1u7/"
+      ]
+    }
   },
   {
     "id": "son-wonye",
@@ -4419,7 +4431,14 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/oneyeee_01/"
+      ],
+      "threads": [
+        "https://www.threads.com/@oneyeee_01"
+      ]
+    }
   },
   {
     "id": "kim-woonggyeom",
@@ -4594,15 +4613,25 @@
     }
   },
   {
-    "id": "min-ju",
+    "id": "minju",
     "name": "민주",
-    "name_en": "Ju Min",
+    "name_en": "Minju",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
-    "unit_periods": [],
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": null,
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": "2018",
     "left_date": null,
@@ -4946,7 +4975,11 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/_00_09_09/"
+      ]
+    }
   },
   {
     "id": "choi-sunwoo",
@@ -6012,6 +6045,332 @@
     "sns": {
       "instagram": [
         "qkrtnqls0523"
+      ]
+    }
+  },
+  {
+    "id": "sojeong",
+    "name": "소정",
+    "name_en": "Sojeong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "202108"
+      },
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "202108",
+        "end": null
+      }
+    ],
+    "status": null,
+    "joined_date": "2021-08-07",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2021-08-07",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/xojjeong_/"
+      ]
+    }
+  },
+  {
+    "id": "seo-danbi",
+    "name": "서단비",
+    "name_en": "Danbi Seo",
+    "nickname": null,
+    "birth_date": "2001-11-03",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": null,
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/danne_113/"
+      ],
+      "threads": [
+        "https://www.threads.com/@danne_113"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@danne113"
+      ],
+      "tiktok": [
+        "tiktok.com/@danne_113_"
+      ]
+    }
+  },
+  {
+    "id": "jeong-hyungwoo",
+    "name": "정형우",
+    "name_en": "Hyungwoo Jeong",
+    "nickname": null,
+    "birth_date": "1995-03-21",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "202107",
+        "end": "2022-12"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "shingi",
+    "name": "신기",
+    "name_en": "Shingi",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/k_s.g/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@GoatShingi"
+      ]
+    }
+  },
+  {
+    "id": "kim-hyoil",
+    "name": "김효일",
+    "name_en": "Hyoil Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/p/CR5_q1Ottts/"
+      ]
+    }
+  },
+  {
+    "id": "changheon",
+    "name": "창헌",
+    "name_en": "Changheon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [],
+    "unit_periods": [],
+    "status": null,
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "bang-hayul",
+    "name": "방하율",
+    "name_en": "Hayul Bang",
+    "nickname": null,
+    "birth_date": "1999-02-07",
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/carrotpiupiu/"
+      ],
+      "threads": [
+        "https://www.threads.com/@carrotpiupiu"
+      ]
+    }
+  },
+  {
+    "id": "nayoung",
+    "name": "나영",
+    "name_en": "Nayoung",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/nna_y0ng/"
+      ]
+    }
+  },
+  {
+    "id": "min",
+    "name": "박현민",
+    "name_en": "Min",
+    "nickname": "민",
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/i_m_hyeonmin/"
+      ],
+      "threads": [
+        "https://www.threads.com/@i_m_hyeonmin"
+      ]
+    }
+  },
+  {
+    "id": "hyeokjin",
+    "name": "혁진",
+    "name_en": "Hyeokjin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "kim-min-ji",
+    "name": "김민지",
+    "name_en": "Ji Min Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/asdamd_16/"
+      ]
+    }
+  },
+  {
+    "id": "taeyeon",
+    "name": "태연",
+    "name_en": "Taeyeon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "auditionee"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": null,
+        "end": null
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "_tang_2_"
       ]
     }
   }
