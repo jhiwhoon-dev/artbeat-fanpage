@@ -23,6 +23,7 @@ const videosData = videos.map((v) => ({
   groups: v.covered_group ?? [],
   series: v.content_series ?? [],
   members: v.tagged_members ?? [],
+  sponsors: v.sponsors ?? [],
   date: v.published_date,
   views: v.view_count ?? 0,
 }));
@@ -80,6 +81,7 @@ function safeJson(obj) {
     groups: string[];
     series: string[];
     members: string[];
+    sponsors: string[];
     date: string;
     views: number;
   }
@@ -230,10 +232,14 @@ function safeJson(obj) {
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
       .join('');
+    const adBadge = v.sponsors.length > 0
+      ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
+      : '';
     return `
       <div class="card">
         <a class="thumb-link" href="https://www.youtube.com/shorts/${v.id}" target="_blank" rel="noopener noreferrer">
           <div class="thumb-wrap">
+            ${adBadge}
             <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
           </div>
@@ -430,6 +436,20 @@ function safeJson(obj) {
     transition: opacity 0.2s ease;
   }
   .thumb-link:hover .play { opacity: 1; }
+  .ad-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    background: #f59e0b;
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
   .title {
     font-size: 13px;
     font-weight: 500;

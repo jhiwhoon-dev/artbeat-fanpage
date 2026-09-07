@@ -119,5 +119,15 @@
     "name": "A or B",
     "titleContains": ["A or B"],
     "status": "ended"
+  },
+  {
+    "name": "ABehind",
+    "titleContains": ["ABehind"],
+    "status": "ended"
+  },
+  {
+    "name": "ARTBEAT DANCE VIDEO AWARDS",
+    "titleContains": ["ARTBEAT DANCE VIDEO AWARDS"],
+    "status": "ended"
   }
 ]

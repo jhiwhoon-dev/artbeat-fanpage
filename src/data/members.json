@@ -66,13 +66,16 @@
       ],
       "threads": [
         "https://www.threads.com/@chamele_hong"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@jihong5823"
       ]
     }
   },
   {
-    "id": "jeon-hyeongwook",
+    "id": "jeon-hyeonguk",
     "name": "전형욱",
-    "name_en": "Hyeongwook Jeon",
+    "name_en": "Hyeonguk Jeon",
     "nickname": null,
     "birth_date": "1999-02-06",
     "gender": "M",
@@ -99,10 +102,13 @@
       }
     ],
     "photo_filename": null,
-    "bio": "ARTBEAT 소속 댄서이다.",
+    "bio": "OVERFATE, 온새미로 출신. ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
         "https://www.instagram.com/h_1_uk/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EC%A0%84%ED%98%95%EC%9A%B1-o4r"
       ]
     }
   },
@@ -316,7 +322,7 @@
       }
     ],
     "photo_filename": null,
-    "bio": null,
+    "bio": "METSUBOU 출신.\nARTBEAT에서 활동 중이다.",
     "sns": {}
   },
   {
@@ -1684,6 +1690,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/sovely_a"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@sovelya8853"
       ]
     }
   },
@@ -1717,10 +1726,13 @@
       }
     ],
     "photo_filename": null,
-    "bio": "대한민국의 댄서이자 전직 치어리더.",
+    "bio": "대구관광고 댄스팀 TRY 출신.\n대한민국의 댄서이자 전직 치어리더.",
     "sns": {
       "instagram": [
         "https://www.instagram.com/dgxnno_o/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EB%8B%A4%EA%B1%B4-z4x"
       ]
     }
   },
@@ -4096,8 +4108,12 @@
       }
     ],
     "photo_filename": null,
-    "bio": "ARTBEAT 소속 댄서이다.",
-    "sns": {}
+    "bio": "오버페이트 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/@123dadyasi"
+      ]
+    }
   },
   {
     "id": "her-naeun",
@@ -4412,11 +4428,18 @@
     "nickname": null,
     "birth_date": "2001-01-08",
     "gender": "M",
-    "role": null,
+    "role": "Dancer",
     "unit": [
       "AB PROJECT"
     ],
     "unit_periods": [
+      {
+        "unit": [
+          "OVERFATE"
+        ],
+        "start": null,
+        "end": null
+      },
       {
         "unit": [
           "AB PROJECT"
@@ -4435,8 +4458,12 @@
       }
     ],
     "photo_filename": null,
-    "bio": null,
-    "sns": {}
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/@%EA%B8%B0%EB%AD%89%EA%B2%B8"
+      ]
+    }
   },
   {
     "id": "yun-bogyeong",
@@ -4445,7 +4472,7 @@
     "nickname": null,
     "birth_date": null,
     "gender": "F",
-    "role": null,
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4467,7 +4494,7 @@
     "nickname": null,
     "birth_date": null,
     "gender": "F",
-    "role": null,
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4488,8 +4515,8 @@
     "name_en": "Heejin Lee",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
+    "gender": "F",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4510,19 +4537,37 @@
     "name_en": "Jinhee",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
-    "unit": [],
-    "unit_periods": [],
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2017-12",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2017-12-25",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2017-12-25",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {
       "instagram": [
         "https://www.instagram.com/gnay_______/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@Jinidayo"
       ]
     }
   },
@@ -4531,9 +4576,9 @@
     "name": "박재범",
     "name_en": "Jaebum Park",
     "nickname": null,
-    "birth_date": null,
-    "gender": null,
-    "role": null,
+    "birth_date": "1999-05-26",
+    "gender": "M",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4541,7 +4586,7 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
         "https://www.instagram.com/j.l3_99/"
@@ -4554,8 +4599,8 @@
     "name_en": "Ju Min",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
+    "gender": "F",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4580,20 +4625,38 @@
     "name": "김재욱",
     "name_en": "Jaewook Kim",
     "nickname": null,
-    "birth_date": null,
-    "gender": null,
-    "role": null,
-    "unit": [],
-    "unit_periods": [],
+    "birth_date": "2002-03-11",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-04",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2018-04-10",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2018-04-10",
+        "left": null
+      }
+    ],
     "photo_filename": null,
-    "bio": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
         "https://www.instagram.com/jae_wook_02/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EA%B9%80%EC%9E%AC%EC%9A%B1-e6z"
       ]
     }
   },
@@ -4603,8 +4666,8 @@
     "name_en": "Hyunwoo Jin",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
+    "gender": "M",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4625,8 +4688,8 @@
     "name_en": "Chanhee Kim",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
+    "gender": "M",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4647,8 +4710,8 @@
     "name_en": "Youngjae Kim",
     "nickname": null,
     "birth_date": null,
-    "gender": null,
-    "role": null,
+    "gender": "M",
+    "role": "Dancer",
     "unit": [],
     "unit_periods": [],
     "status": "withdrawn",
@@ -4664,21 +4727,23 @@
     }
   },
   {
-    "id": "park-seonu",
+    "id": "park-sunwoo",
     "name": "박선우",
-    "name_en": "Seonu Park",
+    "name_en": "Sunwoo Park",
     "nickname": "성민",
     "birth_date": null,
-    "gender": null,
-    "role": null,
-    "unit": [],
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
     "unit_periods": [],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "메츠보우 출신.\n\nhttps://www.facebook.com/profile.php?id=100009163836356",
     "sns": {
       "instagram": [
         "https://www.instagram.com/xxunwooo/"
@@ -4789,7 +4854,7 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "경북대학교 경제통상학부 16학번 터프시커리 회장",
     "sns": {
       "instagram": [
         "https://www.instagram.com/seanlee_16/"
@@ -4864,9 +4929,772 @@
     "sns": {}
   },
   {
-    "id": "pilho",
-    "name": "필호",
-    "name_en": "Pilho",
+    "id": "park-pilho",
+    "name": "박필호",
+    "name_en": "Pilho Park",
+    "nickname": null,
+    "birth_date": "2000-09-09",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "choi-sunwoo",
+    "name": "최선우",
+    "name_en": "Sunwoo Choi",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "경북공고 댄스팀 온새미로 팀 출신. sun_woo1016",
+    "sns": {}
+  },
+  {
+    "id": "son-dongpyo",
+    "name": "손동표",
+    "name_en": "Dongpyo Son",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2018-04",
+        "end": null
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": "2018-04-10",
+    "left_date": null,
+    "membership_periods": [
+      {
+        "joined": "2018-04-10",
+        "left": null
+      }
+    ],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/_oypgnodnos",
+        "https://www.instagram.com/py0hyun_/"
+      ],
+      "x": [
+        "https://x.com/sondongpyo_dsp"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@%EC%86%90%EB%8F%99%ED%91%9C-l3w"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@sondongpyo_dsp"
+      ]
+    }
+  },
+  {
+    "id": "mihyang",
+    "name": "미향",
+    "name_en": "Mihyang",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/@%EC%9D%B4%EC%B0%8C%EC%95%99-p4p"
+      ]
+    }
+  },
+  {
+    "id": "jeong-junho",
+    "name": "정준호",
+    "name_en": "Junho Jeong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": null,
+        "end": null
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "경북대학교 터프시커리;",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/jo_koon_/"
+      ],
+      "threads": [
+        "https://www.threads.com/@jo_koon_"
+      ]
+    }
+  },
+  {
+    "id": "lee-jaemin",
+    "name": "이재민",
+    "name_en": "Jaemin Lee",
+    "nickname": null,
+    "birth_date": "2002-01-26",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/@jmjmlee"
+      ]
+    }
+  },
+  {
+    "id": "shin-ganghoon",
+    "name": "신강훈",
+    "name_en": "Ganghoon Shin",
+    "nickname": null,
+    "birth_date": "2001-06-12",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "kang-jihoon",
+    "name": "강지훈",
+    "name_en": "Jihoon Kang",
+    "nickname": null,
+    "birth_date": "2001-04-28",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "sa-jinhyuk",
+    "name": "사진혁",
+    "name_en": "Jinhyuk Sa",
+    "nickname": null,
+    "birth_date": "1999-01-11",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "koo-junhyeok",
+    "name": "구준혁",
+    "name_en": "Junhyeok Koo",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "lee-junsung",
+    "name": "이준성",
+    "name_en": "Junsung Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "park-teajun",
+    "name": "박태준",
+    "name_en": "Teajun Park",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "kim-kibeom",
+    "name": "김기범",
+    "name_en": "Kibeom Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "lee-donguk",
+    "name": "이동욱",
+    "name_en": "Donguk Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "jung-youngik",
+    "name": "정영익",
+    "name_en": "Youngik Jung",
+    "nickname": null,
+    "birth_date": "2000-04-05",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "OVERFATE"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "yunsu",
+    "name": "윤수",
+    "name_en": "Yunsu",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/aalizz_well_/"
+      ]
+    }
+  },
+  {
+    "id": "lee-seongmin",
+    "name": "이성민",
+    "name_en": "Seongmin Lee",
+    "nickname": null,
+    "birth_date": "2000-03-31",
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
+    "sns": {}
+  },
+  {
+    "id": "jihyeon",
+    "name": "지현",
+    "name_en": "Jihyeon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "세종스틴, 세와이스로 함께 하셨던 '세종대 실용무용과' 학생들. PIT-A-PAT 출신; lovelyzeon",
+    "sns": {}
+  },
+  {
+    "id": "minjeong",
+    "name": "민정",
+    "name_en": "Minjeong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; min_jelly0771",
+    "sns": {}
+  },
+  {
+    "id": "yerin",
+    "name": "예린",
+    "name_en": "Yerin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; yerin_aa",
+    "sns": {}
+  },
+  {
+    "id": "minji",
+    "name": "민지",
+    "name_en": "Minji",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; parkmmm",
+    "sns": {}
+  },
+  {
+    "id": "yeondoo",
+    "name": "연두",
+    "name_en": "Yeondoo",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; yeon_doodoo",
+    "sns": {}
+  },
+  {
+    "id": "kang-dahee",
+    "name": "강다희",
+    "name_en": "Dahee Kang",
+    "nickname": "diakang",
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; dahee_kang0308",
+    "sns": {}
+  },
+  {
+    "id": "mongmom",
+    "name": "mongmom",
+    "name_en": "Mongmom",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; _min_ji_",
+    "sns": {}
+  },
+  {
+    "id": "seobin",
+    "name": "seobin",
+    "name_en": "Seobin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; hsooobb",
+    "sns": {}
+  },
+  {
+    "id": "yeajin",
+    "name": "yeajin",
+    "name_en": "Yeajin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "PIT-A-PAT 출신; yyyea_jjin",
+    "sns": {}
+  },
+  {
+    "id": "dongho",
+    "name": "동호",
+    "name_en": "Dongho",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "dong_ho2"
+      ]
+    }
+  },
+  {
+    "id": "jungmin",
+    "name": "정민",
+    "name_en": "Jungmin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "s2__jungmin",
+    "sns": {}
+  },
+  {
+    "id": "inkyu",
+    "name": "인규",
+    "name_en": "Inkyu",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "in_star_1010",
+    "sns": {}
+  },
+  {
+    "id": "soobin",
+    "name": "수빈",
+    "name_en": "Soobin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/s___bin2/"
+      ]
+    }
+  },
+  {
+    "id": "yoo-daehee",
+    "name": "유대희",
+    "name_en": "Daehee Yoo",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "경북대학교 출신",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/dh_days/"
+      ],
+      "threads": [
+        "https://www.threads.com/@dh_days"
+      ]
+    }
+  },
+  {
+    "id": "jiyeon",
+    "name": "지연",
+    "name_en": "Jiyeon",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "TRY"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "대구관광고 댄스팀 TRY 출신.",
+    "sns": {
+      "instagram": [
+        "H_08_14_ONG"
+      ]
+    }
+  },
+  {
+    "id": "jihyun",
+    "name": "지현",
+    "name_en": "Jihyun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "TRY"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "대구관광고 댄스팀 TRY 출신.",
+    "sns": {
+      "instagram": [
+        "HYUN______S2"
+      ]
+    }
+  },
+  {
+    "id": "kim-dabin",
+    "name": "김다빈",
+    "name_en": "Dabin Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "TRY"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "대구관광고 댄스팀 TRY 출신.\nhttps://www.facebook.com/photo/?fbid=2263885170513989&set=pcb.2263868670515639&locale=ko_KR",
+    "sns": {
+      "instagram": [
+        "ekqls0811"
+      ]
+    }
+  },
+  {
+    "id": "ahn-sunghee",
+    "name": "안성희",
+    "name_en": "Sunghee Ahn",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "TRY"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "대구관광고 댄스팀 TRY 출신.\nhttps://www.facebook.com/photo?fbid=2263885333847306&set=pcb.2263868670515639&locale=ko_KR",
+    "sns": {}
+  },
+  {
+    "id": "heo-yongjun",
+    "name": "허용준",
+    "name_en": "Yongjun Heo",
     "nickname": null,
     "birth_date": null,
     "gender": "M",
@@ -4882,5 +5710,309 @@
     "photo_filename": null,
     "bio": null,
     "sns": {}
+  },
+  {
+    "id": "jihun",
+    "name": "지훈",
+    "name_en": "Jihun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "METSUBOU"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "jihun736623"
+      ]
+    }
+  },
+  {
+    "id": "kim-harim",
+    "name": "김하림",
+    "name_en": "Harim Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/v_fia_98/"
+      ],
+      "threads": [
+        "https://www.threads.com/@v_fia_98"
+      ]
+    }
+  },
+  {
+    "id": "jo-hansol",
+    "name": "조한솔",
+    "name_en": "Hansol Jo",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/v_so1_v/"
+      ],
+      "threads": [
+        "https://www.threads.com/@v_so1_v"
+      ]
+    }
+  },
+  {
+    "id": "eungjun",
+    "name": "응준",
+    "name_en": "Eungjun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "METSUBOU"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "jihye",
+    "name": "지혜",
+    "name_en": "Jihye",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/_jihye_96_/"
+      ],
+      "threads": [
+        "https://www.threads.com/@_jihye_96_"
+      ]
+    }
+  },
+  {
+    "id": "youngbeom",
+    "name": "영범",
+    "name_en": "Youngbeom",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "METSUBOU"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "hong-dageum",
+    "name": "홍다금",
+    "name_en": "Dageum Hong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "https://www.facebook.com/profile.php?id=100012190874953",
+    "sns": {}
+  },
+  {
+    "id": "nahyun",
+    "name": "나현",
+    "name_en": "Nahyun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/v_nana__/"
+      ],
+      "facebook": [
+        "https://www.facebook.com/profile.php?id=100012322204929"
+      ]
+    }
+  },
+  {
+    "id": "lee-jeongmin",
+    "name": "이정민",
+    "name_en": "Jeongmin Lee",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "VARIOUS"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/j_min0120/"
+      ]
+    }
+  },
+  {
+    "id": "minhyuk",
+    "name": "민혁",
+    "name_en": "Minhyuk",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "METSUBOU"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "dabin",
+    "name": "다빈",
+    "name_en": "Dabin",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/ekqls0811/"
+      ]
+    }
+  },
+  {
+    "id": "jungeun",
+    "name": "정은",
+    "name_en": "Jungeun",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {}
+  },
+  {
+    "id": "park-subin",
+    "name": "박수빈",
+    "name_en": "Subin Park",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "qkrtnqls0523"
+      ]
+    }
   }
 ]
