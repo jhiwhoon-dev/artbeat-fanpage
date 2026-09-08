@@ -6075,7 +6075,7 @@
         "end": null
       }
     ],
-    "status": null,
+    "status": "withdrawn",
     "joined_date": "2021-08-07",
     "left_date": null,
     "membership_periods": [
@@ -6100,9 +6100,11 @@
     "birth_date": "2001-11-03",
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
+    "unit": [
+      "A2Be"
+    ],
     "unit_periods": [],
-    "status": null,
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
@@ -6212,7 +6214,7 @@
     "role": null,
     "unit": [],
     "unit_periods": [],
-    "status": null,
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],

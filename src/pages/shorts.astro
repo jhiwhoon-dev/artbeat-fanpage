@@ -13,7 +13,7 @@ const videos = allVideos.filter((v) => getType(v) === 'short');
 // 시리즈별 제작 상태(active/paused/ended) — 최상위 단계 이름 기준으로 배지 표시에 사용
 const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
 
-const memberMap = Object.fromEntries(members.map((m) => [m.id, m.name]));
+const memberMap = Object.fromEntries(members.map((m) => [m.id, m.nickname || m.name]));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // 카드 렌더링에 필요한 필드만 추려서 클라이언트로 넘김 (필터링/페이지네이션은 이 데이터를 기준으로 JS가 처리)
@@ -225,6 +225,39 @@ function safeJson(obj) {
     return splitTagLevels(tag).join(' · ');
   }
 
+  // ===== 조회수 등급별 빛 효과 — 아래 숫자들만 바꾸면 전부 조절됨 =====
+  const GLOW_TIER_UNIT = 1_000_000;   // 등급 하나당 조회수 단위 (100만)
+  const GLOW_MAX_TIER = 17;           // 최고 등급 (1700만 이상은 전부 이 등급으로 고정)
+  const GLOW_MIN_BLUR = 9;            // 최저 등급(100만) 빛 번짐 반경 (px) — 검정 배경에서도 보이게 상향
+  const GLOW_MAX_BLUR = 14;           // 최고 등급(1700만+) 빛 번짐 반경 (px)
+  // 주의: 그리드 카드 간격이 20px이라, "번짐 반경 × 아래 PULSE_SCALE" 값이
+  // 20px을 넘으면 옆 카드를 침범할 수 있음. 14 × 1.3 = 18.2로 여유를 둠.
+  const GLOW_MIN_OPACITY = 0.45;      // 최저 등급 빛 불투명도 (0~1) — 검정 배경에서도 보이게 상향
+  const GLOW_MAX_OPACITY = 0.8;       // 최고 등급 빛 불투명도 (0~1)
+  const GLOW_SATURATION = 95;         // 채도 (%) — 높을수록 색이 선명함
+  const GLOW_LIGHTNESS = 62;          // 명도 (%) — 검정 배경 대비를 위해 살짝 밝게 잡음
+  const GLOW_START_HUE = 210;         // 최저 등급 색상(파랑, 0~360 색상환)
+  const GLOW_END_HUE = 405;           // 최고 등급 색상(405 % 360 = 45, 골드)
+  // 210 -> 405로 "증가하는 방향"으로 보라/핑크/빨강을 거쳐 골드로 가게 함.
+  // (반대 방향으로 가면 초록/청록을 거치게 되는데, 그러면 등급이 높아질수록
+  //  오히려 칙칙해 보여서 일부러 이 방향으로 잡음)
+  const GLOW_PULSE_FROM_TIER = 12;    // 이 등급부터 은은하게 깜빡이는 애니메이션 켜짐 (0으로 하면 전부 깜빡임, 999로 하면 전부 고정)
+  const GLOW_PULSE_DURATION = 2.4;    // 깜빡임 주기 (초). 클수록 느리고 차분함
+  const GLOW_PULSE_SCALE = 1.3;       // 깜빡일 때 최대로 커지는 배율 (위 주의사항 참고)
+
+  function computeGlow(views: number) {
+    if (views < GLOW_TIER_UNIT) return null; // 100만 미만은 효과 없음
+    const tier = Math.min(Math.floor(views / GLOW_TIER_UNIT), GLOW_MAX_TIER);
+    const ratio = GLOW_MAX_TIER > 1 ? (tier - 1) / (GLOW_MAX_TIER - 1) : 1; // 0~1
+
+    const hue = (GLOW_START_HUE + (GLOW_END_HUE - GLOW_START_HUE) * ratio) % 360;
+    const blur = GLOW_MIN_BLUR + (GLOW_MAX_BLUR - GLOW_MIN_BLUR) * ratio;
+    const opacity = GLOW_MIN_OPACITY + (GLOW_MAX_OPACITY - GLOW_MIN_OPACITY) * ratio;
+    const pulse = tier >= GLOW_PULSE_FROM_TIER;
+
+    return { tier, hue: hue.toFixed(0), blur: blur.toFixed(1), opacity: opacity.toFixed(2), pulse };
+  }
+
   function cardHTML(v: VideoItem): string {
     const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(displayTagPath(g))}</span>`).join('');
     const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displayTagPath(s))}</span>`).join('');
@@ -235,11 +268,18 @@ function safeJson(obj) {
     const adBadge = v.sponsors.length > 0
       ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
       : '';
+    const glow = computeGlow(v.views);
+    const glowStyle = glow
+      ? `--glow-hue:${glow.hue}; --glow-blur:${glow.blur}px; --glow-op:${glow.opacity}; --glow-sat:${GLOW_SATURATION}%; --glow-light:${GLOW_LIGHTNESS}%; --glow-duration:${GLOW_PULSE_DURATION}s;`
+      : '';
+    const glowClass = glow ? `has-glow${glow.pulse ? ' glow-pulse' : ''}` : '';
+    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (Lv.${glow.tier})</span>` : '';
     return `
       <div class="card">
         <a class="thumb-link" href="https://www.youtube.com/shorts/${v.id}" target="_blank" rel="noopener noreferrer">
-          <div class="thumb-wrap">
+          <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
             ${adBadge}
+            ${hotBadge}
             <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
           </div>
@@ -446,6 +486,35 @@ function safeJson(obj) {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  /* 조회수 등급 빛 효과 — 실제 색상/크기 값은 JS의 GLOW_* 상수 + 인라인 CSS 변수로 계산됨 */
+  .has-glow {
+    box-shadow: 0 0 var(--glow-blur, 9px) 2px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), var(--glow-op, 0.45));
+  }
+  .glow-pulse {
+    animation: card-glow-pulse var(--glow-duration, 2.4s) ease-in-out infinite;
+  }
+  @keyframes card-glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 var(--glow-blur, 9px) 2px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), var(--glow-op, 0.45));
+    }
+    50% {
+      box-shadow: 0 0 calc(var(--glow-blur, 9px) * 1.3) 4px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), calc(var(--glow-op, 0.45) * 1.2));
+    }
+  }
+  .hot-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+    background: #facc15;
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
