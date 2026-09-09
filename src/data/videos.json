@@ -850,7 +850,7 @@
     "view_count": 44014,
     "content_type": "video",
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
@@ -4856,7 +4856,7 @@
     "content_type": "short",
     "view_count": 30645,
     "content_series": [
-      "Relay Dance::2026y"
+      "릴레이 댄스::2026y"
     ]
   },
   {
@@ -4866,13 +4866,12 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "hwang-jiho",
-      "kang-taehyun",
       "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyun",
+      "hwang-jiho",            
       "park-seongmin",
-      "jang-daehyeon",
-      "shim-jiho"
+      "jang-daehyeon"
     ],
     "published_date": "2026-06-29",
     "content_type": "video",
@@ -4981,7 +4980,9 @@
   {
     "youtube_id": "-1mHcrtq4CI",
     "title": "립밤이 떨어져도 전역 3일차의 패기로 극복😎 #DoYourDance #기현 #Gihyun #ARTBEAT",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "ahn-gihyun"
     ],
@@ -8504,11 +8505,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-16",
     "content_type": "short",
     "view_count": 28393,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "Sdtug0xw_xY",
@@ -8516,11 +8527,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-16",
     "content_type": "short",
     "view_count": 22429,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "AX3x-b1fZMA",
@@ -8528,11 +8549,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-16",
     "content_type": "short",
     "view_count": 23270,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "MRRuNP_93Ng",
@@ -8555,19 +8586,20 @@
       "ENHYPEN"
     ],
     "tagged_members": [
+      "lee-garam",
       "hwang-jiho",
       "kim-youngjin",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "park-seongmin",
-      "lee-garam",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "do-hyeonsung",
+      "yang-hwanhee"
     ],
     "published_date": "2026-04-16",
     "content_type": "video",
     "view_count": 116014,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "3H1DijLRv4o",
@@ -9266,40 +9298,79 @@
     "youtube_id": "ezISxcRrAIE",
     "title": "난 가끔 하늘도 날아🪽 #talktoyou #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "YEONJUN",
-      "투모로우바이투게더"
+      "YEONJUN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "ha-seyoung",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "jang-sein",
+      "kim-chan",
+      "kang-taehyun",
+      "lee-garam",
+      "park-seongmin",
+      "kim-youngjin",
+      "yang-hwanhee",
+      "kim-suhwan"
+    ],
     "published_date": "2026-04-09",
     "content_type": "short",
     "view_count": 102467,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "OMjRsG8_s9U",
     "title": "퍼포먼스가 도대체 몇 개에요??🫢 #talktoyou #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "YEONJUN",
-      "투모로우바이투게더"
+      "YEONJUN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "ha-seyoung",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "jang-sein",
+      "kim-chan",
+      "kang-taehyun",
+      "lee-garam",
+      "park-seongmin",
+      "kim-youngjin",
+      "yang-hwanhee",
+      "kim-suhwan"
+    ],
     "published_date": "2026-04-09",
     "content_type": "short",
     "view_count": 210187,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "VZ1fEeC7eMw",
     "title": "여러 명의 댄서들과 준비한 Talk To You #talktoyou #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "YEONJUN",
-      "투모로우바이투게더"
+      "YEONJUN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "kang-taehyun",
+      "lee-garam",
+      "park-seongmin",
+      "kim-youngjin",
+      "yang-hwanhee",
+      "kim-suhwan"
+    ],
     "published_date": "2026-04-09",
     "content_type": "short",
     "view_count": 27392,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "tCrilvKfVbA",
@@ -9327,34 +9398,34 @@
     "youtube_id": "v30Bi3cpH-M",
     "title": "[방구석 여기서요?] 연준 YEONJUN - Talk to You | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "YEONJUN"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "hwang-jiho",
-      "kim-youngjin",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "park-seongmin",
-      "lee-garam",
-      "shim-jiho",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-gaeun",
       "jang-sein",
-      "jeong-yoojin"
+      "kim-chan",
+      "kang-taehyun",
+      "lee-garam",
+      "park-seongmin",
+      "kim-youngjin",
+      "yang-hwanhee",
+      "kim-suhwan"
     ],
     "published_date": "2026-04-09",
     "content_type": "video",
     "view_count": 237451,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "eWQGuZSqPVQ",
     "title": "we're gonna keep dancing #thatsanono #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -10854,11 +10925,12 @@
   {
     "youtube_id": "vECJFzFqgM8",
     "title": "요즘 핫한 Two 챌린지🔥 #two #challenge #가람 #지호 #Garam #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "bbno$"
+    ],
     "tagged_members": [
       "hwang-jiho",
-      "lee-garam",
-      "shim-jiho"
+      "lee-garam"
     ],
     "published_date": "2026-03-07",
     "content_type": "short",
@@ -11739,25 +11811,24 @@
     "youtube_id": "JXy9CfbgYLs",
     "title": "[2026 설날맞이 여기서요?] 방탄소년단 BTS - IDOL | 커버댄스 DANCE COVER",
     "covered_group": [
-      "IVE"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
-      "kim-youngjin",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "lee-garam",
       "cho-gyuso",
       "jang-daehyeon",
+      "kim-youngjin",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "kim-hojun"
     ],
     "published_date": "2026-02-17",
     "content_type": "video",
     "view_count": 77272,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2026y"
     ]
   },
   {
@@ -11949,10 +12020,13 @@
   {
     "youtube_id": "UP4gLd67iFA",
     "title": "DE LA MAMA🔥 #DELAMAMA #DELAMAMA챌린지 #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "El Alfa",
+      "El Cherry Scom",
+      "CJ"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2026-02-12",
     "content_type": "short",
@@ -12309,11 +12383,12 @@
   {
     "youtube_id": "hsyNlH2uu14",
     "title": "우리 둘 케미도 꽤 나쁘지 않죠?😀 #lovelovelove #럽럽럽챌린지 #수환 #지호 #Suhwan #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "에픽하이"
+    ],
     "tagged_members": [
       "kim-suhwan",
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2026-02-05",
     "content_type": "short",
@@ -14115,23 +14190,21 @@
     "youtube_id": "2F1G-D1ivbw",
     "title": "[방구석 여기서요?] BOYS ll PLANET 〈Love Is〉 - Chains | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "lee-garam",
       "cho-gyuso",
-      "shim-jiho"
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
     ],
     "published_date": "2025-12-23",
     "content_type": "video",
     "view_count": 78982,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -14718,22 +14791,20 @@
     "youtube_id": "9WKvJD6f5lM",
     "title": "[방구석 여기서요?] 코르티스 CORTIS - GO! | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-youngjin",
-      "yang-hwanhee",
       "lee-garam",
+      "hwang-jiho",
       "cho-gyuso",
-      "shim-jiho"
+      "yang-hwanhee",
+      "kim-youngjin"
     ],
     "published_date": "2025-12-17",
     "content_type": "video",
     "view_count": 155816,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -17703,7 +17774,9 @@
   {
     "youtube_id": "4TO1akzLsuU",
     "title": "앙증맞은 듀오의 GO!😄 #태현 #수환 #Taehyun #Suhwan",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "kim-suhwan",
       "kang-taehyun"
@@ -18693,7 +18766,13 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-mingi",
+      "yang-hwanhee",
+      "kim-youngjin"
+    ],
     "published_date": "2025-11-05",
     "content_type": "short",
     "view_count": 40662,
@@ -18764,11 +18843,11 @@
       "CORTIS"
     ],
     "tagged_members": [
+      "lee-garam",
       "hwang-jiho",
       "kim-mingi",
-      "kim-youngjin",
       "yang-hwanhee",
-      "lee-garam"
+      "kim-youngjin"
     ],
     "published_date": "2025-11-05",
     "content_type": "video",
@@ -18816,7 +18895,14 @@
     "covered_group": [
       "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-11-04",
     "content_type": "short",
     "view_count": 33162,
@@ -18830,7 +18916,14 @@
     "covered_group": [
       "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-11-04",
     "content_type": "short",
     "view_count": 33865,
@@ -18844,7 +18937,14 @@
     "covered_group": [
       "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-11-04",
     "content_type": "short",
     "view_count": 48366,
@@ -18901,12 +19001,12 @@
       "BOYS Ⅱ PLANET::Love Is"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
+      "lee-garam",
+      "cho-gyuso",
       "kang-taehyun",
-      "do-hyeonsung",
+      "hwang-jiho",
       "yang-hwanhee",
-      "lee-garam"
+      "do-hyeonsung"
     ],
     "published_date": "2025-11-04",
     "content_type": "video",
@@ -19320,7 +19420,9 @@
   {
     "youtube_id": "i7mg2_58-60",
     "title": "#가람 #영진 #환희 Love Is - Chains' Dance Cover #Garam #Youngjin #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "kim-youngjin",
       "yang-hwanhee",
@@ -19905,15 +20007,14 @@
     "youtube_id": "d2DI5egdvcc",
     "title": "코르티스 CORTIS - GO! | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
+      "lee-garam",
       "hwang-jiho",
       "kim-mingi",
-      "kim-youngjin",
       "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho"
+      "kim-youngjin"
     ],
     "published_date": "2025-10-29",
     "content_type": "video",
@@ -20099,12 +20200,22 @@
   {
     "youtube_id": "lkjN1RblPnk",
     "title": "다 같이 GO! 해볼까요? #go #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-mingi",
+      "yang-hwanhee",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-28",
     "content_type": "short",
     "view_count": 58371,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "i13DDTH_mGg",
@@ -20112,11 +20223,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-mingi",
+      "yang-hwanhee",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-27",
     "content_type": "short",
     "view_count": 32560,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "47Gbmn_hUy4",
@@ -20124,11 +20243,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-mingi",
+      "yang-hwanhee",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-27",
     "content_type": "short",
     "view_count": 30129,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-YxS4UUj1W4",
@@ -20136,30 +20263,39 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "kim-mingi",
+      "yang-hwanhee",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-27",
     "content_type": "short",
     "view_count": 24327,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "hlePnulQqv4",
     "title": "[여기서요?] 코르티스 CORTIS - GO! | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
+      "lee-garam",
       "hwang-jiho",
       "kim-mingi",
-      "kim-youngjin",
       "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho"
+      "kim-youngjin"
     ],
     "published_date": "2025-10-27",
     "content_type": "video",
     "view_count": 599861,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "WrTBJCWeHp0",
@@ -20250,106 +20386,132 @@
   {
     "youtube_id": "pkUVujq1hhM",
     "title": "지금 이 순간만큼은 우리들 세상인 것처럼!!🔥 #wegoup #릴레이댄스 #relaydance",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [],
     "published_date": "2025-10-27",
     "content_type": "short",
     "view_count": 503792,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "xMaWm1iLO4M",
     "title": "눈빛 뭐야 뭐야!? 불타고 있는 것 같아😮 #chains #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 33019,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "cGLzp1ni2MY",
     "title": "이 영상, 반복 재생할 자신 있음!!🔥 #chains #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 31584,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "t4MQGqqB8ns",
     "title": "미소+카리스마 장착 완료! #chains #민기 #Mingi",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "kim-mingi"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 24849,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "RKN5uGgV-LA",
     "title": "내가 너에게 반해버린 이유랄까..?😀 #chains #가람 #Garam",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 55359,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "zCem2UviVFk",
     "title": "Chain에 뽀뽀 박치기 한번😗 #chains #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 28764,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "n4ovWh9laG8",
     "title": "셋 하면 멈춰 버릴 지금 이 시간⌚️ #chains #현성 #Hyeonsung",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "do-hyeonsung"
     ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 21591,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "zzXvelZH7A4",
     "title": "BOYS ll PLANET 〈Love Is〉 - Chains | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "lee-garam",
-      "shim-jiho"
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
     ],
     "published_date": "2025-10-26",
     "content_type": "video",
     "view_count": 25645,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -20395,27 +20557,40 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-soyeon",
-      "lee-wina",
       "lee-jeonghee",
+      "lee-yoonjae",
+      "kim-soyeon",
       "won-hyegyeong",
-      "lee-yoonjae"
+      "yun-haeun",      
+      "lee-wina"
     ],
     "published_date": "2025-10-26",
     "content_type": "video",
     "view_count": 1359184,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "r8B8GbPOkcc",
     "title": "장난스러운 케미 어떤가요?😁 #chains #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-10-26",
     "content_type": "short",
     "view_count": 42422,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "YbMM9rkgZ5A",
@@ -20463,57 +20638,85 @@
     "youtube_id": "A7NZNNK4s4s",
     "title": "이 안무 만든 사람 감사합니다...🙏 #chains #ARTBEAT #여기서요",
     "covered_group": [
-      "BOYS Ⅱ PLANET"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-10-25",
     "content_type": "short",
     "view_count": 31543,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "3eC5wT1GCMI",
     "title": "넌 내꺼야💘 #chains #ARTBEAT #여기서요",
     "covered_group": [
-      "BOYS Ⅱ PLANET"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-10-25",
     "content_type": "short",
     "view_count": 27307,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "8xz0__JH9Gs",
     "title": "시작부터 치명적이면 어떡해!!😍 #chains #ARTBEAT #여기서요",
     "covered_group": [
-      "BOYS Ⅱ PLANET"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
+    ],
     "published_date": "2025-10-25",
     "content_type": "short",
     "view_count": 28299,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "I6drj5YBKdM",
     "title": "[여기서요?] BOYS ll PLANET 〈Love Is〉 - Chains | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "BOYS Ⅱ PLANET::Love Is"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "lee-garam",
-      "shim-jiho"
+      "cho-gyuso",
+      "kang-taehyun",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung"
     ],
     "published_date": "2025-10-25",
     "content_type": "video",
     "view_count": 262936,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "QbRZEOQ__tE",
@@ -21093,10 +21296,11 @@
   {
     "youtube_id": "jf34ZsjSJEk",
     "title": "#지호 'Love Is - Chains' Dance Cover #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-10-19",
     "content_type": "short",
@@ -21223,8 +21427,7 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-10-15",
     "content_type": "short",
@@ -21234,11 +21437,7 @@
   {
     "youtube_id": "YZ2sTVr2PQw",
     "title": "[💿AB PLAYLIST #태현] 새 학기, 캠퍼스를 걸으며 듣기 좋은 힐링 음악 | Taehyun's Playlist",
-    "covered_group": [
-      "방탄소년단",
-      "정국",
-      "태민"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "kang-taehyun"
     ],
@@ -21448,7 +21647,6 @@
     ],
     "tagged_members": [
       "hwang-jiho",
-      "shim-jiho",
       "ha-seyoung"
     ],
     "published_date": "2025-10-10",
@@ -21689,8 +21887,7 @@
     ],
     "tagged_members": [
       "cho-gyuso",
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-10-07",
     "content_type": "short",
@@ -21861,18 +22058,18 @@
     "youtube_id": "L4O-PSbYR_c",
     "title": "다영 DAYOUNG - body | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "DAYOUNG"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho",
-      "yun-haeun",
+      "aoki-yuka",
       "ha-seyoung",
+      "yun-haeun",
       "bang-jooyeon",
-      "lee-yoonjae"
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
     ],
     "published_date": "2025-10-04",
     "content_type": "video",
@@ -21898,12 +22095,26 @@
   {
     "youtube_id": "BlA7UOt6iYk",
     "title": "다 같이 즐겨서 더 행복했던 'body'🔥 #body #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun",
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 1186612,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "6VAVPg_doj4",
@@ -21925,11 +22136,23 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun",
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-10-03",
     "content_type": "short",
     "view_count": 227588,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "8p3Uzo-BdKE",
@@ -21937,11 +22160,23 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun",
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-10-03",
     "content_type": "short",
     "view_count": 232382,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "3YpicdG2pAU",
@@ -21949,40 +22184,53 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun",
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-10-03",
     "content_type": "short",
     "view_count": 125425,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "n1WUr3SiZTI",
     "title": "[여기서요?] 다영 DAYOUNG - body | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "DAYOUNG"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho",
-      "yun-haeun",
+      "aoki-yuka",
       "ha-seyoung",
+      "yun-haeun",
       "bang-jooyeon",
-      "lee-yoonjae"
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
     ],
     "published_date": "2025-10-03",
     "content_type": "video",
     "view_count": 1423466,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jwAYmuD7Vck",
     "title": "#대현 'NCT WISH - COLOR' Dance Cover #Daehyeon",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -22028,8 +22276,7 @@
       "DAYOUNG"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-10-02",
     "content_type": "short",
@@ -22235,12 +22482,11 @@
       "j-hope"
     ],
     "tagged_members": [
+      "lee-garam",
       "hwang-jiho",
+      "park-seongmin",
       "kim-youngjin",
       "do-hyeonsung",
-      "park-seongmin",
-      "lee-garam",
-      "shim-jiho",
       "yun-haeun",
       "kim-hyerim",
       "ha-seyoung",
@@ -22250,7 +22496,8 @@
     "content_type": "video",
     "view_count": 106518,
     "content_series": [
-      "AB STAGE::2025y"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -22269,21 +22516,22 @@
     "youtube_id": "XEp6LRsPWIk",
     "title": "[AB STAGE] 올데이 프로젝트 ALLDAY PROJECT - FAMOUS | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "lee-garam",
-      "shim-jiho",
-      "kim-hyerim",
+      "jeong-yoojin",
       "ha-seyoung",
-      "lee-jeonghee"
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "hwang-jiho"
     ],
     "published_date": "2025-09-24",
     "content_type": "video",
     "view_count": 96799,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -22293,16 +22541,17 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-jeonghee"
+      "yun-haeun",
+      "lee-jeonghee",
+      "kim-hyerim"            
     ],
     "published_date": "2025-09-24",
     "content_type": "video",
     "view_count": 79458,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -22533,7 +22782,9 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-09-21",
     "content_type": "short",
     "view_count": 187283,
@@ -23192,37 +23443,67 @@
     "youtube_id": "4WmGFoDd7QE",
     "title": "이 총 말이야.. 맞으면 나한테 빠지는 거다??🔥 #bttf #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-09-15",
     "content_type": "short",
     "view_count": 31133,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "KAlqc9e0I1U",
     "title": "역시 칼 같은 단체 안무는 멋있단 말이야~~😆 #bttf #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-09-15",
     "content_type": "short",
     "view_count": 24074,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "J9ktQdPrF1A",
     "title": "더욱 진화한 그림자 분신술!!🥷 #bttf #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-09-15",
     "content_type": "short",
     "view_count": 25725,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "06MjYmxkZ2Y",
@@ -23242,24 +23523,22 @@
     "youtube_id": "AyDTG80_7PM",
     "title": "[방구석 여기서요?] 엔시티 드림 NCT DREAM - BTTF | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "yang-hwanhee",
       "hwang-jiho",
       "chae-yunsu",
-      "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin",
       "lee-garam",
-      "shim-jiho"
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
     ],
     "published_date": "2025-09-15",
     "content_type": "video",
     "view_count": 82215,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -23443,11 +23722,19 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-09-13",
     "content_type": "short",
     "view_count": 24228,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "AysnAGJ0Zy0",
@@ -23455,11 +23742,19 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-09-13",
     "content_type": "short",
     "view_count": 21648,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "TR-P9-pN1HY",
@@ -23467,35 +23762,38 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-09-13",
     "content_type": "short",
     "view_count": 18714,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "RDc0BZCYR20",
     "title": "[방구석 여기서요?] 투모로우바이투게더 TXT - Beautiful Strangers | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
       "park-seongmin",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "yang-hwanhee",
+      "hwang-jiho"
     ],
     "published_date": "2025-09-13",
     "content_type": "video",
     "view_count": 66671,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -24134,11 +24432,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-youngjin",
+      "jeong-hyeonchang",      
+      "cho-gyuso",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-06",
     "content_type": "short",
     "view_count": 32808,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "dyVcyBx4SVQ",
@@ -24146,11 +24454,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-youngjin",
+      "jeong-hyeonchang",      
+      "cho-gyuso",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-06",
     "content_type": "short",
     "view_count": 25572,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "XSP2dJ4SVYo",
@@ -24158,11 +24476,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-youngjin",
+      "jeong-hyeonchang",      
+      "cho-gyuso",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-06",
     "content_type": "short",
     "view_count": 24504,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "Pu7PF6zKg0o",
@@ -24171,21 +24499,19 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "hwang-jiho",
-      "kim-youngjin",
-      "park-seongmin",
       "lee-garam",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-youngjin",
+      "jeong-hyeonchang",      
       "cho-gyuso",
-      "jeong-hyeonchang",
-      "shim-jiho"
+      "park-hyunmin"
     ],
     "published_date": "2025-09-06",
     "content_type": "video",
     "view_count": 155997,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -24989,63 +25315,80 @@
     "youtube_id": "VJq1lG-tU2o",
     "title": "우리 조원 누군지 맞출 수 있는 사람?😎 #ARTBEAT #WORKSHOP",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kim-mingi",
+      "aoki-yuka",
+      "yun-haeun",
+      "baek-jina",
+      "kim-nakyeong"
+    ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 121973,
-    "content_series": []
+    "content_series": [
+      "워크샵::2025y"
+    ]
   },
   {
     "youtube_id": "T7bKsgG8SGQ",
     "title": "Come on Barbie, let’s go WORKSHOP 💃 #ARTBEAT #WORKSHOP",
     "covered_group": [],
     "tagged_members": [
-      "park-hyunmin",
-      "do-hyeonsung",
-      "cho-gyuso",
       "kim-hyerim",
+      "lee-yoonjae",
+      "do-hyeonsung",
+      "park-hyunmin",
       "won-hyegyeong",
-      "lee-yoonjae"
+      "cho-gyuso"
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 513163,
-    "content_series": []
+    "content_series": [
+      "워크샵::2025y"
+    ]
   },
   {
     "youtube_id": "SBIH-C4a7Qw",
     "title": "어떻게 워크샵이 SMILE~😀 #ARTBEAT #WORKSHOP",
-    "covered_group": [],
+    "covered_group": [
+      "Soomile"
+    ],
     "tagged_members": [
       "hwang-jiho",
       "lee-garam",
-      "shim-jiho",
-      "lee-gaeun",
-      "oh-yubin",
       "cho-yuna",
-      "kim-soeun"
+      "kim-soeun",
+      "lee-gaeun",
+      "oh-yubin"      
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 375629,
-    "content_series": []
+    "content_series": [
+      "워크샵::2025y"
+    ]
   },
   {
     "youtube_id": "Seb9BQrcvU0",
     "title": "워크샵 와서까지 춤 연습을 시켜? #ARTBEAT #WORKSHOP",
     "covered_group": [],
     "tagged_members": [
-      "kim-suhwan",
       "park-seongmin",
-      "jang-daehyeon",
       "jang-sein",
       "jeong-hyunjin",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "jang-daehyeon",
+      "kim-suhwan"
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 264622,
-    "content_series": []
+    "content_series": [
+      "워크샵::2025y"
+    ]
   },
   {
     "youtube_id": "8wK-WeNYvto",
@@ -25054,18 +25397,17 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho",
+      "jeong-yoojin",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
     ],
     "published_date": "2025-08-29",
     "content_type": "video",
     "view_count": 620179,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -25074,24 +25416,26 @@
     "covered_group": [],
     "tagged_members": [
       "kang-taehyun",
-      "yang-hwanhee",
-      "kang-yejin",
-      "won-seoa",
       "kang-minji",
       "lee-wina",
-      "lee-yejin"
+      "yang-hwanhee",
+      "kang-yejin",
+      "won-seoa"
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 192213,
-    "content_series": []
+    "content_series": [
+      "워크샵::2025y"
+    ]
   },
   {
     "youtube_id": "Nq79ODOsA8A",
     "title": "🛜 춤꾼들의 ..머하지  #하즈키 #결경 #Hazuki #Gyeolgyeong",
     "covered_group": [],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "jeong-gyeolgyeong"
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
@@ -25101,10 +25445,11 @@
   {
     "youtube_id": "CVymb8yIl6U",
     "title": "#유진 '수마일 - SMILE (feat. 달지)' Dance Cover #Yoojin",
-    "covered_group": [],
+    "covered_group": [
+      "Soomile"
+    ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-08-29",
     "content_type": "short",
@@ -25221,27 +25566,22 @@
     "youtube_id": "NAsLI5OwgmQ",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Anpanman | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
       "kim-mingi",
+      "hwang-jiho",      
       "kang-taehyun",
-      "yang-hwanhee",
-      "park-seongmin",
+      "kim-hojun",
       "cho-gyuso",
-      "shim-jiho"
+      "yang-hwanhee",
+      "park-seongmin"
     ],
     "published_date": "2025-08-27",
     "content_type": "video",
     "view_count": 196858,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -25424,30 +25764,30 @@
     "youtube_id": "_tsFuyDry3U",
     "title": "[방구석 여기서요?] 제이홉 j-hope of BTS - Killin' It Girl | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "j-hope"
     ],
     "tagged_members": [
       "park-hyunmin",
       "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
-      "do-hyeonsung",
       "park-seongmin",
+      "kim-youngjin",
       "lee-garam",
-      "shim-jiho",
+      "kim-mingi",      
+      "do-hyeonsung",
       "yun-haeun",
-      "ha-seyoung",
       "jang-sein",
-      "lee-wina",
+      "won-hyegyeong",
+      "jeong-yoojin",
+      "ha-seyoung",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "kim-chan",
+      "lee-wina"
     ],
     "published_date": "2025-08-25",
     "content_type": "video",
     "view_count": 2492250,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -25594,26 +25934,34 @@
   {
     "youtube_id": "DuxXILYnlqg",
     "title": "올블랙이 잘 어울리는 남자랍니다 #bttf #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 48706,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "NcCixGeOwCc",
     "title": "턴마저 잘 도는 그는 대체...🔥 #bttf #호준 #Hojun",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "kim-hojun"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 43681,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "JOdtp9jPH5k",
@@ -25630,51 +25978,66 @@
   {
     "youtube_id": "9MZhxQ0yqe8",
     "title": "장꾸 엔딩은 늘 취향저격👊 #bttf #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 45969,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "twEyEckbit8",
     "title": "이 안무 왤케 멋있는 거임?😍 #bttf #가람 #Garam",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 47140,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "ffycPBeH_co",
     "title": "강약 조절은 이렇게!! #bttf #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 38916,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "IQ9Tcqf6Yu0",
     "title": "안녕? 나야! #bttf #윤수 #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
     "published_date": "2025-08-18",
     "content_type": "short",
     "view_count": 40136,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "j8lgWzkVU4s",
@@ -25694,17 +26057,16 @@
     "youtube_id": "EFKWf8CqQIs",
     "title": "엔시티 드림 NCT DREAM - BTTF | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "yang-hwanhee",
       "hwang-jiho",
       "chae-yunsu",
-      "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin",
       "lee-garam",
-      "shim-jiho"
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
     ],
     "published_date": "2025-08-17",
     "content_type": "video",
@@ -25716,12 +26078,24 @@
   {
     "youtube_id": "DfmnF_ajSmY",
     "title": "Go! Back To The Future!! #bttf #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-08-17",
     "content_type": "short",
     "view_count": 52165,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "Aii8u7F03XM",
@@ -25741,58 +26115,89 @@
     "youtube_id": "dGo6qmtZ0k8",
     "title": "내 손에 쥐고 하트 한 발 장전 완료✔️ #bttf #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-08-16",
     "content_type": "short",
     "view_count": 34965,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "kuUA8U3ANVs",
     "title": "너를 보는 지금이 바로 Future #bttf #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-08-16",
     "content_type": "short",
     "view_count": 32232,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "ZVfpmqpMwl4",
     "title": "우리만의 그림자 분신술🥷 #bttf #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "hwang-jiho",
+      "chae-yunsu",
+      "lee-garam",
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
+    ],
     "published_date": "2025-08-16",
     "content_type": "short",
     "view_count": 31662,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jbdFcqXYJ0o",
     "title": "[여기서요?] 엔시티 드림 NCT DREAM - BTTF | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "yang-hwanhee",
       "hwang-jiho",
       "chae-yunsu",
-      "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin",
       "lee-garam",
-      "shim-jiho"
+      "park-seongmin",
+      "do-hyeonsung",
+      "kim-hojun"
     ],
     "published_date": "2025-08-16",
     "content_type": "video",
     "view_count": 261532,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "cR_3ZbKSiDU",
@@ -25947,7 +26352,7 @@
     "youtube_id": "YD_j_5qr20Y",
     "title": "박력 넘치는 이 분은 누구게요~?👊 'NCT DREAM - BTTF' Dance Cover #???",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [],
     "published_date": "2025-08-10",
@@ -26000,7 +26405,7 @@
     "youtube_id": "10c8PA48vBM",
     "title": "#성민 #현성 'NCT DREAM - BTTF' Dance Cover #Seongmin #Hyeonsung",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "do-hyeonsung",
@@ -26064,8 +26469,7 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-08-07",
     "content_type": "short",
@@ -26155,72 +26559,90 @@
   {
     "youtube_id": "tcLNoLJfw8E",
     "title": "마지막 미소 뭐야 뭐야~😁 #beautifulstrangers #호준 #Hojun",
-    "covered_group": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
     "tagged_members": [
       "kim-hojun"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
     "view_count": 51070,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "UOCVPiNgM90",
     "title": "댄브때는 항상 더 진지하게 임하기👊 #beautifulstrangers #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
     "view_count": 42894,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "AVLmyqkt09w",
     "title": "또 한 번 너와 그리는 heaven🪽 #beautifulstrangers #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
     "view_count": 31548,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "cI1ZEqhm93k",
     "title": "여유롭게 하트까지 보내는 센스👏 #beautifulstrangers #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
     "view_count": 28983,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "t9dECRb513c",
     "title": "내 이름을 불러줘 #beautifulstrangers #현창 #Hyeonchang",
-    "covered_group": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
     "tagged_members": [
       "jeong-hyeonchang"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
     "view_count": 32395,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "yS0nPVXNjao",
     "title": "🛜 에겐녀들의 바라밤🫶🏻 #세영 #헤림 #세이하이 #Seyoung #Hyerim #SEHY",
-    "covered_group": [
-      "이하이"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hyerim"
     ],
     "published_date": "2025-08-06",
     "content_type": "short",
@@ -26278,12 +26700,10 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
       "park-seongmin",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "yang-hwanhee",
+      "hwang-jiho"
     ],
     "published_date": "2025-08-04",
     "content_type": "video",
@@ -26295,12 +26715,22 @@
   {
     "youtube_id": "Xx_DX0NZyE8",
     "title": "우린 Beautifull Strangers!!✨ #beautifulstrangers #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-04",
     "content_type": "short",
     "view_count": 85456,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "F-HfgVMxbNk",
@@ -26322,11 +26752,19 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-03",
     "content_type": "short",
     "view_count": 55266,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "3NoqYc2s010",
@@ -26334,11 +26772,19 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-03",
     "content_type": "short",
     "view_count": 48315,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "6CzakcmJeko",
@@ -26346,11 +26792,19 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "jeong-hyeonchang",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-03",
     "content_type": "short",
     "view_count": 65325,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "tjbgmdEfs8o",
@@ -26370,23 +26824,21 @@
     "youtube_id": "sFFkVQ4cCvQ",
     "title": "[여기서요?] 투모로우바이투게더 TXT - Beautiful Strangers | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
       "park-seongmin",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "yang-hwanhee",
+      "hwang-jiho"
     ],
     "published_date": "2025-08-03",
     "content_type": "video",
     "view_count": 205805,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "urWGxTnVqhc",
@@ -26501,7 +26953,7 @@
     "youtube_id": "IoPC2aFumi8",
     "title": "#환희 'NCT DREAM - BTTF' Dance Cover #Hwanhee",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yang-hwanhee"
@@ -26853,64 +27305,66 @@
     "youtube_id": "SmeWuUwD0Hs",
     "title": "[방구석 여기서요?] ARTBEAT 'COLD' 퍼포먼스 | CONCEPT PERFORMANCE BATTLE",
     "covered_group": [
+      "TEN",
       "ENHYPEN",
       "투모로우바이투게더",
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
-      "lim-donghun",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "park-seongmin",
-      "lee-garam",
-      "cho-gyuso",
-      "shim-jiho",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "oh-yubin",
-      "kang-yejin",
-      "jang-sein",
-      "won-seoa",
       "kim-nakyeong",
       "kang-minji",
-      "jeong-yoojin",
+      "won-seoa",
+      "ha-seyoung",
+      "jang-sein",
+      "oh-yubin",
+      "ahn-yoojin",
+      "aoki-yuka",
+      "kang-yejin",
       "lee-jeonghee",
+      "kim-chan",
+      "yun-haeun",
       "won-hyegyeong",
+      "kim-hyerim",
       "baek-jina",
-      "lee-yejin",
       "lee-yoonjae",
-      "cho-yuna"
+      "cho-yuna",
+      "lee-garam",
+      "cho-gyuso",
+      "lim-donghun",
+      "kim-mingi",
+      "kim-suhwan",
+      "kim-youngjin",      
+      "kang-taehyun",
+      "hwang-jiho",
+      "park-hyunmin",
+      "park-seongmin",
+      "do-hyeonsung"
     ],
     "published_date": "2025-07-27",
     "content_type": "video",
     "view_count": 1127372,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19.5",
+      "CONCEPT PERFORMANCE BATTLE"
     ]
   },
   {
     "youtube_id": "tVpsKQuTd5E",
     "title": "[방구석 여기서요?] ONESHOT 'HOT' 퍼포먼스 @ONESHOTcrewofficial  | CONCEPT PERFORMANCE BATTLE",
     "covered_group": [
-      "ATEEZ"
+      "G-DRAGON",
+      "Producer Jihun Park",
+      "ATEEZ",
+      "BIGBANG"
     ],
-    "tagged_members": [
-      "lee-jihoon"
-    ],
+    "tagged_members": [],
     "published_date": "2025-07-27",
     "content_type": "video",
     "view_count": 218503,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19.5",
+      "CONCEPT PERFORMANCE BATTLE"
     ]
   },
   {
@@ -27122,8 +27576,7 @@
     "youtube_id": "-Ko7yefTKbA",
     "title": "#호지 'NCT WISH - Steady' Dance Cover #Hoji",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "shim-jiho"
@@ -27571,15 +28024,18 @@
   {
     "youtube_id": "BMktUA0-JyE",
     "title": "바꾼 머리색이 잘 어울린다고 생각하는 사람~? #famous #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 271875,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "GzqA9RH_6lg",
@@ -27624,17 +28080,17 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho",
+      "jeong-yoojin",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
     ],
     "published_date": "2025-07-17",
     "content_type": "video",
     "view_count": 207891,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -27838,16 +28294,18 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho",
+      "jeong-yoojin",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",      
+      "kang-taehyun",
+      "hwang-jiho"      
     ],
     "published_date": "2025-07-15",
     "content_type": "video",
     "view_count": 1162730,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "cLt1_p3FVxI",
@@ -28921,13 +29379,14 @@
     "title": "[👑 ABCC] E조 예선 개막! 이게 이렇게 열심히 할 일인가 싶다?! | ep.02",
     "covered_group": [],
     "tagged_members": [
-      "hwang-jiho",
-      "yang-hwanhee",
-      "park-seongmin",
-      "shim-jiho",
-      "yun-haeun",
+      "lee-jeonghee",
       "kang-minji",
-      "lee-jeonghee"
+      "lee-dabin",
+      "lee-yejin",
+      "yang-hwanhee",
+      "hwang-jiho",
+      "yun-haeun",
+      "park-seongmin"
     ],
     "published_date": "2025-07-04",
     "content_type": "video",
@@ -29413,8 +29872,7 @@
     "covered_group": [],
     "tagged_members": [
       "hwang-jiho",
-      "yang-hwanhee",
-      "shim-jiho"
+      "yang-hwanhe"
     ],
     "published_date": "2025-06-26",
     "content_type": "short",
@@ -29430,6 +29888,7 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
+      "jeong-yoojin",
       "lee-garam"
     ],
     "published_date": "2025-06-25",
@@ -29506,28 +29965,30 @@
     "youtube_id": "uYHi9UnGQ_g",
     "title": "[AB STAGE] 라이즈 RIIZE - Fly up | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "RIIZE"
     ],
-    "tagged_members": [
-      "kim-taehwan",
-      "hwang-jiho",
+    "tagged_members": [      
       "kim-youngjin",
+      "hwang-jiho",      
       "lim-donghun",
+      "kim-taehwan",
       "kang-taehyun",
-      "lee-garam",
-      "shim-jiho"
+      "lee-garam"
     ],
     "published_date": "2025-06-24",
     "content_type": "video",
     "view_count": 21830,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
     "youtube_id": "8OR22qZ428U",
     "title": "이 실루엣은 과연 누굴까요?? 🧐 'SHINee - Poet | Artist' Dance Cover #???",
-    "covered_group": [],
+    "covered_group": [
+      "SHINee"
+    ],
     "tagged_members": [],
     "published_date": "2025-06-24",
     "content_type": "short",
@@ -29539,7 +30000,8 @@
     "title": "👑 WICKED 첫 차 탑승한 유람😈✌🏼 #ABCC #가람 #유카 #Garam #Yuka #황금쇼츠 #Goldenshorts",
     "covered_group": [],
     "tagged_members": [
-      "lee-garam"
+      "lee-garam",
+      "aoki-yuka"
     ],
     "published_date": "2025-06-23",
     "content_type": "short",
@@ -29565,7 +30027,8 @@
     "content_type": "video",
     "view_count": 68054,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -29637,23 +30100,23 @@
     "youtube_id": "NzXbD-hNE9w",
     "title": "[AB STAGE] 세븐틴 SEVENTEEN - THUNDER | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "hwang-jiho",
-      "kim-youngjin",
-      "lim-donghun",
-      "kang-taehyun",
       "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho"
+      "lim-donghun",
+      "kim-taehwan",
+      "kang-taehyun",
+      "kim-youngjin",
+      "lee-garam"
     ],
     "published_date": "2025-06-22",
     "content_type": "video",
     "view_count": 49381,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -29868,8 +30331,7 @@
     "covered_group": [],
     "tagged_members": [
       "hwang-jiho",
-      "yang-hwanhee",
-      "shim-jiho"
+      "yang-hwanhee"
     ],
     "published_date": "2025-06-19",
     "content_type": "short",
@@ -30049,17 +30511,19 @@
     ],
     "tagged_members": [
       "kim-taehwan",
-      "hwang-jiho",
-      "kim-youngjin",
-      "lim-donghun",
-      "kang-taehyun",
       "lee-garam",
-      "shim-jiho"
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
     ],
     "published_date": "2025-06-14",
     "content_type": "video",
     "view_count": 40799,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2025y",
+      "Dance Cover MV::Years::2025y"
+    ]
   },
   {
     "youtube_id": "YeHp2OSBBq8",
@@ -30501,7 +30965,9 @@
   {
     "youtube_id": "EajzGwn_9rM",
     "title": "[여기서요?] 힛지스 HITGS - GROSS | 커버댄스 Dance Cover @여의도한강공원",
-    "covered_group": [],
+    "covered_group": [
+      "힛지스"
+    ],
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
@@ -30517,85 +30983,119 @@
   {
     "youtube_id": "L8YpqP398Ps",
     "title": "매일봐도 늘 새롭고, 짜릿해😍 #flyup #동훈 #Donghun",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "lim-donghun"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 48894,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "NXirXiyEW-Q",
     "title": "힘찬 마무리는 역시..!! #flyup #지호 #Jiho",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 45484,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "_26EOF7ZkQQ",
     "title": "춤이 빠르고 어려운데 너무 잘하는 거 아닌가요..? #flyup #태환 #Taehwan",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "kim-taehwan"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 35532,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "fAHTB_5ci2k",
     "title": "저도 한 청량한다구요!! #flyup #영진 #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 35775,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Wi_BhYz0e64",
     "title": "네가 하고 싶은 거 다하면 나도 좋아😆 #flyup #가람 #Garam",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 32555,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "p8ZsOjgBO6w",
     "title": "미소 천사인 당신..!! 칭찬해👏 #flyup #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "RIIZE"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 31611,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "NCBR7OHF1u0",
     "title": "기분 최고인 날에는 다 같이 Fly Up~🙌 #flyup #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "lee-garam",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
+    ],
     "published_date": "2025-06-06",
     "content_type": "short",
     "view_count": 59040,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "0eaRv_9S68E",
@@ -30603,11 +31103,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "lee-garam",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
+    ],
     "published_date": "2025-06-05",
     "content_type": "short",
     "view_count": 47346,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "F7K6Pdq4Gjk",
@@ -30615,11 +31124,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "lee-garam",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
+    ],
     "published_date": "2025-06-05",
     "content_type": "short",
     "view_count": 43751,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "aZKJ4cUPpqI",
@@ -30627,31 +31145,41 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "lee-garam",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
+    ],
     "published_date": "2025-06-05",
     "content_type": "short",
     "view_count": 35114,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jI9bekrKmHw",
     "title": "[여기서요?] 라이즈 RIIZE - Fly Up | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "RIIZE"
     ],
     "tagged_members": [
       "kim-taehwan",
-      "hwang-jiho",
-      "kim-youngjin",
-      "lim-donghun",
-      "kang-taehyun",
       "lee-garam",
-      "shim-jiho"
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-youngjin",      
+      "kang-taehyun"
     ],
     "published_date": "2025-06-05",
     "content_type": "video",
     "view_count": 211693,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "dtx_UmmGRgk",
@@ -30686,9 +31214,7 @@
     "covered_group": [],
     "tagged_members": [
       "hwang-jiho",
-      "shim-jiho",
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-06-04",
     "content_type": "short",
@@ -31279,29 +31805,27 @@
     ],
     "tagged_members": [
       "kim-taehwan",
-      "park-hyunmin",
-      "kim-suhwan",
       "hwang-jiho",
       "kim-youngjin",
-      "lim-donghun",
-      "kang-taehyun",
       "park-seongmin",
-      "shim-jiho",
-      "lee-gaeun",
-      "ahn-yoojin",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lim-donghun",
       "kim-hyerim",
+      "kang-yejin",      
+      "lee-gaeun",
       "ha-seyoung",
-      "kang-yejin",
       "kim-nakyeong",
-      "jeong-yoojin",
-      "lee-jeonghee",
-      "lee-yejin"
+      "ahn-yoojin",
+      "lee-jeonghee"
     ],
     "published_date": "2025-05-23",
     "content_type": "video",
     "view_count": 524618,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -31669,20 +32193,19 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "park-hyunmin",
+      "park-seongmin",
       "hwang-jiho",
       "kim-youngjin",
       "kang-taehyun",
-      "yang-hwanhee",
-      "park-seongmin",
       "jeong-hyeonchang",
-      "shim-jiho"
+      "yang-hwanhee",
+      "park-hyunmin"
     ],
     "published_date": "2025-05-20",
     "content_type": "video",
     "view_count": 133283,
     "content_series": [
-      "버스킹 여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -37566,7 +38089,7 @@
     "content_type": "short",
     "view_count": 46996,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
