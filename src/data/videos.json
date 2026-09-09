@@ -1,15 +1,15 @@
 [
   {
     "youtube_id": "5onE5M-ljpk",
-    "title": "#여가우 #오디션중 'YEONJUN - Ice Cream' Dance Cover #GaWoo",
+    "title": "#여가우 #오디션중 'YEONJUN - Ice Cream' Dance Cover #yeo-gawoo",
     "covered_group": [
       "YEONJUN"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
-      "gawoo"
+      "yeo-gawoo"
     ],
     "sponsors": [],
     "published_date": "2026-09-09",
@@ -19,9 +19,20 @@
   {
     "youtube_id": "npo8zveoGu0",
     "title": "빨간색 의상 주문했는데 버건디가 왔다😂 #BloodyParadise #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "lee-jongmin",
+      "kim-yonghyeon",
+      "won-jin",
+      "yamamoto-leno"
+    ],
     "sponsors": [],
     "published_date": "2026-09-09",
     "content_type": "short",
@@ -30,9 +41,20 @@
   {
     "youtube_id": "sygEiqqZX6o",
     "title": "Bloody Hongdae #BloodyParadise #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "lee-jongmin",
+      "kim-yonghyeon",
+      "won-jin",
+      "yamamoto-leno"
+    ],
     "sponsors": [],
     "published_date": "2026-09-08",
     "content_type": "short",
@@ -41,9 +63,20 @@
   {
     "youtube_id": "0a5P01V198c",
     "title": "이젠 남부대공의 시대란 말이죠 #BloodyParadise #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "lee-jongmin",
+      "kim-yonghyeon",
+      "won-jin",
+      "yamamoto-leno"
+    ],
     "sponsors": [],
     "published_date": "2026-09-08",
     "content_type": "short",
@@ -52,9 +85,21 @@
   {
     "youtube_id": "ppPdsf5Tf4k",
     "title": "[선배 vs 신입] 카메라 앞에서 춤추는거 처음이라며👀 #BloodyParadise #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "여기서요?::2026y",
+      "선배 vs 신입::2026y"
+    ],
+    "tagged_members": [
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "lee-jongmin",
+      "kim-yonghyeon",
+      "won-jin",
+      "yamamoto-leno"
+    ],
     "sponsors": [],
     "published_date": "2026-09-08",
     "content_type": "short",
@@ -646,7 +691,7 @@
       "lee-jongmin",
       "lee-jimin",
       "seo-hanseung",
-      "gawoo",
+      "yeo-gawoo",
       "kim-yonghyeon",
       "joo-hyunah",
       "lee-yoobin",

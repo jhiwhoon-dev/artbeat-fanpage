@@ -3429,9 +3429,9 @@
     }
   },
   {
-    "id": "gawoo",
-    "name": "가우",
-    "name_en": "Gawoo",
+    "id": "yeo-gawoo",
+    "name": "여가우",
+    "name_en": "Gawoo Yeo",
     "nickname": null,
     "birth_date": "2001-00-00",
     "gender": "F",
