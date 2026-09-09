@@ -61,10 +61,9 @@
       "ENHYPEN"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
-      "oh-yubin",
       "seo-hanseung",
       "lee-yoobin"
     ],
@@ -81,7 +80,8 @@
     ],
     "content_series": [],
     "tagged_members": [
-      "won-seoa"
+      "won-seoa",
+      "yamamoto-leno"
     ],
     "sponsors": [],
     "published_date": "2026-09-07",
@@ -91,9 +91,11 @@
   {
     "youtube_id": "ACkh8qeccNc",
     "title": "#김용현 #오디션중 'RUDE!' 베이비 주 뉴 시그니처 Dance Cover #YongHyeon",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
       "kim-yonghyeon"
