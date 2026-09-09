@@ -113,6 +113,33 @@ function safeJson(obj) {
   let sortMode = 'newest';
   let titleQuery = '';
 
+  // ---------- 필터 상태를 URL에 기록/복원 (뒤로가기 눌렀을 때 이전 필터 상태 유지) ----------
+  function currentUrlWithState(): URL {
+    const url = new URL(window.location.href);
+    const p = url.searchParams;
+    if (activeMode === 'series') p.set('mode', 'series'); else p.delete('mode');
+    if (activeGroupPath.length) p.set('gpath', activeGroupPath.join('|')); else p.delete('gpath');
+    if (activeSeriesPath.length) p.set('spath', activeSeriesPath.join('|')); else p.delete('spath');
+    if (sortMode !== 'newest') p.set('sort', sortMode); else p.delete('sort');
+    if (titleQuery) p.set('q', titleQuery); else p.delete('q');
+    return url;
+  }
+  // 버튼 클릭처럼 "명확한 한 번의 선택"은 뒤로가기 기록에 남김
+  function pushUrlState() { history.pushState(null, '', currentUrlWithState()); }
+  // 검색창 타이핑처럼 계속 바뀌는 값은 기록을 안 쌓고 주소만 조용히 갱신
+  function replaceUrlState() { history.replaceState(null, '', currentUrlWithState()); }
+
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      mode: (params.get('mode') === 'series' ? 'series' : 'group') as 'group' | 'series',
+      gpath: params.get('gpath') ? params.get('gpath')!.split('|') : [],
+      spath: params.get('spath') ? params.get('spath')!.split('|') : [],
+      sort: params.get('sort') || 'newest',
+      q: params.get('q') || '',
+    };
+  }
+
   function escapeHtml(s: string): string {
     return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] ?? c));
   }
@@ -222,6 +249,7 @@ function safeJson(obj) {
       currentPage = 1;
       renderGroupLevels();
       render();
+      pushUrlState();
     });
   }
 
@@ -232,6 +260,7 @@ function safeJson(obj) {
       updateSeriesStatus();
       renderSeriesLevels();
       render();
+      pushUrlState();
     });
   }
 
@@ -307,8 +336,12 @@ function safeJson(obj) {
     return DATA.filter((v) => {
       if (titleQuery && !v.title.toLowerCase().includes(titleQuery)) return false;
       if (activeMode === 'group') {
+        // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
+        // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
+        if (activeGroupPath.length === 0) return true;
         return v.groups.some((tag) => matchesPath(tag, activeGroupPath));
       }
+      if (activeSeriesPath.length === 0) return true;
       return v.series.some((tag) => matchesPath(tag, activeSeriesPath));
     });
   }
@@ -347,6 +380,7 @@ function safeJson(obj) {
       if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
 
       render();
+      pushUrlState();
     });
   });
 
@@ -355,17 +389,43 @@ function safeJson(obj) {
     titleQuery = titleSearchInput.value.trim().toLowerCase();
     currentPage = 1;
     render();
+    replaceUrlState(); // 타이핑마다 뒤로가기 기록이 쌓이지 않도록 replace로 처리
   });
 
   sortSelect?.addEventListener('change', () => {
     sortMode = sortSelect.value;
     currentPage = 1;
     render();
+    pushUrlState();
   });
 
-  renderGroupLevels();
-  renderSeriesLevels();
-  render();
+  // 페이지가 "?mode=series&spath=..." 같은 주소로 열렸을 때(뒤로가기 포함) 그 상태로 시작
+  function applyState(state: ReturnType<typeof readUrlState>) {
+    activeMode = state.mode;
+    activeGroupPath = state.gpath;
+    activeSeriesPath = state.spath;
+    sortMode = state.sort;
+    titleQuery = state.q;
+    currentPage = 1;
+
+    modeButtons.forEach((b) => b.classList.toggle('active', b.dataset.mode === activeMode));
+    if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
+    if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
+    if (sortSelect) sortSelect.value = sortMode;
+    if (titleSearchInput) titleSearchInput.value = titleQuery;
+
+    updateSeriesStatus();
+    renderGroupLevels();
+    renderSeriesLevels();
+    render();
+  }
+
+  // 뒤로가기/앞으로가기로 주소가 바뀌면 그 시점 상태를 다시 반영
+  window.addEventListener('popstate', () => {
+    applyState(readUrlState());
+  });
+
+  applyState(readUrlState());
 </script>
 
 <style is:global>
