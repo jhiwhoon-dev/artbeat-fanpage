@@ -151,6 +151,9 @@
   { "name": "Weeekly", "aliases": ["위클리"] },
   { "name": "Fifth Harmony", "aliases": ["Fifth Harmony"] },
   { "name": "싸이", "aliases": ["PSY"] },
+  { "name": "TEN", "aliases": ["텐"] },
   { "name": "ROSÉ", "aliases": ["로제"] },
+  { "name": "MAVE:", "aliases": ["메이브"] },
+  { "name": "GIRL'S RE:VERSE", "aliases": ["소녀 리버스"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }
 ]

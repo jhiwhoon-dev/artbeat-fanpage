@@ -61012,13 +61012,14 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-06-25",
     "content_type": "short",
     "view_count": 133409,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "qCw-ldgcS5I",
@@ -61198,13 +61199,14 @@
     ],
     "tagged_members": [
       "hwang-jiho",
-      "shim-jiho",
       "ha-seyoung"
     ],
     "published_date": "2023-06-24",
     "content_type": "short",
     "view_count": 4543962,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "PzdJP8w_zrE",
@@ -61319,14 +61321,13 @@
       "chae-yunsu",
       "cho-woohyeong",
       "hwang-geumryul",
-      "shim-jiho",
       "jeong-hyunjin"
     ],
     "published_date": "2023-06-20",
     "content_type": "video",
     "view_count": 128316,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -61360,21 +61361,21 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
-      "hwang-jiho",
-      "lim-donghun",
       "chae-yunsu",
-      "cho-woohyeong",
       "hwang-geumryul",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",      
+      "kim-suhwan",
+      "kim-taehwan"
     ],
     "published_date": "2023-06-19",
     "content_type": "video",
     "view_count": 3258274,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "qPSrG_v6Has",
@@ -62099,8 +62100,7 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-05-29",
     "content_type": "short",
@@ -62429,29 +62429,28 @@
     "youtube_id": "WyICEU_gApI",
     "title": "세븐틴 SEVENTEEN - 손오공 SUPER | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
       "kim-mingi",
-      "lim-donghun",
-      "chae-yunsu",
       "kang-taehyun",
       "cho-woohyeong",
-      "ahn-gihyun",
-      "hwang-geumryul",
-      "shim-jiho",
-      "jeong-gyeolgyeong"
+      "jeong-gyeolgyeong",
+      "kim-hojun",
+      "chae-yunsu",
+      "kim-suhwan",
+      "lee-moonkyu",      
+      "lim-donghun",
+      "hwang-geumryul",      
+      "ahn-gihyun"
     ],
     "published_date": "2023-05-20",
     "content_type": "video",
     "view_count": 597544,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -62577,28 +62576,29 @@
     "youtube_id": "jEG1PXqi46o",
     "title": "[여기서요?] 세븐틴 SEVENTEEN - 손오공 SUPER | 커버댄스 Dance Cover @폭포",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
       "kim-mingi",
-      "lim-donghun",
-      "chae-yunsu",
       "kang-taehyun",
       "cho-woohyeong",
-      "ahn-gihyun",
-      "hwang-geumryul",
-      "shim-jiho",
-      "jeong-gyeolgyeong"
+      "jeong-gyeolgyeong",
+      "kim-hojun",
+      "chae-yunsu",
+      "kim-suhwan",
+      "lee-moonkyu",      
+      "lim-donghun",
+      "hwang-geumryul",      
+      "ahn-gihyun"
     ],
     "published_date": "2023-05-18",
     "content_type": "video",
     "view_count": 616254,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "IqMQoHRUbTA",
@@ -62618,7 +62618,6 @@
     "youtube_id": "9TfbG7GcQdM",
     "title": "동성로에서도 'UNFORGIVEN' 킬링 파트😈 #UNFORGIVEN #shorts",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [],
@@ -62631,7 +62630,6 @@
     "youtube_id": "_PS_4RP7HLc",
     "title": "동성로에서 말아주는 'UNFORGIVEN' 커버🤠 #UNFORGIVEN #shorts",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [],
@@ -62725,28 +62723,30 @@
     "youtube_id": "EwCuO4aSMUo",
     "title": "[AB] 세븐틴 SEVENTEEN - 손오공 SUPER | 커버댄스 Dance Cover",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
       "kim-mingi",
-      "lim-donghun",
-      "chae-yunsu",
       "kang-taehyun",
       "cho-woohyeong",
-      "ahn-gihyun",
-      "hwang-geumryul",
-      "shim-jiho",
-      "jeong-gyeolgyeong"
+      "jeong-gyeolgyeong",
+      "kim-hojun",
+      "chae-yunsu",
+      "kim-suhwan",
+      "lee-moonkyu",      
+      "lim-donghun",
+      "hwang-geumryul",      
+      "ahn-gihyun"
     ],
     "published_date": "2023-05-16",
     "content_type": "video",
     "view_count": 623382,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "JRI86LsvlAA",
@@ -62852,7 +62852,7 @@
     ],
     "tagged_members": [
       "hwang-jiho",
-      "shim-jiho"
+      "lee-moonkyu"
     ],
     "published_date": "2023-05-13",
     "content_type": "short",
@@ -62878,7 +62878,6 @@
     "youtube_id": "duSfT2B6Ahk",
     "title": "이 언니 너무 핫해서 숨을 못 쉬겠어🥵 #UNFORGIVEN #소연 #Soyeon #shorts",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [
@@ -63288,32 +63287,30 @@
     "title": "[여기서요?] 'JYP' 멋 퍼포먼스 (THE BATTLE PERFORMANCE) | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
       "ITZY",
-      "ITZY",
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
-      "hwang-jiho",
+      "kim-taehwan",
+      "kim-hojun",
+      "park-hyunmin",      
+      "hwang-jiho",      
       "lim-donghun",
       "chae-yunsu",
-      "shim-jiho",
-      "ahn-yoojin",
-      "kim-hyerim",
-      "ha-seyoung",
       "lee-seohyeon",
-      "ji-ayeong",
+      "ha-seyoung",
+      "ahn-yoojin",  
+      "kim-hyerim",
       "jeong-gyeolgyeong",
-      "jeong-hyunjin",
-      "jeong-yoojin"
+      "ji-ayeong",      
+      "jeong-jihye"
     ],
     "published_date": "2023-05-03",
     "content_type": "video",
     "view_count": 963974,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y",
+      "THE BATTLE PERFORMANCE"
     ]
   },
   {
@@ -63524,29 +63521,28 @@
     "youtube_id": "N1Lo8MMjGho",
     "title": "[여기서요?] 부석순 (SEVENTEEN) - 파이팅 해야지 Fighting | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
+      
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
-      "lim-donghun",
-      "shim-jiho",
+      "seo-danbi",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kwon-dohyun",
+      "park-hyunmin",      
+      "hwang-jiho",
+      "lim-donghun"
     ],
     "published_date": "2023-04-29",
     "content_type": "video",
     "view_count": 384199,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -63581,26 +63577,22 @@
     "youtube_id": "WxYeGZwhg6c",
     "title": "[여기서요?] 방탄소년단 BTS - 봄날 Spring Day | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "kim-mingi",
+      "hwang-jiho",
+      "kang-taehyun",
       "kim-taehwan",
       "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
       "chae-yunsu",
-      "kang-taehyun",
-      "shim-jiho"
+      "kim-hojun"
     ],
     "published_date": "2023-04-28",
     "content_type": "video",
     "view_count": 230571,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -63682,24 +63674,23 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [
-      "kim-hojun",
+    "tagged_members": [      
       "kim-taehwan",
       "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
+      "kang-taehyun",
       "lim-donghun",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-mingi",
       "kim-daehan",
-      "shim-jiho"
+      "kim-youngjin",
+      "kim-hojun",
+      "hwang-jiho"
     ],
     "published_date": "2023-04-25",
     "content_type": "video",
     "view_count": 267456,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -63709,12 +63700,22 @@
       "TWICE"
     ],
     "tagged_members": [
+      "ha-seyoung",
+      "ahn-yoojin",
+      "kim-soyeon",
+      "oh-yubin",
+      "jang-sein",
+      "kim-minjin",
+      "kang-yejin",
+      "yun-haeun",
       "ha-jeuki"
     ],
     "published_date": "2023-04-25",
     "content_type": "video",
     "view_count": 510454,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "cDUZdygGdvU",
@@ -63983,11 +63984,10 @@
     "youtube_id": "pebBrUsS3oI",
     "title": "'NCT DOJAEJUNG - Perfume' Dance Cover #지호 #Jiho #shorts",
     "covered_group": [
-      "NCT DOJAEJUNG"
+      "NCT::NCT DOJAEJUNG"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-04-21",
     "content_type": "short",
@@ -63998,25 +63998,22 @@
     "youtube_id": "VopcOoiiId4",
     "title": "[여기서요?]  카이 KAI - Rover | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "카이",
-      "EXO"
+      "카이"
     ],
-    "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
+    "tagged_members": [      
       "hwang-jiho",
-      "shim-jiho",
-      "park-sunyoung",
+      "kim-taehwan",
+      "kim-hojun",
       "lee-gaeun",
-      "ahn-yoojin",
+      "park-sunyoung",
       "ha-seyoung",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-04-21",
     "content_type": "video",
     "view_count": 991509,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -64057,24 +64054,25 @@
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "kim-hojun",
-      "kim-taehwan",
-      "park-hyunmin",
+      "lee-moonkyu",      
       "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun",
+      "park-hyunmin",
       "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
-      "chae-yunsu",
       "kang-taehyun",
+      "lim-donghun",
+      "kim-mingi",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho"
+      "chae-yunsu",            
+      "kim-daehan"
     ],
     "published_date": "2023-04-19",
     "content_type": "video",
     "view_count": 609094,
     "content_series": [
-      "여기서요?"
+      "THE BATTLE PERFORMANCE",
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -64551,23 +64549,24 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [
-      "kim-hojun",
+    "tagged_members": [      
       "kim-taehwan",
       "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
+      "kang-taehyun",
       "lim-donghun",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-mingi",
       "kim-daehan",
-      "shim-jiho"
+      "kim-youngjin",
+      "kim-hojun",
+      "hwang-jiho"
     ],
     "published_date": "2023-04-06",
     "content_type": "video",
     "view_count": 226104,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "HvYafldocwY",
@@ -64665,7 +64664,6 @@
     "covered_group": [],
     "tagged_members": [
       "hwang-jiho",
-      "shim-jiho",
       "ha-seyoung"
     ],
     "published_date": "2023-04-01",
@@ -64899,19 +64897,21 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho",
       "kim-hyerim",
+      "kang-taehyun",
       "ha-seyoung"
     ],
     "published_date": "2023-03-28",
     "content_type": "video",
     "view_count": 712642,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "HtpaM3Ll3C0",
@@ -65010,18 +65010,18 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
-      "chae-yunsu",
-      "ahn-gihyun",
-      "shim-jiho"
+      "chae-yunsu",      
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
     ],
     "published_date": "2023-03-25",
     "content_type": "video",
     "view_count": 169235,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "nZIOfe3RXxg",
@@ -65030,15 +65030,18 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "kim-hyerim",
-      "jang-sein",
       "kim-soyeon",
-      "kang-minji"
+      "kim-hyerim",
+      "park-jaehee",
+      "bang-hayul",
+      "jang-sein"
     ],
     "published_date": "2023-03-25",
     "content_type": "video",
     "view_count": 311310,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "p5RXmqo9ods",
@@ -65417,25 +65420,25 @@
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "kim-hojun",
+      "lee-moonkyu",
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
+      "park-hyunmin",      
       "hwang-jiho",
-      "kim-mingi",
       "lim-donghun",
+      "kim-mingi",      
       "chae-yunsu",
       "kang-taehyun",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho"
+      "kim-daehan"
     ],
     "published_date": "2023-03-21",
     "content_type": "video",
     "view_count": 627193,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "THE BATTLE PERFORMANCE",
+      "방구석 여기서요?::S12"
     ]
   },
   {
@@ -65510,36 +65513,59 @@
     "youtube_id": "p9GW4F_lM6E",
     "title": "[방구석 여기서요?] TXT - Sugar Rush Ride | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
       "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho"
+      "kim-taehwan"
     ],
     "published_date": "2023-03-20",
     "content_type": "video",
     "view_count": 416183,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "_CSjZif3YMs",
     "title": "[방구석 여기서요? - THE BATTLE] ROUND 1 & 2",
-    "covered_group": [
-      "방탄소년단"
+    "covered_group": [],
+    "tagged_members": [
+      "lim-donghun",
+      "kwon-dohyun",
+      "kim-mingi",
+      "chae-yunsu",
+      "hwang-jiho",
+      "kim-hojun",
+      "kim-taehwan",
+      "park-hyunmin",
+      "kim-suhwan",
+      "kang-taehyun",
+      "kim-daehan",
+      "lee-moonkyu",
+      "cho-woohyeong",
+      "oh-yubin",
+      "bang-jooyeon",
+      "ji-ayeong",
+      "seo-danbi",
+      "ha-seyoung",
+      "jeong-jihye",
+      "ahn-yoojin",
+      "kim-hyerim",
+      "lee-seohyeon",
+      "lee-gaeun",
+      "kim-soyeon",
+      "ha-jeuki",
+      "yun-haeun"
     ],
-    "tagged_members": [],
     "published_date": "2023-03-19",
     "content_type": "video",
     "view_count": 1913300,
     "content_series": [
-      "방구석 여기서요?",
+      "방구석 여기서요?::S12",
       "K-POP DANCE BATTLE"
     ]
   },
@@ -65733,28 +65759,28 @@
     "youtube_id": "nSiUjw5Om24",
     "title": "[방구석 여기서요?] 부석순 (SEVENTEEN) - 파이팅 해야지 Fighting | 커버 댄스 Dance Cover",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
-      "lim-donghun",
-      "shim-jiho",
+      "seo-danbi",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kwon-dohyun",            
+      "park-hyunmin",      
+      "hwang-jiho",
+      "lim-donghun"
     ],
     "published_date": "2023-03-15",
     "content_type": "video",
     "view_count": 1039456,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "az31gRqsBE4",
@@ -65765,8 +65791,7 @@
     "content_type": "video",
     "view_count": 301913,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12"
     ]
   },
   {
@@ -65869,8 +65894,7 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-03-04",
     "content_type": "short",
@@ -66403,38 +66427,39 @@
     "youtube_id": "-YAbFajfNB4",
     "title": "부석순 (SEVENTEEN) - 파이팅 해야지 Fighting | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::부석순"
     ],
-    "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
+    "tagged_members": [      
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
-      "lim-donghun",
-      "shim-jiho",
+      "seo-danbi",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kwon-dohyun",
+      "park-hyunmin",
+      "hwang-jiho",
+      "lim-donghun"
     ],
     "published_date": "2023-02-23",
     "content_type": "video",
     "view_count": 127693,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
     "youtube_id": "cdBl4f4QgEY",
     "title": "'부석순 - 파이팅 해야지' Dance Cover #결경 #단비 #하은 #GyeolGyeong #Danbi #Haeun #Shorts",
-    "covered_group": [],
+    "covered_group": [
+      "세븐틴::부석순"
+    ],
     "tagged_members": [
       "yun-haeun",
-      "jeong-gyeolgyeong"
+      "jeong-gyeolgyeong",
+      "seo-danbi"
     ],
     "published_date": "2023-02-23",
     "content_type": "short",
@@ -66448,8 +66473,7 @@
     "tagged_members": [
       "kim-suhwan",
       "hwang-jiho",
-      "lim-donghun",
-      "shim-jiho"
+      "lim-donghun"
     ],
     "published_date": "2023-02-23",
     "content_type": "short",
@@ -66531,33 +66555,35 @@
     "youtube_id": "ISJVceNPjDs",
     "title": "[여기서요?] 부석순 (SEVENTEEN) - 파이팅 해야지 Fighting | 커버 댄스 Dance Cover @홍대",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::부석순"
     ],
-    "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
+    "tagged_members": [      
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
-      "lim-donghun",
-      "shim-jiho",
+      "seo-danbi",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kwon-dohyun",
+      "park-hyunmin",      
+      "hwang-jiho",
+      "lim-donghun"
     ],
     "published_date": "2023-02-22",
     "content_type": "video",
     "view_count": 910776,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "_DsJ6JaPCZ0",
     "title": "'MAVE - PANDORA' Dance Cover #아영 #Ayeong #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "ji-ayeong"
     ],
@@ -66569,7 +66595,9 @@
   {
     "youtube_id": "ufUE3ab4EVI",
     "title": "'MAVE - PANDORA' Dance Cover #세영 #Seyoung #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
@@ -66582,24 +66610,20 @@
     "youtube_id": "xwS_QV7qhbM",
     "title": "TXT - Sugar Rush Ride | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
       "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho"
+      "kim-taehwan"
     ],
     "published_date": "2023-02-18",
     "content_type": "video",
     "view_count": 64412,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -66980,8 +67004,7 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-02-04",
     "content_type": "short",
@@ -67006,23 +67029,21 @@
     "youtube_id": "UJL01uDPvC0",
     "title": "[여기서요?] TXT - Sugar Rush Ride | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
       "hwang-jiho",
-      "kang-taehyun",
-      "shim-jiho"
+      "kim-taehwan"
     ],
     "published_date": "2023-02-04",
     "content_type": "video",
     "view_count": 715390,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "B0VDubQR7A8",
@@ -67033,12 +67054,16 @@
     "tagged_members": [
       "jang-sein",
       "kim-soyeon",
-      "kang-minji"
+      "park-jaehee",
+      "son-wonye",
+      "jeong-jihye"
     ],
     "published_date": "2023-02-02",
     "content_type": "video",
     "view_count": 135027,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y"
+    ]
   },
   {
     "youtube_id": "GSok5RpJwZU",
@@ -67058,20 +67083,18 @@
     "covered_group": [
       "몬스타엑스"
     ],
-    "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
+    "tagged_members": [            
       "hwang-jiho",
       "chae-yunsu",
-      "ahn-gihyun",
-      "shim-jiho"
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
     ],
     "published_date": "2023-01-29",
     "content_type": "video",
     "view_count": 43258,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -67080,24 +67103,23 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [
-      "kim-hojun",
+    "tagged_members": [      
       "kim-taehwan",
       "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
+      "kang-taehyun",
       "lim-donghun",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-mingi",
       "kim-daehan",
-      "shim-jiho"
+      "kim-youngjin",
+      "kim-hojun",
+      "hwang-jiho"
     ],
     "published_date": "2023-01-29",
     "content_type": "video",
     "view_count": 64969,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -67107,19 +67129,17 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "ha-seyoung",
       "ahn-yoojin",
       "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji",
-      "jeong-yoojin"
+      "lee-gaeun"
     ],
     "published_date": "2023-01-29",
     "content_type": "video",
     "view_count": 301832,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -67128,19 +67148,20 @@
     "covered_group": [
       "몬스타엑스"
     ],
-    "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
+    "tagged_members": [            
       "hwang-jiho",
       "chae-yunsu",
-      "ahn-gihyun",
-      "shim-jiho"
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
     ],
     "published_date": "2023-01-28",
     "content_type": "video",
     "view_count": 49262,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "d5Uu-qjwgHA",
@@ -67189,22 +67210,23 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "kim-suhwan",
-      "hwang-jiho",
-      "kim-mingi",
-      "kim-youngjin",
+      "kang-taehyun",
       "lim-donghun",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-mingi",
       "kim-daehan",
-      "shim-jiho"
+      "kim-youngjin",
+      "kim-hojun",
+      "hwang-jiho"
     ],
     "published_date": "2023-01-27",
     "content_type": "video",
     "view_count": 287179,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "XmGQNdT65TE",
@@ -67213,18 +67235,19 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
+      "ahn-yoojin",
+      "yun-haeun",      
       "oh-yubin",
-      "kang-minji",
-      "jeong-yoojin"
+      "lee-gaeun"
     ],
     "published_date": "2023-01-26",
     "content_type": "video",
     "view_count": 183258,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "5qX1bsjEJRg",
@@ -67406,18 +67429,18 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
       "chae-yunsu",
-      "ahn-gihyun",
-      "shim-jiho"
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
     ],
     "published_date": "2023-01-20",
     "content_type": "video",
     "view_count": 280095,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "caxKgV0KyQE",
@@ -67426,18 +67449,18 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "ha-seyoung",
       "ahn-yoojin",
       "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji",
-      "jeong-yoojin"
+      "lee-gaeun"
     ],
     "published_date": "2023-01-19",
     "content_type": "video",
     "view_count": 1956636,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "wC2KwKMq0RU",
@@ -67446,16 +67469,19 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "ahn-yoojin",
+      "yun-haeun",
       "oh-yubin",
-      "kang-minji"
+      "lee-gaeun"
     ],
     "published_date": "2023-01-18",
     "content_type": "video",
     "view_count": 161513,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "kDd0lAVTRy4",
@@ -67464,15 +67490,18 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "kim-hyerim",
-      "jang-sein",
       "kim-soyeon",
-      "kang-minji"
+      "kim-hyerim",
+      "park-jaehee",
+      "bang-hayul",
+      "jang-sein"
     ],
     "published_date": "2023-01-16",
     "content_type": "video",
     "view_count": 189261,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "RwDMoI346L0",
@@ -67481,16 +67510,18 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji"
+      "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun"
     ],
     "published_date": "2023-01-15",
     "content_type": "video",
     "view_count": 1781372,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "L8QG3sDo0Ac",
@@ -67498,38 +67529,43 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
+      "kim-hyerim",      
       "kang-taehyun",
-      "shim-jiho",
-      "kim-hyerim",
       "ha-seyoung"
     ],
     "published_date": "2023-01-14",
     "content_type": "video",
     "view_count": 164308,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "PgjB12FhO98",
     "title": "소녀 리버스 - 약속해 I Promise | 커버댄스 Dance Cover | 연습실 Practice ver.",
-    "covered_group": [],
+    "covered_group": [
+      "GIRL'S RE:VERSE"
+    ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "oh-yubin",
-      "kim-minjin",
       "bang-jooyeon",
-      "jeong-yoojin"
+      "lee-gaeun",
+      "park-damhee",
+      "yun-haeun",
+      "ahn-yoojin",
+      "kim-minjin",
+      "oh-yubin"
     ],
     "published_date": "2023-01-13",
     "content_type": "video",
     "view_count": 55099,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -67538,39 +67574,47 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
+      "kim-hyerim",      
       "kang-taehyun",
-      "shim-jiho",
-      "kim-hyerim",
       "ha-seyoung"
     ],
     "published_date": "2023-01-12",
     "content_type": "video",
     "view_count": 395074,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "4rI2ArnBPyo",
     "title": "[AB] 소녀 리버스 - 약속해 I Promise | 커버댄스 Dance Cover",
     "covered_group": [
-      "ROSÉ"
+      "GIRL'S RE:VERSE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "oh-yubin",
-      "kim-minjin",
       "bang-jooyeon",
-      "jeong-yoojin"
+      "lee-gaeun",
+      "park-damhee",
+      "yun-haeun",
+      "ahn-yoojin",
+      "kim-minjin",
+      "oh-yubin"
     ],
     "published_date": "2023-01-09",
     "content_type": "video",
     "view_count": 92982,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ],
+    "sponsors": [
+      "카카오 엔터테인먼트"
+    ]
   },
   {
     "youtube_id": "jAceVMEh07g",
@@ -67593,80 +67637,89 @@
     "youtube_id": "3NE_aSJBJCQ",
     "title": "NCT DREAM -  Candy | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
-      "ahn-yoojin",
+      "park-damhee",
+      "kang-yejin",      
       "yun-haeun",
-      "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "ahn-yoojin",
+      "lim-donghun"
     ],
     "published_date": "2023-01-06",
     "content_type": "video",
     "view_count": 507030,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
     "youtube_id": "lgCF_dPAKeY",
     "title": "ITZY - Cheshire | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "kim-hyerim",
       "jang-sein",
+      "park-jaehee",
+      "bang-hayul",
       "kim-soyeon"
     ],
     "published_date": "2023-01-06",
     "content_type": "video",
     "view_count": 107549,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
     "youtube_id": "N1VvfsZIGg8",
     "title": "버추얼 아이돌이 현실로 나왔다! [여기서요?] 소녀 리버스 - 약속해 I Promise | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "ROSÉ"
+      "GIRL'S RE:VERSE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "oh-yubin",
-      "kim-minjin",
       "bang-jooyeon",
-      "jeong-yoojin"
+      "lee-gaeun",
+      "park-damhee",
+      "yun-haeun",
+      "ahn-yoojin",
+      "kim-minjin",
+      "oh-yubin"
     ],
     "published_date": "2023-01-05",
     "content_type": "video",
     "view_count": 208228,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ],
+    "sponsors": [
+      "카카오 엔터테인먼트"
+    ]
   },
   {
     "youtube_id": "2CIsu9BcyBE",
     "title": "[AB] 있지 ITZY - Cheshire | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "kim-hyerim",
       "jang-sein",
+      "park-jaehee",
+      "bang-hayul",
       "kim-soyeon"
     ],
     "published_date": "2023-01-04",
     "content_type": "video",
     "view_count": 158811,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "CyCZq-vFgPs",
@@ -68587,16 +68640,17 @@
     "youtube_id": "-yb2sn_i1SM",
     "title": "[방구석 여기서요?] NCT 텐 TEN - Birthday | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT"
+      "TEN"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2022-11-27",
     "content_type": "video",
     "view_count": 318117,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "1X05gqHeM1s",
@@ -68984,19 +69038,20 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
       "chae-yunsu",
+      "jeong-hyungwoo",
+      "kim-hojun",
       "kang-taehyun",
+      "hwang-jiho",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-daehan"
     ],
     "published_date": "2022-11-19",
     "content_type": "video",
     "view_count": 329829,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "p2K6_7jcoKQ",
@@ -69494,20 +69549,19 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
       "chae-yunsu",
+      "jeong-hyungwoo",
+      "kim-hojun",
       "kang-taehyun",
+      "hwang-jiho",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-daehan"
     ],
     "published_date": "2022-10-31",
     "content_type": "video",
     "view_count": 63219,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -69517,20 +69571,19 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
       "chae-yunsu",
+      "jeong-hyungwoo",
+      "kim-hojun",
       "kang-taehyun",
+      "hwang-jiho",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-daehan"
     ],
     "published_date": "2022-10-29",
     "content_type": "video",
     "view_count": 279302,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -69567,29 +69620,37 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "hwang-jiho",
       "chae-yunsu",
+      "jeong-hyungwoo",
+      "kim-hojun",
       "kang-taehyun",
+      "hwang-jiho",
       "cho-woohyeong",
-      "kim-daehan",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-daehan"
     ],
     "published_date": "2022-10-24",
     "content_type": "video",
     "view_count": 126913,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "WlMFiHONpIQ",
     "title": "'영국 왕실 근위대 군악대' 연주에 맞춰 '뚜두뚜두' 추기🕺🏻 | Dance 'DDU-DU DDU-DU' with British Royal Guards Military Band",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BLACKPINK"
+    ],
+    "tagged_members": [
+
+    ],
     "published_date": "2022-10-19",
     "content_type": "video",
     "view_count": 153327,
-    "content_series": []
+    "content_series": [
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "8lw51V0DqlE",
@@ -71220,23 +71281,24 @@
     "youtube_id": "FKJOxhBj1V0",
     "title": "[A2be | 방구석 여기서요?] 엑소 EXO - LOVE ME RIGHT | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
+      "kim-hyoil",
+      "hyeokjin",
       "chae-yunsu",
+      "jeong-hyungwoo",
       "cho-woohyeong",
-      "shim-jiho"
+      "lim-donghun",
+      "min",
+      "kim-mingi"
     ],
     "published_date": "2022-08-07",
     "content_type": "video",
     "view_count": 256689,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S10::A2Be"
     ]
   },
   {
@@ -71244,19 +71306,20 @@
     "title": "[AB  | 방구석 여기서요?] 효린 HYOLYN - 바다보러갈래 BAE (SEE SEA BAE) | 커버댄스 Dance Cover",
     "covered_group": [],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
-      "ahn-yoojin",
-      "ha-seyoung",
-      "oh-yubin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "lee-sieun",
+      "oh-yubin",
+      "ahn-yoojin",
+      "park-soyoung"
     ],
     "published_date": "2022-08-07",
     "content_type": "video",
     "view_count": 2170650,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "p92BO9b6Krc",
@@ -72333,25 +72396,28 @@
     "youtube_id": "5fDyZSsJsJQ",
     "title": "세븐틴 SEVENTEEN - HOT | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
+      "kim-hojun",      
       "kim-kyungju",
-      "hwang-jiho",
-      "lim-donghun",
+      "park-jaehee",
       "kang-taehyun",
-      "shim-jiho",
+      "jeong-hyungwoo",
+      "hwang-jiho",
+      "lim-donghun",      
       "ji-ayeong",
-      "jeong-gyeolgyeong"
+      "hyeokjin",
+      "kim-hyoil",
+      "jeong-gyeolgyeong",
+      "min"
     ],
     "published_date": "2022-06-24",
     "content_type": "video",
     "view_count": 154890,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -72362,13 +72428,13 @@
     ],
     "tagged_members": [
       "kim-taehwan",
-      "kim-hojun",
+      "kim-hojun",      
       "kim-kyungju",
       "park-jaehee",
       "kang-taehyun",
       "jeong-hyungwoo",
       "hwang-jiho",
-      "lim-donghun",
+      "lim-donghun",      
       "ji-ayeong",
       "hyeokjin",
       "kim-hyoil",
@@ -72682,41 +72748,45 @@
     "youtube_id": "G9d0nKGJDf0",
     "title": "[A2be 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
+      "hwang-jiho",      
       "chae-yunsu",
-      "shim-jiho"
+      "jeong-hyungwoo",
+      "kim-mingi",
+      "kim-leeyoung"
     ],
     "published_date": "2022-06-10",
     "content_type": "video",
     "view_count": 546483,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
     "youtube_id": "6DQzQ7HS4Tg",
     "title": "[A2be 여기서요?] NCT U - Universe (Let's Play Ball) | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "IVE"
+      "NCT::NCT U"
     ],
     "tagged_members": [
-      "hwang-jiho",
       "kim-mingi",
-      "kim-youngjin",
-      "lim-donghun",
+      "kim-leeyoung",
+      "seo-danbi",
+      "hwang-jiho",
+      "kim-hyoil",
+      "jang-sein",
+      "kim-youngjin",      
       "chae-yunsu",
-      "shim-jiho",
-      "jang-sein"
+      "lim-donghun"
     ],
     "published_date": "2022-06-09",
     "content_type": "video",
     "view_count": 157622,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -72730,22 +72800,20 @@
       "ahn-yoojin",
       "kim-minjin",
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "bang-jooyeon"
     ],
     "published_date": "2022-06-09",
     "content_type": "video",
     "view_count": 77303,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
     "youtube_id": "XiqGlzwJkJM",
     "title": "붐치키붐치키치키~ bring my #beatbox #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [],
     "published_date": "2022-06-09",
@@ -72808,41 +72876,41 @@
       "제시"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kwon-soyoung"
     ],
     "published_date": "2022-06-07",
     "content_type": "video",
     "view_count": 48274,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
     "youtube_id": "P1HRJ87SOeI",
     "title": "[A2be 여기서요?] NCT DREAM - 버퍼링 (Glitch Mode) | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "lim-donghun",
+      "min",
+      "kim-hyoil",
+      "seo-danbi",
       "chae-yunsu",
-      "shim-jiho"
+      "lim-donghun",
+      "hwang-jiho",
+      "prim"
     ],
     "published_date": "2022-06-06",
     "content_type": "video",
     "view_count": 238373,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
     "youtube_id": "eENx-uLpydk",
     "title": "TXT - Good Boy Gone Bad | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
@@ -72856,7 +72924,7 @@
     "content_type": "video",
     "view_count": 58209,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -72904,20 +72972,20 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "hwang-jiho",
+      "chae-yunsu",
+      "min",
+      "kim-hyoil",
       "kim-mingi",
       "kim-youngjin",
-      "lim-donghun",
-      "chae-yunsu",
-      "kang-taehyun",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "hwang-jiho",            
+      "lim-donghun",      
+      "kang-taehyun"
     ],
     "published_date": "2022-06-04",
     "content_type": "video",
     "view_count": 503269,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -72927,17 +72995,18 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
-      "lee-garam",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "lee-gaeun",
+      "song-haeun",
+      "yoon-taegyeong",
+      "yun-haeun"
     ],
     "published_date": "2022-06-04",
     "content_type": "video",
     "view_count": 853017,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -72947,63 +73016,64 @@
       "IVE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jang-sein",
+      "jeong-jihye",
+      "park-jaehee",
+      "cho-eunseo",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "jang-sein",
+      "bang-hayul"
     ],
     "published_date": "2022-06-03",
     "content_type": "video",
     "view_count": 342430,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
     "youtube_id": "UDoB33Xq5aY",
     "title": "[AB 여기서요?] 방탄소년단 BTS - Butter | 커버댄스 Dance Cover @20220521 Busking",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
-      "kim-taehwan",
       "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "lee-moonkyu",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "kim-taehwan"
     ],
     "published_date": "2022-06-03",
     "content_type": "video",
     "view_count": 432776,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
     "youtube_id": "HKXmuCaezKw",
     "title": "[A2be 여기서요?] 엑소 EXO - LOVE ME RIGHT | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
+      "kim-hyoil",
+      "hyeokjin",
       "chae-yunsu",
+      "jeong-hyungwoo",
       "cho-woohyeong",
-      "shim-jiho"
+      "lim-donghun",
+      "min",
+      "kim-mingi"
     ],
     "published_date": "2022-06-02",
     "content_type": "video",
     "view_count": 151176,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -73013,26 +73083,25 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-soyoung",
+      "lee-gaeun",
+      "park-sunyoung",
       "oh-yubin"
     ],
     "published_date": "2022-06-02",
     "content_type": "video",
     "view_count": 453176,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
     "youtube_id": "5Eo6tDKNmkc",
     "title": "[A2be 여기서요?] (여자)아이들 (G)I-DLE - MY BAG | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
