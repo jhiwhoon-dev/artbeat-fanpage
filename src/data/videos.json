@@ -2,9 +2,15 @@
   {
     "youtube_id": "Lch6wyLVQbw",
     "title": "연습실 Bloody🩸 #BloodyParadise #진 #Jin",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
+    "tagged_members": [
+      "won-jin"
+    ],
     "sponsors": [],
     "published_date": "2026-09-09",
     "content_type": "short",
@@ -13,8 +19,12 @@
   {
     "youtube_id": "JFEWkv9ysDs",
     "title": "타락한 모범생? #BloodyParadise #현성 #Hyeonsung",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "do-hyeonsung"
     ],
@@ -26,11 +36,14 @@
   {
     "youtube_id": "mX_VHb2h5zY",
     "title": "이 남자.. 무심하다 #BloodyParadise #이종민 #Jongmin",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
-      "lee-jongmin",
-      "min"
+      "lee-jongmin"
     ],
     "sponsors": [],
     "published_date": "2026-09-09",
@@ -40,8 +53,12 @@
   {
     "youtube_id": "weM8pZVeTP8",
     "title": "얼굴에 김 묻었어 #BloodyParadise #현창 #HyeonChang",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "jeong-hyeonchang"
     ],
@@ -53,8 +70,12 @@
   {
     "youtube_id": "jgTseYyC6LY",
     "title": "이제 전역 한달차입니다🫡 #BloodyParadise #김용현 #YongHyeon",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "kim-yonghyeon"
     ],
@@ -66,9 +87,15 @@
   {
     "youtube_id": "S0sJT6RezCw",
     "title": "난 ㄱr끔 하늘을 봐 #BloodyParadise #레노 #Leno",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
+    "tagged_members": [
+      "yamamoto-leno"
+    ],
     "sponsors": [],
     "published_date": "2026-09-09",
     "content_type": "short",
@@ -81,20 +108,19 @@
       "ENHYPEN"
     ],
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ],
     "tagged_members": [
       "do-hyeonsung",
       "jeong-hyeonchang",
       "lee-jongmin",
       "kim-yonghyeon",
-      "lee-seonu",
-      "choi-sunwoo",
-      "min"
+      "won-jin",
+      "yamamoto-leno"
     ],
     "sponsors": [],
     "published_date": "2026-09-09",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 9451
   },
   {
