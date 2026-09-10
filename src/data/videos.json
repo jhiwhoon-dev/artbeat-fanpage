@@ -63202,8 +63202,7 @@
     "youtube_id": "tAAlbn24U1I",
     "title": "여고생들 앞에서 추는 'Say My Name' #SayMyName #shorts",
     "covered_group": [
-      "BOYS PLANET",
-      "Say My Name"
+      "BOYS PLANET::Say Yes!"
     ],
     "tagged_members": [],
     "published_date": "2023-05-22",
@@ -63215,23 +63214,31 @@
     "youtube_id": "wZSZiAGM3bo",
     "title": "얌전한 얼굴에.. 그렇지 못한 골반🙈 #LikeCrazy #shorts",
     "covered_group": [
-      "방탄소년단",
       "지민"
     ],
     "tagged_members": [
-      "lee-jimin"
+      "kim-suhwan",
+      "kim-mingi"
+    ],
+    "special_dancers": [
+      "kim-youngjin",
+      "chae-yunsu",
+      "kang-taehyun",
+      "kim-soyeon",
+      "kim-hyerim"
     ],
     "published_date": "2023-05-22",
     "content_type": "short",
     "view_count": 103134,
-    "content_series": []
+    "content_series": [
+      "AB야 학교가자::2023y"
+    ]
   },
   {
     "youtube_id": "ebiJ-xUmDXg",
     "title": "[AB야 학교가자] Say Yes! - Say My Name | 커버댄스 Dance Cover | 휘경여자고등학교 | KPOP in SCHOOL",
     "covered_group": [
-      "BOYS PLANET",
-      "Say Yes!"
+      "BOYS PLANET::Say Yes!"
     ],
     "tagged_members": [
       "ha-jeuki",
@@ -63255,12 +63262,14 @@
     ],
     "tagged_members": [
       "kim-suhwan",
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers": [
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
-      "kim-hyerim",
-      "kim-soyeon"
+      "kim-soyeon",
+      "kim-hyerim"
     ],
     "published_date": "2023-05-22",
     "content_type": "video",
