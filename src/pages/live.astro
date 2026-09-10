@@ -24,6 +24,7 @@ const videosData = videos.map((v) => ({
   groups: v.covered_group ?? [],
   series: v.content_series ?? [],
   members: v.tagged_members ?? [],
+  specialDancers: v.special_dancers ?? [],
   sponsors: v.sponsors ?? [],
   date: v.published_date,
   views: v.view_count ?? 0,
@@ -95,6 +96,7 @@ function safeJson(obj) {
     groups: string[];
     series: string[];
     members: string[];
+    specialDancers: string[];
     sponsors: string[];
     date: string;
     views: number;
@@ -308,6 +310,10 @@ function safeJson(obj) {
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
       .join('');
+    const specialTags = v.specialDancers
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-special" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])} <em>백업</em></a>`)
+      .join('');
     const adBadge = v.sponsors.length > 0
       ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
       : '';
@@ -328,7 +334,7 @@ function safeJson(obj) {
           </div>
           <p class="title">${escapeHtml(v.title)}</p>
         </a>
-        <div class="tags">${groupTags}${seriesTags}${memberTags}</div>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}</div>
       </div>`;
   }
 
@@ -596,6 +602,9 @@ function safeJson(obj) {
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /* 조회수 등급 빛 효과 — 실제 색상/크기 값은 JS의 GLOW_* 상수 + 인라인 CSS 변수로 계산됨 */
@@ -615,7 +624,7 @@ function safeJson(obj) {
   }
   .hot-badge {
     position: absolute;
-    top: 8px;
+    bottom: 8px;
     right: 8px;
     z-index: 2;
     background: #facc15;
@@ -625,6 +634,9 @@ function safeJson(obj) {
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .title {
     font-size: 13px;
@@ -643,6 +655,9 @@ function safeJson(obj) {
   .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
+  .tag-special { color: var(--muted); border: 1px solid var(--line); background: transparent; opacity: 0.8; }
+  .tag-special em { font-style: normal; font-size: 10px; margin-left: 2px; opacity: 0.8; }
+  .tag-special:hover { border-color: var(--muted); opacity: 1; }
 
   .load-more {
     display: block;

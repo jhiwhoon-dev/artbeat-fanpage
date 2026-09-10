@@ -27,8 +27,9 @@ const snsLabels = {
 };
 
 // 이 멤버가 tagged_members에 포함된 영상만 모아서 최신순으로 정렬
+// 이 멤버가 tagged_members(메인 커버) 또는 special_dancers(백업 댄서) 중 하나라도 포함된 영상 = "출연한 영상"
 const taggedVideos = allVideos
-  .filter((v) => (v.tagged_members ?? []).includes(member.id))
+  .filter((v) => (v.tagged_members ?? []).includes(member.id) || (v.special_dancers ?? []).includes(member.id))
   .sort((a, b) => b.published_date.localeCompare(a.published_date));
 
 // content_type이 없는 예전 데이터도 인식하도록 하는 헬퍼 (videos.astro와 동일한 규칙)
@@ -49,7 +50,9 @@ const taggedVideosData = taggedVideos.map((v) => ({
   title: v.title,
   groups: v.covered_group ?? [],
   series: v.content_series ?? [],
-  members: (v.tagged_members ?? []).filter((id) => id !== member.id), // 본인 태그는 빼고 "같이 출연한 멤버"만
+  members: (v.tagged_members ?? []).filter((id) => id !== member.id), // 본인 태그는 빼고 "같이 출연한 멤버(메인)"만
+  specialDancers: (v.special_dancers ?? []).filter((id) => id !== member.id), // 본인 태그는 빼고 "같이 백업 댄서였던 멤버"만
+  isSelfSpecial: (v.special_dancers ?? []).includes(member.id), // 본인이 이 영상에서 백업 댄서였는지
   sponsors: v.sponsors ?? [],
   date: v.published_date,
   views: v.view_count ?? 0,
@@ -62,7 +65,8 @@ function safeJson(obj) {
 // 함께 출연한 멤버별 영상 개수 집계 (본인 제외), 많이 함께한 순 정렬
 const collabCounts = {};
 for (const v of taggedVideos) {
-  for (const coId of v.tagged_members ?? []) {
+  const everyone = [...new Set([...(v.tagged_members ?? []), ...(v.special_dancers ?? [])])];
+  for (const coId of everyone) {
     if (coId === member.id) continue;
     collabCounts[coId] = (collabCounts[coId] ?? 0) + 1;
   }
@@ -332,6 +336,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     groups: string[];
     series: string[];
     members: string[];
+    specialDancers: string[];
+    isSelfSpecial: boolean;
     sponsors: string[];
     date: string;
     views: number;
@@ -564,9 +570,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
       .join('');
+    const specialTags = v.specialDancers
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-special" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])} <em>백업</em></a>`)
+      .join('');
     const adBadge = v.sponsors.length > 0
       ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
       : '';
+    const selfSpecialBadge = v.isSelfSpecial ? `<span class="self-special-badge">백업 댄서로 참여</span>` : '';
     const glow = computeGlow(v.views);
     const glowStyle = glow
       ? `--glow-hue:${glow.hue}; --glow-blur:${glow.blur}px; --glow-op:${glow.opacity}; --glow-sat:${GLOW_SATURATION}%; --glow-light:${GLOW_LIGHTNESS}%; --glow-duration:${GLOW_PULSE_DURATION}s;`
@@ -579,12 +590,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
             ${adBadge}
             ${hotBadge}
+            ${selfSpecialBadge}
             <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
           </div>
           <p class="title">${escapeHtml(v.title)}</p>
         </a>
-        <div class="tags">${groupTags}${seriesTags}${memberTags}</div>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}</div>
       </div>`;
   }
 
@@ -1076,6 +1088,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /* 조회수 등급 빛 효과 — 실제 색상/크기 값은 JS의 GLOW_* 상수 + 인라인 CSS 변수로 계산됨 */
@@ -1095,7 +1110,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
   .hot-badge {
     position: absolute;
-    top: 8px;
+    bottom: 8px;
     right: 8px;
     z-index: 2;
     background: #facc15;
@@ -1105,6 +1120,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .title {
     font-size: 13px;
@@ -1123,6 +1141,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
+  .tag-special { color: var(--muted); border: 1px solid var(--line); background: transparent; opacity: 0.8; }
+  .tag-special em { font-style: normal; font-size: 10px; margin-left: 2px; opacity: 0.8; }
+  .tag-special:hover { border-color: var(--muted); opacity: 1; }
+  .self-special-badge {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    z-index: 2;
+    background: #fb923c;
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
   .load-more {
     display: block;
