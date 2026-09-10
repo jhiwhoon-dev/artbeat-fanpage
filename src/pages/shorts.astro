@@ -302,7 +302,7 @@ function safeJson(obj) {
       ? `--glow-hue:${glow.hue}; --glow-blur:${glow.blur}px; --glow-op:${glow.opacity}; --glow-sat:${GLOW_SATURATION}%; --glow-light:${GLOW_LIGHTNESS}%; --glow-duration:${GLOW_PULSE_DURATION}s;`
       : '';
     const glowClass = glow ? `has-glow${glow.pulse ? ' glow-pulse' : ''}` : '';
-    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (Lv.${glow.tier})</span>` : '';
+    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (${glow.tier} M)</span>` : '';
     return `
       <div class="card">
         <a class="thumb-link" href="https://www.youtube.com/shorts/${v.id}" target="_blank" rel="noopener noreferrer">

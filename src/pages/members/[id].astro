@@ -1,8 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import MemberAvatar from '../../components/MemberAvatar.astro';
+import PlatformIcon from '../../components/PlatformIcon.astro';
 import members from '../../data/members.json';
 import allVideos from '../../data/videos.json';
+import contentSeriesDict from '../../data/content_series.json';
 
 // 빌드 타임에 members.json을 순회하며 멤버 수만큼 정적 페이지를 미리 생성합니다.
 // 멤버가 3명이든 66명이든 이 코드는 그대로 두면 됩니다.
@@ -28,6 +30,70 @@ const snsLabels = {
 const taggedVideos = allVideos
   .filter((v) => (v.tagged_members ?? []).includes(member.id))
   .sort((a, b) => b.published_date.localeCompare(a.published_date));
+
+// 출연 영상 필터 엔진(videos.astro와 동일)에 넘길 데이터
+const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
+const memberMap = Object.fromEntries(members.map((m) => [m.id, m.nickname || m.name]));
+const taggedVideosData = taggedVideos.map((v) => ({
+  id: v.youtube_id,
+  title: v.title,
+  groups: v.covered_group ?? [],
+  series: v.content_series ?? [],
+  members: (v.tagged_members ?? []).filter((id) => id !== member.id), // 본인 태그는 빼고 "같이 출연한 멤버"만
+  sponsors: v.sponsors ?? [],
+  date: v.published_date,
+  views: v.view_count ?? 0,
+}));
+
+function safeJson(obj) {
+  return JSON.stringify(obj).replace(/</g, '\\u003c');
+}
+
+// song_group이 있으면 그 값으로, 없으면 youtube_id 자체로 "곡 단위" 키를 만듦
+// (즉 song_group을 안 붙인 영상은 각자 독립된 1곡으로 취급됨 — 기존 동작과 동일)
+function songKey(v) {
+  return v.song_group || v.youtube_id;
+}
+
+// 함께 출연한 멤버별 "곡 수" 집계 (같은 song_group의 여러 영상은 1곡으로만 카운트), 많이 함께한 순 정렬
+const collabSongs = {};
+for (const v of taggedVideos) {
+  const key = songKey(v);
+  for (const coId of v.tagged_members ?? []) {
+    if (coId === member.id) continue;
+    if (!collabSongs[coId]) collabSongs[coId] = new Set();
+    collabSongs[coId].add(key);
+  }
+}
+const collabList = Object.entries(collabSongs)
+  .map(([id, songSet]) => {
+    const m = members.find((mm) => mm.id === id);
+    return m ? { id, name: m.nickname || m.name, photo_filename: m.photo_filename, count: songSet.size } : null;
+  })
+  .filter(Boolean)
+  .sort((a, b) => b.count - a.count);
+
+// URL에서 "@핸들" 형태로 보여줄 텍스트를 뽑아냄 (실패하면 그냥 URL 그대로)
+// sns 배열의 각 항목은 문자열(URL만) 또는 {url, handle}(직접 표시 텍스트 지정) 둘 다 지원.
+// 문자열이면 URL에서 자동으로 "@핸들"을 뽑아냄 (한글은 디코딩해서 깨지지 않게 함).
+function resolveSnsEntry(entry) {
+  const url = typeof entry === 'string' ? entry : entry.url;
+  if (typeof entry === 'object' && entry.handle) {
+    return { url, handle: entry.handle };
+  }
+  return { url, handle: extractHandle(url) };
+}
+
+function extractHandle(url) {
+  try {
+    const u = new URL(url);
+    const path = decodeURIComponent(u.pathname).replace(/^\/+|\/+$/g, '');
+    if (!path) return u.hostname;
+    return `@${path.split('/')[0].replace(/^@/, '')}`;
+  } catch {
+    return url;
+  }
+}
 
 // 여러 활동 기간(membership_periods)을 합산해 총 활동일수를 계산
 // (공백 기간 - 탈퇴~재합류 사이 - 은 제외하고 계산)
@@ -85,35 +151,678 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     )}
 
     {Object.keys(member.sns).length > 0 && (
-      <div class="sns">
-        {Object.entries(member.sns).map(([platform, urls]) => (
-          <div class="sns-group">
-            <span class="platform">{snsLabels[platform] ?? platform}</span>
-            {urls.map((url) => (
-              <a href={url} target="_blank" rel="noopener noreferrer">바로가기 ↗</a>
-            ))}
-          </div>
-        ))}
+      <div class="social-grid">
+        {Object.entries(member.sns).flatMap(([platform, entries]) =>
+          entries.map((entry) => {
+            const { url, handle } = resolveSnsEntry(entry);
+            return (
+              <a class="social-card" href={url} target="_blank" rel="noopener noreferrer">
+                <div class="social-icon"><PlatformIcon platform={platform} /></div>
+                <div class="social-text">
+                  <strong>{snsLabels[platform] ?? platform.toUpperCase()}</strong>
+                  <span title={handle}>{handle}</span>
+                </div>
+              </a>
+            );
+          })
+        )}
+      </div>
+    )}
+
+    {collabList.length > 0 && (
+      <div class="collab-section">
+        <h2>함께한 멤버 ({collabList.length})</h2>
+        <div class="collab-grid">
+          {collabList.map((c) => (
+            <a class="collab-card" href={`${base}/members/${c.id}`}>
+              <MemberAvatar member={c} size={48} />
+              <span class="collab-name">{c.name}</span>
+              <span class="collab-count">{c.count}곡</span>
+            </a>
+          ))}
+        </div>
       </div>
     )}
 
     {taggedVideos.length > 0 && (
       <div class="tagged-videos">
         <h2>출연 영상 ({taggedVideos.length})</h2>
-        <div class="tv-grid">
-          {taggedVideos.map((v) => (
-            <a class="tv-card" href={`https://www.youtube.com/watch?v=${v.youtube_id}`} target="_blank" rel="noopener noreferrer">
-              <div class="tv-thumb">
-                <img src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`} alt={v.title} loading="lazy" />
+
+        <div class="controls-top">
+          <div class="mode-tabs" id="mode-tabs">
+            <button class="mode-btn active" data-mode="group">그룹별</button>
+            <button class="mode-btn" data-mode="series">콘텐츠별</button>
+            {collabList.length > 0 && (
+              <button class="mode-btn" data-mode="member">멤버별</button>
+            )}
+          </div>
+          <div class="controls-right">
+            <input type="text" class="title-search" id="title-search" placeholder="영상 제목 검색..." />
+            <select id="sort-select" class="sort-select">
+              <option value="newest">최신순</option>
+              <option value="oldest">오래된순</option>
+              <option value="views">조회수순</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-panel" id="panel-group">
+          <div id="group-levels"></div>
+        </div>
+        <div class="filter-panel" id="panel-series" style="display:none">
+          <div class="series-status" id="series-status" style="display:none"></div>
+          <div id="series-levels"></div>
+        </div>
+        <div class="filter-panel" id="panel-member" style="display:none">
+          <div class="filters" id="filters-member">
+            <button class="filter-btn active" data-value="__all__">전체</button>
+            {collabList.map((c) => (
+              <button class="filter-btn" data-value={c.id}>{c.name} ({c.count}곡)</button>
+            ))}
+          </div>
+          {collabList.map((c) => (
+            <a class="collab-profile-card" data-collab-id={c.id} href={`${base}/members/${c.id}`} style="display:none">
+              <MemberAvatar member={c} size={56} />
+              <div>
+                <strong>{c.name}</strong>
+                <span>프로필 보러가기 →</span>
               </div>
-              <p>{v.title}</p>
             </a>
           ))}
         </div>
+
+        <p class="count-label" id="count-label"></p>
+        <div class="grid" id="grid"></div>
+        <button class="load-more" id="load-more" hidden>더 보기</button>
+        <p class="empty" id="empty" hidden>조건에 맞는 영상이 없어요.</p>
       </div>
     )}
   </div>
+
+  <script type="application/json" id="videos-data" set:html={safeJson(taggedVideosData)} />
+  <script type="application/json" id="member-map-data" set:html={safeJson(memberMap)} />
+  <script type="application/json" id="base-data" set:html={safeJson(base)} />
+  <script type="application/json" id="series-status-data" set:html={safeJson(seriesStatusMap)} />
 </Layout>
+<script>
+  interface VideoItem {
+    id: string;
+    title: string;
+    groups: string[];
+    series: string[];
+    members: string[];
+    sponsors: string[];
+    date: string;
+    views: number;
+  }
+
+  const DATA: VideoItem[] = JSON.parse(document.getElementById('videos-data')!.textContent!);
+  const MEMBER_MAP: Record<string, string> = JSON.parse(document.getElementById('member-map-data')!.textContent!);
+  const BASE: string = JSON.parse(document.getElementById('base-data')!.textContent!);
+  const SERIES_STATUS: Record<string, string> = JSON.parse(document.getElementById('series-status-data')!.textContent!);
+
+  const PAGE_SIZE = 30;
+  let currentPage = 1;
+  let activeMode: 'group' | 'series' | 'member' = 'group';
+  let activeGroupPath: string[] = [];
+  let activeSeriesPath: string[] = [];
+  let activeMemberId: string | null = null;
+  let sortMode = 'newest';
+  let titleQuery = '';
+
+  // ---------- 필터 상태를 URL에 기록/복원 (뒤로가기 눌렀을 때 이전 필터 상태 유지) ----------
+  function currentUrlWithState(): URL {
+    const url = new URL(window.location.href);
+    const p = url.searchParams;
+    if (activeMode !== 'group') p.set('mode', activeMode); else p.delete('mode');
+    if (activeGroupPath.length) p.set('gpath', activeGroupPath.join('|')); else p.delete('gpath');
+    if (activeSeriesPath.length) p.set('spath', activeSeriesPath.join('|')); else p.delete('spath');
+    if (activeMemberId) p.set('mid', activeMemberId); else p.delete('mid');
+    if (sortMode !== 'newest') p.set('sort', sortMode); else p.delete('sort');
+    if (titleQuery) p.set('q', titleQuery); else p.delete('q');
+    return url;
+  }
+  // 버튼 클릭처럼 "명확한 한 번의 선택"은 뒤로가기 기록에 남김
+  function pushUrlState() { history.pushState(null, '', currentUrlWithState()); }
+  // 검색창 타이핑처럼 계속 바뀌는 값은 기록을 안 쌓고 주소만 조용히 갱신
+  function replaceUrlState() { history.replaceState(null, '', currentUrlWithState()); }
+
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    const rawMode = params.get('mode');
+    const mode = (rawMode === 'series' || rawMode === 'member' ? rawMode : 'group') as 'group' | 'series' | 'member';
+    return {
+      mode,
+      gpath: params.get('gpath') ? params.get('gpath')!.split('|') : [],
+      spath: params.get('spath') ? params.get('spath')!.split('|') : [],
+      mid: params.get('mid') || null,
+      sort: params.get('sort') || 'newest',
+      q: params.get('q') || '',
+    };
+  }
+
+  function escapeHtml(s: string): string {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] ?? c));
+  }
+
+  // "::"로 몇 단계든 이어붙인 태그를 배열로 분해 (그룹/콘텐츠 공통 규칙).
+  // "::" 없이 "이름 S23" 형식(예전 방식)도 2단계로 인식.
+  // 예: "BOYS PLANET::SAY YES!" -> ["BOYS PLANET", "SAY YES!"]
+  //     "NCT::NCT 127" -> ["NCT", "NCT 127"]
+  //     "방구석 여기서요? S23" -> ["방구석 여기서요?", "S23"]
+  function splitTagLevels(tag: string): string[] {
+    if (tag.includes('::')) return tag.split('::').map((s) => s.trim()).filter(Boolean);
+    const m = tag.match(/^(.*?)\s*S(\d+)$/i);
+    return m ? [m[1].trim(), `S${m[2]}`] : [tag];
+  }
+
+  // 태그가 현재 선택 경로(path)로 시작하는지 확인 (경로가 비어있으면 항상 매칭 = "전체")
+  function matchesPath(tag: string, path: string[]): boolean {
+    if (path.length === 0) return true;
+    const segs = splitTagLevels(tag);
+    if (segs.length < path.length) return false;
+    return path.every((p, i) => segs[i] === p);
+  }
+
+  type TreeNode = Map<string, TreeNode>;
+
+  // 영상들의 태그(그룹 또는 콘텐츠) 목록으로부터 트리를 만듦 — 깊이 제한 없이 몇 단계든 처리
+  function buildTree(tagLists: string[][]): TreeNode {
+    const root: TreeNode = new Map();
+    for (const tags of tagLists) {
+      for (const tag of tags) {
+        const segs = splitTagLevels(tag);
+        let node = root;
+        for (const seg of segs) {
+          if (!node.has(seg)) node.set(seg, new Map());
+          node = node.get(seg)!;
+        }
+      }
+    }
+    return root;
+  }
+
+  const groupTree = buildTree(DATA.map((v) => v.groups));
+  const seriesTree = buildTree(DATA.map((v) => v.series));
+
+  // 트리 + 현재 선택 경로를 받아서, 선택할 때마다 하위 단계 버튼 행이 자동으로 늘어나는 UI를 그려줌.
+  // 그룹/콘텐츠 둘 다 이 함수 하나를 공유해서 씀.
+  function renderLevels(container: HTMLElement, tree: TreeNode, path: string[], onChange: (newPath: string[]) => void) {
+    let rowsHtml = '';
+    let node = tree;
+
+    for (let depth = 0; ; depth++) {
+      const keys = [...node.keys()].sort();
+      if (keys.length === 0) break;
+
+      const activeKeyAtDepth = path[depth];
+      const buttons =
+        `<button class="filter-btn ${activeKeyAtDepth === undefined ? 'active' : ''}" data-depth="${depth}" data-value="__all__">전체</button>` +
+        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('');
+      rowsHtml += `<div class="filters series-level" data-depth="${depth}">${buttons}</div>`;
+
+      if (!activeKeyAtDepth) break;
+      node = node.get(activeKeyAtDepth)!;
+    }
+
+    container.innerHTML = rowsHtml;
+    container.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const depth = Number(btn.dataset.depth);
+        const value = btn.dataset.value!;
+        const newPath = value === '__all__' ? path.slice(0, depth) : [...path.slice(0, depth), value];
+        onChange(newPath);
+      });
+    });
+  }
+
+  const grid = document.getElementById('grid')!;
+  const emptyEl = document.getElementById('empty')!;
+  const loadMoreBtn = document.getElementById('load-more')!;
+  const countLabel = document.getElementById('count-label')!;
+  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+  const modeButtons = document.querySelectorAll<HTMLButtonElement>('.mode-btn');
+  const panelGroup = document.getElementById('panel-group');
+  const panelSeries = document.getElementById('panel-series');
+  const panelMember = document.getElementById('panel-member');
+  const groupLevelsEl = document.getElementById('group-levels')!;
+  const seriesLevelsEl = document.getElementById('series-levels')!;
+  const seriesStatusEl = document.getElementById('series-status');
+  const memberFilterButtons = document.querySelectorAll<HTMLButtonElement>('#filters-member .filter-btn');
+  const collabCards = document.querySelectorAll<HTMLAnchorElement>('.collab-profile-card');
+
+  // 선택된 멤버의 미리보기 프로필 카드만 보여주고, 필터 버튼 활성 상태도 같이 맞춤
+  function updateMemberPanel() {
+    memberFilterButtons.forEach((b) => {
+      const isAll = b.dataset.value === '__all__';
+      b.classList.toggle('active', activeMemberId ? b.dataset.value === activeMemberId : isAll);
+    });
+    collabCards.forEach((card) => {
+      card.style.display = card.dataset.collabId === activeMemberId ? '' : 'none';
+    });
+  }
+
+  const STATUS_LABEL: Record<string, string> = { active: '진행중', paused: '일시중단', ended: '종료' };
+
+  function updateSeriesStatus() {
+    if (!seriesStatusEl) return;
+    const topLevel = activeSeriesPath[0];
+    const status = topLevel ? SERIES_STATUS[topLevel] : undefined;
+    if (!status) {
+      seriesStatusEl.style.display = 'none';
+      seriesStatusEl.innerHTML = '';
+      return;
+    }
+    const cls = status === 'active' ? 'status-active' : status === 'paused' ? 'status-paused' : 'status-ended';
+    seriesStatusEl.innerHTML = `<span class="status-badge ${cls}">${STATUS_LABEL[status] ?? status}</span>`;
+    seriesStatusEl.style.display = '';
+  }
+
+  function renderGroupLevels() {
+    renderLevels(groupLevelsEl, groupTree, activeGroupPath, (newPath) => {
+      activeGroupPath = newPath;
+      currentPage = 1;
+      renderGroupLevels();
+      render();
+      pushUrlState();
+    });
+  }
+
+  function renderSeriesLevels() {
+    renderLevels(seriesLevelsEl, seriesTree, activeSeriesPath, (newPath) => {
+      activeSeriesPath = newPath;
+      currentPage = 1;
+      updateSeriesStatus();
+      renderSeriesLevels();
+      render();
+      pushUrlState();
+    });
+  }
+
+  function displayTagPath(tag: string): string {
+    return splitTagLevels(tag).join(' · ');
+  }
+
+  // ===== 조회수 등급별 빛 효과 — 아래 숫자들만 바꾸면 전부 조절됨 =====
+  const GLOW_TIER_UNIT = 1_000_000;   // 등급 하나당 조회수 단위 (100만)
+  const GLOW_MAX_TIER = 17;           // 최고 등급 (1700만 이상은 전부 이 등급으로 고정)
+  const GLOW_MIN_BLUR = 9;            // 최저 등급(100만) 빛 번짐 반경 (px) — 검정 배경에서도 보이게 상향
+  const GLOW_MAX_BLUR = 14;           // 최고 등급(1700만+) 빛 번짐 반경 (px)
+  // 주의: 그리드 카드 간격이 20px이라, "번짐 반경 × 아래 PULSE_SCALE" 값이
+  // 20px을 넘으면 옆 카드를 침범할 수 있음. 14 × 1.3 = 18.2로 여유를 둠.
+  const GLOW_MIN_OPACITY = 0.45;      // 최저 등급 빛 불투명도 (0~1) — 검정 배경에서도 보이게 상향
+  const GLOW_MAX_OPACITY = 0.8;       // 최고 등급 빛 불투명도 (0~1)
+  const GLOW_SATURATION = 95;         // 채도 (%) — 높을수록 색이 선명함
+  const GLOW_LIGHTNESS = 62;          // 명도 (%) — 검정 배경 대비를 위해 살짝 밝게 잡음
+  const GLOW_START_HUE = 210;         // 최저 등급 색상(파랑, 0~360 색상환)
+  const GLOW_END_HUE = 405;           // 최고 등급 색상(405 % 360 = 45, 골드)
+  // 210 -> 405로 "증가하는 방향"으로 보라/핑크/빨강을 거쳐 골드로 가게 함.
+  // (반대 방향으로 가면 초록/청록을 거치게 되는데, 그러면 등급이 높아질수록
+  //  오히려 칙칙해 보여서 일부러 이 방향으로 잡음)
+  const GLOW_PULSE_FROM_TIER = 12;    // 이 등급부터 은은하게 깜빡이는 애니메이션 켜짐 (0으로 하면 전부 깜빡임, 999로 하면 전부 고정)
+  const GLOW_PULSE_DURATION = 2.4;    // 깜빡임 주기 (초). 클수록 느리고 차분함
+  const GLOW_PULSE_SCALE = 1.3;       // 깜빡일 때 최대로 커지는 배율 (위 주의사항 참고)
+
+  function computeGlow(views: number) {
+    if (views < GLOW_TIER_UNIT) return null; // 100만 미만은 효과 없음
+    const tier = Math.min(Math.floor(views / GLOW_TIER_UNIT), GLOW_MAX_TIER);
+    const ratio = GLOW_MAX_TIER > 1 ? (tier - 1) / (GLOW_MAX_TIER - 1) : 1; // 0~1
+
+    const hue = (GLOW_START_HUE + (GLOW_END_HUE - GLOW_START_HUE) * ratio) % 360;
+    const blur = GLOW_MIN_BLUR + (GLOW_MAX_BLUR - GLOW_MIN_BLUR) * ratio;
+    const opacity = GLOW_MIN_OPACITY + (GLOW_MAX_OPACITY - GLOW_MIN_OPACITY) * ratio;
+    const pulse = tier >= GLOW_PULSE_FROM_TIER;
+
+    return { tier, hue: hue.toFixed(0), blur: blur.toFixed(1), opacity: opacity.toFixed(2), pulse };
+  }
+
+  function cardHTML(v: VideoItem): string {
+    const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(displayTagPath(g))}</span>`).join('');
+    const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displayTagPath(s))}</span>`).join('');
+    const memberTags = v.members
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
+      .join('');
+    const adBadge = v.sponsors.length > 0
+      ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
+      : '';
+    const glow = computeGlow(v.views);
+    const glowStyle = glow
+      ? `--glow-hue:${glow.hue}; --glow-blur:${glow.blur}px; --glow-op:${glow.opacity}; --glow-sat:${GLOW_SATURATION}%; --glow-light:${GLOW_LIGHTNESS}%; --glow-duration:${GLOW_PULSE_DURATION}s;`
+      : '';
+    const glowClass = glow ? `has-glow${glow.pulse ? ' glow-pulse' : ''}` : '';
+    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (Lv.${glow.tier})</span>` : '';
+    return `
+      <div class="card">
+        <a class="thumb-link" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
+            ${adBadge}
+            ${hotBadge}
+            <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
+            <span class="play">▶</span>
+          </div>
+          <p class="title">${escapeHtml(v.title)}</p>
+        </a>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}</div>
+      </div>`;
+  }
+
+  function getFiltered(): VideoItem[] {
+    return DATA.filter((v) => {
+      if (titleQuery && !v.title.toLowerCase().includes(titleQuery)) return false;
+      if (activeMode === 'group') {
+        // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
+        // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
+        if (activeGroupPath.length === 0) return true;
+        return v.groups.some((tag) => matchesPath(tag, activeGroupPath));
+      }
+      if (activeMode === 'member') {
+        if (!activeMemberId) return true;
+        return v.members.includes(activeMemberId);
+      }
+      if (activeSeriesPath.length === 0) return true;
+      return v.series.some((tag) => matchesPath(tag, activeSeriesPath));
+    });
+  }
+
+  function getSorted(list: VideoItem[]): VideoItem[] {
+    const arr = [...list];
+    if (sortMode === 'views') arr.sort((a, b) => b.views - a.views);
+    else if (sortMode === 'oldest') arr.sort((a, b) => a.date.localeCompare(b.date));
+    else arr.sort((a, b) => b.date.localeCompare(a.date));
+    return arr;
+  }
+
+  function render() {
+    const filtered = getSorted(getFiltered());
+    const slice = filtered.slice(0, currentPage * PAGE_SIZE);
+
+    grid.innerHTML = slice.map(cardHTML).join('');
+    emptyEl.hidden = filtered.length > 0;
+    loadMoreBtn.hidden = slice.length >= filtered.length;
+    countLabel.textContent = filtered.length > 0 ? `총 ${filtered.length}개 중 ${slice.length}개 표시` : '';
+  }
+
+  loadMoreBtn.addEventListener('click', () => {
+    currentPage++;
+    render();
+  });
+
+  modeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      modeButtons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = (btn.dataset.mode as 'group' | 'series' | 'member') ?? 'group';
+      currentPage = 1;
+
+      if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
+      if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
+      if (panelMember) panelMember.style.display = activeMode === 'member' ? '' : 'none';
+
+      render();
+      pushUrlState();
+    });
+  });
+
+  memberFilterButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      activeMemberId = btn.dataset.value === '__all__' ? null : (btn.dataset.value ?? null);
+      currentPage = 1;
+      updateMemberPanel();
+      render();
+      pushUrlState();
+    });
+  });
+
+  const titleSearchInput = document.getElementById('title-search') as HTMLInputElement | null;
+  titleSearchInput?.addEventListener('input', () => {
+    titleQuery = titleSearchInput.value.trim().toLowerCase();
+    currentPage = 1;
+    render();
+    replaceUrlState(); // 타이핑마다 뒤로가기 기록이 쌓이지 않도록 replace로 처리
+  });
+
+  sortSelect?.addEventListener('change', () => {
+    sortMode = sortSelect.value;
+    currentPage = 1;
+    render();
+    pushUrlState();
+  });
+
+  // 페이지가 "?mode=series&spath=..." 같은 주소로 열렸을 때(뒤로가기 포함) 그 상태로 시작
+  function applyState(state: ReturnType<typeof readUrlState>) {
+    activeMode = state.mode;
+    activeGroupPath = state.gpath;
+    activeSeriesPath = state.spath;
+    activeMemberId = state.mid;
+    sortMode = state.sort;
+    titleQuery = state.q;
+    currentPage = 1;
+
+    modeButtons.forEach((b) => b.classList.toggle('active', b.dataset.mode === activeMode));
+    if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
+    if (panelSeries) panelSeries.style.display = activeMode === 'series' ? '' : 'none';
+    if (panelMember) panelMember.style.display = activeMode === 'member' ? '' : 'none';
+    if (sortSelect) sortSelect.value = sortMode;
+    if (titleSearchInput) titleSearchInput.value = titleQuery;
+
+    updateSeriesStatus();
+    updateMemberPanel();
+    renderGroupLevels();
+    renderSeriesLevels();
+    render();
+  }
+
+  // 뒤로가기/앞으로가기로 주소가 바뀌면 그 시점 상태를 다시 반영
+  window.addEventListener('popstate', () => {
+    applyState(readUrlState());
+  });
+
+  applyState(readUrlState());
+</script>
+<style is:global>
+  .controls-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .controls-right { display: flex; align-items: center; gap: 10px; }
+  .title-search {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    width: 200px;
+  }
+  .title-search::placeholder { color: var(--muted); }
+  .title-search:focus { outline: none; border-color: var(--muted); }
+
+  .mode-tabs { display: flex; }
+  .mode-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 6px 4px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .mode-btn + .mode-btn { margin-left: 20px; }
+  .mode-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  .filter-panel { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+
+  #group-levels, #series-levels { display: flex; flex-direction: column; gap: 10px; }
+  .series-level:not(:first-child) { padding-left: 20px; border-left: 2px solid var(--line); }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filter-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .filter-btn:hover { border-color: var(--muted); color: var(--ink); }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  .sort-select {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .series-status { margin: 0 0 4px; }
+  .status-badge {
+    display: inline-block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    padding: 5px 14px;
+    border-radius: 999px;
+  }
+  .status-active { background: #22c55e; color: #fff; }
+  .status-paused { background: #ef4444; color: #fff; }
+  .status-ended { background: #fff; color: #0e0e10; }
+
+  .count-label { font-size: 12px; color: var(--muted); margin: 0 0 20px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  .card { display: flex; flex-direction: column; }
+  .thumb-link { display: block; text-decoration: none; color: var(--ink); }
+  .thumb-wrap {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1a1a1c;
+  }
+  .thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+  }
+  .thumb-link:hover .thumb { transform: scale(1.04); }
+  .play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .thumb-link:hover .play { opacity: 1; }
+  .ad-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    background: #f59e0b;
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  /* 조회수 등급 빛 효과 — 실제 색상/크기 값은 JS의 GLOW_* 상수 + 인라인 CSS 변수로 계산됨 */
+  .has-glow {
+    box-shadow: 0 0 var(--glow-blur, 9px) 2px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), var(--glow-op, 0.45));
+  }
+  .glow-pulse {
+    animation: card-glow-pulse var(--glow-duration, 2.4s) ease-in-out infinite;
+  }
+  @keyframes card-glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 var(--glow-blur, 9px) 2px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), var(--glow-op, 0.45));
+    }
+    50% {
+      box-shadow: 0 0 calc(var(--glow-blur, 9px) * 1.3) 4px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), calc(var(--glow-op, 0.45) * 1.2));
+    }
+  }
+  .hot-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+    background: #facc15;
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 10px 0 8px;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 11px;
+    border-radius: 4px;
+    padding: 2px 6px;
+    text-decoration: none;
+  }
+  .tag-group { color: var(--muted); border: 1px solid var(--line); }
+  .tag-series { color: var(--ink); border: 1px solid var(--ink); }
+  .tag-member { color: var(--ink); background: var(--line); }
+  .tag-member:hover { background: var(--accent); color: #0e0e10; }
+
+  .load-more {
+    display: block;
+    margin: 40px auto 0;
+    padding: 12px 32px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .load-more:hover { border-color: var(--muted); }
+
+  .empty {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 40px;
+  }
+</style>
 
 <style>
   .back {
@@ -157,29 +866,96 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     margin-bottom: 32px;
   }
   .tenure strong { color: var(--ink); }
-  .sns {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  .social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
     padding-top: 24px;
     border-top: 1px solid var(--line);
   }
-  .sns-group {
+  .social-card {
     display: flex;
     align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    font-size: 14px;
-  }
-  .platform {
-    color: var(--muted);
-    min-width: 80px;
-  }
-  .sns-group a {
-    color: var(--accent);
+    gap: 14px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
     text-decoration: none;
+    color: var(--ink);
   }
-  .sns-group a:hover { text-decoration: underline; }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .social-text { min-width: 0; } /* flex 안에서 자식이 폭을 넘어서지 않도록 */
+  .social-card strong { display: block; font-size: 14px; }
+  .social-card:hover { border-color: var(--muted); }
+  .social-card span {
+    display: block;
+    font-size: 13px;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .collab-section {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .collab-section h2 {
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .collab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
+    gap: 16px;
+  }
+  .collab-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: var(--ink);
+    text-align: center;
+  }
+  .collab-name {
+    font-size: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .collab-count {
+    font-size: 11px;
+    color: var(--muted);
+    background: var(--line);
+    border-radius: 999px;
+    padding: 2px 10px;
+  }
+  .collab-card:hover .collab-name { color: var(--accent); }
+  .collab-profile-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 16px;
+    padding: 16px 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .collab-profile-card:hover { border-color: var(--muted); }
+  .collab-profile-card strong { display: block; font-size: 15px; }
+  .collab-profile-card span { font-size: 13px; color: var(--muted); }
   .tagged-videos {
     margin-top: 40px;
     padding-top: 24px;
@@ -189,18 +965,4 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     font-size: 16px;
     margin: 0 0 20px;
   }
-  .tv-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 16px;
-  }
-  .tv-card { text-decoration: none; color: var(--ink); }
-  .tv-thumb {
-    aspect-ratio: 16/9;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #1a1a1c;
-  }
-  .tv-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .tv-card p { font-size: 12px; margin: 8px 0 0; line-height: 1.4; }
 </style>
