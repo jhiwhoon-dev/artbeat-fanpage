@@ -11,7 +11,7 @@
     "tagged_members": [
       "won-jin"
     ],
-    "sponsors": [],
+    "sponsors": [],        
     "published_date": "2026-09-09",
     "content_type": "short",
     "view_count": 3511
@@ -117,6 +117,14 @@
       "kim-yonghyeon",
       "won-jin",
       "yamamoto-leno"
+    ],
+    "role_mapping": [
+      { "member_id": "do-hyeonsung", "covered_group": "ENHYPEN", "covered_member": "니키" },
+      { "member_id": "lee-jongmin", "covered_group": "ENHYPEN", "covered_member": "제이" },
+      { "member_id": "kim-yonghyeon", "covered_group": "ENHYPEN", "covered_member": "제이크" },
+      { "member_id": "jeong-hyeonchang", "covered_group": "ENHYPEN", "covered_member": "성훈" },
+      { "member_id": "yamamoto-leno", "covered_group": "ENHYPEN", "covered_member": "선우" },
+      { "member_id": "won-jin", "covered_group": "ENHYPEN", "covered_member": "니키" }
     ],
     "sponsors": [],
     "published_date": "2026-09-09",
@@ -247,6 +255,15 @@
       "yamamoto-leno"
     ],
     "sponsors": [],
+    "role_mapping": [
+      { "member_id": "do-hyeonsung", "covered_group": "ENHYPEN", "covered_member": "니키" },
+      { "member_id": "lee-jongmin", "covered_group": "ENHYPEN", "covered_member": "제이" },
+      { "member_id": "kim-yonghyeon", "covered_group": "ENHYPEN", "covered_member": "제이크" },
+      { "member_id": "jeong-hyeonchang", "covered_group": "ENHYPEN", "covered_member": "성훈" },
+      { "member_id": "yamamoto-leno", "covered_group": "ENHYPEN", "covered_member": "선우" },
+      { "member_id": "won-jin", "covered_group": "ENHYPEN", "covered_member": "니키" }
+    ],
+    "song_group": "enhypen-bloody-2026",
     "published_date": "2026-09-08",
     "content_type": "video",
     "view_count": 138313
@@ -807,10 +824,7 @@
   {
     "youtube_id": "28P-JK7FPSc",
     "title": "2026 AB PROJECT 최종 오디션 참가자 영상",
-    "covered_group": [
-      "지민",
-      "현아"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "lee-jongmin",
       "lee-jimin",
@@ -48281,6 +48295,16 @@
       "aoki-yuka",
       "ahn-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "BABYMONSTER", "covered_member": "아현" },
+      { "member_id": "jeon-minseo", "covered_group": "BABYMONSTER", "covered_member": "루카" },
+      { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" },
+      { "member_id": "oh-yubin", "covered_group": "BABYMONSTER", "covered_member": "아사" },
+      { "member_id": "seol-heejeong", "covered_group": "BABYMONSTER", "covered_member": "라미" },
+      { "member_id": "aoki-yuka", "covered_group": "BABYMONSTER", "covered_member": "로라" },
+      { "member_id": "ahn-yoojin", "covered_group": "BABYMONSTER", "covered_member": "치키타" }
+    ],
     "published_date": "2024-05-25",
     "content_type": "video",
     "view_count": 909198,
@@ -49029,11 +49053,20 @@
       "ha-seyoung",
       "oh-yubin"
     ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "BABYMONSTER", "covered_member": "아현" },
+      { "member_id": "jeon-minseo", "covered_group": "BABYMONSTER", "covered_member": "루카" },
+      { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" },
+      { "member_id": "oh-yubin", "covered_group": "BABYMONSTER", "covered_member": "아사" },
+      { "member_id": "seol-heejeong", "covered_group": "BABYMONSTER", "covered_member": "라미" },
+      { "member_id": "aoki-yuka", "covered_group": "BABYMONSTER", "covered_member": "로라" },
+      { "member_id": "ahn-yoojin", "covered_group": "BABYMONSTER", "covered_member": "치키타" }
+    ],
     "published_date": "2024-05-11",
     "content_type": "video",
     "view_count": 519163,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -49664,18 +49697,29 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "BABYMONSTER", "covered_member": "아현" },
+      { "member_id": "jeon-minseo", "covered_group": "BABYMONSTER", "covered_member": "루카" },
+      { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" },
+      { "member_id": "oh-yubin", "covered_group": "BABYMONSTER", "covered_member": "아사" },
+      { "member_id": "seol-heejeong", "covered_group": "BABYMONSTER", "covered_member": "라미" },
+      { "member_id": "aoki-yuka", "covered_group": "BABYMONSTER", "covered_member": "로라" },
+      { "member_id": "ahn-yoojin", "covered_group": "BABYMONSTER", "covered_member": "치키타" }
     ],
     "published_date": "2024-04-30",
     "content_type": "video",
     "view_count": 1711435,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16"
     ]
   },
   {
@@ -49891,10 +49935,16 @@
     "tagged_members": [
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+       { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" }
+    ],
     "published_date": "2024-04-21",
     "content_type": "short",
     "view_count": 1468339,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "5K3OV18pRAM",
@@ -49988,11 +50038,23 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "BABYMONSTER", "covered_member": "아현" },
+      { "member_id": "jeon-minseo", "covered_group": "BABYMONSTER", "covered_member": "루카" },
+      { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" },
+      { "member_id": "oh-yubin", "covered_group": "BABYMONSTER", "covered_member": "아사" },
+      { "member_id": "seol-heejeong", "covered_group": "BABYMONSTER", "covered_member": "라미" },
+      { "member_id": "aoki-yuka", "covered_group": "BABYMONSTER", "covered_member": "로라" },
+      { "member_id": "ahn-yoojin", "covered_group": "BABYMONSTER", "covered_member": "치키타" }
     ],
     "published_date": "2024-04-19",
     "content_type": "video",
@@ -50397,17 +50459,30 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "BABYMONSTER", "covered_member": "아현" },
+      { "member_id": "jeon-minseo", "covered_group": "BABYMONSTER", "covered_member": "루카" },
+      { "member_id": "lee-gaeun", "covered_group": "BABYMONSTER", "covered_member": "파리타" },
+      { "member_id": "oh-yubin", "covered_group": "BABYMONSTER", "covered_member": "아사" },
+      { "member_id": "seol-heejeong", "covered_group": "BABYMONSTER", "covered_member": "라미" },
+      { "member_id": "aoki-yuka", "covered_group": "BABYMONSTER", "covered_member": "로라" },
+      { "member_id": "ahn-yoojin", "covered_group": "BABYMONSTER", "covered_member": "치키타" }
+    ],
+    "song_group": "babymonster-sheesh-2024",
     "published_date": "2024-04-14",
     "content_type": "video",
     "view_count": 2984509,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -94517,20 +94592,28 @@
     "youtube_id": "p3B5EQKs82M",
     "title": "[AB] BLACKPINK - KILL THIS LOVE (B Team) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "ha-seyoung",
+      "kwon-soyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [      
+      { "member_id": "lee-gaeun", "covered_group": "BLACKPINK", "covered_member": "제니" },
+      { "member_id": "lee-sieun", "covered_group": "BLACKPINK", "covered_member": "리사" },
+      { "member_id": "ha-seyoung", "covered_group": "BLACKPINK", "covered_member": "로제" },
+      { "member_id": "kwon-soyoung", "covered_group": "BLACKPINK", "covered_member": "지수" }
     ],
     "published_date": "2019-04-17",
     "content_type": "video",
     "view_count": 429042,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "mfxX88wTRkQ",
@@ -94569,22 +94652,35 @@
     "youtube_id": "fJXD-nbu48c",
     "title": "[여기서요?] BLACKPINK - KILL THIS LOVE | 커버댄스 DANCE COVER | KPOP IN PUBLIC @뮤지컬 거리",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
+      "park-soyoung",
+      "suvin",
+      "minju",
       "lee-gaeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "ha-seyoung",
+      "kwon-soyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "hwang-dagun", "covered_group": "BLACKPINK", "covered_member": "제니" },
+      { "member_id": "park-soyoung", "covered_group": "BLACKPINK", "covered_member": "리사" },
+      { "member_id": "suvin", "covered_group": "BLACKPINK", "covered_member": "로제" },
+      { "member_id": "minju", "covered_group": "BLACKPINK", "covered_member": "지수" },
+      { "member_id": "lee-gaeun", "covered_group": "BLACKPINK", "covered_member": "제니" },
+      { "member_id": "lee-sieun", "covered_group": "BLACKPINK", "covered_member": "리사" },
+      { "member_id": "ha-seyoung", "covered_group": "BLACKPINK", "covered_member": "로제" },
+      { "member_id": "kwon-soyoung", "covered_group": "BLACKPINK", "covered_member": "지수" }
+    ],
+    "song_group": "blackpink-killthislove-2019",
     "published_date": "2019-04-14",
     "content_type": "video",
     "view_count": 40161309,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {

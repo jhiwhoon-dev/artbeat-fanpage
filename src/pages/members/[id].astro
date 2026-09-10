@@ -80,6 +80,21 @@ const collabList = Object.entries(collabCounts)
 // 출연 추이 차트용: 태그된 영상들의 published_date 목록만 클라이언트로 넘김 ('video' 타입만)
 const taggedDates = statsVideos.map((v) => v.published_date);
 
+// 합류/탈퇴 시점 — 차트에 세로선으로 표시하기 위한 데이터.
+// membership_periods가 없으면 joined_date/left_date 단일 값을 씀 (재합류 이력이 없는 멤버용)
+const membershipMilestones = (
+  member.membership_periods && member.membership_periods.length > 0
+    ? member.membership_periods
+    : member.joined_date
+      ? [{ joined: member.joined_date, left: member.left_date ?? null }]
+      : []
+).flatMap((p) => {
+  const arr = [];
+  if (p.joined) arr.push({ date: p.joined, label: '합류' });
+  if (p.left) arr.push({ date: p.left, label: '탈퇴' });
+  return arr;
+});
+
 // 커버 통계(그룹별/인물별)용: 영상 하나당 "그룹 커버 이벤트"와 "인물 커버 이벤트"를 풀어서 나열.
 // songKey는 같은 곡이 여러 영상으로 올라왔을 때 1회로 묶기 위한 식별자
 // (song_group이 있으면 그 값, 없으면 영상 자체가 유일한 곡이라고 보고 youtube_id를 씀).
@@ -308,6 +323,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <script type="application/json" id="series-status-data" set:html={safeJson(seriesStatusMap)} />
   <script type="application/json" id="cover-events-data" set:html={safeJson(coverEvents)} />
   <script type="application/json" id="tagged-dates-data" set:html={safeJson(taggedDates)} />
+  <script type="application/json" id="membership-milestones-data" set:html={safeJson(membershipMilestones)} />
 </Layout>
 <script>
   interface VideoItem {
@@ -556,7 +572,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       ? `--glow-hue:${glow.hue}; --glow-blur:${glow.blur}px; --glow-op:${glow.opacity}; --glow-sat:${GLOW_SATURATION}%; --glow-light:${GLOW_LIGHTNESS}%; --glow-duration:${GLOW_PULSE_DURATION}s;`
       : '';
     const glowClass = glow ? `has-glow${glow.pulse ? ' glow-pulse' : ''}` : '';
-    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (Lv.${glow.tier})</span>` : '';
+    const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (${glow.tier} M)</span>` : '';
     return `
       <div class="card">
         <a class="thumb-link" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">
@@ -697,7 +713,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const YEAR_LABEL_COLOR = '#ffffff';
 
   // 막대 대신 선(line chart)으로 표시. 기간 하나당 간격은 고정값 — 데이터가 많을수록 그래프 폭만 늘어남.
-  const POINT_GAP = 46, CHART_H = 200, PAD_T = 30, PAD_B = 28, PAD_L = 28, PAD_R = 16;
+  const POINT_GAP = 46, CHART_H = 210, PAD_T = 40, PAD_B = 28, PAD_L = 28, PAD_R = 16;
 
   interface ChartPeriod {
     label: string;
@@ -784,6 +800,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         // 눈으로는 작은 점만 보이지만, 마우스는 훨씬 넓은 범위에서 반응하게 함
         svg += `<circle class="chart-point" data-label="${p.label}" data-name="${v.name}" data-count="${v.count}" data-color="${color}" cx="${cx}" cy="${cy}" r="11" fill="transparent" />`;
         svg += `<circle cx="${cx}" cy="${cy}" r="4" fill="${color}" pointer-events="none" />`;
+        // 호버가 잘 안 되는 환경도 있어서, 값 자체를 점 위에 항상 표시 (여러 시리즈가 겹칠 때 y 위치를 조금씩 어긋나게 함)
+        if (v.count > 0) {
+          const labelY = (Number(cy) - 8 - j * 12).toFixed(1);
+          svg += `<text x="${cx}" y="${labelY}" text-anchor="middle" font-size="10" font-weight="700" fill="${color}" font-family="Archivo, sans-serif" pointer-events="none">${v.count}</text>`;
+        }
       });
     }
 
