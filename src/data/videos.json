@@ -70171,15 +70171,28 @@
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "park-damhee",
+      "yun-haeun",
+      "lee-sieun",
+      "oh-yubin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "Billlie", "covered_member": "수현" },
+      { "member_id": "ahn-yoojin", "covered_group": "Billlie", "covered_member": "션" },
+      { "member_id": "ha-seyoung", "covered_group": "Billlie", "covered_member": "하루나" },
+      { "member_id": "park-damhee", "covered_group": "Billlie", "covered_member": "츠키" },
+      { "member_id": "yun-haeun", "covered_group": "Billlie", "covered_member": "하람" },
+      { "member_id": "lee-sieun", "covered_group": "Billlie", "covered_member": "문수아" },
+      { "member_id": "oh-yubin", "covered_group": "Billlie", "covered_member": "시윤" }
     ],
     "published_date": "2022-11-29",
     "content_type": "video",
     "view_count": 278072,
-    "content_series": []
+    "content_series": [
+      "ARTBEAT 동네투어"
+    ]
   },
   {
     "youtube_id": "TRGeOZ7ZdIU",
@@ -70302,6 +70315,17 @@
       "lee-sieun",
       "oh-yubin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "Billlie", "covered_member": "수현" },
+      { "member_id": "ahn-yoojin", "covered_group": "Billlie", "covered_member": "션" },
+      { "member_id": "ha-seyoung", "covered_group": "Billlie", "covered_member": "하루나" },
+      { "member_id": "park-damhee", "covered_group": "Billlie", "covered_member": "츠키" },
+      { "member_id": "yun-haeun", "covered_group": "Billlie", "covered_member": "하람" },
+      { "member_id": "lee-sieun", "covered_group": "Billlie", "covered_member": "문수아" },
+      { "member_id": "oh-yubin", "covered_group": "Billlie", "covered_member": "시윤" }
+    ],
+    "song_group": "billlie-ringmabell-2022",
     "published_date": "2022-11-27",
     "content_type": "video",
     "view_count": 997371,
@@ -80046,22 +80070,34 @@
     "youtube_id": "0eNrSI7HvAc",
     "title": "[방구석 여기서요?] 엑소 EXO - 으르렁 GROWL | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "seo-jaemin",
       "hwang-dagun",
+      "park-damhee",
       "lee-gaeun",
+      "kwon-soyoung",
+      "kim-woonggyeom",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "park-pilho"
+    ],
+    "role_mapping": [
+      { "member_id": "seo-jaemin", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "hwang-dagun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "kwon-soyoung", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-woonggyeom", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "ahn-yoojin", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-pilho", "covered_group": "EXO", "covered_member": "찬열" }
     ],
     "published_date": "2021-09-29",
     "content_type": "video",
     "view_count": 610100,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "jqaz3uwEZr0",
@@ -80868,23 +80904,33 @@
     "youtube_id": "PSYjO2ihT1s",
     "title": "엑소 EXO - 으르렁 GROWL | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "seo-jaemin",
       "hwang-dagun",
+      "park-damhee",
       "lee-gaeun",
+      "kwon-soyoung",
+      "kim-woonggyeom",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "park-pilho"
+    ],
+    "role_mapping": [
+      { "member_id": "seo-jaemin", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "hwang-dagun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "kwon-soyoung", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-woonggyeom", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "ahn-yoojin", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-pilho", "covered_group": "EXO", "covered_member": "찬열" }
     ],
     "published_date": "2021-09-05",
     "content_type": "video",
     "view_count": 200106,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -81096,29 +81142,46 @@
     "content_type": "video",
     "view_count": 86714,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "DC_4dF4tWSI",
     "title": "[AB 00's] 엑소 EXO - 으르렁 GROWL | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "seo-jaemin",
       "hwang-dagun",
+      "park-damhee",
       "lee-gaeun",
+      "kwon-soyoung",
+      "kim-woonggyeom",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "park-pilho"
     ],
+    "sponsors": [
+      "Gallery Omoke"
+    ],
+    "role_mapping": [
+      { "member_id": "seo-jaemin", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "hwang-dagun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "kwon-soyoung", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-woonggyeom", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "ahn-yoojin", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-pilho", "covered_group": "EXO", "covered_member": "찬열" }
+    ],
+    "song_group": "exo-growl-2021",
     "published_date": "2021-08-15",
     "content_type": "video",
     "view_count": 420635,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "lw4CzxT7UqA",
@@ -91467,7 +91530,6 @@
     "youtube_id": "jnycslB0YEs",
     "title": "우주소녀 WJSN - 이루리 As you wish | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "DAYOUNG",
       "우주소녀"
     ],
     "tagged_members": [
@@ -91486,7 +91548,7 @@
     "content_type": "video",
     "view_count": 192691,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -91527,7 +91589,7 @@
     "content_type": "video",
     "view_count": 154404,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -91538,17 +91600,25 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "kim-hayeon",
+      "park-damhee",
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-hayeon", "covered_group": "EVERGLOW", "covered_member": "시현" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "온다" }
     ],
     "published_date": "2020-02-07",
     "content_type": "video",
     "view_count": 4159443,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -91559,16 +91629,27 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "kim-hayeon",
+      "park-damhee",
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-hayeon", "covered_group": "EVERGLOW", "covered_member": "시현" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "온다" }
     ],
     "published_date": "2020-02-06",
     "content_type": "video",
     "view_count": 3734423,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "hbTmD8h8PzY",
@@ -91578,16 +91659,27 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "kim-hayeon",
+      "park-damhee",
+      "ha-seyoung",
+      "kim-hyerim"
     ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-hayeon", "covered_group": "EVERGLOW", "covered_member": "시현" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "온다" }
+    ],
+    "song_group": "everglow-dundun-2020",
     "published_date": "2020-02-05",
     "content_type": "video",
     "view_count": 7921618,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "f5BWuaTRXw0",
@@ -92941,16 +93033,37 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-daehan",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin",
-      "kim-minjin",
       "lee-sieun",
-      "park-damhee"
+      "yun-haeun",
+      "park-soyoung",
+      "kim-minjin"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" },
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-19",
     "content_type": "video",
@@ -93057,17 +93170,27 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" }
     ],
     "published_date": "2019-10-12",
     "content_type": "video",
     "view_count": 13595736,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "wI6i-d8fiR8",
@@ -93439,14 +93562,27 @@
       "ITZY"
     ],
     "tagged_members": [
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
       "park-damhee",
-      "lee-sieun"
+      "lee-gaeun",
+      "kwon-soyoung",
+      "oh-yubin",
+      "lee-sieun",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2019-09-23",
     "content_type": "video",
@@ -93639,18 +93775,29 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin"
+    ],
+    "sponsors": [
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" }
     ],
     "published_date": "2019-09-15",
     "content_type": "video",
     "view_count": 2198615,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -93711,17 +93858,27 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" }
     ],
     "published_date": "2019-09-10",
     "content_type": "video",
     "view_count": 3079383,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "d8SfgRFfwPs",
@@ -93745,17 +93902,32 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin"
     ],
+    "sponsors": [
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "park-damhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "oh-yubin", "covered_group": "EVERGLOW", "covered_member": "시현" }
+    ],
+    "song_group": "everglow-adios-2019",
     "published_date": "2019-09-08",
     "content_type": "video",
     "view_count": 1021972,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "sAips22aQCo",
@@ -95381,16 +95553,27 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "kwon-soyoung",
+      "kim-eunbin",
+      "jinhee",
+      "ha-seyoung",
+      "minju"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-eunbin", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "jinhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "minju", "covered_group": "EVERGLOW", "covered_member": "시현" }
     ],
     "published_date": "2019-04-27",
     "content_type": "video",
     "view_count": 212620,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -95688,16 +95871,27 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "kwon-soyoung",
+      "kim-eunbin",
+      "jinhee",
+      "ha-seyoung",
+      "minju"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-eunbin", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "jinhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "minju", "covered_group": "EVERGLOW", "covered_member": "시현" }
     ],
     "published_date": "2019-04-09",
     "content_type": "video",
     "view_count": 6510918,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -95707,15 +95901,30 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "kwon-soyoung",
+      "kim-eunbin",
+      "jinhee",
+      "ha-seyoung",
+      "minju"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "EVERGLOW", "covered_member": "온다" },
+      { "member_id": "kwon-soyoung", "covered_group": "EVERGLOW", "covered_member": "이런" },
+      { "member_id": "kim-eunbin", "covered_group": "EVERGLOW", "covered_member": "미아" },
+      { "member_id": "jinhee", "covered_group": "EVERGLOW", "covered_member": "아샤" },
+      { "member_id": "ha-seyoung", "covered_group": "EVERGLOW", "covered_member": "이유" },
+      { "member_id": "minju", "covered_group": "EVERGLOW", "covered_member": "시현" }
+    ],
+    "song_group": "everglow-bonbonchocolat-2019",
     "published_date": "2019-04-08",
     "content_type": "video",
     "view_count": 770693,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "j5um0PagMbo",
@@ -96821,7 +97030,26 @@
     "covered_group": [
       "EXO"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-soyoung",
+      "lee-sieun",
+      "lee-gaeun",
+      "kim-hayeon",
+      "suvin",
+      "kim-eunbin",
+      "choi-nara",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "lee-sieun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "kim-hayeon", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "suvin", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-eunbin", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "choi-nara", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "찬열" }
+    ],
     "published_date": "2019-01-11",
     "content_type": "video",
     "view_count": 156186,
@@ -96837,35 +97065,65 @@
     ],
     "tagged_members": [
       "park-soyoung",
+      "lee-sieun",
+      "lee-gaeun",
       "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "suvin",
+      "kim-eunbin",
+      "choi-nara",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "lee-sieun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "kim-hayeon", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "suvin", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-eunbin", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "choi-nara", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "찬열" }
     ],
     "published_date": "2019-01-11",
     "content_type": "video",
     "view_count": 1508258,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
     "youtube_id": "rN8FAtVlDlU",
     "title": "[AB] 엑소 EXO - LOVE SHOT (Girls ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
       "park-soyoung",
+      "lee-sieun",
+      "lee-gaeun",
       "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "suvin",
+      "kim-eunbin",
+      "choi-nara",
+      "park-damhee"
     ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "lee-sieun", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "lee-gaeun", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "kim-hayeon", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "suvin", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-eunbin", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "choi-nara", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "찬열" }
+    ],
+    "song_group": "exo-loveshot-2019",
     "published_date": "2019-01-10",
     "content_type": "video",
     "view_count": 1669445,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "-AaUVJUhr6I",
@@ -96901,7 +97159,6 @@
     "youtube_id": "mh9csV-N-x8",
     "title": "[제이원] 아이즈원 IZ*ONE - 라비앙로즈 LA VIE EN ROSE | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
