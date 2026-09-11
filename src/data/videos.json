@@ -14238,19 +14238,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kim-soyeon",
-      "jeong-yoojin",
+      "oh-yubin",
+      "cho-yuna",
       "lee-jeonghee",
-      "baek-jina",
-      "cho-yuna"
+      "lee-gaeun",
+      "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "cho-yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "lee-jeonghee", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-12-25",
     "content_type": "video",
     "view_count": 269304,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "HgJIri4SaaI",
@@ -18970,12 +18979,21 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "oh-yubin",
       "kim-soyeon",
+      "oh-yubin",
+      "cho-yuna",
       "lee-jeonghee",
-      "baek-jina",
-      "cho-yuna"
+      "lee-gaeun",
+      "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "cho-yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "lee-jeonghee", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-11-06",
     "content_type": "video",
@@ -20264,20 +20282,27 @@
     "youtube_id": "QbGM_pKkwqQ",
     "title": "[버스킹 여기서요?] 에스파 aespa - Whiplash (Mans ver.) | 커버댄스 Dance Cover @신촌스타광장",
     "covered_group": [
-      "aespa",
-      "IVE"
+      "aespa"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "yang-hwanhee",
       "lee-garam",
-      "jeong-hyeonchang"
+      "jeong-hyeonchang",
+      "kang-taehyun",
+      "yang-hwanhee"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-garam", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "jeong-hyeonchang", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-taehyun", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "yang-hwanhee", "covered_group": "aespa", "covered_member": "지젤" }
+    ],
+    "song_group": "aespa-whiplash-2024",
     "published_date": "2025-10-29",
     "content_type": "video",
     "view_count": 148414,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -23853,14 +23878,21 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kim-soyeon",
-      "jeong-yoojin",
+      "oh-yubin",
+      "cho-yuna",
       "lee-jeonghee",
-      "baek-jina",
-      "cho-yuna"
+      "lee-gaeun",
+      "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "cho-yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "lee-jeonghee", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-09-15",
     "content_type": "video",
@@ -23985,19 +24017,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kim-soyeon",
-      "jeong-yoojin",
+      "oh-yubin",
+      "cho-yuna",
       "lee-jeonghee",
-      "baek-jina",
-      "cho-yuna"
+      "lee-gaeun",
+      "baek-jina"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "cho-yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "lee-jeonghee", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-xoxz-2025",
     "published_date": "2025-09-14",
     "content_type": "video",
     "view_count": 883119,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Hw-JXAWNV7w",
@@ -30247,21 +30289,27 @@
     "youtube_id": "xAnTllQNbqM",
     "title": "[AB STAGE] 에스파 aespa - Whiplash | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa",
-      "IVE"
+      "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "kang-yejin",
-      "lee-yejin"
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "원영" },
+      { "member_id": "lee-gaeun", "covered_group": "aespa", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "가을" }
     ],
     "published_date": "2025-06-24",
     "content_type": "video",
     "view_count": 71487,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2025y",
+      "행사::2025y"
     ]
   },
   {
@@ -30335,12 +30383,23 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "ha-seyoung",
       "oh-yubin",
-      "won-hyegyeong",
-      "cho-yuna"
+      "cho-yuna",
+      "kim-chan",
+      "lee-gaeun",
+      "won-hyegyeong"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-chan", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "won-hyegyeong", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-rebelheart-2025",
     "published_date": "2025-06-23",
     "content_type": "video",
     "view_count": 68064,
@@ -30676,11 +30735,27 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "oh-yubin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
+    ],
+    "song_group": "aespa-whiplash-2024",
     "published_date": "2025-06-18",
     "content_type": "video",
     "view_count": 91869,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y",
+      "행사::2025y"
+    ]
   },
   {
     "youtube_id": "RGW5TFYdbuU",
@@ -32629,17 +32704,23 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2025-05-19",
     "content_type": "video",
     "view_count": 387562,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2025y"
     ]
   },
   {
@@ -32780,14 +32861,21 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "kim-nakyeong",
       "oh-yubin",
       "bang-jooyeon",
-      "kim-nakyeong",
-      "jeong-yoojin",
+      "yun-haeun",
+      "lee-gaeun",
       "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-05-18",
     "content_type": "video",
@@ -35156,21 +35244,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "kim-nakyeong",
       "oh-yubin",
       "bang-jooyeon",
-      "kim-nakyeong",
-      "jeong-yoojin",
+      "yun-haeun",
+      "lee-gaeun",
       "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-04-27",
     "content_type": "video",
     "view_count": 496436,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -38675,20 +38769,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "kim-nakyeong",
       "oh-yubin",
       "bang-jooyeon",
-      "kim-nakyeong",
-      "jeong-yoojin",
+      "yun-haeun",
+      "lee-gaeun",
       "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-02-25",
     "content_type": "video",
     "view_count": 96207,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -38708,19 +38809,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "kim-nakyeong",
       "oh-yubin",
       "bang-jooyeon",
-      "kim-nakyeong",
-      "jeong-yoojin",
+      "yun-haeun",
+      "lee-gaeun",
       "baek-jina"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2025-02-24",
     "content_type": "video",
     "view_count": 683355,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "SiNuPxDI-oc",
@@ -38744,19 +38854,30 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "kim-nakyeong",
       "oh-yubin",
       "bang-jooyeon",
-      "kim-nakyeong",
-      "jeong-yoojin",
+      "yun-haeun",
+      "lee-gaeun",
       "baek-jina"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "bang-jooyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "baek-jina", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-rebelheart-2025",
     "published_date": "2025-02-23",
     "content_type": "video",
     "view_count": 192465,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2025y",
+      "Dance Cover MV::Years::2025y"
+    ]
   },
   {
     "youtube_id": "vIlU_-2uCFI",
@@ -39651,16 +39772,23 @@
       "aespa"
     ],
     "tagged_members": [
-      "jeong-hyunjin",
       "kim-nakyeong",
-      "lee-jeonghee"
+      "jeong-hyunjin",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "jeong-hyunjin", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "lee-jeonghee", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "jeong-yoojin", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2025-02-14",
     "content_type": "video",
     "view_count": 317549,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -40435,18 +40563,23 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2025-02-04",
     "content_type": "video",
     "view_count": 1257059,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -43848,17 +43981,23 @@
       "aespa"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-hyunjin",
       "kim-nakyeong",
-      "jeong-yoojin",
-      "lee-jeonghee"
+      "jeong-hyunjin",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "jeong-hyunjin", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "lee-jeonghee", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "jeong-yoojin", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2024-11-23",
     "content_type": "video",
     "view_count": 148070,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -44130,14 +44269,26 @@
       "aespa"
     ],
     "tagged_members": [
-      "jeong-hyunjin",
       "kim-nakyeong",
-      "lee-jeonghee"
+      "jeong-hyunjin",
+      "lee-jeonghee",
+      "jeong-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-nakyeong", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "jeong-hyunjin", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "lee-jeonghee", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "jeong-yoojin", "covered_group": "aespa", "covered_member": "지젤" }
+    ],
+    "song_group": "aespa-whiplash-2024",
     "published_date": "2024-11-19",
     "content_type": "video",
     "view_count": 180053,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "Mksumw536x0",
@@ -44417,10 +44568,17 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "kang-yejin"
+      "yun-haeun",
+      "kang-yejin",
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2024-11-07",
     "content_type": "video",
@@ -44458,17 +44616,23 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
     ],
     "published_date": "2024-11-06",
     "content_type": "video",
     "view_count": 1241976,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -44514,12 +44678,19 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "kim-hyerim"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "aespa", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "aespa", "covered_member": "윈터" },
+      { "member_id": "kang-yejin", "covered_group": "aespa", "covered_member": "닝닝" },
+      { "member_id": "kim-hyerim", "covered_group": "aespa", "covered_member": "지젤" }
+    ],
+    "song_group": "aespa-whiplash-2024",
     "published_date": "2024-11-05",
     "content_type": "video",
     "view_count": 407872,
@@ -48813,7 +48984,9 @@
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 306176,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "ktb0O94lVCY",
@@ -48934,19 +49107,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
+      "kim-chan",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "shin-yerin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "kim-chan", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "shin-yerin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2024-05-21",
     "content_type": "video",
     "view_count": 435150,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2024y"
     ]
   },
   {
@@ -48978,19 +49159,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
+      "kim-chan",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "shin-yerin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "kim-chan", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "shin-yerin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2024-05-20",
     "content_type": "video",
     "view_count": 126999,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -49144,18 +49333,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
+      "kim-chan",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "shin-yerin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "kim-chan", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "shin-yerin", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-heya-2024",
     "published_date": "2024-05-18",
     "content_type": "video",
     "view_count": 677357,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "GtegT9LwOaQ",
@@ -56024,7 +56224,9 @@
     "published_date": "2023-11-16",
     "content_type": "short",
     "view_count": 264421,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "FJpm8Y5A9EQ",
@@ -56245,12 +56447,31 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "yun-haeun",
+      "lee-gaeun",
+      "seol-heejeong"
+    ],
+    "sponsors": [
+      "충주시"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "seol-heejeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-11-05",
     "content_type": "video",
     "view_count": 206837,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "DECTpNhEuec",
@@ -56370,7 +56591,21 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "yun-haeun",
+      "lee-gaeun",
+      "seol-heejeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "seol-heejeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-10-26",
     "content_type": "video",
@@ -56446,6 +56681,15 @@
       "yun-haeun",
       "lee-gaeun",
       "seol-heejeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "seol-heejeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-10-22",
     "content_type": "video",
@@ -56553,12 +56797,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "yun-haeun",
+      "lee-gaeun",
+      "seol-heejeong"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "seol-heejeong", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-baddie-2023",
     "published_date": "2023-10-20",
     "content_type": "video",
     "view_count": 923316,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "QyjWUWbjjCs",
@@ -61824,12 +62085,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-soyeon",
+      "lee-gaeun",
+      "jeong-gyeolgyeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-07-15",
     "content_type": "video",
     "view_count": 956725,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "LavSfdZhkrI",
@@ -62007,17 +62284,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
+      "lim-jiwoo",
       "oh-yubin",
+      "yuna",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lim-jiwoo", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-07-10",
     "content_type": "video",
     "view_count": 1173033,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "9ufO_mYujl4",
@@ -62191,20 +62479,29 @@
     "youtube_id": "Zx9f2yAjg-Q",
     "title": "[방구석 여기서요?] 르세라핌 LE SSERAFIM -  UNFORGIVEN | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "oh-yubin",
       "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
       "kim-soyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "lee-gaeun", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "kim-hyerim", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "ha-seyoung", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kim-soyeon", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
     ],
     "published_date": "2023-07-08",
     "content_type": "video",
     "view_count": 2194651,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "XsA4Ud0c-aI",
@@ -62890,7 +63187,9 @@
     "published_date": "2023-06-21",
     "content_type": "short",
     "view_count": 105736,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "kEur9EAYV6Q",
@@ -63050,18 +63349,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
+      "lim-jiwoo",
       "oh-yubin",
+      "yuna",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lim-jiwoo", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-06-16",
     "content_type": "video",
     "view_count": 221100,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -63071,23 +63379,33 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
+      "lim-jiwoo",
       "oh-yubin",
+      "yuna",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lim-jiwoo", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-06-15",
     "content_type": "video",
     "view_count": 601340,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "wLpog69bWwM",
     "title": "[AB 직캠] 르세라핌 LE SSERAFIM - 이브, 프시케 그리고 푸른 수염의 아내 | 커버댄스 Dance Cover @라벤더축제",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [
@@ -63101,7 +63419,10 @@
     "published_date": "2023-06-14",
     "content_type": "video",
     "view_count": 147199,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2023y",
+      "행사::2023y"
+    ]
   },
   {
     "youtube_id": "BEAj7VZpO3Y",
@@ -63143,17 +63464,30 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
+      "lim-jiwoo",
       "oh-yubin",
+      "yuna",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun",
+      "ahn-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lim-jiwoo", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "yuna", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kang-yejin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-kitsch-2023",
     "published_date": "2023-06-13",
     "content_type": "video",
     "view_count": 212993,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "bEuCV_-SgjI",
@@ -63221,17 +63555,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "yun-haeun", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" }
     ],
     "published_date": "2023-06-12",
     "content_type": "video",
     "view_count": 132134,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2023y",
+      "행사::2023y"
+    ]
   },
   {
     "youtube_id": "wJsnDjmHl1c",
@@ -64011,15 +64355,24 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
+      "bang-jooyeon",
+      "yoon-taegyeong",
       "lee-seohyeon",
-      "bang-jooyeon"
+      "kwon-soyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "bang-jooyeon", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "yoon-taegyeong", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "lee-seohyeon", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kwon-soyoung", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
     ],
     "published_date": "2023-05-22",
     "content_type": "video",
     "view_count": 104617,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -64212,11 +64565,19 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "oh-yubin",
       "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
       "kim-soyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "lee-gaeun", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "kim-hyerim", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "ha-seyoung", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kim-soyeon", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
     ],
     "published_date": "2023-05-19",
     "content_type": "video",
@@ -64335,19 +64696,30 @@
     "youtube_id": "WbnmpPMrAzU",
     "title": "[여기서요?] 르세라핌 LE SSERAFIM -  UNFORGIVEN (B Team ver.) | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
+      "bang-jooyeon",
+      "yoon-taegyeong",
       "lee-seohyeon",
-      "bang-jooyeon"
+      "kwon-soyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "bang-jooyeon", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "yoon-taegyeong", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "lee-seohyeon", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kwon-soyoung", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
+    ],
+    "song_group": "lesserafim-unforgivenb-2023",
     "published_date": "2023-05-17",
     "content_type": "video",
     "view_count": 391473,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "2sawZi3C-Ds",
@@ -64667,11 +65039,19 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "oh-yubin",
       "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
       "kim-soyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "lee-gaeun", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "kim-hyerim", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "ha-seyoung", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kim-soyeon", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
     ],
     "published_date": "2023-05-10",
     "content_type": "video",
@@ -64724,20 +65104,30 @@
     "youtube_id": "Emu1DXfleOA",
     "title": "[여기서요?] 르세라핌 LE SSERAFIM -  UNFORGIVEN (A Team ver.) | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE",
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "oh-yubin",
       "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
       "kim-soyeon"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "LE SSERAFIM", "covered_member": "카즈하" },
+      { "member_id": "lee-gaeun", "covered_group": "LE SSERAFIM", "covered_member": "홍은채" },
+      { "member_id": "kim-hyerim", "covered_group": "LE SSERAFIM", "covered_member": "김채원" },
+      { "member_id": "ha-seyoung", "covered_group": "LE SSERAFIM", "covered_member": "허윤진" },
+      { "member_id": "kim-soyeon", "covered_group": "LE SSERAFIM", "covered_member": "사쿠라" }
+    ],
+    "song_group": "lesserafim-unforgivena-2023",
     "published_date": "2023-05-09",
     "content_type": "video",
     "view_count": 1333737,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "JTRKmLcl5u8",
@@ -65454,7 +65844,9 @@
     "published_date": "2023-04-25",
     "content_type": "short",
     "view_count": 112405,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "DVlWviqfwYs",
@@ -65539,13 +65931,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-soyeon",
+      "lee-gaeun",
+      "jeong-gyeolgyeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-04-24",
     "content_type": "video",
     "view_count": 181864,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -65606,12 +66012,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-soyeon",
+      "lee-gaeun",
+      "jeong-gyeolgyeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2023-04-23",
     "content_type": "video",
     "view_count": 2053258,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "alGDg33J62Y",
@@ -65926,13 +66348,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-seyoung",
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-soyeon",
+      "lee-gaeun",
+      "jeong-gyeolgyeong"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "ha-jeuki", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-soyeon", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-iam-2023",
     "published_date": "2023-04-17",
     "content_type": "video",
     "view_count": 841868,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -66120,7 +66557,7 @@
     "youtube_id": "iyXXRXPbjmA",
     "title": "댕댕이 연하남의 질투🤣 #ABuniverse #수환 #가은 @수마일_soomile #Suhwan #Gaeun #아무노래 #shorts",
     "covered_group": [
-      "IVE"
+      "지코"
     ],
     "tagged_members": [
       "kim-suhwan",
@@ -69572,7 +70009,7 @@
     "youtube_id": "IaLi2YvFeVc",
     "title": "[AB] NCT DREAM -  Candy (VHS MV ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -69596,23 +70033,37 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [
+      "경기도",
+      "평택시"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "리즈" }
     ],
     "published_date": "2022-12-30",
     "content_type": "video",
     "view_count": 123410,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "eDL1xZ-Eq8E",
     "title": "레드벨벳 Red Velvet - Birthday | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
@@ -71722,18 +72173,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-09-14",
     "content_type": "video",
     "view_count": 1101460,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -71743,17 +72203,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-09-13",
     "content_type": "video",
     "view_count": 267690,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "Q_piVxOEGVg",
@@ -71892,18 +72364,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-09-09",
     "content_type": "video",
     "view_count": 666892,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -72371,17 +72852,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
+      "park-damhee",
       "kim-minjin",
-      "jeong-yoojin"
+      "lee-gaeun",
+      "ahn-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-afterlike-2022",
     "published_date": "2022-09-01",
     "content_type": "video",
     "view_count": 966903,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "gpFXoUUOcHk",
@@ -75297,12 +75790,21 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "park-damhee"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-05-23",
     "content_type": "video",
@@ -75473,18 +75975,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-05-01",
     "content_type": "video",
     "view_count": 705478,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -75506,17 +76017,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-04-30",
     "content_type": "video",
     "view_count": 565676,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "7jBvm-Hox48",
@@ -75541,17 +76064,29 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-damhee",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "kim-minjin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "park-damhee", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-lovedive-2022",
     "published_date": "2022-04-28",
     "content_type": "video",
     "view_count": 4807367,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "y8AVAbwdzOo",
@@ -77244,18 +77779,28 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-minjin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "lee-seohyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-03-31",
     "content_type": "video",
     "view_count": 2481687,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "Sla-buFXeSE",
@@ -78338,19 +78883,27 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-minjin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "lee-seohyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2021-12-24",
     "content_type": "video",
     "view_count": 1633464,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -78360,18 +78913,30 @@
       "IVE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-minjin",
+      "lee-gaeun",
+      "ahn-yoojin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "oh-yubin", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "lee-seohyeon", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "kim-minjin", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "lee-gaeun", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "ahn-yoojin", "covered_group": "IVE", "covered_member": "가을" }
+    ],
+    "song_group": "ive-eleven-2021",
     "published_date": "2021-12-23",
     "content_type": "video",
     "view_count": 680843,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "gOYpe8f_Iw0",
@@ -81019,20 +81584,22 @@
     "youtube_id": "E1GRT3Mi-rk",
     "title": "ARTBEAT(아트비트) - 'Lovefool' Video",
     "covered_group": [
-      "IVE"
+      "ARTBEAT v"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
     ],
     "published_date": "2021-09-11",
     "content_type": "video",
     "view_count": 427742,
-    "content_series": []
+    "content_series": [
+      "Music Video"
+    ]
   },
   {
     "youtube_id": "WzKFwNfGCtI",
@@ -81071,21 +81638,22 @@
     "youtube_id": "nHmk3jNBVCE",
     "title": "ARTBEAT(아트비트) - 'Lovefool' Video Teaser",
     "covered_group": [
-      "IVE"
+      "ARTBEAT v"
     ],
     "tagged_members": [
-      "kim-daehan",
+      "lee-sieun",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
     ],
     "published_date": "2021-09-09",
     "content_type": "short",
     "view_count": 110868,
-    "content_series": []
+    "content_series": [
+      "Music Video"
+    ]
   },
   {
     "youtube_id": "Htyjl1YRxTo",
@@ -81956,21 +82524,23 @@
     "youtube_id": "qfPZuh0vJ10",
     "title": "[AB] 우지원 WOO JEE WON - HEROINE (SeYoung & HyeRim Choreography) | Live Performance Video",
     "covered_group": [
-      "IVE"
+      "우지원"
     ],
     "tagged_members": [
+      "kim-hyerim",
+      "ha-seyoung",
       "park-sunyoung",
       "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yun-haeun"
     ],
     "published_date": "2021-07-18",
     "content_type": "video",
     "view_count": 124350,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "U1w1WfIG13g",
@@ -82522,19 +83092,31 @@
       "STAYC"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung",
+      "ha-seyoung",
+      "ahn-yoojin",
+      "yun-haeun"
     ],
+    "sponsors": [
+      "펩시"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "STAYC", "covered_member": "시은" },
+      { "member_id": "kim-minjin", "covered_group": "STAYC", "covered_member": "윤" },
+      { "member_id": "kwon-soyoung", "covered_group": "STAYC", "covered_member": "수민" },
+      { "member_id": "ha-seyoung", "covered_group": "STAYC", "covered_member": "아이사" },
+      { "member_id": "ahn-yoojin", "covered_group": "STAYC", "covered_member": "재이" },
+      { "member_id": "yun-haeun", "covered_group": "STAYC", "covered_member": "세은" }
+    ],
+    "song_group": "stacy-asaap2-2021",
     "published_date": "2021-06-21",
     "content_type": "video",
     "view_count": 1084997,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "3K4BW948KAQ",
@@ -83717,17 +84299,25 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "kim-minjin",
-      "jeong-yoojin"
+      "yeongseo",
+      "ha-seyoung",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "STAYC", "covered_member": "시은" },
+      { "member_id": "kim-minjin", "covered_group": "STAYC", "covered_member": "윤" },
+      { "member_id": "yeongseo", "covered_group": "STAYC", "covered_member": "수민" },
+      { "member_id": "ha-seyoung", "covered_group": "STAYC", "covered_member": "아이사" },
+      { "member_id": "ahn-yoojin", "covered_group": "STAYC", "covered_member": "재이" },
+      { "member_id": "yun-haeun", "covered_group": "STAYC", "covered_member": "세은" }
     ],
     "published_date": "2021-04-20",
     "content_type": "video",
     "view_count": 409045,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -83770,20 +84360,35 @@
     "youtube_id": "bluB-cLQutE",
     "title": "[AB] 스테이씨 STAYC - ASAP | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "STAYC"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "kim-minjin",
-      "jeong-yoojin"
+      "yeongseo",
+      "ha-seyoung",
+      "ahn-yoojin",
+      "yun-haeun"
     ],
+    "sponsors": [
+      "잭슨나인스"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "STAYC", "covered_member": "시은" },
+      { "member_id": "kim-minjin", "covered_group": "STAYC", "covered_member": "윤" },
+      { "member_id": "yeongseo", "covered_group": "STAYC", "covered_member": "수민" },
+      { "member_id": "ha-seyoung", "covered_group": "STAYC", "covered_member": "아이사" },
+      { "member_id": "ahn-yoojin", "covered_group": "STAYC", "covered_member": "재이" },
+      { "member_id": "yun-haeun", "covered_group": "STAYC", "covered_member": "세은" }
+    ],
+    "song_group": "stacy-asap-2021",
     "published_date": "2021-04-18",
     "content_type": "video",
     "view_count": 487186,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "Tqiz24-Kdz4",
@@ -83871,19 +84476,25 @@
       "STAYC"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
       "ha-seyoung",
+      "kim-woonggyeom",
+      "lee-sieun",
+      "park-damhee",
+      "lee-gaeun",
+      "seo-jaemin",
+      "kim-hojun",
       "kim-minjin",
+      "ahn-yoojin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-junseok"
     ],
     "published_date": "2021-04-16",
     "content_type": "video",
     "view_count": 912196,
-    "content_series": []
+    "content_series": [
+      "챌린지"
+    ]
   },
   {
     "youtube_id": "J9wCV3j2KoA",
@@ -84126,29 +84737,42 @@
     "youtube_id": "RXs0SfoA0tg",
     "title": "[방구석 여기서요?] 아이즈원 IZ*ONE - 파노라마 Panorama | 커버댄스 Dance Cover",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "oh-yubin",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "lee-seohyeon",
+      "her-naeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
+      "yoon-taegyeong",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun",
+      "park-sunyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "혜원" }
     ],
     "published_date": "2021-04-02",
     "content_type": "video",
     "view_count": 1966699,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S05"
     ]
   },
   {
@@ -85078,22 +85702,36 @@
     "youtube_id": "6QfkV3iTmqg",
     "title": "[2배속 커버댄스] 아이즈원 IZ*ONE - 파노라마 Panorama | 2x Speed Dance Cover",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "oh-yubin",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "lee-seohyeon",
+      "her-naeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
+      "yoon-taegyeong",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun",
+      "park-sunyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "혜원" }
     ],
     "published_date": "2021-02-14",
     "content_type": "video",
@@ -85106,28 +85744,42 @@
     "youtube_id": "BXToEvvhFXE",
     "title": "아이즈원 IZ*ONE - 파노라마 Panorama | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "oh-yubin",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "lee-seohyeon",
+      "her-naeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
+      "yoon-taegyeong",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun",
+      "park-sunyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "혜원" }
     ],
     "published_date": "2021-02-14",
     "content_type": "video",
     "view_count": 460749,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -85153,27 +85805,47 @@
     "youtube_id": "mK_WnCri6NI",
     "title": "[AB] 아이즈원 IZ*ONE - 파노라마 Panorama | 커버댄스 Dance Cover",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "oh-yubin",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "lee-seohyeon",
+      "her-naeun",
       "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
+      "yoon-taegyeong",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun",
+      "park-sunyoung"
     ],
+    "sponsors": [
+      "BW웨딩"
+    ],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "혜원" }
+    ],
+    "song_group": "izone-panorama-2021",
     "published_date": "2021-02-13",
     "content_type": "video",
     "view_count": 1007050,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "K0QNPdhIMlI",
@@ -89012,27 +89684,43 @@
     "youtube_id": "f8HlJwxyM4Q",
     "title": "[방구석 여기서요?] 아이즈원 IZ*ONE - 환상동화 Secret Story of the Swan | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-seohyeon",
       "lee-gaeun",
-      "ahn-yoojin",
+      "her-naeun",
+      "kim-hayeon",
       "kim-hyerim",
       "ha-seyoung",
+      "hwang-dagun",
+      "kwon-soyoung",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung",
+      "yoon-taegyeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "혜원" }
     ],
     "published_date": "2020-07-20",
     "content_type": "video",
     "view_count": 2868571,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "GO0_M8LKoF4",
@@ -89388,55 +90076,90 @@
     "youtube_id": "ZP3ktlE67i4",
     "title": "아이즈원 IZ*ONE - 환상동화 Secret Story of the Swan | 커버댄스 DANCE COVER | 연습실 PRACTICE ver.",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-seohyeon",
       "lee-gaeun",
-      "ahn-yoojin",
+      "her-naeun",
+      "kim-hayeon",
       "kim-hyerim",
       "ha-seyoung",
+      "hwang-dagun",
+      "kwon-soyoung",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung",
+      "yoon-taegyeong"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "혜원" }
     ],
     "published_date": "2020-06-30",
     "content_type": "video",
     "view_count": 644311,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "FTd7ckl2RaA",
     "title": "[AB] 아이즈원 IZ*ONE - 환상동화 Secret Story of the Swan | 커버댄스 Dance Cover",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-seohyeon",
       "lee-gaeun",
-      "ahn-yoojin",
+      "her-naeun",
+      "kim-hayeon",
       "kim-hyerim",
       "ha-seyoung",
+      "hwang-dagun",
+      "kwon-soyoung",
       "kim-minjin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung",
+      "yoon-taegyeong"
     ],
+    "sponsors": [
+      "ABLY",
+      "파티움하우스 포항"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-seohyeon", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "혜원" }
+    ],
+    "song_group": "izone-secretstoryoftheswan-2020",
     "published_date": "2020-06-29",
     "content_type": "video",
     "view_count": 572036,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "uoLDd6vYFWE",
@@ -89697,26 +90420,43 @@
     "youtube_id": "lhl5gDFP0v0",
     "title": "[방구석 여기서요?] 아이즈원 IZ*ONE - 피에스타 FIESTA | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
       "lee-gaeun",
+      "ha-seyoung",
+      "kim-hyerim",
+      "hwang-dagun",
+      "yoon-taegyeong",
+      "park-damhee",
+      "kim-minjin",
       "ahn-yoojin",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung",
+      "lee-heejin",
+      "kim-hayeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-heejin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "예나" }
     ],
     "published_date": "2020-06-20",
     "content_type": "video",
     "view_count": 2220337,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "nlvRWlFoPbA",
@@ -91162,27 +91902,42 @@
     "youtube_id": "UBUnpGhIBnk",
     "title": "아이즈원 IZ*ONE - 피에스타 FIESTA | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
       "lee-gaeun",
+      "ha-seyoung",
+      "kim-hyerim",
+      "hwang-dagun",
+      "yoon-taegyeong",
+      "park-damhee",
+      "kim-minjin",
       "ahn-yoojin",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung",
+      "lee-heejin",
+      "kim-hayeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-heejin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "예나" }
     ],
     "published_date": "2020-03-22",
     "content_type": "video",
     "view_count": 466082,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -91201,33 +91956,53 @@
     "youtube_id": "9sBWYFyF8bI",
     "title": "[AB] 아이즈원 IZ*ONE - 피에스타 FIESTA | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
       "lee-gaeun",
+      "ha-seyoung",
+      "kim-hyerim",
+      "hwang-dagun",
+      "yoon-taegyeong",
+      "park-damhee",
+      "kim-minjin",
       "ahn-yoojin",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung",
+      "lee-heejin",
+      "kim-hayeon"
     ],
+    "sponsors": [
+      "ABLY"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "hwang-dagun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "yoon-taegyeong", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "kim-minjin", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "ahn-yoojin", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "lee-heejin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "예나" }
+    ],
+    "song_group": "izone-fiesta-2020",
     "published_date": "2020-03-21",
     "content_type": "video",
     "view_count": 820653,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "yWCGrH7KyLQ",
     "title": "[작은소영.zip] AB 멤버별 하이라이트 몰아보기! 쏘블리💕 작은소영 모음.zip",
     "covered_group": [],
     "tagged_members": [
-      "park-soyoung",
       "kwon-soyoung"
     ],
     "published_date": "2020-03-20",
@@ -93103,18 +93878,36 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
+    ],
+    "sponsors": [
+      "달성군"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-11-16",
     "content_type": "video",
     "view_count": 540096,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "aOR2KZxzLTM",
@@ -93540,37 +94333,69 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-13",
     "content_type": "video",
     "view_count": 4994977,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "2E54LVLtkmQ",
     "title": "[AB 직캠] TWICE 트와이스 - FANCY 팬시 | Dance Cover 커버댄스 @SBS슈퍼콘서트",
     "covered_group": [
-      "IVE"
+      "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kim-hayeon",
+      "oh-yubin",
+      "her-naeun",
+      "choi-nara",
       "ha-seyoung",
-      "oh-yubin"
+      "kwon-soyoung",
+      "park-damhee",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "choi-nara", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-12",
     "content_type": "video",
     "view_count": 235422,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "4u87eI3UHeU",
@@ -93792,21 +94617,37 @@
     "youtube_id": "2l2FG04RCkA",
     "title": "[AB 직캠] TWICE 트와이스 - Feel Special | Dance Cover 커버댄스 @SBS슈퍼콘서트",
     "covered_group": [
-      "IVE"
+      "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-07",
     "content_type": "video",
     "view_count": 919551,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "Klo2yXPaupE",
@@ -93815,19 +94656,32 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-07",
     "content_type": "video",
     "view_count": 2024640,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -93837,18 +94691,33 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-10-06",
     "content_type": "video",
     "view_count": 3832174,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "UfhoL4phH1s",
@@ -93876,18 +94745,35 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "park-damhee",
+      "yun-haeun",
+      "lee-gaeun",
+      "park-soyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kwon-soyoung",
+      "kim-minjin",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "yun-haeun", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "oh-yubin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-minjin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
+    ],
+    "song_group": "twice-feelspecial-2019",
     "published_date": "2019-10-05",
     "content_type": "video",
     "view_count": 957841,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "Q2EXTYGf5SA",
@@ -95255,25 +96141,42 @@
     "youtube_id": "MQC9rGNhy2Q",
     "title": "IZ*ONE 아이즈원 - VIOLETA 비올레타 | 커버댄스 DANCE COVER | 연습실 PRACTICE ver.",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
+      "kim-eunbin",
+      "lee-sieun",
+      "park-damhee",
+      "kwon-soyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "jinhee",
       "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "jeong-yoojin"
+      "minju",
+      "kim-hyerim"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "lee-sieun", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "예나" }
     ],
     "published_date": "2019-06-13",
     "content_type": "video",
     "view_count": 224504,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -95306,24 +96209,47 @@
     "youtube_id": "iKLu1GIQgjw",
     "title": "[AB] IZ*ONE 아이즈원 - 비올레타 Violeta  | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
+      "kim-eunbin",
+      "lee-sieun",
+      "park-damhee",
+      "kwon-soyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "jinhee",
       "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "jeong-yoojin"
+      "minju",
+      "kim-hyerim"
+    ],
+    "sponsors": [
+      "chuu",
+      "보문 콜로세움"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "lee-sieun", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "예나" }
     ],
     "published_date": "2019-06-11",
     "content_type": "video",
     "view_count": 589533,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "KrFEijPgetY",
@@ -95361,25 +96287,43 @@
     "youtube_id": "xNLO3gEoqyg",
     "title": "[여기서요?] IZ*ONE 아이즈원 - VIOLETA 비올레타 | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
+      "kim-eunbin",
+      "lee-sieun",
+      "park-damhee",
+      "kwon-soyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "jinhee",
       "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "jeong-yoojin"
+      "minju",
+      "kim-hyerim"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "lee-sieun", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "채원" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "예나" }
+    ],
+    "song_group": "izone-violeta-2019",
     "published_date": "2019-06-07",
     "content_type": "video",
     "view_count": 2453823,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -95645,22 +96589,40 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
+      "lee-gaeun",
       "kwon-soyoung",
-      "lee-gaeun"
+      "choi-nara",
+      "jinhee",
+      "kim-hayeon",
+      "suvin",
+      "lee-sieun",
+      "kim-eunbin",
+      "her-naeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "choi-nara", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "쯔위" }
     ],
     "published_date": "2019-05-13",
     "content_type": "video",
     "view_count": 228824,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "X8iwIn4QcTs",
     "title": "[AB 직캠] SEVENTEEN 세븐틴 - HOME | DANCE COVER 커버댄스 @동성로 축제",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong"
@@ -95849,16 +96811,32 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "lee-gaeun",
       "kim-hayeon",
+      "jinhee",
+      "her-naeun",
+      "choi-nara",
+      "suvin",
       "kwon-soyoung",
-      "lee-gaeun"
+      "kim-eunbin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "choi-nara", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-05-09",
     "content_type": "video",
     "view_count": 396445,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -95868,15 +96846,34 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "lee-gaeun",
       "kim-hayeon",
+      "jinhee",
+      "her-naeun",
+      "choi-nara",
+      "suvin",
       "kwon-soyoung",
-      "lee-gaeun"
+      "kim-eunbin",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "choi-nara", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" }
     ],
     "published_date": "2019-05-08",
     "content_type": "video",
     "view_count": 855849,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "FHRJZ6-v9Hs",
@@ -95904,24 +96901,39 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
+      "lee-gaeun",
       "kwon-soyoung",
-      "lee-gaeun"
+      "choi-nara",
+      "jinhee",
+      "kim-hayeon",
+      "suvin",
+      "lee-sieun",
+      "kim-eunbin",
+      "her-naeun"
     ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "choi-nara", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "쯔위" }
+    ],
+    "song_group": "twice-fancy-2019",
     "published_date": "2019-05-05",
     "content_type": "video",
     "view_count": 9012745,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
     "youtube_id": "DuEYAO85GdA",
     "title": "[AB] BLACKPINK - Don't Know What To Do | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -97193,24 +98205,43 @@
     "youtube_id": "QFZBQS-AVK0",
     "title": "[한복 입고 여기서요?] 새해맞이 아이즈원 IZ*ONE - 라비앙로즈 LA VIE EN ROSE | 커버댄스 DANCE COVER | KPOP IN PUBLIC",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "park-damhee",
+      "kim-eunbin",
+      "lee-sieun",
+      "lee-gaeun",
+      "her-naeun",
       "kim-hayeon",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "minju",
+      "garin",
+      "yun-bogyeong",
+      "ha-seyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "lee-sieun", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "lee-gaeun", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "kim-hayeon", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "garin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "yun-bogyeong", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "채원" }
+    ],
+    "song_group": "izone-lavieenrose-2018",
     "published_date": "2019-02-04",
     "content_type": "video",
     "view_count": 817839,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -97646,15 +98677,14 @@
     "covered_group": [
       "IZ*ONE"
     ],
-    "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin",
-      "baek-jina"
-    ],
+    "tagged_members": [],
     "published_date": "2019-01-09",
     "content_type": "video",
     "view_count": 146410,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::제이원 엔터테인먼트 아카데미::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "h-m06Hg1a2s",
@@ -97746,24 +98776,42 @@
     "youtube_id": "OOM8z2Mgb7g",
     "title": "[AB PRACTICE] 아이즈원 IZ*ONE - 라비앙로즈 LA VIE EN ROSE | 커버댄스 DANCE COVER | 연습실 ver.",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
+      "kim-eunbin",
       "kim-hyerim",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "jinhee",
+      "her-naeun",
+      "park-sunyoung",
+      "kwon-soyoung",
+      "yun-haeun",
+      "minju",
+      "garin",
+      "yun-bogyeong",
+      "ha-seyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "garin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "yun-bogyeong", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "채원" }
     ],
     "published_date": "2019-01-03",
     "content_type": "video",
     "view_count": 92435,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -97785,30 +98833,49 @@
     "youtube_id": "HfByc-GrGx0",
     "title": "[AB] 아이즈원 IZ*ONE - 라비앙로즈 LA VIE EN ROSE | 커버댄스 DANCE COVER",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
+      "kim-eunbin",
       "kim-hyerim",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "jinhee",
+      "her-naeun",
+      "park-sunyoung",
+      "kwon-soyoung",
+      "yun-haeun",
+      "minju",
+      "garin",
+      "yun-bogyeong",
+      "ha-seyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "garin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "yun-bogyeong", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "채원" }
     ],
     "published_date": "2019-01-02",
     "content_type": "video",
     "view_count": 287088,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "laKvqJm0MJg",
     "title": "[AB PRACTICE] EXO 엑소 - LOVE SHOT (Boys ver.) | 커버댄스 DANCE COVER | 연습실 ver.",
     "covered_group": [
-      "백현",
-      "카이",
       "EXO"
     ],
     "tagged_members": [
@@ -97820,7 +98887,7 @@
     "content_type": "video",
     "view_count": 86474,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -97845,24 +98912,43 @@
     "youtube_id": "q0AS_NGrcw0",
     "title": "[여기서요?] 아이즈원 IZ*ONE - 라비앙로즈 LA VIE EN ROSE | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "YENA",
       "IZ*ONE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
+      "kim-eunbin",
       "kim-hyerim",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "jinhee",
+      "her-naeun",
+      "park-sunyoung",
+      "kwon-soyoung",
+      "yun-haeun",
+      "minju",
+      "garin",
+      "yun-bogyeong",
+      "ha-seyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "IZ*ONE", "covered_member": "원영" },
+      { "member_id": "kim-eunbin", "covered_group": "IZ*ONE", "covered_member": "은비" },
+      { "member_id": "kim-hyerim", "covered_group": "IZ*ONE", "covered_member": "채연" },
+      { "member_id": "jinhee", "covered_group": "IZ*ONE", "covered_member": "사쿠라" },
+      { "member_id": "her-naeun", "covered_group": "IZ*ONE", "covered_member": "히토미" },
+      { "member_id": "park-sunyoung", "covered_group": "IZ*ONE", "covered_member": "나코" },
+      { "member_id": "kwon-soyoung", "covered_group": "IZ*ONE", "covered_member": "유진" },
+      { "member_id": "yun-haeun", "covered_group": "IZ*ONE", "covered_member": "유리" },
+      { "member_id": "minju", "covered_group": "IZ*ONE", "covered_member": "민주" },
+      { "member_id": "garin", "covered_group": "IZ*ONE", "covered_member": "혜원" },
+      { "member_id": "yun-bogyeong", "covered_group": "IZ*ONE", "covered_member": "예나" },
+      { "member_id": "ha-seyoung", "covered_group": "IZ*ONE", "covered_member": "채원" }
+    ],
+    "song_group": "izone-lavieenrose-2018",
     "published_date": "2018-12-31",
     "content_type": "video",
     "view_count": 3884624,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
