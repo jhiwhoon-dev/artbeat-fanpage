@@ -19909,16 +19909,26 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "cho-yuna",
       "oh-yubin",
       "lee-wina",
-      "cho-yuna"
+      "aoki-yuka",
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "cho-yuna", "covered_group": "KiiiKiii", "covered_member": "지유" },
+      { "member_id": "oh-yubin", "covered_group": "KiiiKiii", "covered_member": "이솔" },
+      { "member_id": "lee-wina", "covered_group": "KiiiKiii", "covered_member": "수이" },
+      { "member_id": "lee-jeonghee", "covered_group": "KiiiKiii", "covered_member": "하음" },
+      { "member_id": "lee-gaeun", "covered_group": "KiiiKiii", "covered_member": "키야" }
+    ],
+    "song_group": "kiiikiii-dancingalone-2025",
     "published_date": "2025-11-01",
     "content_type": "video",
     "view_count": 90510,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -30808,11 +30818,27 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "oh-yubin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" },
+      { "member_id": "yun-haeun", "covered_group": "KISS OF LIFE", "covered_member": "벨" }
+    ],
+    "song_group": "kissoflife-igloo-2024",
     "published_date": "2025-06-16",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 178121,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y",
+      "행사::2025y"
+    ]
   },
   {
     "youtube_id": "Oo2UfpOhw08",
@@ -32074,16 +32100,27 @@
       "KATSEYE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
-      "ha-seyoung",
+      "lee-gaeun",
       "kang-minji",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KATSEYE", "covered_member": "마농" },
+      { "member_id": "lee-gaeun", "covered_group": "KATSEYE", "covered_member": "소피아" },
+      { "member_id": "kang-minji", "covered_group": "KATSEYE", "covered_member": "다니엘라" },
+      { "member_id": "lee-jeonghee", "covered_group": "KATSEYE", "covered_member": "라라" },
+      { "member_id": "jeong-yoojin", "covered_group": "KATSEYE", "covered_member": "메간" },
+      { "member_id": "ha-seyoung", "covered_group": "KATSEYE", "covered_member": "윤채" }
     ],
     "published_date": "2025-05-26",
     "content_type": "video",
     "view_count": 3524006,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "gAJS7DKwqqY",
@@ -32344,16 +32381,23 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
       "oh-yubin",
+      "lee-gaeun",
       "kang-minji"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" },
+      { "member_id": "kang-minji", "covered_group": "KISS OF LIFE", "covered_member": "벨" }
     ],
     "published_date": "2025-05-22",
     "content_type": "video",
     "view_count": 487806,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -33770,17 +33814,27 @@
       "KATSEYE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
-      "ha-seyoung",
+      "lee-gaeun",
       "kang-minji",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "ha-seyoung"
     ],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KATSEYE", "covered_member": "마농" },
+      { "member_id": "lee-gaeun", "covered_group": "KATSEYE", "covered_member": "소피아" },
+      { "member_id": "kang-minji", "covered_group": "KATSEYE", "covered_member": "다니엘라" },
+      { "member_id": "lee-jeonghee", "covered_group": "KATSEYE", "covered_member": "라라" },
+      { "member_id": "jeong-yoojin", "covered_group": "KATSEYE", "covered_member": "메간" },
+      { "member_id": "ha-seyoung", "covered_group": "KATSEYE", "covered_member": "윤채" }
+    ],
+    "song_group": "katseye-gnarly-2025",
     "published_date": "2025-05-12",
     "content_type": "video",
     "view_count": 2042356,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -34597,17 +34651,26 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "jeong-hyunjin",
+      "aoki-yuka",
       "kang-minji",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-hyunjin", "covered_group": "KiiiKiii", "covered_member": "지유" },
+      { "member_id": "aoki-yuka", "covered_group": "KiiiKiii", "covered_member": "이솔" },
+      { "member_id": "kang-minji", "covered_group": "KiiiKiii", "covered_member": "수이" },
+      { "member_id": "lee-jeonghee", "covered_group": "KiiiKiii", "covered_member": "하음" },
+      { "member_id": "lee-gaeun", "covered_group": "KiiiKiii", "covered_member": "키야" }
+    ],
+    "song_group": "kiiikiii-btg-2025",
     "published_date": "2025-05-04",
     "content_type": "video",
     "view_count": 257923,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -40764,17 +40827,23 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
       "oh-yubin",
+      "lee-gaeun",
       "kang-minji"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" },
+      { "member_id": "kang-minji", "covered_group": "KISS OF LIFE", "covered_member": "벨" }
     ],
     "published_date": "2025-02-02",
     "content_type": "video",
     "view_count": 2553751,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -43944,7 +44013,9 @@
     "published_date": "2024-11-23",
     "content_type": "short",
     "view_count": 1104110,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "fnBttRnoEeA",
@@ -44176,10 +44247,17 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
       "oh-yubin",
+      "lee-gaeun",
       "kang-minji"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" },
+      { "member_id": "kang-minji", "covered_group": "KISS OF LIFE", "covered_member": "벨" }
     ],
     "published_date": "2024-11-21",
     "content_type": "video",
@@ -44362,16 +44440,24 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "kim-hyerim",
       "oh-yubin",
+      "lee-gaeun",
       "kang-minji"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" },
+      { "member_id": "kang-minji", "covered_group": "KISS OF LIFE", "covered_member": "벨" }
+    ],
+    "song_group": "kissoflife-igloo-2024",
     "published_date": "2024-11-18",
     "content_type": "video",
     "view_count": 3801496,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -45388,6 +45474,16 @@
       "oh-yubin",
       "ha-jeuki"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ahn-yoojin", "covered_group": "KATSEYE", "covered_member": "마농" },
+      { "member_id": "kim-chan", "covered_group": "KATSEYE", "covered_member": "소피아" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "KATSEYE", "covered_member": "다니엘라" },
+      { "member_id": "lee-gaeun", "covered_group": "KATSEYE", "covered_member": "라라" },
+      { "member_id": "oh-yubin", "covered_group": "KATSEYE", "covered_member": "메간" },
+      { "member_id": "ha-jeuki", "covered_group": "KATSEYE", "covered_member": "윤채" }
+    ],
+    "song_group": "katseye-touch-2024",
     "published_date": "2024-10-08",
     "content_type": "video",
     "view_count": 974803,
@@ -48423,14 +48519,22 @@
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "KISS OF LIFE", "covered_member": "벨" },
+      { "member_id": "yun-haeun", "covered_group": "KISS OF LIFE", "covered_member": "나띠" },
+      { "member_id": "oh-yubin", "covered_group": "KISS OF LIFE", "covered_member": "하늘" },
+      { "member_id": "ha-seyoung", "covered_group": "KISS OF LIFE", "covered_member": "쥴리" }
+    ],
+    "song_group": "kissoflife-midastouch-2024",
     "published_date": "2024-05-30",
     "content_type": "video",
     "view_count": 281868,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -58199,7 +58303,9 @@
     "published_date": "2023-10-01",
     "content_type": "short",
     "view_count": 132812,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "1FO6kBbZqSk",
@@ -58562,19 +58668,34 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "song-haeun",
       "ha-seyoung",
-      "oh-yubin",
+      "yuna",
       "ji-ayeong",
-      "jeong-yoojin"
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "jeong-jihye",
+      "son-wonye"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "ha-seyoung", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "yuna", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "ji-ayeong", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" },
+      { "member_id": "oh-yubin", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "seol-heejeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "jeong-jihye", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "son-wonye", "covered_group": "Kep1er", "covered_member": "휴닝바히에" }
+    ],
+    "song_group": "kep1er-galileo-2023",
     "published_date": "2023-09-27",
     "content_type": "video",
     "view_count": 677111,
     "content_series": [
-      "여기서요?"
+      "방구석 여기서요?::S14"
     ]
   },
   {
@@ -67375,17 +67496,27 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
+      "lee-moonkyu",
+      "oh-yubin",
       "kim-suhwan",
-      "lee-gaeun",
-      "oh-yubin"
+      "lee-gaeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-moonkyu", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "oh-yubin", "covered_group": "슬기", "covered_member": "슬기" },
+      { "member_id": "kim-suhwan", "covered_group": "JENO", "covered_member": "JENO" },
+      { "member_id": "lee-gaeun", "covered_group": "KARINA", "covered_member": "KARINA" }
     ],
     "published_date": "2023-03-23",
     "content_type": "video",
     "view_count": 1222141,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "7ozIrk3UnwA",
@@ -69518,18 +69649,26 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
+      "lee-moonkyu",
+      "oh-yubin",
       "kim-suhwan",
-      "lee-gaeun",
-      "oh-yubin"
+      "lee-gaeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-moonkyu", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "oh-yubin", "covered_group": "슬기", "covered_member": "슬기" },
+      { "member_id": "kim-suhwan", "covered_group": "JENO", "covered_member": "JENO" },
+      { "member_id": "lee-gaeun", "covered_group": "KARINA", "covered_member": "KARINA" }
     ],
     "published_date": "2023-01-24",
     "content_type": "video",
     "view_count": 249696,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -69555,17 +69694,28 @@
     "covered_group": [
       "슬기",
       "KARINA",
-      "카이"
+      "카이",
+      "JENO"
     ],
     "tagged_members": [
+      "lee-moonkyu",
+      "oh-yubin",
       "kim-suhwan",
-      "lee-gaeun",
-      "oh-yubin"
+      "lee-gaeun"
     ],
+    "role_mapping": [
+      { "member_id": "lee-moonkyu", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "oh-yubin", "covered_group": "슬기", "covered_member": "슬기" },
+      { "member_id": "kim-suhwan", "covered_group": "JENO", "covered_member": "JENO" },
+      { "member_id": "lee-gaeun", "covered_group": "KARINA", "covered_member": "KARINA" }
+    ],
+    "song_group": "kaiseulgijenokarina-hotncold-2023",
     "published_date": "2023-01-22",
     "content_type": "video",
     "view_count": 704146,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "kMzRmcZ9mOE",
@@ -73372,6 +73522,18 @@
       "park-sunyoung",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "yun-bogyeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "park-damhee", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "kang-yejin", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "park-sunyoung", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" }
+    ],
     "published_date": "2022-08-13",
     "content_type": "video",
     "view_count": 712205,
@@ -74481,7 +74643,6 @@
     "youtube_id": "o2DvkHg1qaw",
     "title": "[AB 직캠] (여자)아이들 (G)I-DLE - TOMBOY | 커버댄스 Dance Cover @‘2022 동성로핫축제",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
@@ -74504,20 +74665,35 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
+      "song-haeun",
+      "yun-bogyeong",
+      "yoon-taegyeong",
       "yun-haeun",
+      "park-damhee",
+      "park-soyoung",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "park-sunyoung",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "yun-bogyeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "park-damhee", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "kang-yejin", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "park-sunyoung", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" }
     ],
     "published_date": "2022-07-10",
     "content_type": "video",
     "view_count": 94752,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "2DkgP3QNk3Q",
@@ -74595,21 +74771,33 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
+      "song-haeun",
+      "yun-bogyeong",
+      "yoon-taegyeong",
       "yun-haeun",
+      "park-damhee",
+      "park-soyoung",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "park-sunyoung",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "yun-bogyeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "park-damhee", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "kang-yejin", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "park-sunyoung", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" }
     ],
     "published_date": "2022-07-07",
     "content_type": "video",
     "view_count": 89109,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -74619,20 +74807,34 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
+      "song-haeun",
+      "yun-bogyeong",
+      "yoon-taegyeong",
       "yun-haeun",
+      "park-damhee",
+      "park-soyoung",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "park-sunyoung",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "yun-bogyeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "park-damhee", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "kang-yejin", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "park-sunyoung", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" }
     ],
     "published_date": "2022-07-06",
     "content_type": "video",
     "view_count": 168783,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "7Sl51pKScJ8",
@@ -74651,20 +74853,38 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
+      "song-haeun",
+      "yun-bogyeong",
+      "yoon-taegyeong",
       "yun-haeun",
+      "park-damhee",
+      "park-soyoung",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "park-sunyoung",
+      "lee-gaeun"
     ],
+    "sponsors": [
+      "김해롯데워터파크"
+    ],
+    "role_mapping": [
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "yun-bogyeong", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "park-damhee", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "kang-yejin", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "park-sunyoung", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "강예서" }
+    ],
+    "song_group": "kep1er-up-2022",
     "published_date": "2022-07-05",
     "content_type": "video",
     "view_count": 217055,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "pjkJXYgBhfI",
@@ -76799,16 +77019,29 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "lee-seohyeon",
+      "ha-seyoung",
       "bang-jooyeon",
-      "yoon-taegyeong",
+      "yun-haeun",
       "lee-sieun",
-      "song-haeun"
+      "park-soyoung",
+      "song-haeun",
+      "lee-gaeun",
+      "yoon-taegyeong"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-seohyeon", "covered_group": "Kep1er", "covered_member": "최유진" },
+      { "member_id": "ha-seyoung", "covered_group": "Kep1er", "covered_member": "샤오팅" },
+      { "member_id": "bang-jooyeon", "covered_group": "Kep1er", "covered_member": "마시로" },
+      { "member_id": "yun-haeun", "covered_group": "Kep1er", "covered_member": "김채현" },
+      { "member_id": "lee-sieun", "covered_group": "Kep1er", "covered_member": "김다연" },
+      { "member_id": "park-soyoung", "covered_group": "Kep1er", "covered_member": "히카루" },
+      { "member_id": "song-haeun", "covered_group": "Kep1er", "covered_member": "휴닝바히에" },
+      { "member_id": "lee-gaeun", "covered_group": "Kep1er", "covered_member": "서영은" },
+      { "member_id": "yoon-taegyeong", "covered_group": "Kep1er", "covered_member": "강예서" }
+    ],
+    "song_group": "kep1er-mvsk-2022",
     "published_date": "2022-04-15",
     "content_type": "video",
     "view_count": 862456,
