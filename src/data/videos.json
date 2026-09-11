@@ -10194,7 +10194,6 @@
     "youtube_id": "fgZdEf2zC9k",
     "title": "#가은 'ITZY - THAT'S A NO NO' Dance Cover #Gaeun",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -13910,17 +13909,32 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
+      "aoki-yuka",
       "oh-yubin",
-      "bang-jooyeon",
-      "won-seoa"
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "aoki-yuka", "covered_group": "Hearts2Hearts", "covered_member": "스텔라" },
+      { "member_id": "oh-yubin", "covered_group": "Hearts2Hearts", "covered_member": "지우" },
+      { "member_id": "kim-chan", "covered_group": "Hearts2Hearts", "covered_member": "카르맨" },
+      { "member_id": "yun-haeun", "covered_group": "Hearts2Hearts", "covered_member": "유하" },
+      { "member_id": "won-seoa", "covered_group": "Hearts2Hearts", "covered_member": "주은" },
+      { "member_id": "lee-gaeun", "covered_group": "Hearts2Hearts", "covered_member": "에이나" },
+      { "member_id": "ha-seyoung", "covered_group": "Hearts2Hearts", "covered_member": "이안" },
+      { "member_id": "bang-jooyeon", "covered_group": "Hearts2Hearts", "covered_member": "예온" }
     ],
     "published_date": "2025-12-27",
     "content_type": "video",
     "view_count": 428515,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "1Ijeq3r-Vjk",
@@ -18085,12 +18099,25 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
+      "aoki-yuka",
       "oh-yubin",
-      "bang-jooyeon",
-      "won-seoa"
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "aoki-yuka", "covered_group": "Hearts2Hearts", "covered_member": "스텔라" },
+      { "member_id": "oh-yubin", "covered_group": "Hearts2Hearts", "covered_member": "지우" },
+      { "member_id": "kim-chan", "covered_group": "Hearts2Hearts", "covered_member": "카르맨" },
+      { "member_id": "yun-haeun", "covered_group": "Hearts2Hearts", "covered_member": "유하" },
+      { "member_id": "won-seoa", "covered_group": "Hearts2Hearts", "covered_member": "주은" },
+      { "member_id": "lee-gaeun", "covered_group": "Hearts2Hearts", "covered_member": "에이나" },
+      { "member_id": "ha-seyoung", "covered_group": "Hearts2Hearts", "covered_member": "이안" },
+      { "member_id": "bang-jooyeon", "covered_group": "Hearts2Hearts", "covered_member": "예온" }
     ],
     "published_date": "2025-11-14",
     "content_type": "video",
@@ -18166,17 +18193,33 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
+      "aoki-yuka",
       "oh-yubin",
-      "bang-jooyeon",
-      "won-seoa"
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "aoki-yuka", "covered_group": "Hearts2Hearts", "covered_member": "스텔라" },
+      { "member_id": "oh-yubin", "covered_group": "Hearts2Hearts", "covered_member": "지우" },
+      { "member_id": "kim-chan", "covered_group": "Hearts2Hearts", "covered_member": "카르맨" },
+      { "member_id": "yun-haeun", "covered_group": "Hearts2Hearts", "covered_member": "유하" },
+      { "member_id": "won-seoa", "covered_group": "Hearts2Hearts", "covered_member": "주은" },
+      { "member_id": "lee-gaeun", "covered_group": "Hearts2Hearts", "covered_member": "에이나" },
+      { "member_id": "ha-seyoung", "covered_group": "Hearts2Hearts", "covered_member": "이안" },
+      { "member_id": "bang-jooyeon", "covered_group": "Hearts2Hearts", "covered_member": "예온" }
+    ],
+    "song_group": "hearts2hearts-focus-2025",
     "published_date": "2025-11-13",
     "content_type": "video",
     "view_count": 927309,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "dA-orgc1NGo",
@@ -32868,11 +32911,19 @@
       "ILLIT"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "oh-yubin",
       "jang-sein",
-      "cho-yuna"
+      "oh-yubin",
+      "yun-haeun",
+      "aoki-yuka",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jang-sein", "covered_group": "ILLIT", "covered_member": "윤아" },
+      { "member_id": "oh-yubin", "covered_group": "ILLIT", "covered_member": "민주" },
+      { "member_id": "yun-haeun", "covered_group": "ILLIT", "covered_member": "원희" },
+      { "member_id": "aoki-yuka", "covered_group": "ILLIT", "covered_member": "모카" },
+      { "member_id": "lee-gaeun", "covered_group": "ILLIT", "covered_member": "이로하" }
     ],
     "published_date": "2025-05-17",
     "content_type": "video",
@@ -34970,18 +35021,26 @@
       "ILLIT"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "oh-yubin",
       "jang-sein",
-      "cho-yuna"
+      "oh-yubin",
+      "yun-haeun",
+      "aoki-yuka",
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jang-sein", "covered_group": "ILLIT", "covered_member": "윤아" },
+      { "member_id": "oh-yubin", "covered_group": "ILLIT", "covered_member": "민주" },
+      { "member_id": "yun-haeun", "covered_group": "ILLIT", "covered_member": "원희" },
+      { "member_id": "aoki-yuka", "covered_group": "ILLIT", "covered_member": "모카" },
+      { "member_id": "lee-gaeun", "covered_group": "ILLIT", "covered_member": "이로하" }
+    ],
+    "song_group": "illit-almondchocolate-2025",
     "published_date": "2025-04-28",
     "content_type": "video",
     "view_count": 249577,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -40178,6 +40237,14 @@
       "kang-yejin",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "ILLIT", "covered_member": "윤아" },
+      { "member_id": "oh-yubin", "covered_group": "ILLIT", "covered_member": "민주" },
+      { "member_id": "jeong-hyunjin", "covered_group": "ILLIT", "covered_member": "모카" },
+      { "member_id": "kang-yejin", "covered_group": "ILLIT", "covered_member": "원희" },
+      { "member_id": "lee-gaeun", "covered_group": "ILLIT", "covered_member": "이로하" }
+    ],
     "published_date": "2025-02-06",
     "content_type": "video",
     "view_count": 1197681,
@@ -40289,6 +40356,15 @@
       "kang-yejin",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "ILLIT", "covered_member": "윤아" },
+      { "member_id": "oh-yubin", "covered_group": "ILLIT", "covered_member": "민주" },
+      { "member_id": "jeong-hyunjin", "covered_group": "ILLIT", "covered_member": "모카" },
+      { "member_id": "kang-yejin", "covered_group": "ILLIT", "covered_member": "원희" },
+      { "member_id": "lee-gaeun", "covered_group": "ILLIT", "covered_member": "이로하" }
+    ],
+    "song_group": "illit-ticktack-2024",
     "published_date": "2025-02-05",
     "content_type": "video",
     "view_count": 193652,
@@ -49352,6 +49428,15 @@
       "aoki-yuka",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "ILLIT", "covered_member": "윤아" },
+      { "member_id": "oh-yubin", "covered_group": "ILLIT", "covered_member": "민주" },
+      { "member_id": "yun-haeun", "covered_group": "ILLIT", "covered_member": "원희" },
+      { "member_id": "aoki-yuka", "covered_group": "ILLIT", "covered_member": "모카" },
+      { "member_id": "lee-gaeun", "covered_group": "ILLIT", "covered_member": "이로하" }
+    ],
+    "song_group": "illit-magnetic-2024",
     "published_date": "2024-05-12",
     "content_type": "video",
     "view_count": 173419,
@@ -66395,23 +66480,33 @@
     "youtube_id": "tIuDiOWAybw",
     "title": "[방구석 여기서요?] GOT The Beat - Stamp On It | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "kang-yejin",
-      "ji-ayeong",
       "jeong-gyeolgyeong",
-      "lee-yejin"
+      "lee-gaeun",
+      "kim-hyerim",
+      "yein",
+      "ji-ayeong",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "yein", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "ji-ayeong", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
     ],
     "published_date": "2023-03-31",
     "content_type": "video",
     "view_count": 810945,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "vVGHDlkpYCw",
@@ -68393,22 +68488,33 @@
     "youtube_id": "yjEwJW7QsS8",
     "title": "GOT The Beat - Stamp On It | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
+      "jeong-gyeolgyeong",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
+      "yein",
       "ji-ayeong",
-      "jeong-gyeolgyeong"
+      "ha-seyoung",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "yein", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "ji-ayeong", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
+    ],
+    
     "published_date": "2023-02-09",
     "content_type": "video",
     "view_count": 197195,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -68533,21 +68639,34 @@
     "youtube_id": "OD8K6uZ0a2M",
     "title": "[여기서요?] GOT The Beat - Stamp On It | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
+      "jeong-gyeolgyeong",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
+      "yein",
       "ji-ayeong",
-      "jeong-gyeolgyeong"
+      "ha-seyoung",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "yein", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "ji-ayeong", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
+    ],
+    "song_group": "gotthebeat-stamponit-2023",
     "published_date": "2023-02-08",
     "content_type": "video",
     "view_count": 449674,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "vDXMNDyCqJs",
@@ -69325,6 +69444,7 @@
       "kim-minjin",
       "oh-yubin"
     ],
+    "song_group": "girlsreverse-ipromise-2023",
     "published_date": "2023-01-05",
     "content_type": "video",
     "view_count": 208255,
@@ -71866,20 +71986,28 @@
     "youtube_id": "xJlSyT2Y7Do",
     "title": "[여기서요?]  있지 ITZY - SNEAKERS (SCHOOL LOOK ver.) | 커버댄스 Dance Cover @20220903 신촌 버스킹",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
+      "song-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "song-haeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2022-09-07",
     "content_type": "video",
     "view_count": 419434,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y"
     ]
   },
   {
@@ -72664,6 +72792,15 @@
       "oh-yubin",
       "ha-seyoung"
     ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "류진" }
+    ],
     "published_date": "2022-08-15",
     "content_type": "video",
     "view_count": 2090663,
@@ -72914,16 +73051,25 @@
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
+      "song-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "song-haeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2022-08-09",
     "content_type": "video",
     "view_count": 133878,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -72951,20 +73097,28 @@
     "youtube_id": "Gzm1j0yhDfQ",
     "title": "[여기서요?] 있지 ITZY - SNEAKERS | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
+      "song-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "song-haeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2022-08-08",
     "content_type": "video",
     "view_count": 801698,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -73042,19 +73196,30 @@
     "youtube_id": "TOUP5_cEMUc",
     "title": "[AB] 있지 ITZY - SNEAKERS | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
+      "song-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "song-haeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2022-08-06",
     "content_type": "video",
     "view_count": 165857,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "tSe57fjBRSo",
@@ -73499,12 +73664,21 @@
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "song-haeun"
+      "song-haeun",
+      "ha-seyoung",
+      "lee-gaeun",
+      "yun-haeun"
     ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "song-haeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
+    ],
+    "song_group": "itzy-sneakers-2022",
     "published_date": "2022-07-25",
     "content_type": "video",
     "view_count": 2035373,
@@ -74063,8 +74237,17 @@
       "park-damhee",
       "lee-sieun",
       "park-soyoung",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2022-06-29",
     "content_type": "video",
@@ -74078,20 +74261,32 @@
     "youtube_id": "iMPtXqGfw5k",
     "title": "[여기서요?] ITZY (예지 YEJI & 류진 RYUJIN) - Break My Heart Myself | 커버댄스 Dance Cover @뮤지컬거리",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung",
-      "oh-yubin"
+      "park-damhee",
+      "lee-sieun",
+      "park-soyoung",
+      "oh-yubin",
+      "ha-seyoung"
     ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "류진" }
+    ],
+    "song_group": "itzy-breakmyheartmyself-2022",
     "published_date": "2022-06-25",
     "content_type": "video",
     "view_count": 660853,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "5fDyZSsJsJQ",
@@ -76501,23 +76696,33 @@
     "youtube_id": "bVGS6Zissvk",
     "title": "[AB | 방구석 여기서요?] GOT the Beat - Step Back | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "song-haeun",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "kang-yejin", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "song-haeun", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
     ],
     "published_date": "2022-04-06",
     "content_type": "video",
     "view_count": 1861449,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09"
+    ]
   },
   {
     "youtube_id": "3_t8jIIUk7s",
@@ -77805,69 +78010,99 @@
     "youtube_id": "Zpe52j7lxr4",
     "title": "GOT The Beat - Step Back | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "song-haeun",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "kang-yejin", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "song-haeun", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
     ],
     "published_date": "2022-01-25",
     "content_type": "video",
     "view_count": 1149050,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
     "youtube_id": "nJmhNBJp3jc",
     "title": "[AB] GOT The Beat - Step Back | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "song-haeun",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "kang-yejin", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "song-haeun", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
     ],
     "published_date": "2022-01-24",
     "content_type": "video",
     "view_count": 970881,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "0w0Go3M9UxA",
     "title": "[여기서요?] GOT The Beat - Step Back | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "슬기",
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "song-haeun",
+      "ha-seyoung",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "GOT the beat", "covered_member": "보아" },
+      { "member_id": "lee-gaeun", "covered_group": "GOT the beat", "covered_member": "태연" },
+      { "member_id": "kim-hyerim", "covered_group": "GOT the beat", "covered_member": "효연" },
+      { "member_id": "kang-yejin", "covered_group": "GOT the beat", "covered_member": "슬기" },
+      { "member_id": "song-haeun", "covered_group": "GOT the beat", "covered_member": "웬디" },
+      { "member_id": "ha-seyoung", "covered_group": "GOT the beat", "covered_member": "카리나" },
+      { "member_id": "yun-haeun", "covered_group": "GOT the beat", "covered_member": "윈터" }
+    ],
+    "song_group": "gotthebeat-stepback-2022",
     "published_date": "2022-01-22",
     "content_type": "video",
     "view_count": 1769098,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "gmkNfJtCiPQ",
@@ -78649,20 +78884,29 @@
     "youtube_id": "__E7thQ5byQ",
     "title": "[AB | 방구석 여기서요?] 있지 ITZY - LOCO (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
+      "kim-minjin",
+      "ha-seyoung",
       "kim-hayeon",
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
-      "kim-minjin"
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-12-05",
     "content_type": "video",
     "view_count": 2245747,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "1b26Rwj7HaE",
@@ -79845,21 +80089,28 @@
     "youtube_id": "31FpzHj48cc",
     "title": "있지 ITZY - LOCO (A Team ver.) | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
+      "kim-minjin",
+      "ha-seyoung",
       "kim-hayeon",
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
-      "kim-minjin"
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-10-09",
     "content_type": "video",
     "view_count": 256506,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -79886,12 +80137,21 @@
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "kim-minjin",
       "ha-seyoung",
-      "yun-haeun",
-      "lee-gaeun"
+      "kim-hayeon",
+      "lee-gaeun",
+      "yun-haeun"
     ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
+    ],
+    "song_group": "itzy-locoa-2021",
     "published_date": "2021-10-09",
     "content_type": "video",
     "view_count": 539543,
@@ -82058,13 +82318,26 @@
       "ITZY"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung"
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "jung-hyein", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-06-27",
     "content_type": "video",
     "view_count": 1263089,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "FqbROHcQMxc",
@@ -82170,20 +82443,29 @@
     "youtube_id": "Z2Lv_DeiPaw",
     "title": "[방구석 여기서요?] 있지 ITZY - 마.피.아. In the Morning (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "kim-hyerim",
-      "oh-yubin",
-      "kim-minjin"
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
+      "oh-yubin"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-06-24",
     "content_type": "video",
     "view_count": 993079,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "0ih-QVOrbVo",
@@ -82312,22 +82594,39 @@
     "youtube_id": "uItYJeIjg6w",
     "title": "[방구석 여기서요?] 있지 ITZY - 마.피.아. In the Morning (A+B ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
       "oh-yubin",
-      "kim-minjin"
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "jung-hyein", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-06-19",
     "content_type": "video",
     "view_count": 1141243,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "C_XMkTx0oEg",
@@ -82892,15 +83191,22 @@
     "youtube_id": "iJXYVUefbv0",
     "title": "[2배속 커버댄스] 있지 ITZY - 마.피.아. In the Morning (A Team ver.) | 2x Speed Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "kim-hyerim",
-      "oh-yubin",
-      "kim-minjin"
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
+      "oh-yubin"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-05-27",
     "content_type": "video",
@@ -83099,21 +83405,28 @@
     "youtube_id": "ZlZNW1H8u9M",
     "title": "있지 ITZY - 마.피.아. In the Morning (A Team) | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "kim-hyerim",
-      "oh-yubin",
-      "kim-minjin"
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
+      "oh-yubin"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2021-05-19",
     "content_type": "video",
     "view_count": 393192,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -83143,20 +83456,34 @@
     "youtube_id": "NoPe8uqHBo8",
     "title": "[AB] 있지 ITZY - 마.피.아. In the Morning (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "kim-hyerim",
-      "oh-yubin",
-      "kim-minjin"
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
+      "oh-yubin"
     ],
+    "sponsors": [
+      "키자니아 부산",
+      "4X4 STUDIO"
+    ],    
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "채령" }
+    ],
+    "song_group": "itzy-notshyb-2020",
     "published_date": "2021-05-18",
     "content_type": "video",
     "view_count": 562425,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "pt5RiSKfRC4",
@@ -83296,21 +83623,23 @@
     "youtube_id": "2frCH77JzEs",
     "title": "있지 ‘마.피.아 In the morning’ 뮤비를 보는 남녀 댄서의 반응 차이 | ITZY ‘MAFIA in the morning'' MV REACTION",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
+      "kim-chanhee",
+      "kim-woonggyeom",
+      "kim-hojun",
       "lee-gaeun",
-      "ahn-yoojin",
       "kim-hyerim",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2021-04-30",
     "content_type": "video",
     "view_count": 920421,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "aQnMVwPJkrc",
@@ -87813,20 +88142,29 @@
     "youtube_id": "VRLom9iYltQ",
     "title": "[방구석 여기서요?] ITZY - Not Shy (B Team ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "kim-hayeon",
-      "lee-gaeun",
-      "kim-hyerim",
       "oh-yubin",
+      "kim-hyerim",
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2020-09-15",
     "content_type": "video",
     "view_count": 2863400,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "DvxTQRXyOJ8",
@@ -88033,10 +88371,18 @@
     ],
     "tagged_members": [
       "kim-hayeon",
-      "lee-gaeun",
-      "kim-hyerim",
       "oh-yubin",
+      "kim-hyerim",
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "sponsors": [],    
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "채령" }
     ],
     "published_date": "2020-08-31",
     "content_type": "video",
@@ -88049,29 +88395,39 @@
     "youtube_id": "m5DpmaeTN3s",
     "title": "[AB] ITZY - Not Shy (B Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "kim-hayeon",
-      "lee-gaeun",
-      "kim-hyerim",
       "oh-yubin",
+      "kim-hyerim",
+      "lee-gaeun",
       "kim-minjin"
     ],
+    "sponsors": [
+      "ABLY"
+    ],    
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "oh-yubin", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "kim-minjin", "covered_group": "ITZY", "covered_member": "채령" }
+    ],
+    "song_group": "itzy-notshyb-2020",
     "published_date": "2020-08-30",
     "content_type": "video",
     "view_count": 751392,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "uwrEKJ9z2iw",
     "title": "[abAB] 방탄소년단 BTS - Not Today | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -89532,23 +89888,39 @@
     "youtube_id": "SnUAhILKnXE",
     "title": "[방구석 여기서요?] ITZY - WANNABE | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "kim-hyerim",
       "kim-hayeon",
+      "her-naeun",
       "kwon-soyoung",
+      "park-sunyoung",
       "lee-gaeun",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "park-soyoung",
+      "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "kim-hayeon", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "her-naeun", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kwon-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-sunyoung", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
     ],
     "published_date": "2020-06-16",
     "content_type": "video",
     "view_count": 6924296,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "UeJXa5OOpuU",
@@ -90642,15 +91014,24 @@
     "youtube_id": "QZn6ooKMESM",
     "title": "[2배속 커버댄스] ITZY - WANNABE | 2x Speed Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "park-soyoung",
+      "park-damhee"
+    ],
+    "sponsors": [
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
     ],
     "published_date": "2020-03-25",
     "content_type": "video",
@@ -90663,21 +91044,28 @@
     "youtube_id": "xD1k5vwLHpI",
     "title": "ITZY - WANNABE (A Team ver.) | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "park-soyoung",
+      "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
     ],
     "published_date": "2020-03-25",
     "content_type": "video",
     "view_count": 488722,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -90718,20 +91106,33 @@
     "youtube_id": "l3e8jY1kLOs",
     "title": "[AB] ITZY - WANNABE (A Team ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "park-soyoung",
+      "park-damhee"
     ],
+    "sponsors": [
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "park-soyoung", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
+    ],
+    "song_group": "itzy-wannabea-2019",
     "published_date": "2020-03-23",
     "content_type": "video",
     "view_count": 3320100,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "hL7-vN4XEfc",
@@ -92515,11 +92916,19 @@
       "ITZY"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung",
       "lee-sieun",
+      "lee-gaeun",
+      "ha-seyoung",
+      "yun-haeun",
       "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2019-11-24",
     "content_type": "video",
@@ -93647,33 +94056,55 @@
       "ITZY"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2019-09-21",
     "content_type": "video",
     "view_count": 727531,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "t56R1A1q9qc",
     "title": "[AB] ITZY - ICY | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2019-09-20",
     "content_type": "video",
     "view_count": 494897,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "C748vqiWQzg",
@@ -94163,19 +94594,29 @@
     "youtube_id": "b_BsoAZ55Iw",
     "title": "[여기서요?] ITZY - ICY | 커버댄스 DANCE COVER @다이아 페스티벌",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "park-damhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
     ],
     "published_date": "2019-08-18",
     "content_type": "video",
     "view_count": 1389320,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y",
+      "행사::2019y"
     ]
   },
   {
@@ -94256,19 +94697,29 @@
     "youtube_id": "MXan3nFybgw",
     "title": "[여기서요?] ITZY - ICY | 커버댄스 DANCE COVER @해운대 문화광장",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "park-damhee"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "리아" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "yun-haeun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "류진" }
+    ],
+    "song_group": "itzy-icy-2019",
     "published_date": "2019-08-09",
     "content_type": "video",
     "view_count": 6316574,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -96471,56 +96922,90 @@
     "youtube_id": "K5DtR3OGvsw",
     "title": "[AB PRACTICE] 있지 ITZY - 달라달라 DALLA DALLA | 커버댄스 DANCE COVER | 연습실 ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "lee-gaeun",
+      "lee-sieun",
+      "ha-seyoung",
       "kim-hyerim",
-      "ha-seyoung"
+      "park-damhee"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
     ],
     "published_date": "2019-02-22",
     "content_type": "video",
     "view_count": 194604,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "KqAmCOVAMso",
     "title": "[여기서요?] 있지 ITZY - 달라달라 DALLA DALLA | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "lee-gaeun",
+      "lee-sieun",
+      "ha-seyoung",
       "kim-hyerim",
-      "ha-seyoung"
+      "park-damhee"
+    ],
+    "sponsors": [
+      "코오롱 모터스 대구"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
     ],
     "published_date": "2019-02-21",
     "content_type": "video",
     "view_count": 3391092,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
     "youtube_id": "9xztGM11A2U",
     "title": "[AB x MINI] 있지 ITZY - 달라달라 DALLA DALLA | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "lee-gaeun",
+      "lee-sieun",
+      "ha-seyoung",
       "kim-hyerim",
-      "ha-seyoung"
+      "park-damhee"
     ],
+    "sponsors": [
+      "코오롱 모터스 대구"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "ITZY", "covered_member": "예지" },
+      { "member_id": "lee-sieun", "covered_group": "ITZY", "covered_member": "채령" },
+      { "member_id": "ha-seyoung", "covered_group": "ITZY", "covered_member": "유나" },
+      { "member_id": "kim-hyerim", "covered_group": "ITZY", "covered_member": "류진" },
+      { "member_id": "park-damhee", "covered_group": "ITZY", "covered_member": "리아" }
+    ],
+    "song_group": "itzy-dalladalla-2019",
     "published_date": "2019-02-20",
     "content_type": "video",
     "view_count": 694372,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "ee7E9CFgIcA",
