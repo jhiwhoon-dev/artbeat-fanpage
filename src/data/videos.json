@@ -21020,16 +21020,26 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "jeong-yoojin",
       "oh-yubin",
       "jang-sein",
+      "lee-gaeun",
       "won-seoa"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-yoojin", "covered_group": "MEOVV", "covered_member": "수인" },
+      { "member_id": "oh-yubin", "covered_group": "MEOVV", "covered_member": "안나" },
+      { "member_id": "jang-sein", "covered_group": "MEOVV", "covered_member": "나린" },
+      { "member_id": "lee-gaeun", "covered_group": "MEOVV", "covered_member": "엘라" },
+      { "member_id": "won-seoa", "covered_group": "MEOVV", "covered_member": "가원" }
+    ],
+    "song_group": "meovv-abracadabra-2025",
     "published_date": "2025-10-29",
     "content_type": "video",
     "view_count": 240303,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -47411,6 +47421,15 @@
       "lee-gaeun",
       "won-seoa"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hyerim", "covered_group": "MEOVV", "covered_member": "수인" },
+      { "member_id": "oh-yubin", "covered_group": "MEOVV", "covered_member": "안나" },
+      { "member_id": "ha-seyoung", "covered_group": "MEOVV", "covered_member": "나린" },
+      { "member_id": "lee-gaeun", "covered_group": "MEOVV", "covered_member": "엘라" },
+      { "member_id": "won-seoa", "covered_group": "MEOVV", "covered_member": "가원" }
+    ],
+    "song_group": "meovv-meow-2024",
     "published_date": "2024-09-29",
     "content_type": "video",
     "view_count": 1981993,
@@ -54803,16 +54822,27 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "oh-yubin",
       "kang-yejin",
-      "lee-yejin"
+      "lee-gaeun",
+      "oh-yubin",
+      "kim-chan",
+      "seol-heejeong",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kim-chan", "covered_group": "NMIXX", "covered_member": "배이" },
+      { "member_id": "seol-heejeong", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2024-02-04",
     "content_type": "video",
     "view_count": 475132,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "FCvmCiYKY2I",
@@ -55359,12 +55389,28 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "lee-gaeun",
+      "oh-yubin",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "ha-seyoung"
     ],
+    "role_mapping": [
+      { "member_id": "ha-jeuki", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "베이" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "ha-seyoung", "covered_group": "NMIXX", "covered_member": "규진" }
+    ],
+    "song_group": "nmixx-breaker-2024",
     "published_date": "2024-01-26",
     "content_type": "video",
     "view_count": 1024893,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "lB7bxlzaokU",
@@ -63859,12 +63905,27 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-jeuki", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "베이" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2023-07-18",
     "content_type": "video",
     "view_count": 943598,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "_I1os4lcpa4",
@@ -68755,20 +68816,32 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-jeuki", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "베이" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2023-04-18",
     "content_type": "video",
     "view_count": 569188,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
     "youtube_id": "SSdSVn0YLxM",
     "title": "[여기서요?] 지민 Jimin of BTS - Like Crazy | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "방탄소년단",
       "지민"
     ],
     "tagged_members": [
@@ -68951,7 +69024,9 @@
     "published_date": "2023-04-15",
     "content_type": "short",
     "view_count": 210248,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "jqR_WyOl5Z4",
@@ -68965,7 +69040,9 @@
     "published_date": "2023-04-15",
     "content_type": "short",
     "view_count": 183842,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "rNVA8amYvII",
@@ -68979,7 +69056,9 @@
     "published_date": "2023-04-15",
     "content_type": "short",
     "view_count": 363494,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "i2w37k-jppk",
@@ -69002,13 +69081,27 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
     ],
+    "role_mapping": [
+      { "member_id": "ha-jeuki", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "베이" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
+    ],
+    "song_group": "nmixx-lovemelikethis-2023",
     "published_date": "2023-04-14",
     "content_type": "video",
     "view_count": 128865,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -69046,12 +69139,27 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-jeuki", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "kang-yejin", "covered_group": "NMIXX", "covered_member": "베이" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2023-04-13",
     "content_type": "video",
     "view_count": 259014,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "xtG9RRpZUTU",
@@ -73303,17 +73411,20 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "park-damhee",
+      "lee-sieun",
+      "yun-haeun"
     ],
     "published_date": "2022-12-03",
     "content_type": "video",
     "view_count": 904096,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "ytsjPQoHxR8",
@@ -75820,23 +75931,33 @@
     "youtube_id": "tKCzACMgyPc",
     "title": "[AB | 방구석 여기서요?] NCT DREAM - Beatbox | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kim-taehwan",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-09-02",
     "content_type": "video",
     "view_count": 447054,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "TZxMUnrfccE",
@@ -75852,6 +75973,15 @@
       "jang-sein",
       "lim-donghun",
       "cho-woohyeong"
+    ],
+    "role_mapping": [
+      { "member_id": "seo-danbi", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "jeong-hyungwoo", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "chae-yunsu", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "jeong-jihye", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "jang-sein", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "lim-donghun", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "cho-woohyeong", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-09-02",
     "content_type": "video",
@@ -77114,6 +77244,23 @@
       "ahn-yoojin",
       "yun-haeun"
     ],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "jeong-hyungwoo", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "chae-yunsu", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "lim-donghun", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "cho-woohyeong", "covered_group": "NCT DREAM", "covered_member": "천러" },
+      { "member_id": "seo-danbi", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "jeong-jihye", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "jang-sein", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
+    ],
+    "song_group": "nctdream-beatbox-2022",
     "published_date": "2022-08-01",
     "content_type": "video",
     "view_count": 770605,
@@ -77185,13 +77332,20 @@
     "youtube_id": "0JyNvw4Dn1k",
     "title": "[AB | 방구석 여기서요?] 위너 WINNER - I LOVE U | 커버댄스 Dance Cover",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "park-sunyoung",
       "lee-gaeun",
+      "kim-suhwan",
       "kim-chanhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-sunyoung", "covered_group": "WINNER", "covered_member": "승훈" },
+      { "member_id": "lee-gaeun", "covered_group": "WINNER", "covered_member": "진우" },
+      { "member_id": "kim-suhwan", "covered_group": "WINNER", "covered_member": "승윤" },
+      { "member_id": "kim-chanhee", "covered_group": "WINNER", "covered_member": "민호" }
     ],
     "published_date": "2022-07-30",
     "content_type": "video",
@@ -77650,7 +77804,7 @@
     "content_type": "video",
     "view_count": 41525,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::Years::2022y"
     ]
   },
   {
@@ -77660,40 +77814,63 @@
       "NMIXX"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "ha-seyoung", "covered_group": "NMIXX", "covered_member": "지니" },
+      { "member_id": "lee-seohyeon", "covered_group": "NMIXX", "covered_member": "배이" },
+      { "member_id": "ahn-yoojin", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2022-07-10",
     "content_type": "short",
     "view_count": 199020,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "9lbhM96GgLs",
     "title": "[AB 직캠] NCT DREAM -  Beatbox | 커버댄스 Dance Cover @‘2022 동성로핫축제",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kim-taehwan",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-07-10",
     "content_type": "video",
     "view_count": 103989,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "-jYejv8sG9s",
@@ -78152,6 +78329,15 @@
       "lim-donghun",
       "cho-woohyeong"
     ],
+    "role_mapping": [
+      { "member_id": "seo-danbi", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "jeong-hyungwoo", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "chae-yunsu", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "jeong-jihye", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "jang-sein", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "lim-donghun", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "cho-woohyeong", "covered_group": "NCT DREAM", "covered_member": "천러" }
+    ],
     "published_date": "2022-07-01",
     "content_type": "video",
     "view_count": 151624,
@@ -78501,24 +78687,32 @@
     "youtube_id": "6t4vvv12-AM",
     "title": "[AB 여기서요?] NCT DREAM - Beatbox | 커버댄스 Dance Cover @뮤지컬 거리",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kim-taehwan",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-06-14",
     "content_type": "video",
     "view_count": 506813,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -78561,47 +78755,68 @@
     "youtube_id": "-3giHSbOAR8",
     "title": "NCT DREAM -  Beatbox | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kim-taehwan",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-06-13",
     "content_type": "video",
     "view_count": 339614,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
     "youtube_id": "ReoMMZVwHKc",
     "title": "[AB] NCT DREAM -  Beatbox | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kim-taehwan",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [
+      "신전뮤지엄"
+    ],
+    "role_mapping": [
+      { "member_id": "park-hyunmin", "covered_group": "NCT DREAM", "covered_member": "마크" },
+      { "member_id": "lee-gaeun", "covered_group": "NCT DREAM", "covered_member": "재민" },
+      { "member_id": "kang-yejin", "covered_group": "NCT DREAM", "covered_member": "해찬" },
+      { "member_id": "kim-taehwan", "covered_group": "NCT DREAM", "covered_member": "제노" },
+      { "member_id": "kim-suhwan", "covered_group": "NCT DREAM", "covered_member": "지성" },
+      { "member_id": "ahn-yoojin", "covered_group": "NCT DREAM", "covered_member": "런쥔" },
+      { "member_id": "yun-haeun", "covered_group": "NCT DREAM", "covered_member": "천러" }
     ],
     "published_date": "2022-06-12",
     "content_type": "video",
     "view_count": 258228,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "xtKsoJUVkKI",
@@ -79206,12 +79421,22 @@
     "tagged_members": [
       "lee-sieun",
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "lee-seohyeon"
+      "ha-seyoung",
+      "lee-seohyeon",
+      "ahn-yoojin",
+      "yun-haeun"
     ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "ha-seyoung", "covered_group": "NMIXX", "covered_member": "지니" },
+      { "member_id": "lee-seohyeon", "covered_group": "NMIXX", "covered_member": "배이" },
+      { "member_id": "ahn-yoojin", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
+    ],
+    "song_group": "nmixx-oo-2022",
     "published_date": "2022-05-25",
     "content_type": "video",
     "view_count": 811030,
@@ -81680,18 +81905,28 @@
       "NMIXX"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
-      "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
       "oh-yubin",
-      "lee-seohyeon"
+      "ha-seyoung",
+      "lee-seohyeon",
+      "kim-hyerim",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "ha-seyoung", "covered_group": "NMIXX", "covered_member": "지니" },
+      { "member_id": "lee-seohyeon", "covered_group": "NMIXX", "covered_member": "배이" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
     ],
     "published_date": "2022-03-28",
     "content_type": "video",
     "view_count": 578215,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -81719,17 +81954,31 @@
       "NMIXX"
     ],
     "tagged_members": [
+      "lee-sieun",
       "lee-gaeun",
-      "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
       "oh-yubin",
-      "lee-seohyeon"
+      "ha-seyoung",
+      "lee-seohyeon",
+      "kim-hyerim",
+      "yun-haeun"
     ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "NMIXX", "covered_member": "릴리" },
+      { "member_id": "lee-gaeun", "covered_group": "NMIXX", "covered_member": "해원" },
+      { "member_id": "oh-yubin", "covered_group": "NMIXX", "covered_member": "설윤" },
+      { "member_id": "ha-seyoung", "covered_group": "NMIXX", "covered_member": "지니" },
+      { "member_id": "lee-seohyeon", "covered_group": "NMIXX", "covered_member": "배이" },
+      { "member_id": "kim-hyerim", "covered_group": "NMIXX", "covered_member": "지우" },
+      { "member_id": "yun-haeun", "covered_group": "NMIXX", "covered_member": "규진" }
+    ],
+    "song_group": "nmixx-oo-2022",
     "published_date": "2022-03-27",
     "content_type": "video",
     "view_count": 515539,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "Yi6njzl0iiY",
@@ -81953,14 +82202,19 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "ha-seyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "song-haeun",
+      "seo-jaemin",
+      "kim-hojun",
+      "choi-sungjun"
     ],
     "published_date": "2022-02-22",
     "content_type": "video",
     "view_count": 507350,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2022y"
+    ]
   },
   {
     "youtube_id": "urgUXVY1n8k",
@@ -88267,22 +88521,24 @@
     "youtube_id": "r1gESgOaOUE",
     "title": "NCT DREAM '맛 (Hot Sauce)' 뮤비를 보는 남녀 댄서의 반응 차이 | NCT DREAM ‘Hot Sauce' MV REACTION",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
-      "kim-taehwan",
-      "kim-kyungju",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
-      "jeong-yoojin"
+      "lee-sieun",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "jeon-hyeonguk",
+      "kim-taehwan",
+      "kwon-dohyun",
+      "kim-kyungju"
     ],
     "published_date": "2021-05-11",
     "content_type": "video",
     "view_count": 495271,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "wjbB80mDBSg",
@@ -90747,14 +91003,19 @@
       "MCND"
     ],
     "tagged_members": [
+      "jin-hyunwoo",
+      "kim-chanhee",
       "kim-taehwan",
-      "lee-gaeun",
-      "kim-hyerim"
+      "her-naeun",
+      "kim-hyerim",
+      "lee-gaeun"
     ],
     "published_date": "2021-01-08",
     "content_type": "video",
     "view_count": 120089,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "rNb5odgTYrA",
@@ -92003,24 +92264,22 @@
   {
     "youtube_id": "gK2faOch95c",
     "title": "[AB 자기소개] 10년지기 찐친 모먼트 | 가은이와 유진이 | AB PROJECT",
-    "covered_group": [
-      "LISA"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2020-11-03",
     "content_type": "video",
     "view_count": 170288,
-    "content_series": []
+    "content_series": [
+      "AB 자기소개"
+    ]
   },
   {
     "youtube_id": "gRlf3VOla7k",
     "title": "마마무 MAMAMOO - 딩가딩가 Dingga | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "화사",
       "화사"
     ],
     "tagged_members": [
@@ -104904,34 +105163,64 @@
     "youtube_id": "WOKhKEQCbyw",
     "title": "[여기서요?] 위너 WINNER - MILLIONS | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "lee-gaeun"
+      "lee-sieun",
+      "lee-gaeun",
+      "suvin",
+      "kim-eunbin"
+    ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "seo-jaemin",
+      "kim-jaewook",
+      "kwon-dohyun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "WINNER", "covered_member": "승훈" },
+      { "member_id": "lee-gaeun", "covered_group": "WINNER", "covered_member": "진우" },
+      { "member_id": "suvin", "covered_group": "WINNER", "covered_member": "승윤" },
+      { "member_id": "kim-eunbin", "covered_group": "WINNER", "covered_member": "민호" }
     ],
     "published_date": "2019-01-19",
     "content_type": "video",
     "view_count": 1332202,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
     "youtube_id": "RRtDy4qr7LA",
     "title": "[AB PRACTICE] 위너 WINNER - MILLIONS 밀리언즈 | 커버댄스 DANCE COVER | 연습실 ver.",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "lee-gaeun"
+      "lee-sieun",
+      "lee-gaeun",
+      "suvin",
+      "kim-eunbin"
+    ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "seo-jaemin",
+      "kim-jaewook",
+      "kwon-dohyun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "WINNER", "covered_member": "승훈" },
+      { "member_id": "lee-gaeun", "covered_group": "WINNER", "covered_member": "진우" },
+      { "member_id": "suvin", "covered_group": "WINNER", "covered_member": "승윤" },
+      { "member_id": "kim-eunbin", "covered_group": "WINNER", "covered_member": "민호" }
     ],
     "published_date": "2019-01-18",
     "content_type": "video",
     "view_count": 76747,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -104965,16 +105254,37 @@
     "youtube_id": "o92xI5p40uY",
     "title": "[AB] 위너 WINNER - MILLIONS | 커버댄스 DANCE COVER",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "lee-gaeun"
+      "lee-sieun",
+      "lee-gaeun",
+      "suvin",
+      "kim-eunbin"
     ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "seo-jaemin",
+      "kim-jaewook",
+      "kwon-dohyun"
+    ],
+    "sponsors": [
+      "호텔수성"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "WINNER", "covered_member": "승훈" },
+      { "member_id": "lee-gaeun", "covered_group": "WINNER", "covered_member": "진우" },
+      { "member_id": "suvin", "covered_group": "WINNER", "covered_member": "승윤" },
+      { "member_id": "kim-eunbin", "covered_group": "WINNER", "covered_member": "민호" }
+    ],
+    "song_group": "winner-millions-2019",
     "published_date": "2019-01-17",
     "content_type": "video",
     "view_count": 540206,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "A0L_5EwXS4s",
