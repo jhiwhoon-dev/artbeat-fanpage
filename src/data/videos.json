@@ -2,7 +2,9 @@
   {
     "youtube_id": "_hTmPJKiS_M",
     "title": "#이종민 #오디션중 'Guilty' 백구영 뉴 시그니처 Dance Cover #JongMin",
-    "covered_group": [],
+    "covered_group": [
+      "태민"
+    ],
     "content_series": [
       "나는 신입::2026y"
     ],
@@ -316,7 +318,7 @@
       "카이"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
       "kang-seongwoon"
