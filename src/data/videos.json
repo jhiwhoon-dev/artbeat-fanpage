@@ -4,11 +4,10 @@
     "title": "#이종민 #오디션중 'Guilty' 백구영 뉴 시그니처 Dance Cover #JongMin",
     "covered_group": [],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
-      "lee-jongmin",
-      "min"
+      "lee-jongmin"
     ],
     "sponsors": [],
     "role_mapping": [],
@@ -23,7 +22,9 @@
       "ENHYPEN",
       "Hearts2Hearts"
     ],
-    "content_series": [],
+    "content_series": [
+      "아트비트 본편"
+    ],
     "tagged_members": [
       "do-hyeonsung",
       "kim-nakyeong"
@@ -37,7 +38,9 @@
   {
     "youtube_id": "X-XawvY3f_E",
     "title": "#도희 'TUIDE - SUN KISS' Dance Cover #Dohui",
-    "covered_group": [],
+    "covered_group": [
+      "TUIDE"
+    ],
     "content_series": [],
     "tagged_members": [
       "lee-yejin"
