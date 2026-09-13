@@ -14263,21 +14263,28 @@
     "youtube_id": "xebhJeD3blo",
     "title": "레드벨벳 Red Velvet - Cosmic | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "lee-jeonghee", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2025-12-31",
     "content_type": "video",
     "view_count": 51828,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -14326,16 +14333,26 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "lee-jeonghee", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-cosmic-2025",
     "published_date": "2025-12-30",
     "content_type": "video",
     "view_count": 110843,
     "content_series": [
-      "Dance Cover MV::AB PRODUCER::2025y"
+      "Dance Cover MV::AB PRODUCER::2025y",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -55996,19 +56013,29 @@
     "youtube_id": "FwE60rd289k",
     "title": "[방구석 여기서요?] 레드벨벳 Red Velvet - Chill Kill | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "oh-yubin",
       "kang-yejin",
-      "lee-yejin"
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "seol-heejeong", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "shin-yerin", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2024-01-20",
     "content_type": "video",
     "view_count": 450895,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "Jd49aJWC9Uc",
@@ -56831,10 +56858,18 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "oh-yubin",
       "kang-yejin",
-      "shin-yerin",
-      "seol-heejeong"
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "seol-heejeong", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "shin-yerin", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2023-12-12",
     "content_type": "video",
@@ -56861,10 +56896,18 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "oh-yubin",
       "kang-yejin",
-      "shin-yerin",
-      "seol-heejeong"
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "seol-heejeong", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "shin-yerin", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2023-12-11",
     "content_type": "video",
@@ -56908,19 +56951,31 @@
     "youtube_id": "cpSem-rggAo",
     "title": "[AB] 레드벨벳 Red Velvet - Chill Kill | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "oh-yubin",
       "kang-yejin",
-      "lee-yejin"
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "seol-heejeong", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "shin-yerin", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-chillkill-2023",
     "published_date": "2023-12-10",
     "content_type": "video",
     "view_count": 113279,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023y",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "kC8X4GDuhIg",
@@ -69483,22 +69538,29 @@
     "youtube_id": "vF6aIgitrsA",
     "title": "[방구석 여기서요?] 레드벨벳 Red Velvet - BIRTHDAY | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "oh-yubin",
+      "ahn-yoojin",
+      "bang-jooyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "bang-jooyeon", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2023-04-05",
     "content_type": "video",
     "view_count": 528868,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "K1gsQ2Crnco",
@@ -73085,61 +73147,85 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "oh-yubin",
+      "ahn-yoojin",
+      "bang-jooyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "bang-jooyeon", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2022-12-29",
     "content_type": "video",
     "view_count": 60683,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
     "youtube_id": "-CVG5Z_aiKQ",
     "title": "[여기서요?] 레드벨벳 Red Velvet - Birthday | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "oh-yubin",
+      "ahn-yoojin",
+      "bang-jooyeon"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "bang-jooyeon", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2022-12-27",
     "content_type": "video",
     "view_count": 243406,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "e2eESXbLn4k",
     "title": "[AB] 레드벨벳 Red Velvet - Birthday | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "oh-yubin",
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "oh-yubin",
+      "ahn-yoojin",
+      "bang-jooyeon"
     ],
+    "sponsors": [
+      "더킹 베이커리 카페"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kang-yejin", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "bang-jooyeon", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-birthday-2022",
     "published_date": "2022-12-26",
     "content_type": "video",
     "view_count": 96350,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "4Wzo2n7lG0U",
@@ -77322,20 +77408,29 @@
     "youtube_id": "20ChV3qOeqo",
     "title": "[AB  | 방구석 여기서요?] 레드벨벳 Red Velvet - Feel My Rhythm | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "lee-seohyeon", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2022-08-06",
     "content_type": "video",
     "view_count": 755571,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "K3svZVI2AxM",
@@ -79623,10 +79718,18 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "lee-seohyeon",
-      "park-damhee"
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "lee-seohyeon", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2022-05-27",
     "content_type": "video",
@@ -80684,10 +80787,18 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "lee-seohyeon",
-      "park-damhee"
+      "ahn-yoojin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "lee-seohyeon", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2022-04-18",
     "content_type": "video",
@@ -80773,11 +80884,22 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "lee-seohyeon",
-      "park-damhee"
+      "ahn-yoojin",
+      "yun-haeun"
     ],
+    "sponsors": [
+      "대보름"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "lee-seohyeon", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-feelmyrhythm-2022",
     "published_date": "2022-04-17",
     "content_type": "video",
     "view_count": 311820,
@@ -85768,20 +85890,29 @@
     "youtube_id": "5SfIULGaElc",
     "title": "[방구석 여기서요?] 레드벨벳 Red Velvet - 퀸덤 Queendom | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kim-minjin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "kim-minjin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2021-09-18",
     "content_type": "video",
     "view_count": 1404388,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "pwhf3TYkDEI",
@@ -86244,41 +86375,61 @@
     "youtube_id": "FFKEikTdFg8",
     "title": "레드벨벳 Red Velvet - Queendom | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kim-minjin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "kim-minjin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2021-09-05",
     "content_type": "video",
     "view_count": 670019,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "WqqYb-KVxzM",
     "title": "[AB] 레드벨벳 Red Velvet - Queendom | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin"
+      "kim-minjin",
+      "yun-haeun"
     ],
+    "sponsors": [
+      "코오롱 아우토 아우디"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "oh-yubin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "kim-minjin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-queendom-2021",
     "published_date": "2021-09-04",
     "content_type": "video",
     "view_count": 413399,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "hR5RYAbyAK4",
@@ -93598,27 +93749,38 @@
     "youtube_id": "5PRgLnLCPkU",
     "title": "[방구석 여기서요?] Red Velvet (IRENE & SEULGI) - 놀이 Naughty | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "RED Velvet"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "kim-hayeon",
       "lee-gaeun",
       "ahn-yoojin",
+      "kim-hayeon",
       "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong",
+      "park-sunyoung"
+    ],
+    "sponsors": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ahn-yoojin", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "kim-hayeon", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "yoon-taegyeong", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "park-sunyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
     ],
     "published_date": "2020-09-22",
     "content_type": "video",
     "view_count": 1125759,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "Omi9PgecHhQ",
     "title": "[방구석 여기서요?] 화사 HwaSa - Maria | 커버댄스 Dance Cover",
     "covered_group": [
-      "화사",
       "화사"
     ],
     "tagged_members": [
@@ -94161,22 +94323,30 @@
     "youtube_id": "gdJ1olKVai8",
     "title": "아이린 & 슬기 - Naughty (놀이) | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
-      "아이린"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "kim-hayeon",
       "lee-gaeun",
       "ahn-yoojin",
+      "kim-hayeon",
       "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong",
+      "park-sunyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ahn-yoojin", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "kim-hayeon", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "yoon-taegyeong", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "park-sunyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
     ],
     "published_date": "2020-09-05",
     "content_type": "video",
     "view_count": 183245,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -94357,30 +94527,40 @@
     "youtube_id": "8jSA7g1wFag",
     "title": "[AB] Red Velvet (IRENE & SEULGI) - 놀이 Naughty | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "RED Velvet"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "kim-hayeon",
       "lee-gaeun",
       "ahn-yoojin",
+      "kim-hayeon",
       "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong",
+      "park-sunyoung"
     ],
+    "sponsors": [
+      "에이블리"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ahn-yoojin", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "kim-hayeon", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "yoon-taegyeong", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "park-sunyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
+    ],
+    "song_group": "redvelvet-naughty-2020",
     "published_date": "2020-08-26",
     "content_type": "video",
     "view_count": 372624,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Wfzo4TNfhB0",
     "title": "SuperM 슈퍼엠 - 100 | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -94399,10 +94579,6 @@
     "youtube_id": "DEabkjCXdWg",
     "title": "[AB] SuperM 슈퍼엠 - 100 | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -94419,8 +94595,6 @@
     "youtube_id": "2JhX1tQ8HWU",
     "title": "BLACKPINK - How You Like That (Boys ver.) | 커버댄스 Dance Cover | 연습실 Practice ver",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -94438,8 +94612,6 @@
     "youtube_id": "f9PLDOwRh6U",
     "title": "[AB] BLACKPINK - How You Like That (Boys ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -94825,41 +94997,64 @@
     "youtube_id": "yWlEaGQWdG8",
     "title": "Red Velvet (IRENE & SEULGI) - Monster | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
-      "RED Velvet"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "park-soyoung",
       "kim-hyerim",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kwon-soyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-soyoung", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kim-hyerim", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-damhee", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
     ],
     "published_date": "2020-07-23",
     "content_type": "video",
     "view_count": 160990,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "DaqPh-haCEE",
     "title": "[AB] Red Velvet (IRENE & SEULGI) - Monster | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "RED Velvet"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "park-soyoung",
       "kim-hyerim",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "sponsors": [
+      "필로스 호텔"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kwon-soyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-soyoung", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kim-hyerim", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-damhee", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
     ],
     "published_date": "2020-07-22",
     "content_type": "video",
     "view_count": 507856,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "GkqAKbuuRQY",
@@ -95219,19 +95414,32 @@
     "youtube_id": "HvpLHHO620Y",
     "title": "[방구석 여기서요?] Red Velvet (IRENE & SEULGI) - Monster | 커버댄스 DANCE COVER",
     "covered_group": [
-      "RED Velvet"
+      "RED Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "park-soyoung",
       "kim-hyerim",
+      "park-damhee",
       "ha-seyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kwon-soyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-soyoung", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "kim-hyerim", "covered_group": "아이린&슬기", "covered_member": "슬기" },
+      { "member_id": "park-damhee", "covered_group": "아이린&슬기", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "아이린&슬기", "covered_member": "슬기" }
+    ],
+    "song_group": "redvelvet-monster-2020",
     "published_date": "2020-07-15",
     "content_type": "video",
     "view_count": 2916623,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "wd_5uOmTf8o",
@@ -98957,60 +99165,92 @@
     "youtube_id": "EokD4-MgybA",
     "title": "레드벨벳 Red Velvet - Psycho | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
+      "lee-sieun",
+      "hwang-dagun",
       "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "hwang-dagun", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2020-01-10",
     "content_type": "video",
     "view_count": 1586709,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "CGFvTYBwsP0",
     "title": "[여기서요?] 레드벨벳 Red Velvet - Psycho | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
+      "lee-sieun",
+      "hwang-dagun",
       "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "yun-haeun"
+    ],
+    "sponsors": [
+      "ABLY"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "hwang-dagun", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2020-01-09",
     "content_type": "video",
     "view_count": 6935785,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "Aa7TPFbFe-E",
     "title": "[AB] 레드벨벳 Red Velvet - Psycho | 커버댄스 DANCE COVER",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
+      "lee-sieun",
+      "hwang-dagun",
       "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "yun-haeun"
     ],
+    "sponsors": [
+      "THE DIFFER",
+      "ABLY"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "hwang-dagun", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yun-haeun", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-psycho-2020",
     "published_date": "2020-01-08",
     "content_type": "video",
     "view_count": 703140,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "jh49_iCpXbU",
@@ -102256,20 +102496,32 @@
     "youtube_id": "_Z4CHZxXqDA",
     "title": "[여기서요?] RED VELVET 레드벨벳 - ZIMZALABIM + MEDLEY 짐살라빔 + 메들리 | 커버댄스 DANCE COVER",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "lee-sieun",
+      "park-damhee",
+      "park-soyoung"
     ],
+    "sponsors": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "park-soyoung", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-zimzalabim-2019",
     "published_date": "2019-07-11",
     "content_type": "video",
     "view_count": 2796183,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y",
+      "메들리::2019y"
     ]
   },
   {
@@ -102286,19 +102538,31 @@
     "youtube_id": "6mywNgZtOVM",
     "title": "[AB x SONA] RED VELVET MEDLEY 레드벨벳 메들리 | 커버댄스 DANCE COVER",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "lee-sieun",
+      "park-damhee",
+      "park-soyoung"
+    ],
+    "sponsors": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "ha-seyoung", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "park-soyoung", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2019-07-08",
     "content_type": "video",
     "view_count": 466420,
-    "content_series": []
+    "content_series": [
+      "메들리::2019y"
+    ]
   },
   {
     "youtube_id": "Ji0lSJiazvY",
@@ -107343,6 +107607,14 @@
       "ahn-yoojin",
       "kim-eunbin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kim-hayeon", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "suvin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "kim-eunbin", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
     "published_date": "2018-09-15",
     "content_type": "video",
     "view_count": 219306,
@@ -107447,20 +107719,28 @@
     "youtube_id": "0Hm4SqVTBLc",
     "title": "[여기서요?] 레드벨벳RED VELVET - POWER UP | 커버댄스 DANCE COVER | KPOP IN PUBLIC @수성못",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "lee-gaeun",
+      "kim-hayeon",
+      "suvin",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "kim-eunbin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kim-hayeon", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "suvin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "kim-eunbin", "covered_group": "RED Velvet", "covered_member": "예리" }
     ],
     "published_date": "2018-09-03",
     "content_type": "video",
     "view_count": 968768,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
@@ -107535,29 +107815,59 @@
     "covered_group": [
       "RED Velvet"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kim-hayeon",
+      "suvin",
+      "ahn-yoojin",
+      "kim-eunbin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kim-hayeon", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "suvin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "kim-eunbin", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
     "published_date": "2018-08-23",
     "content_type": "video",
     "view_count": 72671,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2018y"
+    ]
   },
   {
     "youtube_id": "w33fT8R1EhI",
     "title": "[AB] 레드벨벳 RED VELVET - POWER UP | 커버댄스 DANCE COVER",
     "covered_group": [
-      "슬기",
       "RED Velvet"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "lee-gaeun",
+      "kim-hayeon",
+      "suvin",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "kim-eunbin"
     ],
+    "sponsors": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "kim-hayeon", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "suvin", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "ahn-yoojin", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "kim-eunbin", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-powerup-2018",
     "published_date": "2018-08-22",
     "content_type": "video",
     "view_count": 442377,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "VgJGQIyPGqQ",
@@ -108407,6 +108717,15 @@
       "lee-gaeun",
       "lee-sieun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-damhee", "covered_group": "RED Velvet", "covered_member": "슬기" },
+      { "member_id": "kim-hayeon", "covered_group": "RED Velvet", "covered_member": "웬디" },
+      { "member_id": "yunsu", "covered_group": "RED Velvet", "covered_member": "조이" },
+      { "member_id": "lee-gaeun", "covered_group": "RED Velvet", "covered_member": "아이린" },
+      { "member_id": "lee-sieun", "covered_group": "RED Velvet", "covered_member": "예리" }
+    ],
+    "song_group": "redvelvet-badboy-2018",
     "published_date": "2018-02-08",
     "content_type": "video",
     "view_count": 613648,
