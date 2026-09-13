@@ -45,6 +45,13 @@ const statsVideos = taggedVideos.filter((v) => getType(v) === 'video');
 // 동기/전체 평균 계산은 "이 멤버가 태그된 영상"이 아니라 "사이트 전체 영상"을 대상으로 해야 함
 const allStatsVideos = allVideos.filter((v) => getType(v) === 'video');
 
+// "이 그룹을 채널 전체에서 몇 명이 커버했는지"(B 지표: 그룹 커버 중 내 비중)를 계산하기 위한 채널 전체 데이터.
+// 영상 하나당 covered_group 태그 하나씩 풀어서 나열 (누가 했는지는 안 따지고, 그룹+곡+날짜만).
+const allGroupEvents = allStatsVideos.flatMap((v) => {
+  const songKey = v.song_group || v.youtube_id;
+  return (v.covered_group ?? []).map((g) => ({ group: g, songKey, date: v.published_date }));
+});
+
 // 출연 영상 필터 엔진(videos.astro와 동일)에 넘길 데이터
 const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.nickname || m.name]));
@@ -277,8 +284,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
               <button class="stat-toggle-btn" data-view="month">월별</button>
             </div>
           </div>
-          <div class="chart-legend" id="trend-chart-legend"></div>
-          <p class="chart-hover-info" id="trend-hover-info">그래프의 점에 마우스를 올리면 여기에 정확한 값이 표시돼요.</p>
+          <p class="chart-select-hint">아래 항목을 클릭해서 표시할 선을 고르세요 (기본: 내 출연, 채널 전체 업로드)</p>
+          <div class="chart-legend chart-legend-clickable" id="trend-chart-legend"></div>
+          <p class="chart-scale-note">※ 지금 선택한 선들을 모두 합쳐서 하나의 세로축(공유 스케일)으로 그려요. 값 차이가 큰 선들을 같이 켜면 값이 작은 선은 상대적으로 낮게 보일 수 있어요 — 정확한 값은 점 위 숫자로 확인해주세요.</p>
           <div class="chart-scroll" id="trend-chart-wrap"></div>
         </div>
       </div>
@@ -347,13 +355,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
               <button class="stat-toggle-btn" data-view="month">월별</button>
             </div>
           </div>
-          <p class="chart-hover-info" id="selection-hover-info">그래프의 점에 마우스를 올리면 여기에 정확한 값이 표시돼요.</p>
-          <div class="chart-scroll" id="selection-chart-wrap"></div>
 
-          <!-- 그룹별 선택일 때만 나옴: 그 그룹에서 실제로 누구를 몇 번/몇 %로 맡았는지 + 전체 출연 중 이 그룹 비중 -->
-          <div class="role-breakdown" id="role-breakdown" style="display:none">
-            <p class="role-share-line" id="role-share-line"></p>
-            <div class="role-bars" id="role-bars"></div>
+          <!-- 그룹별 선택일 때만 나옴: 왼쪽엔 "그룹 중 인물별 비중"(가로 막대), 오른쪽엔 "내 활동/그룹 커버 중 비중" 추이(선) -->
+          <div class="share-chart-block" id="share-chart-block" style="display:none">
+            <div class="stat-block-head">
+              <h3>비율 통계</h3>
+            </div>
+            <div class="share-combined-row">
+              <div class="role-bars-col" id="role-bars-col">
+                <p class="role-share-line" id="role-share-line"></p>
+                <div class="role-bars" id="role-bars"></div>
+              </div>
+              <div class="share-line-col">
+                <div class="chart-legend chart-legend-clickable" id="share-chart-legend"></div>
+                <div class="chart-scroll" id="share-chart-wrap"></div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -373,6 +390,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <script type="application/json" id="cohort-dates-data" set:html={safeJson(cohortAppearanceDates)} />
   <script type="application/json" id="overall-dates-data" set:html={safeJson(overallAppearanceDates)} />
   <script type="application/json" id="channel-upload-dates-data" set:html={safeJson(channelUploadDates)} />
+  <script type="application/json" id="all-group-events-data" set:html={safeJson(allGroupEvents)} />
   <script type="application/json" id="cohort-meta-data" set:html={safeJson({ hasCohort, cohortDivisor, overallDivisor, cohortLabel })} />
   <script type="application/json" id="membership-milestones-data" set:html={safeJson(membershipMilestones)} />
 </Layout>
@@ -805,29 +823,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   interface ChartPeriod {
     label: string;
     year: string;
-    values: { name: string; count: number; color: string; dashed?: boolean; secondaryAxis?: boolean }[];
-  }
-
-  // 호버 감지를 각 점(circle)마다 리스너를 따로 다는 대신, wrap 하나에만 이벤트를 걸어서
-  // "지금 마우스 아래에 있는 게 점인지"를 매번 판단하는 방식(이벤트 위임)으로 처리.
-  // 이러면 그래프를 다시 그려도(innerHTML 교체) 매번 리스너를 새로 달 필요가 없어서 훨씬 안정적임.
-  // 화면에 떠다니는 말풍선 대신, 그래프 바로 위에 원래부터 있던 안내 문단(infoEl)의 내용을 바꾸는 방식.
-  // 위치 계산이 아예 필요 없어서 화면 밖으로 나가거나 다른 요소에 가려질 걱정이 없음.
-  function attachChartHover(wrap: HTMLElement, infoEl: HTMLElement | null) {
-    if (!infoEl) return;
-    const defaultText = infoEl.textContent ?? '';
-    wrap.addEventListener('mousemove', (e) => {
-      const target = (e.target as Element)?.closest?.('.chart-point') as (SVGElement & { dataset: DOMStringMap }) | null;
-      if (!target) {
-        infoEl.textContent = defaultText;
-        return;
-      }
-      const { label, name, count, color } = target.dataset;
-      infoEl.innerHTML = `<span class="tooltip-dot" style="background:${color}"></span><strong>${name}</strong> — ${label} · <strong>${count}회</strong>`;
-    });
-    wrap.addEventListener('mouseleave', () => {
-      infoEl.textContent = defaultText;
-    });
+    values: { name: string; count: number; color: string; dashed?: boolean; secondaryAxis?: boolean; unit?: string }[];
   }
 
   // periods 하나당 여러 series(선)를 같이 그릴 수 있는 공용 렌더 함수.
@@ -858,11 +854,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     });
   }
 
-  // periods 목록에서 기본축(또는 보조축) 값들만 평평하게 뽑아냄 — y축 최솟값/최댓값 계산에 사용
-  function scalePeriodsFlat(periods: ChartPeriod[], secondary: boolean): number[] {
-    return periods.flatMap((p) => p.values.filter((v) => !!v.secondaryAxis === secondary).map((v) => v.count));
-  }
-
   function renderChart(
     wrap: HTMLElement | null,
     periods: ChartPeriod[],
@@ -879,51 +870,32 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const neededW = PAD_L + PAD_R + POINT_GAP * Math.max(n - 1, 0) + 20;
     const chartW = Math.max(containerW, neededW);
     const maxSeries = Math.max(1, ...periods.map((p) => p.values.length));
-    const hasSecondary = periods.some((p) => p.values.some((v) => v.secondaryAxis));
-    const padRight = hasSecondary ? PAD_R + 24 : PAD_R; // 보조축 숫자 적을 공간 확보
 
     // 세로축 스케일 계산 대상 기간: visibleRange가 주어지면(=지금 화면에 보이는 구간) 그 구간만,
     // 아니면 전체 기간을 기준으로 최솟값/최댓값을 잡음. 이게 "스크롤하면 y축이 그 구간에 맞게 바뀌는" 핵심.
     const scalePeriods = visibleRange ? periods.slice(visibleRange[0], visibleRange[1] + 1) : periods;
 
-    // 값 규모가 크게 다른 시리즈(예: 채널 전체 업로드)는 보조축으로 따로 분리해서 스케일을 맞춤.
-    // 안 그러면 작은 값들이 큰 값 옆에서 바닥에 눌려 붙어서 잘 안 보이게 됨.
-    // 선이 그래프 맨 위 끝에 딱 붙어서 답답해 보이지 않도록, 최댓값보다 살짝 여유를 두고 스케일을 잡음.
-    // 왼쪽(기본축)과 오른쪽(보조축)을 따로 조절할 수 있음:
-    //  - PRIMARY_AXIS_HEADROOM: 내 출연/동기평균/전체평균 선의 여유값. 1.15 = 최댓값 대비 15% 여유.
-    //  - SECONDARY_AXIS_HEADROOM: "채널 전체 업로드" 선 전용 여유값. 이 값을 크게 잡을수록, 실제로는
-    //    숫자가 훨씬 큰데도 그래프에서는 덜 높게(더 작아 보이게) 그려져서, 왼쪽 축이랑 높이가
-    //    똑같이 맨 위까지 차오르는 "비현실적인" 느낌을 줄일 수 있음. 지금은 2.2로 잡아서
-    //    "채널 전체 업로드" 선이 그래프의 대략 아래 절반 정도까지만 올라오도록 했음.
-    const PRIMARY_AXIS_HEADROOM = 1.15;
-    const SECONDARY_AXIS_HEADROOM = 2.2;
-    const primaryVals = scalePeriodsFlat(scalePeriods, false);
-    const secondaryVals = scalePeriodsFlat(scalePeriods, true);
-    const primaryMinRaw = primaryVals.length ? Math.min(...primaryVals) : 0;
-    const primaryMaxRaw = Math.max(1, ...primaryVals, primaryMinRaw + 1);
-    const secondaryMinRaw = secondaryVals.length ? Math.min(...secondaryVals) : 0;
-    const secondaryMaxRaw = Math.max(1, ...secondaryVals, secondaryMinRaw + 1);
-    const primaryMax = primaryMinRaw + (primaryMaxRaw - primaryMinRaw) * PRIMARY_AXIS_HEADROOM;
-    const secondaryMax = secondaryMinRaw + (secondaryMaxRaw - secondaryMinRaw) * SECONDARY_AXIS_HEADROOM;
+    // 지금 화면에 그려지는(=periods에 포함된) 모든 선을 합쳐서 하나의 공유 스케일로 계산.
+    // 여러 선을 동시에 보고 있다면, 그 선들 중 최솟값~최댓값 범위로 축이 맞춰짐.
+    // (그래프 선 선택 기능과 같이 쓰는 걸 전제로 함 — 스케일 차이가 큰 선끼리 같이 켜면
+    //  값이 작은 선은 자연히 눌려 보이는데, 이건 "같이 보기로 선택했다"는 걸 존중하는 것)
+    const HEADROOM = 1.15;
+    const allVals = scalePeriods.flatMap((p) => p.values.map((v) => v.count));
+    const sharedMinRaw = allVals.length ? Math.min(...allVals) : 0;
+    const sharedMaxRaw = Math.max(1, ...allVals, sharedMinRaw + 1);
+    const sharedMax = sharedMinRaw + (sharedMaxRaw - sharedMinRaw) * HEADROOM;
 
     const xAt = (i: number) =>
       n > 1 && neededW < containerW
-        ? PAD_L + 10 + (i * (chartW - PAD_L - padRight - 20)) / (n - 1) // 폭이 남으면 점 간격을 균등하게 늘림
+        ? PAD_L + 10 + (i * (chartW - PAD_L - PAD_R - 20)) / (n - 1) // 폭이 남으면 점 간격을 균등하게 늘림
         : PAD_L + i * POINT_GAP + 10;
-    const yAt = (count: number, secondary?: boolean) => {
-      const max = secondary ? secondaryMax : primaryMax;
-      const min = secondary ? secondaryMinRaw : primaryMinRaw;
-      const range = Math.max(max - min, 1e-6);
-      return CHART_H - PAD_B - ((count - min) / range) * (CHART_H - PAD_T - PAD_B);
+    const yAt = (count: number) => {
+      const range = Math.max(sharedMax - sharedMinRaw, 1e-6);
+      return CHART_H - PAD_B - ((count - sharedMinRaw) / range) * (CHART_H - PAD_T - PAD_B);
     };
 
-    let svg = `<line x1="${PAD_L}" y1="${CHART_H - PAD_B}" x2="${chartW - padRight}" y2="${CHART_H - PAD_B}" stroke="${AXIS_LINE_COLOR}" stroke-width="1" />`;
-
-    // 왼쪽(기본축) / 오른쪽(보조축) 최댓값 표시
-    svg += `<text x="${PAD_L}" y="${PAD_T - 12}" text-anchor="start" font-size="10" fill="${AXIS_TEXT_COLOR}" font-family="Archivo, sans-serif">${Math.round(primaryMinRaw)} ~ ${Math.round(primaryMaxRaw)}</text>`;
-    if (hasSecondary) {
-      svg += `<text x="${chartW - padRight}" y="${PAD_T - 12}" text-anchor="end" font-size="10" fill="#9ca3af" font-family="Archivo, sans-serif">채널 전체(우측축) ▲ ${Math.round(secondaryMaxRaw)}</text>`;
-    }
+    let svg = `<line x1="${PAD_L}" y1="${CHART_H - PAD_B}" x2="${chartW - PAD_R}" y2="${CHART_H - PAD_B}" stroke="${AXIS_LINE_COLOR}" stroke-width="1" />`;
+    svg += `<text x="${PAD_L}" y="${PAD_T - 12}" text-anchor="start" font-size="10" fill="${AXIS_TEXT_COLOR}" font-family="Archivo, sans-serif">${Math.round(sharedMinRaw)} ~ ${Math.round(sharedMaxRaw)}</text>`;
 
     // 연도 구분선 + 연도 라벨, x축 기간 라벨
     let lastYear: string | null = null;
@@ -948,15 +920,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       const sample = periods.find((p) => p.values[j])?.values[j];
       const color = sample?.color ?? SERIES_COLORS[j % SERIES_COLORS.length];
       const dashed = !!sample?.dashed;
-      const secondary = !!sample?.secondaryAxis;
-      const points = periods.map((p, i) => `${xAt(i).toFixed(1)},${yAt(p.values[j]?.count ?? 0, secondary).toFixed(1)}`).join(' ');
-      svg += `<polyline points="${points}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"${dashed ? ' stroke-dasharray="6,5"' : ''} opacity="${dashed || secondary ? 0.85 : 1}" />`;
+      const points = periods.map((p, i) => `${xAt(i).toFixed(1)},${yAt(p.values[j]?.count ?? sharedMinRaw).toFixed(1)}`).join(' ');
+      svg += `<polyline points="${points}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"${dashed ? ' stroke-dasharray="6,5"' : ''} opacity="${dashed ? 0.85 : 1}" />`;
       periods.forEach((p, i) => {
         const v = p.values[j];
         if (!v) return;
         const cx = xAt(i).toFixed(1);
-        const cy = Number(yAt(v.count, secondary).toFixed(1));
-        const displayVal = dashed ? v.count.toFixed(1) : String(Math.round(v.count));
+        const cy = Number(yAt(v.count).toFixed(1));
+        const unit = v.unit ?? '회';
+        const displayVal = (dashed ? v.count.toFixed(1) : String(Math.round(v.count))) + unit;
         // 실제 마우스 감지 영역(안 보임, 반지름 훨씬 크게) + 눈에 보이는 작은 점(반지름 4) 이렇게 둘로 나눠서
         // 눈으로는 작은 점만 보이지만, 마우스는 훨씬 넓은 범위에서 반응하게 함
         svg += `<circle class="chart-point" data-label="${p.label}" data-name="${v.name}" data-count="${displayVal}" data-color="${color}" cx="${cx}" cy="${cy}" r="${dashed ? 7 : 11}" fill="transparent" pointer-events="all" />`;
@@ -1044,27 +1016,46 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   let trendMode: 'year' | 'month' = 'year';
   const trendWrap = document.getElementById('trend-chart-wrap');
   const trendLegend = document.getElementById('trend-chart-legend');
-  if (trendWrap) attachChartHover(trendWrap, document.getElementById('trend-hover-info'));
+
+  // 기본으로 켜져있는 선: 내 출연, 채널 전체 업로드. 나머지(동기평균/전체평균)는 눌러야 나옴.
+  let visibleSeriesKeys = new Set<string>(['self', 'channel']);
 
   let trendPeriods: ChartPeriod[] = [];
   function renderTrendChart() {
-    const seriesDefs: { name: string; dates: string[]; color: string; dashed?: boolean; divisor?: number; secondaryAxis?: boolean }[] = [
-      { name: '내 출연', dates: TAGGED_DATES, color: '#ffffff' },
-      { name: '채널 전체 업로드', dates: CHANNEL_UPLOAD_DATES, color: '#fb923c', secondaryAxis: true },
+    const allSeriesDefs: { key: string; name: string; dates: string[]; color: string; dashed?: boolean; divisor?: number }[] = [
+      { key: 'self', name: '내 출연', dates: TAGGED_DATES, color: '#ffffff' },
+      { key: 'channel', name: '채널 전체 업로드', dates: CHANNEL_UPLOAD_DATES, color: '#fb923c' },
     ];
     if (COHORT_META.hasCohort) {
-      seriesDefs.push({ name: COHORT_META.cohortLabel || '동기 평균', dates: COHORT_DATES, color: '#facc15', dashed: true, divisor: COHORT_META.cohortDivisor });
+      allSeriesDefs.push({ key: 'cohort', name: COHORT_META.cohortLabel || '동기 평균', dates: COHORT_DATES, color: '#facc15', dashed: true, divisor: COHORT_META.cohortDivisor });
     }
-    seriesDefs.push({ name: '전체 멤버 평균', dates: OVERALL_DATES, color: '#22d3ee', dashed: true, divisor: COHORT_META.overallDivisor });
+    allSeriesDefs.push({ key: 'overall', name: '전체 멤버 평균', dates: OVERALL_DATES, color: '#22d3ee', dashed: true, divisor: COHORT_META.overallDivisor });
 
+    // 범례는 항상 전체 목록을 보여주되(꺼진 건 흐리게), 실제 그래프에는 켜진 것만 넘김
+    if (trendLegend) {
+      trendLegend.innerHTML = allSeriesDefs
+        .map((s) => {
+          const active = visibleSeriesKeys.has(s.key);
+          return `<button type="button" class="chart-legend-item ${active ? 'active' : 'inactive'}" data-key="${s.key}" style="border-color:${s.color}"><span class="chart-legend-dot" style="background:${s.color}"></span><span style="color:${s.color}">${s.name}</span></button>`;
+        })
+        .join('');
+      trendLegend.querySelectorAll<HTMLButtonElement>('.chart-legend-item').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.key!;
+          if (visibleSeriesKeys.has(key)) {
+            if (visibleSeriesKeys.size === 1) return; // 최소 하나는 켜져있어야 함
+            visibleSeriesKeys.delete(key);
+          } else {
+            visibleSeriesKeys.add(key);
+          }
+          renderTrendChart();
+        });
+      });
+    }
+
+    const seriesDefs = allSeriesDefs.filter((s) => visibleSeriesKeys.has(s.key));
     trendPeriods = buildMultiSeriesPeriods(seriesDefs, trendMode);
     renderChart(trendWrap, trendPeriods, trendMode, getVisibleRange(trendWrap, trendPeriods.length));
-
-    if (trendLegend) {
-      trendLegend.innerHTML = seriesDefs
-        .map((s) => `<span class="chart-legend-item"><span class="chart-legend-dot" style="background:${s.color}"></span><span style="color:${s.color}">${s.name}</span></span>`)
-        .join('');
-    }
   }
   if (trendWrap) bindDynamicYScale(trendWrap, () => trendPeriods, () => trendMode);
   document.querySelectorAll<HTMLButtonElement>('#trend-toggle .stat-toggle-btn').forEach((btn) => {
@@ -1077,14 +1068,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   });
   renderTrendChart();
 
-  // ---- 선택 통계: "출연 영상" 필터에서 그룹(또는 하위)이나 멤버를 고르면, 그 선택에 대한 시계열 그래프를 보여줌 ----
+  // ---- 선택 통계: "출연 영상" 필터에서 그룹(또는 하위)이나 멤버를 고르면, 그 선택에 대한 통계를 보여줌 ----
   let selectionPeriod: 'year' | 'month' = 'year';
   const selectionBlock = document.getElementById('selection-chart-block');
-  const selectionWrap = document.getElementById('selection-chart-wrap');
   const selectionTitle = document.getElementById('selection-chart-title');
-  if (selectionWrap) attachChartHover(selectionWrap, document.getElementById('selection-hover-info'));
-
-  let selectionPeriods: ChartPeriod[] = [];
+  const shareChartBlock = document.getElementById('share-chart-block');
+  const shareChartWrap = document.getElementById('share-chart-wrap');
+  const shareChartLegend = document.getElementById('share-chart-legend');
+  const ALL_GROUP_EVENTS: { group: string; songKey: string; date: string }[] = JSON.parse(document.getElementById('all-group-events-data')?.textContent ?? '[]');
+  let shareVisibleKeys = new Set<string>(['a', 'b']); // 기본으로 둘 다 켜둠
+  let sharePeriods: ChartPeriod[] = [];
 
   function renderSelectionChart() {
     if (!selectionBlock) return;
@@ -1107,29 +1100,93 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     selectionBlock.style.display = '';
     if (selectionTitle) selectionTitle.textContent = `"${targetLabel}" 통계`;
 
-    // 같은 곡(songKey)이 여러 영상으로 올라와도 기간 하나당 1회로만 집계
+    // 같은 곡(songKey)이 여러 영상으로 올라와도 기간 하나당 1회로만 집계 (아래 비율 계산·인물별 막대에서 재사용)
     const perPeriod: Record<string, Set<string>> = {};
     for (const v of matched) {
       const key = selectionPeriod === 'year' ? v.date.slice(0, 4) : v.date.slice(0, 7);
       if (!perPeriod[key]) perPeriod[key] = new Set();
       perPeriod[key].add(v.songKey);
     }
-    selectionPeriods = Object.keys(perPeriod)
-      .sort((a, b) => a.localeCompare(b))
-      .map((key) => ({
-        label: key,
-        year: key.slice(0, 4),
-        values: [{ name: targetLabel!, count: perPeriod[key].size, color: '#ffffff' }],
-      }));
 
-    renderChart(selectionWrap, selectionPeriods, selectionPeriod, getVisibleRange(selectionWrap, selectionPeriods.length));
+    // ---- 그룹별 선택일 때만: 비율(%) 추이 두 가지 ----
+    // A) 내 전체 출연 중 이 그룹이 차지하는 비중 — "나한테 이 그룹이 얼마나 중요한가"
+    // B) 이 그룹을 커버한 채널 전체 영상 중 내가 담당한 비중 — "이 그룹 커버에서 내가 얼마나 비중있는가"
+    // 둘 다 %라서 같은 0~100 스케일을 자연스럽게 공유함 (원시 횟수 그래프와는 별도로 둠)
+    if (shareChartBlock && activeMode === 'group') {
+      shareChartBlock.style.display = '';
+
+      const myTotalPerPeriod: Record<string, Set<string>> = {};
+      for (const v of DATA) {
+        if (v.contentType !== 'video') continue;
+        const key = selectionPeriod === 'year' ? v.date.slice(0, 4) : v.date.slice(0, 7);
+        if (!myTotalPerPeriod[key]) myTotalPerPeriod[key] = new Set();
+        myTotalPerPeriod[key].add(v.songKey);
+      }
+
+      const channelGroupPerPeriod: Record<string, Set<string>> = {};
+      for (const e of ALL_GROUP_EVENTS) {
+        if (!matchesPath(e.group, activeGroupPath)) continue;
+        const key = selectionPeriod === 'year' ? e.date.slice(0, 4) : e.date.slice(0, 7);
+        if (!channelGroupPerPeriod[key]) channelGroupPerPeriod[key] = new Set();
+        channelGroupPerPeriod[key].add(e.songKey);
+      }
+
+      const allShareKeys = new Set<string>([...Object.keys(myTotalPerPeriod), ...Object.keys(channelGroupPerPeriod), ...Object.keys(perPeriod)]);
+      const shareSeriesDefsAll = [
+        {
+          key: 'a',
+          name: `내 활동 중 "${targetLabel}" 비중`,
+          color: '#facc15',
+          compute: (k: string) => (myTotalPerPeriod[k]?.size ? ((perPeriod[k]?.size ?? 0) / myTotalPerPeriod[k].size) * 100 : 0),
+        },
+        {
+          key: 'b',
+          name: `"${targetLabel}" 커버 중 내 비중`,
+          color: '#a78bfa',
+          compute: (k: string) => (channelGroupPerPeriod[k]?.size ? ((perPeriod[k]?.size ?? 0) / channelGroupPerPeriod[k].size) * 100 : 0),
+        },
+      ];
+
+      if (shareChartLegend) {
+        shareChartLegend.innerHTML = shareSeriesDefsAll
+          .map((s) => {
+            const active = shareVisibleKeys.has(s.key);
+            return `<button type="button" class="chart-legend-item ${active ? 'active' : 'inactive'}" data-key="${s.key}" style="border-color:${s.color}"><span class="chart-legend-dot" style="background:${s.color}"></span><span style="color:${s.color}">${s.name}</span></button>`;
+          })
+          .join('');
+        shareChartLegend.querySelectorAll<HTMLButtonElement>('.chart-legend-item').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const key = btn.dataset.key!;
+            if (shareVisibleKeys.has(key)) {
+              if (shareVisibleKeys.size === 1) return;
+              shareVisibleKeys.delete(key);
+            } else {
+              shareVisibleKeys.add(key);
+            }
+            renderSelectionChart();
+          });
+        });
+      }
+
+      const activeShareDefs = shareSeriesDefsAll.filter((s) => shareVisibleKeys.has(s.key));
+      sharePeriods = [...allShareKeys]
+        .sort((a, b) => a.localeCompare(b))
+        .map((key) => ({
+          label: key,
+          year: key.slice(0, 4),
+          values: activeShareDefs.map((s) => ({ name: s.name, count: Number(s.compute(key).toFixed(1)), color: s.color, unit: '%' })),
+        }));
+      renderChart(shareChartWrap, sharePeriods, selectionPeriod, getVisibleRange(shareChartWrap, sharePeriods.length));
+    } else if (shareChartBlock) {
+      shareChartBlock.style.display = 'none';
+    }
 
     // ---- 그룹별 선택일 때만: 이 그룹에서 실제로 누구를 몇 번/몇 %로 맡았는지 + 전체 출연 중 이 그룹 비중 ----
-    const roleBreakdown = document.getElementById('role-breakdown');
+    const roleBarsCol = document.getElementById('role-bars-col');
     const roleShareLine = document.getElementById('role-share-line');
     const roleBars = document.getElementById('role-bars');
 
-    if (activeMode === 'group' && roleBreakdown && roleShareLine && roleBars) {
+    if (activeMode === 'group' && roleBarsCol && roleShareLine && roleBars) {
       // 같은 곡이 여러 영상으로 올라와도 1곡으로만 세기 위해 songKey 기준으로 중복 제거
       const groupSongKeys = new Set(matched.map((v) => v.songKey));
       const allMySongKeys = new Set(DATA.filter((v) => v.contentType === 'video').map((v) => v.songKey));
@@ -1145,10 +1202,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       const roleTotal = Object.values(roleCounts).reduce((sum, set) => sum + set.size, 0);
 
       if (roleTotal === 0) {
-        // role_mapping 데이터가 아직 없는 그룹이면 조용히 숨김 (에러 아님)
-        roleBreakdown.style.display = 'none';
+        // role_mapping 데이터가 아직 없는 그룹이면 조용히 숨김 (에러 아님) — 오른쪽 비율 추이는 그대로 보임
+        roleBarsCol.style.display = 'none';
       } else {
-        roleBreakdown.style.display = '';
+        roleBarsCol.style.display = '';
         roleShareLine.innerHTML = `전체 출연(<strong>${allMySongKeys.size}곡</strong>) 중 <strong style="color:#22d3ee">${targetLabel}</strong> 담당 비중: <strong>${groupSongKeys.size}곡 (${groupShare.toFixed(1)}%)</strong>`;
 
         const sorted = Object.entries(roleCounts).sort((a, b) => b[1].size - a[1].size);
@@ -1166,11 +1223,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           })
           .join('');
       }
-    } else if (roleBreakdown) {
-      roleBreakdown.style.display = 'none';
+    } else if (roleBarsCol) {
+      roleBarsCol.style.display = 'none';
     }
   }
-  if (selectionWrap) bindDynamicYScale(selectionWrap, () => selectionPeriods, () => selectionPeriod);
+  if (shareChartWrap) bindDynamicYScale(shareChartWrap, () => sharePeriods, () => selectionPeriod);
 
   document.querySelectorAll<HTMLButtonElement>('#selection-period-toggle .stat-toggle-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -1446,6 +1503,136 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     font-size: 14px;
     margin-top: 40px;
   }
+
+  .stats-section {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .stats-section h2 { font-size: 16px; margin: 0 0 24px; }
+  .stat-block { margin-bottom: 32px; }
+  .stat-block h3 { font-size: 14px; color: var(--muted); margin: 0 0 14px; font-weight: 600; }
+  .stat-block-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .stat-block-head h3 { margin: 0; }
+  .stat-toggle { display: flex; gap: 4px; }
+  .stat-toggle-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .stat-toggle-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  .chart-scroll {
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin; /* 파이어폭스 */
+    scrollbar-color: #ffffff #000000; /* 파이어폭스: 막대색 트랙색 */
+  }
+  .chart-scroll::-webkit-scrollbar { height: 8px; } /* 크롬/사파리/엣지 */
+  .chart-scroll::-webkit-scrollbar-track { background: #000000; border-radius: 999px; }
+  .chart-scroll::-webkit-scrollbar-thumb { background: #ffffff; border-radius: 999px; }
+  .chart-scroll::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
+  .stat-chart-svg { display: block; }
+  .chart-point { cursor: pointer; }
+  .chart-scale-note {
+    font-size: 11px;
+    color: var(--muted);
+    margin: 0 0 10px;
+    line-height: 1.5;
+  }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0; }
+  .chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    background: #000000;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-family: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .chart-legend-clickable .chart-legend-item {
+    cursor: pointer;
+  }
+  .chart-legend-clickable .chart-legend-item.inactive {
+    opacity: 0.35;
+  }
+  .chart-legend-clickable .chart-legend-item.inactive span:last-child { color: var(--muted) !important; }
+  .chart-select-hint { font-size: 11px; color: var(--muted); margin: 0 0 8px; }
+  .chart-legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+  .selection-chart-block {
+    margin: 20px 0 28px;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  .share-chart-block {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  .share-combined-row {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .role-bars-col {
+    flex: 0 0 260px;
+    min-width: 220px;
+  }
+  .share-line-col {
+    flex: 1 1 320px;
+    min-width: 280px;
+  }
+  .role-share-line {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .role-share-line strong { color: var(--ink); }
+  .role-bars { display: flex; flex-direction: column; gap: 9px; }
+  .role-bar-row {
+    display: grid;
+    grid-template-columns: 70px 1fr 90px;
+    align-items: center;
+    gap: 10px;
+  }
+  .role-bar-label {
+    font-size: 12px;
+    color: var(--ink);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .role-bar-track {
+    height: 8px;
+    background: var(--line);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .role-bar-fill {
+    height: 100%;
+    background: #22d3ee;
+    border-radius: 999px;
+  }
+  .role-bar-value { font-size: 11px; color: var(--muted); text-align: right; }
 </style>
 
 <style>
@@ -1580,110 +1767,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .collab-profile-card:hover { border-color: var(--muted); }
   .collab-profile-card strong { display: block; font-size: 15px; }
   .collab-profile-card span { font-size: 13px; color: var(--muted); }
-
-  .stats-section {
-    margin-top: 40px;
-    padding-top: 24px;
-    border-top: 1px solid var(--line);
-  }
-  .stats-section h2 { font-size: 16px; margin: 0 0 24px; }
-  .stat-block { margin-bottom: 32px; }
-  .stat-block h3 { font-size: 14px; color: var(--muted); margin: 0 0 14px; font-weight: 600; }
-  .stat-block-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-  }
-  .stat-block-head h3 { margin: 0; }
-  .stat-toggle { display: flex; gap: 4px; }
-  .stat-toggle-btn {
-    font-family: 'Archivo', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 5px 12px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: transparent;
-    color: var(--muted);
-    cursor: pointer;
-  }
-  .stat-toggle-btn.active { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
-
-  .chart-scroll {
-    overflow-x: auto;
-    padding-bottom: 10px;
-    scrollbar-width: thin; /* 파이어폭스 */
-    scrollbar-color: #ffffff #000000; /* 파이어폭스: 막대색 트랙색 */
-  }
-  .chart-scroll::-webkit-scrollbar { height: 8px; } /* 크롬/사파리/엣지 */
-  .chart-scroll::-webkit-scrollbar-track { background: #000000; border-radius: 999px; }
-  .chart-scroll::-webkit-scrollbar-thumb { background: #ffffff; border-radius: 999px; }
-  .chart-scroll::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
-  .stat-chart-svg { display: block; }
-  .chart-point { cursor: pointer; }
-  .chart-hover-info {
-    background: #ffffff;
-    color: #0e0e10;
-    border-radius: 6px;
-    padding: 8px 14px;
-    font-size: 13px;
-    margin: 0 0 10px;
-  }
-  .tooltip-dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 6px;
-  }
-  .chart-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0; }
-  .chart-legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; }
-  .chart-legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
-
-  .selection-chart-block {
-    margin: 20px 0 28px;
-    padding: 16px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-  }
-  .role-breakdown {
-    margin-top: 20px;
-    padding-top: 16px;
-    border-top: 1px solid var(--line);
-  }
-  .role-share-line {
-    font-size: 13px;
-    color: var(--muted);
-    margin: 0 0 14px;
-  }
-  .role-share-line strong { color: var(--ink); }
-  .role-bars { display: flex; flex-direction: column; gap: 9px; }
-  .role-bar-row {
-    display: grid;
-    grid-template-columns: 70px 1fr 90px;
-    align-items: center;
-    gap: 10px;
-  }
-  .role-bar-label {
-    font-size: 12px;
-    color: var(--ink);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .role-bar-track {
-    height: 8px;
-    background: var(--line);
-    border-radius: 999px;
-    overflow: hidden;
-  }
-  .role-bar-fill {
-    height: 100%;
-    background: #22d3ee;
-    border-radius: 999px;
-  }
-  .role-bar-value { font-size: 11px; color: var(--muted); text-align: right; }
 
   .tagged-videos {
     margin-top: 40px;
