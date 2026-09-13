@@ -107125,7 +107125,7 @@
         "covered_member": "다현"
       }
     ],
-    "sponsors": "경산롤러&",
+    "sponsors": ["경산롤러&"],
     "published_date": "2019-05-08",
     "content_type": "video",
     "view_count": 855866,
