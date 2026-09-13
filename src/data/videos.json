@@ -46378,19 +46378,27 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
+      "ahn-yoojin",
       "kang-yejin",
-      "kang-minji",
-      "jeong-yoojin",
-      "lee-yejin"
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "ahn-yoojin", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "kang-yejin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-bubblegum-2024",
     "published_date": "2024-10-23",
     "content_type": "video",
     "view_count": 382277,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S17"
+    ]
   },
   {
     "youtube_id": "niluHjjZPuE",
@@ -46641,17 +46649,24 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
       "kang-yejin",
-      "kang-minji",
-      "lee-yejin"
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "kang-yejin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2024-10-13",
     "content_type": "video",
     "view_count": 508962,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S17"
+    ]
   },
   {
     "youtube_id": "81g29-NHMq0",
@@ -47041,8 +47056,22 @@
       "지민"
     ],
     "tagged_members": [
-      "lee-jimin",
-      "min"
+      "kim-mingi"
+    ],
+    "special_dancers": [
+      "kim-hyerim",
+      "kang-yejin",
+      "ji-ayeong",
+      "won-seoa",
+      "kim-chan",
+      "kim-taehwan",
+      "kim-youngjin",
+      "kim-daehan",
+      "park-seongmin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
     ],
     "published_date": "2024-10-05",
     "content_type": "short",
@@ -47058,8 +47087,22 @@
       "지민"
     ],
     "tagged_members": [
-      "lee-jimin",
-      "min"
+      "kim-mingi"
+    ],
+    "special_dancers": [
+      "kim-hyerim",
+      "kang-yejin",
+      "ji-ayeong",
+      "won-seoa",
+      "kim-chan",
+      "kim-taehwan",
+      "kim-youngjin",
+      "kim-daehan",
+      "park-seongmin"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
     ],
     "published_date": "2024-10-05",
     "content_type": "short",
@@ -47089,7 +47132,9 @@
       "지민"
     ],
     "tagged_members": [
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers": [
       "kim-hyerim",
       "kang-yejin",
       "ji-ayeong",
@@ -47100,6 +47145,11 @@
       "kim-daehan",
       "park-seongmin"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group": "jimin-who-2024",
     "published_date": "2024-10-05",
     "content_type": "video",
     "view_count": 427701,
@@ -49685,7 +49735,9 @@
     "published_date": "2024-06-11",
     "content_type": "short",
     "view_count": 2796775,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "nOjxVZceu1g",
@@ -49752,18 +49804,23 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
       "kang-yejin",
-      "kang-minji",
-      "lee-yejin"
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "kang-yejin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2024-06-07",
     "content_type": "video",
     "view_count": 329626,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -49773,17 +49830,25 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
       "kang-yejin",
-      "kang-minji",
-      "lee-yejin"
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "kang-yejin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-howsweet-2024",
     "published_date": "2024-06-06",
     "content_type": "video",
     "view_count": 981887,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "gEYbCJKrjRc",
@@ -59029,17 +59094,25 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "oh-yubin",
-      "jang-sein",
-      "kang-minji",
-      "yuna"
+      "yuna",
+      "park-jaehee",
+      "lee-gaeun",
+      "jang-sein"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "yuna", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-jaehee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "jang-sein", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-10-14",
     "content_type": "video",
     "view_count": 161326,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -59792,7 +59865,9 @@
     "published_date": "2023-10-03",
     "content_type": "short",
     "view_count": 218846,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "PQhu9GXBafs",
@@ -59910,17 +59985,27 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "lee-gaeun",
       "ahn-yoojin",
+      "son-wonye",
+      "lee-gaeun",
       "oh-yubin",
-      "kang-minji",
-      "jeong-yoojin"
+      "park-sunyoung"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ahn-yoojin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "son-wonye", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "park-sunyoung", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-asap-2023",
     "published_date": "2023-10-02",
     "content_type": "video",
     "view_count": 372740,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "GI8L264rBxU",
@@ -60250,15 +60335,27 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "oh-yubin",
-      "jang-sein",
-      "kang-minji"
+      "yuna",
+      "park-jaehee",
+      "lee-gaeun",
+      "jang-sein"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "yuna", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-jaehee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "jang-sein", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-newjeans-2023",
     "published_date": "2023-09-30",
     "content_type": "short",
     "view_count": 471072,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "ld-jXZnpTBA",
@@ -67859,31 +67956,33 @@
   {
     "youtube_id": "MnBY7b9lVm4",
     "title": "[여기서요?] 'HYBE' 청량 퍼포먼스 (THE BATTLE PERFORMANCE) | 커버댄스 Dance Cover @여의도한강공원",
-    "covered_group": [
-      "NewJeans"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-suhwan",
-      "kim-mingi",
-      "lim-donghun",
-      "chae-yunsu",
-      "kang-taehyun",
-      "cho-woohyeong",
-      "kim-daehan",
-      "park-sunyoung",
-      "hwang-dagun",
       "lee-gaeun",
-      "yun-haeun",
+      "hwang-dagun",
+      "park-sunyoung",
       "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "yun-haeun",
+      "kwon-dohyun",
+      "lee-moonkyu",
+      "kim-suhwan",
+      "kang-taehyun",
+      "seo-danbi",
+      "kim-minji",
+      "bang-hayul",
+      "lim-donghun",
+      "kim-mingi",
+      "cho-woohyeong",
+      "chae-yunsu",
+      "kim-daehan"
     ],
     "published_date": "2023-05-04",
     "content_type": "video",
     "view_count": 652213,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y",
+      "THE BATTLE PERFORMANCE"
     ]
   },
   {
@@ -69546,7 +69645,10 @@
     "published_date": "2023-03-31",
     "content_type": "short",
     "view_count": 1737679,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12",
+      "THE BATTLE PERFORMANCE"
+    ]
   },
   {
     "youtube_id": "c2tUylrnaZk",
@@ -69705,13 +69807,32 @@
     "youtube_id": "V7iB9StMcC8",
     "title": "[방구석 여기서요? - THE BATTLE] 'HYBE' 청량 퍼포먼스 | ARTBEAT",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-moonkyu",
+      "kim-daehan",
+      "kim-minji",
+      "kim-mingi",
+      "bang-hayul",
+      "hwang-dagun",
+      "seo-danbi",
+      "chae-yunsu",
+      "park-sunyoung",
+      "bang-jooyeon",
+      "kim-suhwan",
+      "lee-gaeun",
+      "kang-taehyun",
+      "kwon-dohyun",
+      "cho-woohyeong",
+      "yun-haeun",
+      "lim-donghun"
+    ],
     "published_date": "2023-03-28",
     "content_type": "video",
     "view_count": 1276249,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12",
+      "THE BATTLE PERFORMANCE"
     ]
   },
   {
@@ -69825,18 +69946,25 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji"
+      "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-03-25",
     "content_type": "video",
     "view_count": 846312,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12"
     ]
   },
   {
@@ -70550,18 +70678,26 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "ha-seyoung",
       "ahn-yoojin",
       "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji",
-      "jeong-yoojin"
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-03-16",
     "content_type": "video",
     "view_count": 1305493,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "swujXYnruHY",
@@ -72082,6 +72218,14 @@
       "oh-yubin",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
     "published_date": "2023-01-29",
     "content_type": "video",
     "view_count": 301880,
@@ -72187,6 +72331,14 @@
       "yun-haeun",
       "oh-yubin",
       "lee-gaeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-01-26",
     "content_type": "video",
@@ -72381,17 +72533,25 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji"
+      "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-01-21",
     "content_type": "video",
     "view_count": 429752,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -72453,6 +72613,15 @@
       "oh-yubin",
       "lee-gaeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-omg-2023",
     "published_date": "2023-01-19",
     "content_type": "video",
     "view_count": 1957155,
@@ -72467,11 +72636,19 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "ahn-yoojin",
-      "yun-haeun",
       "oh-yubin",
-      "lee-gaeun"
+      "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2023-01-18",
     "content_type": "video",
@@ -72514,6 +72691,15 @@
       "lee-gaeun",
       "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-ditto-2023",
     "published_date": "2023-01-15",
     "content_type": "video",
     "view_count": 1781798,
@@ -74019,16 +74205,25 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "oh-yubin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "bang-jooyeon", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2022-11-22",
     "content_type": "video",
     "view_count": 1271153,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "Vez-7nzL59A",
@@ -75341,17 +75536,26 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
-      "kang-minji"
+      "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "park-damhee", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-hypeboy-2022",
     "published_date": "2022-09-10",
     "content_type": "video",
     "view_count": 1258918,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -75624,17 +75828,24 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "oh-yubin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "bang-jooyeon", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2022-09-06",
     "content_type": "video",
     "view_count": 662001,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -76262,17 +76473,24 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "oh-yubin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "bang-jooyeon", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2022-08-24",
     "content_type": "video",
     "view_count": 650214,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -76283,16 +76501,26 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "oh-yubin",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "bang-jooyeon", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
     ],
     "published_date": "2022-08-23",
     "content_type": "video",
     "view_count": 175182,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "r77nAGR4KTk",
@@ -76302,17 +76530,25 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
       "bang-jooyeon",
-      "kang-minji"
+      "oh-yubin",
+      "yun-haeun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "NewJeans", "covered_member": "해린" },
+      { "member_id": "ha-seyoung", "covered_group": "NewJeans", "covered_member": "혜인" },
+      { "member_id": "bang-jooyeon", "covered_group": "NewJeans", "covered_member": "다니엘" },
+      { "member_id": "oh-yubin", "covered_group": "NewJeans", "covered_member": "민지" },
+      { "member_id": "yun-haeun", "covered_group": "NewJeans", "covered_member": "하니" }
+    ],
+    "song_group": "newjeans-attention-2022",
     "published_date": "2022-08-21",
     "content_type": "video",
     "view_count": 2813946,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -79124,6 +79360,15 @@
       "jeong-gyeolgyeong",
       "jang-sein",
       "bang-hayul"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "jeong-jihye", "covered_group": "IVE", "covered_member": "유진" },
+      { "member_id": "park-jaehee", "covered_group": "IVE", "covered_member": "원영" },
+      { "member_id": "cho-eunseo", "covered_group": "IVE", "covered_member": "레이" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "IVE", "covered_member": "리즈" },
+      { "member_id": "jang-sein", "covered_group": "IVE", "covered_member": "이서" },
+      { "member_id": "bang-hayul", "covered_group": "IVE", "covered_member": "가을" }
     ],
     "published_date": "2022-06-03",
     "content_type": "video",
@@ -102683,13 +102928,14 @@
     "covered_group": [
       "지민"
     ],
-    "tagged_members": [
-      "lee-jimin"
-    ],
+    "tagged_members": [],
     "published_date": "2019-05-30",
     "content_type": "video",
     "view_count": 29355,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::제이원 엔터테인먼트 아카데미::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "RMbM-kyRAEQ",
@@ -107882,7 +108128,7 @@
     "youtube_id": "SzJC9oTkTXI",
     "title": "[AB 벚꽃특집] 소녀온탑 GIRLS ON TOP - 같은 곳에서 IN THE SAME PLACE  | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::소녀온탑"
     ],
     "tagged_members": [
       "park-sunyoung",
@@ -107892,6 +108138,16 @@
       "ahn-yoojin",
       "kim-eunbin",
       "jinhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "park-sunyoung", "covered_group": "소녀온탑", "covered_member": "유연정" },
+      { "member_id": "kim-hayeon", "covered_group": "소녀온탑", "covered_member": "김소혜" },
+      { "member_id": "hwang-dagun", "covered_group": "소녀온탑", "covered_member": "김소희" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀온탑", "covered_member": "김도연" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀온탑", "covered_member": "한혜리" },
+      { "member_id": "kim-eunbin", "covered_group": "소녀온탑", "covered_member": "강시라" },
+      { "member_id": "jinhee", "covered_group": "소녀온탑", "covered_member": "윤채경" }
     ],
     "published_date": "2018-04-14",
     "content_type": "video",
