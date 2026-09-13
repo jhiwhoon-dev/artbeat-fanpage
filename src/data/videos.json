@@ -34726,23 +34726,36 @@
       "TREASURE"
     ],
     "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyun",
       "kim-taehwan",
       "kim-suhwan",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "cho-gyuso",
-      "lee-gaeun",
       "yun-haeun",
+      "kim-chan",
+      "cho-yuna",
       "kang-yejin",
-      "lee-yejin",
-      "lee-yoonjae",
-      "cho-yuna"
+      "cho-gyuso",
+      "lee-gaeun"
+    ],
+    "sponsors": [],
+    "ads": [],
+    "role_mapping": [
+      { "member_id": "do-hyeonsung", "covered_group": "TREASURE", "covered_member": "최현석" },
+      { "member_id": "kang-taehyun", "covered_group": "TREASURE", "covered_member": "지훈" },
+      { "member_id": "kim-taehwan", "covered_group": "TREASURE", "covered_member": "요시" },
+      { "member_id": "kim-suhwan", "covered_group": "TREASURE", "covered_member": "준규" },
+      { "member_id": "yun-haeun", "covered_group": "TREASURE", "covered_member": "윤재혁" },
+      { "member_id": "kim-chan", "covered_group": "TREASURE", "covered_member": "아사히" },
+      { "member_id": "cho-yuna", "covered_group": "TREASURE", "covered_member": "도영" },
+      { "member_id": "kang-yejin", "covered_group": "TREASURE", "covered_member": "하루토" },
+      { "member_id": "cho-gyuso", "covered_group": "TREASURE", "covered_member": "박정우" },
+      { "member_id": "lee-gaeun", "covered_group": "TREASURE", "covered_member": "소정환" }
     ],
     "published_date": "2025-05-14",
     "content_type": "video",
     "view_count": 205180,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -36419,24 +36432,37 @@
       "TREASURE"
     ],
     "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyun",
       "kim-taehwan",
       "kim-suhwan",
-      "kang-taehyun",
-      "do-hyeonsung",
-      "cho-gyuso",
-      "lee-gaeun",
       "yun-haeun",
+      "kim-chan",
+      "cho-yuna",
       "kang-yejin",
-      "lee-yejin",
-      "lee-yoonjae",
-      "cho-yuna"
+      "cho-gyuso",
+      "lee-gaeun"
     ],
+    "sponsors": [],
+    "ads": [],
+    "role_mapping": [
+      { "member_id": "do-hyeonsung", "covered_group": "TREASURE", "covered_member": "최현석" },
+      { "member_id": "kang-taehyun", "covered_group": "TREASURE", "covered_member": "지훈" },
+      { "member_id": "kim-taehwan", "covered_group": "TREASURE", "covered_member": "요시" },
+      { "member_id": "kim-suhwan", "covered_group": "TREASURE", "covered_member": "준규" },
+      { "member_id": "yun-haeun", "covered_group": "TREASURE", "covered_member": "윤재혁" },
+      { "member_id": "kim-chan", "covered_group": "TREASURE", "covered_member": "아사히" },
+      { "member_id": "cho-yuna", "covered_group": "TREASURE", "covered_member": "도영" },
+      { "member_id": "kang-yejin", "covered_group": "TREASURE", "covered_member": "하루토" },
+      { "member_id": "cho-gyuso", "covered_group": "TREASURE", "covered_member": "박정우" },
+      { "member_id": "lee-gaeun", "covered_group": "TREASURE", "covered_member": "소정환" }
+    ],
+    "song_group": "treasure-yellow-2025",
     "published_date": "2025-04-29",
     "content_type": "video",
     "view_count": 375166,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -87087,44 +87113,7 @@
   {
     "youtube_id": "IZb2m3ApKAY",
     "title": "[K-POP DANCE BATTLE] 'AB vs A2be' 춤으로 한번 붙어보자!! | 방구석 여기서요?",
-    "covered_group": [
-      "LISA",
-      "방탄소년단",
-      "브레이브걸스",
-      "선미",
-      "세븐틴",
-      "소녀시대",
-      "오마이걸",
-      "제시",
-      "지민",
-      "카이",
-      "태민",
-      "투모로우바이투게더",
-      "PRODUCE 101",
-      "현아",
-      "화사",
-      "화사",
-      "aespa",
-      "ATEEZ",
-      "BLACKPINK",
-      "EXO",
-      "ITZY",
-      "IZ*ONE",
-      "NCT",
-      "NCT 127",
-      "NCT DREAM",
-      "Red Velvet",
-      "SHINee",
-      "STAYC",
-      "Stray Kids",
-      "SuperM",
-      "TWICE",
-      "청하",
-      "마마무",
-      "iKON",
-      "TEN",
-      "여자친구"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "kim-hyerim",
       "lee-gaeun",
@@ -107136,6 +107125,7 @@
         "covered_member": "다현"
       }
     ],
+    "sponsors": "경산롤러&",
     "published_date": "2019-05-08",
     "content_type": "video",
     "view_count": 855866,
@@ -111428,12 +111418,36 @@
     "covered_group": [
       "TWICE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
+      "kim-hayeon",
+      "suvin",
+      "kim-eunbin",
+      "her-naeun",
+      "lee-gaeun",
+      "ahn-yoojin",
+      "jinhee"
+    ],
+    "sponsors": [
+      "롯데워터파크"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "ahn-yoojin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" }
+    ],
     "published_date": "2018-07-29",
     "content_type": "video",
     "view_count": 1808888,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
@@ -111443,16 +111457,33 @@
       "TWICE"
     ],
     "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
       "kim-hayeon",
+      "suvin",
+      "kim-eunbin",
+      "her-naeun",
       "lee-gaeun",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "jinhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "ahn-yoojin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" }
     ],
     "published_date": "2018-07-27",
     "content_type": "video",
     "view_count": 115317,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2018y"
     ]
   },
   {
@@ -111461,11 +111492,39 @@
     "covered_group": [
       "TWICE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
+      "kim-hayeon",
+      "suvin",
+      "kim-eunbin",
+      "her-naeun",
+      "lee-gaeun",
+      "ahn-yoojin",
+      "jinhee"
+    ],
+    "sponsors": [
+      "롯데워터파크"
+    ],
+    "role_mapping": [
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "suvin", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "her-naeun", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "ahn-yoojin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" }
+    ],
+    "song_group": "twice-dancethenightaway-2018",
     "published_date": "2018-07-24",
     "content_type": "video",
     "view_count": 2611101,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "Pk3vVWoimew",
@@ -111585,11 +111644,35 @@
     "covered_group": [
       "TWICE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "park-damhee",
+      "lee-gaeun",
+      "kim-eunbin",
+      "ahn-yoojin",
+      "kwon-soyoung",
+      "park-soyoung",
+      "lee-sieun",
+      "jinhee"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "ahn-yoojin", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" }
+    ],
     "published_date": "2018-06-07",
     "content_type": "video",
     "view_count": 3030845,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2018y"
+    ]
   },
   {
     "youtube_id": "0S015lgXRSI",
@@ -111800,6 +111883,21 @@
       "lee-sieun",
       "jinhee"
     ],
+    "sponsors": [
+      "대구인프론트웨딩"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "TWICE", "covered_member": "쯔위" },
+      { "member_id": "park-damhee", "covered_group": "TWICE", "covered_member": "지효" },
+      { "member_id": "lee-gaeun", "covered_group": "TWICE", "covered_member": "미나" },
+      { "member_id": "kim-eunbin", "covered_group": "TWICE", "covered_member": "채영" },
+      { "member_id": "ahn-yoojin", "covered_group": "TWICE", "covered_member": "모모" },
+      { "member_id": "kwon-soyoung", "covered_group": "TWICE", "covered_member": "정연" },
+      { "member_id": "park-soyoung", "covered_group": "TWICE", "covered_member": "나연" },
+      { "member_id": "lee-sieun", "covered_group": "TWICE", "covered_member": "다현" },
+      { "member_id": "jinhee", "covered_group": "TWICE", "covered_member": "사나" }
+    ],
+    "song_group": "twice-whatislove-2018",
     "published_date": "2018-04-24",
     "content_type": "video",
     "view_count": 835795,
