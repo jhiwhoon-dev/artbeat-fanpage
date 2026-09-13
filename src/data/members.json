@@ -4391,10 +4391,10 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "https://www.instagram.com/p/CR8n0zVl1u7/",
     "sns": {
       "instagram": [
-        "https://www.instagram.com/p/CR8n0zVl1u7/"
+        "https://www.instagram.com/asdamd_16/"
       ]
     }
   },
@@ -4492,8 +4492,25 @@
     "birth_date": null,
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
-    "unit_periods": [],
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": null,
+        "end": "2019"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "202207",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
@@ -4503,6 +4520,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/yoo.__.n_/"
+      ],
+      "threads": [
+        "https://www.threads.com/@yoo.__.n_"
       ]
     }
   },
@@ -4934,7 +4954,7 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "rin_0725",
     "sns": {}
   },
   {
@@ -6389,7 +6409,7 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "https://www.youtube.com/watch?v=oizYF94FhwE",
     "sns": {
       "instagram": [
         "https://www.instagram.com/ye_1n._/"
@@ -6423,5 +6443,29 @@
     "photo_filename": null,
     "bio": "https://www.instagram.com/p/CN7HR1XHzap/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     "sns": {}
+  },
+  {
+    "id": "ramu",
+    "name": "라무",
+    "name_en": "Ramu",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "https://www.youtube.com/watch?v=R6bUc6VHu6o",
+    "sns": {
+      "instagram": [
+        "8_.022"
+      ]
+    }
   }
 ]
