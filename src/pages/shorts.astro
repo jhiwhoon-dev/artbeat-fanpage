@@ -24,7 +24,8 @@ const videosData = videos.map((v) => ({
   series: v.content_series ?? [],
   members: v.tagged_members ?? [],
   specialDancers: v.special_dancers ?? [],
-  sponsors: v.sponsors ?? [],
+  sponsors: v.sponsors ?? [], // 협찬
+  ads: v.ads ?? [], // 광고
   date: v.published_date,
   views: v.view_count ?? 0,
 }));
@@ -84,6 +85,7 @@ function safeJson(obj) {
     members: string[];
     specialDancers: string[];
     sponsors: string[];
+    ads: string[];
     date: string;
     views: number;
   }
@@ -300,8 +302,12 @@ function safeJson(obj) {
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-special" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])} <em>백업</em></a>`)
       .join('');
-    const adBadge = v.sponsors.length > 0
-      ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.sponsors.join(', '))}</span>`
+    // ads = 광고(유료), sponsors = 협찬(제품 협찬 등) — 서로 다른 필드로 완전히 분리
+    const adBadge = v.ads.length > 0
+      ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.ads.join(', '))}</span>`
+      : '';
+    const sponsorshipBadge = v.sponsors.length > 0
+      ? `<span class="sponsorship-badge">협찬 · ${escapeHtml(v.sponsors.join(', '))}</span>`
       : '';
     const glow = computeGlow(v.views);
     const glowStyle = glow
@@ -314,6 +320,7 @@ function safeJson(obj) {
         <a class="thumb-link" href="https://www.youtube.com/shorts/${v.id}" target="_blank" rel="noopener noreferrer">
           <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
             ${adBadge}
+            ${sponsorshipBadge}
             ${hotBadge}
             <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
@@ -574,6 +581,23 @@ function safeJson(obj) {
     50% {
       box-shadow: 0 0 calc(var(--glow-blur, 9px) * 1.3) 4px hsla(var(--glow-hue, 210), var(--glow-sat, 95%), var(--glow-light, 62%), calc(var(--glow-op, 0.45) * 1.2));
     }
+  }
+  .sponsorship-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+    background: #8b5cf6;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .hot-badge {
     position: absolute;
