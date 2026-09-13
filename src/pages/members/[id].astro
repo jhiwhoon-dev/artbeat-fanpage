@@ -52,6 +52,12 @@ const allGroupEvents = allStatsVideos.flatMap((v) => {
   return (v.covered_group ?? []).map((g) => ({ group: g, songKey, date: v.published_date }));
 });
 
+// "이 그룹을 실제로 몇 명이 나눠 맡았는지"(평균 담당 비율 계산용) — role_mapping 기준으로 그룹+멤버+곡을 나열
+const allGroupRoleEvents = allStatsVideos.flatMap((v) => {
+  const songKey = v.song_group || v.youtube_id;
+  return (v.role_mapping ?? []).map((rm) => ({ group: rm.covered_group, memberId: rm.member_id, songKey, date: v.published_date }));
+});
+
 // 출연 영상 필터 엔진(videos.astro와 동일)에 넘길 데이터
 const seriesStatusMap = Object.fromEntries(contentSeriesDict.map((s) => [s.name, s.status]));
 const memberMap = Object.fromEntries(members.map((m) => [m.id, m.nickname || m.name]));
@@ -391,6 +397,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <script type="application/json" id="overall-dates-data" set:html={safeJson(overallAppearanceDates)} />
   <script type="application/json" id="channel-upload-dates-data" set:html={safeJson(channelUploadDates)} />
   <script type="application/json" id="all-group-events-data" set:html={safeJson(allGroupEvents)} />
+  <script type="application/json" id="all-group-role-events-data" set:html={safeJson(allGroupRoleEvents)} />
   <script type="application/json" id="cohort-meta-data" set:html={safeJson({ hasCohort, cohortDivisor, overallDivisor, cohortLabel })} />
   <script type="application/json" id="membership-milestones-data" set:html={safeJson(membershipMilestones)} />
 </Layout>
@@ -644,7 +651,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-special" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])} <em>백업</em></a>`)
       .join('');
-    // sponsors 항목은 문자열(기존 데이터, 자동으로 '광고'로 인식) 또는 {name, type} 객체 둘 다 지원
     // ads = 광고(유료), sponsors = 협찬(제품 협찬 등) — 서로 다른 필드로 완전히 분리
     const adBadge = v.ads.length > 0
       ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.ads.join(', '))}</span>`
@@ -1076,7 +1082,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const shareChartWrap = document.getElementById('share-chart-wrap');
   const shareChartLegend = document.getElementById('share-chart-legend');
   const ALL_GROUP_EVENTS: { group: string; songKey: string; date: string }[] = JSON.parse(document.getElementById('all-group-events-data')?.textContent ?? '[]');
-  let shareVisibleKeys = new Set<string>(['a', 'b']); // 기본으로 둘 다 켜둠
+  const ALL_GROUP_ROLE_EVENTS: { group: string; memberId: string; songKey: string; date: string }[] = JSON.parse(document.getElementById('all-group-role-events-data')?.textContent ?? '[]');
+  let shareVisibleKeys = new Set<string>(['a', 'b', 'avg']); // 기본으로 셋 다 켜둠
   let sharePeriods: ChartPeriod[] = [];
 
   function renderSelectionChart() {
@@ -1131,6 +1138,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         channelGroupPerPeriod[key].add(e.songKey);
       }
 
+      // 그 기간에 이 그룹을 실제로 나눠 맡은 사람이 몇 명이었는지 (평균 계산용 — 장기 미활동 인원 때문에
+      // 값이 왜곡되지 않도록, "전체 멤버 수"가 아니라 "실제 참여한 사람 수"로 나눔)
+      const groupContributorsPerPeriod: Record<string, Set<string>> = {};
+      for (const e of ALL_GROUP_ROLE_EVENTS) {
+        if (!matchesPath(e.group, activeGroupPath)) continue;
+        const key = selectionPeriod === 'year' ? e.date.slice(0, 4) : e.date.slice(0, 7);
+        if (!groupContributorsPerPeriod[key]) groupContributorsPerPeriod[key] = new Set();
+        groupContributorsPerPeriod[key].add(e.memberId);
+      }
+
       const allShareKeys = new Set<string>([...Object.keys(myTotalPerPeriod), ...Object.keys(channelGroupPerPeriod), ...Object.keys(perPeriod)]);
       const shareSeriesDefsAll = [
         {
@@ -1144,6 +1161,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           name: `"${targetLabel}" 커버 중 내 비중`,
           color: '#a78bfa',
           compute: (k: string) => (channelGroupPerPeriod[k]?.size ? ((perPeriod[k]?.size ?? 0) / channelGroupPerPeriod[k].size) * 100 : 0),
+        },
+        {
+          key: 'avg',
+          name: `전체 멤버 중 "${targetLabel}" 참여율`,
+          color: '#34d399',
+          dashed: true,
+          // 전체 멤버 수 중, 그 기간에 이 그룹을 커버해본 사람이 몇 명이었는지 비율로 표시
+          // (예: 전체 66명 중 13명이 참여했다면 13/66 ≈ 19.7%)
+          compute: (k: string) => {
+            const n = groupContributorsPerPeriod[k]?.size ?? 0;
+            const total = COHORT_META.overallDivisor || 1;
+            return (n / total) * 100;
+          },
         },
       ];
 
