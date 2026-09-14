@@ -2681,9 +2681,9 @@
     }
   },
   {
-    "id": "joo-hyeonseo",
+    "id": "joo-hyunseo",
     "name": "주현서",
-    "name_en": "Hyeonseo Joo",
+    "name_en": "Hyunseo Joo",
     "nickname": null,
     "birth_date": "2008-00-00",
     "gender": "F",
@@ -4757,6 +4757,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/cha_ni_02/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCQAXdo5krlXWeD9eLVA6QQA"
       ]
     }
   },

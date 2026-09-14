@@ -9093,19 +9093,48 @@
     "youtube_id": "-dWZ4K9ZaY4",
     "title": "[방구석 여기서요?] IRENE, SEULGI, KARINA, WINTER - Chu~♡ | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa"
+      "아이린",
+      "슬기",
+      "KARINA",
+      "윈터"
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "yun-haeun",
+      "ha-seyoung"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "Red Velvet",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Red Velvet",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      }
+    ],
+    "song_group": "sm-chu-2026",
     "published_date": "2026-04-20",
     "content_type": "video",
     "view_count": 148759,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "uxXnTb2M2RU",
@@ -10250,6 +10279,13 @@
       "yang-hwanhee",
       "kim-suhwan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "YEONJUN",
+        "covered_member": "YEONJUN"
+      }
+    ],
     "published_date": "2026-04-09",
     "content_type": "short",
     "view_count": 102487,
@@ -10279,6 +10315,13 @@
       "kim-youngjin",
       "yang-hwanhee",
       "kim-suhwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "YEONJUN",
+        "covered_member": "YEONJUN"
+      }
     ],
     "published_date": "2026-04-09",
     "content_type": "short",
@@ -10354,6 +10397,13 @@
       "yang-hwanhee",
       "kim-suhwan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "YEONJUN",
+        "covered_member": "YEONJUN"
+      }
+    ],
     "song_group": "yeonjun-talktoyou-2026",
     "published_date": "2026-04-09",
     "content_type": "video",
@@ -10378,7 +10428,6 @@
     "youtube_id": "WIJTxXAoPbs",
     "title": "i am a 대추노노💗 #thatsanono #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -10391,7 +10440,6 @@
     "youtube_id": "vOgH-tG2y9M",
     "title": "역주행 곡은 못 참지~😉 #thatsanono #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -10404,7 +10452,6 @@
     "youtube_id": "gRldK6CSRcY",
     "title": "[방구석 여기서요?] 있지 ITZY - THAT'S A NO NO | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -16382,20 +16429,65 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "yun-haeun",
+      "lee-jeonghee",
+      "kim-hyerim",
+      "jeong-yoojin",
       "jeong-hyunjin",
-      "lee-jeonghee"
+      "oh-yubin",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-richman-2025",
     "published_date": "2025-12-13",
     "content_type": "video",
     "view_count": 781914,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -20173,11 +20265,36 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "ha-seyoung",
+      "jeong-hyunjin",
       "oh-yubin",
-      "jeong-hyunjin"
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-richman-2025",
     "published_date": "2025-11-05",
     "content_type": "video",
     "view_count": 236859,
@@ -23945,6 +24062,30 @@
       "lee-jeonghee",
       "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
     "published_date": "2025-09-24",
     "content_type": "video",
     "view_count": 79511,
@@ -24022,15 +24163,40 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "jeong-yoojin",
+      "jeong-hyunjin",
       "oh-yubin",
-      "jeong-hyunjin"
+      "lee-gaeun"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2025-09-23",
     "content_type": "video",
     "view_count": 360709,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -24086,14 +24252,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "jeong-yoojin",
+      "jeong-hyunjin",
       "oh-yubin",
-      "jeong-hyunjin"
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-richman-2025",
     "published_date": "2025-09-22",
     "content_type": "video",
     "view_count": 1211023,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "slKLDB4a8TQ",
@@ -24338,16 +24532,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-jeonghee"
+      "yun-haeun",
+      "lee-jeonghee",
+      "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-richman-2025",
     "published_date": "2025-09-20",
     "content_type": "video",
     "view_count": 224057,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -24536,17 +24755,40 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2025-09-18",
     "content_type": "video",
     "view_count": 778081,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -24800,15 +25042,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-jeonghee"
+      "yun-haeun",
+      "lee-jeonghee",
+      "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-richman-2025",
     "published_date": "2025-09-16",
     "content_type": "video",
     "view_count": 492676,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "X3r-Tsnqea4",
@@ -26756,17 +27025,39 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-jeonghee"
+      "jeong-hyunjin",
+      "lee-jeonghee",
+      "bang-jooyeon"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2025-08-30",
     "content_type": "video",
     "view_count": 352222,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -29560,10 +29851,34 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2025-07-17",
     "content_type": "video",
@@ -30132,15 +30447,39 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "bang-jooyeon",
       "jeong-hyunjin",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "bang-jooyeon"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2025-07-13",
     "content_type": "video",
     "view_count": 68693,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -30264,14 +30603,41 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "bang-jooyeon",
       "jeong-hyunjin",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "bang-jooyeon"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-dirtywork-2025",
     "published_date": "2025-07-12",
     "content_type": "video",
     "view_count": 888778,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "HZN_yBXMXU4",
@@ -30430,16 +30796,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-dirtywork-2025",
     "published_date": "2025-07-11",
     "content_type": "video",
     "view_count": 346584,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -30495,15 +30886,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-dirtywork-2025",
     "published_date": "2025-07-10",
     "content_type": "video",
     "view_count": 245065,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "gg9VK-CRoBo",
@@ -31507,24 +31925,25 @@
       {
         "member_id": "ha-seyoung",
         "covered_group": "aespa",
-        "covered_member": "유진"
+        "covered_member": "카리나"
       },
       {
         "member_id": "yun-haeun",
         "covered_group": "aespa",
-        "covered_member": "원영"
+        "covered_member": "윈터"
       },
       {
         "member_id": "lee-gaeun",
         "covered_group": "aespa",
-        "covered_member": "레이"
+        "covered_member": "지젤"
       },
       {
         "member_id": "kang-yejin",
         "covered_group": "aespa",
-        "covered_member": "가을"
+        "covered_member": "닝닝"
       }
     ],
+    "song_group": "aespa-whiplash-2024",
     "published_date": "2025-06-24",
     "content_type": "video",
     "view_count": 71505,
@@ -41187,12 +41606,15 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun"
+      "lee-gaeun",
+      "kim-chan"
     ],
     "published_date": "2025-02-16",
     "content_type": "short",
     "view_count": 222997,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "blVrABpCtVM",
@@ -47120,12 +47542,39 @@
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
       "kim-hyerim"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2024-10-15",
     "content_type": "video",
     "view_count": 381747,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S17"
+    ]
   },
   {
     "youtube_id": "RNFKCYv9oGg",
@@ -47559,6 +48008,30 @@
       "jeong-hyunjin",
       "oh-yubin",
       "won-seoa"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2024-10-06",
     "content_type": "video",
@@ -49643,7 +50116,9 @@
     "published_date": "2024-06-29",
     "content_type": "short",
     "view_count": 279345,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "pIAx_MJlPPw",
@@ -49808,13 +50283,38 @@
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
       "kim-hyerim"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2024-06-26",
     "content_type": "video",
     "view_count": 191527,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -49826,12 +50326,40 @@
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
       "kim-hyerim"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-armageddon-2024",
     "published_date": "2024-06-25",
     "content_type": "video",
     "view_count": 657080,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "y3ZbiR14P-Y",
@@ -49861,15 +50389,40 @@
     ],
     "tagged_members": [
       "ha-seyoung",
-      "oh-yubin",
       "jeong-hyunjin",
+      "oh-yubin",
       "won-seoa"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-armageddon-2024",
     "published_date": "2024-06-24",
     "content_type": "video",
     "view_count": 986275,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -49916,14 +50469,41 @@
     ],
     "tagged_members": [
       "ha-seyoung",
-      "oh-yubin",
       "jeong-hyunjin",
+      "oh-yubin",
       "won-seoa"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-armageddon-2024",
     "published_date": "2024-06-23",
     "content_type": "video",
     "view_count": 2429059,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "BDJNSPINXL8",
@@ -56422,16 +57002,46 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "kim-hyerim",
-      "oh-yubin",
       "ji-ayeong",
-      "jeong-hyunjin"
+      "lee-gaeun",
+      "oh-yubin",
+      "kim-hyerim"
+    ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2024-01-25",
     "content_type": "video",
     "view_count": 1191468,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "uITmVPDKuLo",
@@ -57021,14 +57631,46 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
       "ha-seyoung",
-      "jeong-hyunjin"
+      "yun-haeun",
+      "seol-heejeong",
+      "jeon-minseo"
+    ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2024-01-17",
     "content_type": "video",
     "view_count": 1236461,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "H-WhAxb6Z6A",
@@ -58451,7 +59093,9 @@
     "published_date": "2023-12-01",
     "content_type": "short",
     "view_count": 166718,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "UlHwPm3BGtQ",
@@ -58602,17 +59246,45 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "kim-hyerim",
-      "oh-yubin",
       "ji-ayeong",
-      "jeong-hyunjin"
+      "lee-gaeun",
+      "oh-yubin",
+      "kim-hyerim"
+    ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2023-11-29",
     "content_type": "video",
     "view_count": 178281,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -58622,15 +59294,45 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
       "ha-seyoung",
-      "jeong-hyunjin"
+      "yun-haeun",
+      "seol-heejeong",
+      "jeon-minseo"
+    ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2023-11-28",
     "content_type": "video",
     "view_count": 378353,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -58674,14 +59376,47 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
       "ha-seyoung",
-      "jeong-hyunjin"
+      "yun-haeun",
+      "seol-heejeong",
+      "jeon-minseo"
     ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-drama-2023",
     "published_date": "2023-11-27",
     "content_type": "video",
     "view_count": 1745039,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "xfx3FZgq33c",
@@ -58708,16 +59443,47 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "kim-hyerim",
-      "oh-yubin",
       "ji-ayeong",
-      "jeong-hyunjin"
+      "lee-gaeun",
+      "oh-yubin",
+      "kim-hyerim"
     ],
+    "special_dancers":[
+      "lim-jiwoo",
+      "jeong-hyunjin",
+      "kim-chan",
+      "joo-hyunseo"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-drama-2023",
     "published_date": "2023-11-26",
     "content_type": "video",
     "view_count": 1857085,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "WACjLJfwFJE",
@@ -65692,15 +66458,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-spicy-2023",
     "published_date": "2023-07-13",
     "content_type": "video",
     "view_count": 763103,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "Qm_w0_owvrs",
@@ -67107,15 +67900,43 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-spicy-2023",
     "published_date": "2023-06-14",
     "content_type": "video",
     "view_count": 117328,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2023y",
+      "행사::2023y"
+    ]
   },
   {
     "youtube_id": "B0mg3rkFv7A",
@@ -67970,7 +68791,9 @@
     "published_date": "2023-05-23",
     "content_type": "short",
     "view_count": 156575,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "5crpGqE7qqY",
@@ -68658,16 +69481,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-spicy-2023",
     "published_date": "2023-05-17",
     "content_type": "video",
     "view_count": 252112,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -68770,15 +69618,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "yun-haeun",
+      "oh-yubin",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-spicy-2023",
     "published_date": "2023-05-15",
     "content_type": "video",
     "view_count": 419897,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "Oz0xsGElgzU",
@@ -79147,13 +80022,44 @@
       "aespa"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "special_dancers":[],
+    "sponsors":[
+      "STEEL 301"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-19",
     "content_type": "video",
     "view_count": 98115,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "paU0tnXo2Mg",
@@ -79212,6 +80118,30 @@
       "lee-gaeun",
       "ahn-yoojin",
       "oh-yubin"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-17",
     "content_type": "video",
@@ -79877,10 +80807,33 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "kim-taehwan",
+      "lim-donghun",
       "kim-suhwan",
-      "lim-donghun"
+      "kim-taehwan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-08-06",
     "content_type": "video",
     "view_count": 641102,
@@ -80033,13 +80986,41 @@
       "hwang-dagun",
       "lee-gaeun",
       "ahn-yoojin",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
+    ],
+    "special_dancers":[],
+    "sponsors":[
+      "신전뮤지엄"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-03",
     "content_type": "video",
     "view_count": 187993,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "egxjOs2Bx-A",
@@ -80313,13 +81294,41 @@
       "aespa"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-07-29",
     "content_type": "video",
     "view_count": 1879498,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "PUkIKwSeIo4",
@@ -80582,14 +81591,38 @@
       "hwang-dagun",
       "lee-gaeun",
       "ahn-yoojin",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-07-18",
     "content_type": "video",
     "view_count": 87083,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -80599,14 +81632,41 @@
       "aespa"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-damhee"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-07-18",
     "content_type": "video",
     "view_count": 173487,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -80619,13 +81679,39 @@
       "hwang-dagun",
       "lee-gaeun",
       "ahn-yoojin",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-07-17",
     "content_type": "video",
     "view_count": 199414,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "5FaOhooPyKU",
@@ -80634,13 +81720,42 @@
       "aespa"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-damhee"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-07-17",
     "content_type": "video",
     "view_count": 283781,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "dpcTXfr4wtM",
@@ -80649,18 +81764,66 @@
       "aespa"
     ],
     "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee",
       "hwang-dagun",
       "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-girls-2022",
     "published_date": "2022-07-17",
     "content_type": "video",
     "view_count": 1017329,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2022y"
+    ]
   },
   {
     "youtube_id": "6YBIhOKOyZ4",
@@ -82325,6 +83488,46 @@
       "park-sunyoung",
       "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2022-06-02",
     "content_type": "video",
     "view_count": 453290,
@@ -87273,22 +88476,53 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "lee-gaeun",
-      "kim-hyerim",
-      "oh-yubin"
+      "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-soyoung"
     ],
+    "special_dancers":[],
+    "support":[
+      "GoPro"
+    ],
+    "sponsors":[
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-12-04",
     "content_type": "video",
     "view_count": 1218873,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "oJgprUWE5Fg",
     "title": "[AB | 방구석 여기서요?] NCT 127 - STICKER | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
       "kim-hojun",
@@ -87526,15 +88760,47 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-soyoung"
     ],
+    "special_dancers":[],
+    "support":[
+      "GoPro"
+    ],
+    "sponsors":[
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-11-27",
     "content_type": "video",
     "view_count": 2197997,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "n9lQFe1-nzI",
@@ -87968,7 +89234,16 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "lee-gaeun",
+      "park-sunyoung",
+      "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-soyoung"
+    ],
     "published_date": "2021-11-14",
     "content_type": "video",
     "view_count": 130895,
@@ -88083,19 +89358,66 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-soyoung",
+      "kim-hyerim",
+      "lee-gaeun",
+      "park-sunyoung",
       "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-11-07",
     "content_type": "video",
     "view_count": 4123400,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2021y"
+    ]
   },
   {
     "youtube_id": "ucCdTHnKvGg",
@@ -88150,11 +89472,36 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-soyoung"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-10-30",
     "content_type": "video",
     "view_count": 275542,
@@ -88169,21 +89516,48 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "ha-seyoung",
       "yun-haeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "park-soyoung"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-10-30",
     "content_type": "video",
     "view_count": 353932,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "GaCw2HM1_WQ",
     "title": "[A2be] NCT 127 - Lemonade | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
       "NCT 127"
     ],
     "tagged_members": [
@@ -88246,11 +89620,36 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "lee-gaeun",
       "kim-hyerim",
+      "lee-gaeun",
+      "park-sunyoung",
       "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-10-25",
     "content_type": "video",
     "view_count": 245052,
@@ -88265,11 +89664,36 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "lee-gaeun",
       "kim-hyerim",
+      "lee-gaeun",
+      "park-sunyoung",
       "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-10-25",
     "content_type": "video",
     "view_count": 497784,
@@ -88284,11 +89708,36 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "lee-gaeun",
       "kim-hyerim",
+      "lee-gaeun",
+      "park-sunyoung",
       "oh-yubin"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-savage-2021",
     "published_date": "2021-10-24",
     "content_type": "video",
     "view_count": 365266,
@@ -88804,16 +90253,19 @@
       "aespa"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "kim-suhwan",
-      "ahn-yoojin",
       "ha-seyoung",
-      "jeong-yoojin"
+      "her-naeun",
+      "ahn-yoojin",
+      "seo-jaemin",
+      "kim-suhwan",
+      "kim-taehwan"
     ],
     "published_date": "2021-10-06",
     "content_type": "video",
     "view_count": 947181,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "cpL4EE-Z4Cg",
@@ -90848,7 +92300,12 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-soyoung",
+      "yun-haeun",
+      "ahn-yoojin",
+      "park-sunyoung"
+    ],
     "published_date": "2021-07-18",
     "content_type": "video",
     "view_count": 70788,
@@ -90860,18 +92317,29 @@
     "youtube_id": "QuwSIg9y04c",
     "title": "(SM/JYP/YG) 3대 기획사 걸그룹 커버댄스 대결 vol.2",
     "covered_group": [
-      "aespa"
+      "ITZY",
+      "aespa",
+      "BLACKPINK",
+      "TWICE",
+      "Red Velvet",
+      "미쓰에이",
+      "f(x)",
+      "2NE1",
+      "소녀시대"
+    ],
+    "ads":[
+      "센트룸"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "park-damhee",
+      "lee-sieun",
+      "kim-minjin",
       "lee-gaeun",
       "ahn-yoojin",
       "yun-haeun",
+      "hwang-dagun",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "park-soyoung"
     ],
     "published_date": "2021-07-17",
     "content_type": "video",
@@ -90906,23 +92374,24 @@
     "youtube_id": "EFOZCIgy1Kg",
     "title": "[AB] 세븐틴 SEVENTEEN - Ready to Love | 커버댄스 Dance Cover",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-kyungju",
-      "ahn-yoojin",
-      "yun-haeun",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "oh-yubin",
+      "lee-sieun",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [],
+
     "published_date": "2021-07-12",
     "content_type": "video",
     "view_count": 379873,
-    "content_series": []
+    "content_series": [
+      "AB VLOG::2021y"
+    ]
   },
   {
     "youtube_id": "p_DHpPZ_DLk",
@@ -90930,7 +92399,12 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "oh-yubin",
+      "lee-sieun",
+      "lee-gaeun"
+    ],
     "published_date": "2021-07-10",
     "content_type": "video",
     "view_count": 136444,
@@ -91081,14 +92555,46 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "lee-sieun",
+      "lee-gaeun"
+    ],
+    "special_dancers":[],
+    "sponsors":[
+      "펩시"
+    ],
+    "support":[
+      "대진대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2021-07-01",
     "content_type": "video",
     "view_count": 1281916,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "Ik_FPEDfmHU",
@@ -91585,17 +93091,46 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
       "yun-haeun",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung"
+    ],
+    "special_dancers":[],
+    "sponsors":[
+      "마운틴듀"
+    ],
+    "support":[
+      "대진대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2021-06-22",
     "content_type": "video",
     "view_count": 565247,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "H7D3240HvPQ",
@@ -91952,20 +93487,71 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "jeong-yoojin"
+      "lee-sieun",
+      "lee-gaeun",
+      "park-soyoung",
+      "yun-haeun",
+      "ahn-yoojin",
+      "park-sunyoung"
     ],
+    "special_dancers":[],
+    "support":[
+      "대진대학교"
+    ],
+    "sponsors":[
+      "펩시"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-nextlevel-2021",
     "published_date": "2021-06-14",
     "content_type": "video",
     "view_count": 1873611,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "7RvOjVI9LMk",
@@ -92167,18 +93753,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
       "yun-haeun",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung"
+    ],
+    "special_dancers":[],
+    "sponsors":[],
+    "support":[],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2021-06-04",
     "content_type": "video",
     "view_count": 177162,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -92188,17 +93797,47 @@
       "aespa"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
       "yun-haeun",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "park-sunyoung"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "support":[
+      "경운대학교 벽강아트센터"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-nextlevel-2021",
     "published_date": "2021-06-03",
     "content_type": "video",
     "view_count": 411938,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::20221",
+      "Dance Cover MV::Years::2021y"
+    ]
+
   },
   {
     "youtube_id": "3S3NWcR5ERM",
@@ -92309,15 +93948,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "lee-sieun",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-nextlevel-2021",
     "published_date": "2021-06-01",
     "content_type": "video",
     "view_count": 843892,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -92327,14 +93992,43 @@
       "aespa"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "lee-sieun",
+      "lee-gaeun"
     ],
+    "special_dancers":[],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-nextlevel-2021",
     "published_date": "2021-05-31",
     "content_type": "video",
     "view_count": 912013,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "uKzj0jhH1b8",
@@ -92724,18 +94418,21 @@
       "aespa"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "hwang-dagun",
       "ahn-yoojin",
+      "yoon-taegyeong",
       "oh-yubin",
-      "jeong-yoojin"
+      "hwang-dagun",
+      "choi-sungjun",
+      "kwon-dohyun",
+      "park-hyunmin",
+      "kim-taehwan"
     ],
     "published_date": "2021-05-18",
     "content_type": "video",
     "view_count": 985347,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "r1gESgOaOUE",
@@ -95410,12 +97107,25 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-heejin"
+    ],
+    "special_dancers":[
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-hayeon",
+      "yoon-taegyeong"
+    ],
+    "sponsors":[],
+    "role_mapping": [],
     "published_date": "2021-01-14",
     "content_type": "video",
     "view_count": 131935,
     "content_series": [
-      "ABehind"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -95648,14 +97358,41 @@
       "aespa"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "yoon-taegyeong",
+      "yun-haeun",
+      "ahn-yoojin",
       "lee-heejin"
+    ],
+    "special_dancers":[
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-hayeon",
+      "yoon-taegyeong"
+    ],
+    "sponsors":[
+      "Harman Kardon SoundSticks 4"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2020-12-19",
     "content_type": "video",
@@ -95671,19 +97408,45 @@
       "aespa"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kim-hyerim",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-heejin"
+    ],
+    "special_dancers":[
+      "lee-gaeun",
       "ha-seyoung",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "yoon-taegyeong"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2020-12-18",
     "content_type": "video",
     "view_count": 588872,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -95693,18 +97456,50 @@
       "aespa"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-heejin"
     ],
+    "special_dancers":[
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-hayeon",
+      "yoon-taegyeong"
+    ],
+    "sponsors":[
+      "Harman Kardon SoundSticks 4"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-balckmamba-2020",
     "published_date": "2020-12-17",
     "content_type": "video",
     "view_count": 622693,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "bBsAdK7dDUg",
@@ -96282,17 +98077,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "yun-haeun",
       "kim-hyerim",
-      "jeong-yoojin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lee-heejin"
     ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
+    ],
+    "song_group": "aespa-balckmamba-2020",
     "published_date": "2020-11-30",
     "content_type": "video",
     "view_count": 5055720,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S04"
     ]
   },
   {
