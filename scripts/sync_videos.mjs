@@ -281,7 +281,7 @@ async function main() {
 
     return {
       youtube_id: id,
-      title: item.snippet.title,
+      title: item.snippet.title.normalize('NFC'), // 맥 등에서 NFD(자모 분해형)로 들어와도 검색이 안 깨지도록 통일
       covered_group: suggestedGroups, // 자동 추천됨 — 꼭 검수 필요
       content_series: suggestedSeries, // 자동 추천됨 — 꼭 검수 필요
       tagged_members: suggestedMembers, // 자동 추천됨 — 꼭 검수 필요

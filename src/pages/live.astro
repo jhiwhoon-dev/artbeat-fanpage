@@ -142,7 +142,7 @@ function safeJson(obj) {
       gpath: params.get('gpath') ? params.get('gpath')!.split('|') : [],
       spath: params.get('spath') ? params.get('spath')!.split('|') : [],
       sort: params.get('sort') || 'newest',
-      q: params.get('q') || '',
+      q: (params.get('q') || '').normalize('NFC'),
     };
   }
 
@@ -352,7 +352,7 @@ function safeJson(obj) {
 
   function getFiltered(): VideoItem[] {
     return DATA.filter((v) => {
-      if (titleQuery && !v.title.toLowerCase().includes(titleQuery)) return false;
+      if (titleQuery && !v.title.normalize('NFC').toLowerCase().includes(titleQuery)) return false;
       if (activeMode === 'group') {
         // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
         // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
@@ -404,7 +404,7 @@ function safeJson(obj) {
 
   const titleSearchInput = document.getElementById('title-search') as HTMLInputElement | null;
   titleSearchInput?.addEventListener('input', () => {
-    titleQuery = titleSearchInput.value.trim().toLowerCase();
+    titleQuery = titleSearchInput.value.trim().normalize('NFC').toLowerCase();
     currentPage = 1;
     render();
     replaceUrlState(); // 타이핑마다 뒤로가기 기록이 쌓이지 않도록 replace로 처리
