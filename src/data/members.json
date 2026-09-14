@@ -1901,6 +1901,10 @@
       ],
       "threads": [
         "https://www.threads.com/@hye_ri__mi"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCHsoEpylfxFUV8Fxu9Sy1QQ",
+        "https://www.youtube.com/@SE-HY"
       ]
     }
   },
@@ -4735,6 +4739,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/jin_hyun_woo/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCSen1lT2_CfiDpVCPBGFHrw"
       ]
     }
   },
@@ -5383,7 +5390,11 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": "OVERFATE 출신. ARTBEAT 소속 댄서이다.",
-    "sns": {}
+    "sns": {
+      "instagram": [
+        "sungmin_lee_00"
+      ]
+    }
   },
   {
     "id": "jihyeon",
@@ -6501,5 +6512,23 @@
         "https://www.instagram.com/0xsn_ux/"
       ]
     }
+  },
+  {
+    "id": "jihooni",
+    "name": "지훈",
+    "name_en": "Jihooni",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": null,
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "jihooni0811",
+    "sns": {}
   }
 ]
