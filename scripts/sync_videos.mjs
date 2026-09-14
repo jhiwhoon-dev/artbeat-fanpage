@@ -287,6 +287,7 @@ async function main() {
       tagged_members: suggestedMembers, // 자동 추천됨 — 꼭 검수 필요
       ads: [], // 유료 광고 표시 — 자동 감지 안 함, 직접 태깅 필요
       sponsors: [], // 협찬 표시 — 자동 감지 안 함, 직접 태깅 필요
+      support: [], // 지원 표시 — 자동 감지 안 함, 직접 태깅 필요
       role_mapping: [], // 우리 멤버가 원곡 누구를 맡았는지 — 자동 감지 안 함, 직접 태깅 필요
       special_dancers: [], // tagged_members 중 백업 댄서였던 사람 — 자동 감지 안 함, 직접 태깅 필요
       published_date: item.snippet.publishedAt.slice(0, 10),

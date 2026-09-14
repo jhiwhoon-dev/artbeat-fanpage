@@ -6474,5 +6474,29 @@
         "8_.022"
       ]
     }
+  },
+  {
+    "id": "eunseo",
+    "name": "은서",
+    "name_en": "Eunseo",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/0xsn_ux/"
+      ]
+    }
   }
 ]

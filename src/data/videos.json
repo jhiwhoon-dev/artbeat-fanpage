@@ -43030,7 +43030,7 @@
     "youtube_id": "s4Wm9-pFqnQ",
     "title": "이 구역의 Queen은 나야👑 #ABCD #유빈 #가은 #아영 #ARTBEAT #DanceBattle #Yubin #Gaeun #Ayeong",
     "covered_group": [
-      "TWICE"
+      "나연"
     ],
     "tagged_members": [
       "lee-gaeun",
@@ -43040,7 +43040,10 @@
     "published_date": "2025-01-27",
     "content_type": "short",
     "view_count": 1770571,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18",
+      "K-POP DANCE BATTLE::AB vs ONESHOT"
+    ]
   },
   {
     "youtube_id": "EX9Uu-kePkc",
@@ -75709,17 +75712,72 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
+      "park-damhee",
       "kim-minjin",
-      "bang-jooyeon"
+      "yun-bogyeong",
+      "kwon-soyoung",
+      "song-haeun",
+      "bang-jooyeon",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2022-11-27",
     "content_type": "video",
     "view_count": 704771,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "-yb2sn_i1SM",
@@ -77298,18 +77356,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
+      "park-damhee",
       "kim-minjin",
-      "bang-jooyeon"
+      "yun-bogyeong",
+      "kwon-soyoung",
+      "song-haeun",
+      "bang-jooyeon",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2022-09-14",
     "content_type": "video",
     "view_count": 888395,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -77428,18 +77536,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
+      "park-damhee",
       "kim-minjin",
-      "bang-jooyeon"
+      "yun-bogyeong",
+      "kwon-soyoung",
+      "song-haeun",
+      "bang-jooyeon",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2022-09-12",
     "content_type": "video",
     "view_count": 182732,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -77449,17 +77607,71 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
+      "park-damhee",
       "kim-minjin",
-      "bang-jooyeon"
+      "yun-bogyeong",
+      "kwon-soyoung",
+      "song-haeun",
+      "bang-jooyeon",
+      "yun-haeun",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-talkthattalk-2022",
     "published_date": "2022-09-11",
     "content_type": "video",
     "view_count": 264434,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "XQWIFoj4isw",
@@ -77965,18 +78177,63 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
+      "park-damhee",
       "kim-minjin",
-      "bang-jooyeon"
+      "kwon-soyoung",
+      "song-haeun",
+      "bang-jooyeon",
+      "yun-haeun",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-talkthattalk-2022",
     "published_date": "2022-09-04",
     "content_type": "video",
     "view_count": 404327,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -81787,7 +82044,7 @@
     "tagged_members": [
       "jeong-jihye",
       "park-jaehee",
-      "cho-eunseo",
+      "eunseo",
       "jeong-gyeolgyeong",
       "jang-sein",
       "bang-hayul"
@@ -81805,7 +82062,7 @@
         "covered_member": "원영"
       },
       {
-        "member_id": "cho-eunseo",
+        "member_id": "eunseo",
         "covered_group": "IVE",
         "covered_member": "레이"
       },
@@ -86226,22 +86483,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
       "kim-minjin",
+      "oh-yubin",
       "lee-seohyeon",
+      "song-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2021-12-14",
     "content_type": "video",
     "view_count": 205942,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -86265,7 +86568,10 @@
     "published_date": "2021-12-13",
     "content_type": "video",
     "view_count": 250655,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "XDcNEfyVY7c",
@@ -86298,6 +86604,12 @@
       "oh-yubin",
       "yoon-taegyeong",
       "yun-haeun"
+    ],
+    "support": [
+      "한밭대학교"
+    ],
+    "ads": [
+      "GoPro"
     ],
     "published_date": "2021-12-12",
     "content_type": "video",
@@ -86414,16 +86726,69 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "kim-minjin"
+      "kim-hayeon",
+      "song-haeun",
+      "yoon-taegyeong",
+      "kim-minjin",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "support": [
+      "한밭대학교"
+    ],
+    "ads": [
+      "GoPro"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2021-12-10",
     "content_type": "video",
     "view_count": 1826363,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "NDZrkK0v-lY",
@@ -86542,27 +86907,74 @@
       "TWICE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
       "kim-minjin",
+      "oh-yubin",
       "lee-seohyeon",
+      "song-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2021-12-06",
     "content_type": "video",
     "view_count": 941016,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2021y"
+    ]
   },
   {
     "youtube_id": "PqqQ1TUqrsU",
     "title": "[A2be | 방구석 여기서요?] 레드벨벳 Red Velvet - Queendom | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "Red Velvet"
     ],
     "tagged_members": [
@@ -87193,21 +87605,76 @@
       "TWICE"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-gaeun",
       "kim-minjin",
+      "oh-yubin",
       "lee-seohyeon",
+      "song-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin"
     ],
+    "support": [
+      "한밭대학교"
+    ],
+    "ads": [
+      "GoPro"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-scientist-2021",
     "published_date": "2021-11-22",
     "content_type": "video",
     "view_count": 1576445,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "F1uCgqhOJy8",
@@ -87313,15 +87780,19 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "park-hyunmin",
       "lee-gaeun",
-      "ha-seyoung"
+      "lee-sieun",
+      "ha-seyoung",
+      "park-hyunmin",
+      "kim-taehwan",
+      "choi-sungjun"
     ],
     "published_date": "2021-11-12",
     "content_type": "video",
     "view_count": 253021,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "0ZDXppyAgIk",
@@ -87329,7 +87800,16 @@
     "covered_group": [
       "TWICE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-hayeon",
+      "song-haeun",
+      "yoon-taegyeong",
+      "kim-minjin",
+      "yun-haeun",
+      "lee-sieun"
+    ],
     "published_date": "2021-11-10",
     "content_type": "video",
     "view_count": 132835,
@@ -87672,11 +88152,56 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "kim-minjin"
+      "kim-hayeon",
+      "song-haeun",
+      "yoon-taegyeong",
+      "kim-minjin",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2021-10-19",
     "content_type": "video",
@@ -87692,16 +88217,65 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
-      "kim-minjin"
+      "kim-hayeon",
+      "song-haeun",
+      "yoon-taegyeong",
+      "kim-minjin",
+      "yun-haeun",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-thefeels-2021",
     "published_date": "2021-10-18",
     "content_type": "video",
     "view_count": 600911,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "l-IhGX-2Svg",
@@ -88660,14 +89234,17 @@
       "TWICE"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
+      "oh-yubin",
+      "park-soyoung",
+      "ahn-yoojin",
       "hye-in",
       "lee-sieun",
-      "park-damhee"
+      "kim-hayeon"
     ],
+    "role_mapping": [],
     "published_date": "2021-09-17",
     "content_type": "video",
     "view_count": 125991,
@@ -88682,26 +89259,76 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "park-soyoung",
+      "ahn-yoojin",
+      "hwang-dagun",
+      "lee-sieun",
+      "kim-hayeon"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      }
+    ],
+    "song_group": "twice-alcoholfree-2021",
     "published_date": "2021-09-16",
     "content_type": "video",
     "view_count": 1405566,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "Oici2_F94Wg",
     "title": "[방구석 여기서요?] 엔시티 드림 NCT DREAM - Hello Future | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -90297,20 +90924,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "park-soyoung",
+      "ahn-yoojin",
+      "hye-in",
+      "lee-sieun",
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "hye-in",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      }
     ],
     "published_date": "2021-06-30",
     "content_type": "video",
     "view_count": 613589,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2021y"
     ]
   },
   {
@@ -90406,20 +91081,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "park-soyoung",
+      "ahn-yoojin",
+      "hye-in",
+      "lee-sieun",
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "hye-in",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      }
     ],
     "published_date": "2021-06-26",
     "content_type": "video",
     "view_count": 756560,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -90429,19 +91152,74 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "park-damhee",
+      "lee-gaeun",
       "oh-yubin",
-      "jeong-yoojin"
+      "park-soyoung",
+      "ahn-yoojin",
+      "hye-in",
+      "lee-sieun",
+      "kim-hayeon"
     ],
+    "sponsors": [
+      "리조트 스파밸리"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "hye-in",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      }
+    ],
+    "song_group": "twice-alcoholfree-2021",
     "published_date": "2021-06-26",
     "content_type": "video",
     "view_count": 1070088,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "PiBmAFr8wkA",
@@ -93091,20 +93869,64 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "ha-seyoung",
       "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun",
       "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin"
+      "park-soyoung",
+      "park-sunyoung",
+      "kim-minjin",
+      "lee-gaeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-cryforme-2021",
     "published_date": "2021-03-18",
     "content_type": "video",
     "view_count": 1641632,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "XsuN8WpGvYM",
@@ -94034,15 +94856,58 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "ha-seyoung",
       "kim-hayeon",
-      "kwon-soyoung",
       "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin"
+      "park-soyoung",
+      "park-sunyoung",
+      "kim-minjin",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-cryforme-2021",
     "published_date": "2021-01-29",
     "content_type": "video",
     "view_count": 542136,
@@ -94277,20 +95142,63 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "ha-seyoung",
       "kim-hayeon",
-      "kwon-soyoung",
       "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin"
+      "park-soyoung",
+      "park-sunyoung",
+      "kim-minjin",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-cryforme-2021",
     "published_date": "2021-01-16",
     "content_type": "video",
     "view_count": 239422,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -94338,19 +95246,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "ha-seyoung",
       "kim-hayeon",
-      "kwon-soyoung",
       "yun-haeun",
       "kim-hyerim",
-      "ha-seyoung",
-      "kim-minjin"
+      "park-soyoung",
+      "park-sunyoung",
+      "kim-minjin",
+      "lee-sieun"
     ],
+    "sponsors": [
+      "PHILOS 호텔"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-cryforme-2021",
     "published_date": "2021-01-12",
     "content_type": "video",
     "view_count": 541458,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "ckVb8Oj2M2k",
@@ -95017,13 +95974,58 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "lee-seohyeon",
       "park-damhee",
       "her-naeun",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-seohyeon",
+      "yun-haeun",
       "lee-sieun"
+    ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2020-12-02",
     "content_type": "video",
@@ -95280,7 +96282,7 @@
       "ahn-yoojin",
       "yun-haeun"
     ],
-    "sponsors": [
+    "ads": [
       "LG XBOOM"
     ],
     "published_date": "2020-11-25",
@@ -95339,7 +96341,7 @@
       "ahn-yoojin",
       "yun-haeun"
     ],
-    "sponsors": [
+    "ads": [
       "LG XBOOM"
     ],
     "published_date": "2020-11-21",
@@ -95464,16 +96466,61 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
+      "park-damhee",
+      "her-naeun",
       "oh-yubin",
-      "lee-seohyeon"
+      "ha-seyoung",
+      "lee-seohyeon",
+      "yun-haeun",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2020-11-10",
     "content_type": "video",
     "view_count": 1024834,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -95484,15 +96531,64 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
+      "park-damhee",
+      "her-naeun",
       "oh-yubin",
-      "lee-seohyeon"
+      "ha-seyoung",
+      "lee-seohyeon",
+      "yun-haeun",
+      "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-icantstopme-2020",
     "published_date": "2020-11-09",
     "content_type": "video",
     "view_count": 1850512,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Wa45xSo_WaY",
@@ -95620,9 +96716,7 @@
   {
     "youtube_id": "gK2faOch95c",
     "title": "[AB 자기소개] 10년지기 찐친 모먼트 | 가은이와 유진이 | AB PROJECT",
-    "covered_group": [
-      "LISA"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin"
@@ -99420,18 +100514,73 @@
     ],
     "tagged_members": [
       "park-soyoung",
+      "park-damhee",
       "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "lee-heejin",
+      "hwang-dagun",
+      "yun-haeun"
+    ],
+    "sponsors": [
+      "밀양 189",
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2020-06-17",
     "content_type": "video",
     "view_count": 1132049,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "0ZJquWa3rUg",
@@ -99583,20 +100732,68 @@
     ],
     "tagged_members": [
       "park-soyoung",
+      "park-damhee",
       "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "yun-haeun",
+      "oh-yubin",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun",
+      "lee-heejin",
+      "hwang-dagun",
+      "yun-haeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
+    "song_group": "twice-morenmore-2020",
     "published_date": "2020-06-14",
     "content_type": "video",
     "view_count": 6586279,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S01"
     ]
   },
   {

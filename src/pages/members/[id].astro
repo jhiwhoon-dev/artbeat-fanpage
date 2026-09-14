@@ -71,9 +71,10 @@ const taggedVideosData = taggedVideos.map((v) => ({
   isSelfSpecial: (v.special_dancers ?? []).includes(member.id), // 본인이 이 영상에서 백업 댄서였는지
   sponsors: v.sponsors ?? [], // 협찬
   ads: v.ads ?? [], // 광고
+  support: v.support ?? [], // 지원
   contentType: getType(v), // 'video' | 'short' | 'live' — 타입별 숨기기 필터용
   songKey: v.song_group || v.youtube_id, // 같은 곡 여러 영상을 1회로 묶기 위한 키
-  myRole: (v.role_mapping ?? []).find((rm) => rm.member_id === member.id)?.covered_member ?? null, // 이 영상에서 본인이 맡은 원곡 인물
+  myRoles: (v.role_mapping ?? []).filter((rm) => rm.member_id === member.id).map((rm) => ({ group: rm.covered_group, member: rm.covered_member })), // 본인이 이 영상에서 맡은 역할 전부(그룹별로)
   date: v.published_date,
   views: v.view_count ?? 0,
 }));
@@ -412,9 +413,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     isSelfSpecial: boolean;
     sponsors: string[];
     ads: string[];
+    support: string[];
     contentType: 'video' | 'short' | 'live';
     songKey: string;
-    myRole: string | null;
+    myRoles: { group: string; member: string }[];
     date: string;
     views: number;
   }
@@ -651,9 +653,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       .filter((id) => MEMBER_MAP[id])
       .map((id) => `<a class="tag tag-special" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])} <em>백업</em></a>`)
       .join('');
+    // sponsors 항목은 문자열(기존 데이터, 자동으로 '광고'로 인식) 또는 {name, type} 객체 둘 다 지원
     // ads = 광고(유료), sponsors = 협찬(제품 협찬 등) — 서로 다른 필드로 완전히 분리
     const adBadge = v.ads.length > 0
       ? `<span class="ad-badge">유료광고 · ${escapeHtml(v.ads.join(', '))}</span>`
+      : '';
+    const supportBadge = v.support.length > 0
+      ? `<span class="support-badge">지원 · ${escapeHtml(v.support.join(', '))}</span>`
       : '';
     const sponsorshipBadge = v.sponsors.length > 0
       ? `<span class="sponsorship-badge">협찬 · ${escapeHtml(v.sponsors.join(', '))}</span>`
@@ -669,7 +675,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="card">
         <a class="thumb-link" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">
           <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
-            ${adBadge}
+            <div class="badge-stack-tl">${adBadge}${supportBadge}</div>
             ${sponsorshipBadge}
             ${hotBadge}
             ${selfSpecialBadge}
@@ -1222,12 +1228,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       const allMySongKeys = new Set(DATA.filter((v) => v.contentType === 'video').map((v) => v.songKey));
       const groupShare = allMySongKeys.size > 0 ? (groupSongKeys.size / allMySongKeys.size) * 100 : 0;
 
-      // 이 그룹 안에서, 실제로 내가 role_mapping에 맡은 걸로 기록된 인물별 횟수 (곡 단위 중복 제거)
+      // 이 그룹 안에서, 실제로 내가 role_mapping에 맡은 걸로 기록된 인물별 횟수 (곡 단위 중복 제거).
+      // 한 영상이 여러 그룹을 동시에 커버하고, 내가 각 그룹마다 다른 역할을 맡은 경우가 있어서
+      // "지금 선택된 그룹과 일치하는 역할"만 골라 써야 함 (그냥 첫 번째 역할을 쓰면 다른 그룹 역할이 섞여버림).
       const roleCounts: Record<string, Set<string>> = {};
       for (const v of matched) {
-        if (!v.myRole) continue;
-        if (!roleCounts[v.myRole]) roleCounts[v.myRole] = new Set();
-        roleCounts[v.myRole].add(v.songKey);
+        const myMatch = v.myRoles.find((r) => matchesPath(r.group, activeGroupPath));
+        if (!myMatch) continue;
+        if (!roleCounts[myMatch.member]) roleCounts[myMatch.member] = new Set();
+        roleCounts[myMatch.member].add(v.songKey);
       }
       const roleTotal = Object.values(roleCounts).reduce((sum, set) => sum + set.size, 0);
 
@@ -1410,11 +1419,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     transition: opacity 0.2s ease;
   }
   .thumb-link:hover .play { opacity: 1; }
-  .ad-badge {
+  .badge-stack-tl {
     position: absolute;
     top: 8px;
     left: 8px;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    max-width: calc(100% - 16px);
+  }
+  .ad-badge {
     background: #f59e0b;
     color: #0e0e10;
     font-size: 10px;
@@ -1423,7 +1439,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     padding: 3px 8px;
     border-radius: 4px;
     white-space: nowrap;
-    max-width: calc(100% - 16px);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .support-badge {
+    background: #3b82f6;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
   }
