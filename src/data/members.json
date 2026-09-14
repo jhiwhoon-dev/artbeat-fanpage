@@ -1526,7 +1526,7 @@
     "name": "박선영",
     "name_en": "Sunyoung Park",
     "nickname": null,
-    "birth_date": "1995-09-04",
+    "birth_date": "1995-09-14",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -4084,7 +4084,11 @@
     ],
     "photo_filename": null,
     "bio": "ARTBEAT 소속 댄서이다.",
-    "sns": {}
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/channel/UCbifcJCjPMTWsXmqF0X-NWQ"
+      ]
+    }
   },
   {
     "id": "seo-jaemin",
@@ -4545,6 +4549,9 @@
     "sns": {
       "instagram": [
         "suuvinee"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UC2OpscGW7Kzi_JoFury2Xaw"
       ]
     }
   },
