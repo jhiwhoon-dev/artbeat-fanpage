@@ -12795,19 +12795,20 @@
     "tagged_members": [
       "lee-gaeun",
       "ha-seyoung",
+      "jung-siyun",
       "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
       "kang-yejin",
       "baek-jina",
-      "lee-yejin",
-      "lee-yoonjae",
-      "cho-yuna",
-      "jung-siyun"
+      "kim-chan"
     ],
     "published_date": "2026-02-18",
     "content_type": "video",
     "view_count": 100558,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2026y"
     ]
   },
   {
@@ -22413,11 +22414,8 @@
   {
     "youtube_id": "MzoIGo4zBro",
     "title": "[💿AB PLAYLIST #가은] 아무것도 안 하고 싶을 때 듣기 좋은 음악 | Gaeun’s Playlist",
-    "covered_group": [
-      "아이유"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "kim-daehan",
       "lee-gaeun"
     ],
     "published_date": "2025-10-24",
@@ -22431,8 +22429,7 @@
     "youtube_id": "PiniNTwYk68",
     "title": "파스텔처럼 번져온 우리들의 Color🧑‍🎨 #color #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [],
     "published_date": "2025-10-23",
@@ -22444,8 +22441,7 @@
     "youtube_id": "0ZSQeG9zf8U",
     "title": "오늘의 코디 1등은 누구일까요!? #color #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [],
     "published_date": "2025-10-23",
@@ -22457,8 +22453,7 @@
     "youtube_id": "8sM_zfHD_dw",
     "title": "우리만의 색깔을 외칠래!! #color #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [],
     "published_date": "2025-10-23",
@@ -22484,8 +22479,7 @@
     "youtube_id": "a5QLgfqlRwY",
     "title": "[여기서요?] 엔시티 위시 NCT WISH - COLOR | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "chae-yunsu",
@@ -58234,15 +58228,26 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "kim-hyerim",
       "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "special_dancers": [
+      "jeon-minseo",
       "jang-sein",
-      "jeong-gyeolgyeong"
+      "jeong-gyeolgyeong",
+      "park-seoyeon"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "수진", "covered_member": "수진" },
+      { "member_id": "ha-seyoung", "covered_group": "수진", "covered_member": "수진" },
+      { "member_id": "kim-hyerim", "covered_group": "수진", "covered_member": "수진" }
     ],
     "published_date": "2024-01-18",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 592581,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "MOQ7H6Nf0aM",
@@ -77219,6 +77224,20 @@
       "ahn-yoojin",
       "kang-yejin"
     ],
+    "support":[
+      "대전대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "song-haeun", "covered_group": "소녀시대", "covered_member": "윤아" },
+      { "member_id": "ha-seyoung", "covered_group": "소녀시대", "covered_member": "유리" },
+      { "member_id": "lee-seohyeon", "covered_group": "소녀시대", "covered_member": "서현" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀시대", "covered_member": "태연" },
+      { "member_id": "park-damhee", "covered_group": "소녀시대", "covered_member": "티파니" },
+      { "member_id": "park-sunyoung", "covered_group": "소녀시대", "covered_member": "써니" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀시대", "covered_member": "수영" },
+      { "member_id": "kang-yejin", "covered_group": "소녀시대", "covered_member": "효연" }
+    ],
+    "song_group":"girlsgeneration-forever1-2022",
     "published_date": "2022-12-09",
     "content_type": "video",
     "view_count": 702859,
@@ -97155,15 +97174,24 @@
     ],
     "tagged_members": [
       "lee-gaeun",
+      "kim-minjin",
+      "oh-yubin"
+    ],
+    "special_dancers":[
       "yun-haeun",
-      "oh-yubin",
-      "kim-minjin"
+      "park-damhee"
+    ],
+    "sponsors":[],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "kim-minjin", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "oh-yubin", "covered_group": "아이유", "covered_member": "아이유" }
     ],
     "published_date": "2021-04-23",
     "content_type": "video",
     "view_count": 205695,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -97445,16 +97473,25 @@
       "아이유"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "oh-yubin",
+      "park-damhee",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "sponsors":[],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "park-damhee", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "yun-haeun", "covered_group": "아이유", "covered_member": "아이유" }
     ],
     "published_date": "2021-04-16",
     "content_type": "video",
     "view_count": 156641,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -97499,14 +97536,28 @@
     ],
     "tagged_members": [
       "lee-gaeun",
+      "kim-minjin",
+      "oh-yubin"
+    ],
+    "special_dancers":[
       "yun-haeun",
-      "oh-yubin",
-      "kim-minjin"
+      "park-damhee"
+    ],
+    "sponsors":[
+      "FOTOPIA"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "kim-minjin", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "oh-yubin", "covered_group": "아이유", "covered_member": "아이유" }
     ],
     "published_date": "2021-04-14",
     "content_type": "video",
     "view_count": 232097,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "CO0jdBfCHAk",
@@ -97515,15 +97566,30 @@
       "아이유"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "oh-yubin",
+      "park-damhee",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "lee-gaeun",
       "kim-minjin"
     ],
+    "sponsors":[
+      "FOTOPIA"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "park-damhee", "covered_group": "아이유", "covered_member": "아이유" },
+      { "member_id": "yun-haeun", "covered_group": "아이유", "covered_member": "아이유" }
+    ],
+    "song_group":"iu-lilac-2021",
     "published_date": "2021-04-13",
     "content_type": "video",
     "view_count": 424689,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "SwZ9BkqZIYs",
@@ -100033,6 +100099,17 @@
       "ahn-yoojin",
       "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "소녀시대", "covered_member": "윤아" },
+      { "member_id": "ha-seyoung", "covered_group": "소녀시대", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "소녀시대", "covered_member": "서현" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀시대", "covered_member": "태연" },
+      { "member_id": "kim-hayeon", "covered_group": "소녀시대", "covered_member": "제시카" },
+      { "member_id": "lee-seohyeon", "covered_group": "소녀시대", "covered_member": "티파니" },
+      { "member_id": "kim-minjin", "covered_group": "소녀시대", "covered_member": "써니" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀시대", "covered_member": "수영" },
+      { "member_id": "kim-hyerim", "covered_group": "소녀시대", "covered_member": "효연" }
+    ],
     "published_date": "2021-01-13",
     "content_type": "video",
     "view_count": 305740,
@@ -100148,6 +100225,17 @@
       "ahn-yoojin",
       "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "소녀시대", "covered_member": "윤아" },
+      { "member_id": "ha-seyoung", "covered_group": "소녀시대", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "소녀시대", "covered_member": "서현" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀시대", "covered_member": "태연" },
+      { "member_id": "kim-hayeon", "covered_group": "소녀시대", "covered_member": "제시카" },
+      { "member_id": "lee-seohyeon", "covered_group": "소녀시대", "covered_member": "티파니" },
+      { "member_id": "kim-minjin", "covered_group": "소녀시대", "covered_member": "써니" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀시대", "covered_member": "수영" },
+      { "member_id": "kim-hyerim", "covered_group": "소녀시대", "covered_member": "효연" }
+    ],
     "published_date": "2021-01-07",
     "content_type": "video",
     "view_count": 4894494,
@@ -100172,11 +100260,27 @@
       "ahn-yoojin",
       "kim-hyerim"
     ],
+    "sponsors":[
+      "수성대학교",
+      "SIMPLEY"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "소녀시대", "covered_member": "윤아" },
+      { "member_id": "ha-seyoung", "covered_group": "소녀시대", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "소녀시대", "covered_member": "서현" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀시대", "covered_member": "태연" },
+      { "member_id": "kim-hayeon", "covered_group": "소녀시대", "covered_member": "제시카" },
+      { "member_id": "lee-seohyeon", "covered_group": "소녀시대", "covered_member": "티파니" },
+      { "member_id": "kim-minjin", "covered_group": "소녀시대", "covered_member": "써니" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀시대", "covered_member": "수영" },
+      { "member_id": "kim-hyerim", "covered_group": "소녀시대", "covered_member": "효연" }
+    ],
     "published_date": "2021-01-06",
     "content_type": "video",
     "view_count": 668649,
     "content_series": [
-      "Dance Cover MV::Dance Teams::AB::2021y"
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
     ]
   },
   {
@@ -100444,6 +100548,21 @@
       "ahn-yoojin",
       "kim-hyerim"
     ],
+    "support":[
+      "수성대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "소녀시대", "covered_member": "윤아" },
+      { "member_id": "ha-seyoung", "covered_group": "소녀시대", "covered_member": "유리" },
+      { "member_id": "kwon-soyoung", "covered_group": "소녀시대", "covered_member": "서현" },
+      { "member_id": "lee-gaeun", "covered_group": "소녀시대", "covered_member": "태연" },
+      { "member_id": "kim-hayeon", "covered_group": "소녀시대", "covered_member": "제시카" },
+      { "member_id": "lee-seohyeon", "covered_group": "소녀시대", "covered_member": "티파니" },
+      { "member_id": "kim-minjin", "covered_group": "소녀시대", "covered_member": "써니" },
+      { "member_id": "ahn-yoojin", "covered_group": "소녀시대", "covered_member": "수영" },
+      { "member_id": "kim-hyerim", "covered_group": "소녀시대", "covered_member": "효연" }
+    ],
+    "song_group":"girlsgeneration-intothenewworld-2020",
     "published_date": "2020-12-15",
     "content_type": "video",
     "view_count": 1539922,
@@ -108422,8 +108541,8 @@
     ],
     "special_dancers": [],
     "support": [
-      "MONSTERS CRAFT BEER",
-      "ABLY"
+      "ABLY",
+      "MONSTERS CRAFT BEER"
     ],
     "role_mapping": [
       {
