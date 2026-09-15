@@ -45,17 +45,25 @@ const statsVideos = taggedVideos.filter((v) => getType(v) === 'video');
 // 동기/전체 평균 계산은 "이 멤버가 태그된 영상"이 아니라 "사이트 전체 영상"을 대상으로 해야 함
 const allStatsVideos = allVideos.filter((v) => getType(v) === 'video');
 
+// song_group은 문자열(모든 그룹이 같은 곡) 또는 배열(covered_group과 같은 순서로 짝지어, 그룹마다 다른 곡)
+// 둘 다 지원함 — 매쉬업 영상처럼 한 영상에 여러 곡이 섞여있을 때, 그룹별로 정확한 곡 키를 찾아줌.
+function resolveSongKey(v, group) {
+  const groups = v.covered_group ?? [];
+  const idx = groups.indexOf(group);
+  const sg = v.song_group;
+  if (Array.isArray(sg)) return idx !== -1 && sg[idx] ? sg[idx] : v.youtube_id;
+  return sg || v.youtube_id;
+}
+
 // "이 그룹을 채널 전체에서 몇 명이 커버했는지"(B 지표: 그룹 커버 중 내 비중)를 계산하기 위한 채널 전체 데이터.
 // 영상 하나당 covered_group 태그 하나씩 풀어서 나열 (누가 했는지는 안 따지고, 그룹+곡+날짜만).
 const allGroupEvents = allStatsVideos.flatMap((v) => {
-  const songKey = v.song_group || v.youtube_id;
-  return (v.covered_group ?? []).map((g) => ({ group: g, songKey, date: v.published_date }));
+  return (v.covered_group ?? []).map((g) => ({ group: g, songKey: resolveSongKey(v, g), date: v.published_date }));
 });
 
 // "이 그룹을 실제로 몇 명이 나눠 맡았는지"(평균 담당 비율 계산용) — role_mapping 기준으로 그룹+멤버+곡을 나열
 const allGroupRoleEvents = allStatsVideos.flatMap((v) => {
-  const songKey = v.song_group || v.youtube_id;
-  return (v.role_mapping ?? []).map((rm) => ({ group: rm.covered_group, memberId: rm.member_id, songKey, date: v.published_date }));
+  return (v.role_mapping ?? []).map((rm) => ({ group: rm.covered_group, memberId: rm.member_id, songKey: resolveSongKey(v, rm.covered_group), date: v.published_date }));
 });
 
 // 출연 영상 필터 엔진(videos.astro와 동일)에 넘길 데이터
@@ -73,8 +81,12 @@ const taggedVideosData = taggedVideos.map((v) => ({
   ads: v.ads ?? [], // 광고
   support: v.support ?? [], // 지원
   contentType: getType(v), // 'video' | 'short' | 'live' — 타입별 숨기기 필터용
-  songKey: v.song_group || v.youtube_id, // 같은 곡 여러 영상을 1회로 묶기 위한 키
-  myRoles: (v.role_mapping ?? []).filter((rm) => rm.member_id === member.id).map((rm) => ({ group: rm.covered_group, member: rm.covered_member })), // 본인이 이 영상에서 맡은 역할 전부(그룹별로)
+  // 그룹별로 정확한 곡 키를 찾을 수 있도록, 영상당 하나의 songKey 대신 "그룹별 songKey 목록"을 넘김.
+  // (song_group이 문자열이면 모든 그룹이 같은 값을, 배열이면 covered_group과 같은 순서로 짝지어진 값을 씀)
+  groupSongKeys: (v.covered_group ?? []).map((g) => ({ group: g, songKey: resolveSongKey(v, g) })),
+  // 그룹과 상관없이 "총 몇 곡 했는지" 계산할 때 쓰는 기본 키 (매쉬업 영상은 song_group 배열의 첫 번째 값을 대표로 사용)
+  songKey: Array.isArray(v.song_group) ? (v.song_group[0] || v.youtube_id) : (v.song_group || v.youtube_id),
+  myRoles: (v.role_mapping ?? []).filter((rm) => rm.member_id === member.id).map((rm) => ({ group: rm.covered_group, member: rm.covered_member, songKey: resolveSongKey(v, rm.covered_group) })), // 본인이 이 영상에서 맡은 역할 전부(그룹별로, 곡 키도 같이)
   date: v.published_date,
   views: v.view_count ?? 0,
 }));
@@ -415,8 +427,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     ads: string[];
     support: string[];
     contentType: 'video' | 'short' | 'live';
+    groupSongKeys: { group: string; songKey: string }[];
     songKey: string;
-    myRoles: { group: string; member: string }[];
+    myRoles: { group: string; member: string; songKey: string }[];
     date: string;
     views: number;
   }
@@ -487,6 +500,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const segs = splitTagLevels(tag);
     if (segs.length < path.length) return false;
     return path.every((p, i) => segs[i] === p);
+  }
+
+  // 매쉬업처럼 한 영상에 곡이 여러 개 섞여있을 때, "지금 선택된 그룹"에 정확히 대응하는 songKey를 찾음.
+  // (그룹별 groupSongKeys 목록에서 경로가 일치하는 걸 찾고, 없으면 영상 대표 songKey로 대체)
+  function songKeyForGroupPath(v: VideoItem, path: string[]): string {
+    const found = v.groupSongKeys.find((gs) => matchesPath(gs.group, path));
+    return found ? found.songKey : v.songKey;
   }
 
   type TreeNode = Map<string, TreeNode>;
@@ -1113,12 +1133,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     selectionBlock.style.display = '';
     if (selectionTitle) selectionTitle.textContent = `"${targetLabel}" 통계`;
 
-    // 같은 곡(songKey)이 여러 영상으로 올라와도 기간 하나당 1회로만 집계 (아래 비율 계산·인물별 막대에서 재사용)
+    // 같은 곡(songKey)이 여러 영상으로 올라와도 기간 하나당 1회로만 집계 (아래 비율 계산·인물별 막대에서 재사용).
+    // 그룹별 선택일 땐 "지금 선택된 그룹에 대응하는 곡"만 정확히 골라 씀 (매쉬업 영상 대응).
     const perPeriod: Record<string, Set<string>> = {};
     for (const v of matched) {
       const key = selectionPeriod === 'year' ? v.date.slice(0, 4) : v.date.slice(0, 7);
       if (!perPeriod[key]) perPeriod[key] = new Set();
-      perPeriod[key].add(v.songKey);
+      const sk = activeMode === 'group' ? songKeyForGroupPath(v, activeGroupPath) : v.songKey;
+      perPeriod[key].add(sk);
     }
 
     // ---- 그룹별 선택일 때만: 비율(%) 추이 두 가지 ----
@@ -1133,7 +1155,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         if (v.contentType !== 'video') continue;
         const key = selectionPeriod === 'year' ? v.date.slice(0, 4) : v.date.slice(0, 7);
         if (!myTotalPerPeriod[key]) myTotalPerPeriod[key] = new Set();
-        myTotalPerPeriod[key].add(v.songKey);
+        // 매쉬업처럼 한 영상에 곡이 여러 개면, 전체 레퍼토리 집계에는 각 곡을 다 따로 반영함
+        const keys = v.groupSongKeys.length > 0 ? v.groupSongKeys.map((gs) => gs.songKey) : [v.songKey];
+        keys.forEach((k) => myTotalPerPeriod[key].add(k));
       }
 
       const channelGroupPerPeriod: Record<string, Set<string>> = {};
@@ -1223,10 +1247,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const roleBars = document.getElementById('role-bars');
 
     if (activeMode === 'group' && roleBarsCol && roleShareLine && roleBars) {
-      // 같은 곡이 여러 영상으로 올라와도 1곡으로만 세기 위해 songKey 기준으로 중복 제거
-      const groupSongKeys = new Set(matched.map((v) => v.songKey));
-      const allMySongKeys = new Set(DATA.filter((v) => v.contentType === 'video').map((v) => v.songKey));
-      const groupShare = allMySongKeys.size > 0 ? (groupSongKeys.size / allMySongKeys.size) * 100 : 0;
+      // 같은 곡이 여러 영상으로 올라와도 1곡으로만 세기 위해, "지금 선택된 그룹에 대응하는 songKey" 기준으로 중복 제거
+      const groupUniqueSongKeys = new Set(matched.map((v) => songKeyForGroupPath(v, activeGroupPath)));
+      // 전체 출연 곡 수(분모)는 매쉬업의 여러 곡을 각각 반영
+      const allMySongKeys = new Set(
+        DATA.filter((v) => v.contentType === 'video').flatMap((v) => (v.groupSongKeys.length > 0 ? v.groupSongKeys.map((gs) => gs.songKey) : [v.songKey]))
+      );
+      const groupShare = allMySongKeys.size > 0 ? (groupUniqueSongKeys.size / allMySongKeys.size) * 100 : 0;
 
       // 이 그룹 안에서, 실제로 내가 role_mapping에 맡은 걸로 기록된 인물별 횟수 (곡 단위 중복 제거).
       // 한 영상이 여러 그룹을 동시에 커버하고, 내가 각 그룹마다 다른 역할을 맡은 경우가 있어서
@@ -1236,7 +1263,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         const myMatch = v.myRoles.find((r) => matchesPath(r.group, activeGroupPath));
         if (!myMatch) continue;
         if (!roleCounts[myMatch.member]) roleCounts[myMatch.member] = new Set();
-        roleCounts[myMatch.member].add(v.songKey);
+        roleCounts[myMatch.member].add(myMatch.songKey);
       }
       const roleTotal = Object.values(roleCounts).reduce((sum, set) => sum + set.size, 0);
 
@@ -1245,7 +1272,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         roleBarsCol.style.display = 'none';
       } else {
         roleBarsCol.style.display = '';
-        roleShareLine.innerHTML = `전체 출연(<strong>${allMySongKeys.size}곡</strong>) 중 <strong style="color:#22d3ee">${targetLabel}</strong> 담당 비중: <strong>${groupSongKeys.size}곡 (${groupShare.toFixed(1)}%)</strong>`;
+        roleShareLine.innerHTML = `전체 출연(<strong>${allMySongKeys.size}곡</strong>) 중 <strong style="color:#22d3ee">${targetLabel}</strong> 담당 비중: <strong>${groupUniqueSongKeys.size}곡 (${groupShare.toFixed(1)}%)</strong>`;
 
         const sorted = Object.entries(roleCounts).sort((a, b) => b[1].size - a[1].size);
         const roleMax = Math.max(1, ...sorted.map(([, set]) => set.size));

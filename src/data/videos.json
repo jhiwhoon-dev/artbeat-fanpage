@@ -42544,22 +42544,32 @@
     "youtube_id": "Xe2uCUYotAs",
     "title": "[방구석 여기서요?] izna - TIMEBOMB | 커버댄스 Dance Cover",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
+      "kim-chan",
       "lee-jeonghee",
       "won-hyegyeong",
       "jung-siyun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "izna", "covered_member": "방지민" },
+      { "member_id": "yun-haeun", "covered_group": "izna", "covered_member": "최정은" },
+      { "member_id": "seol-heejeong", "covered_group": "izna", "covered_member": "정세비" },
+      { "member_id": "kim-chan", "covered_group": "izna", "covered_member": "유사랑" },
+      { "member_id": "lee-jeonghee", "covered_group": "izna", "covered_member": "윤지윤" },
+      { "member_id": "won-hyegyeong", "covered_group": "izna", "covered_member": "코코" },
+      { "member_id": "jung-siyun", "covered_group": "izna", "covered_member": "마이" }
     ],
     "published_date": "2025-02-07",
     "content_type": "video",
     "view_count": 385816,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -44525,9 +44535,21 @@
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
+      "kim-chan",
       "lee-jeonghee",
       "won-hyegyeong",
       "jung-siyun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "izna", "covered_member": "방지민" },
+      { "member_id": "yun-haeun", "covered_group": "izna", "covered_member": "최정은" },
+      { "member_id": "seol-heejeong", "covered_group": "izna", "covered_member": "정세비" },
+      { "member_id": "kim-chan", "covered_group": "izna", "covered_member": "유사랑" },
+      { "member_id": "lee-jeonghee", "covered_group": "izna", "covered_member": "윤지윤" },
+      { "member_id": "won-hyegyeong", "covered_group": "izna", "covered_member": "코코" },
+      { "member_id": "jung-siyun", "covered_group": "izna", "covered_member": "마이" }
     ],
     "published_date": "2024-12-27",
     "content_type": "video",
@@ -44550,21 +44572,32 @@
     "youtube_id": "PuoRnPctQpY",
     "title": "[여기서요?] 이즈나 izna - TIMEBOMB | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
+      "kim-chan",
       "lee-jeonghee",
       "won-hyegyeong",
       "jung-siyun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "izna", "covered_member": "방지민" },
+      { "member_id": "yun-haeun", "covered_group": "izna", "covered_member": "최정은" },
+      { "member_id": "seol-heejeong", "covered_group": "izna", "covered_member": "정세비" },
+      { "member_id": "kim-chan", "covered_group": "izna", "covered_member": "유사랑" },
+      { "member_id": "lee-jeonghee", "covered_group": "izna", "covered_member": "윤지윤" },
+      { "member_id": "won-hyegyeong", "covered_group": "izna", "covered_member": "코코" },
+      { "member_id": "jung-siyun", "covered_group": "izna", "covered_member": "마이" }
     ],
     "published_date": "2024-12-25",
     "content_type": "video",
     "view_count": 441168,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -44588,20 +44621,35 @@
     "youtube_id": "X6Pw9v__WJ8",
     "title": "[AB] 이즈나 izna - TIMEBOMB | 커버댄스 Dance Cover",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
       "lee-gaeun",
       "yun-haeun",
+      "seol-heejeong",
+      "kim-chan",
       "lee-jeonghee",
       "won-hyegyeong",
       "jung-siyun"
     ],
+    "sponsors": [],
+    "role_mapping": [
+      { "member_id": "lee-gaeun", "covered_group": "izna", "covered_member": "방지민" },
+      { "member_id": "yun-haeun", "covered_group": "izna", "covered_member": "최정은" },
+      { "member_id": "seol-heejeong", "covered_group": "izna", "covered_member": "정세비" },
+      { "member_id": "kim-chan", "covered_group": "izna", "covered_member": "유사랑" },
+      { "member_id": "lee-jeonghee", "covered_group": "izna", "covered_member": "윤지윤" },
+      { "member_id": "won-hyegyeong", "covered_group": "izna", "covered_member": "코코" },
+      { "member_id": "jung-siyun", "covered_group": "izna", "covered_member": "마이" }
+    ],
+    "song_group":"izna-timebomb-2024",
     "published_date": "2024-12-24",
     "content_type": "video",
     "view_count": 113741,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "C3lY5BB2UGw",
@@ -83981,6 +84029,17 @@
       "kwon-dohyun",
       "kim-taehwan"
     ],
+    "sponsors":[],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-kyungju", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-hyunmin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "lee-moonkyu", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-suhwan", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-butter-2021",
     "published_date": "2022-06-03",
     "content_type": "video",
     "view_count": 433129,
@@ -91356,7 +91415,15 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-soyoung",
+      "kim-hayeon",
+      "park-damhee",
+      "lee-gaeun",
+      "yun-haeun",
+      "kim-minjin",
+      "ha-seyoung"
+    ],
     "published_date": "2021-09-26",
     "content_type": "video",
     "view_count": 121481,
@@ -92558,7 +92625,15 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yun-jihong",
+      "kim-kyungju",
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
+      "park-hyunmin",
+      "jihooni"
+    ],
     "published_date": "2021-08-19",
     "content_type": "video",
     "view_count": 104497,
@@ -92913,16 +92988,31 @@
     "tagged_members": [
       "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "park-damhee",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung",
-      "kim-minjin"
+      "kim-minjin",
+      "ha-seyoung"
+    ],
+    "sponsors":[
+      "대구대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "yun-haeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kim-minjin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2021-08-05",
     "content_type": "video",
     "view_count": 237976,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "KgT5IMlDrdo",
@@ -94164,22 +94254,38 @@
     "youtube_id": "PiBmAFr8wkA",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Butter (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
       "kim-kyungju",
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
       "park-hyunmin",
-      "kim-suhwan"
+      "jihooni"
+    ],
+    "support":[
+      "펩시"
+    ],
+    "sponsors":[
+      "대진대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-kyungju", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-suhwan", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "park-hyunmin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2021-06-25",
     "content_type": "video",
     "view_count": 456872,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "Wb8EjSThmpY",
@@ -94592,24 +94698,39 @@
     "youtube_id": "wesrApZzwrg",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Butter (Girls ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "park-damhee",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung",
-      "kim-minjin"
+      "kim-minjin",
+      "ha-seyoung"
     ],
+    "support":[
+      "펩시"
+    ],
+    "sponsors":[
+      "대진대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "yun-haeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kim-minjin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-butter-2021",
     "published_date": "2021-06-18",
     "content_type": "video",
     "view_count": 1210982,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "Pr1dy0zXPdA",
@@ -94790,29 +94911,53 @@
     "youtube_id": "7RvOjVI9LMk",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Butter (Boys & Girls ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
       "kim-kyungju",
-      "park-hyunmin",
+      "kim-taehwan",
+      "seo-jaemin",
       "kim-suhwan",
+      "park-hyunmin",
+      "jihooni",
       "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "park-damhee",
       "lee-gaeun",
       "yun-haeun",
-      "ha-seyoung",
-      "kim-minjin"
+      "kim-minjin",
+      "ha-seyoung"
     ],
+    "support":[
+      "마운틴듀"
+    ],
+    "sponsors":[
+      "대진대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-kyungju", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-suhwan", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "park-hyunmin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "yun-haeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kim-minjin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-butter-2021",
     "published_date": "2021-06-13",
     "content_type": "video",
     "view_count": 2723185,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "2rt2sMkFcEg",
@@ -94862,23 +95007,32 @@
     "youtube_id": "0Tgz1GymD1Q",
     "title": "방탄소년단 BTS - Butter | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
       "kim-kyungju",
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
       "park-hyunmin",
-      "kim-suhwan"
+      "jihooni"
+    ],
+    "sponsors":[],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-kyungju", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-suhwan", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "park-hyunmin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2021-06-09",
     "content_type": "video",
     "view_count": 161460,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -94904,22 +95058,37 @@
     "youtube_id": "7MlX2S0r_dg",
     "title": "[AB] 방탄소년단 BTS - Butter (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
       "kim-kyungju",
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
       "park-hyunmin",
-      "kim-suhwan"
+      "jihooni"
     ],
+    "sponsors":[
+      "1987"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-kyungju", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-suhwan", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "park-hyunmin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-butter-2021",
     "published_date": "2021-06-08",
     "content_type": "video",
     "view_count": 446268,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "UXwsJl4tInM",
@@ -95458,16 +95627,20 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
       "yun-haeun",
-      "ha-seyoung"
+      "ha-seyoung",
+      "jin-hyunwoo",
+      "park-hyunmin",
+      "kim-taehwan",
+      "seo-jaemin"
     ],
     "published_date": "2021-05-21",
     "content_type": "video",
     "view_count": 1432856,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "_8OcaMW2tCk",
@@ -100703,10 +100876,6 @@
     "youtube_id": "HsSex1OLo0c",
     "title": "[AB] SuperM - 호랑이 Tiger Inside (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -100723,20 +100892,36 @@
     "youtube_id": "Vw2UkOJbOoc",
     "title": "[AB] 방탄소년단 BTS - Dynamite (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kwon-dohyun",
+      "kim-taehwan",
+      "jihooni",
       "park-munsu",
-      "kim-taehwan"
+      "jin-hyunwoo",
+      "kim-chanhee",
+      "kwon-dohyun",
+      "kim-jeongseo"
+    ],
+    "support":[
+      "Eworld"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-munsu", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-chanhee", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-10-08",
     "content_type": "video",
     "view_count": 675741,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "3u5iq9qysao",
@@ -100807,23 +100992,32 @@
     "youtube_id": "zOvFbWf5fX0",
     "title": "방탄소년단 BTS - Dynamite (Girls ver.) | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "park-sunyoung",
       "kim-hayeon",
+      "park-damhee",
+      "her-naeun",
       "ahn-yoojin",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong"
+    ],
+    "support":[],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "park-sunyoung", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "her-naeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "ahn-yoojin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "yoon-taegyeong", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-10-04",
     "content_type": "video",
     "view_count": 3194073,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -100876,16 +101070,34 @@
       "방탄소년단"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "park-sunyoung",
       "kim-hayeon",
+      "park-damhee",
+      "her-naeun",
       "ahn-yoojin",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong"
+    ],
+    "support":[
+      "ABLY",
+      "VERDANT x 그초록"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "park-sunyoung", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "her-naeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "ahn-yoojin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "yoon-taegyeong", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-10-03",
     "content_type": "video",
     "view_count": 253332,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "OWLJ3AtSj-A",
@@ -100910,20 +101122,35 @@
     "youtube_id": "ihhryKOEnoE",
     "title": "[여기서요?] 방탄소년단 BTS - Dynamite (K2 ver.) | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "lee-seunghyun",
       "yun-jihong",
+      "seo-jaemin",
+      "jin-hyunwoo",
       "kwon-dohyun",
-      "kim-taehwan"
+      "kim-jeongseo"
+    ],
+    "ads":[
+      "K2"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-10-02",
     "content_type": "video",
     "view_count": 12015865,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "QFFCJ3qpAsU",
@@ -101363,29 +101590,41 @@
     "youtube_id": "ejhKXTwY35I",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Dynamite (Mixed ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-hojun",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "kim-hojun",
+      "yun-jihong",
+      "seo-jaemin",
+      "lee-gaeun",
+      "lee-seunghyun",
+      "kim-jeongseo"
     ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hojun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-dynamite-2020",
     "published_date": "2020-09-25",
     "content_type": "video",
     "view_count": 1646760,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "JJpBzaPYz80",
     "title": "BLACKPINK - Ice Cream (with Selena Gomez) | 커버댄스 Dance Cover | 거울모드 Mirror Mode | 연습실 Practice ver.",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -101407,8 +101646,6 @@
     "youtube_id": "2gzgt8Ciaa8",
     "title": "[AB] BLACKPINK - Ice Cream (with Selena Gomez) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -101428,7 +101665,6 @@
     "youtube_id": "fRekCqiDODY",
     "title": "[방구석 여기서요?] Red Velvet (IRENE & SEULGI) - Monster (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
       "Red Velvet"
     ],
     "tagged_members": [
@@ -101474,10 +101710,6 @@
     "youtube_id": "BbBSHwE5Vcc",
     "title": "[방구석 여기서요?] SuperM - 100 | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -101641,20 +101873,36 @@
     "youtube_id": "CrNdMe29lCA",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Dynamite (Boys ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kwon-dohyun",
+      "kim-taehwan",
+      "jihooni",
       "park-munsu",
-      "kim-taehwan"
+      "jin-hyunwoo",
+      "kim-chanhee",
+      "kwon-dohyun",
+      "kim-jeongseo"
     ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "jihooni", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-munsu", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-chanhee", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-dynamite-2020",
     "published_date": "2020-09-20",
     "content_type": "video",
     "view_count": 1279265,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "iXOvz7EArJE",
@@ -101741,22 +101989,36 @@
     "youtube_id": "2-h0QLf2zfs",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Dynamite (Girls ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "park-sunyoung",
       "kim-hayeon",
+      "park-damhee",
+      "her-naeun",
       "ahn-yoojin",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yoon-taegyeong"
     ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "park-sunyoung", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "kim-hayeon", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "her-naeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "ahn-yoojin", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "yoon-taegyeong", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-dynamite-2020",
     "published_date": "2020-09-18",
     "content_type": "video",
     "view_count": 6391740,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "pdptgoyAJRQ",
@@ -101778,41 +102040,71 @@
     "youtube_id": "g4YFMFWaStg",
     "title": "방탄소년단 BTS - Dynamite (K2 ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "lee-seunghyun",
       "yun-jihong",
+      "seo-jaemin",
+      "jin-hyunwoo",
       "kwon-dohyun",
-      "kim-taehwan"
+      "kim-jeongseo"
+    ],
+    "ads":[
+      "K2"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-09-18",
     "content_type": "video",
     "view_count": 592495,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "MUKwQLNqC74",
     "title": "[ARTBEAT X K2] 방탄소년단 BTS - Dynamite | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "lee-seunghyun",
       "yun-jihong",
+      "seo-jaemin",
+      "jin-hyunwoo",
       "kwon-dohyun",
-      "kim-taehwan"
+      "kim-jeongseo"
     ],
+    "ads":[
+      "K2"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-taehwan", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-jeongseo", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-dynamite-2020",
     "published_date": "2020-09-17",
     "content_type": "video",
     "view_count": 199672,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "sP6Yrr7Chtc",
@@ -102047,47 +102339,69 @@
     "youtube_id": "L8w-3jKj3nM",
     "title": "방탄소년단 BTS - Dynamite (Mixed ver.) | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-hojun",
       "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun"
+      "kim-hojun",
+      "yun-jihong",
+      "seo-jaemin",
+      "lee-gaeun",
+      "lee-seunghyun",
+      "hwang-dagun"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hojun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "hwang-dagun", "covered_group": "방탄소년단", "covered_member": "RM" }
     ],
     "published_date": "2020-09-08",
     "content_type": "video",
     "view_count": 85960,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "KxK3jVAecME",
     "title": "[AB] 방탄소년단 BTS - Dynamite (Mixed ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-hojun",
       "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun"
+      "kim-hojun",
+      "yun-jihong",
+      "seo-jaemin",
+      "lee-gaeun",
+      "lee-seunghyun",
+      "hwang-dagun"
     ],
+    "support":[
+      "ABLY",
+      "VERDANT x 그초록"
+    ],
+    "role_mapping": [
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-hojun", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "lee-seunghyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "hwang-dagun", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-dynamite-2020",
     "published_date": "2020-09-07",
     "content_type": "video",
     "view_count": 1267134,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "-1xe05eJU3g",
@@ -106363,22 +106677,48 @@
     "youtube_id": "GiGtT-owyCk",
     "title": "[여기서요?] BTS MEDLEY 방탄소년단 메들리 (Lovely ver.) | 커버댄스 DANCE COVER | KPOP IN PUBLIC @익산 고백도시",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
+      "kim-woonggyeom",
+      "park-damhee",
       "ha-seyoung",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "lee-gaeun",
+      "jin-hyunwoo",
+      "ahn-yoojin"
     ],
+    "support":[
+      "익산시",
+      "익산문화관광재단"
+    ],
+    "sponsors":[
+      "고백스타",
+      "익산근대역사관",
+      "솜리당"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-woonggyeom", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "ahn-yoojin", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "ahn-yoojin", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "ha-seyoung", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "kim-woonggyeom", "covered_group": "방탄소년단", "covered_member": "RM" }
+    ],
+    "song_group":"bts-medley-2020",
     "published_date": "2020-03-10",
     "content_type": "video",
     "view_count": 797924,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2020y"
     ]
   },
   {
@@ -111963,13 +112303,20 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "kwon-dohyun"
+      "seo-jaemin",
+      "kwon-dohyun",
+      "kim-woonggyeom",
+      "kim-jaewook",
+      "jin-hyunwoo",
+      "park-jaebum",
+      "park-pilho"
     ],
+    "song_group":"bts-medley-2019",
     "published_date": "2019-06-17",
     "content_type": "video",
     "view_count": 4466041,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2019y"
     ]
   },
   {
@@ -112425,11 +112772,48 @@
       "방탄소년단",
       "EXO"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "choi-nara",
+      "park-damhee",
+      "seo-jaemin",
+      "kim-jaewook",
+      "jin-hyunwoo",
+      "kim-woonggyeom",
+      "park-jaebum",
+      "yun-jihong",
+      "kwon-dohyun",
+      "kim-chanhee"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-hayeon", "covered_group": "EXO", "covered_member": "시우민" },
+      { "member_id": "choi-nara", "covered_group": "EXO", "covered_member": "세훈" },
+      { "member_id": "kim-jaewook", "covered_group": "EXO", "covered_member": "수호" },
+      { "member_id": "kim-woonggyeom", "covered_group": "EXO", "covered_member": "백현" },
+      { "member_id": "seo-jaemin", "covered_group": "EXO", "covered_member": "카이" },
+      { "member_id": "park-damhee", "covered_group": "EXO", "covered_member": "찬열" },
+      { "member_id": "park-jaebum", "covered_group": "EXO", "covered_member": "첸" },
+      { "member_id": "jin-hyunwoo", "covered_group": "EXO", "covered_member": "디오" },
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "kim-chanhee", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "kwon-dohyun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "jin-hyunwoo", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "park-jaebum", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "kim-jaewook", "covered_group": "방탄소년단", "covered_member": "진" }
+    ],
+    "song_group":[
+      "exo-loveshot-2018",
+      "bts-idol-2018",
+      "bts-boywithluv-2019"
+    ],
     "published_date": "2019-05-26",
     "content_type": "video",
     "view_count": 746937,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "JDKAWf2esfM",
@@ -112916,21 +113300,34 @@
     "youtube_id": "NGum0HfbmEI",
     "title": "[AB 직캠] BTS - 작은 것들을 위한 시 BOY WITH LUV | DANCE COVER 커버댄스 @동성로 축제",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "seo-jaemin",
+      "park-jaebum",
+      "lee-gaeun",
+      "kim-eunbin",
+      "kim-jaewook"
+    ],
+    "support": [],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-jaebum", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-eunbin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "kim-jaewook", "covered_group": "방탄소년단", "covered_member": "진" }
     ],
     "published_date": "2019-05-12",
     "content_type": "video",
     "view_count": 374675,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "rFvy5vgaIWc",
@@ -113237,65 +113634,101 @@
     "youtube_id": "CaAHtyy_Ivk",
     "title": "[여기서요?] BTS 방탄소년단 - Boy With Luv 작은 것들을 위한 시 (feat. Halsey) | 커버댄스 DANCE COVER | KPOP IN PUBLIC",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "seo-jaemin",
+      "park-jaebum",
+      "lee-gaeun",
+      "kim-eunbin",
+      "kim-jaewook"
+    ],
+    "support": [],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-jaebum", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-eunbin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "kim-jaewook", "covered_group": "방탄소년단", "covered_member": "진" }
     ],
     "published_date": "2019-04-29",
     "content_type": "video",
     "view_count": 11876246,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
     "youtube_id": "BY6HPQQHets",
     "title": "BTS 방탄소년단 - Boy With Luv 작은 것들을 위한 시 | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "seo-jaemin",
+      "park-jaebum",
+      "lee-gaeun",
+      "kim-eunbin",
+      "kim-jaewook"
+    ],
+    "support": [],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-jaebum", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-eunbin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "kim-jaewook", "covered_group": "방탄소년단", "covered_member": "진" }
     ],
     "published_date": "2019-04-28",
     "content_type": "video",
     "view_count": 1136322,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "YjiVrcBsbDI",
     "title": "[AB] BTS 방탄소년단 - Boy With Luv 작은 것들을 위한 시 (feat.Halsey) | 커버댄스 DANCE COVER_",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "yun-jihong",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "seo-jaemin",
+      "park-jaebum",
+      "lee-gaeun",
+      "kim-eunbin",
+      "kim-jaewook"
     ],
+    "support": [
+      "Jeep"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-jihong", "covered_group": "방탄소년단", "covered_member": "제이홉" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "seo-jaemin", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-jaebum", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "kim-eunbin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "kim-jaewook", "covered_group": "방탄소년단", "covered_member": "진" }
+    ],
+    "song_group":"bts-boywithluv-2019",
     "published_date": "2019-04-28",
     "content_type": "video",
     "view_count": 3579454,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "J9Q8h_GM1bs",
