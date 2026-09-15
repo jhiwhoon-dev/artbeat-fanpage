@@ -108120,11 +108120,18 @@
       "마마무"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ha-seyoung",
       "lee-sieun",
-      "park-damhee"
+      "lee-gaeun",
+      "park-damhee",
+      "ha-seyoung"
     ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "마마무", "covered_member": "화사" },
+      { "member_id": "lee-gaeun", "covered_group": "마마무", "covered_member": "솔라" },
+      { "member_id": "park-damhee", "covered_group": "마마무", "covered_member": "휘인" },
+      { "member_id": "ha-seyoung", "covered_group": "마마무", "covered_member": "문별" }
+    ],
+    "song_group":"mamamoo-hip-2019",
     "published_date": "2019-12-21",
     "content_type": "video",
     "view_count": 1016360,
@@ -108499,14 +108506,22 @@
       "마마무"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin"
+      "lee-sieun",
+      "oh-yubin",
+      "park-damhee",
+      "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "마마무", "covered_member": "화사" },
+      { "member_id": "oh-yubin", "covered_group": "마마무", "covered_member": "솔라" },
+      { "member_id": "park-damhee", "covered_group": "마마무", "covered_member": "휘인" },
+      { "member_id": "ha-seyoung", "covered_group": "마마무", "covered_member": "문별" }
     ],
     "published_date": "2019-11-28",
     "content_type": "video",
     "view_count": 1576811,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -108516,13 +108531,23 @@
       "마마무"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin"
+      "lee-sieun",
+      "oh-yubin",
+      "park-damhee",
+      "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "마마무", "covered_member": "화사" },
+      { "member_id": "oh-yubin", "covered_group": "마마무", "covered_member": "솔라" },
+      { "member_id": "park-damhee", "covered_group": "마마무", "covered_member": "휘인" },
+      { "member_id": "ha-seyoung", "covered_group": "마마무", "covered_member": "문별" }
     ],
     "published_date": "2019-11-27",
     "content_type": "video",
     "view_count": 14985763,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "V-cI-HnD1pI",
@@ -108531,13 +108556,31 @@
       "마마무"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin"
+      "lee-sieun",
+      "oh-yubin",
+      "park-damhee",
+      "ha-seyoung"
     ],
+    "sponsors":[
+      "ITDANCER"
+    ],
+    "support":[
+      "BESTAR"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "마마무", "covered_member": "화사" },
+      { "member_id": "oh-yubin", "covered_group": "마마무", "covered_member": "솔라" },
+      { "member_id": "park-damhee", "covered_group": "마마무", "covered_member": "휘인" },
+      { "member_id": "ha-seyoung", "covered_group": "마마무", "covered_member": "문별" }
+    ],
+    "song_group":"mamamoo-hip-2019",
     "published_date": "2019-11-26",
     "content_type": "video",
     "view_count": 1348947,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "z1G5FvpUf_8",
