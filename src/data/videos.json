@@ -77053,19 +77053,42 @@
     "title": "[AB야 군대가자] Pink Venom, Rollin', TOMBOY | 커버댄스 Dance Cover | 공군 제5공중기동비행단",
     "covered_group": [
       "BLACKPINK",
+      "브레이브걸스",
       "i-dle"
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
-      "lee-seohyeon"
+      "kwon-soyoung",
+      "lee-seohyeon",
+      "yoon-taegyeong"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-dagun", "covered_group": "BLACKPINK", "covered_member": "제니" },
+      { "member_id": "lee-seohyeon", "covered_group": "BLACKPINK", "covered_member": "리사" },
+      { "member_id": "kwon-soyoung", "covered_group": "BLACKPINK", "covered_member": "지수" },
+      { "member_id": "park-sunyoung", "covered_group": "BLACKPINK", "covered_member": "로제" },
+      { "member_id": "lee-seohyeon", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "yoon-taegyeong", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "hwang-dagun", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "kwon-soyoung", "covered_group": "브레이브걸스", "covered_member": "유나" },
+      { "member_id": "park-sunyoung", "covered_group": "i-dle", "covered_member": "우기" },
+      { "member_id": "yoon-taegyeong", "covered_group": "i-dle", "covered_member": "미연" },
+      { "member_id": "hwang-dagun", "covered_group": "i-dle", "covered_member": "민니" },
+      { "member_id": "kwon-soyoung", "covered_group": "i-dle", "covered_member": "슈화" },
+      { "member_id": "lee-seohyeon", "covered_group": "i-dle", "covered_member": "소연" }
+    ],
+    "song_group":[
+      "blackpink-pinkvenom-2022",
+      "bravegirls-rollin-2022",
+      "idle-tomboy-2022"
     ],
     "published_date": "2022-12-16",
     "content_type": "video",
     "view_count": 139197,
-    "content_series": []
+    "content_series": [
+      "AB야 군대가자"
+    ]
   },
   {
     "youtube_id": "5kDS7J-4gKI",
@@ -80064,16 +80087,25 @@
       "브레이브걸스"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "oh-yubin",
       "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun"
+    ],
+    "support":[
+      "한국도로공사 대구경북본부"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "yun-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "ha-seyoung", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "lee-gaeun", "covered_group": "브레이브걸스", "covered_member": "유나" }
     ],
     "published_date": "2022-09-09",
     "content_type": "video",
     "view_count": 156356,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -92584,12 +92616,23 @@
       "브레이브걸스"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "lee-sieun",
+      "song-haeun",
+      "ha-seyoung",
+      "park-damhee"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "song-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "ha-seyoung", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "park-damhee", "covered_group": "브레이브걸스", "covered_member": "유나" }
     ],
     "published_date": "2021-09-21",
     "content_type": "video",
     "view_count": 455578,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "W0eNEAQVzfU",
@@ -94660,13 +94703,22 @@
       "브레이브걸스"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "lee-sieun",
+      "song-haeun",
+      "ha-seyoung",
+      "park-damhee"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "song-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "ha-seyoung", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "park-damhee", "covered_group": "브레이브걸스", "covered_member": "유나" }
     ],
     "published_date": "2021-07-08",
     "content_type": "video",
     "view_count": 258168,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -94676,12 +94728,25 @@
       "브레이브걸스"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "lee-sieun",
+      "song-haeun",
+      "ha-seyoung",
+      "park-damhee"
     ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "song-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "ha-seyoung", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "park-damhee", "covered_group": "브레이브걸스", "covered_member": "유나" }
+    ],
+    "song_group":"bravegirls-chimatbaram-2021",
     "published_date": "2021-07-07",
     "content_type": "video",
     "view_count": 341389,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "N-XnuAdeyxk",
@@ -95698,23 +95763,25 @@
       "브레이브걸스"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "kim-suhwan",
-      "park-soyoung",
       "kwon-soyoung",
+      "ha-seyoung",
       "lee-gaeun",
-      "ha-seyoung"
+      "kim-suhwan",
+      "kim-taehwan",
+      "seo-jaemin"
     ],
     "published_date": "2021-06-18",
     "content_type": "video",
     "view_count": 194999,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "-IUgbKuEovM",
     "title": "[방구석 여기서요?] NCT DREAM - 맛 (Hot Sauce) | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -97504,11 +97571,20 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "yun-haeun",
       "hwang-dagun",
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin"
     ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "브레이브걸스", "covered_member": "하윤" },
+      { "member_id": "yun-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "kim-hayeon", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "hwang-dagun", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "lee-gaeun", "covered_group": "브레이브걸스", "covered_member": "유나" }
+    ],
+    "song_group":"brabegirls-rollin-2021",
     "published_date": "2021-04-10",
     "content_type": "video",
     "view_count": 393505,
@@ -97751,16 +97827,25 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "yun-haeun",
       "hwang-dagun",
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin"
     ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "브레이브걸스", "covered_member": "하윤" },
+      { "member_id": "yun-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "kim-hayeon", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "hwang-dagun", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "lee-gaeun", "covered_group": "브레이브걸스", "covered_member": "유나" }
+    ],
+    "song_group":"brabegirls-rollin-2021",
     "published_date": "2021-03-31",
     "content_type": "video",
     "view_count": 283127,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -97771,15 +97856,29 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "yun-haeun",
       "hwang-dagun",
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin"
     ],
+    "sponsors":[
+      "러블랑"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "브레이브걸스", "covered_member": "하윤" },
+      { "member_id": "yun-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "kim-hayeon", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "hwang-dagun", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "lee-gaeun", "covered_group": "브레이브걸스", "covered_member": "유나" }
+    ],
+    "song_group":"brabegirls-rollin-2021",
     "published_date": "2021-03-30",
     "content_type": "video",
     "view_count": 943133,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "8IdMxrU0axw",
@@ -98569,16 +98668,27 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "yun-haeun",
       "hwang-dagun",
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin"
     ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "브레이브걸스", "covered_member": "하윤" },
+      { "member_id": "yun-haeun", "covered_group": "브레이브걸스", "covered_member": "유정" },
+      { "member_id": "kim-hayeon", "covered_group": "브레이브걸스", "covered_member": "민영" },
+      { "member_id": "hwang-dagun", "covered_group": "브레이브걸스", "covered_member": "은지" },
+      { "member_id": "lee-gaeun", "covered_group": "브레이브걸스", "covered_member": "유나" }
+    ],
+    "song_group":"brabegirls-rollin-2021",
     "published_date": "2021-03-14",
     "content_type": "video",
     "view_count": 4974390,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S05"
     ]
   },
   {
@@ -122290,13 +122400,7 @@
     "covered_group": [
       "브레이브걸스"
     ],
-    "tagged_members": [
-      "jiyeon",
-      "jihyun",
-      "hwang-dagun",
-      "kim-dabin",
-      "ahn-sunghee"
-    ],
+    "tagged_members": [],
     "published_date": "2017-10-12",
     "content_type": "video",
     "view_count": 67162,
