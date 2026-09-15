@@ -4535,27 +4535,30 @@
     }
   },
   {
-    "id": "suvin",
-    "name": "수빈",
-    "name_en": "Suvin",
+    "id": "kim-suvin",
+    "name": "김수빈",
+    "name_en": "Suvin Kim",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
+    "unit": [
+      "AB PROJECT"
+    ],
     "unit_periods": [],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "2018 시절 정도 멤버",
     "sns": {
       "instagram": [
         "suuvinee"
       ],
       "youtube": [
-        "https://www.youtube.com/channel/UC2OpscGW7Kzi_JoFury2Xaw"
+        "https://www.youtube.com/channel/UC2OpscGW7Kzi_JoFury2Xaw",
+        "https://www.youtube.com/channel/UCVJ61fOPSxwyyGTjSQ8_pNw"
       ]
     }
   },
