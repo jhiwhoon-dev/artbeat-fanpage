@@ -5,10 +5,12 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "아트비트 본편"
+    ],
     "tagged_members": [
       "oh-yubin",
-      "lee-yoobin"
+      "yun-haeun"
     ],
     "ads": [],
     "sponsors": [],
@@ -23,8 +25,7 @@
     "youtube_id": "cx1Bi2OF06c",
     "title": "#태현 #정서 'NCT 127 - Blingy' Dance Cover #Taehyun #Jeongseo",
     "covered_group": [
-      "NCT",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "content_series": [],
     "tagged_members": [
@@ -106132,7 +106133,9 @@
     "published_date": "2020-06-20",
     "content_type": "video",
     "view_count": 865319,
-    "content_series": []
+    "content_series": [
+      "챌린지"
+    ]
   },
   {
     "youtube_id": "J90_09HELwU",
