@@ -236,11 +236,14 @@ async function main() {
     if (prev) {
       updatedCount++;
 
-      // 기존 영상이라도 covered_group/content_series/tagged_members가 "비어있을 때만" 자동 추천으로 채움.
-      // 이미 뭔가 채워져 있으면(직접 태깅했든, 예전에 추천됐든) 절대 안 건드림.
-      const hadEmptyGroup = !prev.covered_group || prev.covered_group.length === 0;
-      const hadEmptySeries = !prev.content_series || prev.content_series.length === 0;
-      const hadEmptyMembers = !prev.tagged_members || prev.tagged_members.length === 0;
+      // 기존 영상이라도 covered_group/content_series/tagged_members 필드가 "아예 없을 때만" 자동 추천으로 채움.
+      // 주의: "필드가 없음(undefined)"과 "필드는 있는데 빈 배열([])"을 구분함 —
+      //   - 필드 자체가 없으면 "한 번도 검토 안 된 것"으로 보고 자동 추천을 실행함.
+      //   - 필드가 []로 명시되어 있으면 "사람이 직접 확인하고 일부러 비워둔 것"으로 보고 절대 안 건드림.
+      // (예전엔 길이가 0이면 무조건 다시 추천해서, 사람이 일부러 비워도 다음 sync 때 자동으로 다시 채워지는 버그가 있었음)
+      const hadEmptyGroup = prev.covered_group === undefined;
+      const hadEmptySeries = prev.content_series === undefined;
+      const hadEmptyMembers = prev.tagged_members === undefined;
       const coveredGroup = hadEmptyGroup ? suggestTags(text, groupMatchers) : prev.covered_group;
       const series = hadEmptySeries ? suggestContentSeries(item.snippet.title) : prev.content_series;
       const taggedMembers = hadEmptyMembers ? suggestTaggedMembers(text) : prev.tagged_members;
