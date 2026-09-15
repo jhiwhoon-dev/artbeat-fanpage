@@ -80433,13 +80433,19 @@
       "나연"
     ],
     "tagged_members": [
+      "lee-gaeun",
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
+      "hwang-dagun",
       "yoon-taegyeong"
     ],
     "published_date": "2022-08-24",
     "content_type": "video",
     "view_count": 61830,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -81775,11 +81781,18 @@
       "나연"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
+      "hwang-dagun",
       "yoon-taegyeong"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "oh-yubin", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "ha-seyoung", "covered_group": "나연", "covered_member": "나연" }
     ],
     "published_date": "2022-07-31",
     "content_type": "video",
@@ -82174,10 +82187,18 @@
       "나연"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
+      "hwang-dagun",
+      "yoon-taegyeong"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "oh-yubin", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "ha-seyoung", "covered_group": "나연", "covered_member": "나연" }
     ],
     "published_date": "2022-07-19",
     "content_type": "video",
@@ -82460,15 +82481,29 @@
       "나연"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
+      "hwang-dagun",
+      "yoon-taegyeong"
+    ],
+    "sponsors":[
+      "발넷이야"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "oh-yubin", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "ha-seyoung", "covered_group": "나연", "covered_member": "나연" }
     ],
     "published_date": "2022-07-16",
     "content_type": "video",
     "view_count": 204073,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "xtQwfApgBW0",
@@ -82786,16 +82821,25 @@
       "나연"
     ],
     "tagged_members": [
-      "hwang-dagun",
       "lee-gaeun",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
     ],
+    "special_dancers":[
+      "hwang-dagun",
+      "yoon-taegyeong"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "oh-yubin", "covered_group": "나연", "covered_member": "나연" },
+      { "member_id": "ha-seyoung", "covered_group": "나연", "covered_member": "나연" }
+    ],
+    "song_group":"nayeon-pop-2022",
     "published_date": "2022-07-09",
     "content_type": "video",
     "view_count": 719026,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
