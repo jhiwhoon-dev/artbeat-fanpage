@@ -66341,25 +66341,30 @@
   {
     "youtube_id": "lAXTAaQiTnQ",
     "title": "[방구석 여기서요?] 지민 Jimin of BTS - Like Crazy | 커버댄스 Dance Cover",
-    "covered_group": [
-      "방탄소년단",
-      "지민"
-    ],
     "tagged_members": [
       "kim-suhwan",
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers":[
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
       "lee-gaeun",
-      "kim-hyerim",
       "jeong-gyeolgyeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "kim-suhwan", "covered_group": "지민", "covered_member": "지민" },
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group":"jinim-likecrazy-2023",
     "published_date": "2023-07-20",
     "content_type": "video",
     "view_count": 912827,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "Za_mq8pNCdc",
@@ -69410,13 +69415,18 @@
       "kim-suhwan",
       "kim-mingi"
     ],
-    "special_dancers": [
+    "special_dancers":[
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
       "kim-soyeon",
       "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "kim-suhwan", "covered_group": "지민", "covered_member": "지민" },
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group":"jinim-likecrazy-2023",
     "published_date": "2023-05-22",
     "content_type": "video",
     "view_count": 172671,
@@ -70814,26 +70824,29 @@
   {
     "youtube_id": "9moQ-SLhhJo",
     "title": "지민 Jimin of BTS - Like Crazy | 커버댄스 Dance Cover | 연습실 Practice ver.",
-    "covered_group": [
-      "방탄소년단",
-      "지민"
-    ],
     "tagged_members": [
       "kim-suhwan",
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers":[
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
       "lee-gaeun",
-      "kim-hyerim",
       "jeong-gyeolgyeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "kim-suhwan", "covered_group": "지민", "covered_member": "지민" },
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group":"jinim-likecrazy-2023",
     "published_date": "2023-05-01",
     "content_type": "video",
     "view_count": 193878,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -70854,25 +70867,30 @@
   {
     "youtube_id": "A0EIA-ocvCk",
     "title": "[여기서요?] 지민 Jimin of BTS - Like Crazy | 커버댄스 Dance Cover | @광화문",
-    "covered_group": [
-      "방탄소년단",
-      "지민"
-    ],
     "tagged_members": [
       "kim-suhwan",
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers":[
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
       "lee-gaeun",
-      "kim-hyerim",
       "jeong-gyeolgyeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "kim-suhwan", "covered_group": "지민", "covered_member": "지민" },
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group":"jinim-likecrazy-2023",
     "published_date": "2023-04-30",
     "content_type": "video",
     "view_count": 224970,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "H4DiFZB3Ytk",
@@ -71704,20 +71722,27 @@
     ],
     "tagged_members": [
       "kim-suhwan",
-      "kim-mingi",
+      "kim-mingi"
+    ],
+    "special_dancers":[
       "kim-youngjin",
       "chae-yunsu",
       "kang-taehyun",
       "lee-gaeun",
-      "kim-hyerim",
       "jeong-gyeolgyeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "kim-hyerim"
     ],
+    "role_mapping":[
+      { "member_id": "kim-suhwan", "covered_group": "지민", "covered_member": "지민" },
+      { "member_id": "kim-mingi", "covered_group": "지민", "covered_member": "지민" }
+    ],
+    "song_group":"jinim-likecrazy-2023",
     "published_date": "2023-04-18",
     "content_type": "video",
     "view_count": 915161,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -73407,9 +73432,7 @@
   {
     "youtube_id": "_CSjZif3YMs",
     "title": "[방구석 여기서요? - THE BATTLE] ROUND 1 & 2",
-    "covered_group": [
-      "방탄소년단"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "lim-donghun",
       "kwon-dohyun",
@@ -80610,22 +80633,36 @@
     "youtube_id": "YlWmAOpj6vw",
     "title": "[AB | 방구석 여기서요?] 싸이 PSY - That That (feat. SUGA of BTS) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
-      "park-sunyoung",
-      "hwang-dagun",
-      "yun-haeun",
-      "lee-seohyeon"
+      "lee-sieun",
+      "kwon-dohyun"
     ],
+    "special_dancers":[
+      "hwang-dagun",
+      "park-damhee",
+      "lee-seohyeon",
+      "park-sunyoung",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "kwon-dohyun", "covered_group": "SUGA", "covered_member": "SUGA" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-08-20",
     "content_type": "video",
     "view_count": 1012919,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "2YTpLNVm1pM",
@@ -81805,19 +81842,34 @@
     "youtube_id": "K2VR9fpE2YI",
     "title": "[A2be  | 방구석 여기서요?] 싸이 PSY - That That  | 커버댄스 Dance Cover",
     "covered_group": [
-      "싸이"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "kim-hyoil",
       "seo-danbi",
       "jeong-hyungwoo",
-      "hyeokjin",
+      "hyeokjin"
+    ],
+    "special_dancers":[
+      "kim-hyoil",
+      "nayoung",
+      "jang-sein",
       "ji-ayeong",
       "son-wonye",
+      "eunseo",
+      "kim-leeyoung",
       "park-jaehee",
       "cho-woohyeong",
-      "chae-yunsu"
+      "chae-yunsu",
+      "kim-junseok"
     ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "hyeokjin", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "jeong-hyungwoo", "covered_group": "SUGA", "covered_member": "SUGA" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-07-31",
     "content_type": "video",
     "view_count": 342712,
@@ -82665,22 +82717,37 @@
     "youtube_id": "-jYejv8sG9s",
     "title": "[AB 직캠] 싸이 PSY - That That (feat. SUGA of BTS) | 커버댄스 Dance Cover @‘2022 동성로핫축제",
     "covered_group": [
-      "방탄소년단"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
-      "park-sunyoung",
-      "hwang-dagun",
-      "yun-haeun",
-      "lee-seohyeon"
+      "lee-sieun",
+      "kwon-dohyun"
     ],
+    "special_dancers":[
+      "hwang-dagun",
+      "park-damhee",
+      "lee-seohyeon",
+      "park-sunyoung",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "kim-suhwan",
+      "kim-taehwan",
+      "kim-hojun"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "kwon-dohyun", "covered_group": "SUGA", "covered_member": "SUGA" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-07-10",
     "content_type": "video",
     "view_count": 207555,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "o2DvkHg1qaw",
@@ -83415,24 +83482,33 @@
     "youtube_id": "FSUhHaEewko",
     "title": "[AB VLOG] 싸이 PSY - That That | 전지적 시은 & 도현 시점 | SiEun & DoHyun VLOG",
     "covered_group": [
-      "싸이"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "kwon-dohyun"
+      "lee-sieun",
+      "kwon-dohyun",
+      "lee-gaeun",
+      "hwang-dagun",
+      "park-damhee",
+      "lee-seohyeon",
+      "yoon-taegyeong",
+      "yun-haeun",      
+      "kim-suhwan",
+      "kim-taehwan",
+      "jeon-hyeonguk"
     ],
     "published_date": "2022-06-19",
     "content_type": "video",
     "view_count": 84436,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
     "youtube_id": "DlNfvQRbfOI",
     "title": "TXT - Good Boy Gone Bad (Girls ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
@@ -83453,8 +83529,6 @@
     "youtube_id": "tzargp5OwKQ",
     "title": "[AB] TXT - Good Boy Gone Bad (Girls ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
@@ -83732,19 +83806,39 @@
     "youtube_id": "xtKsoJUVkKI",
     "title": "[A2be 여기서요?] 싸이 PSY - That That (feat. SUGA of BTS) | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "방탄소년단"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "chae-yunsu",
-      "cho-woohyeong",
-      "ji-ayeong",
-      "jang-sein"
+      "seo-danbi",
+      "jeong-hyungwoo",
+      "hyeokjin"
     ],
+    "special_dancers":[
+      "kim-hyoil",
+      "nayoung",
+      "jang-sein",
+      "ji-ayeong",
+      "son-wonye",
+      "eunseo",
+      "kim-leeyoung",
+      "park-jaehee",
+      "cho-woohyeong",
+      "chae-yunsu",
+      "kim-junseok"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "hyeokjin", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "jeong-hyungwoo", "covered_group": "SUGA", "covered_member": "SUGA" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-06-11",
     "content_type": "video",
     "view_count": 859777,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -84239,46 +84333,74 @@
     "youtube_id": "s9dekRZoNtg",
     "title": "[AB 여기서요?] 싸이 PSY - That That (feat. SUGA of BTS) | 커버댄스 Dance Cover @20220521 Busking",
     "covered_group": [
-      "방탄소년단"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
-      "kim-taehwan",
-      "kim-suhwan",
-      "hwang-dagun",
-      "lee-gaeun",
-      "yun-haeun",
-      "lee-seohyeon"
+      "lee-sieun",
+      "kwon-dohyun"
     ],
+    "special_dancers":[
+      "lee-gaeun",
+      "hwang-dagun",
+      "park-damhee",
+      "lee-seohyeon",
+      "yoon-taegyeong",
+      "yun-haeun",      
+      "kim-suhwan",
+      "kim-taehwan",
+      "jeon-hyeonguk",
+      "kim-junseok"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" },
+      { "member_id": "kwon-dohyun", "covered_group": "SUGA", "covered_member": "SUGA" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-06-01",
     "content_type": "video",
     "view_count": 2469286,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
     "youtube_id": "ZGXf-7R88n0",
     "title": "[AB x 청양군] 싸이 PSY - That That (feat. SUGA of BTS) | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단"
+      "싸이",
+      "SUGA"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
-      "kim-taehwan",
-      "kim-suhwan",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "lee-sieun"
     ],
+    "special_dancers":[
+      "lee-gaeun",
+      "hwang-dagun",
+      "park-damhee",
+      "ahn-yoojin",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "kwon-dohyun",
+      "kim-suhwan",
+      "kim-taehwan",
+      "jeon-hyeonguk"
+    ],
+    "support":[
+      "청양군"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "싸이", "covered_member": "싸이" }
+    ],
+    "song_group":"psy-thatthat-2022",
     "published_date": "2022-06-01",
     "content_type": "video",
     "view_count": 473899,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "PjqJzhaf5SU",
@@ -119623,6 +119745,16 @@
       "park-soyoung",
       "lee-sieun"
     ],
+    "role_mapping":[
+      { "member_id": "kim-eunbin", "covered_group": "방탄소년단", "covered_member": "지민" },
+      { "member_id": "yunsu", "covered_group": "방탄소년단", "covered_member": "진" },
+      { "member_id": "park-damhee", "covered_group": "방탄소년단", "covered_member": "RM" },
+      { "member_id": "park-sunyoung", "covered_group": "방탄소년단", "covered_member": "뷔" },
+      { "member_id": "lee-gaeun", "covered_group": "방탄소년단", "covered_member": "슈가" },
+      { "member_id": "park-soyoung", "covered_group": "방탄소년단", "covered_member": "정국" },
+      { "member_id": "lee-sieun", "covered_group": "방탄소년단", "covered_member": "제이홉" }
+    ],
+    "song_group":"bts-gogo-2018",
     "published_date": "2018-01-16",
     "content_type": "video",
     "view_count": 719613,
