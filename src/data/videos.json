@@ -109110,18 +109110,26 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
+      "ahn-yoojin",
+      "her-naeun",
       "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kim-minjin"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "ahn-yoojin", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "her-naeun", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "kwon-soyoung", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-minjin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2020-02-19",
     "content_type": "video",
     "view_count": 67263,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -109132,17 +109140,27 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
+      "ahn-yoojin",
+      "her-naeun",
       "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kim-minjin"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "ahn-yoojin", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "her-naeun", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "kwon-soyoung", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-minjin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2020-02-18",
     "content_type": "video",
     "view_count": 638706,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "1MkbPdmMexk",
@@ -109152,17 +109170,30 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
+      "ahn-yoojin",
+      "her-naeun",
       "kwon-soyoung",
       "lee-gaeun",
-      "ahn-yoojin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "kim-minjin"
+    ],
+    "support":[
+      "ABLY"
+    ],
+    "role_mapping":[
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "ahn-yoojin", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "her-naeun", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "kwon-soyoung", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-minjin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2020-02-17",
     "content_type": "video",
     "view_count": 208474,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "VvAiUSVZ-6k",
@@ -112291,16 +112322,26 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "her-naeun",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-eunbin", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "yun-haeun", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "yun-bogyeong", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "suvin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2019-10-11",
     "content_type": "video",
     "view_count": 1895932,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "bZHBnUOZx3Q",
@@ -114054,17 +114095,25 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "her-naeun",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-eunbin", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "yun-haeun", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "yun-bogyeong", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "suvin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2019-08-08",
     "content_type": "video",
     "view_count": 844266,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -114096,16 +114145,27 @@
     ],
     "tagged_members": [
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
+      "kwon-soyoung",
+      "her-naeun",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "kim-eunbin", "covered_group": "여자친구", "covered_member": "소원" },
+      { "member_id": "yun-haeun", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "yun-bogyeong", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "suvin", "covered_group": "여자친구", "covered_member": "엄지" }
     ],
     "published_date": "2019-08-06",
     "content_type": "video",
     "view_count": 277933,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "4ugK5w9AIOM",
@@ -118044,15 +118104,26 @@
       "여자친구"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "lee-gaeun",
-      "yun-haeun"
+      "park-sunyoung",
+      "kim-eunbin",
+      "yun-haeun",
+      "yun-bogyeong",
+      "suvin"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "kim-eunbin", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "yun-haeun", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "yun-bogyeong", "covered_group": "여자친구", "covered_member": "엄지" },
+      { "member_id": "suvin", "covered_group": "여자친구", "covered_member": "소원" }
     ],
     "published_date": "2019-01-31",
     "content_type": "video",
     "view_count": 1214483,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -118062,14 +118133,28 @@
       "여자친구"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "lee-gaeun",
-      "yun-haeun"
+      "park-sunyoung",
+      "kim-eunbin",
+      "yun-haeun",
+      "yun-bogyeong",
+      "suvin"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "여자친구", "covered_member": "유주" },
+      { "member_id": "park-sunyoung", "covered_group": "여자친구", "covered_member": "신비" },
+      { "member_id": "kim-eunbin", "covered_group": "여자친구", "covered_member": "은하" },
+      { "member_id": "yun-haeun", "covered_group": "여자친구", "covered_member": "예린" },
+      { "member_id": "yun-bogyeong", "covered_group": "여자친구", "covered_member": "엄지" },
+      { "member_id": "suvin", "covered_group": "여자친구", "covered_member": "소원" }
     ],
     "published_date": "2019-01-30",
     "content_type": "video",
     "view_count": 307055,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "jRlKb4Ykig4",
