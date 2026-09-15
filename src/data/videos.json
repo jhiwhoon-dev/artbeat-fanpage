@@ -114335,13 +114335,21 @@
     "youtube_id": "j5um0PagMbo",
     "title": "[AB] 모모랜드와 함께 한 I'm So Hot 리액션 | MOMOLAND - I'm So Hot dance cover with MOMOLAND 'Reaction'",
     "covered_group": [
-      "청하"
+      "모모랜드"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "yun-jihong",
+      "lee-sieun",
+      "seo-jaemin",
+      "kim-eunbin"
+    ],
     "published_date": "2019-04-07",
     "content_type": "video",
     "view_count": 334835,
-    "content_series": []
+    "content_series": [
+      "비디오 리액션::2019y"
+    ]
   },
   {
     "youtube_id": "qeneBWuqJz8",
@@ -114466,17 +114474,29 @@
       "모모랜드"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-sieun",
       "lee-gaeun",
-      "yun-haeun"
+      "yun-haeun",
+      "hwang-dagun",
+      "her-naeun",
+      "kwon-soyoung",
+      "kim-eunbin"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "모모랜드", "covered_member": "주이" },
+      { "member_id": "lee-gaeun", "covered_group": "모모랜드", "covered_member": "연우" },
+      { "member_id": "yun-haeun", "covered_group": "모모랜드", "covered_member": "낸시" },
+      { "member_id": "hwang-dagun", "covered_group": "모모랜드", "covered_member": "제인" },
+      { "member_id": "her-naeun", "covered_group": "모모랜드", "covered_member": "아인" },
+      { "member_id": "kwon-soyoung", "covered_group": "모모랜드", "covered_member": "혜빈" },
+      { "member_id": "kim-eunbin", "covered_group": "모모랜드", "covered_member": "나연" }
     ],
     "published_date": "2019-04-02",
     "content_type": "video",
     "view_count": 226117,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -114500,17 +114520,29 @@
       "모모랜드"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-sieun",
       "lee-gaeun",
-      "yun-haeun"
+      "yun-haeun",
+      "hwang-dagun",
+      "her-naeun",
+      "kwon-soyoung",
+      "kim-eunbin"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "모모랜드", "covered_member": "주이" },
+      { "member_id": "lee-gaeun", "covered_group": "모모랜드", "covered_member": "연우" },
+      { "member_id": "yun-haeun", "covered_group": "모모랜드", "covered_member": "낸시" },
+      { "member_id": "hwang-dagun", "covered_group": "모모랜드", "covered_member": "제인" },
+      { "member_id": "her-naeun", "covered_group": "모모랜드", "covered_member": "아인" },
+      { "member_id": "kwon-soyoung", "covered_group": "모모랜드", "covered_member": "혜빈" },
+      { "member_id": "kim-eunbin", "covered_group": "모모랜드", "covered_member": "나연" }
     ],
     "published_date": "2019-04-01",
     "content_type": "video",
     "view_count": 2804930,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -114520,16 +114552,34 @@
       "모모랜드"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
+      "lee-sieun",
       "lee-gaeun",
-      "yun-haeun"
+      "yun-haeun",
+      "hwang-dagun",
+      "her-naeun",
+      "kwon-soyoung",
+      "kim-eunbin"
     ],
+    "support":[
+      "아이비키즈스포츠"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "모모랜드", "covered_member": "주이" },
+      { "member_id": "lee-gaeun", "covered_group": "모모랜드", "covered_member": "연우" },
+      { "member_id": "yun-haeun", "covered_group": "모모랜드", "covered_member": "낸시" },
+      { "member_id": "hwang-dagun", "covered_group": "모모랜드", "covered_member": "제인" },
+      { "member_id": "her-naeun", "covered_group": "모모랜드", "covered_member": "아인" },
+      { "member_id": "kwon-soyoung", "covered_group": "모모랜드", "covered_member": "혜빈" },
+      { "member_id": "kim-eunbin", "covered_group": "모모랜드", "covered_member": "나연" }
+    ],
+    "song_group":"momoland-imsohot-2019",
     "published_date": "2019-03-31",
     "content_type": "video",
     "view_count": 475749,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "IrezhCc7M4k",
