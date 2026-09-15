@@ -41773,24 +41773,38 @@
       "tripleS"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "oh-yubin",
-      "kang-yejin",
-      "ji-ayeong",
       "jang-sein",
-      "jeong-gyeolgyeong",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
+      "kim-chan",
+      "kang-yejin",
+      "kim-hyerim",
+      "ji-ayeong",
+      "aoki-yuka",
       "won-seoa",
-      "lee-yejin"
+      "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-haeun", "covered_group": "tripleS", "covered_member": "공유빈" },
+      { "member_id": "jang-sein", "covered_group": "tripleS", "covered_member": "김유연" },
+      { "member_id": "oh-yubin", "covered_group": "tripleS", "covered_member": "박소현" },
+      { "member_id": "ha-seyoung", "covered_group": "tripleS", "covered_member": "카에데" },
+      { "member_id": "lee-gaeun", "covered_group": "tripleS", "covered_member": "정하연" },
+      { "member_id": "kim-chan", "covered_group": "tripleS", "covered_member": "정혜린" },
+      { "member_id": "kang-yejin", "covered_group": "tripleS", "covered_member": "김채연" },
+      { "member_id": "kim-hyerim", "covered_group": "tripleS", "covered_member": "니엔" },
+      { "member_id": "ji-ayeong", "covered_group": "tripleS", "covered_member": "서아" },
+      { "member_id": "aoki-yuka", "covered_group": "tripleS", "covered_member": "박시온" },
+      { "member_id": "won-seoa", "covered_group": "tripleS", "covered_member": "설린" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "tripleS", "covered_member": "마유" }
     ],
     "published_date": "2025-02-16",
     "content_type": "video",
     "view_count": 107207,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -41800,25 +41814,38 @@
       "tripleS"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "lee-gaeun",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung",
-      "oh-yubin",
-      "kang-yejin",
-      "ji-ayeong",
       "jang-sein",
-      "jeong-gyeolgyeong",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
+      "kim-chan",
+      "kang-yejin",
+      "kim-hyerim",
+      "ji-ayeong",
+      "aoki-yuka",
       "won-seoa",
-      "lee-yejin"
+      "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      { "member_id": "yun-haeun", "covered_group": "tripleS", "covered_member": "공유빈" },
+      { "member_id": "jang-sein", "covered_group": "tripleS", "covered_member": "김유연" },
+      { "member_id": "oh-yubin", "covered_group": "tripleS", "covered_member": "박소현" },
+      { "member_id": "ha-seyoung", "covered_group": "tripleS", "covered_member": "카에데" },
+      { "member_id": "lee-gaeun", "covered_group": "tripleS", "covered_member": "정하연" },
+      { "member_id": "kim-chan", "covered_group": "tripleS", "covered_member": "정혜린" },
+      { "member_id": "kang-yejin", "covered_group": "tripleS", "covered_member": "김채연" },
+      { "member_id": "kim-hyerim", "covered_group": "tripleS", "covered_member": "니엔" },
+      { "member_id": "ji-ayeong", "covered_group": "tripleS", "covered_member": "서아" },
+      { "member_id": "aoki-yuka", "covered_group": "tripleS", "covered_member": "박시온" },
+      { "member_id": "won-seoa", "covered_group": "tripleS", "covered_member": "설린" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "tripleS", "covered_member": "마유" }
     ],
     "published_date": "2025-02-16",
     "content_type": "video",
     "view_count": 925296,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -44097,7 +44124,6 @@
       "oh-yubin",
       "ha-seyoung",
       "lee-gaeun",
-      "kim-hayeon",
       "kim-chan",
       "kang-yejin",
       "kim-hyerim",
@@ -44106,6 +44132,21 @@
       "won-seoa",
       "jeong-gyeolgyeong"
     ],
+    "role_mapping": [
+      { "member_id": "yun-haeun", "covered_group": "tripleS", "covered_member": "공유빈" },
+      { "member_id": "jang-sein", "covered_group": "tripleS", "covered_member": "김유연" },
+      { "member_id": "oh-yubin", "covered_group": "tripleS", "covered_member": "박소현" },
+      { "member_id": "ha-seyoung", "covered_group": "tripleS", "covered_member": "카에데" },
+      { "member_id": "lee-gaeun", "covered_group": "tripleS", "covered_member": "정하연" },
+      { "member_id": "kim-chan", "covered_group": "tripleS", "covered_member": "정혜린" },
+      { "member_id": "kang-yejin", "covered_group": "tripleS", "covered_member": "김채연" },
+      { "member_id": "kim-hyerim", "covered_group": "tripleS", "covered_member": "니엔" },
+      { "member_id": "ji-ayeong", "covered_group": "tripleS", "covered_member": "서아" },
+      { "member_id": "aoki-yuka", "covered_group": "tripleS", "covered_member": "박시온" },
+      { "member_id": "won-seoa", "covered_group": "tripleS", "covered_member": "설린" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "tripleS", "covered_member": "마유" }
+    ],
+    "song_group":"triples-girlsneveredie-2025",
     "published_date": "2025-01-18",
     "content_type": "video",
     "view_count": 207644,
