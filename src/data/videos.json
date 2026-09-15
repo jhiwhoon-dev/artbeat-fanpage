@@ -88616,22 +88616,36 @@
       "미쓰에이"
     ],
     "tagged_members": [
-      "lee-gaeun",
       "yun-haeun",
+      "lee-gaeun",
       "kim-hyerim",
       "ha-seyoung"
     ],
+    "support":[
+      "GoPro"
+    ],
+    "sponsors":[
+      "한밭대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "yun-haeun", "covered_group": "미쓰에이", "covered_member": "수지" },
+      { "member_id": "lee-gaeun", "covered_group": "미쓰에이", "covered_member": "페이" },
+      { "member_id": "kim-hyerim", "covered_group": "미쓰에이", "covered_member": "지아" },
+      { "member_id": "ha-seyoung", "covered_group": "미쓰에이", "covered_member": "민" }
+    ],
+    "song_group":"missa-hush-2021",
     "published_date": "2021-12-16",
     "content_type": "video",
     "view_count": 1693661,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "EJypgQpXIWM",
     "title": "[A2be | 방구석 여기서요?] NCT U - BOSS | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "hwang-jiho",
