@@ -104400,17 +104400,29 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-woonggyeom",
+      "kim-chanhee"
     ],
+    "special_dancers":[
+      "jin-hyunwoo",
+      "kim-jeongseo",
+      "lee-seohyeon",
+      "lee-gaeun",
+      "hwang-dagun",
+      "ahn-yoojin"
+    ],
+    "support":[],
+    "role_mapping":[
+      { "member_id": "kim-hojun", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-woonggyeom", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-chanhee", "covered_group": "백현", "covered_member": "백현" }
+    ],
+    "song_group":"baekhyun-candy-2020",
     "published_date": "2020-08-08",
     "content_type": "video",
     "view_count": 423920,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -104439,16 +104451,33 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-woonggyeom",
+      "kim-chanhee"
     ],
+    "special_dancers":[
+      "jin-hyunwoo",
+      "kim-jeongseo",
+      "lee-seohyeon",
+      "lee-gaeun",
+      "hwang-dagun",
+      "ahn-yoojin"
+    ],
+    "support":[
+      "퍼스트스킬 스포츠"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hojun", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-woonggyeom", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-chanhee", "covered_group": "백현", "covered_member": "백현" }
+    ],
+    "song_group":"baekhyun-candy-2020",
     "published_date": "2020-08-06",
     "content_type": "video",
     "view_count": 419151,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Qeoi7K-hfmQ",
@@ -104970,16 +104999,32 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-woonggyeom",
+      "kim-chanhee"
     ],
+    "special_dancers":[
+      "jin-hyunwoo",
+      "kim-jeongseo",
+      "lee-seohyeon",
+      "lee-gaeun",
+      "hwang-dagun",
+      "ahn-yoojin"
+    ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hojun", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-woonggyeom", "covered_group": "백현", "covered_member": "백현" },
+      { "member_id": "kim-chanhee", "covered_group": "백현", "covered_member": "백현" }
+    ],
+    "song_group":"baekhyun-candy-2020",
     "published_date": "2020-07-18",
     "content_type": "video",
     "view_count": 1490329,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "LcJq_UNxAgo",
@@ -106115,20 +106160,26 @@
       "백현"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "park-munsu",
-      "kim-hojun",
-      "kim-taehwan",
-      "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "ahn-yoojin",
       "kim-hyerim",
-      "ha-seyoung",
+      "lee-jihoon",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-hojun",
+      "hwang-dagun",
+      "lee-moonkyu",
+      "park-munsu",
+      "park-damhee",
+      "lee-gaeun",
+      "seo-jaemin",
+      "park-sunyoung",
+      "kim-jeongseo",
+      "kwon-soyoung",
+      "jin-hyunwoo",
+      "park-soyoung",
+      "yun-jihong",
+      "her-naeun",
+      "kim-taehwan",
+      "ahn-yoojin",
+      "kim-woonggyeom"
     ],
     "published_date": "2020-06-20",
     "content_type": "video",
