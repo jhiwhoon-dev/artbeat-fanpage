@@ -2,9 +2,21 @@
   {
     "youtube_id": "scBjH0krs5w",
     "title": "멤버들이랑 너무 잘 어울리는데? #SUNKISS #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TUIDE"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "yun-haeun",
+      "ha-seyoung",
+      "oh-yubin",
+      "kim-nakyeong",
+      "yu-minhye",
+      "lee-seonu",
+      "kang-yejin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -17,9 +29,21 @@
   {
     "youtube_id": "AsT_pgWP-JU",
     "title": "허리 어디까지 꺾어요..? #SUNKISS #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TUIDE"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "yun-haeun",
+      "ha-seyoung",
+      "oh-yubin",
+      "kim-nakyeong",
+      "yu-minhye",
+      "lee-seonu",
+      "kang-yejin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -32,9 +56,21 @@
   {
     "youtube_id": "9qxP5TCiiIs",
     "title": "인간 썬키스들☀️ #SUNKISS #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TUIDE"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "yun-haeun",
+      "ha-seyoung",
+      "oh-yubin",
+      "kim-nakyeong",
+      "yu-minhye",
+      "lee-seonu",
+      "kang-yejin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -50,7 +86,9 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
@@ -69,7 +107,9 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "kang-yejin"
     ],
@@ -88,7 +128,9 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
@@ -107,7 +149,9 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "oh-yubin",
       "lee-yoobin"
@@ -127,7 +171,9 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
@@ -146,24 +192,30 @@
     "covered_group": [
       "TUIDE"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
       "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "kang-yejin",
-      "park-seoyeon",
       "kim-nakyeong",
-      "lee-yoobin",
-      "lee-seonu",
       "yu-minhye",
-      "choi-sunwoo",
-      "min"
+      "lee-seonu",
+      "kang-yejin"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
-    "role_mapping": [],
+    "role_mapping": [
+      { "member_id": "yun-haeun", "covered_group": "TUIDE", "covered_member": "서희" },
+      { "member_id": "ha-seyoung", "covered_group": "TUIDE", "covered_member": "서연" },
+      { "member_id": "oh-yubin", "covered_group": "TUIDE", "covered_member": "지아" },
+      { "member_id": "kim-nakyeong", "covered_group": "TUIDE", "covered_member": "사키" },
+      { "member_id": "yu-minhye", "covered_group": "TUIDE", "covered_member": "세아" },
+      { "member_id": "lee-seonu", "covered_group": "TUIDE", "covered_member": "이하늬" },
+      { "member_id": "kang-yejin", "covered_group": "TUIDE", "covered_member": "엘레나" }
+    ],
     "special_dancers": [],
     "published_date": "2026-09-16",
     "content_type": "video",
@@ -180,9 +232,7 @@
     ],
     "tagged_members": [
       "lee-seonu",
-      "yu-minhye",
-      "choi-sunwoo",
-      "min"
+      "yu-minhye"
     ],
     "ads": [],
     "sponsors": [],
