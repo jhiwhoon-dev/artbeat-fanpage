@@ -24973,24 +24973,33 @@
     "youtube_id": "edbnrxJRnBo",
     "title": "[방구석 여기서요?] 나인뮤지스 9MUSES - 드라마(DRAMA) | 커버댄스 Dance Cover",
     "covered_group": [
-      "현아"
+      "나인뮤지스"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
       "jang-sein",
-      "kang-minji",
-      "jeong-yoojin",
-      "won-hyegyeong"
+      "ahn-yoojin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "aoki-yuka",
+      "yun-haeun",
+      "won-hyegyeong",
+      "kang-minji"
+    ],
+    "role_mapping":[
+      { "member_id": "jang-sein", "covered_group": "나인뮤지스", "covered_member": "경리" },
+      { "member_id": "ahn-yoojin", "covered_group": "나인뮤지스", "covered_member": "이유애린" },
+      { "member_id": "lee-gaeun", "covered_group": "나인뮤지스", "covered_member": "금초" },
+      { "member_id": "ha-seyoung", "covered_group": "나인뮤지스", "covered_member": "문현아" },
+      { "member_id": "aoki-yuka", "covered_group": "나인뮤지스", "covered_member": "손성아" },
+      { "member_id": "yun-haeun", "covered_group": "나인뮤지스", "covered_member": "표혜미" },
+      { "member_id": "won-hyegyeong", "covered_group": "나인뮤지스", "covered_member": "박민하" },
+      { "member_id": "kang-minji", "covered_group": "나인뮤지스", "covered_member": "조가빈" }
     ],
     "published_date": "2025-09-21",
     "content_type": "video",
     "view_count": 299880,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -33602,7 +33611,20 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin",
+      "cho-yuna"
+    ],
+    "role_mapping":[
+      { "member_id": "aoki-yuka", "covered_group": "힛지스", "covered_member": "혜린" },
+      { "member_id": "yun-haeun", "covered_group": "힛지스", "covered_member": "서희" },
+      { "member_id": "lee-gaeun", "covered_group": "힛지스", "covered_member": "비비" },
+      { "member_id": "kang-yejin", "covered_group": "힛지스", "covered_member": "서진" },
+      { "member_id": "cho-yuna", "covered_group": "힛지스", "covered_member": "이유" }
+    ],
     "published_date": "2025-06-09",
     "content_type": "video",
     "view_count": 17541,
@@ -33708,16 +33730,25 @@
       "힛지스"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "aoki-yuka",
       "yun-haeun",
+      "lee-gaeun",
       "kang-yejin",
-      "lee-yejin",
       "cho-yuna"
+    ],
+    "role_mapping":[
+      { "member_id": "aoki-yuka", "covered_group": "힛지스", "covered_member": "혜린" },
+      { "member_id": "yun-haeun", "covered_group": "힛지스", "covered_member": "서희" },
+      { "member_id": "lee-gaeun", "covered_group": "힛지스", "covered_member": "비비" },
+      { "member_id": "kang-yejin", "covered_group": "힛지스", "covered_member": "서진" },
+      { "member_id": "cho-yuna", "covered_group": "힛지스", "covered_member": "이유" }
     ],
     "published_date": "2025-06-07",
     "content_type": "video",
     "view_count": 54207,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "L8YpqP398Ps",
@@ -36453,17 +36484,25 @@
       "힛지스"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "lee-gaeun"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "힛지스", "covered_member": "혜린" },
+      { "member_id": "ha-seyoung", "covered_group": "힛지스", "covered_member": "서희" },
+      { "member_id": "yun-haeun", "covered_group": "힛지스", "covered_member": "비비" },
+      { "member_id": "kang-yejin", "covered_group": "힛지스", "covered_member": "서진" },
+      { "member_id": "lee-gaeun", "covered_group": "힛지스", "covered_member": "이유" }
     ],
     "published_date": "2025-05-11",
     "content_type": "video",
     "view_count": 171718,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "2p_2gQN-AVE",
@@ -37426,19 +37465,24 @@
       "힛지스"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "lee-gaeun"
+    ],
+    "role_mapping":[
+      { "member_id": "oh-yubin", "covered_group": "힛지스", "covered_member": "혜린" },
+      { "member_id": "ha-seyoung", "covered_group": "힛지스", "covered_member": "서희" },
+      { "member_id": "yun-haeun", "covered_group": "힛지스", "covered_member": "비비" },
+      { "member_id": "kang-yejin", "covered_group": "힛지스", "covered_member": "서진" },
+      { "member_id": "lee-gaeun", "covered_group": "힛지스", "covered_member": "이유" }
     ],
     "published_date": "2025-05-02",
     "content_type": "video",
     "view_count": 537212,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -37488,8 +37532,8 @@
     "content_type": "video",
     "view_count": 289619,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 손님",
+      "방구석 여기서요?::S19"
     ]
   },
   {
