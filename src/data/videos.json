@@ -53187,21 +53187,26 @@
   {
     "youtube_id": "Ec-pvG-GaHk",
     "title": "[AB STAGE | F.T.T] 서곡, 도깨비불, Rover | 커버댄스 Dance Cover | @대구파워풀페스티벌",
-    "covered_group": [],
+    "covered_group": [
+      "aespa",
+      "카이"
+    ],
     "tagged_members": [
+      "kim-hyerim",
       "park-hyunmin",
+      "jang-sein",
       "kim-youngjin",
       "chae-yunsu",
+      "jeon-minseo",
       "park-seongmin",
-      "kim-hyerim",
-      "jang-sein",
       "won-seoa"
     ],
     "published_date": "2024-05-13",
     "content_type": "video",
     "view_count": 181592,
     "content_series": [
-      "AB STAGE"
+      "AB STAGE::2024y",
+      "행사::2024y"
     ]
   },
   {
@@ -67142,18 +67147,23 @@
       "카이"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
+      "kim-taehwan"
+    ],
+    "special_dancers":[
       "hwang-jiho",
-      "shim-jiho",
-      "ahn-yoojin",
+      "kim-hojun",
       "kim-hyerim",
-      "jeong-yoojin"
+      "ahn-yoojin"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-taehwan", "covered_group": "카이", "covered_member": "카이" }
     ],
     "published_date": "2023-07-14",
     "content_type": "video",
     "view_count": 1021960,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "lYtI8zYhHa4",
@@ -70063,11 +70073,18 @@
       "카이"
     ],
     "tagged_members": [
-      "kim-hojun",
       "hwang-jiho",
       "chae-yunsu",
-      "kim-hyerim",
-      "ha-seyoung"
+      "kim-hojun"
+    ],
+    "special_dancers":[
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "chae-yunsu", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "kim-hojun", "covered_group": "카이", "covered_member": "카이" }
     ],
     "published_date": "2023-05-19",
     "content_type": "video",
@@ -72012,11 +72029,18 @@
     "tagged_members": [
       "hwang-jiho",
       "kim-taehwan",
-      "kim-hojun",
+      "kim-hojun"
+    ],
+    "special_dancers":[
       "lee-gaeun",
       "park-sunyoung",
       "ha-seyoung",
       "ahn-yoojin"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "kim-taehwan", "covered_group": "카이", "covered_member": "카이" },
+      { "member_id": "kim-hojun", "covered_group": "카이", "covered_member": "카이" }
     ],
     "published_date": "2023-04-21",
     "content_type": "video",
@@ -84585,9 +84609,16 @@
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",
-      "kim-minjin",
+      "kim-minjin"
+    ],
+    "special_dancers":[
       "kang-yejin",
       "bang-jooyeon"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "ahn-yoojin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "kim-minjin", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2022-06-09",
     "content_type": "video",
@@ -84635,16 +84666,24 @@
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",
-      "kim-minjin",
+      "kim-minjin"
+    ],
+    "special_dancers":[
       "kang-yejin",
-      "bang-jooyeon",
-      "jeong-yoojin",
-      "lee-yejin"
+      "bang-jooyeon"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "ahn-yoojin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "kim-minjin", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2022-06-08",
     "content_type": "video",
     "view_count": 189807,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "R_kGE4hnme4",
@@ -87122,9 +87161,19 @@
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",
-      "kim-minjin",
+      "kim-minjin"
+    ],
+    "special_dancers":[
       "kang-yejin",
       "bang-jooyeon"
+    ],
+    "sponsors":[
+      "배재대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "ahn-yoojin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "kim-minjin", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2022-04-09",
     "content_type": "video",
@@ -91502,6 +91551,13 @@
       "태연"
     ],
     "tagged_members": [
+      "lee-gaeun",
+      "oh-yubin",
+      "yun-haeun",
+      "her-naeun",
+      "kim-minjin",
+      "song-haeun",
+      "kang-yejin",
       "hye-in"
     ],
     "published_date": "2021-10-27",
@@ -92824,19 +92880,31 @@
       "태연"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "her-naeun",
       "kim-minjin",
+      "song-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "kwon-soyoung"
+    ],
+    "sponsors":[
+      "한밭대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "oh-yubin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "yun-haeun", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2021-09-19",
     "content_type": "video",
     "view_count": 674480,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "oAE8J1cNvlE",
@@ -94260,17 +94328,26 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "her-naeun",
       "kim-minjin",
+      "song-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "hye-in"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "oh-yubin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "yun-haeun", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2021-07-25",
     "content_type": "video",
     "view_count": 311736,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -94281,22 +94358,37 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun",
       "oh-yubin",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "her-naeun",
       "kim-minjin",
+      "song-haeun",
       "kang-yejin",
-      "lee-yejin"
+      "hye-in"
+    ],
+    "sponsors":[
+      "SAN57"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "oh-yubin", "covered_group": "태연", "covered_member": "태연" },
+      { "member_id": "yun-haeun", "covered_group": "태연", "covered_member": "태연" }
     ],
     "published_date": "2021-07-24",
     "content_type": "video",
     "view_count": 381979,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "RL7sdBSUQ90",
     "title": "NCT DREAM - Hello Future | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
