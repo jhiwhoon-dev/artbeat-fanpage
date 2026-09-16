@@ -52462,13 +52462,22 @@
       "jang-sein",
       "ha-seyoung",
       "lee-gaeun",
-      "kim-hyerim",
+      "kim-hyerim"
+    ],
+    "special_dancers":[
       "chae-yunsu",
       "hwang-jiho",
       "lim-donghun",
       "ahn-gihyun",
       "park-seongmin",
       "lee-dabin"
+    ],
+    "role_mapping":[
+      { "member_id": "ahn-yoojin", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "jang-sein", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "ha-seyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hyerim", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2024-05-23",
     "content_type": "video",
@@ -53758,23 +53767,33 @@
       "청하"
     ],
     "tagged_members": [
+      "ahn-yoojin",
+      "jang-sein",
+      "ha-seyoung",
+      "lee-gaeun",
+      "kim-hyerim"
+    ],
+    "special_dancers":[
       "kim-taehwan",
       "hwang-jiho",
       "lim-donghun",
       "ahn-gihyun",
       "park-seongmin",
-      "shim-jiho",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "kim-hyerim",
-      "ha-seyoung",
-      "jang-sein",
-      "jeong-yoojin"
+      "lee-dabin"
+    ],
+    "role_mapping":[
+      { "member_id": "ahn-yoojin", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "jang-sein", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "ha-seyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hyerim", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2024-05-04",
     "content_type": "video",
     "view_count": 731373,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "MhZ0G-oa-E4",
@@ -103611,18 +103630,34 @@
       "청하"
     ],
     "tagged_members": [
+      "lee-gaeun",
+      "kim-hayeon",
+      "park-soyoung"
+    ],
+    "special_dancers":[
+      "park-damhee",
+      "park-sunyoung",
+      "yoon-taegyeong",
+      "her-naeun",
       "yun-jihong",
       "kim-hojun",
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "lee-seunghyun",
+      "kim-jeongseo"
+    ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-09-20",
     "content_type": "video",
     "view_count": 2453940,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "SmCUARb7vYg",
@@ -104882,19 +104917,30 @@
       "청하"
     ],
     "tagged_members": [
+      "lee-gaeun",
+      "kim-hayeon",
+      "park-soyoung"
+    ],
+    "special_dancers":[
+      "park-damhee",
+      "park-sunyoung",
+      "yoon-taegyeong",
+      "her-naeun",
       "yun-jihong",
       "kim-hojun",
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "lee-seunghyun",
+      "kim-jeongseo"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-08-01",
     "content_type": "video",
     "view_count": 583220,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -104904,18 +104950,36 @@
       "청하"
     ],
     "tagged_members": [
+      "lee-gaeun",
+      "kim-hayeon",
+      "park-soyoung"
+    ],
+    "special_dancers":[
+      "park-damhee",
+      "park-sunyoung",
+      "yoon-taegyeong",
+      "her-naeun",
       "yun-jihong",
       "kim-hojun",
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "lee-gaeun"
+      "lee-seunghyun",
+      "kim-jeongseo"
+    ],
+    "support":[
+      "ABLY",
+      "PASMA"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-07-31",
     "content_type": "video",
     "view_count": 749131,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "2N8Kif6ambc",
@@ -106679,17 +106743,29 @@
       "청하"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "kim-hyerim",
       "lee-gaeun",
-      "kim-hyerim"
+      "park-soyoung",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-heejin"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hyerim", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-damhee", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-sunyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-heejin", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-06-19",
     "content_type": "video",
     "view_count": 2569643,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "XwiZDSV7eGw",
@@ -107239,18 +107315,28 @@
       "청하"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "kim-hyerim",
       "lee-gaeun",
-      "kim-hyerim"
+      "park-soyoung",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-heejin"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hyerim", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-damhee", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-sunyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-heejin", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-05-20",
     "content_type": "video",
     "view_count": 306401,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -107260,17 +107346,34 @@
       "청하"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
+      "kim-hyerim",
       "lee-gaeun",
-      "kim-hyerim"
+      "park-soyoung",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-heejin"
+    ],    
+    "support":[
+      "VERDANT x 그초록",
+      "ITDANCER"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "kim-hyerim", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-gaeun", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-soyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-damhee", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "park-sunyoung", "covered_group": "청하", "covered_member": "청하" },
+      { "member_id": "lee-heejin", "covered_group": "청하", "covered_member": "청하" }
     ],
     "published_date": "2020-05-19",
     "content_type": "video",
     "view_count": 458505,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "wsvGr1EfCfY",
