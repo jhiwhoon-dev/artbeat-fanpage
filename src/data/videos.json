@@ -12925,20 +12925,37 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "bang-jooyeon",
-      "jang-sein",
       "jeong-gyeolgyeong",
-      "won-seoa",
+      "lee-yejin",
       "kang-minji",
+      "kim-soeun",
+      "won-seoa",
+      "jang-sein",
+      "aoki-yuka",
+      "bang-jooyeon",
       "lee-jeonghee",
-      "kim-soeun"
+      "yun-haeun"
+    ],
+    "sponsors":[
+      "GIGIBEBE HANBOK"
+    ],
+    "role_mapping":[
+      { "member_id": "yun-haeun", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "kang-minji", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "won-seoa", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "aoki-yuka", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "lee-jeonghee", "covered_group": "우주소녀", "covered_member": "은서" },
+      { "member_id": "kim-soeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "jang-sein", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "lee-yejin", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "bang-jooyeon", "covered_group": "우주소녀", "covered_member": "수빈" }
     ],
     "published_date": "2026-02-16",
     "content_type": "video",
     "view_count": 98413,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2026y"
     ]
   },
   {
@@ -108680,7 +108697,16 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "kwon-soyoung",
+      "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
+      "kim-minjin",
+      "kim-hayeon",
+      "ha-seyoung"
     ],
     "published_date": "2020-03-17",
     "content_type": "video",
@@ -109041,7 +109067,16 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "kwon-soyoung",
+      "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
+      "kim-minjin",
+      "kim-hayeon",
+      "ha-seyoung"
     ],
     "published_date": "2020-03-05",
     "content_type": "video",
@@ -109498,16 +109533,28 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "oh-yubin", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "ahn-yoojin", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "her-naeun", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-sunyoung", "covered_group": "우주소녀", "covered_member": "은서" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "kim-minjin", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "수빈" }
     ],
     "published_date": "2020-02-10",
     "content_type": "video",
@@ -109523,21 +109570,39 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "ha-seyoung"
+    ],
+    "support":[
+      "ABLY"
+    ],
+    "role_mapping":[
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "oh-yubin", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "ahn-yoojin", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "her-naeun", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-sunyoung", "covered_group": "우주소녀", "covered_member": "은서" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "kim-minjin", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "수빈" }
     ],
     "published_date": "2020-02-09",
     "content_type": "video",
     "view_count": 229120,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "xwK8P8bSgYc",
@@ -109803,22 +109868,37 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "ha-seyoung"
+    ],
+    "support":[
+      "ABLY"
+    ],
+    "role_mapping":[
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "oh-yubin", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "ahn-yoojin", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "her-naeun", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-sunyoung", "covered_group": "우주소녀", "covered_member": "은서" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "kim-minjin", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "수빈" }
     ],
     "published_date": "2020-01-25",
     "content_type": "video",
     "view_count": 1345636,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2020y"
     ]
   },
   {
@@ -109849,22 +109929,34 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
       "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
+      "her-naeun",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "oh-yubin", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "ahn-yoojin", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "her-naeun", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-sunyoung", "covered_group": "우주소녀", "covered_member": "은서" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "kim-minjin", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "수빈" }
     ],
     "published_date": "2020-01-24",
     "content_type": "video",
     "view_count": 439147,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2020y"
     ]
   },
   {
@@ -118462,12 +118554,35 @@
     "covered_group": [
       "우주소녀"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "kwon-soyoung",
+      "lee-sieun",
+      "lee-gaeun",
+      "suvin",
+      "park-damhee",
+      "kim-eunbin",
+      "yun-haeun",
+      "minju",
+      "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "lee-sieun", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "수빈" },
+      { "member_id": "suvin", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "kim-eunbin", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "yun-haeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "minju", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "은서" }
+    ],
     "published_date": "2019-01-28",
     "content_type": "video",
     "view_count": 39190,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -118477,18 +118592,34 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
       "kwon-soyoung",
+      "lee-sieun",
       "lee-gaeun",
+      "suvin",
+      "park-damhee",
+      "kim-eunbin",
       "yun-haeun",
+      "minju",
       "ha-seyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "lee-sieun", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "수빈" },
+      { "member_id": "suvin", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "kim-eunbin", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "yun-haeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "minju", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "은서" }
     ],
     "published_date": "2019-01-26",
     "content_type": "video",
     "view_count": 852383,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -118498,17 +118629,39 @@
       "우주소녀"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
       "kwon-soyoung",
+      "lee-sieun",
       "lee-gaeun",
+      "suvin",
+      "park-damhee",
+      "kim-eunbin",
       "yun-haeun",
+      "minju",
       "ha-seyoung"
+    ],
+    "support":[
+      "TITF"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-hayeon", "covered_group": "우주소녀", "covered_member": "설아" },
+      { "member_id": "kwon-soyoung", "covered_group": "우주소녀", "covered_member": "보나" },
+      { "member_id": "lee-sieun", "covered_group": "우주소녀", "covered_member": "다영" },
+      { "member_id": "lee-gaeun", "covered_group": "우주소녀", "covered_member": "수빈" },
+      { "member_id": "suvin", "covered_group": "우주소녀", "covered_member": "다원" },
+      { "member_id": "park-damhee", "covered_group": "우주소녀", "covered_member": "엑시" },
+      { "member_id": "kim-eunbin", "covered_group": "우주소녀", "covered_member": "연정" },
+      { "member_id": "yun-haeun", "covered_group": "우주소녀", "covered_member": "루다" },
+      { "member_id": "minju", "covered_group": "우주소녀", "covered_member": "여름" },
+      { "member_id": "ha-seyoung", "covered_group": "우주소녀", "covered_member": "은서" }
     ],
     "published_date": "2019-01-26",
     "content_type": "video",
     "view_count": 141378,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "XZED2DBg3Rk",
