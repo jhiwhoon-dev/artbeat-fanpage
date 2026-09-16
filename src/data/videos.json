@@ -113142,19 +113142,39 @@
       "현아"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
-      "kim-hayeon",
+      "kim-hyerim",
       "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "kim-hyerim"
+      "hwang-dagun"
+    ],
+    "special_dancers":[
+      "kim-woonggyeom",
+      "park-munsu",
+      "gyungmin",
+      "kim-hayeon",
+      "lee-gaeun"      
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2019-12-08",
     "content_type": "video",
     "view_count": 165552,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -113164,19 +113184,39 @@
       "현아"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
       "lee-gaeun",
-      "kim-hyerim"
+      "hwang-dagun"
+    ],
+    "special_dancers":[
+      "kim-woonggyeom",
+      "park-munsu",
+      "gyungmin",
+      "kim-hyerim",
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2019-12-08",
     "content_type": "video",
     "view_count": 218980,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -113218,18 +113258,56 @@
       "현아"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
-      "kim-hayeon",
+      "kim-hyerim",
       "kwon-soyoung",
       "hwang-dagun",
-      "lee-gaeun",
-      "kim-hyerim"
+      "kim-hayeon",
+      "lee-gaeun"
+    ],
+    "special_dancers":[
+      "kim-woonggyeom",
+      "park-munsu",
+      "gyungmin"
+    ],
+    "support":[
+      "Hotel Inter-Burgo"
+    ],
+    "sponsors":[
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2019-12-04",
     "content_type": "video",
     "view_count": 1191518,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "T5YVUtRi2B8",
@@ -113238,18 +113316,47 @@
       "현아"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
-      "kim-hayeon",
+      "kim-hyerim",
       "kwon-soyoung",
-      "hwang-dagun",
-      "lee-gaeun",
-      "kim-hyerim"
+      "hwang-dagun"
+    ],
+    "special_dancers":[
+      "kim-woonggyeom",
+      "park-munsu",
+      "gyungmin",
+      "kim-hayeon",
+      "lee-gaeun"      
+    ],
+    "support":[
+      "Hotel Inter-Burgo"
+    ],
+    "sponsors":[
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2019-12-03",
     "content_type": "video",
     "view_count": 167706,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "_39UQEC-Wew",
@@ -113258,18 +113365,47 @@
       "현아"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
       "kim-hayeon",
-      "kwon-soyoung",
-      "hwang-dagun",
       "lee-gaeun",
-      "kim-hyerim"
+      "hwang-dagun"
+    ],
+    "special_dancers":[
+      "kim-woonggyeom",
+      "park-munsu",
+      "gyungmin",
+      "kim-hyerim",
+      "kwon-soyoung"
+    ],
+    "support":[
+      "Hotel Inter-Burgo"
+    ],
+    "sponsors":[
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "현아",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2019-12-02",
     "content_type": "video",
     "view_count": 484705,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "0NYpLu9p9AM",
