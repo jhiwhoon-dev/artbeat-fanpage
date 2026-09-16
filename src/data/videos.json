@@ -77928,19 +77928,31 @@
       "펜타곤"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "kim-suhwan",
+      "lee-sieun",
+      "yun-haeun",
       "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "park-hyunmin",
+      "kwon-dohyun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "펜타곤", "covered_member": "키노" },
+      { "member_id": "yun-haeun", "covered_group": "펜타곤", "covered_member": "신원" },
+      { "member_id": "lee-gaeun", "covered_group": "펜타곤", "covered_member": "진호" },
+      { "member_id": "ahn-yoojin", "covered_group": "펜타곤", "covered_member": "여원" },
+      { "member_id": "park-hyunmin", "covered_group": "펜타곤", "covered_member": "후이" },
+      { "member_id": "kwon-dohyun", "covered_group": "펜타곤", "covered_member": "우석" },
+      { "member_id": "kim-suhwan", "covered_group": "펜타곤", "covered_member": "홍석" },
+      { "member_id": "kim-taehwan", "covered_group": "펜타곤", "covered_member": "유토" }
     ],
     "published_date": "2022-12-06",
     "content_type": "video",
     "view_count": 515130,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "mAPeVst8cwo",
@@ -80796,20 +80808,30 @@
       "펜타곤"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "kim-suhwan",
+      "lee-sieun",
+      "yun-haeun",
       "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
-      "jeong-yoojin"
+      "park-hyunmin",
+      "kwon-dohyun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "펜타곤", "covered_member": "키노" },
+      { "member_id": "yun-haeun", "covered_group": "펜타곤", "covered_member": "신원" },
+      { "member_id": "lee-gaeun", "covered_group": "펜타곤", "covered_member": "진호" },
+      { "member_id": "ahn-yoojin", "covered_group": "펜타곤", "covered_member": "여원" },
+      { "member_id": "park-hyunmin", "covered_group": "펜타곤", "covered_member": "후이" },
+      { "member_id": "kwon-dohyun", "covered_group": "펜타곤", "covered_member": "우석" },
+      { "member_id": "kim-suhwan", "covered_group": "펜타곤", "covered_member": "홍석" },
+      { "member_id": "kim-taehwan", "covered_group": "펜타곤", "covered_member": "유토" }
     ],
     "published_date": "2022-09-07",
     "content_type": "video",
     "view_count": 352195,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -122926,18 +122948,30 @@
       "펜타곤"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
+      "lee-sieun",
       "kim-hayeon",
       "lee-gaeun",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "kwon-dohyun",
+      "kim-woonggyeom",
+      "jeon-hyeonguk"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "펜타곤", "covered_member": "키노" },
+      { "member_id": "kim-hayeon", "covered_group": "펜타곤", "covered_member": "신원" },
+      { "member_id": "lee-gaeun", "covered_group": "펜타곤", "covered_member": "진호" },
+      { "member_id": "ahn-yoojin", "covered_group": "펜타곤", "covered_member": "여원" },
+      { "member_id": "seo-jaemin", "covered_group": "펜타곤", "covered_member": "후이" },
+      { "member_id": "kwon-dohyun", "covered_group": "펜타곤", "covered_member": "우석" },
+      { "member_id": "kim-woonggyeom", "covered_group": "펜타곤", "covered_member": "홍석" },
+      { "member_id": "jeon-hyeonguk", "covered_group": "펜타곤", "covered_member": "유토" }
     ],
     "published_date": "2018-10-20",
     "content_type": "video",
     "view_count": 2190557,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
@@ -123015,13 +123049,30 @@
       "펜타곤"
     ],
     "tagged_members": [
-      "kim-eunbin"
+      "lee-sieun",
+      "kim-hayeon",
+      "lee-gaeun",
+      "ahn-yoojin",
+      "seo-jaemin",
+      "kwon-dohyun",
+      "kim-woonggyeom",
+      "jeon-hyeonguk"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "펜타곤", "covered_member": "키노" },
+      { "member_id": "kim-hayeon", "covered_group": "펜타곤", "covered_member": "신원" },
+      { "member_id": "lee-gaeun", "covered_group": "펜타곤", "covered_member": "진호" },
+      { "member_id": "ahn-yoojin", "covered_group": "펜타곤", "covered_member": "여원" },
+      { "member_id": "seo-jaemin", "covered_group": "펜타곤", "covered_member": "후이" },
+      { "member_id": "kwon-dohyun", "covered_group": "펜타곤", "covered_member": "우석" },
+      { "member_id": "kim-woonggyeom", "covered_group": "펜타곤", "covered_member": "홍석" },
+      { "member_id": "jeon-hyeonguk", "covered_group": "펜타곤", "covered_member": "유토" }
     ],
     "published_date": "2018-10-07",
     "content_type": "video",
     "view_count": 87349,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2018y"
     ]
   },
   {
@@ -123045,17 +123096,32 @@
       "펜타곤"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
+      "lee-sieun",
       "kim-hayeon",
       "lee-gaeun",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "kwon-dohyun",
+      "kim-woonggyeom",
+      "jeon-hyeonguk"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-sieun", "covered_group": "펜타곤", "covered_member": "키노" },
+      { "member_id": "kim-hayeon", "covered_group": "펜타곤", "covered_member": "신원" },
+      { "member_id": "lee-gaeun", "covered_group": "펜타곤", "covered_member": "진호" },
+      { "member_id": "ahn-yoojin", "covered_group": "펜타곤", "covered_member": "여원" },
+      { "member_id": "seo-jaemin", "covered_group": "펜타곤", "covered_member": "후이" },
+      { "member_id": "kwon-dohyun", "covered_group": "펜타곤", "covered_member": "우석" },
+      { "member_id": "kim-woonggyeom", "covered_group": "펜타곤", "covered_member": "홍석" },
+      { "member_id": "jeon-hyeonguk", "covered_group": "펜타곤", "covered_member": "유토" }
     ],
     "published_date": "2018-10-05",
     "content_type": "video",
     "view_count": 725139,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "Dn7Tpzsi4O8",
