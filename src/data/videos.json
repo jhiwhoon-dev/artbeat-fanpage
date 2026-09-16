@@ -2638,6 +2638,33 @@
       "lee-jeonghee",
       "lee-gaeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
+    ],
     "published_date": "2026-08-17",
     "content_type": "short",
     "view_count": 126716,
@@ -2756,11 +2783,38 @@
       "lee-jeonghee",
       "lee-gaeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 92185,
     "content_series": [
-      "AB PRACTICE::2026y"
+      "릴레이 댄스::2026y"
     ]
   },
   {
@@ -2775,6 +2829,33 @@
       "won-hyegyeong",
       "lee-jeonghee",
       "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2026-08-13",
     "content_type": "video",
@@ -2796,6 +2877,33 @@
       "lee-jeonghee",
       "lee-gaeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 125972,
@@ -2815,6 +2923,33 @@
       "won-hyegyeong",
       "lee-jeonghee",
       "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2026-08-13",
     "content_type": "short",
@@ -2836,6 +2971,33 @@
       "lee-jeonghee",
       "lee-gaeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
+    ],
     "published_date": "2026-08-13",
     "content_type": "short",
     "view_count": 31870,
@@ -2855,6 +3017,33 @@
       "won-hyegyeong",
       "lee-jeonghee",
       "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2026-08-12",
     "content_type": "video",
@@ -10459,16 +10648,45 @@
       "프로미스나인"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
+      "kim-chan",
       "oh-yubin",
-      "kim-nakyeong"
+      "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2026-04-10",
     "content_type": "video",
     "view_count": 163696,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "XOcwjQXE6Z8",
@@ -15357,11 +15575,38 @@
       "프로미스나인"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
+      "kim-chan",
       "oh-yubin",
-      "kim-nakyeong"
+      "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2025-12-26",
     "content_type": "video",
@@ -15580,16 +15825,45 @@
       "프로미스나인"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
+      "kim-chan",
       "oh-yubin",
-      "kim-nakyeong"
+      "lee-gaeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
     ],
     "published_date": "2025-12-24",
     "content_type": "video",
     "view_count": 326380,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-GOhjgcIsZ4",
@@ -48545,6 +48819,50 @@
       "lee-gaeun",
       "kim-chan"
     ],
+    "sponsors": [],
+    "ads": [],
+    "role_mapping": [
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "프로미스나인",
+        "covered_member": "노지선"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "프로미스나인",
+        "covered_member": "이새롬"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이서연"
+      }
+    ],
     "published_date": "2024-10-11",
     "content_type": "video",
     "view_count": 634184,
@@ -49343,6 +49661,13 @@
       "프로미스나인"
     ],
     "tagged_members": [
+      "seol-heejeong",
+      "aoki-yuka",
+      "yun-haeun",
+      "kim-hyerim",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
       "kim-chan"
     ],
     "published_date": "2024-09-25",
@@ -49495,7 +49820,9 @@
     "published_date": "2024-09-13",
     "content_type": "short",
     "view_count": 273710,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "v_Hr-WEUpqM",
@@ -92738,7 +93065,14 @@
     ],
     "tagged_members": [
       "kim-hayeon",
-      "kim-minjin"
+      "kim-minjin",
+      "park-sunyoung",
+      "kim-hyerim",
+      "lee-sieun",
+      "hye-in",
+      "yun-haeun",
+      "lee-gaeun",
+      "song-haeun"
     ],
     "published_date": "2021-10-09",
     "content_type": "video",
@@ -104220,7 +104554,7 @@
       "kwon-soyoung",
       "oh-yubin"
     ],
-    "sponsors": [
+    "support": [
       "계명문화대학교"
     ],
     "role_mapping": [
@@ -104382,8 +104716,8 @@
       }
     ],
     "song_group": "fromis9-feelgood-2020",
-    "sponsors": [
-      "나인블럭"
+    "support": [
+      "9BLOCK COFFEE"
     ],
     "published_date": "2020-09-27",
     "content_type": "video",
