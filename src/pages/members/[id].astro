@@ -1230,12 +1230,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       // 이 그룹 안에서, 실제로 내가 role_mapping에 맡은 걸로 기록된 인물별 횟수.
       // 한 영상이 여러 그룹을 동시에 커버하고, 내가 각 그룹마다 다른 역할을 맡은 경우가 있어서
       // "지금 선택된 그룹과 일치하는 역할"만 골라 써야 함 (그냥 첫 번째 역할을 쓰면 다른 그룹 역할이 섞여버림).
+      // role_mapping에 없어도 이 영상에서 백업 댄서(special_dancers)로 참여했으면 "백업"이라는 항목으로 따로 집계함.
+      const BACKUP_LABEL = '백업';
       const roleCounts: Record<string, Set<string>> = {};
       for (const v of matched) {
         const myMatch = v.myRoles.find((r) => matchesPath(r.group, activeGroupPath));
-        if (!myMatch) continue;
-        if (!roleCounts[myMatch.member]) roleCounts[myMatch.member] = new Set();
-        roleCounts[myMatch.member].add(v.id);
+        const label = myMatch ? myMatch.member : v.isSelfSpecial ? BACKUP_LABEL : null;
+        if (!label) continue;
+        if (!roleCounts[label]) roleCounts[label] = new Set();
+        roleCounts[label].add(v.id);
       }
       const roleTotal = Object.values(roleCounts).reduce((sum, set) => sum + set.size, 0);
 
@@ -1252,10 +1255,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           .map(([person, set]) => {
             const pct = ((set.size / roleTotal) * 100).toFixed(0);
             const widthPct = (set.size / roleMax) * 100;
+            const isBackup = person === BACKUP_LABEL;
+            const fillColor = isBackup ? 'var(--muted)' : '#22d3ee';
             return `
               <div class="role-bar-row">
-                <span class="role-bar-label">${person}</span>
-                <div class="role-bar-track"><div class="role-bar-fill" style="width:${widthPct}%"></div></div>
+                <span class="role-bar-label"${isBackup ? ' style="color:var(--muted)"' : ''}>${person}</span>
+                <div class="role-bar-track"><div class="role-bar-fill" style="width:${widthPct}%;background:${fillColor}"></div></div>
                 <span class="role-bar-value">${set.size}회 (${pct}%)</span>
               </div>`;
           })

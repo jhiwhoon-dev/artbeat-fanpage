@@ -71898,7 +71898,6 @@
     "youtube_id": "MnBY7b9lVm4",
     "title": "[여기서요?] 'HYBE' 청량 퍼포먼스 (THE BATTLE PERFORMANCE) | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "세븐틴",
       "세븐틴::부석순",
       "NewJeans"
     ],
@@ -72249,17 +72248,17 @@
     "role_mapping": [
       {
         "member_id": "kim-taehwan",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "호시"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "도겸"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "세븐틴",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "승관"
       },
       {
@@ -75063,17 +75062,17 @@
     "role_mapping": [
       {
         "member_id": "kim-taehwan",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "호시"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "도겸"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "세븐틴",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "승관"
       },
       {
@@ -75882,17 +75881,17 @@
     "role_mapping": [
       {
         "member_id": "kim-taehwan",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "호시"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "도겸"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "세븐틴",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "승관"
       },
       {
@@ -76023,17 +76022,17 @@
     "role_mapping": [
       {
         "member_id": "kim-taehwan",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "호시"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "도겸"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "세븐틴",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "승관"
       },
       {
@@ -76075,17 +76074,17 @@
     "role_mapping": [
       {
         "member_id": "kim-taehwan",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "호시"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "부석순",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "도겸"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "세븐틴",
+        "covered_group": "세븐틴::부석순",
         "covered_member": "승관"
       },
       {
@@ -81695,37 +81694,37 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -83324,72 +83323,72 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "lim-donghun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "cho-woohyeong",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       },
       {
         "member_id": "seo-danbi",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "jeong-jihye",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "jang-sein",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -84309,37 +84308,37 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -85260,37 +85259,37 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -85356,37 +85355,37 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -85418,37 +85417,37 @@
     "role_mapping": [
       {
         "member_id": "park-hyunmin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -105083,32 +105082,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-hayeon",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "yoon-taegyeong",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "park-sunyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -105957,32 +105956,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-hayeon",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "yoon-taegyeong",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "park-sunyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -106258,32 +106257,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-hayeon",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "yoon-taegyeong",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "park-sunyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -106926,32 +106925,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -106982,32 +106981,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -107425,32 +107424,32 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-soyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "아이린"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "아이린&슬기",
+        "covered_group": "Red Velvet::아이린&슬기",
         "covered_member": "슬기"
       }
     ],
@@ -109168,21 +109167,56 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "오마이걸",
+        "covered_member": "유아"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "오마이걸",
+        "covered_member": "승희"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "오마이걸",
+        "covered_member": "지호"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "오마이걸",
+        "covered_member": "미미"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "오마이걸",
+        "covered_member": "효정"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "오마이걸",
+        "covered_member": "아린"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "오마이걸",
+        "covered_member": "비니"
+      }
     ],
     "published_date": "2020-06-03",
     "content_type": "video",
     "view_count": 2235306,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -115302,32 +115336,32 @@
     ],
     "role_mapping": [
       {
-        "member_id": "lee-gaeun",
+        "member_id": "park-sunyoung",
         "covered_group": "여자친구",
         "covered_member": "신비"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "lee-gaeun",
         "covered_group": "여자친구",
         "covered_member": "예린"
       },
       {
-        "member_id": "kim-eunbin",
+        "member_id": "kwon-soyoung",
         "covered_group": "여자친구",
         "covered_member": "소원"
       },
       {
-        "member_id": "yun-haeun",
+        "member_id": "her-naeun",
         "covered_group": "여자친구",
         "covered_member": "유주"
       },
       {
-        "member_id": "yun-bogyeong",
+        "member_id": "oh-yubin",
         "covered_group": "여자친구",
         "covered_member": "은하"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-minjin",
         "covered_group": "여자친구",
         "covered_member": "엄지"
       }
@@ -117220,32 +117254,32 @@
     ],
     "role_mapping": [
       {
-        "member_id": "lee-gaeun",
+        "member_id": "park-sunyoung",
         "covered_group": "여자친구",
         "covered_member": "신비"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "lee-gaeun",
         "covered_group": "여자친구",
         "covered_member": "예린"
       },
       {
-        "member_id": "kim-eunbin",
+        "member_id": "kwon-soyoung",
         "covered_group": "여자친구",
         "covered_member": "소원"
       },
       {
-        "member_id": "yun-haeun",
+        "member_id": "her-naeun",
         "covered_group": "여자친구",
         "covered_member": "유주"
       },
       {
-        "member_id": "yun-bogyeong",
+        "member_id": "oh-yubin",
         "covered_group": "여자친구",
         "covered_member": "은하"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-minjin",
         "covered_group": "여자친구",
         "covered_member": "엄지"
       }
@@ -117294,32 +117328,32 @@
     ],
     "role_mapping": [
       {
-        "member_id": "lee-gaeun",
+        "member_id": "park-sunyoung",
         "covered_group": "여자친구",
         "covered_member": "신비"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "lee-gaeun",
         "covered_group": "여자친구",
         "covered_member": "예린"
       },
       {
-        "member_id": "kim-eunbin",
+        "member_id": "kwon-soyoung",
         "covered_group": "여자친구",
         "covered_member": "소원"
       },
       {
-        "member_id": "yun-haeun",
+        "member_id": "her-naeun",
         "covered_group": "여자친구",
         "covered_member": "유주"
       },
       {
-        "member_id": "yun-bogyeong",
+        "member_id": "oh-yubin",
         "covered_group": "여자친구",
         "covered_member": "은하"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-minjin",
         "covered_group": "여자친구",
         "covered_member": "엄지"
       }
@@ -118409,16 +118443,6 @@
     "covered_group": [
       "오마이걸"
     ],
-    "tagged_members": [
-      "kim-eunbin",
-      "lee-gaeun",
-      "park-damhee",
-      "lee-sieun",
-      "park-soyoung",
-      "yun-haeun",
-      "minju"
-    ],
-    "sponsors": [],
     "role_mapping": [
       {
         "member_id": "kim-eunbin",
@@ -118426,32 +118450,32 @@
         "covered_member": "유아"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "lee-gaeun",
         "covered_group": "오마이걸",
         "covered_member": "아린"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "park-damhee",
         "covered_group": "오마이걸",
         "covered_member": "승희"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "lee-sieun",
         "covered_group": "오마이걸",
         "covered_member": "지호"
       },
       {
-        "member_id": "hwang-dagun",
+        "member_id": "park-soyoung",
         "covered_group": "오마이걸",
         "covered_member": "미미"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "yun-haeun",
         "covered_group": "오마이걸",
         "covered_member": "효정"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "minju",
         "covered_group": "오마이걸",
         "covered_member": "비니"
       }
@@ -118502,32 +118526,32 @@
         "covered_member": "유아"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "lee-gaeun",
         "covered_group": "오마이걸",
         "covered_member": "아린"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "park-damhee",
         "covered_group": "오마이걸",
         "covered_member": "승희"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "lee-sieun",
         "covered_group": "오마이걸",
         "covered_member": "지호"
       },
       {
-        "member_id": "hwang-dagun",
+        "member_id": "park-soyoung",
         "covered_group": "오마이걸",
         "covered_member": "미미"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "yun-haeun",
         "covered_group": "오마이걸",
         "covered_member": "효정"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "minju",
         "covered_group": "오마이걸",
         "covered_member": "비니"
       }
@@ -118565,32 +118589,32 @@
         "covered_member": "유아"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "lee-gaeun",
         "covered_group": "오마이걸",
         "covered_member": "아린"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "park-damhee",
         "covered_group": "오마이걸",
         "covered_member": "승희"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "lee-sieun",
         "covered_group": "오마이걸",
         "covered_member": "지호"
       },
       {
-        "member_id": "hwang-dagun",
+        "member_id": "park-soyoung",
         "covered_group": "오마이걸",
         "covered_member": "미미"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "yun-haeun",
         "covered_group": "오마이걸",
         "covered_member": "효정"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "minju",
         "covered_group": "오마이걸",
         "covered_member": "비니"
       }
@@ -125420,37 +125444,37 @@
     "role_mapping": [
       {
         "member_id": "park-sunyoung",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "유연정"
       },
       {
         "member_id": "kim-hayeon",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "김소혜"
       },
       {
         "member_id": "hwang-dagun",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "김소희"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "김도연"
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "한혜리"
       },
       {
         "member_id": "kim-eunbin",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "강시라"
       },
       {
         "member_id": "jinhee",
-        "covered_group": "소녀온탑",
+        "covered_group": "PRODUCE 101::소녀온탑",
         "covered_member": "윤채경"
       }
     ],
