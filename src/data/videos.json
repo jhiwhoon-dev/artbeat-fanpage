@@ -94783,7 +94783,15 @@
     "covered_group": [
       "오마이걸"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "oh-yubin",
+      "yoon-taegyeong",
+      "kim-minjin",
+      "song-haeun",
+      "hwang-dagun",
+      "lee-gaeun"
+    ],
     "published_date": "2021-07-03",
     "content_type": "video",
     "view_count": 128029,
@@ -94860,10 +94868,10 @@
     ],
     "special_dancers": [],
     "sponsors": [
-      "펩시"
+      "대구한의대학교"
     ],
     "support": [
-      "대진대학교"
+      "펩시"
     ],
     "role_mapping": [
       {
@@ -95247,7 +95255,7 @@
       "펩시"
     ],
     "sponsors": [
-      "대진대학교"
+      "대구한의대학교"
     ],
     "role_mapping": [
       {
@@ -95307,8 +95315,10 @@
       "oh-yubin"
     ],
     "sponsors": [
-      "마운틴듀",
       "대구한의대학교"
+    ],
+    "support":[
+      "마운틴듀"
     ],
     "role_mapping": [
       {
@@ -95440,10 +95450,10 @@
     ],
     "special_dancers": [],
     "sponsors": [
-      "마운틴듀"
+      "대구한의대학교"
     ],
     "support": [
-      "대진대학교"
+      "마운틴듀"
     ],
     "role_mapping": [
       {
@@ -95502,8 +95512,11 @@
       "ahn-yoojin",
       "yun-haeun"
     ],
-    "sponsors": [
+    "support":[
       "펩시"
+    ],
+    "sponsors": [
+      "대구한의대학교"
     ],
     "role_mapping": [
       {
@@ -95719,7 +95732,7 @@
       "펩시"
     ],
     "sponsors": [
-      "대진대학교"
+      "대구한의대학교"
     ],
     "role_mapping": [
       {
@@ -95813,20 +95826,35 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
+      "yun-haeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "song-haeun",
+      "ahn-yoojin",
+      "lee-gaeun"
+    ],
+    "support":[
+      "펩시"
+    ],
+    "sponsors":[
+      "대구한의대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "yun-haeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "song-haeun", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "ahn-yoojin", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" }
     ],
     "published_date": "2021-06-16",
     "content_type": "video",
     "view_count": 1471039,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "3p_ogj078AY",
@@ -95887,10 +95915,10 @@
       "park-sunyoung"
     ],
     "special_dancers": [],
-    "support": [
-      "대진대학교"
-    ],
     "sponsors": [
+      "대구한의대학교"
+    ],
+    "support": [
       "펩시"
     ],
     "role_mapping": [
@@ -96657,19 +96685,28 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "hwang-dagun",
-      "lee-gaeun",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin"
+      "yoon-taegyeong",
+      "kim-minjin",
+      "song-haeun",
+      "hwang-dagun",
+      "lee-gaeun"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "song-haeun", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" }
     ],
     "published_date": "2021-05-27",
     "content_type": "video",
     "view_count": 202664,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -96679,18 +96716,30 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "hwang-dagun",
-      "lee-gaeun",
       "ha-seyoung",
       "oh-yubin",
-      "kim-minjin"
+      "yoon-taegyeong",
+      "kim-minjin",
+      "song-haeun",
+      "hwang-dagun",
+      "lee-gaeun"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "song-haeun", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" }
     ],
     "published_date": "2021-05-26",
     "content_type": "video",
     "view_count": 542037,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "im9LlthbMAU",
@@ -97017,19 +97066,21 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
-      "kim-taehwan",
-      "kim-suhwan",
+      "lee-sieun",
+      "ha-seyoung",
       "lee-gaeun",
       "ahn-yoojin",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "kim-suhwan",
+      "jeon-hyeonguk",
+      "kwon-dohyun",
+      "kim-taehwan"
     ],
     "published_date": "2021-05-11",
     "content_type": "video",
     "view_count": 336465,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "ZSvxh-MWohc",
@@ -104816,24 +104867,46 @@
     "youtube_id": "-6CHLQ68-Hk",
     "title": "[방구석 여기서요?] 오마이걸 X 아스트로 - 분홍신 (원곡:아이유) | OH MY GIRL X ASTRO - THE RED SHOES | 커버댄스 DANCE COVER",
     "covered_group": [
-      "오마이걸"
+      "오마이걸",
+      "ASTRO"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "hwang-jiho",
-      "shim-jiho",
+      "park-damhee",
+      "her-naeun",
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "kim-hyerim",
-      "kim-minjin"
+      "kim-minjin",
+      "kwon-soyoung",
+      "kim-woonggyeom",
+      "kim-hojun",
+      "kim-taehwan",
+      "kim-jeongseo",
+      "kim-chanhee"
+    ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kim-hyerim", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "kim-woonggyeom", "covered_group": "ASTRO", "covered_member": "차은우" },
+      { "member_id": "kim-hojun", "covered_group": "ASTRO", "covered_member": "산하" },
+      { "member_id": "kim-taehwan", "covered_group": "ASTRO", "covered_member": "라키" },
+      { "member_id": "kim-jeongseo", "covered_group": "ASTRO", "covered_member": "진진" },
+      { "member_id": "kim-chanhee", "covered_group": "ASTRO", "covered_member": "MJ" }
     ],
     "published_date": "2020-07-28",
     "content_type": "video",
     "view_count": 827382,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "c8dwwnvuCPg",
@@ -105762,9 +105835,23 @@
   {
     "youtube_id": "wD9HQB4oBgw",
     "title": "19살 (시끄러운) 남고생의 댄스촬영 브이로그 [AB VLOG] '분홍신 & 세계가 불타버린 밤.. 우린' 브이로그 | 전지적 호준 시점 | HoJun VLOG",
-    "covered_group": [],
+    "covered_group": [
+      "오마이걸",
+      "ASTRO"
+    ],
     "tagged_members": [
-      "kim-hojun"
+      "park-damhee",
+      "her-naeun",
+      "park-sunyoung",
+      "lee-gaeun",
+      "kim-hyerim",
+      "kim-minjin",
+      "kwon-soyoung",
+      "kim-woonggyeom",
+      "kim-hojun",
+      "kim-taehwan",
+      "kim-jeongseo",
+      "kim-chanhee"
     ],
     "published_date": "2020-07-03",
     "content_type": "video",
@@ -105962,25 +106049,42 @@
     "youtube_id": "uoLDd6vYFWE",
     "title": "오마이걸(OH MY GIRL) x 아스트로(ASTRO) - 분홍신 | 커버댄스 DANCE COVER | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "오마이걸"
+      "오마이걸",
+      "ASTRO"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "hwang-jiho",
-      "shim-jiho",
+      "park-damhee",
+      "her-naeun",
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "kim-hyerim",
-      "kim-minjin"
+      "kim-minjin",
+      "kwon-soyoung",
+      "kim-woonggyeom",
+      "kim-hojun",
+      "kim-taehwan",
+      "kim-jeongseo",
+      "kim-chanhee"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kim-hyerim", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "kim-woonggyeom", "covered_group": "ASTRO", "covered_member": "차은우" },
+      { "member_id": "kim-hojun", "covered_group": "ASTRO", "covered_member": "산하" },
+      { "member_id": "kim-taehwan", "covered_group": "ASTRO", "covered_member": "라키" },
+      { "member_id": "kim-jeongseo", "covered_group": "ASTRO", "covered_member": "진진" },
+      { "member_id": "kim-chanhee", "covered_group": "ASTRO", "covered_member": "MJ" }
     ],
     "published_date": "2020-06-28",
     "content_type": "video",
     "view_count": 217382,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -106018,24 +106122,48 @@
     "youtube_id": "F3TRxkc47lM",
     "title": "[AB] 오마이걸 X 아스트로 - 분홍신 (원곡:아이유) | OH MY GIRL X ASTRO - THE RED SHOES | 커버댄스 Dance Cover",
     "covered_group": [
-      "오마이걸"
+      "오마이걸",
+      "ASTRO"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "hwang-jiho",
-      "shim-jiho",
+      "park-damhee",
+      "her-naeun",
       "park-sunyoung",
-      "park-soyoung",
-      "kwon-soyoung",
       "lee-gaeun",
       "kim-hyerim",
-      "kim-minjin"
+      "kim-minjin",
+      "kwon-soyoung",
+      "kim-woonggyeom",
+      "kim-hojun",
+      "kim-taehwan",
+      "kim-jeongseo",
+      "kim-chanhee"
+    ],
+    "support":[
+      "ABLY",
+      "LA TERRACE"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kim-hyerim", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "kim-woonggyeom", "covered_group": "ASTRO", "covered_member": "차은우" },
+      { "member_id": "kim-hojun", "covered_group": "ASTRO", "covered_member": "산하" },
+      { "member_id": "kim-taehwan", "covered_group": "ASTRO", "covered_member": "라키" },
+      { "member_id": "kim-jeongseo", "covered_group": "ASTRO", "covered_member": "진진" },
+      { "member_id": "kim-chanhee", "covered_group": "ASTRO", "covered_member": "MJ" }
     ],
     "published_date": "2020-06-27",
     "content_type": "video",
     "view_count": 483905,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "3cmweletp3o",
@@ -106260,12 +106388,29 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "oh-yubin"
+      "park-soyoung",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "oh-yubin",
+      "park-damhee",
+      "lee-gaeun",
+      "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "yun-haeun", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-06-21",
     "content_type": "video",
     "view_count": 3045169,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "DzCuEOuUiUo",
@@ -106587,20 +106732,29 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "ahn-yoojin", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-06-16",
     "content_type": "video",
     "view_count": 2505163,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "SnUAhILKnXE",
@@ -106927,20 +107081,34 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
-      "ahn-yoojin",
       "ha-seyoung",
+      "ahn-yoojin",
+      "lee-gaeun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-minjin",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "support":[
+      "캘리포니아 비치 경주월드",
+      "SIMPLEY"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "ahn-yoojin", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-06-02",
     "content_type": "video",
     "view_count": 4241048,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "hdjELzc6lwk",
@@ -106949,6 +107117,12 @@
       "오마이걸"
     ],
     "tagged_members": [
+      "park-soyoung",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "oh-yubin",
+      "park-damhee",
+      "lee-gaeun",
       "kim-minjin"
     ],
     "published_date": "2020-05-22",
@@ -107004,17 +107178,32 @@
     "covered_group": [
       "오마이걸"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-damhee",
+      "kwon-soyoung",
+      "yun-jihong",
+      "park-soyoung",
+      "lee-moonkyu",
+      "kim-woonggyeom",
+      "park-sunyoung",
+      "kim-chanhee",
+      "lee-gaeun",
+      "lee-heejin",
+      "kim-junseok",
+      "her-naeun"
+    ],
     "published_date": "2020-05-18",
     "content_type": "video",
     "view_count": 1247437,
-    "content_series": []
+    "content_series": [
+      "챌린지"
+    ]
   },
   {
     "youtube_id": "2fV0LHiSaIM",
     "title": "NCT DREAM - RIDIN' | 커버댄스 DANCE COVER | 연습실 PRACTICE ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -107032,8 +107221,7 @@
     "youtube_id": "Ks1N0M_9jtw",
     "title": "NCT127 - Cherry Bomb | 커버댄스 DANCE COVER | 연습실 PRACTICE ver.",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -107058,20 +107246,28 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
+      "yoon-taegyeong",
       "yun-haeun",
       "oh-yubin",
+      "park-damhee",
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "yun-haeun", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-05-13",
     "content_type": "video",
     "view_count": 538480,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2020y"
     ]
   },
   {
@@ -107081,20 +107277,28 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
+      "yoon-taegyeong",
       "yun-haeun",
       "oh-yubin",
+      "park-damhee",
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "yun-haeun", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-05-13",
     "content_type": "video",
     "view_count": 596063,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -107120,19 +107324,36 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
       "park-soyoung",
-      "kwon-soyoung",
-      "lee-gaeun",
+      "yoon-taegyeong",
       "yun-haeun",
       "oh-yubin",
+      "park-damhee",
+      "lee-gaeun",
       "kim-minjin"
+    ],
+    "sponsors":[
+      "ABLY"
+    ],
+    "support":[
+      "LARGO CAFE"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "yoon-taegyeong", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "yun-haeun", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2020-05-11",
     "content_type": "video",
     "view_count": 888978,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "fpwvO8f41CU",
@@ -112259,7 +112480,13 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "kwon-soyoung"
+      "park-soyoung",
+      "park-damhee",
+      "park-sunyoung",
+      "lee-gaeun",
+      "kwon-soyoung",
+      "oh-yubin",
+      "kim-minjin"
     ],
     "published_date": "2019-10-12",
     "content_type": "video",
@@ -113617,28 +113844,35 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
+      "park-damhee",
+      "park-sunyoung",
       "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-08-31",
     "content_type": "video",
     "view_count": 120753,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "yqZcu6UWR-o",
     "title": "NCT 127 엔시티 127 - Superhuman | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -113658,19 +113892,32 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
+      "park-damhee",
+      "park-sunyoung",
       "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "support":[
+      "리조트 스파밸리"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-08-30",
     "content_type": "video",
     "view_count": 1174605,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "Gp-jWFiQAmY",
@@ -113679,19 +113926,36 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-sunyoung",
       "park-soyoung",
-      "kwon-soyoung",
+      "park-damhee",
+      "park-sunyoung",
       "lee-gaeun",
+      "kwon-soyoung",
       "oh-yubin",
       "kim-minjin"
+    ],
+    "sponsors":[
+      "소녀나라"
+    ],
+    "support":[
+      "이동진 스튜디오"
+    ],
+    "role_mapping":[
+      { "member_id": "park-soyoung", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "oh-yubin", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "kim-minjin", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-08-29",
     "content_type": "video",
     "view_count": 211379,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "aQ_sY9lzo3I",
@@ -115236,18 +115500,29 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
+      "kim-eunbin",
       "lee-gaeun",
-      "yun-haeun"
+      "park-damhee",
+      "lee-sieun",
+      "park-soyoung",
+      "yun-haeun",
+      "minju"
+    ],
+    "sponsors":[],
+    "role_mapping":[
+      { "member_id": "kim-eunbin", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-05-23",
     "content_type": "video",
     "view_count": 135697,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -115267,18 +115542,35 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
+      "kim-eunbin",
       "lee-gaeun",
-      "yun-haeun"
+      "park-damhee",
+      "lee-sieun",
+      "park-soyoung",
+      "yun-haeun",
+      "minju"
+    ],
+    "support":[
+      "대구아쿠아리움"
+    ],
+    "sponsors":[
+      "소녀나라",
+      "chuu"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-eunbin", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-05-21",
     "content_type": "video",
     "view_count": 451307,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -115288,17 +115580,34 @@
       "오마이걸"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho",
-      "park-soyoung",
-      "kwon-soyoung",
+      "kim-eunbin",
       "lee-gaeun",
-      "yun-haeun"
+      "park-damhee",
+      "lee-sieun",
+      "park-soyoung",
+      "yun-haeun",
+      "minju"
+    ],
+    "sponsors":[
+      "소녀나라",
+      "chuu"
+    ],
+    "role_mapping":[
+      { "member_id": "kim-eunbin", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "아린" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" }
     ],
     "published_date": "2019-05-20",
     "content_type": "video",
     "view_count": 289748,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "sSyXxEKsVsw",
@@ -122082,7 +122391,7 @@
     "title": "[AB] 오마이걸 OH MY GIRL - 비밀정원 SECRET GARDEN | 커버댄스 DANCE COVER",
     "covered_group": [
       "오마이걸"
-    ],
+    ],    
     "tagged_members": [
       "hwang-dagun",
       "kim-eunbin",
@@ -122091,6 +122400,18 @@
       "her-naeun",
       "lee-gaeun",
       "park-damhee"
+    ],
+    "support":[
+      "소녀나라"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-dagun", "covered_group": "오마이걸", "covered_member": "미미" },
+      { "member_id": "kim-eunbin", "covered_group": "오마이걸", "covered_member": "유아" },
+      { "member_id": "kwon-soyoung", "covered_group": "오마이걸", "covered_member": "비니" },
+      { "member_id": "park-sunyoung", "covered_group": "오마이걸", "covered_member": "승희" },
+      { "member_id": "her-naeun", "covered_group": "오마이걸", "covered_member": "효정" },
+      { "member_id": "lee-gaeun", "covered_group": "오마이걸", "covered_member": "지호" },
+      { "member_id": "park-damhee", "covered_group": "오마이걸", "covered_member": "아린" }
     ],
     "published_date": "2018-02-18",
     "content_type": "video",
