@@ -90235,16 +90235,31 @@
       "조유리"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "lee-gaeun"
+    ],
+    "special_dancers":[
+      "yoon-taegyeong",
+      "ahn-yoojin"
+    ],
+    "support":[
+      "GoPro"
+    ],
+    "sponsors":[
+      "한밭대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "yun-haeun", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "kim-minjin", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "lee-gaeun", "covered_group": "조유리", "covered_member": "조유리" }
     ],
     "published_date": "2021-12-01",
     "content_type": "video",
     "view_count": 790633,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "JLN4w27G-3E",
@@ -91661,11 +91676,18 @@
       "조유리"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
       "kim-minjin",
-      "yoon-taegyeong"
+      "lee-gaeun"
+    ],
+    "special_dancers":[
+      "yoon-taegyeong",
+      "ahn-yoojin"
+    ],
+    "role_mapping":[
+      { "member_id": "yun-haeun", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "kim-minjin", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "lee-gaeun", "covered_group": "조유리", "covered_member": "조유리" }
     ],
     "published_date": "2021-10-22",
     "content_type": "video",
@@ -91827,16 +91849,26 @@
       "조유리"
     ],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
       "kim-minjin",
-      "jeong-yoojin"
+      "lee-gaeun"
+    ],
+    "special_dancers":[
+      "yoon-taegyeong",
+      "ahn-yoojin"
+    ],
+    "role_mapping":[
+      { "member_id": "yun-haeun", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "kim-minjin", "covered_group": "조유리", "covered_member": "조유리" },
+      { "member_id": "lee-gaeun", "covered_group": "조유리", "covered_member": "조유리" }
     ],
     "published_date": "2021-10-16",
     "content_type": "video",
     "view_count": 199640,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "-zrwon9nwtY",
