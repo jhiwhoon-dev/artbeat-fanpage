@@ -100674,11 +100674,21 @@
       "유아"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "park-damhee",
       "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "support":[
+      "수성대학교"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kwon-soyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "lee-gaeun", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "ha-seyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kim-hyerim", "covered_group": "유아", "covered_member": "유아" }
     ],
     "published_date": "2020-12-13",
     "content_type": "video",
@@ -102017,17 +102027,24 @@
       "유아"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "park-damhee",
       "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kwon-soyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "lee-gaeun", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "ha-seyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kim-hyerim", "covered_group": "유아", "covered_member": "유아" }
     ],
     "published_date": "2020-10-26",
     "content_type": "video",
     "view_count": 171374,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -102094,16 +102111,30 @@
       "유아"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "park-damhee",
       "kwon-soyoung",
       "lee-gaeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
+    "support":[
+      "SIMPLEY",
+      "ART RAUM"
+    ],
+    "role_mapping":[
+      { "member_id": "park-damhee", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kwon-soyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "lee-gaeun", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "ha-seyoung", "covered_group": "유아", "covered_member": "유아" },
+      { "member_id": "kim-hyerim", "covered_group": "유아", "covered_member": "유아" }
     ],
     "published_date": "2020-10-23",
     "content_type": "video",
     "view_count": 316014,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "SWhwJ_nRf5E",
