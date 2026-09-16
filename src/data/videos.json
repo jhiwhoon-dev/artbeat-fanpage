@@ -2366,7 +2366,8 @@
     "youtube_id": "57kJBjDUlwg",
     "title": "첫만남에 술부터 까기 | 아트비트 본편 EP.04 | DAYOUNG X JAY PARK - FLIRTY",
     "covered_group": [
-      "DAYOUNG"
+      "DAYOUNG",
+      "박재범"
     ],
     "tagged_members": [
       "ahn-gihyun",
@@ -52752,6 +52753,14 @@
       "kang-taehyun",
       "yun-haeun"
     ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-gihyun", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "jeong-hyunjin", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "kang-taehyun", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "yun-haeun", "covered_group": "투어스", "covered_member": "경민" }
+    ],
     "published_date": "2024-05-24",
     "content_type": "video",
     "view_count": 139302,
@@ -53425,17 +53434,26 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "jang-sein",
       "jeong-gyeolgyeong",
+      "ahn-yoojin",
       "jeong-hyunjin",
-      "jeong-yoojin"
+      "jang-sein",
+      "yun-haeun"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-yoojin", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "jeong-hyunjin", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "jang-sein", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "yun-haeun", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-05-15",
     "content_type": "video",
     "view_count": 239062,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "8TSDD78B_sM",
@@ -53970,18 +53988,27 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "hwang-jiho",
-      "lim-donghun",
-      "chae-yunsu",
+      "kim-suhwan",
       "ahn-gihyun",
+      "lim-donghun",
       "yang-hwanhee",
-      "shim-jiho"
+      "chae-yunsu"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "kim-suhwan", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-gihyun", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "lim-donghun", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "yang-hwanhee", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "chae-yunsu", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-05-05",
     "content_type": "video",
     "view_count": 183273,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "y__sEga92J0",
@@ -56661,12 +56688,19 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "jang-sein",
       "jeong-gyeolgyeong",
+      "ahn-yoojin",
       "jeong-hyunjin",
-      "jeong-yoojin"
+      "jang-sein",
+      "yun-haeun"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-yoojin", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "jeong-hyunjin", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "jang-sein", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "yun-haeun", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-18",
     "content_type": "video",
@@ -56736,18 +56770,25 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "jang-sein",
       "jeong-gyeolgyeong",
+      "ahn-yoojin",
       "jeong-hyunjin",
-      "jeong-yoojin"
+      "jang-sein",
+      "yun-haeun"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-yoojin", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "jeong-hyunjin", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "jang-sein", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "yun-haeun", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-14",
     "content_type": "video",
     "view_count": 291810,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -56779,13 +56820,20 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "hwang-jiho",
-      "lim-donghun",
-      "chae-yunsu",
+      "kim-suhwan",
       "ahn-gihyun",
+      "lim-donghun",
       "yang-hwanhee",
-      "shim-jiho"
+      "chae-yunsu"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "kim-suhwan", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-gihyun", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "lim-donghun", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "yang-hwanhee", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "chae-yunsu", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-13",
     "content_type": "video",
@@ -56823,19 +56871,26 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "hwang-jiho",
-      "lim-donghun",
-      "chae-yunsu",
+      "kim-suhwan",
       "ahn-gihyun",
+      "lim-donghun",
       "yang-hwanhee",
-      "shim-jiho"
+      "chae-yunsu"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "kim-suhwan", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-gihyun", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "lim-donghun", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "yang-hwanhee", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "chae-yunsu", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-12",
     "content_type": "video",
     "view_count": 729151,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -56856,17 +56911,27 @@
     ],
     "tagged_members": [
       "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "jang-sein",
       "jeong-gyeolgyeong",
+      "ahn-yoojin",
       "jeong-hyunjin",
-      "jeong-yoojin"
+      "jang-sein",
+      "yun-haeun"
+    ],
+    "role_mapping":[
+      { "member_id": "lee-gaeun", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "jeong-gyeolgyeong", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-yoojin", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "jeong-hyunjin", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "jang-sein", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "yun-haeun", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-11",
     "content_type": "video",
     "view_count": 155659,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "IpQ2ijC0Dp4",
@@ -56962,18 +57027,28 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-suhwan",
       "hwang-jiho",
-      "lim-donghun",
-      "chae-yunsu",
+      "kim-suhwan",
       "ahn-gihyun",
+      "lim-donghun",
       "yang-hwanhee",
-      "shim-jiho"
+      "chae-yunsu"
+    ],
+    "role_mapping":[
+      { "member_id": "hwang-jiho", "covered_group": "투어스", "covered_member": "신유" },
+      { "member_id": "kim-suhwan", "covered_group": "투어스", "covered_member": "도훈" },
+      { "member_id": "ahn-gihyun", "covered_group": "투어스", "covered_member": "영재" },
+      { "member_id": "lim-donghun", "covered_group": "투어스", "covered_member": "한진" },
+      { "member_id": "yang-hwanhee", "covered_group": "투어스", "covered_member": "지훈" },
+      { "member_id": "chae-yunsu", "covered_group": "투어스", "covered_member": "경민" }
     ],
     "published_date": "2024-02-09",
     "content_type": "video",
     "view_count": 159181,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "Y4nqqi8JtOM",
@@ -88789,7 +88864,7 @@
     "content_type": "video",
     "view_count": 25307,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "자기소개::A2Be::2022y"
     ]
   },
   {
