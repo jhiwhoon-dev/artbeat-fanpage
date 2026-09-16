@@ -35587,19 +35587,26 @@
       "제니"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "kim-suhwan",
-      "hwang-jiho",
-      "kim-youngjin",
-      "park-seongmin",
-      "lee-gaeun",
       "ha-seyoung",
       "oh-yubin",
-      "jang-sein",
-      "kim-nakyeong",
-      "lee-jeonghee",
+      "lee-gaeun"
+    ],
+    "special_dancers":[
+      "kim-taehwan",
+      "kim-suhwan",
       "kang-jaesin",
+      "park-seongmin",
+      "hwang-jiho",
+      "kim-youngjin",
+      "lee-jeonghee",
+      "kim-nakyeong",
+      "jang-sein",
       "kim-chan"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "제니", "covered_member": "제니" },
+      { "member_id": "oh-yubin", "covered_group": "제니", "covered_member": "제니" },
+      { "member_id": "lee-gaeun", "covered_group": "제니", "covered_member": "제니" }
     ],
     "published_date": "2025-05-13",
     "content_type": "video",
@@ -37831,7 +37838,9 @@
     "tagged_members": [
       "ha-seyoung",
       "oh-yubin",
-      "lee-gaeun",
+      "lee-gaeun"
+    ],
+    "special_dancers":[
       "kim-taehwan",
       "kim-suhwan",
       "kang-jaesin",
@@ -37842,6 +37851,11 @@
       "kim-nakyeong",
       "jang-sein",
       "kim-chan"
+    ],
+    "role_mapping":[
+      { "member_id": "ha-seyoung", "covered_group": "제니", "covered_member": "제니" },
+      { "member_id": "oh-yubin", "covered_group": "제니", "covered_member": "제니" },
+      { "member_id": "lee-gaeun", "covered_group": "제니", "covered_member": "제니" }
     ],
     "published_date": "2025-04-22",
     "content_type": "video",
