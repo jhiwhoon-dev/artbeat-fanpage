@@ -2,9 +2,21 @@
   {
     "youtube_id": "STJ6wyxHnOY",
     "title": "Sun-kissed voice~✌🏻 #SUNKISS #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TUIDE"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "yun-haeun",
+      "ha-seyoung",
+      "oh-yubin",
+      "kim-nakyeong",
+      "yu-minhye",
+      "lee-seonu",
+      "kang-yejin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -21,25 +33,57 @@
       "TUIDE"
     ],
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ],
     "tagged_members": [
       "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
-      "kang-yejin",
-      "park-seoyeon",
       "kim-nakyeong",
-      "lee-yoobin",
-      "lee-seonu",
       "yu-minhye",
-      "choi-sunwoo",
-      "min"
+      "lee-seonu",
+      "kang-yejin"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TUIDE",
+        "covered_member": "서희"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TUIDE",
+        "covered_member": "서연"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TUIDE",
+        "covered_member": "지아"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "TUIDE",
+        "covered_member": "사키"
+      },
+      {
+        "member_id": "yu-minhye",
+        "covered_group": "TUIDE",
+        "covered_member": "세아"
+      },
+      {
+        "member_id": "lee-seonu",
+        "covered_group": "TUIDE",
+        "covered_member": "이하늬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "TUIDE",
+        "covered_member": "엘레나"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-09-17",
     "content_type": "video",
