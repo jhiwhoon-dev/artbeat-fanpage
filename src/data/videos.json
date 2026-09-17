@@ -68677,7 +68677,7 @@
     "youtube_id": "L8KR4x07gsY",
     "title": "[방구석 여기서요?] TREASURE (T5) - MOVE | 커버댄스 Dance Cover",
     "covered_group": [
-      "TREASURE"
+      "TREASURE::T5"
     ],
     "tagged_members": [
       "kim-hojun",
@@ -68685,6 +68685,33 @@
       "ha-seyoung",
       "hwang-jiho",
       "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "TREASURE::T5",
+        "covered_member": "준규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "TREASURE::T5",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "TREASURE::T5",
+        "covered_member": "윤재혁"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "TREASURE::T5",
+        "covered_member": "소정환"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "TREASURE::T5",
+        "covered_member": "도영"
+      }
     ],
     "published_date": "2023-07-03",
     "content_type": "video",
@@ -102572,7 +102599,9 @@
       "ahn-yoojin",
       "yun-haeun"
     ],
-    "sponsors": [],
+    "support": [
+      "수성대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "hwang-dagun",
@@ -103847,7 +103876,10 @@
       "oh-yubin",
       "lee-gaeun"
     ],
-    "sponsors": [],
+    "support": [
+      "SIMPLEY",
+      "대구경북영어마을"
+    ],
     "role_mapping": [
       {
         "member_id": "hwang-dagun",
@@ -103883,43 +103915,88 @@
     "youtube_id": "6DIO__RmFFk",
     "title": "BLACKPINK - Lovesick Girls (B Team ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "kim-hayeon",
       "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-10-20",
     "content_type": "video",
     "view_count": 399935,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "CPlfiM7mq3U",
     "title": "[AB] BLACKPINK - Lovesick Girls (B Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "kim-hayeon",
       "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "jeong-yoojin"
+      "yun-haeun"
+    ],
+    "support":[
+      "롯데백화점",
+      "SIMPLEY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-10-19",
     "content_type": "video",
     "view_count": 676602,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Arh9PvT22_Q",
@@ -104249,7 +104326,9 @@
       "lee-gaeun",
       "oh-yubin"
     ],
-    "sponsors": [],
+    "support": [
+      "K2"
+    ],
     "role_mapping": [
       {
         "member_id": "ha-seyoung",
@@ -104349,19 +104428,21 @@
     "title": "숨듣명 댄스 챌린지 | 만만하니, Sexy Love, 장난아냐, 삐리뽐 빼리뽐 | 숨어 듣는 명곡",
     "covered_group": [],
     "tagged_members": [
-      "kim-taehwan",
       "park-sunyoung",
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
+      "lee-jihoon",
       "hwang-dagun",
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "kim-hayeon",
+      "kim-taehwan",
+      "lee-seunghyun",
+      "kwon-soyoung",
+      "ahn-yoojin"
     ],
     "published_date": "2020-10-03",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 228562,
-    "content_series": []
+    "content_series": [
+      "챌린지"
+    ]
   },
   {
     "youtube_id": "ihhryKOEnoE",
@@ -104675,19 +104756,60 @@
   {
     "youtube_id": "kIjfjFE7YVA",
     "title": "VAV - Made For Two | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
-    "covered_group": [],
+    "covered_group": [
+      "VAV"
+    ],
     "tagged_members": [
+      "kim-jeongseo",
       "kim-hojun",
-      "ahn-yoojin",
+      "park-damhee",
       "ha-seyoung",
-      "jang-sein",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kim-woonggyeom",
+      "lee-jihoon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "VAV",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "VAV",
+        "covered_member": "에이노"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "VAV",
+        "covered_member": "에이스"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "VAV",
+        "covered_member": "바론"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "VAV",
+        "covered_member": "로우"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "VAV",
+        "covered_member": "세인트반"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "VAV",
+        "covered_member": "제이콥"
+      }
     ],
     "published_date": "2020-09-28",
     "content_type": "video",
     "view_count": 51600,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -104774,37 +104896,123 @@
     "youtube_id": "ZDiPa5Bi8Ck",
     "title": "[여기서요?] VAV - MADE FOR TWO | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "ROSÉ"
+      "VAV"
     ],
     "tagged_members": [
+      "kim-jeongseo",
       "kim-hojun",
-      "ahn-yoojin",
+      "park-damhee",
       "ha-seyoung",
-      "jang-sein",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kim-woonggyeom",
+      "lee-jihoon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "VAV",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "VAV",
+        "covered_member": "에이노"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "VAV",
+        "covered_member": "에이스"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "VAV",
+        "covered_member": "바론"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "VAV",
+        "covered_member": "로우"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "VAV",
+        "covered_member": "세인트반"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "VAV",
+        "covered_member": "제이콥"
+      }
     ],
     "published_date": "2020-09-27",
     "content_type": "video",
     "view_count": 130336,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "2dVkxrjmmIk",
     "title": "[AB] VAV - MADE FOR TWO | 커버댄스 Dance Cover",
     "covered_group": [
-      "ROSÉ"
+      "VAV"
     ],
     "tagged_members": [
+      "kim-jeongseo",
       "kim-hojun",
-      "ahn-yoojin",
+      "park-damhee",
       "ha-seyoung",
-      "jang-sein",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kim-woonggyeom",
+      "lee-jihoon"
+    ],
+    "support":[
+      "BLUE DOT"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "VAV",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "VAV",
+        "covered_member": "에이노"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "VAV",
+        "covered_member": "에이스"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "VAV",
+        "covered_member": "바론"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "VAV",
+        "covered_member": "로우"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "VAV",
+        "covered_member": "세인트반"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "VAV",
+        "covered_member": "제이콥"
+      }
     ],
     "published_date": "2020-09-26",
     "content_type": "video",
     "view_count": 92865,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "DcT0TLy7Fck",
@@ -104818,7 +105026,9 @@
       "lee-gaeun",
       "oh-yubin"
     ],
-    "sponsors": [],
+    "support": [
+      "계명문화대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "ha-seyoung",
@@ -104853,7 +105063,9 @@
     "youtube_id": "4_fIttT1Teo",
     "title": "그동안 감사했습니다. 그리고 드릴 말씀이 있습니다.",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-junseok"
+    ],
     "published_date": "2020-09-25",
     "content_type": "video",
     "view_count": 958153,
@@ -104929,18 +105141,44 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kwon-soyoung",
-      "ahn-yoojin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "park-sunyoung",
+      "lee-heejin",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Selena Gomez",
+        "covered_member": "Selena Gomez"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-25",
     "content_type": "video",
     "view_count": 1204933,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -104950,17 +105188,50 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kwon-soyoung",
-      "ahn-yoojin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "park-sunyoung",
+      "lee-heejin",
+      "ahn-yoojin"
+    ],
+    "support":[
+      "SIMPLEY",
+      "Eworld"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Selena Gomez",
+        "covered_member": "Selena Gomez"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITBLACKPINKZY",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-24",
     "content_type": "video",
     "view_count": 882422,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "fRekCqiDODY",
@@ -105338,17 +105609,51 @@
       "여자친구"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "kim-minjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "여자친구",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "여자친구",
+        "covered_member": "예린"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "소원"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "여자친구",
+        "covered_member": "유주"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "여자친구",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2020-09-19",
     "content_type": "video",
     "view_count": 1260276,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "kfv99W4UJc4",
@@ -105575,29 +105880,56 @@
     "youtube_id": "sP6Yrr7Chtc",
     "title": "[방구석 여기서요?] ITZY - Not Shy (A Team ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "ahn-yoojin",
+      "her-naeun",
       "ha-seyoung",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kwon-soyoung"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-17",
     "content_type": "video",
     "view_count": 2062444,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "Thxo_ueStK4",
     "title": "SuperM - 호랑이 Tiger Inside (Boys ver.) | 커버댄스 Dance Cover | 거울모드 Mirror Mode | 연습실 Practice ver.",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -105616,10 +105948,6 @@
     "youtube_id": "_wK24XduG2c",
     "title": "[AB] SuperM - 호랑이 Tiger Inside (Girls ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
@@ -105666,7 +105994,9 @@
       "lee-gaeun",
       "kim-minjin"
     ],
-    "sponsors": [],
+    "support": [
+      "계명문화대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "kim-hayeon",
@@ -105728,64 +106058,149 @@
     "youtube_id": "YTzYpZQlAcE",
     "title": "[방구석 여기서요?] 블랙핑크 BLACKPINK - Ice Cream (with Selena Gomez) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
       "kwon-soyoung",
-      "ahn-yoojin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "park-sunyoung",
+      "lee-heejin",
+      "ahn-yoojin"
+    ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Selena Gomez",
+        "covered_member": "Selena Gomez"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITBLACKPINKZY",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-13",
     "content_type": "video",
     "view_count": 6197996,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "uhxMr0yboMQ",
     "title": "ITZY - Not Shy (A Team ver.) | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
-      "ahn-yoojin",
       "ha-seyoung",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-11",
     "content_type": "video",
     "view_count": 254198,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "mD3i8-qv92E",
     "title": "[AB] ITZY - Not Shy (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
-      "ahn-yoojin",
       "ha-seyoung",
-      "jeong-yoojin"
+      "ahn-yoojin",
+      "kwon-soyoung"
+    ],
+    "support": [
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      }      
     ],
     "published_date": "2020-09-10",
     "content_type": "video",
     "view_count": 483159,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "UsmOeO7mGvI",
@@ -106069,8 +106484,9 @@
       "lee-gaeun",
       "kim-minjin"
     ],
-    "sponsors": [
-      "ABLY"
+    "support": [
+      "ABLY",
+      "9BLOCK COFFEE"
     ],
     "role_mapping": [
       {
@@ -106682,18 +107098,50 @@
       "여자친구"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "kim-minjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "여자친구",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "여자친구",
+        "covered_member": "예린"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "소원"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "여자친구",
+        "covered_member": "유주"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "여자친구",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2020-07-30",
     "content_type": "video",
     "view_count": 163621,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -106703,17 +107151,55 @@
       "여자친구"
     ],
     "tagged_members": [
-      "park-sunyoung",
       "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
-      "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung",
+      "her-naeun",
+      "park-sunyoung",
+      "kim-minjin"
+    ],
+    "support":[
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "여자친구",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "여자친구",
+        "covered_member": "예린"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "소원"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "여자친구",
+        "covered_member": "유주"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "여자친구",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2020-07-29",
     "content_type": "video",
     "view_count": 467347,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "-6CHLQ68-Hk",
@@ -106850,19 +107336,54 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
       "kwon-soyoung",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
       "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung"
+    ],
+    "support":[
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Apink",
+        "covered_member": "나은"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      }
     ],
     "published_date": "2020-07-24",
     "content_type": "video",
     "view_count": 2973271,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "rtGNlbIaLYU",
@@ -108266,18 +108787,34 @@
     ],
     "tagged_members": [
       "park-munsu",
-      "park-soyoung",
+      "seo-jaemin"
+    ],
+    "special_dancers":[
+      "kim-hyerim",
+      "yoon-taegyeong",
       "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
       "ahn-yoojin",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-06-24",
     "content_type": "video",
     "view_count": 1601753,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "p2lY1hJmnqo",
@@ -109699,8 +110236,7 @@
     "youtube_id": "fpwvO8f41CU",
     "title": "[AB x PROSPECS] NCT 127 - Cherry Bomb | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -109723,20 +110259,50 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
       "kwon-soyoung",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
       "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Apink",
+        "covered_member": "나은"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      }
     ],
     "published_date": "2020-05-03",
     "content_type": "video",
     "view_count": 512639,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -109746,13 +110312,14 @@
       "Apink"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 84605,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "ftbQs6DCtKA",
@@ -109766,7 +110333,9 @@
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 41920,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "VFW6Rk3NNls",
@@ -109780,7 +110349,9 @@
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 54560,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "cGdiol0XwGQ",
@@ -109789,13 +110360,14 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kwon-soyoung"
     ],
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 32269,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "M1YVEcuXXrM",
@@ -109809,7 +110381,9 @@
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 490943,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "1qjDoUwl-P0",
@@ -109823,7 +110397,9 @@
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 64974,
-    "content_series": []
+    "content_series": [
+      "AB 직캠"
+    ]
   },
   {
     "youtube_id": "UzJE8gJZUbY",
@@ -109832,19 +110408,58 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
       "kwon-soyoung",
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ahn-yoojin",
       "kim-minjin",
-      "jeong-yoojin"
+      "ha-seyoung"
+    ],
+    "support":[
+      "CAFE MNT"
+    ],
+    "sponsors":[
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Apink",
+        "covered_member": "나은"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      }
     ],
     "published_date": "2020-05-02",
     "content_type": "video",
     "view_count": 1037935,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "mbhrXxjGq-8",
@@ -109868,19 +110483,28 @@
       "태민"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "seo-jaemin"
+    ],
+    "special_dancers":[
+      "kim-hyerim",
+      "yoon-taegyeong",
       "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
       "ahn-yoojin",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-04-27",
     "content_type": "video",
     "view_count": 297680,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -109890,20 +110514,28 @@
       "태민"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
+      "park-munsu"
+    ],
+    "special_dancers":[
+      "kim-hyerim",
+      "yoon-taegyeong",
       "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
       "ahn-yoojin",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-04-26",
     "content_type": "video",
     "view_count": 114405,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -109913,18 +110545,31 @@
       "태민"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "seo-jaemin"
+    ],
+    "special_dancers":[
+      "kim-hyerim",
+      "yoon-taegyeong",
       "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
       "ahn-yoojin",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-04-25",
     "content_type": "video",
     "view_count": 365991,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y",
+      "DANCE COVER MV::abAB"
+    ]
   },
   {
     "youtube_id": "TGZhCvxH4f0",
@@ -110195,25 +110840,36 @@
       "태민"
     ],
     "tagged_members": [
-      "park-munsu",
-      "park-soyoung",
+      "park-munsu"
+    ],
+    "special_dancers":[
+      "kim-hyerim",
+      "yoon-taegyeong",
       "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
       "ahn-yoojin",
-      "kim-hyerim",
-      "jeong-yoojin"
+      "kwon-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-04-17",
     "content_type": "video",
     "view_count": 176800,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y",
+      "DANCE COVER MV::abAB"
+    ]
   },
   {
     "youtube_id": "dywgvv43QP8",
     "title": "ITZY - WANNABE (B Team ver.) | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -110234,7 +110890,6 @@
     "youtube_id": "dNj18FJ-Erc",
     "title": "[AB] ITZY - WANNABE (B Team ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -110360,9 +111015,11 @@
       "oh-yubin"
     ],
     "published_date": "2020-04-01",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 214713,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "UNb62oagcKU",
@@ -110372,9 +111029,11 @@
       "gyungmin"
     ],
     "published_date": "2020-03-31",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 35133,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "MUOrnBFByQ0",
@@ -110384,9 +111043,11 @@
       "kim-chanhee"
     ],
     "published_date": "2020-03-30",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 42847,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "Xb1FXvvkwVU",
@@ -110396,9 +111057,11 @@
       "lee-jihoon"
     ],
     "published_date": "2020-03-30",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 24293,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "LuqspdEPGV4",
@@ -110410,7 +111073,9 @@
     "published_date": "2020-03-29",
     "content_type": "video",
     "view_count": 134234,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "EP2dfrIE0r4",
@@ -110422,7 +111087,9 @@
     "published_date": "2020-03-29",
     "content_type": "video",
     "view_count": 200166,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "C_DJHBxZ-_Y",
@@ -110434,7 +111101,9 @@
     "published_date": "2020-03-28",
     "content_type": "video",
     "view_count": 116574,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "naOU_SyEVF8",
@@ -110446,34 +111115,37 @@
     "published_date": "2020-03-28",
     "content_type": "video",
     "view_count": 219045,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "UVoYzj7-rEE",
     "title": "[도현.zip] AB 멤버별 하이라이트 몰아보기! 하이텐션🕺 도현 모음.zip",
-    "covered_group": [
-      "TEN"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "kwon-dohyun"
     ],
     "published_date": "2020-03-27",
     "content_type": "video",
     "view_count": 35605,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "4yyTqCfsNBo",
     "title": "[유진.zip] AB 멤버별 하이라이트 몰아보기! 불꽃카리스마💥 유진 모음.zip",
     "covered_group": [],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2020-03-27",
     "content_type": "video",
     "view_count": 65099,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "s-D3Vmt1XlE",
@@ -110485,7 +111157,9 @@
     "published_date": "2020-03-27",
     "content_type": "video",
     "view_count": 40111,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "_CvV9S8FzP4",
@@ -110497,7 +111171,9 @@
     "published_date": "2020-03-26",
     "content_type": "video",
     "view_count": 91214,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "DgCNdD29dHw",
@@ -110509,7 +111185,9 @@
     "published_date": "2020-03-26",
     "content_type": "video",
     "view_count": 34444,
-    "content_series": []
+    "content_series": [
+      "멤버.zip"
+    ]
   },
   {
     "youtube_id": "QZn6ooKMESM",
@@ -111575,19 +112253,53 @@
     "youtube_id": "QmcgUiHqNoE",
     "title": "아이콘 iKON - 뛰어들게 Dive | 커버댄스 DANCE COVER  | 안무거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "IVE"
+      "iKON"
     ],
     "tagged_members": [
       "kim-hojun",
       "hwang-dagun",
+      "kim-youngjae",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "kim-chanhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2020-02-24",
     "content_type": "video",
     "view_count": 156962,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -111619,35 +112331,117 @@
     "youtube_id": "0r-imYrMWJg",
     "title": "[여기서요?] 아이콘 iKON - 뛰어들게 Dive | 커버댄스 DANCE COVER @팔공산",
     "covered_group": [
-      "IVE"
+      "iKON"
     ],
     "tagged_members": [
       "kim-hojun",
       "hwang-dagun",
+      "kim-youngjae",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "kim-chanhee"
+    ],
+    "sponsors":[
+      "울트라패션"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2020-02-22",
     "content_type": "video",
     "view_count": 230264,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "RqjeSUzvbME",
     "title": "[AB] 아이콘 iKON - 뛰어들게 Dive | 커버댄스 DANCE COVER",
     "covered_group": [
-      "IVE"
+      "iKON"
     ],
     "tagged_members": [
       "kim-hojun",
       "hwang-dagun",
+      "kim-youngjae",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seo-jaemin",
+      "kim-chanhee"
+    ],
+    "support":[
+      "메종 듀 미디"
+    ],
+    "sponsors":[
+      "울트라패션"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2020-02-21",
     "content_type": "video",
     "view_count": 484147,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "MGMyfxYGUPY",
@@ -114568,15 +115362,47 @@
     "youtube_id": "6uRkswLGzGA",
     "title": "[AB야 학교가자] PRODUCE X 101 - 움직여 MOVE | 커버댄스 Dance Cover | 안동여자중학교 | KPOP in SCHOOL",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "kim-hyerim",
       "seo-jaemin",
       "kim-jaewook",
       "gyungmin",
       "her-naeun",
+      "kim-hyerim",
       "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-10-24",
     "content_type": "video",
@@ -115501,16 +116327,90 @@
     "youtube_id": "HfS00v7tOkI",
     "title": "[여기서요?] PRODUCE X 101 - 움직여 MOVE (Boys & Girls ver.) | SIXC | 커버댄스 DANCE COVER @SBS슈퍼콘서트",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
+      "lee-moonkyu",
+      "kim-jaewook",
+      "gyungmin",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-youngjae",
+      "lee-sieun",
+      "park-damhee",
+      "ha-seyoung",
+      "her-naeun",
       "kim-hyerim",
-      "ha-seyoung"
+      "choi-nara"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-10-09",
     "content_type": "video",
     "view_count": 3800811,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "z5jUwVoKPuQ",
@@ -116165,17 +117065,80 @@
     "youtube_id": "PD-fj2urD2Y",
     "title": "[AB야 학교가자] U GOT IT + MOVE (움직여) | 커버댄스 Dance Cover | 광주 운남고등학교 | KPOP in SCHOOL",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::갓츄",
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "choi-nara",
       "lee-moonkyu",
       "park-jaebum",
       "kim-jaewook",
-      "lee-jihoon",
+      "jihooni",
       "seo-jaemin",
+      "ha-seyoung",
       "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김우석"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김요한"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "한승우"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "차준호"
+      },
+      {
+        "member_id": "jihooni",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "이은상"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "황윤성"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-09-22",
     "content_type": "video",
@@ -116857,18 +117820,82 @@
     "youtube_id": "aQ_sY9lzo3I",
     "title": "[AB야 학교가자] U GOT IT + MOVE (움직여) | 커버댄스 Dance Cover | 경북여자고등학교 | KPOP in SCHOOL",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::갓츄",
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "seo-jaemin",
       "choi-nara",
       "kim-woonggyeom",
       "park-jaebum",
       "kim-jaewook",
-      "lee-jihoon",
+      "jihooni",
+      "seo-jaemin",
       "lee-moonkyu",
       "gyungmin",
-      "jin-hyunwoo"
+      "jin-hyunwoo",
+      "kim-youngjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김우석"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김요한"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "한승우"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "차준호"
+      },
+      {
+        "member_id": "jihooni",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "이은상"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "황윤성"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-28",
     "content_type": "video",
@@ -116913,48 +117940,173 @@
     "youtube_id": "TarABMEgBDk",
     "title": "PRODUCE X 101 - 움직여 MOVE (Girls ver.) | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
+      "ha-seyoung",
+      "her-naeun",
       "kim-hyerim",
-      "ha-seyoung"
+      "choi-nara"
+    ],
+    "support":[
+      "the wash"
+    ],
+    "sponsors":[
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-24",
     "content_type": "video",
     "view_count": 1866876,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "XX8bVgR_oD4",
     "title": "[여기서요?] PRODUCE X 101 - 움직여 MOVE (Girls ver.) | SIXC | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
+      "ha-seyoung",
+      "her-naeun",
       "kim-hyerim",
-      "ha-seyoung"
+      "choi-nara"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-23",
     "content_type": "video",
     "view_count": 1753667,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "51ukmvBh9ko",
     "title": "[AB] PRODUCE X 101 - 움직여 MOVE (Girls ver.) | SIXC | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
+      "lee-sieun",
+      "park-damhee",
+      "ha-seyoung",
+      "her-naeun",
       "kim-hyerim",
-      "ha-seyoung"
+      "choi-nara"
+    ],
+    "support":[
+      "the wash"
+    ],
+    "sponsors":[
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-22",
     "content_type": "video",
     "view_count": 652682,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "DXH0NKkd-IY",
@@ -117147,47 +118299,167 @@
     "youtube_id": "WqSR-pN1e_8",
     "title": "PRODUCE X 101 - 움직여 MOVE (Boys ver.) | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "seo-jaemin"
+      "lee-moonkyu",
+      "kim-jaewook",
+      "gyungmin",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-youngjae"
+    ],
+    "support":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-14",
     "content_type": "video",
     "view_count": 2248951,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "TV8wfwoM2Hs",
     "title": "[여기서요?] PRODUCE X 101 - 움직여 MOVE (Boys ver.) | SIXC | 커버댄스 DANCE COVER @다이아 페스티벌",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "seo-jaemin"
+      "lee-moonkyu",
+      "kim-jaewook",
+      "gyungmin",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-youngjae"
+    ],
+    "support":[],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-13",
     "content_type": "video",
     "view_count": 939664,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y",
+      "행사::2019y"
     ]
   },
   {
     "youtube_id": "104_c1rmt10",
     "title": "[AB] PRODUCE X 101 - 움직여 MOVE (Boys ver.) | SIXC | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::SIXC"
     ],
     "tagged_members": [
-      "seo-jaemin"
+      "lee-moonkyu",
+      "kim-jaewook",
+      "gyungmin",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-youngjae"
+    ],
+    "support":[
+      "BEWOOF"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김현빈"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "김국헌"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이한결"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "이진혁"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "조승연"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "PRODUCE 101::SIXC",
+        "covered_member": "최병찬"
+      }
     ],
     "published_date": "2019-08-12",
     "content_type": "video",
     "view_count": 482057,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "MXan3nFybgw",
@@ -117683,16 +118955,60 @@
     "covered_group": [],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "ahn-yoojin",
+      "jinhee",
       "ha-seyoung",
-      "jeong-yoojin"
+      "her-naeun",
+      "hwang-dagun",
+      "kwon-soyoung",
+      "lee-sieun"
+    ],
+    "sponsors":[
+      "소녀나라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "CLC",
+        "covered_member": "승연"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "CLC",
+        "covered_member": "엘키"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "CLC",
+        "covered_member": "예은"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "CLC",
+        "covered_member": "은빈"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "CLC",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "CLC",
+        "covered_member": "승희"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "CLC",
+        "covered_member": "손"
+      }
     ],
     "published_date": "2019-07-05",
     "content_type": "video",
     "view_count": 160249,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "DMVmHVhJZJ8",
@@ -117747,20 +119063,60 @@
   {
     "youtube_id": "Jwdw0loItDY",
     "title": "[여기서요?] CLC - ME (美) | 커버댄스 DANCE COVER | KPOP IN PUBLIC @뮤지컬 거리",
-    "covered_group": [],
+    "covered_group": [
+      "CLC"
+    ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "hwang-dagun",
-      "ahn-yoojin",
+      "jinhee",
       "ha-seyoung",
-      "jeong-yoojin"
+      "her-naeun",
+      "hwang-dagun",
+      "kwon-soyoung",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "CLC",
+        "covered_member": "승연"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "CLC",
+        "covered_member": "엘키"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "CLC",
+        "covered_member": "예은"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "CLC",
+        "covered_member": "은빈"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "CLC",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "CLC",
+        "covered_member": "승희"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "CLC",
+        "covered_member": "손"
+      }
     ],
     "published_date": "2019-07-01",
     "content_type": "video",
     "view_count": 1102219,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -123983,22 +125339,19 @@
   {
     "youtube_id": "bDb7ZhmYLUE",
     "title": "[세종대 글로벌지식평생교육원 무용학전공 실용무용] PROMOTION VIDEO 2018",
-    "covered_group": [
-      "IVE"
-    ],
-    "tagged_members": [
-      "jeong-yoojin"
-    ],
+    "covered_group": [],
+    "tagged_members": [],
     "published_date": "2018-09-12",
     "content_type": "video",
     "view_count": 123587,
-    "content_series": []
+    "content_series": [
+      "PROMOTION VIDEO::2018y"
+    ]
   },
   {
     "youtube_id": "oo1cA8B8aBI",
     "title": "춤연습 리얼 사운드 [DANCE ASMR] (여자)아이들 (G)IDLE - 한(一) HANN | AB PROJECT",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [],
@@ -124013,7 +125366,6 @@
     "youtube_id": "kkH6TYYLVH4",
     "title": "[AB PRACTICE] (여자)아이들 (G)IDLE - 한(一) HANN(Alone) | 커버댄스 DANCE COVER | 연습실 ver.",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [],
@@ -124026,8 +125378,6 @@
     "youtube_id": "2zmckJaS_Mw",
     "title": "[AB] (여자)아이들 (G)IDLE - 한(一) HANN (Alone) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "수진",
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
@@ -124044,18 +125394,32 @@
   {
     "youtube_id": "tG2wwZq1WFg",
     "title": "[AB] 샤샤 SHA SHA - WHAT THE HECK | 커버댄스 DANCE COVER",
-    "covered_group": [],
+    "covered_group": [
+      "SHASHA"
+    ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
+      "kim-eunbin",
       "lee-gaeun",
+      "kwon-soyoung",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "park-damhee",
+      "her-naeun"
+    ],
+    "role_mapping": [
+      { "member_id": "kim-eunbin", "covered_group": "SHASHA", "covered_member": "고운" },
+      { "member_id": "lee-gaeun", "covered_group": "SHASHA", "covered_member": "아렴" },
+      { "member_id": "kwon-soyoung", "covered_group": "SHASHA", "covered_member": "하경" },
+      { "member_id": "ahn-yoojin", "covered_group": "SHASHA", "covered_member": "챠키" },
+      { "member_id": "park-damhee", "covered_group": "SHASHA", "covered_member": "서연" },
+      { "member_id": "her-naeun", "covered_group": "SHASHA", "covered_member": "완린" }
     ],
     "published_date": "2018-09-04",
     "content_type": "video",
     "view_count": 69353,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "0Hm4SqVTBLc",
