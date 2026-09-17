@@ -1,0 +1,315 @@
+---
+import Layout from '../layouts/Layout.astro';
+import groupInfo from '../data/artbeat_v.json';
+import allVideos from '../data/artbeat_v_videos.json';
+import members from '../data/members.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const lineup = members.filter((m) => m.artbeat_v);
+const memberMap = Object.fromEntries(lineup.map((m) => [m.id, m.nickname || m.name]));
+
+const CATEGORY_LABELS = {
+  mv: 'MV',
+  teaser: '티저',
+  behind: '비하인드',
+  stage: '무대',
+  vlog: '브이로그',
+  live: '라이브',
+};
+
+const videosData = allVideos.map((v) => ({
+  id: v.youtube_id,
+  title: v.title,
+  category: v.category ?? 'etc',
+  members: v.tagged_members ?? [],
+  date: v.published_date,
+  views: v.view_count ?? 0,
+}));
+
+function safeJson(obj) {
+  return JSON.stringify(obj).replace(/</g, '\\u003c');
+}
+---
+
+<Layout title="ARTBEAT v 영상">
+  <div class="wrap" style={`--v-accent: ${groupInfo.color ?? '#ff3b30'};`}>
+    <div class="page-head">
+      <a class="back-link" href={`${base}/artbeat-v`}>← ARTBEAT v 소개로</a>
+      <h1>{groupInfo.name} 영상 ({videosData.length})</h1>
+    </div>
+
+    <div class="controls-top">
+      <div class="filters" id="category-filters">
+        <button class="filter-btn active" data-value="__all__">전체</button>
+        {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
+          <button class="filter-btn" data-value={key}>{label}</button>
+        ))}
+      </div>
+      <div class="controls-right">
+        <input type="text" class="title-search" id="title-search" placeholder="영상 제목 검색..." />
+        <select id="sort-select" class="sort-select">
+          <option value="newest">최신순</option>
+          <option value="oldest">오래된순</option>
+          <option value="views">조회수순</option>
+        </select>
+      </div>
+    </div>
+
+    {lineup.length > 0 && (
+      <div class="filters" id="member-filters">
+        <button class="filter-btn member-filter active" data-value="__all__">멤버 전체</button>
+        {lineup.map((m) => (
+          <button class="filter-btn member-filter" data-value={m.id}>{m.nickname || m.name}</button>
+        ))}
+      </div>
+    )}
+
+    <p class="count-label" id="count-label"></p>
+    <div class="grid" id="grid"></div>
+    <button class="load-more" id="load-more" hidden>더 보기</button>
+    <p class="empty" id="empty" hidden>조건에 맞는 영상이 없어요.</p>
+  </div>
+
+  <script type="application/json" id="videos-data" set:html={safeJson(videosData)} />
+  <script type="application/json" id="member-map-data" set:html={safeJson(memberMap)} />
+  <script type="application/json" id="category-labels-data" set:html={safeJson(CATEGORY_LABELS)} />
+  <script type="application/json" id="base-data" set:html={safeJson(base)} />
+</Layout>
+
+<script>
+  interface VideoItem {
+    id: string;
+    title: string;
+    category: string;
+    members: string[];
+    date: string;
+    views: number;
+  }
+
+  function escapeHtml(s: string): string {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+  }
+
+  const DATA: VideoItem[] = JSON.parse(document.getElementById('videos-data')!.textContent!);
+  const MEMBER_MAP: Record<string, string> = JSON.parse(document.getElementById('member-map-data')!.textContent!);
+  const CATEGORY_LABELS: Record<string, string> = JSON.parse(document.getElementById('category-labels-data')!.textContent!);
+  const BASE: string = JSON.parse(document.getElementById('base-data')!.textContent!);
+
+  const PAGE_SIZE = 30;
+  let currentPage = 1;
+  let activeCategory = '__all__';
+  let activeMemberId = '__all__';
+  let sortMode = 'newest';
+  let titleQuery = '';
+
+  function getFiltered(): VideoItem[] {
+    return DATA.filter((v) => {
+      if (titleQuery && !v.title.normalize('NFC').toLowerCase().includes(titleQuery)) return false;
+      if (activeCategory !== '__all__' && v.category !== activeCategory) return false;
+      if (activeMemberId !== '__all__' && !v.members.includes(activeMemberId)) return false;
+      return true;
+    });
+  }
+
+  function cardHTML(v: VideoItem): string {
+    const memberTags = v.members
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-member" href="${BASE}/members/${id}">#${escapeHtml(MEMBER_MAP[id])}</a>`)
+      .join('');
+    const categoryLabel = CATEGORY_LABELS[v.category] ?? v.category;
+    return `
+      <div class="card">
+        <a class="thumb-link" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <span class="category-badge">${escapeHtml(categoryLabel)}</span>
+            <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
+            <span class="play">▶</span>
+          </div>
+          <p class="title">${escapeHtml(v.title)}</p>
+        </a>
+        <p class="views">조회수 ${v.views.toLocaleString()}회</p>
+        <div class="tags">${memberTags}</div>
+      </div>`;
+  }
+
+  const grid = document.getElementById('grid')!;
+  const emptyEl = document.getElementById('empty')!;
+  const loadMoreBtn = document.getElementById('load-more')!;
+  const countLabel = document.getElementById('count-label')!;
+  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+
+  function render() {
+    let filtered = getFiltered();
+    filtered = filtered.slice().sort((a, b) => {
+      if (sortMode === 'views') return b.views - a.views;
+      if (sortMode === 'oldest') return a.date.localeCompare(b.date);
+      return b.date.localeCompare(a.date);
+    });
+
+    const total = filtered.length;
+    const slice = filtered.slice(0, currentPage * PAGE_SIZE);
+
+    countLabel.textContent = `총 ${total}개 중 ${slice.length}개 표시`;
+    grid.innerHTML = slice.map(cardHTML).join('');
+    emptyEl.hidden = total > 0;
+    loadMoreBtn.hidden = slice.length >= total;
+  }
+
+  loadMoreBtn.addEventListener('click', () => {
+    currentPage++;
+    render();
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('#category-filters .filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#category-filters .filter-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCategory = btn.dataset.value ?? '__all__';
+      currentPage = 1;
+      render();
+    });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('#member-filters .filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#member-filters .filter-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMemberId = btn.dataset.value ?? '__all__';
+      currentPage = 1;
+      render();
+    });
+  });
+
+  const titleSearchInput = document.getElementById('title-search') as HTMLInputElement | null;
+  titleSearchInput?.addEventListener('input', () => {
+    titleQuery = titleSearchInput.value.trim().normalize('NFC').toLowerCase();
+    currentPage = 1;
+    render();
+  });
+
+  sortSelect?.addEventListener('change', () => {
+    sortMode = sortSelect.value;
+    currentPage = 1;
+    render();
+  });
+
+  render();
+</script>
+
+<style is:global>
+  .page-head { padding: 48px 0 24px; }
+  .back-link { font-size: 13px; color: var(--muted); text-decoration: none; }
+  .back-link:hover { color: var(--ink); }
+  .page-head h1 { font-size: 24px; margin: 16px 0 0; }
+
+  .controls-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .controls-right { display: flex; align-items: center; gap: 10px; }
+  .title-search {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: var(--ink);
+    font-size: 13px;
+    width: 220px;
+  }
+  .sort-select {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: var(--ink);
+    font-size: 13px;
+  }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .filter-btn {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .filter-btn.active { background: var(--v-accent, var(--accent)); border-color: var(--v-accent, var(--accent)); color: #0e0e10; }
+  .filter-btn:hover:not(.active) { border-color: var(--muted); }
+
+  .count-label { font-size: 13px; color: var(--muted); margin: 8px 0 20px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  .card { display: flex; flex-direction: column; }
+  .thumb-link { text-decoration: none; color: inherit; }
+  .thumb-wrap { position: relative; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; background: #1a1a1c; }
+  .thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .category-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    background: var(--v-accent, #ff3b30);
+    color: #0e0e10;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  .play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+    opacity: 0;
+    background: rgba(0,0,0,0.3);
+    transition: opacity 0.15s;
+  }
+  .thumb-link:hover .play { opacity: 1; }
+  .title { font-size: 13px; margin: 10px 0 4px; line-height: 1.4; color: var(--ink); }
+  .views { font-size: 12px; color: var(--muted); margin: 0 0 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag-member {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--line);
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .tag-member:hover { background: var(--v-accent, var(--accent)); color: #0e0e10; }
+
+  .load-more {
+    display: block;
+    margin: 32px auto 0;
+    padding: 10px 28px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .load-more:hover { border-color: var(--muted); }
+
+  .empty { color: var(--muted); font-size: 14px; margin-top: 40px; }
+</style>
+
+<style>
+  .wrap { max-width: var(--content-width); margin: 0 auto; padding: 0 24px 80px; }
+</style>

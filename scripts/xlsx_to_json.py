@@ -100,6 +100,20 @@ def build_periods(row, columns):
 
     return periods
 
+def build_artbeat_v(row, columns):
+    """artbeat_v_position / artbeat_v_debut_date를 묶어서 artbeat_v 객체로 변환.
+    둘 다 비어있으면(해당 없는 멤버) None을 반환 -> 이 경우 JSON에 artbeat_v 필드 자체를 안 넣음."""
+    if "artbeat_v_position" not in columns and "artbeat_v_debut_date" not in columns:
+        return None
+
+    position = clean(row.get("artbeat_v_position"))
+    debut_date = parse_date(row.get("artbeat_v_debut_date"))
+
+    if position is None and debut_date is None:
+        return None
+
+    return {"position": position, "debut_date": debut_date}
+
 def build_unit_periods(row, columns):
     """unit1/unit1_start/unit1_end (번호 붙은 것 포함)를 묶어서 유닛 소속 기간 배열로 변환.
     예: unit1=A2Be, unit1_start=2020-03, unit1_end=2021-08, unit2=AB PROJECT, unit2_start=2021-09
@@ -155,6 +169,7 @@ for _, row in df.iterrows():
 
     periods = build_periods(row, df.columns)
     unit_periods = build_unit_periods(row, df.columns)
+    artbeat_v = build_artbeat_v(row, df.columns)
 
     # 현재 소속 유닛: unit1~N 컬럼이 있으면 그중 가장 최근(마지막) 기간, 없으면 기존 unit 컬럼 사용 (하위호환)
     current_unit = unit_periods[-1]["unit"] if unit_periods else split_list(row.get("unit"))
@@ -177,6 +192,8 @@ for _, row in df.iterrows():
         "bio": clean(row.get("bio")),
         "sns": sns,
     }
+    if artbeat_v is not None:
+        member["artbeat_v"] = artbeat_v
     members.append(member)
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
