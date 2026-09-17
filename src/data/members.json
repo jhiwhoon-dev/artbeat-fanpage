@@ -475,6 +475,13 @@
     "unit_periods": [
       {
         "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
           "A2Be"
         ],
         "start": "2021-07",
@@ -485,13 +492,6 @@
           "AB PROJECT"
         ],
         "start": "2022-10",
-        "end": "2024-12"
-      },
-      {
-        "unit": [
-          "AB PROJECT"
-        ],
-        "start": "2026-06",
         "end": null
       }
     ],
@@ -530,6 +530,13 @@
       "AB PROJECT"
     ],
     "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
       {
         "unit": [
           "A2Be"
@@ -581,6 +588,13 @@
       "AB PROJECT"
     ],
     "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
       {
         "unit": [
           "A2Be"
@@ -1441,7 +1455,7 @@
       }
     ],
     "photo_filename": null,
-    "bio": null,
+    "bio": "mnju38",
     "sns": {
       "instagram": [
         "https://www.instagram.com/minbeen_/"
@@ -2152,9 +2166,16 @@
     "unit_periods": [
       {
         "unit": [
+          "auditionee"
+        ],
+        "start": "202104",
+        "end": "202105"
+      },
+      {
+        "unit": [
           "AB PROJECT"
         ],
-        "start": "2021-04",
+        "start": "202105",
         "end": "2023-06"
       }
     ],
@@ -2229,10 +2250,10 @@
     "unit_periods": [
       {
         "unit": [
-          "AB PROJECT"
+          "auditionee"
         ],
-        "start": "2021-03",
-        "end": "2022-01"
+        "start": "202201",
+        "end": "202202"
       },
       {
         "unit": [
@@ -2274,6 +2295,13 @@
       "AB PROJECT"
     ],
     "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
       {
         "unit": [
           "A2Be"
@@ -3935,6 +3963,13 @@
     "unit_periods": [
       {
         "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
           "A2Be"
         ],
         "start": "2021-07",
@@ -4126,6 +4161,9 @@
     "photo_filename": null,
     "bio": "오버페이트 출신. ARTBEAT 소속 댄서이다.",
     "sns": {
+      "instagram": [
+        "https://www.instagram.com/117.18/"
+      ],
       "youtube": [
         "https://www.youtube.com/@123dadyasi"
       ]
@@ -4205,6 +4243,45 @@
       ],
       "threads": [
         "https://www.threads.com/@eden_crush?xmt=AQG0byObBwhR_2AV6Er5fOJIu8ebZK4yEsAVYV6-kItKQC0"
+      ]
+    }
+  },
+  {
+    "id": "jeong-danbi",
+    "name": "정단비",
+    "name_en": "Danbi Jeong",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": null,
+        "end": null
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/dliebeb/"
       ]
     }
   },
@@ -4381,6 +4458,13 @@
     "unit_periods": [
       {
         "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
           "A2Be"
         ],
         "start": "2021-07",
@@ -4545,11 +4629,24 @@
     "unit": [
       "AB PROJECT"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "201806",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2018-06-05",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2018-06-05",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "2018 시절 정도 멤버",
     "sns": {
@@ -4570,17 +4667,35 @@
     "birth_date": "2005-10-19",
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
-    "unit_periods": [],
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "202003",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2020-03-21",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2020-03-21",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "Jxinn_2in",
     "sns": {
       "instagram": [
         "https://www.instagram.com/bikisayoh/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCZA6slTXw8avmjRQFKyQp5w"
       ]
     }
   },
@@ -4601,7 +4716,7 @@
           "AB PROJECT"
         ],
         "start": "2017-12",
-        "end": null
+        "end": "2019-08"
       }
     ],
     "status": "withdrawn",
@@ -4662,16 +4777,16 @@
         "unit": [
           "AB PROJECT"
         ],
-        "start": null,
+        "start": "201810",
         "end": null
       }
     ],
     "status": "withdrawn",
-    "joined_date": "2018",
+    "joined_date": "2018-10-01",
     "left_date": null,
     "membership_periods": [
       {
-        "joined": "2018",
+        "joined": "2018-10-01",
         "left": null
       }
     ],
@@ -4680,6 +4795,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/3rdblue_/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCOOMjw8cgZsTMVRNb7JjDLQ"
       ]
     }
   },
@@ -4830,7 +4948,22 @@
     "unit": [
       "A2Be"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
@@ -4896,12 +5029,27 @@
     "birth_date": "2001-07-27",
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
-    "unit_periods": [],
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "202003",
+        "end": "202603"
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2020-03-21",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2020-03-21",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {}
@@ -4950,7 +5098,7 @@
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": null,
+    "bio": "jihooni0811\n2018 정도 활동 멤버",
     "sns": {
       "youtube": [
         "https://www.youtube.com/channel/UC4IvoCecB24px7atdeK3lrw"
@@ -5362,7 +5510,15 @@
     "unit": [
       "AB PROJECT"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "201802",
+        "end": "2018-04"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
@@ -5372,6 +5528,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/aalizz_well_/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCX3hc7D0RrrZbf0vHvUZwJQ"
       ]
     }
   },
@@ -6089,11 +6248,11 @@
     }
   },
   {
-    "id": "sojeong",
-    "name": "소정",
-    "name_en": "Sojeong",
+    "id": "park-sojeong",
+    "name": "박소정",
+    "name_en": "Sojeong Park",
     "nickname": null,
-    "birth_date": null,
+    "birth_date": "2002-03-18",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -6179,6 +6338,13 @@
     "unit_periods": [
       {
         "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "202107"
+      },
+      {
+        "unit": [
           "A2Be"
         ],
         "start": "202107",
@@ -6186,9 +6352,14 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2021-07-29",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2021-07-29",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {}
@@ -6204,7 +6375,22 @@
     "unit": [
       "A2Be"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
@@ -6231,7 +6417,22 @@
     "unit": [
       "A2Be"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202102",
+        "end": "2021-07"
+      },
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "2021-07",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
@@ -6326,11 +6527,24 @@
     "unit": [
       "A2Be"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "A2Be"
+        ],
+        "start": "202202",
+        "end": null
+      }
+    ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2022-02-18",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2022-02-18",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {
@@ -6361,30 +6575,6 @@
     "photo_filename": null,
     "bio": null,
     "sns": {}
-  },
-  {
-    "id": "kim-min-ji",
-    "name": "김민지",
-    "name_en": "Ji Min Kim",
-    "nickname": null,
-    "birth_date": null,
-    "gender": "F",
-    "role": "Dancer",
-    "unit": [
-      "A2Be"
-    ],
-    "unit_periods": [],
-    "status": "withdrawn",
-    "joined_date": null,
-    "left_date": null,
-    "membership_periods": [],
-    "photo_filename": null,
-    "bio": null,
-    "sns": {
-      "instagram": [
-        "https://www.instagram.com/asdamd_16/"
-      ]
-    }
   },
   {
     "id": "taeyeon",
@@ -6524,14 +6714,16 @@
     "birth_date": null,
     "gender": "M",
     "role": "Dancer",
-    "unit": [],
+    "unit": [
+      "AB PROJECT"
+    ],
     "unit_periods": [],
-    "status": null,
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
     "photo_filename": null,
-    "bio": "jihooni0811",
+    "bio": null,
     "sns": {}
   }
 ]
