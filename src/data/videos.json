@@ -67150,20 +67150,6 @@
     "content_series": []
   },
   {
-    "youtube_id": "7w2JdhnYOFE",
-    "title": "🆅 다크비 이찬, 준서 선배님과 함께 두비두비~ 제복 입은 뉴잭스윙이라니😮#DubiDubichallange #shorts",
-    "covered_group": [],
-    "tagged_members": [
-      "ahn-yoojin",
-      "ha-seyoung",
-      "jeong-yoojin"
-    ],
-    "published_date": "2023-08-22",
-    "content_type": "short",
-    "view_count": 206416,
-    "content_series": []
-  },
-  {
     "youtube_id": "d63fSGpCRy0",
     "title": "'조유리 - TAXI' Dance Cover @HATOPIA #하은 #Haeun #shorts",
     "covered_group": [
@@ -67416,23 +67402,6 @@
     "published_date": "2023-08-14",
     "content_type": "short",
     "view_count": 186733,
-    "content_series": []
-  },
-  {
-    "youtube_id": "1bzABJvNjvI",
-    "title": "🆅 'DUBI DUBI' 앨범 구경하러 오세요~🎧 | 앨범깡 ALBUM UNBOXING",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2023-08-13",
-    "content_type": "video",
-    "view_count": 73214,
     "content_series": []
   },
   {
@@ -68795,16 +68764,39 @@
       "aespa"
     ],
     "tagged_members": [
-      "ahn-yoojin",
       "kim-hyerim",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "ahn-yoojin",
+      "yuna"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "yuna",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2023-07-12",
     "content_type": "video",
     "view_count": 589224,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "ffnEXOJa3f8",
@@ -69014,20 +69006,48 @@
     "youtube_id": "lutzhnIfy3s",
     "title": "[방구석 여기서요?] (여자)아이들 (G)I-DLE - 퀸카 Queencard | 커버댄스 Dance Cover",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
+      "aoki-yuka",
+      "ahn-yoojin",
       "kim-soyeon",
-      "jeong-yoojin"
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2023-07-09",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 962186,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "lY1a50QjcBc",
@@ -69912,13 +69932,14 @@
       "IVE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-06-20",
     "content_type": "short",
     "view_count": 146629,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "EV1U33YOyvE",
@@ -70743,13 +70764,14 @@
       "i-dle"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-06-07",
     "content_type": "short",
     "view_count": 83022,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "WnhF3CXMKnc",
@@ -71163,8 +71185,7 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-05-23",
     "content_type": "short",
@@ -72955,7 +72976,6 @@
       "여기서요?::2023y"
     ],
     "covered_group": [
-      "방탄소년단",
       "지민"
     ]
   },
@@ -72966,13 +72986,14 @@
       "TWICE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-04-29",
     "content_type": "short",
     "view_count": 113371,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "aAggyueatn0",
@@ -73429,24 +73450,59 @@
     "youtube_id": "eQMhU2Tc8m4",
     "title": "[여기서요?] NCT DREAM - Candy | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
       "park-sunyoung",
-      "ahn-yoojin",
-      "yun-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-04-23",
     "content_type": "video",
     "view_count": 391213,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -75058,22 +75114,60 @@
     "youtube_id": "_WMJ1JJiAEY",
     "title": "[방구석 여기서요?] NCT DREAM - CANDY | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-03-24",
     "content_type": "video",
     "view_count": 569203,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "OXLucKKOfBY",
@@ -75351,13 +75445,14 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-03-22",
     "content_type": "short",
     "view_count": 64598,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "tq2pBhmwjGs",
@@ -75370,14 +75465,15 @@
     "content_type": "video",
     "view_count": 210280,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12",
+      "K-POP DANCE BATTLE"
     ]
   },
   {
     "youtube_id": "fIpYeyL262E",
     "title": "[방구석 여기서요? - THE BATTLE] 'NMIXX & LE SSERAFIM' 퍼포먼스 | ARTBEAT",
     "covered_group": [
+      "NMIXX",
       "LE SSERAFIM"
     ],
     "tagged_members": [],
@@ -75385,23 +75481,24 @@
     "content_type": "video",
     "view_count": 3405405,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12",
+      "K-POP DANCE BATTLE"
     ]
   },
   {
     "youtube_id": "gsP9VZC3v3o",
     "title": "[방구석 여기서요? - THE BATTLE] 'aespa x GOT The Beat' 퍼포먼스 | 4X4 STUDIO",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "GOT the beat"
     ],
     "tagged_members": [],
     "published_date": "2023-03-21",
     "content_type": "video",
     "view_count": 921268,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S12",
+      "K-POP DANCE BATTLE"
     ]
   },
   {
@@ -75763,7 +75860,7 @@
     "youtube_id": "swujXYnruHY",
     "title": "💪🏻파워 댄서가 추는 #파이팅해야지 몸 부서질라ㄷㄷ #태환 #Taehwan #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "kim-taehwan"
@@ -75771,13 +75868,15 @@
     "published_date": "2023-03-15",
     "content_type": "short",
     "view_count": 208660,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "c_28X2K_avM",
     "title": "마지막 점프자세 진짜 취향저격ㅋㅋㅋㅋㅋ #호준 #Hojun #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "kim-hojun"
@@ -75785,13 +75884,15 @@
     "published_date": "2023-03-15",
     "content_type": "short",
     "view_count": 245805,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "n6tw_A9hv4Y",
     "title": "무거워도 모른척 해야지👀 @HATOPIA  #하은 #Haeun #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "yun-haeun"
@@ -75799,23 +75900,25 @@
     "published_date": "2023-03-15",
     "content_type": "short",
     "view_count": 489326,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "t7G9bWHK-Ok",
     "title": "호시님 마이크여서 행복했습니다~🎤 #유진 #Yoojin #여기서요 #shorts",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-03-15",
     "content_type": "short",
     "view_count": 163580,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "nSiUjw5Om24",
@@ -76074,8 +76177,7 @@
       "XG"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-03-02",
     "content_type": "short",
@@ -76559,7 +76661,7 @@
     "youtube_id": "7MoUB_VD10Q",
     "title": "텐션 끌어올려야지!! #파이팅해야지 #수환 #Suhwan #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "kim-suhwan"
@@ -76567,13 +76669,15 @@
     "published_date": "2023-02-24",
     "content_type": "short",
     "view_count": 98494,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "ZfgJCYQksuk",
     "title": "파이팅 잘 하고 마지막에 눈치는 왜 봐?🤣 #파이팅해야지 #하은 #Haeun @HATOPIA #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "yun-haeun"
@@ -76581,28 +76685,31 @@
     "published_date": "2023-02-24",
     "content_type": "short",
     "view_count": 4609192,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "kNXqr_4QoFo",
     "title": "혼자 귀엽고 멋있고 파이팅 하고 다 하네?🔥 #파이팅해야지 #유진 #Yoojin @안뉴하세요  #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-02-24",
     "content_type": "short",
     "view_count": 109489,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "9W404vzA60c",
     "title": "부석순의 파이팅이 가능했던 이유? 백업이 더 바빠😂 #파이팅해야지 #도현 #Dohyun #shorts",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::부석순"
     ],
     "tagged_members": [
       "kwon-dohyun"
@@ -76610,7 +76717,9 @@
     "published_date": "2023-02-24",
     "content_type": "short",
     "view_count": 29085,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "q1oQvAngzXs",
@@ -76739,8 +76848,7 @@
     "tagged_members": [
       "kim-hojun",
       "lee-gaeun",
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-02-23",
     "content_type": "short",
@@ -77728,23 +77836,6 @@
     ]
   },
   {
-    "youtube_id": "zUGNxwFL04M",
-    "title": "[Fly ARTBEAT] EP08. 파자마 파티🎁",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2023-01-24",
-    "content_type": "video",
-    "view_count": 83404,
-    "content_series": []
-  },
-  {
     "youtube_id": "pMBgXP13alc",
     "title": "[여기서요?] 뉴진스 NewJeans - Ditto (B Team ver.) | 커버댄스 Dance Cover @신촌",
     "covered_group": [
@@ -78221,23 +78312,6 @@
     ]
   },
   {
-    "youtube_id": "jAceVMEh07g",
-    "title": "[Fly ARTBEAT] EP07. 'MAGIC' MV 비하인드",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2023-01-07",
-    "content_type": "video",
-    "view_count": 75247,
-    "content_series": []
-  },
-  {
     "youtube_id": "3NE_aSJBJCQ",
     "title": "NCT DREAM -  Candy | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
@@ -78251,6 +78325,43 @@
       "yun-haeun",
       "ahn-yoojin",
       "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-01-06",
     "content_type": "video",
@@ -78380,43 +78491,123 @@
     "youtube_id": "9wLH8G7lVyU",
     "title": "[여기서요?] 엔시티 드림 NCT DREAM - Candy | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-01-02",
     "content_type": "video",
     "view_count": 2052125,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "9ewzMv-mOZU",
     "title": "[AB] NCT DREAM -  Candy | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
+    "sponsors":[
+      "FUN THE LAND"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-01-01",
     "content_type": "video",
     "view_count": 175950,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "IaLi2YvFeVc",
@@ -78427,17 +78618,56 @@
     "tagged_members": [
       "kim-taehwan",
       "kim-suhwan",
-      "lim-donghun",
-      "ahn-yoojin",
-      "yun-haeun",
+      "park-damhee",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-01-01",
     "content_type": "video",
     "view_count": 70546,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "JCiYbAYJb3s",
@@ -78720,17 +78950,15 @@
     "title": "하은이와 함께 하는 2022 아트비트 영상 이상형 월드컵 | 2022 ARTBEAT World cup with Haeun",
     "covered_group": [],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
       "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "kim-junseok"
     ],
     "published_date": "2022-12-17",
     "content_type": "live",
     "view_count": 48062,
-    "content_series": []
+    "content_series": [
+      "ARTBEAT 영상 이상형 월드컵"
+    ]
   },
   {
     "youtube_id": "qjcl7gjG8Lc",
@@ -78831,17 +79059,15 @@
     "title": "유진이와 함께 하는 2022 아트비트 영상 이상형 월드컵 | 2022 ARTBEAT World cup with YooJin",
     "covered_group": [],
     "tagged_members": [
-      "lee-gaeun",
       "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
+      "kim-junseok"
     ],
     "published_date": "2022-12-15",
     "content_type": "live",
     "view_count": 32924,
-    "content_series": []
+    "content_series": [
+      "ARTBEAT 영상 이상형 월드컵"
+    ]
   },
   {
     "youtube_id": "DnRDwSgfHeo",
@@ -78862,18 +79088,15 @@
     "title": "서현이와 함께 하는 2022 아트비트 영상 이상형 월드컵 | 2022 ARTBEAT World cup with SeoHyeon",
     "covered_group": [],
     "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
       "lee-seohyeon",
-      "jeong-yoojin"
+      "kim-junseok"
     ],
     "published_date": "2022-12-12",
     "content_type": "live",
     "view_count": 38486,
-    "content_series": []
+    "content_series": [
+      "ARTBEAT 영상 이상형 월드컵"
+    ]
   },
   {
     "youtube_id": "kPMvEoNnh4g",
@@ -78919,25 +79142,6 @@
     "content_type": "video",
     "view_count": 326210,
     "content_series": []
-  },
-  {
-    "youtube_id": "uYWEcYbMz5U",
-    "title": "ARTBEAT (아트비트) ‘APHRODITE (아프로디테)’ Dance Practice (Fix ver.)",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-10",
-    "content_type": "video",
-    "view_count": 136244,
-    "content_series": [
-      "AB PRACTICE"
-    ]
   },
   {
     "youtube_id": "0ZhhU4nmUew",
@@ -79007,40 +79211,6 @@
     "content_series": [
       "방구석 여기서요?::S11"
     ]
-  },
-  {
-    "youtube_id": "OvVlUnAhaTU",
-    "title": "[🦋] ARTBEAT(아트비트) 'MAGIC' | 수트댄스 | Suit Dance Performance",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-08",
-    "content_type": "video",
-    "view_count": 94250,
-    "content_series": []
-  },
-  {
-    "youtube_id": "OPdxHrZRSrM",
-    "title": "[🦋] ARTBEAT(아트비트) 'APHRODITE (아프로디테)' | 수트댄스 | Suit Dance Performance",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-08",
-    "content_type": "video",
-    "view_count": 92629,
-    "content_series": []
   },
   {
     "youtube_id": "LMsU-v0wJnM",
@@ -79173,25 +79343,6 @@
     "content_series": []
   },
   {
-    "youtube_id": "yQaM4e_RpV0",
-    "title": "[방송국 첫 출근인데.. 여기서요?] ARTBEAT (아트비트) 'MAGIC' | 커버댄스 Dance Cover @SBS방송국",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-04",
-    "content_type": "video",
-    "view_count": 276188,
-    "content_series": [
-      "여기서요?"
-    ]
-  },
-  {
     "youtube_id": "58jXjWc6S4s",
     "title": "[방구석 여기서요?] 에스파 aespa - 도깨비불 ILLUSION | 커버댄스 Dance Cover",
     "covered_group": [
@@ -79223,40 +79374,6 @@
     "published_date": "2022-12-04",
     "content_type": "video",
     "view_count": 256920,
-    "content_series": []
-  },
-  {
-    "youtube_id": "il4KSTJazV8",
-    "title": "[🦋] ARTBEAT (아트비트) 'APHRODITE (아프로디테)' | ARTBEAT 동네투어 | 221127 서울 가든파이브",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-03",
-    "content_type": "video",
-    "view_count": 161239,
-    "content_series": []
-  },
-  {
-    "youtube_id": "CTbhebo6EhA",
-    "title": "[🦋] ARTBEAT (아트비트) 'MAGIC' | ARTBEAT 동네투어 | 221127 서울 가든파이브",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-03",
-    "content_type": "video",
-    "view_count": 163499,
     "content_series": []
   },
   {
@@ -79301,23 +79418,6 @@
     "published_date": "2022-12-03",
     "content_type": "video",
     "view_count": 403669,
-    "content_series": []
-  },
-  {
-    "youtube_id": "SWy5u1l7uHo",
-    "title": "[Fly ARTBEAT] EP06. 포카가 이렇게 나온다고?🤣 | 'MAGIC' 앨범 언박싱",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-12-02",
-    "content_type": "video",
-    "view_count": 83420,
     "content_series": []
   },
   {
@@ -79526,23 +79626,6 @@
     "published_date": "2022-11-29",
     "content_type": "video",
     "view_count": 401296,
-    "content_series": []
-  },
-  {
-    "youtube_id": "c9JD9bEHTus",
-    "title": "[Fly ARTBEAT] EP05. 'MAGIC' Recording Behind",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-28",
-    "content_type": "video",
-    "view_count": 260957,
     "content_series": []
   },
   {
@@ -79898,23 +79981,6 @@
     "content_series": []
   },
   {
-    "youtube_id": "8vaHvi_jYbU",
-    "title": "[Fly ARTBEAT] EP04. 첫 뮤비가 나왔다ㄷㄷ 리액션 가보자고!! | ARTBEAT (아트비트)  'MAGIC' MV REACTION",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-25",
-    "content_type": "video",
-    "view_count": 230728,
-    "content_series": []
-  },
-  {
     "youtube_id": "2RIF1t8lVo4",
     "title": "[방구석 여기서요?] 카드 KARD - Ring The Alarm | 커버댄스 Dance Cover",
     "covered_group": [
@@ -79933,53 +79999,52 @@
   {
     "youtube_id": "uFj8CCrZBPw",
     "title": "[방구석 여기서요?] B1A4 - 잘자요 굿나잇 (Baby good night) | 커버댄스 Dance Cover",
-    "covered_group": [],
+    "covered_group": [
+      "B1A4"
+    ],
     "tagged_members": [
-      "park-sunyoung",
       "lee-gaeun",
       "ahn-yoojin",
+      "song-haeun",
       "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "park-sunyoung"
+    ],    
+    "support":[
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "B1A4",
+        "covered_member": "진영"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "B1A4",
+        "covered_member": "신우"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "B1A4",
+        "covered_member": "공찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "B1A4",
+        "covered_member": "바로"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "B1A4",
+        "covered_member": "산들"
+      }
     ],
     "published_date": "2022-11-25",
     "content_type": "video",
     "view_count": 610720,
-    "content_series": []
-  },
-  {
-    "youtube_id": "rSuYqpEvF-o",
-    "title": "[🦋] ARTBEAT (아트비트) 'MAGIC' | ARTBEAT 동네투어 | 221119 부산 해운대",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-24",
-    "content_type": "video",
-    "view_count": 339138,
-    "content_series": []
-  },
-  {
-    "youtube_id": "eszG6mGmAWQ",
-    "title": "[🦋] ARTBEAT (아트비트) 'APHRODITE (아프로디테)' | ARTBEAT 동네투어 | 221119 부산 해운대",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-24",
-    "content_type": "video",
-    "view_count": 488791,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "LPpEon97Gnk",
@@ -80077,25 +80142,6 @@
     ]
   },
   {
-    "youtube_id": "Vez-7nzL59A",
-    "title": "ARTBEAT (아트비트) ‘MAGIC’ Dance Practice (Fix ver.)",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-21",
-    "content_type": "video",
-    "view_count": 154514,
-    "content_series": [
-      "AB PRACTICE"
-    ]
-  },
-  {
     "youtube_id": "7ZNohQbF4jY",
     "title": "[방구석 여기서요?] SEVENTEEN Leaders - CHEERS | 커버댄스 Dance Cover",
     "covered_group": [
@@ -80119,23 +80165,6 @@
     "content_series": [
       "방구석 여기서요?::S11"
     ]
-  },
-  {
-    "youtube_id": "3qAqVzZJSls",
-    "title": "ARTBEAT (아트비트) 'MAGIC' | 1st Stage Performance",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-20",
-    "content_type": "video",
-    "view_count": 368050,
-    "content_series": []
   },
   {
     "youtube_id": "R6bUc6VHu6o",
@@ -80255,25 +80284,6 @@
     ]
   },
   {
-    "youtube_id": "GltdWbFk8t4",
-    "title": "[데뷔를.. 여기서요?] ARTBEAT (아트비트) 'APHRODITE (아프로디테)' | Debut Stage",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-19",
-    "content_type": "video",
-    "view_count": 1858088,
-    "content_series": [
-      "여기서요?"
-    ]
-  },
-  {
     "youtube_id": "Dwir0S7MUUc",
     "title": "[방구석 여기서요?] 스트레이 키즈 Stray Kids - CASE 143 | 커버댄스 Dance Cover",
     "covered_group": [
@@ -80294,57 +80304,6 @@
     "content_series": [
       "방구석 여기서요?::S11"
     ]
-  },
-  {
-    "youtube_id": "p2K6_7jcoKQ",
-    "title": "[Fly ARTBEAT] EP03-3. 드디어 'APHRODITE' 무대 의상 대공개!? | 근데 누구의 의상인지 맞춰라?😜",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-19",
-    "content_type": "video",
-    "view_count": 96966,
-    "content_series": []
-  },
-  {
-    "youtube_id": "UuMg_hkZWXE",
-    "title": "[Fly ARTBEAT] EP03-2. 돈이 있어야 의상을 만들지!!😤 | 무대의상 예산 확보 대결",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-18",
-    "content_type": "video",
-    "view_count": 67974,
-    "content_series": []
-  },
-  {
-    "youtube_id": "3xmZo0O4e5k",
-    "title": "[Fly ARTBEAT] EP03-1. 무대의상을 직접 만드는 걸그룹이 있다? | 'APHRODITE' 의상 셀프 제작기",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-18",
-    "content_type": "video",
-    "view_count": 86424,
-    "content_series": []
   },
   {
     "youtube_id": "Jg7l626j8B0",
@@ -80372,60 +80331,57 @@
       "IVE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
       "ha-seyoung",
       "oh-yubin",
+      "park-damhee",
       "kim-minjin",
       "bang-jooyeon",
-      "jeong-yoojin"
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2022-11-18",
     "content_type": "video",
     "view_count": 713241,
-    "content_series": []
-  },
-  {
-    "youtube_id": "4U27bc5mVfc",
-    "title": "[Fly ARTBEAT] EP02. 극강 난이도(?) 'MAGIC' 응원법 교육",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-18",
-    "content_type": "video",
-    "view_count": 135574,
-    "content_series": []
-  },
-  {
-    "youtube_id": "axDH3apkdN4",
-    "title": "[데뷔를.. 여기서요?] ARTBEAT (아트비트) 'MAGIC' | Debut Stage",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-17",
-    "content_type": "video",
-    "view_count": 1769874,
     "content_series": [
-      "여기서요?"
+      "방구석 여기서요?::S11"
     ]
   },
   {
     "youtube_id": "hxFDRHJ0b0k",
     "title": "[방구석 여기서요?] NCT 127 - 질주 (2 Baddies) | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -80439,23 +80395,6 @@
     "published_date": "2022-11-17",
     "content_type": "video",
     "view_count": 310086,
-    "content_series": []
-  },
-  {
-    "youtube_id": "BR-w92eh1aE",
-    "title": "ARTBEAT (아트비트) ‘MAGIC’ MV",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-16",
-    "content_type": "video",
-    "view_count": 1582422,
     "content_series": []
   },
   {
@@ -80507,40 +80446,6 @@
     "content_series": [
       "방구석 여기서요?::S11"
     ]
-  },
-  {
-    "youtube_id": "FxBbBziAxgs",
-    "title": "이제는 더이상 물러날 곳이 없어서 하는 라이브 | ARTBEAT Debut 'MAGIC'",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-14",
-    "content_type": "live",
-    "view_count": 150716,
-    "content_series": []
-  },
-  {
-    "youtube_id": "mpRBtswW9NU",
-    "title": "ARTBEAT (아트비트) - ‘MAGIC’ MV Teaser",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "jeong-yoojin"
-    ],
-    "published_date": "2022-11-14",
-    "content_type": "short",
-    "view_count": 250363,
-    "content_series": []
   },
   {
     "youtube_id": "b5ipc266sAU",
