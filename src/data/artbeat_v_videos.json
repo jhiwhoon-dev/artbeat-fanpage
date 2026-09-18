@@ -447,11 +447,19 @@
     "title": "[방구석 여기서요?] 르세라핌 LE SSERAFIM - ANTIFRAGILE (ARTBEAT ver.) | 커버댄스 Dance Cover",
     "category": null,
     "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "park-damhee"
+        "park-soyoung",
+        "ha-seyoung",
+        "ahn-yoojin",
+        "park-damhee",
+        "lee-seohyeon",
+        "lee-sieun",
+        "oh-yubin",
+        "kwon-dohyun",
+        "lee-moonkyu",
+        "yun-haeun",
+        "lee-gaeun",
+        "park-sunyoung",
+        "kim-suhwan"
     ],
     "published_date": "2022-12-04",
     "view_count": 3936424
@@ -467,7 +475,7 @@
   {
     "youtube_id": "zV_o5uSmfqc",
     "title": "걸그룹 'ARTBEAT (아트비트)' Debut Trailer | CONCEPT FILM",
-    "category": null,
+    "category": "trailer",
     "tagged_members": [
       "lee-gaeun",
       "ahn-yoojin",

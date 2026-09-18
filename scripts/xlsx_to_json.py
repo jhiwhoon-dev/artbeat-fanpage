@@ -101,18 +101,24 @@ def build_periods(row, columns):
     return periods
 
 def build_artbeat_v(row, columns):
-    """artbeat_v_position / artbeat_v_debut_date를 묶어서 artbeat_v 객체로 변환.
-    둘 다 비어있으면(해당 없는 멤버) None을 반환 -> 이 경우 JSON에 artbeat_v 필드 자체를 안 넣음."""
-    if "artbeat_v_position" not in columns and "artbeat_v_debut_date" not in columns:
+    """artbeat_v_position / artbeat_v_debut_date / artbeat_v_left_date를 묶어서 artbeat_v 객체로 변환.
+    position/debut_date가 둘 다 비어있으면(해당 없는 멤버) None을 반환 -> JSON에 artbeat_v 필드 자체를 안 넣음.
+    left_date가 있으면 "탈퇴한 ARTBEAT v 멤버", 없으면 "현재 활동 중"으로 페이지에서 구분됨."""
+    target_cols = {"artbeat_v_position", "artbeat_v_debut_date", "artbeat_v_left_date"}
+    if not target_cols & set(columns):
         return None
 
     position = clean(row.get("artbeat_v_position"))
     debut_date = parse_date(row.get("artbeat_v_debut_date"))
+    left_date = parse_date(row.get("artbeat_v_left_date"))
 
     if position is None and debut_date is None:
         return None
 
-    return {"position": position, "debut_date": debut_date}
+    result = {"position": position, "debut_date": debut_date}
+    if left_date is not None:
+        result["left_date"] = left_date
+    return result
 
 def build_unit_periods(row, columns):
     """unit1/unit1_start/unit1_end (번호 붙은 것 포함)를 묶어서 유닛 소속 기간 배열로 변환.

@@ -8,9 +8,13 @@ import members from '../data/members.json';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // artbeat_v 필드가 있는 멤버만 골라서, 데뷔일 → 이름순으로 정렬
-const lineup = members
+const artbeatVMembers = members
   .filter((m) => m.artbeat_v)
   .sort((a, b) => (a.artbeat_v.debut_date ?? '').localeCompare(b.artbeat_v.debut_date ?? ''));
+
+// left_date가 있으면 탈퇴 멤버, 없으면 현재 활동 멤버로 구분
+const activeLineup = artbeatVMembers.filter((m) => !m.artbeat_v.left_date);
+const formerLineup = artbeatVMembers.filter((m) => m.artbeat_v.left_date);
 
 const storyParagraphs = (groupInfo.story ?? '').split('\n\n').filter(Boolean);
 
@@ -19,7 +23,7 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
 ---
 
 <Layout title="ARTBEAT v">
-  <div class="wrap" style={`--v-accent: ${groupInfo.color ?? '#ff3b30'};`}>
+  <div class="wrap">
     <section class="hero">
       <p class="eyebrow">ARTBEAT PRESENTS</p>
       <h1>{groupInfo.name}</h1>
@@ -42,20 +46,46 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
     )}
 
     <section class="block">
-      <h2>멤버 ({lineup.length})</h2>
-      {lineup.length > 0 ? (
-        <div class="lineup-grid">
-          {lineup.map((m) => (
-            <a class="lineup-card" href={`${base}/members/${m.id}`}>
-              <MemberCard member={m} />
-              {m.artbeat_v.position && <span class="position-badge">{m.artbeat_v.position}</span>}
-            </a>
-          ))}
+      <h2>멤버 ({activeLineup.length})</h2>
+      {activeLineup.length > 0 ? (
+        <div class="lineup-stagger">
+          <div class="stagger-row">
+            {activeLineup.slice(0, 2).map((m) => (
+              <div class="lineup-card">
+                <MemberCard member={m} />
+                {m.artbeat_v.position && <span class="position-badge">{m.artbeat_v.position}</span>}
+              </div>
+            ))}
+          </div>
+          <div class="stagger-row offset">
+            {activeLineup.slice(2).map((m) => (
+              <div class="lineup-card">
+                <MemberCard member={m} />
+                {m.artbeat_v.position && <span class="position-badge">{m.artbeat_v.position}</span>}
+              </div>
+            ))}
+          </div>
         </div>
       ) : (
         <p class="empty">아직 등록된 멤버가 없어요.</p>
       )}
     </section>
+
+    {formerLineup.length > 0 && (
+      <section class="block">
+        <h2>탈퇴 멤버 ({formerLineup.length})</h2>
+        <div class="lineup-grid">
+          {formerLineup.map((m) => (
+            <div class="lineup-card former">
+              <MemberCard member={m} />
+              <span class="former-badge">
+                {m.artbeat_v.position ? `${m.artbeat_v.position} · ` : ''}~{m.artbeat_v.left_date}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     {socialLinks.length > 0 && (
       <section class="block">
@@ -89,7 +119,7 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
   .hero h1 {
     font-size: 56px;
     margin: 0 0 16px;
-    color: var(--v-accent);
+    color: #ffffff;
     line-height: 1;
   }
   .tagline { font-size: 18px; color: var(--ink); margin: 0 0 12px; }
@@ -99,6 +129,26 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
   .block h2 { font-size: 18px; margin: 0 0 20px; }
   .story-p { font-size: 15px; line-height: 1.8; color: var(--ink); margin: 0 0 16px; white-space: pre-wrap; }
 
+  .lineup-stagger {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .stagger-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  /* MemberCard가 aspect-ratio로 세로 비율을 잡는데, flex 안에서는 grid와 달리 폭을 자동으로 안 늘려줘서
+     명시적으로 폭을 안 주면 카드가 0 크기로 찌그러짐(사진이 absolute라 내용으로도 크기가 안 잡힘). */
+  .stagger-row .lineup-card { width: 180px; flex-shrink: 0; }
+  /* 카드폭(180px) + 카드 사이 간격(28px)의 정확히 절반만큼 오른쪽으로 밀어서, 위 줄 카드 "사이사이"에 오게 함.
+     세로로는 안 당기고(겹침 방지), 순수하게 가로로만 지그재그 배치. */
+  .stagger-row.offset {
+    transform: translateX(calc((180px + 28px) / 2));
+  }
+
+  /* 탈퇴 멤버 등 그냥 나란히 배치할 때 쓰는 일반 그리드 (기존 방식 유지) */
   .lineup-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -113,12 +163,27 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
     position: absolute;
     top: 8px;
     left: 8px;
-    background: var(--v-accent);
-    color: #0e0e10;
+    background: #013C81;
+    color: #ffffff;
     font-size: 11px;
     font-weight: 700;
     padding: 3px 8px;
     border-radius: 4px;
+  }
+
+  .lineup-card.former { opacity: 0.55; filter: grayscale(1); }
+  .lineup-card.former:hover { opacity: 0.85; }
+  .former-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: var(--line);
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
   }
 
   .social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; }
@@ -132,7 +197,7 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
     text-decoration: none;
     color: var(--ink);
   }
-  .social-card:hover { border-color: var(--v-accent); }
+  .social-card:hover { border-color: #013C81; }
   .social-icon {
     width: 36px; height: 36px; border-radius: 50%;
     background: var(--line);
@@ -147,8 +212,8 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
     display: inline-block;
     padding: 14px 32px;
     border-radius: 999px;
-    background: var(--v-accent);
-    color: #0e0e10;
+    background: #013C81;
+    color: #ffffff;
     font-weight: 700;
     text-decoration: none;
     font-size: 14px;
