@@ -15,6 +15,7 @@ const UPLOADS_PLAYLIST_ID = CHANNEL_ID.replace(/^UC/, "UU");
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const VIDEOS_PATH = path.join(process.cwd(), "src", "data", "videos.json");
 const MEMBERS_PATH = path.join(process.cwd(), "src", "data", "members.json");
+const ARTBEAT_V_VIDEOS_PATH = path.join(process.cwd(), "src", "data", "artbeat_v_videos.json"); // 이쪽에 있는 영상은 여기(videos.json)에서 제외함
 const GROUPS_PATH = path.join(process.cwd(), "src", "data", "covered_groups.json");
 const SERIES_PATH = path.join(process.cwd(), "src", "data", "content_series.json");
 const SHORTS_MAX_SECONDS = 180;
@@ -210,8 +211,20 @@ async function fetchDetailsForIds(ids) {
 
 async function main() {
   console.log("채널 업로드 목록 전체 조회 중...");
-  const playlistItems = await fetchAllPlaylistItems();
-  console.log(`총 ${playlistItems.length}개 영상 발견`);
+  const allPlaylistItems = await fetchAllPlaylistItems();
+  console.log(`총 ${allPlaylistItems.length}개 영상 발견`);
+
+  // ARTBEAT v 재생목록 전용으로 따로 관리하는 영상들은 여기(videos.json)에서 제외함.
+  // (같은 채널이라 채널 업로드 목록 조회 시 같이 잡히기 때문에, 그대로 두면 videos.json에서 지워도
+  //  다음 동기화 때 "새 영상"으로 다시 들어와버림)
+  const artbeatVIds = fs.existsSync(ARTBEAT_V_VIDEOS_PATH)
+    ? new Set(JSON.parse(fs.readFileSync(ARTBEAT_V_VIDEOS_PATH, "utf-8")).map((v) => v.youtube_id))
+    : new Set();
+  const playlistItems = allPlaylistItems.filter((item) => !artbeatVIds.has(item.snippet.resourceId.videoId));
+  const skippedForArtbeatV = allPlaylistItems.length - playlistItems.length;
+  if (skippedForArtbeatV > 0) {
+    console.log(`ARTBEAT v 전용 영상 ${skippedForArtbeatV}개는 여기서 제외함 (artbeat_v_videos.json에서 관리)`);
+  }
 
   const allIds = playlistItems.map((i) => i.snippet.resourceId.videoId);
   console.log("영상별 길이/조회수/라이브 여부 조회 중...");

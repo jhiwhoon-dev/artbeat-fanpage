@@ -1,0 +1,31 @@
+name: Fetch ARTBEAT v videos
+
+on:
+  schedule:
+    - cron: "0 15 * * *" # 매일 UTC 15:00 = KST 00:00, 기존 fetch-videos.yml과 같은 시간
+  workflow_dispatch: {} # 필요할 때 수동으로도 실행 가능
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync ARTBEAT v playlist
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/sync_artbeat_v_videos.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/artbeat_v_videos.json
+          git diff --cached --quiet || git commit -m "chore: sync ARTBEAT v videos"
+          git push
