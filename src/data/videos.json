@@ -2442,7 +2442,7 @@
       "DAYOUNG",
       "박재범"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "cho-gyuso",
       "won-hyegyeong"
     ],
@@ -2460,7 +2460,7 @@
       "DAYOUNG",
       "박재범"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "kim-jeongseo",
       "won-seoa"
     ],
@@ -2484,11 +2484,45 @@
       "jeong-yoojin",
       "ahn-gihyun",
       "jeong-gyeolgyeong",
-      "chae-yunsu",
+      "chae-yunsu"
+    ],
+    "special_dancers":[
       "won-seoa",
       "kim-jeongseo",
       "won-hyegyeong",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2026-08-24",
     "view_count": 105914,
@@ -2536,11 +2570,45 @@
       "jeong-yoojin",
       "ahn-gihyun",
       "jeong-gyeolgyeong",
-      "chae-yunsu",
+      "chae-yunsu"
+    ],
+    "special_dancers":[
       "won-seoa",
       "kim-jeongseo",
       "won-hyegyeong",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2026-08-23",
     "view_count": 100606,
@@ -2562,11 +2630,45 @@
       "jeong-yoojin",
       "ahn-gihyun",
       "jeong-gyeolgyeong",
-      "chae-yunsu",
+      "chae-yunsu"
+    ],
+    "special_dancers":[
       "won-seoa",
       "kim-jeongseo",
       "won-hyegyeong",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2026-08-23",
     "view_count": 164220,
@@ -2588,11 +2690,45 @@
       "jeong-yoojin",
       "ahn-gihyun",
       "jeong-gyeolgyeong",
-      "chae-yunsu",
+      "chae-yunsu"
+    ],
+    "special_dancers":[
       "won-seoa",
       "kim-jeongseo",
       "won-hyegyeong",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2026-08-23",
     "view_count": 76023,
@@ -2614,11 +2750,45 @@
       "jeong-yoojin",
       "ahn-gihyun",
       "jeong-gyeolgyeong",
-      "chae-yunsu",
+      "chae-yunsu"
+    ],
+    "special_dancers":[
       "won-seoa",
       "kim-jeongseo",
       "won-hyegyeong",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2026-08-23",
     "view_count": 325234,
@@ -2714,6 +2884,13 @@
     "tagged_members": [
       "jeong-yoojin"
     ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      }
+    ],
     "published_date": "2026-08-20",
     "view_count": 28474,
     "content_type": "short",
@@ -2749,6 +2926,33 @@
       "jeong-yoojin",
       "cho-yuna",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "RESCENE",
+        "covered_member": "원이"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "RESCENE",
+        "covered_member": "리브"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "RESCENE",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "RESCENE",
+        "covered_member": "제나"
+      }
     ],
     "published_date": "2026-08-18",
     "view_count": 25772,
@@ -2803,11 +3007,38 @@
       "cho-yuna",
       "lee-wina"
     ],
+    "role_mapping":[
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "RESCENE",
+        "covered_member": "원이"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "RESCENE",
+        "covered_member": "리브"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "RESCENE",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "RESCENE",
+        "covered_member": "제나"
+      }
+    ],
     "published_date": "2026-08-17",
     "view_count": 60624,
     "content_type": "short",
     "content_series": [
-      "AB PRACTICE::2026y"
+      "릴레이 댄스::2026y"
     ]
   },
   {
@@ -3009,6 +3240,33 @@
       "jeong-yoojin",
       "cho-yuna",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "RESCENE",
+        "covered_member": "원이"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "RESCENE",
+        "covered_member": "리브"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "RESCENE",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "RESCENE",
+        "covered_member": "제나"
+      }
     ],
     "published_date": "2026-08-16",
     "content_type": "video",
@@ -3661,6 +3919,48 @@
       "yun-haeun",
       "lee-jeonghee",
       "bang-jooyeon"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-08-10",
     "content_type": "video",
@@ -4549,6 +4849,33 @@
       "lee-yejin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 61099,
@@ -4569,6 +4896,33 @@
       "lee-yejin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
+    ],
     "published_date": "2026-08-02",
     "content_type": "short",
     "view_count": 40020,
@@ -4588,6 +4942,33 @@
       "jeong-yoojin",
       "lee-yejin",
       "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
     ],
     "published_date": "2026-08-02",
     "content_type": "short",
@@ -4629,6 +5010,33 @@
       "jeong-yoojin",
       "lee-yejin",
       "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
     ],
     "published_date": "2026-08-02",
     "content_type": "video",
@@ -5106,9 +5514,31 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "hwang-jiho",
       "yang-hwanhee",
+      "hwang-jiho",
       "jeong-hyeonchang"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-07-28",
     "content_type": "video",
@@ -5276,13 +5706,50 @@
       "Billlie"
     ],
     "tagged_members": [
-      "jeong-yoojin",
-      "jang-sein",
       "ahn-yoojin",
+      "jang-sein",
+      "jeong-yoojin",
       "ha-seyoung",
       "kang-yejin",
       "oh-yubin",
       "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "수현"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Billlie",
+        "covered_member": "션"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "하루나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Billlie",
+        "covered_member": "츠키"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Billlie",
+        "covered_member": "하람"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Billlie",
+        "covered_member": "문수아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Billlie",
+        "covered_member": "시윤"
+      }
     ],
     "published_date": "2026-07-26",
     "content_type": "short",
@@ -5298,13 +5765,50 @@
       "Billlie"
     ],
     "tagged_members": [
-      "jeong-yoojin",
-      "jang-sein",
       "ahn-yoojin",
+      "jang-sein",
+      "jeong-yoojin",
       "ha-seyoung",
       "kang-yejin",
       "oh-yubin",
       "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "수현"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Billlie",
+        "covered_member": "션"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "하루나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Billlie",
+        "covered_member": "츠키"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Billlie",
+        "covered_member": "하람"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Billlie",
+        "covered_member": "문수아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Billlie",
+        "covered_member": "시윤"
+      }
     ],
     "published_date": "2026-07-26",
     "content_type": "short",
@@ -5320,13 +5824,50 @@
       "Billlie"
     ],
     "tagged_members": [
-      "jeong-yoojin",
-      "jang-sein",
       "ahn-yoojin",
+      "jang-sein",
+      "jeong-yoojin",
       "ha-seyoung",
       "kang-yejin",
       "oh-yubin",
       "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "수현"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Billlie",
+        "covered_member": "션"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "하루나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Billlie",
+        "covered_member": "츠키"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Billlie",
+        "covered_member": "하람"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Billlie",
+        "covered_member": "문수아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Billlie",
+        "covered_member": "시윤"
+      }
     ],
     "published_date": "2026-07-26",
     "content_type": "short",
@@ -5362,13 +5903,50 @@
       "Billlie"
     ],
     "tagged_members": [
-      "jeong-yoojin",
-      "jang-sein",
       "ahn-yoojin",
+      "jang-sein",
+      "jeong-yoojin",
       "ha-seyoung",
       "kang-yejin",
       "oh-yubin",
       "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "수현"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Billlie",
+        "covered_member": "션"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "하루나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Billlie",
+        "covered_member": "츠키"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Billlie",
+        "covered_member": "하람"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Billlie",
+        "covered_member": "문수아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Billlie",
+        "covered_member": "시윤"
+      }
     ],
     "published_date": "2026-07-26",
     "content_type": "video",
@@ -5521,10 +6099,32 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kang-yejin",
       "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
       "aoki-yuka"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jang-sein",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-07-25",
     "content_type": "video",
@@ -5599,8 +6199,30 @@
     "tagged_members": [
       "jeong-yoojin",
       "jeong-hyunjin",
-      "kim-nakyeong",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "kim-nakyeong"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-07-24",
     "content_type": "video",
@@ -7326,16 +7948,38 @@
       "aespa"
     ],
     "tagged_members": [
+      "jeong-yoojin",
       "ahn-yoojin",
       "oh-yubin",
-      "jang-sein",
-      "jeong-yoojin"
+      "jang-sein"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-06-05",
     "content_type": "video",
     "view_count": 118908,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
@@ -7355,16 +7999,38 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "bang-jooyeon",
       "lee-wina",
-      "lee-jeonghee"
+      "yun-haeun",
+      "lee-jeonghee",
+      "bang-jooyeon"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "lee-wina",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-06-04",
     "content_type": "video",
     "view_count": 49194,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
@@ -7404,15 +8070,39 @@
       "aespa"
     ],
     "tagged_members": [
+      "jeong-yoojin",
       "ahn-yoojin",
       "oh-yubin",
-      "jang-sein",
-      "jeong-yoojin"
+      "jang-sein"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-06-03",
     "content_type": "video",
     "view_count": 616456,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "1RPBhFq5WAI",
@@ -7502,15 +8192,39 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "bang-jooyeon",
       "lee-wina",
-      "lee-jeonghee"
+      "yun-haeun",
+      "lee-jeonghee",
+      "bang-jooyeon"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "lee-wina",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2026-06-01",
     "content_type": "video",
     "view_count": 402935,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "dmhnFzs6Oo4",
@@ -7572,13 +8286,39 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "won-hyegyeong",
-      "jung-siyun"
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-05-28",
     "content_type": "video",
     "view_count": 104797,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "_N_e1I2sRuA",
@@ -7587,18 +8327,45 @@
       "KiiiKiii"
     ],
     "tagged_members": [
+      "kang-yejin",
+      "won-hyegyeong",
       "ahn-yoojin",
       "ha-seyoung",
-      "oh-yubin",
-      "kang-yejin",
-      "jeong-yoojin",
-      "won-hyegyeong",
-      "lee-yejin"
+      "oh-yubin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "지유"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KiiiKiii",
+        "covered_member": "이솔"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "수이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KiiiKiii",
+        "covered_member": "하음"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "키야"
+      }
     ],
     "published_date": "2026-05-27",
     "content_type": "video",
     "view_count": 95701,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "SJraDpYd3Yc",
@@ -8000,6 +8767,28 @@
       "jeong-hyunjin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "GIRLSET",
+        "covered_member": "렉시"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "GIRLSET",
+        "covered_member": "카밀라"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "GIRLSET",
+        "covered_member": "켄달"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GIRLSET",
+        "covered_member": "사바나"
+      }
+    ],
     "published_date": "2026-05-22",
     "content_type": "video",
     "view_count": 100931,
@@ -8062,14 +8851,44 @@
     ],
     "tagged_members": [
       "ahn-yoojin",
+      "jeong-yoojin",
       "oh-yubin",
-      "kim-nakyeong",
-      "jeong-yoojin"
+      "lee-yejin",
+      "kim-nakyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2026-05-21",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 165541,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "yBHWDNjpgAA",
@@ -8360,6 +9179,48 @@
       "lee-yejin",
       "jeong-yoojin",
       "jeong-hyunjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "후루사와 리사"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "사노 아이카"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "이타쿠라 카나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "마스다 아야노"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "카와모토 에미루"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "우메다 미유"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "마나베 나기사"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "CUTIE STREET",
+        "covered_member": "사쿠라바 하루카"
+      }
     ],
     "published_date": "2026-05-19",
     "content_type": "video",
@@ -9372,10 +10233,32 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "won-hyegyeong",
-      "jung-siyun",
       "jeong-yoojin",
-      "lee-yejin"
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-04-27",
     "content_type": "video",
@@ -9437,13 +10320,39 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
-      "won-hyegyeong",
-      "jung-siyun"
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-04-26",
     "content_type": "video",
     "view_count": 216027,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "0g0GIU3Lk2U",
@@ -10183,21 +11092,34 @@
     "youtube_id": "rui9RTvASm8",
     "title": "[방구석 여기서요?] 케플러 Kep1er (YUJIN & Xiao Ting) - Trouble Maker | 커버댄스 Dance Cover",
     "covered_group": [
-      "TROUBLE MAKER",
       "Kep1er"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "yang-hwanhee",
-      "ahn-yoojin",
       "yun-haeun",
-      "jang-sein",
-      "jeong-yoojin"
+      "jang-sein"
+    ],
+    "special_dancers": [
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Kep1er",
+        "covered_member": "최유진"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Kep1er",
+        "covered_member": "샤오팅"
+      }
     ],
     "published_date": "2026-04-17",
     "content_type": "video",
     "view_count": 222791,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "iYC1yV-vFxI",
@@ -10443,7 +11365,6 @@
     "youtube_id": "grSt3VFJxPM",
     "title": "#도희 'ITZY - THAT'S A NO NO' Dance Cover #Dohui",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -10612,6 +11533,28 @@
       "jeong-hyunjin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "GIRLSET",
+        "covered_member": "렉시"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "GIRLSET",
+        "covered_member": "카밀라"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "GIRLSET",
+        "covered_member": "켄달"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GIRLSET",
+        "covered_member": "사바나"
+      }
+    ],
     "published_date": "2026-04-12",
     "content_type": "short",
     "view_count": 56226,
@@ -10630,6 +11573,28 @@
       "ha-seyoung",
       "jeong-hyunjin",
       "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "GIRLSET",
+        "covered_member": "렉시"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "GIRLSET",
+        "covered_member": "카밀라"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "GIRLSET",
+        "covered_member": "켄달"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GIRLSET",
+        "covered_member": "사바나"
+      }
     ],
     "published_date": "2026-04-12",
     "content_type": "short",
@@ -10650,6 +11615,28 @@
       "jeong-hyunjin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "GIRLSET",
+        "covered_member": "렉시"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "GIRLSET",
+        "covered_member": "카밀라"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "GIRLSET",
+        "covered_member": "켄달"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GIRLSET",
+        "covered_member": "사바나"
+      }
+    ],
     "published_date": "2026-04-12",
     "content_type": "short",
     "view_count": 53555,
@@ -10669,11 +11656,33 @@
       "jeong-hyunjin",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "GIRLSET",
+        "covered_member": "렉시"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "GIRLSET",
+        "covered_member": "카밀라"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "GIRLSET",
+        "covered_member": "켄달"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GIRLSET",
+        "covered_member": "사바나"
+      }
+    ],
     "published_date": "2026-04-12",
     "content_type": "video",
     "view_count": 455138,
     "content_series": [
-      "방구석 여기서요?::S10::A2Be"
+      "방구석 여기서요?::S22"
     ]
   },
   {
@@ -11238,14 +12247,44 @@
     ],
     "tagged_members": [
       "ahn-yoojin",
+      "jeong-yoojin",
       "oh-yubin",
-      "kim-nakyeong",
-      "jeong-yoojin"
+      "lee-yejin",
+      "kim-nakyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2026-04-08",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 566601,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "MS-8JNCtoFU",
@@ -11340,6 +12379,38 @@
       "yang-hwanhee",
       "lee-jeonghee",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2026-04-07",
     "content_type": "video",
@@ -11743,7 +12814,6 @@
     "youtube_id": "-NwrHGkjPV8",
     "title": "#유화 'ITZY - THAT'S A NO NO' Dance Cover #Yuwha",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -11787,7 +12857,6 @@
     "youtube_id": "fS_TDD7QIgg",
     "title": "#나경 #서아 'ITZY - THAT'S A NO NO' Dance Cover #Nakyeong #Seoa",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -12564,17 +13633,45 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
       "won-hyegyeong",
       "baek-jina",
-      "lee-yejin"
+      "ha-seyoung",
+      "oh-yubin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "지유"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KiiiKiii",
+        "covered_member": "이솔"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "KiiiKiii",
+        "covered_member": "수이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KiiiKiii",
+        "covered_member": "하음"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "키야"
+      }
     ],
     "published_date": "2026-03-08",
     "content_type": "video",
     "view_count": 353837,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?"
+    ]
   },
   {
     "youtube_id": "9V6FKcA47_c",
@@ -13426,18 +14523,44 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
       "won-hyegyeong",
       "baek-jina",
-      "lee-yejin"
+      "ha-seyoung",
+      "oh-yubin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "지유"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KiiiKiii",
+        "covered_member": "이솔"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "KiiiKiii",
+        "covered_member": "수이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KiiiKiii",
+        "covered_member": "하음"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "키야"
+      }
     ],
     "published_date": "2026-02-19",
     "content_type": "video",
     "view_count": 112138,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
@@ -13789,17 +14912,45 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
       "won-hyegyeong",
       "baek-jina",
-      "lee-yejin"
+      "ha-seyoung",
+      "oh-yubin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "지유"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KiiiKiii",
+        "covered_member": "이솔"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "KiiiKiii",
+        "covered_member": "수이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KiiiKiii",
+        "covered_member": "하음"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KiiiKiii",
+        "covered_member": "키야"
+      }
     ],
     "published_date": "2026-02-14",
     "content_type": "video",
     "view_count": 480678,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "AZUfBDaEuPE",
@@ -20651,18 +21802,37 @@
     "tagged_members": [
       "park-hyunmin",
       "hwang-jiho",
-      "kim-mingi",
+      "park-seongmin"
+    ],
+    "special_dancers":[
       "kim-youngjin",
-      "do-hyeonsung",
-      "park-seongmin",
       "lee-garam",
+      "kim-mingi",
+      "do-hyeonsung",
       "yun-haeun",
-      "ha-seyoung",
       "jang-sein",
-      "lee-wina",
-      "lee-jeonghee",
       "won-hyegyeong",
-      "jeong-yoojin"
+      "jeong-yoojin",
+      "ha-seyoung",
+      "lee-jeonghee",
+      "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      }
     ],
     "published_date": "2025-11-08",
     "content_type": "video",
@@ -24379,7 +25549,9 @@
     "published_date": "2025-10-06",
     "content_type": "short",
     "view_count": 38812,
-    "content_series": []
+    "content_series": [
+      "이곳이 K-POP의 나라입니다"
+    ]
   },
   {
     "youtube_id": "ZsCs_1fsoAA",
@@ -28546,23 +29718,41 @@
     "youtube_id": "L4xa_mj4DgI",
     "title": "[방구석 여기서요?] 블랙핑크 BLACKPINK - 뛰어(JUMP) | 커버댄스 Dance Cover",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
-      "ahn-yoojin",
       "ha-seyoung",
-      "jang-sein",
       "won-seoa",
-      "jeong-yoojin"
+      "jang-sein",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2025-08-26",
     "content_type": "video",
     "view_count": 1682706,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -28677,7 +29867,9 @@
     "tagged_members": [
       "park-hyunmin",
       "hwang-jiho",
-      "park-seongmin",
+      "park-seongmin"
+    ],
+    "special_dancers":[
       "kim-youngjin",
       "lee-garam",
       "kim-mingi",
@@ -28690,6 +29882,23 @@
       "lee-jeonghee",
       "kim-chan",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "j-hope",
+        "covered_member": "j-hope"
+      }
     ],
     "published_date": "2025-08-25",
     "content_type": "video",
@@ -32011,8 +33220,7 @@
       "Fifth Harmony"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-07-12",
     "content_type": "short",
@@ -49246,14 +50454,13 @@
       "VIVIZ"
     ],
     "tagged_members": [
-      "ahn-yoojin",
       "jeong-yoojin"
     ],
     "published_date": "2024-11-19",
     "content_type": "short",
     "view_count": 93614,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
