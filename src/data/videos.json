@@ -20840,11 +20840,38 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "lee-garam",
-      "kim-hyerim",
       "aoki-yuka",
-      "jeong-yoojin"
+      "kim-hyerim",
+      "jeong-yoojin",
+      "kang-taehyun",
+      "lee-garam"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-11-07",
     "content_type": "video",
@@ -20998,11 +21025,38 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "kang-taehyun",
+      "kang-yejin",
       "kim-hyerim",
       "oh-yubin",
-      "kang-yejin"
+      "kang-taehyun",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-11-06",
     "content_type": "video",
@@ -24926,10 +24980,36 @@
     "tagged_members": [
       "jeong-yoojin",
       "ha-seyoung",
-      "kim-hyerim",
       "lee-jeonghee",
       "lee-garam",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-09-24",
     "content_type": "video",
@@ -26946,20 +27026,47 @@
     "youtube_id": "nQUe02Y5BlU",
     "title": "[방구석 여기서요?] 올데이 프로젝트 ALLDAY PROJECT - FAMOUS (B Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "lee-garam",
+      "lee-yejin",
       "kim-hyerim",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-09-08",
     "content_type": "video",
     "view_count": 565734,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -27827,16 +27934,44 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "kim-mingi",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-yoojin",
       "park-seongmin",
-      "kim-nakyeong"
+      "kim-mingi"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-08-31",
     "content_type": "video",
     "view_count": 542449,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -28148,6 +28283,33 @@
       "oh-yubin",
       "kang-taehyun",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-08-29",
     "content_type": "video",
@@ -30989,6 +31151,33 @@
       "kang-taehyun",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
     "published_date": "2025-07-17",
     "content_type": "video",
     "view_count": 208980,
@@ -31137,21 +31326,47 @@
     "youtube_id": "5YnY7pzxU5k",
     "title": "올데이 프로젝트 ALLDAY PROJECT - FAMOUS (B Team ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "lee-garam",
-      "kim-hyerim",
       "kang-yejin",
+      "kim-hyerim",
       "lee-jeonghee",
-      "lee-yejin"
+      "lee-garam",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-16",
     "content_type": "video",
     "view_count": 95689,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -31202,6 +31417,33 @@
       "oh-yubin",
       "kang-taehyun",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-15",
     "content_type": "video",
@@ -31324,17 +31566,45 @@
       "IVE"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "lee-garam",
-      "kim-hyerim",
       "kang-yejin",
+      "kim-hyerim",
       "lee-jeonghee",
-      "lee-yejin"
+      "lee-garam",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-14",
     "content_type": "video",
     "view_count": 1411140,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "W4Z2DxXbE7c",
@@ -31391,10 +31661,38 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "kim-mingi",
-      "park-seongmin",
+      "aoki-yuka",
+      "kim-nakyeong",
       "jeong-hyunjin",
-      "kim-nakyeong"
+      "park-seongmin",
+      "kim-mingi"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-14",
     "content_type": "video",
@@ -31514,15 +31812,45 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "kim-mingi",
-      "park-seongmin",
+      "aoki-yuka",
+      "kim-nakyeong",
       "jeong-hyunjin",
-      "kim-nakyeong"
+      "park-seongmin",
+      "kim-mingi"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-13",
     "content_type": "video",
     "view_count": 1254721,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "BvV_-1CNdoU",
@@ -32019,6 +32347,33 @@
       "kang-taehyun",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
     "published_date": "2025-07-09",
     "content_type": "short",
     "view_count": 171034,
@@ -32038,6 +32393,33 @@
       "oh-yubin",
       "kang-taehyun",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-09",
     "content_type": "short",
@@ -32059,6 +32441,33 @@
       "kang-taehyun",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
     "published_date": "2025-07-09",
     "content_type": "short",
     "view_count": 391664,
@@ -32079,6 +32488,33 @@
       "kang-taehyun",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
     "published_date": "2025-07-09",
     "content_type": "short",
     "view_count": 2461750,
@@ -32098,6 +32534,33 @@
       "oh-yubin",
       "kang-taehyun",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-07-08",
     "content_type": "video",
@@ -36047,21 +36510,68 @@
       "ZEROBASEONE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "lim-donghun",
-      "cho-woohyeong",
-      "do-hyeonsung",
       "jeong-hyeonchang",
-      "ahn-yoojin",
+      "shim-jiho",
       "kim-nakyeong",
-      "jeong-yoojin",
+      "lee-yejin",
+      "cho-woohyeong",
+      "lim-donghun",
+      "kim-taehwan",
+      "do-hyeonsung",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "성한빈"
+      },
+      {
+        "member_id": "shim-jiho",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "리키"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김지웅"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "장하오"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "석매튜"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "한유진"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김태리"
+      }
     ],
     "published_date": "2025-05-16",
     "content_type": "video",
     "view_count": 65631,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -37230,21 +37740,50 @@
       "IVE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "yun-haeun",
       "ha-seyoung",
       "oh-yubin",
       "kang-minji",
-      "jeong-yoojin",
-      "lee-jeonghee",
-      "won-hyegyeong"
+      "yun-haeun",
+      "won-hyegyeong",
+      "lee-jeonghee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2025-05-09",
     "content_type": "video",
     "view_count": 471054,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -37637,25 +38176,71 @@
     "youtube_id": "Tr4qpRKj7OY",
     "title": "[방구석 여기서요?] 제로베이스원 ZEROBASEONE - BLUE | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "ZEROBASEONE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "cho-woohyeong",
-      "do-hyeonsung",
-      "lee-garam",
       "jeong-hyeonchang",
-      "ahn-yoojin",
+      "shim-jiho",
       "kim-nakyeong",
-      "jeong-yoojin",
+      "lee-yejin",
+      "cho-woohyeong",
+      "lee-garam",
+      "kim-taehwan",
+      "do-hyeonsung",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "성한빈"
+      },
+      {
+        "member_id": "shim-jiho",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "리키"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김지웅"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "장하오"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "석매튜"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "한유진"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김태리"
+      }
     ],
     "published_date": "2025-05-04",
     "content_type": "video",
     "view_count": 98203,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -39200,8 +39785,7 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-04-15",
     "content_type": "short",
@@ -40014,24 +40598,71 @@
     "youtube_id": "EjfsalnHQZo",
     "title": "제로베이스원 ZEROBASEONE - BLUE | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "ZEROBASEONE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "cho-woohyeong",
-      "do-hyeonsung",
-      "lee-garam",
       "jeong-hyeonchang",
-      "ahn-yoojin",
+      "shim-jiho",
       "kim-nakyeong",
-      "jeong-yoojin",
+      "lee-yejin",
+      "cho-woohyeong",
+      "lee-garam",
+      "kim-taehwan",
+      "do-hyeonsung",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "성한빈"
+      },
+      {
+        "member_id": "shim-jiho",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "리키"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김지웅"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "장하오"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "석매튜"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "한유진"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김태리"
+      }
     ],
     "published_date": "2025-03-30",
     "content_type": "video",
     "view_count": 23603,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -40163,23 +40794,72 @@
     "youtube_id": "fJ7s9V4eh2c",
     "title": "[여기서요?] 제로베이스원 ZEROBASEONE - BLUE | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "ZEROBASEONE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "cho-woohyeong",
-      "do-hyeonsung",
-      "lee-garam",
       "jeong-hyeonchang",
-      "ahn-yoojin",
+      "shim-jiho",
       "kim-nakyeong",
-      "jeong-yoojin",
+      "lee-yejin",
+      "cho-woohyeong",
+      "lee-garam",
+      "kim-taehwan",
+      "do-hyeonsung",
       "lee-wina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "성한빈"
+      },
+      {
+        "member_id": "shim-jiho",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "리키"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김지웅"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "장하오"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "석매튜"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "한유진"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김태리"
+      }
     ],
     "published_date": "2025-03-27",
     "content_type": "video",
     "view_count": 112573,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Lt9GS0J7QKU",
@@ -40321,8 +41001,7 @@
       "제니"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-03-25",
     "content_type": "short",
@@ -41583,7 +42262,12 @@
     "title": "🛜 섹시함을 배우는 27살 귀여워~😘 #세영 #재신 #현성 #영진 #정유진 #태환 #Seyoung #Jaeshin #Hyeonsung #Youngjin #Yujin #Taehwan",
     "covered_group": [],
     "tagged_members": [
-      "jeong-yoojin"
+      "ha-seyoung",
+      "kang-jaesin",
+      "do-hyeonsung",
+      "kim-youngjin",
+      "jeong-yoojin",
+      "kim-taehwan"
     ],
     "published_date": "2025-03-06",
     "content_type": "short",
@@ -41909,16 +42593,27 @@
     "title": "[AB생파 #2502] 웃다가 울다가 시끌벅적 🎂2월 생일파티🎂 | 세영, 유진, 규소, 민지",
     "covered_group": [],
     "tagged_members": [
-      "cho-gyuso",
-      "ahn-yoojin",
       "ha-seyoung",
+      "ahn-yoojin",
+      "cho-gyuso",
       "kang-minji",
+      "kim-mingi",
+      "jang-daehyeon",
+      "oh-yubin",
+      "won-hyegyeong",
+      "lee-gaeun",
+      "hwang-jiho",
+      "do-hyeonsung",
+      "kim-nakyeong",
+      "won-seoa",
       "jeong-yoojin"
     ],
     "published_date": "2025-02-28",
     "content_type": "video",
     "view_count": 311584,
-    "content_series": []
+    "content_series": [
+      "AB 생파"
+    ]
   },
   {
     "youtube_id": "gY-ogbU_Kho",
@@ -42752,6 +43447,38 @@
       "won-hyegyeong",
       "lee-jeonghee"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
+    ],
     "published_date": "2025-02-18",
     "content_type": "video",
     "view_count": 93728,
@@ -42835,6 +43562,38 @@
       "yun-haeun",
       "won-hyegyeong",
       "lee-jeonghee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2025-02-17",
     "content_type": "video",
@@ -43247,23 +44006,37 @@
     "youtube_id": "BN67oJo3nIs",
     "title": "[방구석 여기서요?] JENNIE of BLACKPINK - Mantra | 커버댄스 Dance Cover",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
       "kim-nakyeong",
+      "won-hyegyeong",
+      "yang-hyeju",
       "lee-wina",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "jeong-yoojin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      }
     ],
     "published_date": "2025-02-15",
     "content_type": "video",
     "view_count": 639968,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -44518,10 +45291,32 @@
       "aespa"
     ],
     "tagged_members": [
+      "jeong-yoojin",
       "kim-hyerim",
-      "oh-yubin",
       "jeong-hyunjin",
-      "jeong-yoojin"
+      "oh-yubin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      }
     ],
     "published_date": "2025-02-01",
     "content_type": "video",
@@ -44853,21 +45648,68 @@
       "TWICE"
     ],
     "tagged_members": [
-      "ahn-yoojin",
+      "jeong-yoojin",
+      "yang-hyeju",
       "kim-nakyeong",
       "kang-minji",
-      "jeong-yoojin",
-      "lee-wina",
       "lee-jeonghee",
-      "won-hyegyeong",
-      "jung-siyun"
+      "seol-heejeong",
+      "jung-siyun",
+      "lee-wina",
+      "won-hyegyeong"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "yang-hyeju",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      }
     ],
     "published_date": "2025-01-28",
     "content_type": "video",
     "view_count": 692686,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -45101,22 +45943,68 @@
       "ZEROBASEONE"
     ],
     "tagged_members": [
-      "lim-donghun",
       "kang-taehyun",
-      "yang-hwanhee",
       "jeong-hyeonchang",
-      "ahn-yoojin",
+      "kang-jaesin",
+      "kim-chan",
       "yun-haeun",
       "won-seoa",
-      "jeong-yoojin",
+      "yang-hwanhee",
+      "lim-donghun",
       "lee-jeonghee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "성한빈"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "리키"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김지웅"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "장하오"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "석매튜"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "한유진"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ZEROBASEONE",
+        "covered_member": "김태래"
+      }
     ],
     "published_date": "2025-01-25",
     "content_type": "video",
     "view_count": 226958,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -45907,7 +46795,7 @@
     "content_type": "short",
     "view_count": 67085,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -47120,91 +48008,97 @@
     "youtube_id": "gKNSNfxe2Oc",
     "title": "안무 디테일 뭐야 뭐야.. #Mantra #나경 #Nakyeong",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "kim-nakyeong"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 65202,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "k2X0w49eLOA",
     "title": "직캠이랑 낯가리는 사이🤣 #Mantra #혜주 #Hyuejoo",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "yang-hyeju"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 63382,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "voZmWK3IhN4",
     "title": "백업이라 끼 감추고 있었다규😜 #Mantra #정희 #Jeonghee",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "lee-jeonghee"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 85549,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "U2sMUVKo40Y",
     "title": "이런 것도 잘 어울리네? #Mantra #위나 #Wina",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "lee-wina"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 50699,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "HYLOAc9RmYo",
     "title": "제..제가 잘못 했습니다🫢 #Mantra #유화 #Yuwha",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "jeong-yoojin"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 191062,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "-tBp-wYYJV0",
     "title": "본업 댄스강사의 클라스😳 #Mantra #민주 #Minju",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [
+    "special_dancers": [
       "kim-minju"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
     "view_count": 126564,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "DfKxnPI121s",
@@ -47413,17 +48307,31 @@
     "youtube_id": "2LrR9JCpbko",
     "title": "제니 JENNIE of BLACKPINK - Mantra | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
       "kim-nakyeong",
-      "jeong-yoojin",
+      "kim-minju",
+      "yang-hyeju",
       "lee-wina",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      }
     ],
     "published_date": "2024-11-29",
     "content_type": "video",
@@ -47500,28 +48408,44 @@
     "youtube_id": "LkH6D-lJ_X4",
     "title": "[여기서요?] 제니 JENNIE of BLACKPINK - Mantra | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers":[
       "kim-nakyeong",
+      "kim-minju",
+      "yang-hyeju",
       "lee-wina",
-      "lee-jeonghee"
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "제니",
+        "covered_member": "제니"
+      }
     ],
     "published_date": "2024-11-28",
     "content_type": "video",
     "view_count": 938518,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
     "youtube_id": "UK8B8SvDpqo",
     "title": "#나경 #오디션중 'NCT DREAM - When I'm With You' Dance Cover #Nakyeong",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-nakyeong"
@@ -47530,7 +48454,7 @@
     "content_type": "short",
     "view_count": 32255,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -47540,13 +48464,14 @@
       "VIVIZ"
     ],
     "tagged_members": [
-      "jeong-yoojin"
+      "jeong-yoojin",
+      "kang-jaesin"
     ],
     "published_date": "2024-11-28",
     "content_type": "short",
     "view_count": 96481,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -47737,7 +48662,10 @@
     "published_date": "2024-11-24",
     "content_type": "short",
     "view_count": 515015,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "PLZWGQzv5PY",
@@ -47753,8 +48681,7 @@
     "view_count": 96264,
     "content_series": [
       "Dance Cover MV::Dance Teams::AB::2024y",
-      "Dance Cover MV::Years::2024y",
-      "나는 신입::2024y"
+      "Dance Cover MV::Years::2024y"
     ]
   },
   {
@@ -47771,8 +48698,7 @@
     "view_count": 73716,
     "content_series": [
       "Dance Cover MV::Dance Teams::AB::2024y",
-      "Dance Cover MV::Years::2024y",
-      "나는 신입::2024y"
+      "Dance Cover MV::Years::2024y"
     ]
   },
   {
@@ -48477,9 +49403,7 @@
     ],
     "tagged_members": [
       "ahn-yoojin",
-      "kang-yejin",
-      "jeong-yoojin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-11-14",
     "content_type": "short",
@@ -48489,21 +49413,22 @@
   {
     "youtube_id": "yrh_LpEZLT8",
     "title": "2025 AB PROJECT 최종 오디션 참가자 영상 #2",
-    "covered_group": [
-      "IVE"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "lee-garam",
-      "cho-gyuso",
       "jeong-yoojin",
+      "lee-garam",
       "lee-wina",
+      "kim-minju",
+      "cho-gyuso",
+      "yang-hyeju",
+      "ham-juhong",
       "won-hyegyeong"
     ],
     "published_date": "2024-11-13",
     "content_type": "video",
     "view_count": 247688,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -52987,6 +53912,43 @@
       "ahn-gihyun",
       "kim-kyungju"
     ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      }
+    ],
     "published_date": "2024-06-02",
     "content_type": "video",
     "view_count": 185107,
@@ -53500,18 +54462,44 @@
       "YOUNG POSSE"
     ],
     "tagged_members": [
-      "lim-donghun",
-      "chae-yunsu",
-      "ahn-yoojin",
       "kim-hyerim",
+      "lim-donghun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kim-taehwan",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "정선혜"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "위연정"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "지아나"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "도은"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "한지은"
+      }
     ],
     "published_date": "2024-05-26",
     "content_type": "video",
     "view_count": 221120,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2024y"
     ]
   },
   {
@@ -53862,15 +54850,36 @@
     "tagged_members": [
       "ahn-yoojin",
       "kim-hyerim",
-      "jang-sein",
       "won-seoa",
-      "jeong-yoojin"
+      "jang-sein"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      }
     ],
     "published_date": "2024-05-22",
     "content_type": "video",
     "view_count": 364529,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2024y"
     ]
   },
   {
@@ -54338,16 +55347,20 @@
     "title": "우리 좀 멋진것 같아 'SHEESH' 연습 중에 생긴 일 | 이상한 연습실 Ep.2",
     "covered_group": [],
     "tagged_members": [
+      "ha-seyoung",
       "lee-gaeun",
       "ahn-yoojin",
-      "ha-seyoung",
       "oh-yubin",
-      "jeong-yoojin"
+      "jeon-minseo",
+      "aoki-yuka",
+      "seol-heejeong"
     ],
     "published_date": "2024-05-15",
     "content_type": "video",
     "view_count": 94680,
-    "content_series": []
+    "content_series": [
+      "이상한 연습실"
+    ]
   },
   {
     "youtube_id": "aLwuIv-3Y3Y",
@@ -54853,17 +55866,45 @@
       "YOUNG POSSE"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "lim-donghun",
-      "ahn-yoojin",
       "kim-hyerim",
+      "lim-donghun",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "kim-taehwan",
+      "ahn-yoojin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "정선혜"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "위연정"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "지아나"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "도은"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "YOUNG POSSE",
+        "covered_member": "한지은"
+      }
     ],
     "published_date": "2024-05-07",
     "content_type": "video",
     "view_count": 666926,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "QGVWaSx3S9w",
@@ -55012,13 +56053,14 @@
       "청하"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 193369,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "bKOrNnqLB5s",
@@ -55279,22 +56321,56 @@
       "태용"
     ],
     "tagged_members": [
-      "kim-kyungju",
       "hwang-jiho",
-      "ahn-gihyun",
-      "shim-jiho",
+      "jeong-gyeolgyeong",
       "ahn-yoojin",
       "ha-seyoung",
       "jang-sein",
-      "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "ahn-gihyun",
+      "kim-kyungju"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "태용",
+        "covered_member": "태용"
+      }
     ],
     "published_date": "2024-05-02",
     "content_type": "video",
     "view_count": 506083,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16"
     ]
   },
   {
@@ -55624,13 +56700,14 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2024-04-21",
     "content_type": "short",
     "view_count": 174961,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "r6JIDkCxNEM",
@@ -56301,7 +57378,8 @@
       "lee-gaeun",
       "ahn-yoojin",
       "oh-yubin",
-      "jeong-yoojin"
+      "jeon-minseo",
+      "aoki-yuka"
     ],
     "published_date": "2024-04-13",
     "content_type": "live",
@@ -57585,7 +58663,7 @@
       "lim-donghun",
       "ahn-gihyun",
       "ahn-yoojin",
-      "jeong-yoojin"
+      "kim-junseok"
     ],
     "published_date": "2024-02-20",
     "content_type": "live",
@@ -58911,22 +59989,22 @@
       "태용"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
       "hwang-jiho",
-      "lim-donghun",
-      "chae-yunsu",
-      "shim-jiho",
-      "ahn-yoojin",
-      "kim-hyerim",
-      "ha-seyoung",
       "jeong-gyeolgyeong",
-      "jeong-yoojin"
+      "chae-yunsu",
+      "ahn-yoojin",
+      "lim-donghun",
+      "kim-hyerim",
+      "kim-hojun",
+      "ha-seyoung",
+      "kim-taehwan"
     ],
     "published_date": "2024-01-27",
     "content_type": "video",
     "view_count": 1435317,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "vGzdGU13zAw",
@@ -64045,13 +65123,14 @@
       "NewJeans"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-10-03",
     "content_type": "short",
     "view_count": 63905,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "GPtrcuj-xkI",
@@ -64860,7 +65939,7 @@
     ],
     "tagged_members": [
       "ahn-yoojin",
-      "jeong-yoojin"
+      "seol-heejeong"
     ],
     "published_date": "2023-09-27",
     "content_type": "short",
@@ -65190,13 +66269,15 @@
     "covered_group": [],
     "tagged_members": [
       "kim-taehwan",
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-09-25",
     "content_type": "short",
     "view_count": 843775,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14",
+      "K-POP DANCE BATTLE::AB vs AB"
+    ]
   },
   {
     "youtube_id": "9foMPOOrXjc",
@@ -65236,7 +66317,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 99450,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "pQTOFzOPDVc",
@@ -65250,7 +66333,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 247274,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "BlyqxRIyu-4",
@@ -65259,13 +66344,14 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 98802,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "hX9UkqaFbv0",
@@ -65279,7 +66365,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 78119,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "eYc_gQABiSg",
@@ -65512,7 +66600,6 @@
     "youtube_id": "q6bfRG4bAJg",
     "title": "뭐지, 이 춤 잘 추는 모찌 말랑이는?ㅎㅎ #noneofmybusiness #하즈키 #hazuki #ab_hazuki #shorts",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -65521,13 +66608,14 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 38868,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "BahLBb-6MVU",
     "title": "진짜 쫀득쫀득하게 잘 춘다니까~ #noneofmybusiness #혜림 #hyerim #ab_hyerim #shorts",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -65536,29 +66624,30 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 40106,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "-1r8aOyQki8",
     "title": "목이 어디까지 내려가는거에요? #noneofmybusiness #유진 #yoojin #ab_yoojin #shorts",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 111663,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "aoG2qddH7DY",
     "title": "유빈이 천사야? 근데 뒤에 리액션 개웃기네😂 #noneofmybusiness #유빈 #yubin #ab_yubin #shorts",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -65567,13 +66656,14 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 59530,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "ddP6oiVfmUM",
     "title": "그녀가 있지 커버에서 맡은 파트를 맞춰보세요👀 #noneofmybusiness #세영 #seyoung #ab_seyoung #shorts",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -65582,7 +66672,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 27222,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "KEjiNFMwpDU",
