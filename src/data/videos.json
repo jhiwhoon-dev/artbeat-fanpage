@@ -2350,6 +2350,28 @@
       "lee-jeonghee",
       "lee-yoonjae"
     ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
+    ],
     "published_date": "2026-08-27",
     "view_count": 49253,
     "content_type": "video",
@@ -2373,7 +2395,7 @@
     "view_count": 140844,
     "content_type": "short",
     "content_series": [
-      "AB PRACTICE::2026y"
+      "릴레이 댄스::2026y"
     ]
   },
   {
@@ -2387,6 +2409,28 @@
       "won-hyegyeong",
       "lee-jeonghee",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-08-26",
     "view_count": 54680,
@@ -2407,6 +2451,28 @@
       "lee-jeonghee",
       "lee-yoonjae"
     ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
+    ],
     "published_date": "2026-08-26",
     "view_count": 47275,
     "content_type": "short",
@@ -2426,6 +2492,28 @@
       "lee-jeonghee",
       "lee-yoonjae"
     ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
+    ],
     "published_date": "2026-08-26",
     "view_count": 48978,
     "content_type": "short",
@@ -2444,6 +2532,28 @@
       "won-hyegyeong",
       "lee-jeonghee",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-08-26",
     "view_count": 134951,
@@ -9150,6 +9260,38 @@
       "lee-jeonghee",
       "bang-jooyeon"
     ],
+    "role_mapping":[
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
+    ],
     "published_date": "2026-05-23",
     "content_type": "video",
     "view_count": 111132,
@@ -11206,13 +11348,38 @@
     ],
     "tagged_members": [
       "won-seoa",
+      "won-hyegyeong",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "won-seoa",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2026-04-21",
     "content_type": "video",
     "view_count": 88011,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "F1AO6A2HHZQ",
@@ -14062,6 +14229,38 @@
       "lee-jeonghee",
       "bang-jooyeon"
     ],
+    "role_mapping":[
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
+    ],
     "published_date": "2026-03-10",
     "content_type": "video",
     "view_count": 348961,
@@ -14158,6 +14357,38 @@
       "yun-haeun",
       "lee-jeonghee",
       "bang-jooyeon"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2026-03-09",
     "content_type": "video",
@@ -14616,6 +14847,38 @@
       "yun-haeun",
       "lee-jeonghee",
       "bang-jooyeon"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "IVE",
+        "covered_member": "유진"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IVE",
+        "covered_member": "원영"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "IVE",
+        "covered_member": "레이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "IVE",
+        "covered_member": "리즈"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "IVE",
+        "covered_member": "이서"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "IVE",
+        "covered_member": "가을"
+      }
     ],
     "published_date": "2026-03-03",
     "content_type": "video",
@@ -18127,8 +18390,31 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "won-hyegyeong",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-12-23",
     "content_type": "video",
@@ -18366,13 +18652,38 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "won-hyegyeong",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-12-21",
     "content_type": "video",
     "view_count": 158282,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "_g6aDq2F-lo",
@@ -21157,7 +21468,7 @@
     "youtube_id": "_VTvAaJekYc",
     "title": "이 구역의 청순 엔딩 요정💘 #overdrive #세영 #Seyoung",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "ha-seyoung"
@@ -21171,7 +21482,7 @@
     "youtube_id": "Idw7KhUthMk",
     "title": "이번에는 마음을 사르르 녹여주는 마술을 보여줄게 #overdrive #나경 #Nakyeong",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "kim-nakyeong"
@@ -21185,7 +21496,7 @@
     "youtube_id": "gS00znTteGE",
     "title": "시작부터 반했다면 믿으시겠습니까?🫢 #overdrive #호준 #Hojun",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "kim-hojun"
@@ -21199,7 +21510,7 @@
     "youtube_id": "g7-ODQ9LffA",
     "title": "내 맘의 문을 쿵쿵!! #overdrive #태현 #Taehyun",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "kang-taehyun"
@@ -21213,7 +21524,7 @@
     "youtube_id": "rdUOv5Rp84c",
     "title": "꽤나 멋진 슬라이딩인데?? 👀 #overdrive #정희 #Jeonghee",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "lee-jeonghee"
@@ -21221,13 +21532,15 @@
     "published_date": "2025-11-23",
     "content_type": "short",
     "view_count": 46667,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "lMXXGGZ6G5k",
     "title": "청량하면 나지!!✌️ #overdrive #수환 #Suhwan",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "kim-suhwan"
@@ -21241,8 +21554,6 @@
     "youtube_id": "qhoQgNvoQBA",
     "title": "[여기서요?] 블랙핑크 BLACKPINK - Forever young | 커버댄스 Dance Cover @제주도",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -24337,16 +24648,44 @@
       "PRODUCE 48"
     ],
     "tagged_members": [
-      "kim-hyerim",
       "ha-seyoung",
+      "won-hyegyeong",
       "lee-jeonghee",
-      "won-hyegyeong"
+      "jeong-yoojin",
+      "kim-hyerim"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "권은비"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "무라세사에"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "이시안"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "김시현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "한초원"
+      }
     ],
     "published_date": "2025-10-31",
     "content_type": "video",
     "view_count": 181748,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -29331,16 +29670,43 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "won-hyegyeong",
       "kang-minji",
-      "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka",
+      "lee-jeonghee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-09-10",
     "content_type": "video",
     "view_count": 534439,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -30329,15 +30695,37 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "lee-jeonghee",
       "ha-seyoung",
-      "lee-jeonghee"
+      "jeong-yoojin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-08-31",
     "content_type": "video",
     "view_count": 537900,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -38401,15 +38789,43 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "won-hyegyeong",
       "kang-minji",
-      "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka",
+      "lee-jeonghee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-05-21",
     "content_type": "video",
     "view_count": 456400,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -38862,7 +39278,40 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "won-hyegyeong",
+      "kang-minji",
+      "aoki-yuka",
+      "lee-jeonghee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
+    ],
     "published_date": "2025-05-17",
     "content_type": "video",
     "view_count": 132917,
@@ -39608,14 +40057,44 @@
     ],
     "tagged_members": [
       "kim-hyerim",
+      "won-hyegyeong",
       "kang-minji",
-      "lee-jeonghee",
-      "won-hyegyeong"
+      "aoki-yuka",
+      "lee-jeonghee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-05-14",
     "content_type": "video",
     "view_count": 1015908,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Puo0vOvVAK0",
@@ -132128,12 +132607,45 @@
     "covered_group": [
       "PRODUCE 48"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "jinhee",
+      "park-damhee",
+      "kim-suvin",
+      "hwang-dagun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "이시안"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "한초원"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "권은비"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "김시현"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "무라세사에"
+      }
+    ],
     "published_date": "2018-09-25",
     "content_type": "video",
     "view_count": 46227,
     "content_series": [
-      "DANCE ASMR"
+      "DANCE ASMR::2018y"
     ]
   },
   {
@@ -132156,11 +132668,46 @@
     "covered_group": [
       "PRODUCE 48"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "jinhee",
+      "park-damhee",
+      "kim-suvin",
+      "hwang-dagun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "이시안"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "한초원"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "권은비"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "김시현"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "무라세사에"
+      }
+    ],
     "published_date": "2018-09-22",
     "content_type": "video",
     "view_count": 79241,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2018y"
+    ]
   },
   {
     "youtube_id": "B7huOg4JivI",
@@ -132170,12 +132717,48 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "jinhee",
+      "park-damhee",
+      "kim-suvin",
       "hwang-dagun"
+    ],
+    "support":[
+      "소녀나라"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "이시안"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "한초원"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "권은비"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "김시현"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "PRODUCE 48",
+        "covered_member": "무라세사에"
+      }
     ],
     "published_date": "2018-09-21",
     "content_type": "video",
     "view_count": 603184,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "eTW1-jgx4Ns",
