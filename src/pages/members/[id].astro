@@ -328,6 +328,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
         <div class="filter-panel" id="panel-group">
           <div id="group-levels"></div>
+          <div id="etc-series-levels" style="display:none"></div>
         </div>
         <div class="filter-panel" id="panel-series" style="display:none">
           <div class="series-status" id="series-status" style="display:none"></div>
@@ -507,24 +508,42 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   const groupTree = buildTree(DATA.map((v) => v.groups));
   const seriesTree = buildTree(DATA.map((v) => v.series));
+  // "기타"(covered_group 없음) 영상들만 따로, content_series 기준으로 서브 트리를 만듦.
+  // content_series도 비어있으면 "기타"라는 가상 태그로 묶어서 보여줌.
+  const ETC_LABEL = '기타';
+  const etcVideos = DATA.filter((v) => v.groups.length === 0);
+  const etcSeriesTree = buildTree(etcVideos.map((v) => (v.series.length > 0 ? v.series : [ETC_LABEL])));
 
   // 트리 + 현재 선택 경로를 받아서, 선택할 때마다 하위 단계 버튼 행이 자동으로 늘어나는 UI를 그려줌.
   // 그룹/콘텐츠 둘 다 이 함수 하나를 공유해서 씀.
-  function renderLevels(container: HTMLElement, tree: TreeNode, path: string[], onChange: (newPath: string[]) => void) {
+  // extraButtons: depth 0에서 "전체" 옆에 추가로 넣을 버튼들 (그룹 트리의 "기타" 버튼용, 기본은 없음)
+  function renderLevels(
+    container: HTMLElement,
+    tree: TreeNode,
+    path: string[],
+    onChange: (newPath: string[]) => void,
+    extraButtons: { label: string; value: string }[] = []
+  ) {
     let rowsHtml = '';
     let node = tree;
 
     for (let depth = 0; ; depth++) {
       const keys = [...node.keys()].sort();
-      if (keys.length === 0) break;
+      if (keys.length === 0 && depth === 0 && extraButtons.length === 0) break;
+      if (keys.length === 0 && depth > 0) break;
 
       const activeKeyAtDepth = path[depth];
+      const extraHtml = depth === 0
+        ? extraButtons.map((eb) => `<button class="filter-btn etc-btn ${eb.value === activeKeyAtDepth ? 'active' : ''}" data-depth="0" data-value="${escapeHtml(eb.value)}">${escapeHtml(eb.label)}</button>`).join('')
+        : '';
       const buttons =
         `<button class="filter-btn ${activeKeyAtDepth === undefined ? 'active' : ''}" data-depth="${depth}" data-value="__all__">전체</button>` +
-        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('');
+        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('') +
+        extraHtml;
       rowsHtml += `<div class="filters series-level" data-depth="${depth}">${buttons}</div>`;
 
-      if (!activeKeyAtDepth) break;
+      // "기타"(트리에 없는 특수 값)가 선택된 경우, 하위 단계가 없으니 더 내려가지 않고 여기서 멈춤
+      if (!activeKeyAtDepth || extraButtons.some((eb) => eb.value === activeKeyAtDepth)) break;
       node = node.get(activeKeyAtDepth)!;
     }
 
@@ -581,6 +600,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     seriesStatusEl.style.display = '';
   }
 
+  const etcSeriesLevelsEl = document.getElementById('etc-series-levels');
+
   function renderGroupLevels() {
     renderLevels(groupLevelsEl, groupTree, activeGroupPath, (newPath) => {
       activeGroupPath = newPath;
@@ -589,7 +610,24 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       render();
       renderSelectionChart();
       pushUrlState();
-    });
+    }, [{ label: '기타', value: '__etc__' }]);
+
+    // "기타"가 선택된 상태일 때만, 그 아래에 content_series 기준 서브 필터를 추가로 보여줌
+    if (activeGroupPath[0] === '__etc__' && etcSeriesLevelsEl) {
+      etcSeriesLevelsEl.style.display = '';
+      const subPath = activeGroupPath.slice(1);
+      renderLevels(etcSeriesLevelsEl, etcSeriesTree, subPath, (newSubPath) => {
+        activeGroupPath = ['__etc__', ...newSubPath];
+        currentPage = 1;
+        renderGroupLevels();
+        render();
+        renderSelectionChart();
+        pushUrlState();
+      });
+    } else if (etcSeriesLevelsEl) {
+      etcSeriesLevelsEl.style.display = 'none';
+      etcSeriesLevelsEl.innerHTML = '';
+    }
   }
 
   function renderSeriesLevels() {
@@ -696,6 +734,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
         // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
         if (activeGroupPath.length === 0) return true;
+        // "기타" 버튼: 그룹 태그가 하나도 없는 영상만. 서브 경로가 있으면(content_series 선택) 그것까지 반영
+        // (content_series도 비어있으면 "기타"라는 가상 태그로 취급)
+        if (activeGroupPath[0] === '__etc__') {
+          if (v.groups.length > 0) return false;
+          const subPath = activeGroupPath.slice(1);
+          if (subPath.length === 0) return true;
+          const seriesForMatch = v.series.length > 0 ? v.series : [ETC_LABEL];
+          return seriesForMatch.some((tag) => matchesPath(tag, subPath));
+        }
         return v.groups.some((tag) => matchesPath(tag, activeGroupPath));
       }
       if (activeMode === 'member') {
@@ -1096,7 +1143,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     let targetLabel: string | null = null;
     let matched: VideoItem[] = [];
 
-    if (activeMode === 'group' && activeGroupPath.length > 0) {
+    if (activeMode === 'group' && activeGroupPath.length > 0 && activeGroupPath[0] !== '__etc__') {
       targetLabel = activeGroupPath[activeGroupPath.length - 1];
       matched = DATA.filter((v) => v.contentType === 'video' && v.groups.some((g) => matchesPath(g, activeGroupPath)));
     } else if (activeMode === 'member' && activeMemberId) {
@@ -1106,6 +1153,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     if (!targetLabel) {
       selectionBlock.style.display = 'none';
+      if (shareChartBlock) shareChartBlock.style.display = 'none';
       return;
     }
     selectionBlock.style.display = '';
