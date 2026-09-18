@@ -7452,11 +7452,54 @@
       "oh-yubin",
       "ahn-yoojin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
+    ],
     "published_date": "2026-06-30",
     "content_type": "video",
     "view_count": 65434,
     "content_series": [
-      "AB STAGE::2026y"
+      "AB STAGE::2026y",
+      "행사::2026y"
     ]
   },
   {
@@ -9833,20 +9876,63 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "bang-jooyeon",
-      "jang-sein",
-      "kim-nakyeong",
-      "lee-wina",
-      "lee-yejin",
       "cho-yuna",
+      "lee-wina",
+      "kim-nakyeong",
+      "bang-jooyeon",
+      "kang-yejin",
       "kim-soeun",
+      "jang-sein",
       "jung-siyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2026-05-18",
     "content_type": "video",
     "view_count": 148923,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "dtj79sLSYFQ",
@@ -12582,20 +12668,63 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jang-sein",
-      "kim-nakyeong",
-      "lee-wina",
-      "baek-jina",
-      "lee-yejin",
-      "lee-yoonjae",
       "cho-yuna",
-      "kim-soeun"
+      "lee-wina",
+      "kim-nakyeong",
+      "baek-jina",
+      "kang-yejin",
+      "kim-soeun",
+      "jang-sein",
+      "lee-yoonjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2026-04-11",
     "content_type": "video",
     "view_count": 387397,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "w-vspEy-Gs0",
@@ -13966,32 +14095,86 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jang-sein",
-      "kim-nakyeong",
-      "lee-wina",
-      "baek-jina",
-      "lee-yejin",
-      "lee-yoonjae",
       "cho-yuna",
-      "kim-soeun"
+      "lee-wina",
+      "kim-nakyeong",
+      "baek-jina",
+      "kang-yejin",
+      "kim-soeun",
+      "jang-sein",
+      "lee-yoonjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2026-03-17",
     "content_type": "video",
     "view_count": 95473,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
     "youtube_id": "fcvstiKwhYo",
     "title": "다 같이 외쳐보는 화제의 영어 파트😝 #rude #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "kim-nakyeong",
+      "baek-jina",
+      "kang-yejin",
+      "kim-soeun",
+      "jang-sein",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-03-17",
     "content_type": "short",
     "view_count": 784736,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ]
   },
   {
     "youtube_id": "Nez4dEy92c8",
@@ -14078,20 +14261,63 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jang-sein",
-      "kim-nakyeong",
-      "lee-wina",
-      "baek-jina",
-      "lee-yejin",
-      "lee-yoonjae",
       "cho-yuna",
-      "kim-soeun"
+      "lee-wina",
+      "kim-nakyeong",
+      "baek-jina",
+      "kang-yejin",
+      "kim-soeun",
+      "jang-sein",
+      "lee-yoonjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2026-03-16",
     "content_type": "video",
     "view_count": 1678961,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "CiNWq6CFN30",
@@ -28972,19 +29198,62 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kim-nakyeong",
+      "cho-yuna",
       "lee-wina",
-      "won-hyegyeong",
-      "baek-jina",
       "lee-yoonjae",
-      "cho-yuna"
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2025-09-17",
     "content_type": "video",
     "view_count": 280607,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -29910,7 +30179,8 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "cho-yuna"
+      "cho-yuna",
+      "kim-chan"
     ],
     "published_date": "2025-09-11",
     "content_type": "short",
@@ -35578,18 +35848,62 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kim-nakyeong",
+      "cho-yuna",
       "lee-wina",
-      "won-hyegyeong",
-      "baek-jina",
       "lee-yoonjae",
-      "cho-yuna"
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2025-07-10",
     "content_type": "video",
     "view_count": 96040,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -36025,17 +36339,63 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kim-nakyeong",
+      "cho-yuna",
       "lee-wina",
-      "won-hyegyeong",
-      "baek-jina",
       "lee-yoonjae",
-      "cho-yuna"
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "스텔라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "카르멘"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "유하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "주은"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "에이나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "이안"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "Hearts2Hearts",
+        "covered_member": "예온"
+      }
     ],
     "published_date": "2025-07-06",
     "content_type": "video",
     "view_count": 605017,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "2FQYQRQrdkk",
@@ -82516,26 +82876,6 @@
     "content_type": "short",
     "view_count": 62574,
     "content_series": []
-  },
-  {
-    "youtube_id": "0mKgbSTBxIg",
-    "title": "[🦋ARTBEAT]  엠카 끝내고 라이브✌🏻~ | LIVE after M countDown!",
-    "covered_group": [],
-    "tagged_members": [
-      "lee-gaeun",
-      "ahn-yoojin",
-      "yun-haeun",
-      "ha-seyoung",
-      "oh-yubin",
-      "park-damhee",
-      "lee-sieun"
-    ],
-    "published_date": "2023-02-09",
-    "content_type": "live",
-    "view_count": 83815,
-    "content_series": [
-      "ARTBEAT v"
-    ]
   },
   {
     "youtube_id": "yjEwJW7QsS8",
