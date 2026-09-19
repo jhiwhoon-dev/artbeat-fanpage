@@ -5163,6 +5163,33 @@
       "cho-yuna",
       "yun-haeun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "RESCENE",
+        "covered_member": "원이"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "RESCENE",
+        "covered_member": "리브"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "RESCENE",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "RESCENE",
+        "covered_member": "제나"
+      }
+    ],
     "published_date": "2026-08-03",
     "content_type": "video",
     "view_count": 79582,
@@ -7983,7 +8010,9 @@
     "published_date": "2026-06-22",
     "content_type": "short",
     "view_count": 31910,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "sxA3SOzHcmg",
@@ -7997,7 +8026,9 @@
     "published_date": "2026-06-22",
     "content_type": "short",
     "view_count": 62508,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "c_9VeGPt4QE",
@@ -8011,7 +8042,9 @@
     "published_date": "2026-06-22",
     "content_type": "short",
     "view_count": 24116,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "kSNQJLP97M8",
@@ -8025,7 +8058,9 @@
     "published_date": "2026-06-22",
     "content_type": "short",
     "view_count": 23485,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "gqURnkPEtcI",
@@ -8033,11 +8068,15 @@
     "covered_group": [
       "RESCENE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2026-06-22",
     "content_type": "short",
     "view_count": 22224,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "irzaJ75mKXk",
@@ -8408,60 +8447,82 @@
   {
     "youtube_id": "iqsUgIghfSs",
     "title": "마지막 순두부 모먼트 뭐임ㅋㅋ #ItsMe #윤아",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 69196,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "8tn0zwfxqKY",
     "title": "금발로 말아주는 잇츠미 어떤대 #ItsMe #서아",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "won-seoa"
     ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 44768,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "awMYfcF3p0w",
     "title": "요즘 미모 폼 오른 그녀 #ItsMe #혜경",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "won-hyegyeong"
     ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 52235,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "BFEqvxI4RTQ",
     "title": "막내가 시크하게 자라고 있습니다 #ItsMe #소은",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "kim-soeun"
     ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 31551,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "nSCwTCPuU24",
     "title": "웃으면서 무대 장악하는 타입 #ItsMe #유카",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 43726,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "IHJncMqFjFk",
@@ -9425,11 +9486,30 @@
     "tagged_members": [
       "yun-haeun",
       "jang-sein",
-      "ahn-yoojin",
+      "ahn-yoojin"
+    ],
+    "special_dancers":[
       "won-hyegyeong",
       "jung-siyun",
       "cho-yuna",
       "kim-soeun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      }
     ],
     "published_date": "2026-05-25",
     "content_type": "video",
@@ -13694,7 +13774,9 @@
     "tagged_members": [
       "yun-haeun",
       "jang-sein",
-      "ahn-yoojin",
+      "ahn-yoojin"
+    ],
+    "special_dancers":[
       "won-hyegyeong",
       "lee-yoonjae",
       "cho-yuna",
@@ -13716,7 +13798,9 @@
     "tagged_members": [
       "yun-haeun",
       "jang-sein",
-      "ahn-yoojin",
+      "ahn-yoojin"
+    ],
+    "special_dancers":[
       "won-hyegyeong",
       "lee-yoonjae",
       "cho-yuna",
@@ -13738,7 +13822,9 @@
     "tagged_members": [
       "yun-haeun",
       "jang-sein",
-      "ahn-yoojin",
+      "ahn-yoojin"
+    ],
+    "special_dancers":[
       "won-hyegyeong",
       "lee-yoonjae",
       "cho-yuna",
@@ -13814,11 +13900,30 @@
     "tagged_members": [
       "yun-haeun",
       "jang-sein",
-      "ahn-yoojin",
+      "ahn-yoojin"
+    ],
+    "special_dancers":[
       "won-hyegyeong",
       "lee-yoonjae",
       "cho-yuna",
       "kim-soeun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      }
     ],
     "published_date": "2026-04-07",
     "content_type": "video",
@@ -14379,99 +14484,130 @@
   {
     "youtube_id": "tl7Q4B1Gp3k",
     "title": "모자까지가 패션의 완성이죠😉 #rude #윤재 #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 72470,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "FWOrwPdPHhc",
     "title": "중간에 눈 마주친 거 나만 설레??🫢 #rude #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 205848,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "_DkfiiHvJIk",
     "title": "I don't care, 이게 나라구 #rude #소은 #Soeun",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "kim-soeun"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 91825,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "-k6rkuVv50Q",
     "title": "RUDE!의 화룡점정, 영어 파트 나도 잘한다구요😍 #rude #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 680948,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "Vqgu1hJQP4Q",
     "title": "머리까지 싱크로율 뭐야 뭐야!😮 #rude #위나 #Wina",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-wina"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 75816,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "8S1LSMtC8Gg",
     "title": "미소 유지 폼 미쳤다👍 #rude #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 65107,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "YlW_SbpoPTc",
     "title": "내가 가는 길마다 여기저기서 인사를 건네✨ #rude #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 49889,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "4oPuF2fzNO4",
     "title": "인트로는 나한테 맡겨줘 #rude #세인 #Sein",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "jang-sein"
     ],
     "published_date": "2026-03-20",
     "content_type": "short",
     "view_count": 60837,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "ZSV_4diW6hE",
@@ -14479,11 +14615,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "kim-nakyeong",
+      "baek-jina",
+      "kang-yejin",
+      "kim-soeun",
+      "jang-sein",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-03-19",
     "content_type": "short",
     "view_count": 903625,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "pBstn2CV92w",
@@ -17310,7 +17457,9 @@
   {
     "youtube_id": "eFKxlrt9zqU",
     "title": "#윤아 'CHUU - XO, My Cyberlove' Dance Cover #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "CHUU"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
@@ -19950,115 +20099,203 @@
   {
     "youtube_id": "yCaBnKzuLtc",
     "title": "찬란했던 우리의 여름 일기 끝 😊#body #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers": [
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 160386,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "IJNTRgrc5R0",
     "title": "오늘 포토타임의 주인공은 누구일까요?? #body #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers": [
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 97069,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "8C10dqSrz50",
     "title": "원곡자의 하트를 받았던 화제의 그 곡!!🔥 #body #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers": [
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 77220,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "4b6MeX7B1J8",
     "title": "[방구석 여기서요?] 다영 DAYOUNG - body | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "DAYOUNG"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "lee-garam",
-      "shim-jiho",
-      "yun-haeun",
+      "aoki-yuka",
       "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers": [
       "bang-jooyeon",
-      "lee-yoonjae"
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      }
     ],
     "published_date": "2025-12-15",
     "content_type": "video",
     "view_count": 416312,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
     "youtube_id": "UG5rQpSxQoM",
     "title": "진짜 끄덕이는 안무 너무 귀여운데 어떻게 해야 하나요? 😭 #윤아 #Yuna #notcuteanymore",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 123940,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "iN3WG6xOB6E",
     "title": "강아지보단 난 네가 더 좋아 #notcuteanymore #찬 #Chan",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT"
+    ],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 58545,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "8QzxCHIP4jw",
     "title": "표정 변화는 이렇게 하는 거라구😉 #notcuteanymore #현진 #Hyunjin",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "jeong-hyunjin"
     ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 586735,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "STOfpDQK3po",
     "title": "인형이 사람이 된다면!? #notcuteanymore #위나 #Wina",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "lee-wina"
     ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 36703,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "fseFEOfb0RE",
     "title": "이 노래에 찰떡인 사람 한 명 추가요👏 #notcuteanymore #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2025-12-15",
     "content_type": "short",
     "view_count": 62822,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "vJNuCDi13OA",
@@ -20216,19 +20453,56 @@
       "Say My Name"
     ],
     "tagged_members": [
-      "bang-jooyeon",
-      "kim-nakyeong",
-      "kang-minji",
       "cho-yuna",
-      "kim-soeun",
-      "jung-siyun"
+      "kang-minji",
+      "kim-nakyeong",
+      "lee-yejin",
+      "bang-jooyeon",
+      "jung-siyun",
+      "kim-soeun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Say My Name",
+        "covered_member": "히토미"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "Say My Name",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Say My Name",
+        "covered_member": "카니"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "Say My Name",
+        "covered_member": "소하"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "Say My Name",
+        "covered_member": "도희"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "Say My Name",
+        "covered_member": "준휘"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "Say My Name",
+        "covered_member": "승주"
+      }
     ],
     "published_date": "2025-12-14",
     "content_type": "video",
     "view_count": 70376,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -22221,7 +22495,9 @@
   {
     "youtube_id": "cJCl29RKRQk",
     "title": "저 진짜 안 귀여워요..🤥 #윤아 #notcuteanymore #yuna",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
@@ -23360,7 +23636,9 @@
   {
     "youtube_id": "YdDGqn921OM",
     "title": "#윤재 #윤아 #지나 'FIFTY FIFTY - 가위바위보(Eeny meeny miny moe)' Dance Cover #Yoonjae #Yuna #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "Fifty Fifty"
+    ],
     "tagged_members": [
       "baek-jina",
       "lee-yoonjae",
@@ -23813,72 +24091,96 @@
   {
     "youtube_id": "m5FL6xqG2Hg",
     "title": "주신 하트는 영원히 간직할게요💕 #bluevalentine #위나 #Wina",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
       "lee-wina"
     ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 33505,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Lu7pvW59RdE",
     "title": "1초만에 심쿵하게 만들기!!👀 #bluevalentine #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 127591,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Q7Rg13H_sKY",
     "title": "오늘이 발렌타인데이 맞죠?? #bluevalentine #윤재 #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 43914,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "IDSAfhtlEOI",
     "title": "이 곡과 너무 찰떡인 한 사람😉 #bluevalentine #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 56169,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "nVOluat2WZs",
     "title": "앞으로 다가올 때 내 마음도 설렜어.. #bluevalentine #유카 #Yuka",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 37527,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "3zbDhc3Yiwo",
     "title": "표정 연기 너무 잘하는데요? 😍 #bluevalentine #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "NMIXX"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 51191,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "QYiCpWQjmrY",
@@ -25393,17 +25695,44 @@
       "Saja Boys"
     ],
     "tagged_members": [
-      "yang-hwanhee",
+      "cho-yuna",
       "cho-gyuso",
-      "yun-haeun",
+      "yang-hwanhee",
       "kim-nakyeong",
-      "cho-yuna"
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "Saja Boys",
+        "covered_member": "로맨스"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "Saja Boys",
+        "covered_member": "베이비"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "Saja Boys",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Saja Boys",
+        "covered_member": "애비"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Saja Boys",
+        "covered_member": "미스터리"
+      }
     ],
     "published_date": "2025-11-02",
     "content_type": "video",
     "view_count": 85471,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -32153,22 +32482,36 @@
       "YENA"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "do-hyeonsung",
-      "park-seongmin",
-      "cho-gyuso",
       "yun-haeun",
-      "jang-sein",
-      "lee-wina",
+      "jang-sein"
+    ],
+    "special_dancers":[
       "baek-jina",
-      "cho-yuna"
+      "lee-wina",
+      "kim-chan",
+      "cho-yuna",
+      "cho-gyuso",
+      "do-hyeonsung",
+      "kang-taehyun",
+      "park-seongmin"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "YENA",
+        "covered_member": "YENA"
+      }
     ],
     "published_date": "2025-08-30",
     "content_type": "video",
     "view_count": 199770,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -32515,17 +32858,44 @@
       "Saja Boys"
     ],
     "tagged_members": [
-      "yang-hwanhee",
+      "kim-chan",
       "cho-gyuso",
-      "yun-haeun",
-      "kim-nakyeong"
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "Saja Boys",
+        "covered_member": "로맨스"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "Saja Boys",
+        "covered_member": "베이비"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "Saja Boys",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "Saja Boys",
+        "covered_member": "애비"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Saja Boys",
+        "covered_member": "미스터리"
+      }
     ],
     "published_date": "2025-08-28",
     "content_type": "video",
     "view_count": 6741986,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -36905,96 +37275,130 @@
   {
     "youtube_id": "WZ6pQjC1lo8",
     "title": "널 보면 신나서 날아갈 것만 같아 #style #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 96783,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "GywD4zoq_xw",
     "title": "안경 쓴 모습도 다 좋은 걸 어떡해🥰 #style #찬 #Chan",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 62801,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "nrIS81kIwrM",
     "title": "내 윙크 받을 사람 여기 여기 모여라!!👍 #style #혜경 #Hyegyeong",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "won-hyegyeong"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 47958,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "W0qSdcV8oOc",
     "title": "춤출 때마다 움직이는 묶은 머리.. 너무 귀엽쟈나...🥹 #style #윤재 #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 39900,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "HArOh1v5DMk",
     "title": "단발로 바꿔본 내 STYLE은 어때? 😜 #style #위나 #Wina",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-wina"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 43992,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "TQim6SVUZX8",
     "title": "우리 같이 걷자~ 난 너가 다 궁금해 🤩 #style #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 55662,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "h3EBYD5zr6k",
     "title": "자꾸 아이컨택 하면 내 볼은 주홍빛이 될단말이야 ☺️ #style #도희 #Dohui",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-yejin"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 42713,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "sDeco1Vv3TM",
     "title": "웃으면 복이 온다구요~😆 #style #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-07-08",
     "content_type": "short",
     "view_count": 39098,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "kWyviQk-IB8",
@@ -37013,12 +37417,25 @@
   {
     "youtube_id": "ppH8gd7vA94",
     "title": "흰 도화지 위 그려진 우리들❤️ #style #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-07",
     "content_type": "short",
     "view_count": 83149,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "aPVtyGatKnI",
@@ -37026,11 +37443,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-06",
     "content_type": "short",
     "view_count": 51375,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "AR3F6oFmmv0",
@@ -37038,11 +37466,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-06",
     "content_type": "short",
     "view_count": 69084,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "MohHDy_RtUw",
@@ -37050,11 +37489,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-06",
     "content_type": "short",
     "view_count": 31944,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "IXWP0nm1Xa0",
@@ -37153,8 +37603,7 @@
     "youtube_id": "mx_N05lOR78",
     "title": "#윤수 '호시X우지 (SEVENTEEN) - ECHO! (Prod. WOOZI)' Dance Cover #Yunsu",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::호시X우지"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -37167,60 +37616,82 @@
   {
     "youtube_id": "Ktybis28k2U",
     "title": "이런 미소라면 나 주거 😭 #빌려온고양이 #유빈 #Yubin",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "oh-yubin"
     ],
     "published_date": "2025-07-05",
     "content_type": "short",
     "view_count": 97730,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "ABXiu1OIguY",
     "title": "하늘하늘 날아갈 것 같아요!! #빌려온고양이 #현진 #Hyunjin",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "jeong-hyunjin"
     ],
     "published_date": "2025-07-05",
     "content_type": "short",
     "view_count": 52208,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "RUcmraE9Ddo",
     "title": "노래가 좋아서 신이난고양🤩 #빌려온고양이 #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-07-05",
     "content_type": "short",
     "view_count": 42701,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "NshMMqPE4zM",
     "title": "나랑 눈 마주쳤네? 😍 #빌려온고양이 #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2025-07-05",
     "content_type": "short",
     "view_count": 37961,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "XXNxG_I9RcU",
     "title": "행복한 아기 고양이 🐱 #빌려온고양이 #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "ILLIT"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-07-05",
     "content_type": "short",
     "view_count": 39943,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "1zffJcMvYQQ",
@@ -38388,8 +38859,8 @@
     "title": "🛜 06년생, 새내기들이 겪으면 화나는 상황😣 #주연 #윤수 #서아 #윤아  #Jooyeon #Yunsu #Seoa #Yuna",
     "covered_group": [],
     "tagged_members": [
-      "chae-yunsu",
       "bang-jooyeon",
+      "chae-yunsu",
       "won-seoa",
       "cho-yuna"
     ],
@@ -39048,61 +39519,82 @@
   {
     "youtube_id": "cssfzijH3IY",
     "title": "빨간 모자는 킬포인가요?🫢 #gross #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "힛지스"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-06-10",
     "content_type": "short",
     "view_count": 45617,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "OmyWtsjBsZk",
     "title": "인간 비타민이네요🥳 #gross #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "힛지스"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-06-10",
     "content_type": "short",
     "view_count": 41690,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "qD3cN_ano1E",
     "title": "긴 머리는 늘 사랑입니다🫶 #gross #가은 #Gaeun",
-    "covered_group": [],
+    "covered_group": [
+      "힛지스"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
     "published_date": "2025-06-10",
     "content_type": "short",
     "view_count": 50957,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "onKhyWsCwYo",
     "title": "너만 생각하는 나는 어때? #gross #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "힛지스"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-06-10",
     "content_type": "short",
     "view_count": 35022,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "LHIAbgvT4V0",
     "title": "마무리까지 완벽하면 어떡해요!! 😆 #gross #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "힛지스"
+    ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-06-10",
     "content_type": "short",
     "view_count": 32160,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "xGheULZ2DYk",
@@ -40121,7 +40613,9 @@
   {
     "youtube_id": "_6y0mV6KI04",
     "title": "#윤아 #소은 'UNIS - SWICY' Dance Cover #Yuna #Soeun",
-    "covered_group": [],
+    "covered_group": [
+      "UNIS"
+    ],
     "tagged_members": [
       "cho-yuna",
       "kim-soeun"
@@ -43570,7 +44064,7 @@
     "youtube_id": "S-lL5ywAAEM",
     "title": "삐-빅 ay-yo 춤 복제 완료🤖 #ayyo #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [],
     "published_date": "2025-05-02",
@@ -46564,7 +47058,7 @@
     "content_type": "short",
     "view_count": 63361,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -46596,62 +47090,82 @@
   {
     "youtube_id": "U1eukbTlHw8",
     "title": "단발이 신의 한수 😍 #thechase #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 113769,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "8kiL-Z6imO4",
     "title": "반짝반짝 빛나는 눈동자👀 #thechase #세영 #Seyoung",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 151384,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "4HWKJ-_t_6I",
     "title": "내 마음대로 잘라낸 아름다운 한 조각 #thechase #유빈 #Yubin",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "oh-yubin"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 522702,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "FMeOVAUbWfk",
     "title": "귀여운 얼굴과 반대되는 춤실력 #thechase #윤아 #Yuna",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "cho-yuna"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 63551,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "n5cWHZFc21I",
     "title": "봄 산책 중인 토끼🐰 #thechase #현진 #Hyunjin",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "jeong-hyunjin"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 115590,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Racxqgk8Nts",
@@ -46672,26 +47186,34 @@
   {
     "youtube_id": "h2l7tmir72Q",
     "title": "모험의 첫걸음 어떤가요? #thechase #윤재 #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 24100,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "sxvB6fxb664",
     "title": "미소가 돋보이는 그녀 😄 #thechase #민지 #Minji",
-    "covered_group": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
     "tagged_members": [
       "kang-minji"
     ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 35839,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "-GDxXfiAtZo",
@@ -46761,12 +47283,25 @@
   {
     "youtube_id": "S9TXxOwYsjw",
     "title": "알록달록 이쁜이들 모임❤️ #thechase #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
+    "tagged_members": [
+      "lee-yoonjae",
+      "yun-haeun",
+      "jeong-hyunjin",
+      "oh-yubin",
+      "cho-yuna",
+      "kang-minji",
+      "ha-seyoung",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-03-21",
     "content_type": "short",
     "view_count": 139389,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "v824dJGxRu0",
