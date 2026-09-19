@@ -4903,6 +4903,7 @@
     ],
     "tagged_members": [
       "won-hyegyeong",
+      "oh-yubin",
       "yun-haeun",
       "lee-wina",
       "lee-yejin"
@@ -4922,6 +4923,7 @@
     ],
     "tagged_members": [
       "won-hyegyeong",
+      "oh-yubin",
       "yun-haeun",
       "lee-wina",
       "lee-yejin"
@@ -5113,6 +5115,33 @@
       "yun-haeun",
       "lee-wina",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
     ],
     "published_date": "2026-08-05",
     "content_type": "video",
@@ -8851,22 +8880,42 @@
   {
     "youtube_id": "dMq6r49KIxI",
     "title": "솔직히 여기서 갑자기 댄브는 예상 못 했음ㅋㅋ #PINKYUP #VIEWERSPIKE #ARTBEAT",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-06-10",
     "content_type": "short",
     "view_count": 94611,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "G8aLVZC4Pps",
     "title": "이래서 다들 다시 봤나 봄 #PINKYUP #MOSTREPLAYED #ARTBEAT",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-06-10",
     "content_type": "short",
     "view_count": 153210,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "iqsUgIghfSs",
@@ -8955,27 +9004,65 @@
       "KATSEYE"
     ],
     "tagged_members": [
-      "yun-haeun",
+      "won-hyegyeong",
       "oh-yubin",
+      "yun-haeun",
       "lee-wina",
-      "won-hyegyeong"
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
     ],
     "published_date": "2026-06-09",
     "content_type": "video",
     "view_count": 78729,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
     "youtube_id": "Vp-lMcZUB7o",
     "title": "제일 'PINKY UP'한 연습복은 뭐야?👚 #PINKYUP #ARTBEAT #OOTD",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KATSEYE"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "oh-yubin",
+      "yun-haeun",
+      "lee-wina",
+      "lee-yejin"
+    ],
     "published_date": "2026-06-09",
     "content_type": "short",
     "view_count": 123025,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "e2jYtdRbo_c",
@@ -8984,15 +9071,45 @@
       "KATSEYE"
     ],
     "tagged_members": [
-      "yun-haeun",
+      "won-hyegyeong",
       "oh-yubin",
+      "yun-haeun",
       "lee-wina",
-      "won-hyegyeong"
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "KATSEYE",
+        "covered_member": "소피아"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "KATSEYE",
+        "covered_member": "다니엘라"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "KATSEYE",
+        "covered_member": "라라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "KATSEYE",
+        "covered_member": "메간"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "KATSEYE",
+        "covered_member": "윤채"
+      }
     ],
     "published_date": "2026-06-08",
     "content_type": "video",
     "view_count": 645970,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "lFWsY87WfrI",
@@ -12042,12 +12159,21 @@
   {
     "youtube_id": "Z6uK_CJPNdQ",
     "title": "3,2,1 Who is she? #whoisshe #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-04-27",
     "content_type": "short",
     "view_count": 370534,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ]
   },
   {
     "youtube_id": "wexUh8_sG-c",
@@ -12055,11 +12181,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-04-26",
     "content_type": "short",
     "view_count": 46779,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "14jxbTtOvyM",
@@ -12067,11 +12200,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-04-26",
     "content_type": "short",
     "view_count": 150479,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "HxUXdZUChVs",
@@ -12079,11 +12219,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-04-26",
     "content_type": "short",
     "view_count": 64756,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "GQFhpkW1rsg",
@@ -13976,12 +14123,9 @@
   {
     "youtube_id": "jtTca7HYZMo",
     "title": "[💿AB PLAYLIST #예진] 케이팝 고인물이 담아온 봄날의 하이틴 플리 🫧 | Yejin's Playlist",
-    "covered_group": [
-      "ILLIT"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2026-04-10",
     "content_type": "video",
@@ -14198,11 +14342,19 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ahn-yoojin",
+      "jeong-yoojin",
+      "oh-yubin",
+      "lee-yejin",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-08",
     "content_type": "short",
     "view_count": 329127,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "WIJTxXAoPbs",
@@ -14210,11 +14362,19 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ahn-yoojin",
+      "jeong-yoojin",
+      "oh-yubin",
+      "lee-yejin",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-08",
     "content_type": "short",
     "view_count": 367886,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "vOgH-tG2y9M",
@@ -14222,11 +14382,19 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ahn-yoojin",
+      "jeong-yoojin",
+      "oh-yubin",
+      "lee-yejin",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-08",
     "content_type": "short",
     "view_count": 154898,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "gRldK6CSRcY",
@@ -14889,8 +15057,7 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2026-03-23",
     "content_type": "short",
@@ -32036,11 +32203,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-17",
     "content_type": "short",
     "view_count": 32916,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "zwGHLcABMkc",
@@ -32048,11 +32226,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-17",
     "content_type": "short",
     "view_count": 30226,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "K6aN_tA5YCY",
@@ -32060,11 +32249,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "lee-wina",
+      "lee-yoonjae",
+      "baek-jina",
+      "won-hyegyeong",
+      "kim-chan",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-17",
     "content_type": "short",
     "view_count": 31422,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "ab0HVX5ELis",
@@ -32968,11 +33168,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-11",
     "content_type": "short",
     "view_count": 27448,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "IdFm-BuQBCA",
@@ -32980,11 +33190,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-11",
     "content_type": "short",
     "view_count": 24131,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "7TtzUkHJ6EA",
@@ -32992,11 +33212,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-09-11",
     "content_type": "short",
     "view_count": 21062,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "lw3GazwbfSg",
@@ -40111,7 +40341,7 @@
     "youtube_id": "ZtGFvM8Owa0",
     "title": "그러니까 이러시는 이유가 있을거 아니에요🤦🏻‍♂️ #현창 ‘셀럽파이브(Celeb Five) - 셀럽파이브 (셀럽이 되고 싶어)’ Dance Cover #Hyeonchang",
     "covered_group": [
-      "IVE"
+      "셀럽파이브"
     ],
     "tagged_members": [
       "jeong-hyeonchang"
@@ -40124,12 +40354,24 @@
   {
     "youtube_id": "zf5tPGQpudk",
     "title": "With or without you #baddesire #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-02",
     "content_type": "short",
     "view_count": 42253,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "2V2nlp4deYo",
@@ -40137,11 +40379,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-01",
     "content_type": "short",
     "view_count": 43352,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "wQj3ZQCHYvY",
@@ -40149,11 +40401,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-01",
     "content_type": "short",
     "view_count": 35074,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "taM9OUlbOe8",
@@ -40161,11 +40423,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "park-hyunmin",
+      "kim-mingi",
+      "lee-garam",
+      "jeong-hyeonchang",
+      "lee-jeonghee",
+      "lee-yejin"
+    ],
     "published_date": "2025-07-01",
     "content_type": "short",
     "view_count": 36305,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-eUe7MXn8Z4",
@@ -50993,8 +51265,7 @@
       "Hearts2Hearts"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-03-03",
     "content_type": "short",
@@ -63985,11 +64256,15 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 79113,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "PyyfCzMamS8",
@@ -64003,7 +64278,9 @@
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 433311,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "NmhmG5Ba9SA",
@@ -64017,7 +64294,9 @@
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 212656,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "OTUOk3efWac",
@@ -64031,7 +64310,9 @@
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 710946,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "sBFbKWNPEOc",
@@ -64040,13 +64321,14 @@
       "IVE"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-05-22",
     "content_type": "short",
     "view_count": 139303,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "1c6uL6EvJ3c",
@@ -80347,12 +80629,14 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yuna"
+    ],
     "published_date": "2023-06-21",
     "content_type": "short",
     "view_count": 117020,
     "content_series": [
-      "나는 신입"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -80367,7 +80651,9 @@
     "published_date": "2023-06-21",
     "content_type": "short",
     "view_count": 357455,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "_EQSM6xO67o",
@@ -80408,12 +80694,14 @@
       "IVE"
     ],
     "tagged_members": [
-      "lim-jiu"
+      "lim-jiwoo"
     ],
     "published_date": "2023-06-20",
     "content_type": "short",
     "view_count": 1573047,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "URqdhauV-MA",
@@ -80422,13 +80710,14 @@
       "IVE"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2023-06-20",
     "content_type": "short",
     "view_count": 242556,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "L2QksLd46qs",
