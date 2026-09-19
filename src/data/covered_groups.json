@@ -97,6 +97,7 @@
   { "name": "IZ*ONE", "aliases": ["아이즈원"] },
   { "name": "izna", "aliases": ["이즈나"] },
   { "name": "카드", "aliases": ["KARD"] },
+  { "name": "JULIE", "aliases": ["쥴리"] },
   { "name": "KATSEYE", "aliases": ["KATSEYE"] },
   { "name": "Kep1er", "aliases": ["케플러"] },
   { "name": "KickFlip", "aliases": ["킥플립"] },
@@ -194,6 +195,7 @@
   { "name": "Producer Jihun Park", "aliases": ["프로듀서 박지훈"] },
   { "name": "ROSÉ", "aliases": ["로제"] },
   { "name": "MAVE:", "aliases": ["메이브"] },
+  { "name": "GISELLE", "aliases": ["GISELLE"] },
   { "name": "GIRL'S RE:VERSE", "aliases": ["소녀 리버스"] },
   { "name": "YEZI", "aliases": ["예지"] },
   { "name": "여자친구", "aliases": ["LEE HI"] }

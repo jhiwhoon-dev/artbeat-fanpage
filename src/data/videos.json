@@ -5961,10 +5961,38 @@
     ],
     "tagged_members": [
       "jeong-gyeolgyeong",
-      "kim-nakyeong",
       "won-hyegyeong",
       "aoki-yuka",
+      "kim-nakyeong",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2026-07-29",
     "content_type": "video",
@@ -7821,70 +7849,102 @@
   {
     "youtube_id": "rZi1U2NiMH4",
     "title": "붐팔라붐팔라붐팔라예~ #BOOMPALA #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 95417,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ]
   },
   {
     "youtube_id": "FD_rD5327kI",
     "title": "이번 헤어스타일 진짜 찰떡이다🪮 #BOOMPALA #유카",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 61654,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "YUbLBzy7FBY",
     "title": "중심 잡는 거 어때~ #BOOMPALA #윤재",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 42281,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "--7g5obqrS0",
     "title": "원 투 쓰리, Bye Bye👋🏻 #BOOMPALA #혜경",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "won-hyegyeong"
     ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 43998,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "aWL1Xf0yVVU",
     "title": "강약 조절 너무 좋잖아~ #BOOMPALA #나경",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 60120,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "rra3pWBLoW8",
     "title": "멤버들 사이에서 등장✨️ #BOOMPALA #결경",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "jeong-gyeolgyeong"
     ],
     "published_date": "2026-06-27",
     "content_type": "short",
     "view_count": 55198,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "leLfUFrwWAE",
@@ -7894,26 +7954,65 @@
     ],
     "tagged_members": [
       "jeong-gyeolgyeong",
-      "kim-nakyeong",
       "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2026-06-26",
     "content_type": "video",
     "view_count": 101923,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ]
   },
   {
     "youtube_id": "RahkMr1wbKI",
     "title": "나마스떼와 가장 잘 어울리는 연습복은?! #BOOMPALA #ARTBEAT #OOTD",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-26",
     "content_type": "short",
     "view_count": 137942,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "-1mHcrtq4CI",
@@ -7932,42 +8031,82 @@
   {
     "youtube_id": "PNRUqrdwtLc",
     "title": "다들 즐기는 모습 보기 좋잖아😊 #BOOMPALA #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-25",
     "content_type": "short",
     "view_count": 55863,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "Q9lZO_cw-JI",
     "title": "붐팔라 붐팔라~~ #BOOMPALA #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-25",
     "content_type": "short",
     "view_count": 130501,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "ehhizdZc7-w",
     "title": "나마스떼🙏🏻 #BOOMPALA #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-25",
     "content_type": "short",
     "view_count": 97031,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "PYSLilbfBR0",
     "title": "싱크로율 무슨 일..? ㄷㄷ #BOOMPALA #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "lee-yoonjae"
+    ],
     "published_date": "2026-06-25",
     "content_type": "short",
     "view_count": 729469,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "mHqfqObW0qY",
@@ -7977,14 +8116,45 @@
     ],
     "tagged_members": [
       "jeong-gyeolgyeong",
-      "kim-nakyeong",
       "won-hyegyeong",
+      "aoki-yuka",
+      "kim-nakyeong",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2026-06-24",
     "content_type": "video",
     "view_count": 1432924,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "iXptm0rk6SE",
@@ -16307,7 +16477,18 @@
     "youtube_id": "MlWUGPm63wo",
     "title": "떡국은 먹고, 나이는 안 먹는 소원을 빌고 싶어요🙏  #밸런스게임 #ARTBEAT #아트비트",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "jung-siyun",
+      "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
+      "kang-yejin",
+      "baek-jina",
+      "kim-chan"
+    ],
     "published_date": "2026-02-19",
     "content_type": "short",
     "view_count": 59539,
@@ -16415,11 +16596,24 @@
     "covered_group": [
       "소녀시대"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "jung-siyun",
+      "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
+      "kang-yejin",
+      "baek-jina",
+      "kim-chan"
+    ],
     "published_date": "2026-02-18",
     "content_type": "short",
     "view_count": 54902,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "_Clp1D_zwSY",
@@ -16427,11 +16621,24 @@
     "covered_group": [
       "소녀시대"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "jung-siyun",
+      "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
+      "kang-yejin",
+      "baek-jina",
+      "kim-chan"
+    ],
     "published_date": "2026-02-18",
     "content_type": "short",
     "view_count": 38466,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "n1cNnTFEJ3o",
@@ -16439,11 +16646,24 @@
     "covered_group": [
       "소녀시대"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "jung-siyun",
+      "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
+      "kang-yejin",
+      "baek-jina",
+      "kim-chan"
+    ],
     "published_date": "2026-02-18",
     "content_type": "short",
     "view_count": 130427,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "rNSWELq3_C8",
@@ -16708,9 +16928,7 @@
   {
     "youtube_id": "ToHM4L56CvQ",
     "title": "여기에 2026년 소원  빌면 다 이루리 🙏✨ #ARTBEAT #아트비트",
-    "covered_group": [
-      "우주소녀"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "jeong-gyeolgyeong",
       "lee-yejin",
@@ -21064,32 +21282,83 @@
   {
     "youtube_id": "HONq0GCiAfg",
     "title": "내일은 또 없으니까 👀 #내일은없어 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TROUBLE MAKER"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "won-hyegyeong"
+    ],
+    "special_dancers": [
+      "kim-youngjin",
+      "lee-garam",
+      "jang-daehyeon",
+      "cho-gyuso",
+      "jeong-yoojin",
+      "kim-nakyeong",
+      "kang-minji",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-12-12",
     "content_type": "short",
     "view_count": 74208,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "EEKPlQ7ugEM",
     "title": "환호성이 넘치는 둘의 완벽한 케미😍 #내일은없어 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TROUBLE MAKER"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "won-hyegyeong"
+    ],
+    "special_dancers": [
+      "kim-youngjin",
+      "lee-garam",
+      "jang-daehyeon",
+      "cho-gyuso",
+      "jeong-yoojin",
+      "kim-nakyeong",
+      "kang-minji",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-12-12",
     "content_type": "short",
     "view_count": 259056,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "Y9tNUln38g0",
     "title": "두 남녀의 파격적이고 색다른 변신이 펼쳐집니다🔥 #내일은없어 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "TROUBLE MAKER"
+    ],
+    "tagged_members": [
+      "yang-hwanhee",
+      "won-hyegyeong"
+    ],
+    "special_dancers": [
+      "kim-youngjin",
+      "lee-garam",
+      "jang-daehyeon",
+      "cho-gyuso",
+      "jeong-yoojin",
+      "kim-nakyeong",
+      "kang-minji",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-12-12",
     "content_type": "short",
     "view_count": 75688,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "wOZB1RwrFrI",
@@ -21098,22 +21367,36 @@
       "TROUBLE MAKER"
     ],
     "tagged_members": [
-      "kim-youngjin",
       "yang-hwanhee",
+      "won-hyegyeong"
+    ],
+    "special_dancers": [
+      "kim-youngjin",
       "lee-garam",
-      "cho-gyuso",
       "jang-daehyeon",
+      "cho-gyuso",
+      "jeong-yoojin",
       "kim-nakyeong",
       "kang-minji",
-      "won-hyegyeong",
       "lee-yoonjae"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "TROUBLE MAKER",
+        "covered_member": "장현승"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "TROUBLE MAKER",
+        "covered_member": "현아"
+      }
     ],
     "published_date": "2025-12-12",
     "content_type": "video",
     "view_count": 589899,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -21834,11 +22117,21 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
+
     "published_date": "2025-12-07",
     "content_type": "short",
     "view_count": 41526,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "HFAnbLURjN8",
@@ -21846,11 +22139,21 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
+
     "published_date": "2025-12-07",
     "content_type": "short",
     "view_count": 39115,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "3UgdtJybS5w",
@@ -21858,11 +22161,21 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
+
     "published_date": "2025-12-07",
     "content_type": "short",
     "view_count": 37251,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "T-CxvFgmj-g",
@@ -22070,58 +22383,113 @@
     "youtube_id": "SJkEHXqq9P0",
     "title": "여러분은 지금 카리스마 넘치는 영상을 보고 계십니다😍 #goodstuff #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "aespa::KARINA"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-yoojin",
+      "kim-hyerim"
+    ],
+    "special_dancers": [
+      "won-hyegyeong",
+      "won-seoa",
+      "lee-yoonjae",
+      "baek-jina"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 70687,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "ejqR392lw7s",
     "title": "표정 잘 쓰는 나는 어때? #goodstuff #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "aespa::KARINA"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-yoojin",
+      "kim-hyerim"
+    ],
+    "special_dancers": [
+      "won-hyegyeong",
+      "won-seoa",
+      "lee-yoonjae",
+      "baek-jina"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 64742,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "zkiNstwgcns",
     "title": "교복 의상에 'GOD경'까지 완벽!!💯 #goodstuff #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "aespa::KARINA"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-yoojin",
+      "kim-hyerim"
+    ],
+    "special_dancers": [
+      "won-hyegyeong",
+      "won-seoa",
+      "lee-yoonjae",
+      "baek-jina"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 163664,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "ASDZ8N6Sa_E",
     "title": "[방구석 여기서요?] 카리나 KARINA of aespa - GOOD STUFF | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa"
+      "aespa::KARINA"
     ],
     "tagged_members": [
-      "kim-hyerim",
       "ha-seyoung",
-      "won-seoa",
+      "jeong-yoojin",
+      "kim-hyerim"
+    ],
+    "special_dancers": [
       "won-hyegyeong",
-      "baek-jina",
-      "lee-yoonjae"
+      "won-seoa",
+      "lee-yoonjae",
+      "baek-jina"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "aespa::KARINA",
+        "covered_member": "KARINA"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "aespa::KARINA",
+        "covered_member": "KARINA"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "aespa::KARINA",
+        "covered_member": "KARINA"
+      }
     ],
     "published_date": "2025-12-06",
     "content_type": "video",
     "view_count": 415741,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -22130,11 +22498,24 @@
     "covered_group": [
       "TREASURE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "yun-haeun",
+      "oh-yubin",
+      "aoki-yuka",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kim-chan",
+      "won-seoa"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 29053,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "T2fROneARkM",
@@ -22142,11 +22523,24 @@
     "covered_group": [
       "TREASURE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "yun-haeun",
+      "oh-yubin",
+      "aoki-yuka",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kim-chan",
+      "won-seoa"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 30962,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "OVjzCOgboDw",
@@ -22154,11 +22548,24 @@
     "covered_group": [
       "TREASURE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "yun-haeun",
+      "oh-yubin",
+      "aoki-yuka",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kim-chan",
+      "won-seoa"
+    ],
     "published_date": "2025-12-06",
     "content_type": "short",
     "view_count": 38689,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "GcZ6IUEe2GI",
@@ -22179,20 +22586,72 @@
     "tagged_members": [
       "kim-youngjin",
       "kang-taehyun",
-      "do-hyeonsung",
       "yang-hwanhee",
-      "park-seongmin",
       "yun-haeun",
       "oh-yubin",
-      "won-seoa",
-      "lee-yoonjae"
+      "aoki-yuka",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kim-chan",
+      "won-seoa"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "TREASURE",
+        "covered_member": "최현석"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "TREASURE",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "TREASURE",
+        "covered_member": "요시"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "TREASURE",
+        "covered_member": "준규"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "TREASURE",
+        "covered_member": "윤재혁"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "TREASURE",
+        "covered_member": "아사히"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "TREASURE",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "TREASURE",
+        "covered_member": "하루토"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "TREASURE",
+        "covered_member": "박정우"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "TREASURE",
+        "covered_member": "소정환"
+      }
     ],
     "published_date": "2025-12-06",
     "content_type": "video",
     "view_count": 238493,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -24651,7 +25110,9 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-11-10",
     "content_type": "short",
     "view_count": 37527,
@@ -24975,11 +25436,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-08",
     "content_type": "short",
     "view_count": 43218,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "UD1uD2GxhIA",
@@ -24987,11 +25457,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-08",
     "content_type": "short",
     "view_count": 40707,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "b4SkwB_XiHs",
@@ -24999,11 +25478,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "lee-wina",
+      "baek-jina",
+      "lee-yoonjae",
+      "cho-yuna",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-08",
     "content_type": "short",
     "view_count": 38722,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-tFqp63MK0I",
@@ -25889,7 +26377,19 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 106908,
@@ -25903,7 +26403,19 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 125521,
@@ -25917,7 +26429,19 @@
     "covered_group": [
       "DAYOUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers":[
+      "bang-jooyeon",
+      "lee-yoonjae",
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 155503,
@@ -25953,15 +26477,34 @@
       "DAYOUNG"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "lee-garam",
-      "yun-haeun",
+      "aoki-yuka",
       "ha-seyoung",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
-      "aoki-yuka"
+      "hwang-jiho",
+      "lee-garam",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      }
     ],
     "published_date": "2025-11-03",
     "content_type": "video",
@@ -29194,60 +29737,82 @@
   {
     "youtube_id": "gD205lLjP0w",
     "title": "웃는 게 너무 이뻐요😍 #body #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 305625,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "ptS5CdNu0vE",
     "title": "다 같이 춤추니 너무 신나는데~ #body #세영 #Seyoung",
-    "covered_group": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 898149,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "xZPa8A51k4M",
     "title": "숨은 매력을 뽐내봅니다!! #body #윤재 #Yoonjae",
-    "covered_group": [],
-    "tagged_members": [
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "special_dancers": [
       "lee-yoonjae"
     ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 106933,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "alKjgb6MsPU",
     "title": "저는 어떤가요??😉 #body #주연 #Jooyeon",
-    "covered_group": [],
-    "tagged_members": [
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "special_dancers": [
       "bang-jooyeon"
     ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 179728,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "YzY5AKDdi3w",
     "title": "좋았어!! 가보자구~~ #body #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-10-04",
     "content_type": "short",
     "view_count": 989430,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "L4O-PSbYR_c",
@@ -29258,13 +29823,32 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
       "lee-garam",
       "kang-taehyun",
       "yang-hwanhee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      }
     ],
     "published_date": "2025-10-04",
     "content_type": "video",
@@ -29296,7 +29880,9 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
@@ -29334,7 +29920,9 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
@@ -29358,7 +29946,9 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
@@ -29382,7 +29972,9 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
@@ -29406,13 +29998,32 @@
     "tagged_members": [
       "aoki-yuka",
       "ha-seyoung",
-      "yun-haeun",
+      "yun-haeun"
+    ],
+    "special_dancers":[
       "bang-jooyeon",
       "lee-yoonjae",
       "hwang-jiho",
       "lee-garam",
       "kang-taehyun",
       "yang-hwanhee"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      }
     ],
     "published_date": "2025-10-03",
     "content_type": "video",
@@ -31697,11 +32308,31 @@
     "youtube_id": "lw3GazwbfSg",
     "title": "YEJI X GISELLE X JULIE - Toxic | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "AOA"
+      "YEZI",
+      "GISELLE",
+      "JULIE"
     ],
     "tagged_members": [
       "yun-haeun",
+      "aoki-yuka",
       "lee-yoonjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "YEZI",
+        "covered_member": "YEZI"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GISELLE",
+        "covered_member": "GISELLE"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "JULIE",
+        "covered_member": "JULIE"
+      }
     ],
     "published_date": "2025-09-11",
     "content_type": "video",
@@ -31871,18 +32502,38 @@
     "youtube_id": "wJmbLz-YOqo",
     "title": "[AB PRODUCER] YEJI X GISELLE X JULIE - Toxic | 커버댄스 Dance Cover",
     "covered_group": [
-      "TEN"
+      "YEZI",
+      "GISELLE",
+      "JULIE"
     ],
     "tagged_members": [
       "yun-haeun",
-      "lee-yoonjae",
-      "aoki-yuka"
+      "aoki-yuka",
+      "lee-yoonjae"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "YEZI",
+        "covered_member": "YEZI"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "GISELLE",
+        "covered_member": "GISELLE"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "JULIE",
+        "covered_member": "JULIE"
+      }
     ],
     "published_date": "2025-09-10",
     "content_type": "video",
     "view_count": 67807,
     "content_series": [
-      "Dance Cover MV::AB PRODUCER::2025y"
+      "Dance Cover MV::AB PRODUCER::2025y",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -38971,7 +39622,9 @@
   {
     "youtube_id": "9d-FaDtG5gM",
     "title": "#윤재 'Baby DONT Cry - 지금을 놓치면 분명 너 후회할 거야' Dance Cover #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "Baby CONT Cry"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
@@ -41443,7 +42096,9 @@
   {
     "youtube_id": "LulmfPoGYT4",
     "title": "#윤재 'FIFTY FIFTY – Pookie' Dance Cover #Yoonjae",
-    "covered_group": [],
+    "covered_group": [
+      "Fifty Fifty"
+    ],
     "tagged_members": [
       "lee-yoonjae"
     ],
@@ -42084,11 +42739,19 @@
     "covered_group": [
       "NewJeans"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kim-soeun",
+      "lee-yejin",
+      "baek-jina",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-05-19",
     "content_type": "short",
     "view_count": 44458,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Kf2UJ_vk8T8",
@@ -42096,11 +42759,19 @@
     "covered_group": [
       "NewJeans"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kim-soeun",
+      "lee-yejin",
+      "baek-jina",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-05-19",
     "content_type": "short",
     "view_count": 41987,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "W4VM7KQZyb0",
@@ -42108,11 +42779,19 @@
     "covered_group": [
       "NewJeans"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kim-soeun",
+      "lee-yejin",
+      "baek-jina",
+      "lee-yoonjae"
+    ],
     "published_date": "2025-05-19",
     "content_type": "short",
     "view_count": 52763,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "k3Wn1ENc3po",
@@ -46379,14 +47058,13 @@
     "content_type": "short",
     "view_count": 59731,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
     "youtube_id": "PhlNv2Jg-uM",
     "title": "#가람 #영진 #태환 'j-hope - MONA LISA' Dance Cover #Garam #Youngjin #Taehwan",
     "covered_group": [
-      "LISA",
       "j-hope"
     ],
     "tagged_members": [
@@ -49496,7 +50174,7 @@
     "content_type": "short",
     "view_count": 24897,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
