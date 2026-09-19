@@ -2,8 +2,12 @@
   {
     "youtube_id": "VIiXFyZK5Tk",
     "title": "힘 빡준 거 너무 좋아~ #Blingy #가람",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
@@ -19,8 +23,12 @@
   {
     "youtube_id": "ONECiVNWQVA",
     "title": "너무 빡세서 근육 튀어나올 거 같아요..💪🏻 #Blingy #정서",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "kim-jeongseo"
     ],
@@ -36,10 +44,13 @@
   {
     "youtube_id": "Pve7O9GXjdU",
     "title": "표정 왜 이렇게 잘하는데~ #Blingy #유빈",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
-      "oh-yubin",
       "lee-yoobin"
     ],
     "ads": [],
@@ -54,8 +65,12 @@
   {
     "youtube_id": "hI7tuM1WCqU",
     "title": "눈이 이글이글🔥 #Blingy #주강",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "lee-jookhang"
     ],
@@ -71,8 +86,12 @@
   {
     "youtube_id": "bXVGnYO1JE4",
     "title": "머리 깐 거 느좋이다❤️‍🔥 #Blingy #태현",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
@@ -89,17 +108,48 @@
     "youtube_id": "OqHkuheg4Ds",
     "title": "엔시티127 NCT 127 - Blingy | Dance Practice",
     "covered_group": [
-      "NCT",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kang-taehyun",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kim-jeongseo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-09-19",
     "content_type": "video",
@@ -108,9 +158,19 @@
   {
     "youtube_id": "zgH5APNyWnM",
     "title": "I'ma blingy blingy blingy #Blingy #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "kang-taehyun",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kim-jeongseo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -124,18 +184,15 @@
     "youtube_id": "ZBBSBhnreUU",
     "title": "#여가우 #주현아 #이지민 #오디션중 'RESCENE - Deja Vu' Dance Cover #GaWoo #HyunAh #JiMin",
     "covered_group": [
-      "지민",
-      "현아",
       "RESCENE"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
-      "lee-jimin",
       "yeo-gawoo",
       "joo-hyunah",
-      "min"
+      "lee-jimin"
     ],
     "ads": [],
     "sponsors": [],
@@ -165,7 +222,33 @@
     "ads": [],
     "sponsors": [],
     "support": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-09-18",
     "content_type": "short",
