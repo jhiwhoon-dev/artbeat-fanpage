@@ -6050,11 +6050,11 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ahn-gihyun",
+      "jeong-gyeolgyeong",
       "lee-yejin",
       "chae-yunsu",
       "lee-garam",
-      "jeong-gyeolgyeong"
+      "ahn-gihyun"
     ],
     "published_date": "2026-07-30",
     "content_type": "short",
@@ -6070,11 +6070,11 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ahn-gihyun",
+      "jeong-gyeolgyeong",
       "lee-yejin",
       "chae-yunsu",
       "lee-garam",
-      "jeong-gyeolgyeong"
+      "ahn-gihyun"
     ],
     "published_date": "2026-07-30",
     "content_type": "short",
@@ -6090,11 +6090,11 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ahn-gihyun",
+      "jeong-gyeolgyeong",
       "lee-yejin",
       "chae-yunsu",
       "lee-garam",
-      "jeong-gyeolgyeong"
+      "ahn-gihyun"
     ],
     "published_date": "2026-07-30",
     "content_type": "short",
@@ -6110,11 +6110,38 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ahn-gihyun",
+      "jeong-gyeolgyeong",
       "lee-yejin",
       "chae-yunsu",
       "lee-garam",
-      "jeong-gyeolgyeong"
+      "ahn-gihyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      }
     ],
     "published_date": "2026-07-30",
     "content_type": "video",
@@ -15456,7 +15483,9 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2026-03-13",
     "content_type": "short",
     "view_count": 79248,
@@ -15469,7 +15498,8 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "jeong-gyeolgyeong"
     ],
     "published_date": "2026-03-12",
     "content_type": "short",
@@ -20329,8 +20359,7 @@
     "content_type": "video",
     "view_count": 127383,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -20339,11 +20368,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "park-seongmin",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-20",
     "content_type": "short",
     "view_count": 25450,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "GNqaLo1ePlo",
@@ -20351,11 +20388,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "park-seongmin",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-20",
     "content_type": "short",
     "view_count": 32448,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "OjSQYYq8w3A",
@@ -20363,11 +20408,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "park-seongmin",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-20",
     "content_type": "short",
     "view_count": 29082,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "iWFBCYW-vW0",
@@ -20377,17 +20430,43 @@
     ],
     "tagged_members": [
       "chae-yunsu",
-      "park-seongmin",
-      "kang-yejin",
       "jeong-gyeolgyeong",
+      "kang-yejin",
+      "park-seongmin",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-12-20",
     "content_type": "video",
     "view_count": 247010,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -20396,11 +20475,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "lee-garam",
+      "cho-gyuso",
+      "kim-nakyeong",
+      "kim-youngjin"
+    ],
     "published_date": "2025-12-19",
     "content_type": "short",
     "view_count": 28316,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "Xs0rVd6m3wQ",
@@ -20408,11 +20495,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "lee-garam",
+      "cho-gyuso",
+      "kim-nakyeong",
+      "kim-youngjin"
+    ],
     "published_date": "2025-12-19",
     "content_type": "short",
     "view_count": 38272,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "ugbmwdh_tVg",
@@ -20420,11 +20515,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "lee-garam",
+      "cho-gyuso",
+      "kim-nakyeong",
+      "kim-youngjin"
+    ],
     "published_date": "2025-12-19",
     "content_type": "short",
     "view_count": 32140,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "o8g2o4auXf8",
@@ -20443,14 +20546,41 @@
     "youtube_id": "ENpG6SSAnQk",
     "title": "[방구석 여기서요?] 코르티스 CORTIS - FaSHioN (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
-      "kim-youngjin",
+      "won-seoa",
       "lee-garam",
       "cho-gyuso",
-      "won-seoa",
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "kim-youngjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-12-19",
     "content_type": "video",
@@ -27393,7 +27523,9 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-10-31",
     "content_type": "short",
     "view_count": 141952,
@@ -27405,11 +27537,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 27629,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "MF5LKO7OS0k",
@@ -27418,12 +27558,18 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "min"
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
     ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 25489,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "tuMT7HzWRd4",
@@ -27431,11 +27577,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 30343,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "iiHCAn7GuUo",
@@ -27443,11 +27597,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 34593,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "A1T85PqzH3Y",
@@ -27455,11 +27617,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 29325,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "_8YJ7mSZul4",
@@ -27467,11 +27637,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-30",
     "content_type": "short",
     "view_count": 31801,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "EI2LAshX7Cw",
@@ -27480,37 +27658,91 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jeong-gyeolgyeong",
       "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
       "kim-nakyeong",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-30",
     "content_type": "video",
     "view_count": 228260,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
     "youtube_id": "U9UF-Xv7dTY",
     "title": "[버스킹 여기서요?] 코르티스 CORTIS - FaSHioN | 커버댄스 Dance Cover @신촌스타광장",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
-      "kim-youngjin",
       "chae-yunsu",
-      "park-seongmin",
       "lee-garam",
-      "cho-gyuso"
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-30",
     "content_type": "video",
     "view_count": 216184,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -28730,63 +28962,82 @@
   {
     "youtube_id": "4wHCVFlD__8",
     "title": "힘든 안무지만 미소까지..!! 칭찬해👏 #fashion #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
-      "kang-yejin",
       "lee-yejin"
     ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 41927,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "qBGvS_CCRQ4",
     "title": "오 지져스... 너무 잘해서 감탄만 나옴😮 #fashion #결경 #Gyeolgyeong",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "jeong-gyeolgyeong"
     ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 32432,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "BpqtRXHY2Zs",
     "title": "신나게 즐겨보자구! #fashion #서아 #Seoa",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "won-seoa"
     ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 27618,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "QDE30gCAp6E",
     "title": "이 정도면 꽤나 힙하지?😎 #fashion #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 22988,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "CLhkccueyGE",
     "title": "멋지게 코디하고 열심히 춤춰버리기✌️ #fashion #도희 #Dohui",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "lee-yejin"
     ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 28362,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "pijno3vYw_E",
@@ -28861,11 +29112,38 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jeong-gyeolgyeong",
       "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
       "kim-nakyeong",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-22",
     "content_type": "video",
@@ -28877,12 +29155,22 @@
   {
     "youtube_id": "cdjae737cX4",
     "title": "Our vision, 몇 억s💵 #fashion #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-22",
     "content_type": "short",
     "view_count": 51801,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "bv294J_UJmU",
@@ -28890,11 +29178,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-21",
     "content_type": "short",
     "view_count": 32772,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "PyjzUftz_qU",
@@ -28902,11 +29198,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-21",
     "content_type": "short",
     "view_count": 38190,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "A6FDz_i4Vgg",
@@ -28914,11 +29218,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "kim-nakyeong",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-21",
     "content_type": "short",
     "view_count": 22646,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "zUIV-ceMg_k",
@@ -28939,16 +29251,45 @@
       "CORTIS"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "jeong-gyeolgyeong",
       "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
       "kim-nakyeong",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-21",
     "content_type": "video",
     "view_count": 389974,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "3WdGmAOii-c",
@@ -29522,7 +29863,9 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-10-11",
     "content_type": "short",
     "view_count": 164963,
@@ -29531,75 +29874,122 @@
   {
     "youtube_id": "lS7Gu9t_Df8",
     "title": "솔로 파트는 늘 진심인 법 🙆‍♂️ #fashion  #윤수 #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 60662,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "FvYV-oSxWF4",
     "title": "평소엔 순한 내가 춤출 땐 제대로라구 #fashion  #규소 #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 48919,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "7W05dPyWtTc",
     "title": "허리 괜찮으신거죠..?🫢 #fashion  #가람 #Garam",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 55156,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "EpqD199ENAY",
     "title": "힘넘치는 나의 FaSHioN #fashion  #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 41179,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "6bK6MKqcIOs",
     "title": "초반부터 기선제압 가즈아~~ #fashion  #영진 #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "CORTIS"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 43069,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "8r4suDUa1uo",
     "title": "코르티스 CORTIS - FaSHioN | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
-      "kim-youngjin",
       "chae-yunsu",
-      "park-seongmin",
       "lee-garam",
-      "cho-gyuso"
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-10",
     "content_type": "video",
@@ -29626,12 +30016,22 @@
   {
     "youtube_id": "s7-ser_163g",
     "title": "이게 우리만의 'FaSHioN'이라구👊 #fashion #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CORTIS"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-10",
     "content_type": "short",
     "view_count": 68830,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "vmycAAEMOm4",
@@ -29653,7 +30053,9 @@
     "published_date": "2025-10-09",
     "content_type": "video",
     "view_count": 213094,
-    "content_series": []
+    "content_series": [
+      "AB VLOG::2025y"
+    ]
   },
   {
     "youtube_id": "J5BLjQ5vR9k",
@@ -29661,11 +30063,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-09",
     "content_type": "short",
     "view_count": 54361,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "85eLa1C0PGc",
@@ -29673,11 +30083,19 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-09",
     "content_type": "short",
     "view_count": 35468,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "3CRaqBl96_Q",
@@ -29685,29 +30103,66 @@
     "covered_group": [
       "CORTIS"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-garam",
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
     "published_date": "2025-10-09",
     "content_type": "short",
     "view_count": 35382,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "M9APdDCGKxQ",
     "title": "[여기서요?] 코르티스 CORTIS - FaSHioN | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "CORTIS"
     ],
     "tagged_members": [
-      "kim-youngjin",
       "chae-yunsu",
-      "park-seongmin",
       "lee-garam",
-      "cho-gyuso"
+      "cho-gyuso",
+      "park-seongmin",
+      "kim-youngjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "마틴"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "제임스"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "주훈"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "성현"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "CORTIS",
+        "covered_member": "건호"
+      }
     ],
     "published_date": "2025-10-09",
     "content_type": "video",
     "view_count": 1485877,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "NZcjuTx_oF4",
@@ -34897,8 +35352,7 @@
     ],
     "tagged_members": [
       "yang-hwanhee",
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-08-19",
     "content_type": "short",
@@ -45282,11 +45736,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-05-06",
     "content_type": "short",
     "view_count": 60596,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "JkSVrRWlAsM",
@@ -45294,11 +45758,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-05-06",
     "content_type": "short",
     "view_count": 65793,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "1NFYfF2P-jY",
@@ -45306,11 +45780,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-05-06",
     "content_type": "short",
     "view_count": 75040,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "QRQsW3Gq3po",
@@ -49485,7 +49969,7 @@
     "content_type": "short",
     "view_count": 32171,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -49560,83 +50044,114 @@
   {
     "youtube_id": "eVdnVZ2_Zuk",
     "title": "이 노래엔 이런 의상도 잘 어울리죠~😎 #billionaire #찬 #Chan",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 41159,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "wDhQV28cRTg",
     "title": "우리는 이런 걸 보고 잘생쁨이라고 합니다‼️ #billionaire #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 55743,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "aZBQj_sZfAA",
     "title": "머리부터 발끝까지 올블랙😉 #billionaire #혜경 #Hyegyeong",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
       "won-hyegyeong"
     ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 88874,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "4agUdnBQwjw",
     "title": "머리 묶을 때 심쿵 했어요💗 #billionaire #세인 #Sein",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
       "jang-sein"
     ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 134385,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "JhT6xah7eZc",
     "title": "짧지만 매력을 보여주기엔 충분하죠😆 #billionaire #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 89993,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "lHoO7Nsw8Fw",
     "title": "포니테일은 사랑입니다😍 #billionaire #민지 #Minji",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
       "kang-minji"
     ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 157417,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "BzONpQAROvk",
     "title": "핑크색이 퍼스널 컬러인가요? 😮 #billionaire #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 38147,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "iWvTtWJEo10",
@@ -49925,12 +50440,24 @@
   {
     "youtube_id": "M9wyN1i99P0",
     "title": "모두들 집중해서 look at me 💃 #billionaire #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-03-11",
     "content_type": "short",
     "view_count": 391846,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "LEInGgLXQVs",
@@ -49938,11 +50465,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-03-10",
     "content_type": "short",
     "view_count": 118119,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "_NH2JAH9xgU",
@@ -49950,11 +50487,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-03-10",
     "content_type": "short",
     "view_count": 56788,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "drCDvPQgzoo",
@@ -49962,11 +50509,21 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong",
+      "aoki-yuka",
+      "kang-minji"
+    ],
     "published_date": "2025-03-10",
     "content_type": "short",
     "view_count": 48967,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "yFpeErGM0RA",
@@ -53552,11 +54109,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "cho-gyuso",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-01-31",
     "content_type": "short",
     "view_count": 36621,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "6VZBBYn7CbA",
@@ -53564,11 +54130,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "cho-gyuso",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-01-31",
     "content_type": "short",
     "view_count": 20512,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "pbt6GqUpPIU",
@@ -53576,11 +54151,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "cho-gyuso",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-01-31",
     "content_type": "short",
     "view_count": 16621,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "ngxEag843sw",
@@ -53589,19 +54173,50 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "kang-jaesin",
       "cho-gyuso",
-      "kang-yejin",
-      "jeong-gyeolgyeong",
       "won-seoa",
-      "lee-yejin"
+      "jeong-gyeolgyeong",
+      "kang-yejin",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      }
     ],
     "published_date": "2025-01-31",
     "content_type": "video",
     "view_count": 313217,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -59712,7 +60327,9 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "kang-yejin",
+      "aoki-yuka"
     ],
     "published_date": "2024-09-27",
     "content_type": "short",
@@ -78096,13 +78713,44 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
       "kim-suhwan",
       "lim-donghun",
-      "chae-yunsu",
-      "yun-haeun",
-      "kang-yejin",
-      "jeong-gyeolgyeong",
-      "lee-yejin"
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2023-07-18",
     "content_type": "video",
@@ -78936,11 +79584,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "kim-suhwan",
+      "lim-donghun",
+      "kang-yejin"
+    ],
     "published_date": "2023-07-07",
     "content_type": "short",
     "view_count": 196525,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "zpODVqV5mmQ",
@@ -78949,18 +79606,51 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
       "kim-suhwan",
       "lim-donghun",
-      "chae-yunsu",
-      "yun-haeun",
-      "kang-yejin",
-      "jeong-gyeolgyeong",
-      "lee-yejin"
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2023-07-07",
     "content_type": "video",
     "view_count": 447444,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "4zfTT9cAB_4",
@@ -79347,18 +80037,51 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
       "kim-suhwan",
       "lim-donghun",
-      "chae-yunsu",
-      "yun-haeun",
-      "kang-yejin",
-      "jeong-gyeolgyeong",
-      "lee-yejin"
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2023-06-28",
     "content_type": "video",
     "view_count": 558544,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "iGvCa1vF5Qg",
