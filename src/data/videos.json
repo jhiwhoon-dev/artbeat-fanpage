@@ -19807,8 +19807,7 @@
     ],
     "tagged_members": [
       "cho-gyuso",
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-12-23",
     "content_type": "short",
@@ -35419,8 +35418,7 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-08-09",
     "content_type": "short",
@@ -45321,19 +45319,56 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kang-yejin",
       "jang-sein",
-      "kang-minji",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
       "won-hyegyeong",
-      "lee-yejin"
+      "aoki-yuka",
+      "kang-minji"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2025-05-06",
     "content_type": "video",
     "view_count": 761888,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -49624,12 +49659,50 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kang-yejin",
       "jang-sein",
-      "kang-minji",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
       "won-hyegyeong",
-      "lee-yejin"
+      "aoki-yuka",
+      "kang-minji"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2025-03-13",
     "content_type": "video",
@@ -49902,17 +49975,57 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kang-yejin",
       "jang-sein",
-      "kang-minji",
+      "kang-yejin",
+      "yun-haeun",
+      "kim-chan",
       "won-hyegyeong",
-      "lee-yejin"
+      "aoki-yuka",
+      "kang-minji"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2025-03-10",
     "content_type": "video",
     "view_count": 1281401,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "6j1Pzl9cWhY",
@@ -69359,15 +69472,54 @@
     "youtube_id": "iVDD9FiYZZk",
     "title": "[방구석 여기서요?] BOYS PLANET - En Garde | 커버댄스 Dance Cover",
     "covered_group": [
-      "BOYS PLANET"
+      "BOYS PLANET::En Butter"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "ha-jeuki",
+      "won-seoa",
+      "ahn-gihyun",
+      "kang-taehyun",
+      "park-hyunmin",
+      "park-seongmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "히로토"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "김규빈"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "이승환"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "이회택"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "박건욱"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "BOYS PLANET::En Butter",
+        "covered_member": "금준현"
+      }
     ],
     "published_date": "2024-01-19",
     "content_type": "video",
     "view_count": 335099,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "c7chK6Aizcg",
@@ -71320,15 +71472,14 @@
     "content_type": "short",
     "view_count": 144501,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
     "youtube_id": "QrwRKteO0WU",
     "title": "첫 순서라 너무 긴장한 오디션 멤버😬 춤출 때 웃는 게 좋아🫶🏻  #SayMyName #나는신입 #현성 #Hyeonsung",
     "covered_group": [
-      "BOYS PLANET",
-      "Say My Name"
+      "BOYS PLANET::Say Yes!"
     ],
     "tagged_members": [
       "do-hyeonsung"
@@ -71337,14 +71488,14 @@
     "content_type": "short",
     "view_count": 115087,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
     "youtube_id": "qe4H1owNlAU",
     "title": "소심한(?) 06 여고생의 반전 댄스 실력😯 #EnGarde #나는신입 #서아 #SeoA",
     "covered_group": [
-      "BOYS PLANET"
+      "BOYS PLANET::En Butter"
     ],
     "tagged_members": [
       "won-seoa"
@@ -71353,7 +71504,7 @@
     "content_type": "short",
     "view_count": 179724,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -71364,7 +71515,7 @@
       "yun-haeun"
     ],
     "published_date": "2023-11-23",
-    "content_type": "short",
+    "content_type": "",
     "view_count": 230718,
     "content_series": []
   },
@@ -71378,49 +71529,66 @@
       "shin-yerin"
     ],
     "published_date": "2023-11-23",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 68270,
-    "content_series": []
+    "content_series": [
+      "나는 신입::2024y"
+    ]
   },
   {
     "youtube_id": "p8Xe6cct_qU",
     "title": "[나는 신입 #서아] BOYS PLANET - En Garde  | 커버댄스 Dance Cover | Full ver.",
     "covered_group": [
-      "BOYS PLANET"
+      "BOYS PLANET::En Butter"
     ],
     "tagged_members": [
       "won-seoa"
     ],
     "published_date": "2023-11-23",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 294410,
-    "content_series": []
+    "content_series": [
+      "나는 신입::2024y"
+    ]
   },
   {
     "youtube_id": "-cY4goQcwu0",
     "title": "[나는 신입 #현성] BOYS PLANET - Say My Name  | 커버댄스 Dance Cover | Full ver.",
     "covered_group": [
-      "BOYS PLANET",
-      "Say My Name"
+      "BOYS PLANET::Say Yes!"
     ],
     "tagged_members": [
       "do-hyeonsung"
     ],
     "published_date": "2023-11-23",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 58991,
-    "content_series": []
+    "content_series": [
+      "나는 신입::2024y"
+    ]
   },
   {
     "youtube_id": "6qtTXjwZznw",
     "title": "[AB 나는 신입 Ep.1] 다시 오디션이 시작되었다!!",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "shin-yerin",
+      "yang-hwanhee",
+      "won-seoa",
+      "jeong-hyunjin",
+      "hong-seokju",
+      "lee-dabin",
+      "do-hyeonsung",
+      "park-seongmin",
+      "joo-hyunseo",
+      "kim-chan",
+      "park-seoyeon"
+    ],
     "published_date": "2023-11-22",
     "content_type": "video",
     "view_count": 308030,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -99037,16 +99205,45 @@
       "Apink"
     ],
     "tagged_members": [
-      "yun-haeun",
       "oh-yubin",
-      "kim-minjin",
+      "lee-sieun",
       "kang-yejin",
-      "lee-yejin"
+      "kim-minjin",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      }
     ],
     "published_date": "2022-04-04",
     "content_type": "video",
     "view_count": 645114,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "TEUJgC929Hs",
@@ -100912,13 +101109,15 @@
     "title": "[AB 자기소개] 마지막 신입즈? | 송하와 예진이 | AB PROJECT",
     "covered_group": [],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "song-haeun",
+      "kang-yejin"
     ],
     "published_date": "2022-01-13",
     "content_type": "video",
     "view_count": 79397,
-    "content_series": []
+    "content_series": [
+      "AB 자기소개::2022y"
+    ]
   },
   {
     "youtube_id": "F-6S7Oa-RMQ",
@@ -104649,16 +104848,22 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "kim-kyungju",
+      "song-haeun",
       "park-hyunmin",
-      "kim-suhwan",
       "kang-yejin",
-      "lee-yejin"
+      "kim-kyungju",
+      "kim-suhwan",
+      "choi-sungjun"
+    ],
+    "sponsors":[
+      "한밭대학교"
     ],
     "published_date": "2021-09-27",
     "content_type": "video",
     "view_count": 435928,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "GVUvQyKTLWw",
@@ -106501,11 +106706,13 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "kim-kyungju",
+      "song-haeun",
       "park-hyunmin",
-      "kim-suhwan",
       "kang-yejin",
-      "lee-yejin"
+      "kim-kyungju",
+      "kim-suhwan",
+      "choi-sungjun",
+      "hye-in"
     ],
     "published_date": "2021-08-16",
     "content_type": "video",
@@ -106608,16 +106815,24 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "kim-kyungju",
+      "song-haeun",
       "park-hyunmin",
-      "kim-suhwan",
       "kang-yejin",
-      "lee-yejin"
+      "kim-kyungju",
+      "kim-suhwan",
+      "choi-sungjun",
+      "hye-in"
+    ],
+    "sponsors":[
+      "위드컴퍼니"
     ],
     "published_date": "2021-08-13",
     "content_type": "video",
     "view_count": 241868,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "rWIFyrW8ccs",
@@ -108201,15 +108416,57 @@
       "여자친구"
     ],
     "tagged_members": [
+      "her-naeun",
       "yun-haeun",
       "oh-yubin",
-      "kang-yejin",
-      "lee-yejin"
+      "park-damhee",
+      "song-haeun",
+      "kang-yejin"
+    ],
+    "support":[
+      "마운틴듀"
+    ],
+    "sponsors":[
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2021-06-29",
     "content_type": "video",
     "view_count": 714441,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "donk5YfWeZo",
@@ -110724,16 +110981,50 @@
       "여자친구"
     ],
     "tagged_members": [
+      "her-naeun",
       "yun-haeun",
       "oh-yubin",
-      "kang-yejin",
-      "lee-yejin"
+      "park-damhee",
+      "song-haeun",
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2021-04-20",
     "content_type": "video",
     "view_count": 994305,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -110793,18 +111084,56 @@
     "youtube_id": "d3nZ3CddMfE",
     "title": "[AB] 여자친구 GFRIEND - 오늘부터 우리는 Me Gustas Tu | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "여자친구"
     ],
     "tagged_members": [
+      "her-naeun",
       "yun-haeun",
       "oh-yubin",
-      "kang-yejin",
-      "lee-yejin"
+      "park-damhee",
+      "song-haeun",
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "song-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "여자친구",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2021-04-19",
     "content_type": "video",
     "view_count": 536130,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
+
   },
   {
     "youtube_id": "povN8PvrNTM",
@@ -134541,17 +134870,15 @@
   {
     "youtube_id": "2eP0uRXGDLc",
     "title": "[JAZZTALE] The person you want,  not me | JAZZ DANCE PERFORMANCE Promotion Video | 세종대 실용무용",
-    "covered_group": [
-      "지민"
-    ],
-    "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
-    ],
+    "covered_group": [],
+    "tagged_members": [],
     "published_date": "2019-03-02",
     "content_type": "video",
     "view_count": 57174,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::Jazz Tale::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "YzwwjE_FvVk",
@@ -134560,15 +134887,41 @@
       "화사"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "minju",
+      "her-naeun",
+      "lee-sieun"
+    ],
+    "special_dancers":[
+      "kim-eunbin",
       "kwon-soyoung",
-      "ha-seyoung"
+      "park-damhee",
+      "ha-seyoung",
+      "seo-jaemin",
+      "kim-jaewook",
+      "park-pilho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "minju",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2019-03-01",
     "content_type": "video",
     "view_count": 1197922,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -134578,14 +134931,43 @@
       "화사"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "minju",
+      "her-naeun",
+      "lee-sieun"
+    ],
+    "special_dancers":[
+      "kim-eunbin",
       "kwon-soyoung",
-      "ha-seyoung"
+      "park-damhee",
+      "ha-seyoung",
+      "seo-jaemin",
+      "kim-jaewook",
+      "park-pilho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "minju",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2019-03-01",
     "content_type": "video",
     "view_count": 835838,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "IqKWgosUY0w",
