@@ -9043,15 +9043,50 @@
     ],
     "tagged_members": [
       "kim-nakyeong",
+      "lee-yejin",
       "won-hyegyeong",
-      "kim-soeun",
-      "jung-siyun"
+      "aoki-yuka",
+      "jung-siyun",
+      "kim-soeun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "STAYC",
+        "covered_member": "시은"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "STAYC",
+        "covered_member": "윤"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "STAYC",
+        "covered_member": "수민"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "STAYC",
+        "covered_member": "아이사"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "STAYC",
+        "covered_member": "재이"
+      },
+      {
+        "member_id": "kim-soeun",
+        "covered_group": "STAYC",
+        "covered_member": "세은"
+      }
     ],
     "published_date": "2026-06-02",
     "content_type": "video",
     "view_count": 44820,
     "content_series": [
-      "Dance Cover MV::AB PRODUCER::2026y"
+      "Dance Cover MV::AB PRODUCER::2026y",
+      "Dance Cover MV::Years::2026y"
     ]
   },
   {
@@ -11380,7 +11415,9 @@
     "covered_group": [
       "Kep1er"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2026-04-30",
     "content_type": "short",
     "view_count": 80235,
@@ -11389,50 +11426,66 @@
   {
     "youtube_id": "e2d7w6rUA6U",
     "title": "내가 등장하기 전에 이랬다구?🫢 #whoisshe #혜경 #Hyegyeong",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "won-hyegyeong"
     ],
     "published_date": "2026-04-30",
     "content_type": "short",
     "view_count": 68301,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "RaJxexlL1NU",
     "title": "눈빛에 한번 반하고, 춤에 또 한 번 반하고 #whoisshe #유화 #Yuwha",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "jeong-yoojin"
     ],
     "published_date": "2026-04-30",
     "content_type": "short",
     "view_count": 230099,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "_loyFvasQ1c",
     "title": "도입부가 중요한 이유🫢 #whoisshe #시윤 #Siyun",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "jung-siyun"
     ],
     "published_date": "2026-04-30",
     "content_type": "short",
     "view_count": 88677,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "R9ajVbLsJvQ",
     "title": "오늘 저의 추구미는 뭘까요~? 👀  #whoisshe #도희 #Dohui",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "lee-yejin"
     ],
     "published_date": "2026-04-30",
     "content_type": "short",
     "view_count": 194142,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "z11mG6ZNs2k",
@@ -11440,11 +11493,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "jung-siyun",
+      "lee-yejin",
+      "won-hyegyeong"
+    ],
     "published_date": "2026-04-29",
     "content_type": "short",
     "view_count": 197008,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ]
   },
   {
     "youtube_id": "5Ts-t5b9YZE",
@@ -14430,7 +14490,9 @@
   {
     "youtube_id": "3AftUmwAVEU",
     "title": "#시윤 'DAILY:DIRECTION - ROOMBADOOMBA' Dance Cover #Siyun",
-    "covered_group": [],
+    "covered_group": [
+      "DAILY:DIRECTION"
+    ],
     "tagged_members": [
       "jung-siyun"
     ],
@@ -18101,7 +18163,7 @@
     "youtube_id": "0mKV5uJ7pB4",
     "title": "#대현 'NCT DREAM - When I’m With You' Dance Cover #Daehyeon",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -20406,11 +20468,21 @@
     "covered_group": [
       "Say My Name"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kang-minji",
+      "kim-nakyeong",
+      "lee-yejin",
+      "bang-jooyeon",
+      "jung-siyun",
+      "kim-soeun"
+    ],
     "published_date": "2025-12-14",
     "content_type": "short",
     "view_count": 42216,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "2E8m4Mr5BhI",
@@ -20418,11 +20490,21 @@
     "covered_group": [
       "Say My Name"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kang-minji",
+      "kim-nakyeong",
+      "lee-yejin",
+      "bang-jooyeon",
+      "jung-siyun",
+      "kim-soeun"
+    ],
     "published_date": "2025-12-14",
     "content_type": "short",
     "view_count": 31879,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "UNqHizELsK8",
@@ -20430,21 +20512,41 @@
     "covered_group": [
       "Say My Name"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "kang-minji",
+      "kim-nakyeong",
+      "lee-yejin",
+      "bang-jooyeon",
+      "jung-siyun",
+      "kim-soeun"
+    ],
     "published_date": "2025-12-14",
     "content_type": "short",
     "view_count": 25923,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "ks9ad1THEVE",
     "title": "무표정인데 입꼬리가 올라가고 있어요!! 👀 #notcuteanymore #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT"
+    ],
+    "tagged_members": [
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "jeong-hyunjin",
+      "lee-wina"
+    ],
     "published_date": "2025-12-14",
     "content_type": "short",
     "view_count": 52495,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "cLAv800vKk0",
@@ -20508,7 +20610,9 @@
   {
     "youtube_id": "IjYiYAVWKtM",
     "title": "#시윤 'Shakira - Zoo' Dance Cover #Siyun",
-    "covered_group": [],
+    "covered_group": [
+      "Shakira"
+    ],
     "tagged_members": [
       "jung-siyun"
     ],
@@ -20523,11 +20627,19 @@
     "covered_group": [
       "ILLIT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "jeong-hyunjin",
+      "lee-wina"
+    ],
     "published_date": "2025-12-13",
     "content_type": "short",
     "view_count": 57820,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "TnTgbCabinw",
@@ -20535,11 +20647,19 @@
     "covered_group": [
       "ILLIT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "jeong-hyunjin",
+      "lee-wina"
+    ],
     "published_date": "2025-12-13",
     "content_type": "short",
     "view_count": 71891,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "GZDOa8S7QCo",
@@ -20547,11 +20667,19 @@
     "covered_group": [
       "ILLIT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "baek-jina",
+      "kim-chan",
+      "cho-yuna",
+      "jeong-hyunjin",
+      "lee-wina"
+    ],
     "published_date": "2025-12-13",
     "content_type": "short",
     "view_count": 101933,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "bAVKaiOay9g",
@@ -22004,11 +22132,38 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
-      "bang-jooyeon",
-      "kim-nakyeong",
-      "jung-siyun",
       "kim-chan",
-      "aoki-yuka"
+      "bang-jooyeon",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jung-siyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2025-12-05",
     "content_type": "video",
@@ -23216,68 +23371,102 @@
   {
     "youtube_id": "39C-m-AeSzM",
     "title": "턱선에 베일 것 같아요😮 #spaghetti #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 116585,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "5kiKdokTpBU",
     "title": "오늘은 좀 길게 찍어봤어요😉 #spaghetti #주연 #Jooyeon",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "bang-jooyeon"
     ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 77249,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "EfPHsQrttgk",
     "title": "제 표정연기 보고 가세요~ #spaghetti #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 154375,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Fv6jdCIa8kU",
     "title": "이 구역의 엔딩 포즈 장인🥰  #spaghetti #찬 #Chan",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 167595,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "2vyNcj4qpNA",
     "title": "단발도 잘 어울리나요?  #spaghetti #시윤 #Siyun",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "jung-siyun"
     ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 140022,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "imi26W8IJaM",
     "title": "진짜 사랑에 빠진 것 같은데요??🔥 #spaghetti #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "won-hyegyeong",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-17",
     "content_type": "short",
     "view_count": 256805,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "BNXmBExG0q8",
@@ -23286,9 +23475,38 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "kim-chan",
       "bang-jooyeon",
+      "aoki-yuka",
       "kim-nakyeong",
       "jung-siyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2025-11-17",
     "content_type": "video",
@@ -23303,11 +23521,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-hyegyeong",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-16",
     "content_type": "short",
     "view_count": 125322,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "hUHqgpCgKkA",
@@ -23315,11 +23541,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-hyegyeong",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-16",
     "content_type": "short",
     "view_count": 397130,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "DsyUr_JIq7Y",
@@ -23327,21 +23561,39 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-hyegyeong",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-16",
     "content_type": "short",
     "view_count": 507563,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "IBsRRz4dPJM",
     "title": "우리랑 같이 스파게티 먹을 사람~~? #spaghetti #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "kim-chan",
+      "bang-jooyeon",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jung-siyun"
+    ],
     "published_date": "2025-11-16",
     "content_type": "short",
     "view_count": 234130,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "_plEpF0IEnQ",
@@ -23557,12 +23809,18 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
-      "jungeun"
+      "kim-chan",
+      "bang-jooyeon",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jung-siyun"
     ],
     "published_date": "2025-11-15",
     "content_type": "short",
     "view_count": 96614,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "NfTT3UUuCnM",
@@ -23570,11 +23828,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan",
+      "bang-jooyeon",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jung-siyun"
+    ],
     "published_date": "2025-11-15",
     "content_type": "short",
     "view_count": 357125,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "FPQuUnwZjAs",
@@ -23582,11 +23848,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan",
+      "bang-jooyeon",
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jung-siyun"
+    ],
     "published_date": "2025-11-15",
     "content_type": "short",
     "view_count": 116556,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "4TO1akzLsuU",
@@ -23610,14 +23884,45 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "kim-chan",
       "bang-jooyeon",
+      "aoki-yuka",
       "kim-nakyeong",
       "jung-siyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2025-11-15",
     "content_type": "video",
     "view_count": 366705,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "uPXjtETceDk",
@@ -23718,12 +24023,25 @@
   {
     "youtube_id": "K62bWHhO7lo",
     "title": "네가 웃으면 나도 좋아!🙂 #focus #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Hearts2Hearts"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "oh-yubin",
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
     "published_date": "2025-11-14",
     "content_type": "short",
     "view_count": 827311,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "9rGvA4Kawu8",
@@ -23731,11 +24049,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "oh-yubin",
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
     "published_date": "2025-11-13",
     "content_type": "short",
     "view_count": 155784,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "dx2q8NeQIxw",
@@ -23743,11 +24072,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "oh-yubin",
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
     "published_date": "2025-11-13",
     "content_type": "short",
     "view_count": 261390,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "yk9Fg7gsjAE",
@@ -23755,11 +24095,22 @@
     "covered_group": [
       "Hearts2Hearts"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "oh-yubin",
+      "kim-chan",
+      "yun-haeun",
+      "won-seoa",
+      "lee-gaeun",
+      "ha-seyoung",
+      "bang-jooyeon"
+    ],
     "published_date": "2025-11-13",
     "content_type": "short",
     "view_count": 251116,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "bQCCD-kK7qg",
@@ -50520,58 +50871,123 @@
     "covered_group": [
       "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
+      "jung-siyun"
+    ],
     "published_date": "2025-02-10",
     "content_type": "short",
     "view_count": 25912,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "DrmtpXO9sJM",
     "title": "When I'm With You~~ #whenimwithyou #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
+      "jung-siyun"
+    ],
     "published_date": "2025-02-10",
     "content_type": "short",
     "view_count": 34942,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "QZF3trtrzs4",
     "title": "입가에 미소가 가시지 않는걸요? 😏 #whenimwithyou #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
+      "jung-siyun"
+    ],
     "published_date": "2025-02-10",
     "content_type": "short",
     "view_count": 21527,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "kxSneAVCd-g",
     "title": "[방구석 여기서요?] NCT DREAM - When I’m With You | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-suhwan",
-      "lim-donghun",
-      "chae-yunsu",
-      "cho-gyuso",
-      "kang-yejin",
       "jeong-gyeolgyeong",
-      "lee-yejin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
       "jung-siyun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2025-02-10",
     "content_type": "video",
     "view_count": 239445,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -51746,25 +52162,61 @@
     "tagged_members": [
       "ha-seyoung",
       "kang-yejin",
+      "aoki-yuka",
       "won-seoa",
+      "jung-siyun",
       "lee-wina",
-      "won-hyegyeong",
-      "lee-yejin",
-      "jung-siyun"
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2025-01-29",
     "content_type": "video",
     "view_count": 3569828,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
     "youtube_id": "lzXzmrAsqDY",
     "title": "[방구석 여기서요?] ATEEZ - Ice On My Teeth | Dance Cover",
     "covered_group": [
-      "IVE"
+      "ATEEZ"
     ],
     "tagged_members": [
       "park-hyunmin",
@@ -52647,7 +53099,9 @@
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 622179,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "TVlHosImAHU",
@@ -52671,11 +53125,15 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 45631,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "2MttrWNwNzM",
@@ -52689,7 +53147,9 @@
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 45185,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "a0w1nBGzagQ",
@@ -52703,7 +53163,9 @@
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 85342,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "2dxInWrHlRs",
@@ -52717,7 +53179,9 @@
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 62485,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Sc2sD3h6OfA",
@@ -52731,7 +53195,9 @@
     "published_date": "2025-01-09",
     "content_type": "short",
     "view_count": 25677,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "sUFW6gHtMEA",
@@ -52740,6 +53206,7 @@
       "izna"
     ],
     "tagged_members": [
+      "kim-chan",
       "jung-siyun"
     ],
     "published_date": "2025-01-09",
@@ -53354,7 +53821,7 @@
     "content_type": "short",
     "view_count": 83916,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -53733,6 +54200,7 @@
       "izna"
     ],
     "tagged_members": [
+      "kim-chan",
       "jung-siyun"
     ],
     "published_date": "2024-12-10",
@@ -53779,7 +54247,7 @@
     "youtube_id": "x7dYN9MN2Fo",
     "title": "형.. 쫄?ㅋㅋㅋㅋ #Whenimwithyou #동훈 #Donghun",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "lim-donghun"
@@ -53787,13 +54255,15 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 51937,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "0sZUzBIA0EE",
     "title": "마지막 미소 땜에 끝까지 보게 됨😆 #Whenimwithyou #수환 #Suhwan",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-suhwan"
@@ -53801,28 +54271,31 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 36611,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "GEzqJ4122AA",
     "title": "시즈니가 팽이가 되.. #Whenimwithyou #예진 #Yejin",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 49914,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "E71YrngA-HU",
     "title": "요즘 합체로봇 춤이 유행임🤣 #Whenimwithyou #결경 #Gyeolgyeong",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "jeong-gyeolgyeong"
@@ -53830,13 +54303,15 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 168393,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "bT-YNjaw9U0",
     "title": "어? 여기가 아니었어?😳 #Whenimwithyou #윤수 #Yunsu",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -53844,13 +54319,15 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 15929,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "In3JrYOvNZU",
     "title": "남돌춤은 처음이라는 09년생 춤 어떤데😬 #Whenimwithyou #시윤 #Siyun",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "jung-siyun"
@@ -53858,13 +54335,15 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 28686,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "gkBMZgMSVsQ",
     "title": "아직 카메라랑 낯가릴때.. 처음엔다그래 #Whenimwithyou #규소 #Gyuso",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "cho-gyuso"
@@ -53872,7 +54351,9 @@
     "published_date": "2024-12-09",
     "content_type": "short",
     "view_count": 24386,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "n2wYOS0A_-E",
@@ -54184,23 +54665,59 @@
     "youtube_id": "tlelGY4q48U",
     "title": "NCT DREAM - When I'm With You | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-suhwan",
-      "lim-donghun",
-      "chae-yunsu",
-      "cho-gyuso",
-      "kang-yejin",
       "jeong-gyeolgyeong",
-      "lee-yejin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
       "jung-siyun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-12-03",
     "content_type": "video",
     "view_count": 52775,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -54220,12 +54737,24 @@
   {
     "youtube_id": "QLYJhyBjN3I",
     "title": "무지개를 닮은 넌, 날 빛나게 해🌈 #WhenImWithYou #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
+      "jung-siyun"
+    ],
     "published_date": "2024-12-03",
     "content_type": "short",
     "view_count": 62611,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "gKNSNfxe2Oc",
@@ -54356,30 +54885,66 @@
     "content_type": "short",
     "view_count": 24412,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
     "youtube_id": "zGR--GCWenU",
     "title": "[여기서요?] NCT DREAM - When I'm With You | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-suhwan",
-      "lim-donghun",
-      "chae-yunsu",
-      "cho-gyuso",
-      "kang-yejin",
       "jeong-gyeolgyeong",
-      "lee-yejin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
       "jung-siyun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-12-01",
     "content_type": "video",
     "view_count": 209406,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -54416,22 +54981,61 @@
     "youtube_id": "gQGSuhB1IcA",
     "title": "[AB] NCT DREAM - When I'm With You | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-suhwan",
-      "lim-donghun",
-      "chae-yunsu",
-      "cho-gyuso",
-      "kang-yejin",
       "jeong-gyeolgyeong",
-      "lee-yejin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "kang-yejin",
+      "lim-donghun",
+      "cho-gyuso",
       "jung-siyun"
+    ],
+    "role_mapping":[
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-11-30",
     "content_type": "video",
     "view_count": 63715,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "zvwMxWmu6bQ",
@@ -54446,7 +55050,7 @@
     "content_type": "short",
     "view_count": 19996,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -54461,7 +55065,9 @@
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 58956,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "_16qs0jANIk",
@@ -54475,7 +55081,9 @@
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 165888,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "JQNsKSIpRwg",
@@ -54489,7 +55097,9 @@
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 34975,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "9iYbHsnvCwc",
@@ -54503,7 +55113,9 @@
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 99214,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "xUBwOC_hwks",
@@ -54511,11 +55123,15 @@
     "covered_group": [
       "BABYMONSTER"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 178210,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "-_hWhS9ui2M",
@@ -54529,7 +55145,9 @@
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 95884,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "-6MQRuzTwn8",
@@ -54538,13 +55156,14 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 62324,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "2LrR9JCpbko",
@@ -54586,12 +55205,27 @@
   {
     "youtube_id": "i6tiS-NQnBw",
     "title": "Pretty, pretty, pretty, pretty💕 #Mantra #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "제니"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers": [
+      "kim-nakyeong",
+      "kim-minju",
+      "yang-hyeju",
+      "lee-wina",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
     "published_date": "2024-11-29",
     "content_type": "short",
     "view_count": 242232,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "eFiJtC3-dGc",
@@ -54612,40 +55246,76 @@
     "youtube_id": "NPn8hKbVf_c",
     "title": "둘이 등장할 때 짜릿⚡️ #Mantra #ARTBEAT #여기서요",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers": [
+      "kim-nakyeong",
+      "kim-minju",
+      "yang-hyeju",
+      "lee-wina",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
     "published_date": "2024-11-28",
     "content_type": "short",
     "view_count": 457873,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "VTLt9FtQnWI",
     "title": "춤 연습보다 가사 외우는게 힘들었다던...🤣 #Mantra #ARTBEAT #여기서요",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers": [
+      "kim-nakyeong",
+      "kim-minju",
+      "yang-hyeju",
+      "lee-wina",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
     "published_date": "2024-11-28",
     "content_type": "short",
     "view_count": 334659,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "BKzMV9P2rhk",
     "title": "제니 진심녀가 커버하는 만트라💃🏻 #Mantra #ARTBEAT #여기서요",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "special_dancers": [
+      "kim-nakyeong",
+      "kim-minju",
+      "yang-hyeju",
+      "lee-wina",
+      "lee-jeonghee",
+      "jeong-yoojin"
+    ],
     "published_date": "2024-11-28",
     "content_type": "short",
     "view_count": 4527822,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "LkH6D-lJ_X4",
@@ -54770,7 +55440,7 @@
     "content_type": "short",
     "view_count": 109416,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2025y"
     ]
   },
   {
@@ -54782,17 +55452,54 @@
     "tagged_members": [
       "ha-seyoung",
       "kang-yejin",
+      "aoki-yuka",
       "won-seoa",
+      "jung-siyun",
       "lee-wina",
-      "won-hyegyeong",
-      "lee-yejin",
-      "jung-siyun"
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2024-11-26",
     "content_type": "video",
     "view_count": 1655605,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -55003,17 +55710,54 @@
     "tagged_members": [
       "ha-seyoung",
       "kang-yejin",
+      "aoki-yuka",
       "won-seoa",
+      "jung-siyun",
       "lee-wina",
-      "won-hyegyeong",
-      "lee-yejin",
-      "jung-siyun"
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2024-11-24",
     "content_type": "video",
     "view_count": 4681791,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -55170,11 +55914,48 @@
     "tagged_members": [
       "ha-seyoung",
       "kang-yejin",
+      "aoki-yuka",
       "won-seoa",
+      "jung-siyun",
       "lee-wina",
-      "won-hyegyeong",
-      "lee-yejin",
-      "jung-siyun"
+      "won-hyegyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "라미"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2024-11-23",
     "content_type": "video",
@@ -55277,7 +56058,7 @@
     "youtube_id": "NbQRV7o7Ga4",
     "title": "#재신 #가람 #오디션중 'NCT DREAM - When I'm With You' Dance Cover #Jaeshin #Garam",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "lee-garam"
