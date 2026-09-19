@@ -2,9 +2,19 @@
   {
     "youtube_id": "HH_l2jasOq4",
     "title": "잠시 댄브 찢으실게요☆ #Blingy #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "kang-taehyun",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kim-jeongseo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -17,9 +27,19 @@
   {
     "youtube_id": "FFP5CRKYZkE",
     "title": "의상들 진짜 blingy하다✨️ #Blingy #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "kang-taehyun",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kim-jeongseo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -32,9 +52,19 @@
   {
     "youtube_id": "m5J4bCM7EGw",
     "title": "인트로가 완전 킬링이네~ #Blingy #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT 127"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "kang-taehyun",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kim-jeongseo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -48,23 +78,48 @@
     "youtube_id": "8R3Fs8Fmi4w",
     "title": "[여기서요?] 엔시티127 NCT 127 - Blingy | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "태용",
-      "NCT",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
-      "kim-jeongseo",
-      "kang-taehyun",
       "lee-garam",
-      "oh-yubin",
+      "kang-taehyun",
+      "lee-jookhang",
       "lee-yoobin",
-      "lee-jookhang"
+      "kim-jeongseo"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "lee-jookhang",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "lee-yoobin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-09-18",
     "content_type": "video",
