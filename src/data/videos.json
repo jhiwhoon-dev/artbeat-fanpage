@@ -7222,11 +7222,11 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "oh-yubin",
-      "kim-nakyeong",
-      "won-hyegyeong",
       "lee-yejin",
-      "aoki-yuka"
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "oh-yubin"
     ],
     "published_date": "2026-07-23",
     "content_type": "short",
@@ -7242,11 +7242,11 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "oh-yubin",
-      "kim-nakyeong",
-      "won-hyegyeong",
       "lee-yejin",
-      "aoki-yuka"
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "oh-yubin"
     ],
     "published_date": "2026-07-23",
     "content_type": "short",
@@ -7262,11 +7262,11 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "oh-yubin",
-      "kim-nakyeong",
-      "won-hyegyeong",
       "lee-yejin",
-      "aoki-yuka"
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "oh-yubin"
     ],
     "published_date": "2026-07-23",
     "content_type": "short",
@@ -7282,11 +7282,38 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "oh-yubin",
-      "kim-nakyeong",
-      "won-hyegyeong",
       "lee-yejin",
-      "aoki-yuka"
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "oh-yubin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2026-07-22",
     "content_type": "video",
@@ -10457,6 +10484,38 @@
       "park-seongmin",
       "jeong-gyeolgyeong",
       "kim-nakyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2026-05-23",
     "content_type": "video",
@@ -16822,7 +16881,7 @@
     "tagged_members": [
       "ha-seyoung",
       "kang-yejin",
-      "lee-yejin"
+      "kim-chan"
     ],
     "published_date": "2026-02-20",
     "content_type": "short",
@@ -19500,11 +19559,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-26",
     "content_type": "short",
     "view_count": 80922,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "zyMlqcmhNyk",
@@ -19513,12 +19580,18 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "min"
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
     ],
     "published_date": "2025-12-26",
     "content_type": "short",
     "view_count": 85500,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "xnWlko2bZGg",
@@ -19526,11 +19599,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-26",
     "content_type": "short",
     "view_count": 54810,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "shPXBK_GbYU",
@@ -19553,17 +19634,44 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
       "baek-jina",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-12-26",
     "content_type": "video",
     "view_count": 367365,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -22199,87 +22307,114 @@
   {
     "youtube_id": "qKE7OdHkCLM",
     "title": "반할지도 모르니 주의하시길 바랍니다⚠️ #beatitup #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 47848,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "d7t8yyAcN3A",
     "title": "나름 엔딩도 자신 있음!!✌️ #beatitup #윤수 #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 28281,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Hr55nBtGOgY",
     "title": "싸움 잘하는 누나의 등장!?👊 #beatitup #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 28175,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "C0DygO5kcHo",
     "title": "멋있어, 잘생겼어, 최고야,,,!😍 #beatitup #규소 #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 38291,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "meF1Lqsp4FQ",
     "title": "웨이브(?)가 꽤 잘 어울리는 걸? #beatitup #대현 #Daehyeon",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "jang-daehyeon"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 21848,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "jMqMrp4fwHo",
     "title": "가시밭길을 걸어도 여전히 Handsome 한 사나이 #beatitup #영진 #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 28684,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "kkaFqwTJSGQ",
     "title": "멋지게 스타트 좋구요~ #beatitup #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-12-10",
     "content_type": "short",
     "view_count": 28476,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "ewjiVO4Rn54",
@@ -22368,34 +22503,82 @@
   {
     "youtube_id": "K4nDRdN6etw",
     "title": "우리 모두 다 같이 사이좋게 지냅시다!! 😆 #beatitup #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-09",
     "content_type": "short",
     "view_count": 36245,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "g1BAri7Ve68",
     "title": "엔시티 드림 NCT DREAM - Beat It Up | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-youngjin",
+      "kang-yejin",
       "chae-yunsu",
       "park-seongmin",
-      "cho-gyuso",
-      "jang-daehyeon",
-      "kang-yejin",
       "kim-nakyeong",
-      "lee-yejin"
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2025-12-09",
     "content_type": "video",
     "view_count": 19565,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
@@ -22438,37 +22621,67 @@
     "youtube_id": "O_1hrhD_mG4",
     "title": "심쿵하기 1초전💘 #beatitup #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-08",
     "content_type": "short",
     "view_count": 32341,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "xn-X1xsaYyU",
     "title": "자세부터 복서 느낌이 나는데~ 👀  #beatitup #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-08",
     "content_type": "short",
     "view_count": 19624,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "8w15rwhIuVc",
     "title": "싸우려고 다시 돌아온 Beat It Up!! #beatitup #ARTBEAT #여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-08",
     "content_type": "short",
     "view_count": 19220,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-Gx_y1NfTys",
@@ -22495,23 +22708,59 @@
     "youtube_id": "aQ9d5QfJPdA",
     "title": "[여기서요?] 엔시티 드림 NCT DREAM - Beat It Up | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-youngjin",
+      "kang-yejin",
       "chae-yunsu",
       "park-seongmin",
-      "cho-gyuso",
-      "jang-daehyeon",
-      "kang-yejin",
       "kim-nakyeong",
-      "lee-yejin"
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2025-12-08",
     "content_type": "video",
     "view_count": 153261,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2025y"
     ]
   },
   {
@@ -23519,37 +23768,67 @@
     "youtube_id": "-gRfDcBfjGo",
     "title": "멋있긴 한데.. 카메라는 괜찮나요?? #beatitup #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-02",
     "content_type": "short",
     "view_count": 25624,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "gl2LGgzBP4Q",
     "title": "싸우면 질 자신 있음!!🫢 #beatitup #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-02",
     "content_type": "short",
     "view_count": 27150,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "Ga3lxIMLL5Y",
     "title": "인트로부터 심상치 않은 복서(?)들?🥊 #beatitup #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kang-yejin",
+      "chae-yunsu",
+      "park-seongmin",
+      "kim-nakyeong",
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
     "published_date": "2025-12-02",
     "content_type": "short",
     "view_count": 28233,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "cB3YjoCGCbg",
@@ -23591,24 +23870,59 @@
     "youtube_id": "SOGr-HaO_AE",
     "title": "[방구석 여기서요?] 엔시티 드림 NCT DREAM - Beat It Up | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-youngjin",
+      "kang-yejin",
       "chae-yunsu",
       "park-seongmin",
-      "cho-gyuso",
-      "jang-daehyeon",
-      "kang-yejin",
       "kim-nakyeong",
-      "lee-yejin"
+      "cho-gyuso",
+      "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2025-12-02",
     "content_type": "video",
     "view_count": 169470,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -23768,7 +24082,7 @@
     "youtube_id": "cY5vS8mnzWs",
     "title": "#도희 'NCT DREAM - Beat It Up' Dance Cover #Dohui",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "lee-yejin"
@@ -27148,70 +27462,88 @@
   {
     "youtube_id": "tuNN7wR49fw",
     "title": "그렇게 쳐다보시면 저 설레요...☺️ #burningup #유빈 #Yubin",
-    "covered_group": [],
+    "covered_group": [
+      "MEOVV"
+    ],
     "tagged_members": [
       "oh-yubin"
     ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 558746,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "hxZjRx0AmLM",
     "title": "나도 도입부 잘할 수있 다구 #burningup #지나 #Jina",
-    "covered_group": [],
+    "covered_group": [
+      "MEOVV"
+    ],
     "tagged_members": [
       "baek-jina"
     ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 41434,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "sN0SXu7dldk",
     "title": "사랑의 총알 한방, 빵야!💘 #burningup #예진 #Yejin",
-    "covered_group": [],
+    "covered_group": [
+      "MEOVV"
+    ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 48044,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "dEMLrc5WxPQ",
     "title": "나 꽤 유연하지? #burningup #도희 #Dohui",
-    "covered_group": [],
+    "covered_group": [
+      "MEOVV"
+    ],
     "tagged_members": [
       "lee-yejin"
     ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 41755,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "xi1jFVJY3Ug",
     "title": "몇 번을 다시 보는지 셀 수도 없어😆 #burningup #세영 #Seyoung",
-    "covered_group": [],
+    "covered_group": [
+      "MEOVV"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 320324,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "tT3kBucvWD4",
     "title": "[버스킹 여기서요?] 헌트릭스 HUNTR/X - GOLDEN | 커버댄스 Dance Cover @신촌스타광장",
     "covered_group": [
-      "HUNTR/X",
-      "izna"
+      "HUNTR/X"
     ],
     "tagged_members": [
       "kim-soyeon",
@@ -27268,11 +27600,38 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
       "baek-jina",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-11-02",
     "content_type": "video",
@@ -27405,12 +27764,22 @@
   {
     "youtube_id": "u-pW9Y8Bz-s",
     "title": "우리 모두 다 같이 BURNING UP!! #burningup #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "MEOVV"
+    ],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 259628,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "ub7EWpSS3S4",
@@ -27587,11 +27956,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-31",
     "content_type": "short",
     "view_count": 49249,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jMx8c2jtbtE",
@@ -27599,11 +27976,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-31",
     "content_type": "short",
     "view_count": 77775,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "xPb6sa65J-s",
@@ -27611,11 +27996,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-31",
     "content_type": "short",
     "view_count": 59872,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "-VmLrxQWOXA",
@@ -27671,17 +28064,44 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
       "baek-jina",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-10-31",
     "content_type": "video",
     "view_count": 344798,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2025y"
     ]
   },
   {
@@ -28169,11 +28589,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-28",
     "content_type": "short",
     "view_count": 53902,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jGWaaSi7mHI",
@@ -28181,11 +28609,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-28",
     "content_type": "short",
     "view_count": 570725,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "W_oRgiFwOB4",
@@ -28193,17 +28629,24 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
+      "baek-jina",
+      "lee-yejin"
+    ],
     "published_date": "2025-10-28",
     "content_type": "short",
     "view_count": 111589,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "sTrc27vDTBI",
     "title": "[버스킹 여기서요?] 이즈나 izna - Mamma Mia | 커버댄스 Dance Cover @신촌스타광장",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
@@ -28227,17 +28670,44 @@
       "MEOVV"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "kang-yejin",
+      "oh-yubin",
+      "ha-seyoung",
       "baek-jina",
       "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "수인"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "MEOVV",
+        "covered_member": "안나"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MEOVV",
+        "covered_member": "나린"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "MEOVV",
+        "covered_member": "엘라"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "MEOVV",
+        "covered_member": "가원"
+      }
     ],
     "published_date": "2025-10-28",
     "content_type": "video",
     "view_count": 306658,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -48392,8 +48862,7 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2025-04-08",
     "content_type": "short",
@@ -55750,12 +56219,11 @@
     "youtube_id": "M9hdKJDOIqE",
     "title": "멘토🆚멘티 대결 #예진 #혜주 'NCT WISH - Touchdown' Dance Cover #Yejin #Hyejoo",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "kang-yejin",
-      "lee-yejin"
+      "yang-hyeju"
     ],
     "published_date": "2025-01-05",
     "content_type": "short",
@@ -67384,12 +67852,10 @@
     "youtube_id": "1NUqNEhwaeE",
     "title": "#예진 'NCT WISH - WISH’ Dance Cover #yejin",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-03-23",
     "content_type": "short",
@@ -69503,8 +69969,7 @@
     ],
     "tagged_members": [
       "oh-yubin",
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2024-01-27",
     "content_type": "short",
@@ -83893,7 +84358,7 @@
     "youtube_id": "Ydf7J444G4c",
     "title": "[#야망소년] 이 춤은 이제 제 겁니다 #LoveMeLikeThis #ABuniverse #윤수 #Yunsu #shorts",
     "covered_group": [
-      "IVE"
+      "NMIXX"
     ],
     "tagged_members": [
       "chae-yunsu",
@@ -84534,11 +84999,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
     "published_date": "2023-04-18",
     "content_type": "short",
     "view_count": 188857,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "4V3hAZTfB1k",
@@ -84546,11 +85020,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-jeuki",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-yejin",
+      "lee-gaeun",
+      "yun-haeun"
+    ],
     "published_date": "2023-04-18",
     "content_type": "short",
     "view_count": 1522543,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "f6VAenkPuIA",
@@ -84656,7 +85139,9 @@
     "published_date": "2023-04-18",
     "content_type": "short",
     "view_count": 352136,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "Y4IPsgIE7YI",
@@ -84670,7 +85155,9 @@
     "published_date": "2023-04-18",
     "content_type": "short",
     "view_count": 71770,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "WJ-7HF1ORhw",
@@ -84679,13 +85166,14 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "kang-yejin",
-      "lee-yejin"
+      "kang-yejin"
     ],
     "published_date": "2023-04-18",
     "content_type": "short",
     "view_count": 118461,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "j1U-g1C4uPA",
@@ -93307,7 +93795,7 @@
     "content_type": "video",
     "view_count": 747248,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
