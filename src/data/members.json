@@ -1402,9 +1402,9 @@
     "sns": {}
   },
   {
-    "id": "yang-hyuejoo",
+    "id": "yang-hyejoo",
     "name": "양혜주",
-    "name_en": "Hyuejoo Yang",
+    "name_en": "Hyejoo Yang",
     "nickname": null,
     "birth_date": "2005-00-00",
     "gender": "F",
@@ -1459,7 +1459,7 @@
       }
     ],
     "photo_filename": null,
-    "bio": "mnju38",
+    "bio": null,
     "sns": {
       "instagram": [
         "https://www.instagram.com/minbeen_/"
@@ -4484,7 +4484,7 @@
     "name": "김민지",
     "name_en": "Minji Kim",
     "nickname": null,
-    "birth_date": null,
+    "birth_date": "2002-06-16",
     "gender": "F",
     "role": "Dancer",
     "unit": [
@@ -4514,9 +4514,14 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2021-07-30",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2021-07-30",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "https://www.instagram.com/p/CR8n0zVl1u7/",
     "sns": {
@@ -4826,7 +4831,7 @@
       }
     ],
     "photo_filename": null,
-    "bio": null,
+    "bio": "mnju38",
     "sns": {
       "instagram": [
         "https://www.instagram.com/3rdblue_/"

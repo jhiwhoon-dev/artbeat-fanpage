@@ -61298,7 +61298,7 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "yang-hyeju",
+      "yang-hyejoo",
       "kim-minju"
     ],
     "published_date": "2024-12-29",
@@ -63004,7 +63004,7 @@
       "제니"
     ],
     "special_dancers": [
-      "yang-hyeju"
+      "yang-hyejoo"
     ],
     "published_date": "2024-12-01",
     "content_type": "short",
@@ -63013,7 +63013,7 @@
       "AB PRACTICE::2024y"
     ],
     "tagged_members": [
-      "yang-hyuejoo"
+      "yang-hyejoo"
     ]
   },
   {
@@ -63089,9 +63089,7 @@
       "AB PRACTICE::2024y"
     ],
     "tagged_members": [
-      "kim-minju",
-      "minju",
-      "min"
+      "kim-minju"
     ]
   },
   {
@@ -140184,7 +140182,12 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "kim-minju"
+      "lee-gaeun",
+      "kwon-soyoung",
+      "kim-eunbin",
+      "jinhee",
+      "ha-seyoung",
+      "minju"
     ],
     "published_date": "2019-06-09",
     "content_type": "video",
@@ -140358,13 +140361,7 @@
     "covered_group": [
       "The Pussycat Dolls"
     ],
-    "tagged_members": [
-      "kim-minju",
-      "lee-jimin",
-      "minju",
-      "nayoung",
-      "min"
-    ],
+    "tagged_members": [],
     "published_date": "2019-05-30",
     "content_type": "video",
     "view_count": 29361,
@@ -140489,6 +140486,15 @@
     "covered_group": [
       "오마이걸"
     ],
+    "tagged_members": [
+      "kim-eunbin",
+      "lee-gaeun",
+      "park-damhee",
+      "lee-sieun",
+      "park-soyoung",
+      "yun-haeun",
+      "minju"
+    ],
     "role_mapping": [
       {
         "member_id": "kim-eunbin",
@@ -140531,19 +140537,7 @@
     "view_count": 135702,
     "content_series": [
       "AB PRACTICE::2019y"
-    ],
-    "tagged_members": [
-      "hwang-jiho",
-      "kim-minju",
-      "park-soyoung",
-      "lee-gaeun",
-      "yun-haeun",
-      "lee-sieun",
-      "park-damhee",
-      "kim-eunbin",
-      "minju",
-      "min"
-    ]
+    ]    
   },
   {
     "youtube_id": "QEe1YHUi08A",
@@ -140725,16 +140719,16 @@
       "TWICE"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
       "hwang-dagun",
-      "lee-gaeun",
-      "ha-seyoung",
+      "park-soyoung",
       "suvin",
-      "kim-minju",
-      "jinhee",
+      "minju",
+      "kim-hayeon",
+      "lee-gaeun",
       "lee-sieun",
+      "ha-seyoung",
+      "kwon-soyoung",
+      "jinhee",
       "kim-eunbin",
       "her-naeun"
     ],
