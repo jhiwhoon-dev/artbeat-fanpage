@@ -16263,8 +16263,7 @@
     "title": "'Destiny Rogers - Tomboy' (Yoji Choreography) Dance Cover #유진 #Yoojin",
     "covered_group": [],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2026-03-15",
     "content_type": "short",
@@ -17205,8 +17204,7 @@
     "title": "우리 같이 아웅다웅❤️ #아웅다웅 #아웅다웅챌린지 #유진 #Yoojin",
     "covered_group": [],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2026-03-02",
     "content_type": "short",
@@ -17217,8 +17215,7 @@
     "youtube_id": "gWVSUDJUVA0",
     "title": "#하즈키 #결경 'NCT WISH - NASA' Dance Cover #Hazuki #Gyeolgyeong",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "ha-jeuki"
@@ -18609,10 +18606,11 @@
   {
     "youtube_id": "fdo2IEI2YsE",
     "title": "#유진 'CHUU - XO, My Cyberlove' Dance Cover #Yoojin",
-    "covered_group": [],
+    "covered_group": [
+      "CHUU"
+    ],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2026-02-06",
     "content_type": "short",
@@ -19309,8 +19307,7 @@
     "title": "2026년 한 해도 따뜻하게 보내보아요❤️ #첫눈 #첫눈챌린지 #유진 #Yoojin",
     "covered_group": [],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2026-01-12",
     "content_type": "short",
@@ -20087,8 +20084,7 @@
     "title": "기사님~ 저도 막차 탑승할래요✋ #힙합보단사랑사랑보다돈 #힙사사돈챌린지 #유진 #Yoojin",
     "covered_group": [],
     "tagged_members": [
-      "ahn-yoojin",
-      "jeong-yoojin"
+      "ahn-yoojin"
     ],
     "published_date": "2025-12-29",
     "content_type": "short",
@@ -24347,17 +24343,17 @@
     ],
     "role_mapping": [
       {
-        "member_id": "kim-youngjin",
+        "member_id": "ha-seyoung",
         "covered_group": "aespa::KARINA",
         "covered_member": "KARINA"
       },
       {
-        "member_id": "kim-youngjin",
+        "member_id": "jeong-yoojin",
         "covered_group": "aespa::KARINA",
         "covered_member": "KARINA"
       },
       {
-        "member_id": "kim-youngjin",
+        "member_id": "kim-hyerim",
         "covered_group": "aespa::KARINA",
         "covered_member": "KARINA"
       }
@@ -27750,11 +27746,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "kang-taehyun",
+      "lee-garam"
+    ],
     "published_date": "2025-11-07",
     "content_type": "short",
     "view_count": 53084,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "b0hwkkDvyNI",
@@ -27762,11 +27766,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "kang-taehyun",
+      "lee-garam"
+    ],
     "published_date": "2025-11-07",
     "content_type": "short",
     "view_count": 61699,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "iJl1TKRCQ9w",
@@ -27774,11 +27786,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "kang-taehyun",
+      "lee-garam"
+    ],
     "published_date": "2025-11-07",
     "content_type": "short",
     "view_count": 38393,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "o9pe6nra0BE",
@@ -27943,7 +27963,13 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-taehyun",
+      "park-hyunmin"
+    ],
     "published_date": "2025-11-06",
     "content_type": "short",
     "view_count": 50952,
@@ -27957,7 +27983,13 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-taehyun",
+      "park-hyunmin"
+    ],
     "published_date": "2025-11-06",
     "content_type": "short",
     "view_count": 293369,
@@ -27971,7 +28003,13 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "oh-yubin",
+      "kang-taehyun",
+      "park-hyunmin"
+    ],
     "published_date": "2025-11-06",
     "content_type": "short",
     "view_count": 44585,
@@ -29865,7 +29903,7 @@
     "youtube_id": "tQhZmY_UNc0",
     "title": "#수환 #태현 'TWS - OVERDRIVE' Dance Cover #Suhwan #Taehyun",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "kim-suhwan",
@@ -29882,11 +29920,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2025-10-29",
     "content_type": "short",
     "view_count": 125259,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Agf7oPaBI-4",
@@ -29894,11 +29940,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2025-10-29",
     "content_type": "short",
     "view_count": 162020,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "8FSteJXRbUQ",
@@ -29906,11 +29960,19 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "oh-yubin",
+      "jang-sein",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2025-10-29",
     "content_type": "short",
     "view_count": 165330,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "0Rue-Ix52dc",
@@ -35143,7 +35205,9 @@
     "published_date": "2025-09-14",
     "content_type": "short",
     "view_count": 64856,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "JQ0SCgbftQU",
@@ -35151,11 +35215,24 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-14",
     "content_type": "short",
     "view_count": 55600,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "DaCsauMb2rg",
@@ -35163,11 +35240,24 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-14",
     "content_type": "short",
     "view_count": 87007,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "DoAjTxi88wM",
@@ -35176,19 +35266,44 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
       "park-hyunmin",
       "park-seongmin",
       "lee-garam",
-      "cho-gyuso",
-      "kim-hyerim",
-      "jang-sein",
-      "kang-minji"
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-09-14",
     "content_type": "video",
     "view_count": 505229,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -36090,11 +36205,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-08",
     "content_type": "short",
     "view_count": 66690,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "CIytVouMMD0",
@@ -36102,11 +36225,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-08",
     "content_type": "short",
     "view_count": 117803,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "td3wjaz8tMQ",
@@ -36114,11 +36245,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-09-08",
     "content_type": "short",
     "view_count": 99243,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "nQUe02Y5BlU",
@@ -36703,11 +36842,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-gaeun",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-09-03",
     "content_type": "short",
     "view_count": 71208,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "6Uulu0QRCN4",
@@ -36715,11 +36862,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-gaeun",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-09-03",
     "content_type": "short",
     "view_count": 42021,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "pw7bDwpEEWM",
@@ -36727,11 +36882,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-gaeun",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-09-03",
     "content_type": "short",
     "view_count": 37982,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "J7kLg_kUWtc",
@@ -37199,11 +37362,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-08-31",
     "content_type": "short",
     "view_count": 65164,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "Hoo6LsQrfeo",
@@ -37211,11 +37382,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-08-31",
     "content_type": "short",
     "view_count": 55672,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "mFvdPuLVeIE",
@@ -37223,11 +37402,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-yoojin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-08-31",
     "content_type": "short",
     "view_count": 56047,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "jPax_0ALnFM",
@@ -37556,11 +37743,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 128825,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "uxZg6cX7IYI",
@@ -37568,11 +37763,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 367088,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "yGZChFDWBIs",
@@ -37580,11 +37783,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-08-29",
     "content_type": "short",
     "view_count": 143513,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "VJq1lG-tU2o",
@@ -40569,50 +40780,66 @@
   {
     "youtube_id": "Pp5GwkY0dgM",
     "title": "너에게 더 깊이 빠져가 #lipshipskiss #혜림 #Hyerim",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
     "published_date": "2025-07-19",
     "content_type": "short",
     "view_count": 167371,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "CxzSJxCsRVA",
     "title": "중간중간 그렇게 웃으시면.... 저는 감사합니다☺️ #lipshipskiss #민지 #Minji",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "kang-minji"
     ],
     "published_date": "2025-07-19",
     "content_type": "short",
     "view_count": 102871,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "UCHzE5S3EqE",
     "title": "곡에 딱 맞는 표정 해봤는데 어때요? 😆 #lipshipskiss #세인 #Sein",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "jang-sein"
     ],
     "published_date": "2025-07-19",
     "content_type": "short",
     "view_count": 115058,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "v7xde_WBYOI",
     "title": "손 내밀면 따라갈 것 같아.. #lipshipskiss #유화 #Yuwha",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [
       "jeong-yoojin"
     ],
     "published_date": "2025-07-19",
     "content_type": "short",
     "view_count": 75665,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "7EyjH2sQkNc",
@@ -40661,81 +40888,128 @@
     "youtube_id": "PokktubMKgk",
     "title": "키스오브라이프 KISS OF LIFE - Lips Hips Kiss | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "IVE"
+      "KISS OF LIFE"
     ],
     "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
       "park-hyunmin",
       "lim-donghun",
       "lee-garam",
-      "cho-gyuso",
-      "kim-hyerim",
-      "jang-sein",
-      "kang-minji"
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-07-18",
     "content_type": "video",
     "view_count": 100911,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2025y"
     ]
   },
   {
     "youtube_id": "1yKw1Ud-KzI",
     "title": "여기는 내 구역이야~~ #wicked #현진 #Hyunjin",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "jeong-hyunjin"
     ],
     "published_date": "2025-07-18",
     "content_type": "short",
     "view_count": 209086,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "gZyGhxqo3bE",
     "title": "금쪽(?)이가 나가신다 길을 비켜라 #wicked #민기 #Mingi",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "kim-mingi"
     ],
     "published_date": "2025-07-18",
     "content_type": "short",
     "view_count": 89457,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "5NW_Kr9C4GU",
     "title": "마무리까지 확실하게 WICKED!!🤟 #wicked #유카 #Yuka",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2025-07-18",
     "content_type": "short",
     "view_count": 121242,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "9yVlg8iRknU",
     "title": "감탄하면서 보다가 턱이 빠진 것 같아요...🤣 #wicked #나경 #Nakyeong",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "kim-nakyeong"
     ],
     "published_date": "2025-07-18",
     "content_type": "short",
     "view_count": 107187,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "h39D6FxOr2Q",
     "title": "키 크니까 춤이 시원시원하네~~ #wicked #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-07-18",
     "content_type": "short",
     "view_count": 63613,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "8kjJCMepn2w",
@@ -40855,14 +41129,18 @@
   {
     "youtube_id": "yv8p-jHcXy0",
     "title": "시작할 때 앞모습도 보고 싶어...😭 #famous #유빈 #Yubin",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "oh-yubin"
     ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 1164274,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "BMktUA0-JyE",
@@ -40883,38 +41161,50 @@
   {
     "youtube_id": "GzqA9RH_6lg",
     "title": "사랑의 총알을 몇 번이나 맞았는지 셀 수가 없는데? #famous #세영 #Seyoung",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 251420,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "IllZcm-Yufs",
     "title": "무릎 꿇는 안무는 언제 봐도 킬포인듯👏 #famous #유화 #Yuwha",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "jeong-yoojin"
     ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 140309,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "5fqkmOzgFNI",
     "title": "무심한 듯 춤추는 모습에 또 한 번 반한 듯 #famous #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 122883,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "qK3m0Y4nPqY",
@@ -40966,12 +41256,27 @@
   {
     "youtube_id": "XfPbg_YCNf8",
     "title": "우리와 함께라면 완벽해지는 Night🌝 #lipshipskiss#릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-07-17",
     "content_type": "short",
     "view_count": 124250,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "kk7Fp1JTmgs",
@@ -40979,11 +41284,24 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-07-16",
     "content_type": "short",
     "view_count": 67921,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "PRNHkAcwUf8",
@@ -40991,11 +41309,24 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-07-16",
     "content_type": "short",
     "view_count": 116749,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "TlE3yox3QjQ",
@@ -41003,31 +41334,71 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "lim-donghun",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-07-16",
     "content_type": "short",
     "view_count": 71918,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "XVmyHcOmIR0",
     "title": "[여기서요?] 키스오브라이프 KISS OF LIFE - Lips Hips Kiss | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "IVE"
+      "KISS OF LIFE"
     ],
     "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
       "park-hyunmin",
       "lim-donghun",
       "lee-garam",
-      "cho-gyuso",
-      "kim-hyerim",
-      "jang-sein",
-      "kang-minji"
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      }
     ],
     "published_date": "2025-07-16",
     "content_type": "video",
     "view_count": 649015,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "UIcM3LzmwBo",
@@ -41182,11 +41553,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-07-15",
     "content_type": "short",
     "view_count": 89450,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "dWyeNfxwyDs",
@@ -41194,11 +41573,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-07-15",
     "content_type": "short",
     "view_count": 428748,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "w8AOhtHLSr0",
@@ -41206,11 +41593,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-yoojin",
+      "ha-seyoung",
+      "oh-yubin",
+      "kang-taehyun",
+      "hwang-jiho"
+    ],
     "published_date": "2025-07-15",
     "content_type": "short",
     "view_count": 230362,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "RwZqzTQpVyo",
@@ -41291,12 +41686,22 @@
   {
     "youtube_id": "jAomC2F4Tog",
     "title": "누가 뭐래도 우린 자유롭지🤟 #famous #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-07-15",
     "content_type": "short",
     "view_count": 227081,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "Jg2lZo8I3vg",
@@ -41304,11 +41709,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-07-14",
     "content_type": "short",
     "view_count": 194617,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "HaFm3wEnFeU",
@@ -41316,11 +41729,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-07-14",
     "content_type": "short",
     "view_count": 686125,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "dYrlCKfGr48",
@@ -41328,11 +41749,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-07-14",
     "content_type": "short",
     "view_count": 185664,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "rPNzgK7dnGI",
@@ -41340,11 +41769,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-yejin",
+      "kim-hyerim",
+      "lee-jeonghee",
+      "lee-garam",
+      "park-hyunmin"
+    ],
     "published_date": "2025-07-14",
     "content_type": "short",
     "view_count": 141352,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "kOzHRFIDUVY",
@@ -41554,12 +41991,22 @@
   {
     "youtube_id": "9F89_dtfW_w",
     "title": "못된(?) 녀석들의 등장!!👊 #wicked #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-hyunjin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-07-14",
     "content_type": "short",
     "view_count": 294139,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "B0c2A_3emvU",
@@ -41567,11 +42014,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-hyunjin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-07-13",
     "content_type": "short",
     "view_count": 70751,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "ivvKt_x1y54",
@@ -41579,11 +42034,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-hyunjin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-07-13",
     "content_type": "short",
     "view_count": 67848,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "xbQZeEYYSvE",
@@ -41591,11 +42054,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "kim-nakyeong",
+      "jeong-hyunjin",
+      "park-seongmin",
+      "kim-mingi"
+    ],
     "published_date": "2025-07-13",
     "content_type": "short",
     "view_count": 80370,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "5lnUQb7gKpk",
@@ -43534,7 +44005,9 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2025-06-30",
     "content_type": "short",
     "view_count": 126170,
@@ -47017,11 +47490,24 @@
     "covered_group": [
       "Lah Pat"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kim-hyerim",
+      "park-seongmin",
+      "jeong-yoojin",
+      "lim-donghun",
+      "jang-sein",
+      "hwang-jiho",
+      "ha-seyoung",
+      "park-hyunmin",
+      "ji-ayeong"
+    ],
     "published_date": "2025-05-18",
     "content_type": "short",
     "view_count": 408257,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Ve1Zxd3zleQ",
@@ -47029,11 +47515,24 @@
     "covered_group": [
       "Lah Pat"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kim-hyerim",
+      "park-seongmin",
+      "jeong-yoojin",
+      "lim-donghun",
+      "jang-sein",
+      "hwang-jiho",
+      "ha-seyoung",
+      "park-hyunmin",
+      "ji-ayeong"
+    ],
     "published_date": "2025-05-18",
     "content_type": "short",
     "view_count": 305022,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "gA3aa87SpMQ",
@@ -47041,11 +47540,24 @@
     "covered_group": [
       "Lah Pat"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-youngjin",
+      "kim-hyerim",
+      "park-seongmin",
+      "jeong-yoojin",
+      "lim-donghun",
+      "jang-sein",
+      "hwang-jiho",
+      "ha-seyoung",
+      "park-hyunmin",
+      "ji-ayeong"
+    ],
     "published_date": "2025-05-18",
     "content_type": "short",
     "view_count": 268887,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "0WzXko7auaA",
@@ -51343,11 +51855,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-23",
     "content_type": "short",
     "view_count": 603876,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "XZBEmfj9lIc",
@@ -51355,11 +51875,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-23",
     "content_type": "short",
     "view_count": 316631,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "10zNkHoV9ac",
@@ -51367,11 +51895,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-23",
     "content_type": "short",
     "view_count": 1233740,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "zzHG9MDGMsM",
@@ -52370,8 +52906,7 @@
     "youtube_id": "Z5XIufuX6d0",
     "title": "#대현 'NCT WISH - WISH' Dance Cover #Daehyeon",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -52384,62 +52919,82 @@
   {
     "youtube_id": "TQyeWcVXc7Q",
     "title": "HOT걸 맞춤곡🔥🔥 #hot #세영 #Seyoung",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "ha-seyoung"
     ],
     "published_date": "2025-04-03",
     "content_type": "short",
     "view_count": 163264,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "TJfhMVkrRy4",
     "title": "얼굴 보느라 30초 후딱 감 #hot #하은 #Haeun",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2025-04-03",
     "content_type": "short",
     "view_count": 126847,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "qIPPCVIXDcE",
     "title": "귀여운 얼굴에 그렇지 못한 춤선 🫢 #hot #현진 #Hyunjin",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "jeong-hyunjin"
     ],
     "published_date": "2025-04-03",
     "content_type": "short",
     "view_count": 210967,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "wcarLnZQV5k",
     "title": "요즘은 여우도 춤추는 세상🦊 #hot #유화 #Yuwha",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "jeong-yoojin"
     ],
     "published_date": "2025-04-03",
     "content_type": "short",
     "view_count": 80784,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "2pAjJ8Fj16Y",
     "title": "인트로 여신 등장 #hot #가은 #Gaeun",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
     "published_date": "2025-04-03",
     "content_type": "short",
     "view_count": 783843,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "8Ds9AMeqhCw",
@@ -52491,12 +53046,22 @@
   {
     "youtube_id": "Lj_ej5Uux40",
     "title": "드레스 입고 멋지게(?) 퇴장하는 법 😎 #hot #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-02",
     "content_type": "short",
     "view_count": 234737,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "NuASpKPMbYQ",
@@ -52504,11 +53069,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-01",
     "content_type": "short",
     "view_count": 121382,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "KruslOZROXw",
@@ -52516,11 +53089,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-01",
     "content_type": "short",
     "view_count": 198030,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "oJtKR78WvVk",
@@ -52528,11 +53109,19 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "jeong-yoojin",
+      "yun-haeun",
+      "ha-seyoung",
+      "jeong-hyunjin"
+    ],
     "published_date": "2025-04-01",
     "content_type": "short",
     "view_count": 262370,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "nZndzccF9w0",
@@ -59142,7 +59731,9 @@
   {
     "youtube_id": "L7IzQJTNhNg",
     "title": "각성해버린 06, 07년생의 커플 댄스.. 근데 마지막에 어머🤭 #RODEO #결경 #윤수 #ARTBEAT #DanceBattle #Gyeolgyeong #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "Lah Pat"
+    ],
     "tagged_members": [
       "chae-yunsu",
       "jeong-gyeolgyeong"
@@ -59150,7 +59741,10 @@
     "published_date": "2025-01-27",
     "content_type": "short",
     "view_count": 1753544,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18",
+      "K-POP DANCE BATTLE::AB vs ONESHOT"
+    ]
   },
   {
     "youtube_id": "s4Wm9-pFqnQ",
@@ -59592,42 +60186,102 @@
   {
     "youtube_id": "Zm-7nLJHYc4",
     "title": "[full Shorts] 'RODEO' | Dance Cover #BADALEE #BATA Choreography",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Lah Pat"
+    ],
+    "tagged_members": [
+      "park-hyunmin",
+      "hwang-jiho",
+      "kim-youngjin",
+      "lim-donghun",
+      "park-seongmin",
+      "kim-hyerim",
+      "ha-seyoung",
+      "ji-ayeong",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 67632,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "XvxxDx1sXug",
     "title": "길쭉한 기럭지들의 멋진 엔딩 💃🕺 #RODEO #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Lah Pat"
+    ],
+    "tagged_members": [
+      "park-hyunmin",
+      "hwang-jiho",
+      "kim-youngjin",
+      "lim-donghun",
+      "park-seongmin",
+      "kim-hyerim",
+      "ha-seyoung",
+      "ji-ayeong",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 161875,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "t2FoUQpNTDE",
     "title": "다섯 커플 중 당신의 선택은!? #RODEO #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Lah Pat"
+    ],
+    "tagged_members": [
+      "park-hyunmin",
+      "hwang-jiho",
+      "kim-youngjin",
+      "lim-donghun",
+      "park-seongmin",
+      "kim-hyerim",
+      "ha-seyoung",
+      "ji-ayeong",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 2692128,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "7dFuN9XmU2k",
     "title": "와.. 이 조합 미쳤다!! 🫢 #RODEO #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Lah Pat"
+    ],
+    "tagged_members": [
+      "park-hyunmin",
+      "hwang-jiho",
+      "kim-youngjin",
+      "lim-donghun",
+      "park-seongmin",
+      "kim-hyerim",
+      "ha-seyoung",
+      "ji-ayeong",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 582476,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "IdNsHFs9Xzc",
