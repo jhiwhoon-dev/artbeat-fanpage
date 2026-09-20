@@ -7325,12 +7325,23 @@
   {
     "youtube_id": "LS23HBI98i8",
     "title": "슈허아 마지막에 터지는 맛이지~ #SUGARHONEYICETEA #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "yun-haeun",
+      "lee-yoonjae",
+      "jang-sein",
+      "kim-chan",
+      "aoki-yuka",
+      "lee-wina"
+    ],
     "published_date": "2026-07-22",
     "content_type": "short",
     "view_count": 51340,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S23"
+    ]
   },
   {
     "youtube_id": "SrqEPhqG208",
@@ -7340,11 +7351,11 @@
     ],
     "tagged_members": [
       "yun-haeun",
-      "jang-sein",
-      "lee-wina",
       "lee-yoonjae",
+      "jang-sein",
       "kim-chan",
-      "aoki-yuka"
+      "aoki-yuka",
+      "lee-wina"
     ],
     "published_date": "2026-07-22",
     "content_type": "short",
@@ -7361,11 +7372,11 @@
     ],
     "tagged_members": [
       "yun-haeun",
-      "jang-sein",
-      "lee-wina",
       "lee-yoonjae",
+      "jang-sein",
       "kim-chan",
-      "aoki-yuka"
+      "aoki-yuka",
+      "lee-wina"
     ],
     "published_date": "2026-07-22",
     "content_type": "short",
@@ -7382,11 +7393,43 @@
     ],
     "tagged_members": [
       "yun-haeun",
-      "jang-sein",
-      "lee-wina",
       "lee-yoonjae",
+      "jang-sein",
       "kim-chan",
-      "aoki-yuka"
+      "aoki-yuka",
+      "lee-wina"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아현"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "루카"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "아사"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "치키타"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "로라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
+      }
     ],
     "published_date": "2026-07-21",
     "content_type": "video",
@@ -10236,6 +10279,38 @@
       "do-hyeonsung",
       "lee-wina"
     ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
+    ],
     "published_date": "2026-05-26",
     "content_type": "video",
     "view_count": 30676,
@@ -11123,22 +11198,48 @@
   {
     "youtube_id": "o27jcmCUrTo",
     "title": "중간에 괴성과 현타 온 멤버들의 대환장 콜라보🤣 #귀엽기만하면안되나요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CUTIE STREET"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "lee-wina",
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "lee-yejin",
+      "jeong-yoojin",
+      "jeong-hyunjin"
+    ],
     "published_date": "2026-05-19",
     "content_type": "short",
     "view_count": 71239,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "Mhc1F9XnKoY",
     "title": "이정도면 즐기는 같은데?ㅋㅋㅋ #귀엽기만하면안되나요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "CUTIE STREET"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "lee-wina",
+      "won-hyegyeong",
+      "kim-nakyeong",
+      "aoki-yuka",
+      "lee-yejin",
+      "jeong-yoojin",
+      "jeong-hyunjin"
+    ],
     "published_date": "2026-05-19",
     "content_type": "short",
     "view_count": 53712,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "XquhCY6T_U8",
@@ -11611,6 +11712,38 @@
       "do-hyeonsung",
       "lee-wina"
     ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
+    ],
     "published_date": "2026-05-12",
     "content_type": "video",
     "view_count": 13949,
@@ -11715,6 +11848,38 @@
       "jang-daehyeon",
       "do-hyeonsung",
       "lee-wina"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2026-05-11",
     "content_type": "video",
@@ -25643,20 +25808,21 @@
     "youtube_id": "oVBIIJWcRlo",
     "title": "헌트릭스 멤버가 5명이었다면? 사자걸즈가 되..",
     "covered_group": [
-      "HUNTR/X",
-      "Saja Boys"
+      "HUNTR/X"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "oh-yubin",
       "kim-soyeon",
       "kim-nakyeong",
+      "oh-yubin",
+      "yun-haeun",
       "lee-wina"
     ],
     "published_date": "2025-11-20",
     "content_type": "short",
     "view_count": 766017,
-    "content_series": []
+    "content_series": [
+      "행사::2025y"
+    ]
   },
   {
     "youtube_id": "uKWr0wnDjaU",
@@ -28634,11 +28800,17 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 41401,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "POJe-7H1cyo",
@@ -28646,11 +28818,17 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 41217,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "N7ummbV_vMI",
@@ -28658,11 +28836,17 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 98561,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "tuNN7wR49fw",
@@ -28755,11 +28939,28 @@
       "kang-minji",
       "lee-wina"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "HUNTR/X",
+        "covered_member": "루미"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "HUNTR/X",
+        "covered_member": "미라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "HUNTR/X",
+        "covered_member": "조이"
+      }
+    ],
     "published_date": "2025-11-02",
     "content_type": "video",
     "view_count": 329735,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -28939,32 +29140,68 @@
   {
     "youtube_id": "2ik25FrypDQ",
     "title": "그냥 연습해 본 대로만 해볼게!!✌️ #처음불러보는노래 #ARTBEAT #버스킹",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KickFlip"
+    ],
+    "tagged_members": [
+      "kim-daehan",
+      "lee-wina",
+      "won-seoa",
+      "yang-hwanhee",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "kim-nakyeong"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 27260,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "5k_29RJFzz4",
     "title": "마리오+닌자+귀살대+스파이더맨까지.. 세계관 대통합!? #처음불러보는노래 #ARTBEAT #버스킹",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KickFlip"
+    ],
+    "tagged_members": [
+      "kim-daehan",
+      "lee-wina",
+      "won-seoa",
+      "yang-hwanhee",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "kim-nakyeong"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 27641,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "yfCSNWa_tC4",
     "title": "멋있는 춤 보여주란 마리오🍄 #처음불러보는노래 #ARTBEAT #버스킹",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KickFlip"
+    ],
+    "tagged_members": [
+      "kim-daehan",
+      "lee-wina",
+      "won-seoa",
+      "yang-hwanhee",
+      "jeong-hyeonchang",
+      "do-hyeonsung",
+      "kim-nakyeong"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 23591,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "u-pW9Y8Bz-s",
@@ -28994,18 +29231,55 @@
     ],
     "tagged_members": [
       "kim-daehan",
-      "do-hyeonsung",
+      "lee-wina",
+      "won-seoa",
       "yang-hwanhee",
       "jeong-hyeonchang",
-      "won-seoa",
-      "kim-nakyeong",
-      "lee-wina"
+      "do-hyeonsung",
+      "kim-nakyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "KickFlip",
+        "covered_member": "계훈"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "KickFlip",
+        "covered_member": "아마루"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "KickFlip",
+        "covered_member": "동화"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "KickFlip",
+        "covered_member": "주왕"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "KickFlip",
+        "covered_member": "민제"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "KickFlip",
+        "covered_member": "케이주"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "KickFlip",
+        "covered_member": "동현"
+      }
     ],
     "published_date": "2025-11-01",
     "content_type": "video",
     "view_count": 45285,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -29014,11 +29288,19 @@
     "covered_group": [
       "KiiiKiii"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "oh-yubin",
+      "lee-wina",
+      "aoki-yuka",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 33522,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Z4-ruMduArs",
@@ -29026,11 +29308,19 @@
     "covered_group": [
       "KiiiKiii"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "oh-yubin",
+      "lee-wina",
+      "aoki-yuka",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 27257,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "fQTj2OYJuYg",
@@ -29038,11 +29328,19 @@
     "covered_group": [
       "KiiiKiii"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "oh-yubin",
+      "lee-wina",
+      "aoki-yuka",
+      "lee-gaeun"
+    ],
     "published_date": "2025-11-01",
     "content_type": "short",
     "view_count": 27667,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Lm1-zys6We0",
@@ -32303,11 +32601,17 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
     "published_date": "2025-10-07",
     "content_type": "short",
     "view_count": 118805,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "jDICNJQMHbY",
@@ -32315,11 +32619,17 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
     "published_date": "2025-10-07",
     "content_type": "short",
     "view_count": 61183,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "4uqdW_-e53E",
@@ -32327,28 +32637,52 @@
     "covered_group": [
       "HUNTR/X"
     ],
-    "tagged_members": [],
-    "published_date": "2025-10-07",
-    "content_type": "short",
-    "view_count": 129745,
-    "content_series": []
-  },
-  {
-    "youtube_id": "b5iVHS0lHiQ",
-    "title": "[여기서요?] 헌트릭스 HUNTR/X - GOLDEN | 커버댄스 Dance Cover @홍대",
-    "covered_group": [
-      "HUNTR/X",
-      "izna"
-    ],
     "tagged_members": [
       "kim-soyeon",
       "kang-minji",
       "lee-wina"
     ],
     "published_date": "2025-10-07",
+    "content_type": "short",
+    "view_count": 129745,
+    "content_series": [
+      "여기서요?::2025y"
+    ]
+  },
+  {
+    "youtube_id": "b5iVHS0lHiQ",
+    "title": "[여기서요?] 헌트릭스 HUNTR/X - GOLDEN | 커버댄스 Dance Cover @홍대",
+    "covered_group": [
+      "HUNTR/X"
+    ],
+    "tagged_members": [
+      "kim-soyeon",
+      "kang-minji",
+      "lee-wina"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "HUNTR/X",
+        "covered_member": "루미"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "HUNTR/X",
+        "covered_member": "미라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "HUNTR/X",
+        "covered_member": "조이"
+      }
+    ],
+    "published_date": "2025-10-07",
     "content_type": "video",
     "view_count": 7954095,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "fNzWq7-uxvs",
@@ -32442,18 +32776,37 @@
     "youtube_id": "jptWNCoISkU",
     "title": "[AB in 케데헌] 헌트릭스 HUNTR/X - GOLDEN | 커버 댄스 Dance Cover | K-POP Demon Hunters",
     "covered_group": [
-      "HUNTR/X",
-      "izna"
+      "HUNTR/X"
     ],
     "tagged_members": [
       "kim-soyeon",
       "kang-minji",
       "lee-wina"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "HUNTR/X",
+        "covered_member": "루미"
+      },
+      {
+        "member_id": "kang-minji",
+        "covered_group": "HUNTR/X",
+        "covered_member": "미라"
+      },
+      {
+        "member_id": "lee-wina",
+        "covered_group": "HUNTR/X",
+        "covered_member": "조이"
+      }
+    ],
     "published_date": "2025-10-05",
     "content_type": "video",
     "view_count": 1447745,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2025y",
+      "Dance Cover MV::Years::2025y"
+    ]
   },
   {
     "youtube_id": "f_PGFTUlN58",
@@ -43697,7 +44050,8 @@
     "title": "👑 imma be ⭐️🐝⭐️ 힙한 것도 잘 어울리네??  #ABCC #찬 #위나 #Chan #Wina #황금쇼츠 #Goldenshorts",
     "covered_group": [],
     "tagged_members": [
-      "lee-wina"
+      "lee-wina",
+      "kim-chan"
     ],
     "published_date": "2025-06-22",
     "content_type": "short",
@@ -45099,6 +45453,7 @@
     "covered_group": [],
     "tagged_members": [
       "lee-wina",
+      "aoki-yuka",
       "won-hyegyeong"
     ],
     "published_date": "2025-06-05",
