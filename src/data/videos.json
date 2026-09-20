@@ -13968,40 +13968,55 @@
     "youtube_id": "yw-b0XNP1R8",
     "title": "이 파트도 왜 이렇게 좋지? #donottouch #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "MISAMO",
-      "TWICE"
+      "TWICE::MISAMO"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kim-soyeon",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-15",
     "content_type": "short",
     "view_count": 27003,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "6pm4WzXPVuY",
     "title": "여기에 누구를 닮은 사람들이 있다고 해서 왔습니다만👀 #donottouch #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "MISAMO",
-      "TWICE"
+      "TWICE::MISAMO"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kim-soyeon",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-15",
     "content_type": "short",
     "view_count": 33782,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "fLTf5fkIzJk",
     "title": "세 명의 등장으로 갑자기 신성한 분위기가 되🫢 #donottouch #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "MISAMO",
-      "TWICE"
+      "TWICE::MISAMO"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "kim-soyeon",
+      "kim-nakyeong"
+    ],
     "published_date": "2026-04-15",
     "content_type": "short",
     "view_count": 24198,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "grSt3VFJxPM",
@@ -14021,18 +14036,36 @@
     "youtube_id": "5YmZ5VaZ6GI",
     "title": "[방구석 여기서요?] 미사모 MISAMO - Do not touch | 커버댄스 Dance Cover",
     "covered_group": [
-      "MISAMO",
-      "TWICE"
+      "TWICE::MISAMO"
     ],
     "tagged_members": [
       "jang-sein",
       "kim-soyeon",
       "kim-nakyeong"
     ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "TWICE::MISAMO",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "TWICE::MISAMO",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "TWICE::MISAMO",
+        "covered_member": "모모"
+      }
+    ],
     "published_date": "2026-04-15",
     "content_type": "video",
     "view_count": 88947,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "VzPGCPY0k1Q",
@@ -16392,7 +16425,8 @@
     "tagged_members": [
       "do-hyeonsung",
       "won-seoa",
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2026-03-11",
     "content_type": "video",
@@ -18691,14 +18725,14 @@
     "title": "\"진짜 여기가 우승후보들의 무덤(?)인걸까..?\" [👑 ABCC 8강 진출전 (2/2) ]",
     "covered_group": [],
     "tagged_members": [
+      "jeong-hyeonchang",
+      "cho-gyuso",
+      "kang-yejin",
       "kim-youngjin",
       "park-seongmin",
-      "cho-gyuso",
-      "jeong-hyeonchang",
       "yun-haeun",
-      "kang-yejin",
-      "kim-nakyeong",
-      "lee-yejin"
+      "jeong-yoojin",
+      "kim-nakyeong"
     ],
     "published_date": "2026-02-06",
     "content_type": "video",
@@ -23155,11 +23189,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kim-nakyeong",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-hojun",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-11",
     "content_type": "short",
     "view_count": 36467,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "VMD2ofx7bPQ",
@@ -23167,11 +23210,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kim-nakyeong",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-hojun",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-11",
     "content_type": "short",
     "view_count": 35316,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "yBZHgRf_zzw",
@@ -23179,11 +23231,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kim-nakyeong",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-hojun",
+      "lee-yejin"
+    ],
     "published_date": "2025-12-11",
     "content_type": "short",
     "view_count": 25633,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "sRz0F6E43lA",
@@ -23238,21 +23299,53 @@
     "youtube_id": "X_a1AlabWKQ",
     "title": "[방구석 여기서요?] 투어스 TWS - Head Shoulders Knees Toes | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
-      "kim-hojun",
       "lee-garam",
-      "jang-daehyeon",
+      "kim-nakyeong",
       "won-seoa",
-      "kim-nakyeong"
+      "jang-daehyeon",
+      "kim-hojun",
+      "lee-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2025-12-11",
     "content_type": "video",
     "view_count": 147985,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -25595,16 +25688,38 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "yun-haeun",
       "oh-yubin",
-      "kim-soyeon",
-      "kim-nakyeong"
+      "yun-haeun",
+      "kim-nakyeong",
+      "kim-soyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2025-11-23",
     "content_type": "video",
     "view_count": 226941,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2025y"
     ]
   },
   {
@@ -29076,11 +29191,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 29403,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "lirLZut638A",
@@ -29088,11 +29211,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 44832,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "whztwF-_IyQ",
@@ -29100,11 +29231,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "cho-yuna",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-11-02",
     "content_type": "short",
     "view_count": 25816,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "eQWwtDLA2vU",
@@ -37683,7 +37822,8 @@
     "title": "👑 저희 안 싸웠습니다 #ABCC #유화 #나경 #Yuwha #Nakyeong #황금쇼츠 #Goldshorts",
     "covered_group": [],
     "tagged_members": [
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2025-08-30",
     "content_type": "short",
@@ -38083,11 +38223,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-08-28",
     "content_type": "short",
     "view_count": 60609,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "l3HOh_Oi09k",
@@ -38095,11 +38243,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-08-28",
     "content_type": "short",
     "view_count": 43007,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "DNA17d2mpzc",
@@ -38107,11 +38263,19 @@
     "covered_group": [
       "Saja Boys"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "kim-nakyeong",
+      "yun-haeun"
+    ],
     "published_date": "2025-08-28",
     "content_type": "short",
     "view_count": 79669,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "s5RIfdpTRbg",
@@ -38792,7 +38956,8 @@
     "title": "👑 테토녀와 에겐녀가 말아주는 커플 안무 #ABCC #유화 #나경 #Yuwha #Nakyeong",
     "covered_group": [],
     "tagged_members": [
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2025-08-17",
     "content_type": "short",
@@ -39816,11 +39981,12 @@
     "covered_group": [],
     "tagged_members": [
       "park-hyunmin",
-      "do-hyeonsung",
-      "jang-daehyeon",
       "bang-jooyeon",
+      "do-hyeonsung",
       "won-seoa",
+      "jeong-yoojin",
       "kim-nakyeong",
+      "jang-daehyeon",
       "won-hyegyeong"
     ],
     "published_date": "2025-08-01",
@@ -44690,7 +44856,8 @@
     "title": "👑 스타일 정반대인 둘이 춤을 바꾸면? 2탄 #ABCC #유화 #나경 #Yuwha #Nakyeong #황금쇼츠 #Goldenshorts",
     "covered_group": [],
     "tagged_members": [
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2025-06-21",
     "content_type": "short",
@@ -44941,7 +45108,8 @@
     "title": "👑 스타일 정반대인 둘이 춤을 바꾸면? #ABCC #유화 #나경 #Yuwha #Nakyeong #황금쇼츠 #Goldenshorts",
     "covered_group": [],
     "tagged_members": [
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2025-06-18",
     "content_type": "short",
@@ -50781,35 +50949,68 @@
     "covered_group": [
       "NCT::NCT 127"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "lee-garam",
+      "kim-youngjin",
+      "jeong-yoojin",
+      "park-hyunmin",
+      "kim-taehwan",
+      "kim-nakyeong",
+      "chae-yunsu"
+    ],
     "published_date": "2025-05-02",
     "content_type": "short",
     "view_count": 34390,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "oq8ihTj3alw",
     "title": "뭔가 나도 모르게 분위기에 압도된 것 같아😳 #ayyo #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT 127"
+      "NCT::NCT 127"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "lee-garam",
+      "kim-youngjin",
+      "jeong-yoojin",
+      "park-hyunmin",
+      "kim-taehwan",
+      "kim-nakyeong",
+      "chae-yunsu"
+    ],
     "published_date": "2025-05-02",
     "content_type": "short",
     "view_count": 37380,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "N1qXqgzWe58",
     "title": "느낌 충만한 등장은 언제나 환영이지🥳 #ayyo #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT 127"
+      "NCT::NCT 127"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "lee-garam",
+      "kim-youngjin",
+      "jeong-yoojin",
+      "park-hyunmin",
+      "kim-taehwan",
+      "kim-nakyeong",
+      "chae-yunsu"
+    ],
     "published_date": "2025-05-02",
     "content_type": "short",
     "view_count": 29778,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "pJPfLu4wTQ4",
@@ -50851,23 +51052,65 @@
     "youtube_id": "lPKq1zlFCXo",
     "title": "[방구석 여기서요?] 엔시티 127 NCT 127 - Ay-Yo | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "park-hyunmin",
-      "kim-youngjin",
-      "chae-yunsu",
-      "lee-garam",
       "kim-hyerim",
-      "kim-nakyeong"
+      "lee-garam",
+      "kim-youngjin",
+      "jeong-yoojin",
+      "park-hyunmin",
+      "kim-taehwan",
+      "kim-nakyeong",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      }
     ],
     "published_date": "2025-05-02",
     "content_type": "video",
     "view_count": 206154,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S19"
     ]
   },
   {
@@ -53321,7 +53564,8 @@
       "KiiiKiii"
     ],
     "tagged_members": [
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "jeong-yoojin"
     ],
     "published_date": "2025-04-01",
     "content_type": "short",
@@ -58304,11 +58548,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2025-02-09",
     "content_type": "short",
     "view_count": 33039,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "4Uj6EXyoTio",
@@ -58316,11 +58570,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2025-02-09",
     "content_type": "short",
     "view_count": 29546,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "QMp9s3pZ5b8",
@@ -58328,11 +58592,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "hwang-jiho",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2025-02-09",
     "content_type": "short",
     "view_count": 34617,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "_c__zCgJHYQ",
@@ -58348,6 +58622,43 @@
       "park-seongmin",
       "kim-nakyeong",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "yang-hyeju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2025-02-09",
     "content_type": "video",
@@ -61007,7 +61318,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 87806,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "NhtxGOH9_Pc",
@@ -61021,7 +61334,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 46925,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "ddxBaZ4tp-U",
@@ -61035,7 +61350,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 47629,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "tFz5EY6XMuA",
@@ -61049,7 +61366,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 29627,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "uV_F27M59c4",
@@ -61063,7 +61382,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 32230,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "9PYEcgi-rv8",
@@ -61077,7 +61398,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 21722,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "R8fB1iJ2efE",
@@ -61091,7 +61414,9 @@
     "published_date": "2024-12-28",
     "content_type": "short",
     "view_count": 237484,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "DubgTzQDEoU",
@@ -61706,11 +62031,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kim-taehwan",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2024-12-13",
     "content_type": "short",
     "view_count": 48264,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "MxbmzNsfPKU",
@@ -61718,11 +62053,21 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "kim-taehwan",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2024-12-13",
     "content_type": "short",
     "view_count": 29259,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "zTt_ctsXfPA",
@@ -61860,7 +62205,9 @@
   {
     "youtube_id": "yZkMZ7OdOIk",
     "title": "#가람 #오디션중 'X1 - FLASH' Dance Cover #Garam",
-    "covered_group": [],
+    "covered_group": [
+      "X1"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
@@ -61874,12 +62221,24 @@
   {
     "youtube_id": "_ZeegNE9nkw",
     "title": "요즘 직장인들 스트레스 푸는 법 #NoDoubt #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ENHYPEN"
+    ],
+    "tagged_members": [
+      "lee-garam",
+      "kim-taehwan",
+      "yang-hyeju",
+      "kang-taehyun",
+      "park-seongmin",
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
     "published_date": "2024-12-11",
     "content_type": "short",
     "view_count": 140625,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "T09VOkUmk_k",
@@ -61902,18 +62261,56 @@
       "ENHYPEN"
     ],
     "tagged_members": [
+      "lee-garam",
       "kim-taehwan",
+      "yang-hyeju",
       "kang-taehyun",
       "park-seongmin",
-      "lee-garam",
-      "kim-hyerim",
-      "kim-nakyeong"
+      "kim-nakyeong",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "yang-hyeju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2024-12-10",
     "content_type": "video",
     "view_count": 510766,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
