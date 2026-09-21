@@ -119,8 +119,20 @@ function nameCandidates(member) {
     return [member.nickname];
   }
   const candidates = [member.name];
-  if (member.name.length > 2) {
+  if (member.name.includes(' ')) {
+    // "아오키 유카"처럼 공백으로 성/이름이 나뉜 외국인 멤버 이름 — 마지막 단어(이름 부분)를 후보로 추가.
+    // 한국 이름용 slice(1)("성 1글자만 자르기")은 이런 이름엔 안 맞아서 따로 처리함.
+    const parts = member.name.split(' ').filter(Boolean);
+    if (parts.length > 1) candidates.push(parts[parts.length - 1]);
+  } else if (member.name.length > 2) {
     candidates.push(member.name.slice(1));
+  }
+  // 영문 이름(name_en)이 있으면, 제목에 "yuka"처럼 로마자로만 쓰인 경우도 잡을 수 있게 마지막 단어를 후보로 추가
+  if (member.name_en && member.name_en.includes(' ')) {
+    const enParts = member.name_en.split(' ').filter(Boolean);
+    if (enParts.length > 1) candidates.push(enParts[enParts.length - 1]);
+  } else if (member.name_en) {
+    candidates.push(member.name_en);
   }
   return candidates;
 }
@@ -129,9 +141,10 @@ function nameCandidates(member) {
 // 주의: 원곡 아이돌 멤버 실명이 우연히 우리 멤버 이름과 같으면 오탐 가능 (검수 필요)
 function suggestTaggedMembers(text) {
   const found = [];
+  const lowerText = text.toLowerCase(); // 영문 후보(name_en) 매칭용 — 한글엔 영향 없음
   for (const m of members) {
     if (!m.name) continue;
-    if (nameCandidates(m).some((c) => text.includes(c))) {
+    if (nameCandidates(m).some((c) => lowerText.includes(c.toLowerCase()))) {
       found.push(m.id);
     }
   }

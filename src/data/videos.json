@@ -4672,6 +4672,38 @@
       "won-seoa",
       "kang-yejin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
+    ],
     "published_date": "2026-08-09",
     "content_type": "video",
     "view_count": 53562,
@@ -5961,6 +5993,38 @@
       "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2026-08-02",
     "content_type": "video",
@@ -8438,10 +8502,10 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "hwang-jiho",
-      "kang-taehyun",
       "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyun",
+      "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
     ],
@@ -8459,12 +8523,44 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "hwang-jiho",
-      "kang-taehyun",
       "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyun",
+      "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2026-06-30",
     "content_type": "video",
@@ -8480,10 +8576,10 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "hwang-jiho",
-      "kang-taehyun",
       "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyun",
+      "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
     ],
@@ -8501,10 +8597,10 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "hwang-jiho",
-      "kang-taehyun",
       "ahn-gihyun",
+      "kim-jeongseo",
+      "kang-taehyun",
+      "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
     ],
@@ -8528,6 +8624,38 @@
       "hwang-jiho",
       "park-seongmin",
       "jang-daehyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2026-06-29",
     "content_type": "video",
@@ -9380,7 +9508,7 @@
     "content_type": "video",
     "view_count": 65977,
     "content_series": [
-      "여기서요?::2026ㅛ"
+      "여기서요?::2026y"
     ]
   },
   {
@@ -11349,6 +11477,38 @@
       "won-seoa",
       "kang-yejin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
+    ],
     "published_date": "2026-05-21",
     "content_type": "video",
     "view_count": 38976,
@@ -12390,9 +12550,6 @@
     "view_count": 208202,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "kim-hojun"
     ]
   },
   {
@@ -12425,9 +12582,6 @@
     "view_count": 92554,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "kim-nakyeong"
     ]
   },
   {
@@ -12444,9 +12598,6 @@
     "view_count": 62332,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "won-hyegyeong"
     ]
   },
   {
@@ -12463,8 +12614,7 @@
     "view_count": 127971,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": []
+    ]
   },
   {
     "youtube_id": "uwpZazR1H0M",
@@ -13857,7 +14007,9 @@
   {
     "youtube_id": "uxXnTb2M2RU",
     "title": "#금률 #대현 'AHOF - 피노키오는 거짓말을 싫어해' Dance Cover #Geumryul #Daehyeon",
-    "covered_group": [],
+    "covered_group": [
+      "AHOF"
+    ],
     "tagged_members": [
       "hwang-geumryul",
       "jang-daehyeon"
@@ -14875,11 +15027,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyun",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-chan",
+      "yun-haeun"
+    ],
     "published_date": "2026-04-13",
     "content_type": "short",
     "view_count": 35015,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "JYXTQoW_-nA",
@@ -14887,11 +15048,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyun",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-chan",
+      "yun-haeun"
+    ],
     "published_date": "2026-04-13",
     "content_type": "short",
     "view_count": 27800,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "cfLUhi8MLg8",
@@ -14899,11 +15069,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "do-hyeonsung",
+      "kang-taehyun",
+      "won-seoa",
+      "jang-daehyeon",
+      "kim-chan",
+      "yun-haeun"
+    ],
     "published_date": "2026-04-13",
     "content_type": "short",
     "view_count": 17704,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "kLYUwmu-ztY",
@@ -14912,16 +15091,51 @@
       "투어스"
     ],
     "tagged_members": [
-      "kang-taehyun",
       "do-hyeonsung",
+      "kang-taehyun",
+      "won-seoa",
       "jang-daehyeon",
-      "yun-haeun",
-      "won-seoa"
+      "kim-chan",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2026-04-13",
     "content_type": "video",
     "view_count": 81999,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "EvC6mU9ERF0",
@@ -20458,7 +20672,7 @@
     "youtube_id": "tOrD5ybQfoE",
     "title": "#대현 'ALPHA DRIVE ONE - FREAK ALARM' Dance Cover #Daehyeon",
     "covered_group": [
-      "IVE"
+      "ALPHA DRIVE ONE"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -27111,8 +27325,7 @@
     "youtube_id": "lytHtFN60mc",
     "title": "#대현 'NCT WISH - Videohood' Dance Cover #Daehyeon",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -39754,7 +39967,7 @@
     "youtube_id": "fiFDTdfSE80",
     "title": "#대현 'NCT DREAM - CHILLER' Dance Cover #Dahyeon",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "jang-daehyeon"
@@ -49649,7 +49862,9 @@
   {
     "youtube_id": "7QY2VqzYlyE",
     "title": "#대현 'NEXZ - O-RLY?' Dance Cover #Dahyeon",
-    "covered_group": [],
+    "covered_group": [
+      "NEXZ"
+    ],
     "tagged_members": [
       "jang-daehyeon"
     ],
@@ -57651,8 +57866,7 @@
     "youtube_id": "0uGsd4Hf1_w",
     "title": "#동훈 #대현 '호시X우지 (SEVENTEEN) - 동갑내기' Dance Cover #Donghun #Daehyeon",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::호시 × 우지"
     ],
     "tagged_members": [
       "lim-donghun",
