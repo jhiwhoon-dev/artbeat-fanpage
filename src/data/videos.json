@@ -4856,32 +4856,32 @@
       {
         "member_id": "jeong-hyeonchang",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "신유"
       },
       {
         "member_id": "cho-gyuso",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "도훈"
       },
       {
         "member_id": "won-seoa",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "영재"
       },
       {
         "member_id": "jang-daehyeon",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "한진"
       },
       {
         "member_id": "lee-garam",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "지훈"
       },
       {
         "member_id": "lee-yejin",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "경민"
       }
     ],
     "published_date": "2026-08-07",
@@ -5422,6 +5422,38 @@
       "yang-hwanhee",
       "cho-gyuso",
       "ahn-gihyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2026-08-04",
     "content_type": "video",
@@ -9263,32 +9295,32 @@
       {
         "member_id": "jeong-hyeonchang",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "신유"
       },
       {
         "member_id": "cho-gyuso",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "도훈"
       },
       {
         "member_id": "won-seoa",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "영재"
       },
       {
         "member_id": "jang-daehyeon",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "한진"
       },
       {
         "member_id": "lee-garam",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "지훈"
       },
       {
         "member_id": "lee-yejin",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "경민"
       }
     ],
     "published_date": "2026-06-11",
@@ -9316,32 +9348,32 @@
       {
         "member_id": "jeong-hyeonchang",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "신유"
       },
       {
         "member_id": "cho-gyuso",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "도훈"
       },
       {
         "member_id": "won-seoa",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "영재"
       },
       {
         "member_id": "jang-daehyeon",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "한진"
       },
       {
         "member_id": "lee-garam",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "지훈"
       },
       {
         "member_id": "lee-yejin",
         "covered_group": "투어스",
-        "covered_member": "투어스"
+        "covered_member": "경민"
       }
     ],
     "published_date": "2026-06-10",
@@ -13973,11 +14005,38 @@
       "EXO"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "lee-garam",
       "chae-yunsu",
       "yang-hwanhee",
-      "lee-garam",
+      "kim-hojun",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "EXO",
+        "covered_member": "세훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "EXO",
+        "covered_member": "디오"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "EXO",
+        "covered_member": "수호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "EXO",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "EXO",
+        "covered_member": "찬열"
+      }
     ],
     "published_date": "2026-04-19",
     "content_type": "video",
@@ -18838,7 +18897,18 @@
     "youtube_id": "7hD1l--W5Cc",
     "title": "'부자 vs 떡국 vs 행복' 딱 하나만 골라봐 🌸 #ARTBEAT #아트비트",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "ha-seyoung",
+      "jung-siyun",
+      "oh-yubin",
+      "jeong-yoojin",
+      "cho-yuna",
+      "lee-yoonjae",
+      "kang-yejin",
+      "baek-jina",
+      "kim-chan"
+    ],
     "published_date": "2026-02-18",
     "content_type": "short",
     "view_count": 103188,
@@ -18850,11 +18920,23 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "kim-hojun"
+    ],
     "published_date": "2026-02-17",
     "content_type": "short",
     "view_count": 41351,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "kWkJZDzZ9xI",
@@ -18862,11 +18944,23 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "kim-hojun"
+    ],
     "published_date": "2026-02-17",
     "content_type": "short",
     "view_count": 34281,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "5CPB0yZxM2s",
@@ -18874,11 +18968,23 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-garam",
+      "cho-gyuso",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "hwang-jiho",
+      "yang-hwanhee",
+      "do-hyeonsung",
+      "jeong-hyeonchang",
+      "kim-hojun"
+    ],
     "published_date": "2026-02-17",
     "content_type": "short",
     "view_count": 37227,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2026y"
+    ]
   },
   {
     "youtube_id": "JXy9CfbgYLs",
@@ -22211,9 +22317,7 @@
     "published_date": "2025-12-23",
     "content_type": "short",
     "view_count": 238959,
-    "content_series": [
-      "방구석 여기서요?::S21"
-    ]
+    "content_series": []
   },
   {
     "youtube_id": "2F1G-D1ivbw",
@@ -26433,11 +26537,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-gyeolgyeong",
+      "jeong-hyunjin",
+      "cho-gyuso",
+      "hwang-jiho"
+    ],
     "published_date": "2025-12-03",
     "content_type": "short",
     "view_count": 299413,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "jE4gzV9CPu4",
@@ -26445,11 +26557,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-gyeolgyeong",
+      "jeong-hyunjin",
+      "cho-gyuso",
+      "hwang-jiho"
+    ],
     "published_date": "2025-12-03",
     "content_type": "short",
     "view_count": 259108,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "C4lYHKnhDK0",
@@ -26457,11 +26577,19 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeong-gyeolgyeong",
+      "jeong-hyunjin",
+      "cho-gyuso",
+      "hwang-jiho"
+    ],
     "published_date": "2025-12-03",
     "content_type": "short",
     "view_count": 52805,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S21"
+    ]
   },
   {
     "youtube_id": "Ie01zQpONAs",
@@ -26470,19 +26598,44 @@
       "ALLDAY PROJECT"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "cho-gyuso",
-      "shim-jiho",
       "ha-seyoung",
       "jeong-gyeolgyeong",
-      "jeong-hyunjin"
+      "jeong-hyunjin",
+      "cho-gyuso",
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
     ],
     "published_date": "2025-12-03",
     "content_type": "video",
     "view_count": 404120,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S21"
     ]
   },
   {
@@ -27647,7 +27800,9 @@
   {
     "youtube_id": "9S4AECgNfSw",
     "title": "1년 만에 다시 춰보는 BOOM💣 #대현 #현창 #가람 #규소 #Daehyeon #Hyeonchang #Garam #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
     "tagged_members": [
       "lee-garam",
       "cho-gyuso",
@@ -30405,7 +30560,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 32060,
@@ -30419,7 +30581,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 21143,
@@ -30433,7 +30602,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-11-03",
     "content_type": "short",
     "view_count": 21160,
@@ -30527,11 +30703,43 @@
     ],
     "tagged_members": [
       "chae-yunsu",
-      "do-hyeonsung",
-      "cho-gyuso",
-      "jang-daehyeon",
+      "won-seoa",
       "jeong-gyeolgyeong",
-      "won-seoa"
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2025-11-03",
     "content_type": "video",
@@ -33087,89 +33295,144 @@
   {
     "youtube_id": "JrnFvYzyIJg",
     "title": "심쿵 포인트 포착함!!📸 #color #결경 #Gyeolgyeong",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "jeong-gyeolgyeong"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 32033,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "X48Zu9FgYkA",
     "title": "시크함 속 미소 좋구요👏 #color #대현 #Daehyeon",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "jang-daehyeon"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 23947,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "taUBzl9i2SU",
     "title": "나만의 별이 어디 갔나 했더니, 여기 있었네? #color #현성 #Hyeonsung",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "do-hyeonsung"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 21173,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "3-UxEC5YKaU",
     "title": "진심으로 춤추면 생기는 일 #color #서아 #Seoa",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "won-seoa"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 20377,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "QMZZX2l6lCw",
     "title": "진정한 미소천사 등장!!😀 #color #규소 #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 22331,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "2hqL_Ae26ZY",
     "title": "난 나만의 뚜렷한 색이 있다구👊 #color #윤수 #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 11101,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "lvZjr3tNXBo",
     "title": "엔시티 위시 NCT WISH - COLOR | 연습실 Practice ver.",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "chae-yunsu",
-      "do-hyeonsung",
-      "cho-gyuso",
-      "jang-daehyeon",
+      "won-seoa",
       "jeong-gyeolgyeong",
-      "won-seoa"
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2025-10-24",
     "content_type": "video",
@@ -33181,12 +33444,23 @@
   {
     "youtube_id": "TISd8EO7ES8",
     "title": "하얀 color는 어때?😉 #color #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT WISH"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-10-24",
     "content_type": "short",
     "view_count": 15118,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "MzoIGo4zBro",
@@ -33208,11 +33482,20 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 19174,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "0ZSQeG9zf8U",
@@ -33220,11 +33503,20 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 18739,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "8sM_zfHD_dw",
@@ -33232,11 +33524,20 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-10-23",
     "content_type": "short",
     "view_count": 18607,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "S_dlLiBrwac",
@@ -33260,16 +33561,50 @@
     ],
     "tagged_members": [
       "chae-yunsu",
-      "do-hyeonsung",
-      "cho-gyuso",
-      "jang-daehyeon",
+      "won-seoa",
       "jeong-gyeolgyeong",
-      "won-seoa"
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2025-10-23",
     "content_type": "video",
     "view_count": 51291,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "4wHCVFlD__8",
@@ -35225,7 +35560,9 @@
   {
     "youtube_id": "PhY5X3Gigbg",
     "title": "#규소 '박남정 - 널 그리며' Dance Cover #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "박남정"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
@@ -35335,6 +35672,7 @@
     "covered_group": [],
     "tagged_members": [
       "lee-garam",
+      "lee-yejin",
       "cho-gyuso"
     ],
     "published_date": "2025-09-25",
@@ -36194,7 +36532,9 @@
   {
     "youtube_id": "OV7pu6I97Ko",
     "title": "'Billie Eilish - Therefore I Am' (HwanHee Choreography) Dance Cover #환희 #규소 #Hwanhee #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "bellie"
+    ],
     "tagged_members": [
       "yang-hwanhee",
       "cho-gyuso"
@@ -36270,11 +36610,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-19",
     "content_type": "short",
     "view_count": 38527,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "GVhSlJbBjyI",
@@ -36282,11 +36631,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-19",
     "content_type": "short",
     "view_count": 34643,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "snd7ZT7sQzc",
@@ -36294,11 +36652,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-19",
     "content_type": "short",
     "view_count": 24436,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "Hofv4owqIbI",
@@ -36322,18 +36689,50 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "lee-dabin",
       "kang-taehyun",
-      "do-hyeonsung",
       "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2025-09-19",
     "content_type": "video",
     "view_count": 67122,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -40171,11 +40570,21 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-mingi",
+      "hwang-jiho",
+      "kang-taehyun",
+      "kim-hojun",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-seongmin"
+    ],
     "published_date": "2025-08-27",
     "content_type": "short",
     "view_count": 43410,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "UeR8qTLFT9k",
@@ -40183,11 +40592,21 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-mingi",
+      "hwang-jiho",
+      "kang-taehyun",
+      "kim-hojun",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-seongmin"
+    ],
     "published_date": "2025-08-27",
     "content_type": "short",
     "view_count": 33484,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "L0pC2N9asZI",
@@ -40195,11 +40614,21 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-mingi",
+      "hwang-jiho",
+      "kang-taehyun",
+      "kim-hojun",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-seongmin"
+    ],
     "published_date": "2025-08-27",
     "content_type": "short",
     "view_count": 39674,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "NAsLI5OwgmQ",
@@ -40215,6 +40644,43 @@
       "cho-gyuso",
       "yang-hwanhee",
       "park-seongmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2025-08-27",
     "content_type": "video",
@@ -44673,12 +45139,44 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
+      "jang-daehyeon",
       "kang-taehyun",
-      "do-hyeonsung",
       "yang-hwanhee",
       "park-seongmin",
-      "cho-gyuso",
-      "jang-daehyeon"
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2025-07-11",
     "content_type": "video",
@@ -47328,13 +47826,18 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
       "cho-gyuso"
     ],
     "published_date": "2025-06-13",
     "content_type": "video",
     "view_count": 34080,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2025y"
     ]
   },
   {
@@ -48326,56 +48829,72 @@
   {
     "youtube_id": "Adg7ZKWYHZE",
     "title": "파트 소화력 장난 아닌데!? #ifeelgood #현성 #Hyeonsung",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
       "do-hyeonsung"
     ],
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 44492,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "gAzzblFKq8A",
     "title": "내가 이 구역의 멋쟁이😎 #ifeelgood #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 43621,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "vISJ1U_3WiY",
     "title": "이 기타 꽤나 맘에 드는군🔥 #ifeelgood #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 42794,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "jWw-uxUZmHo",
     "title": "너무 신나서 웃음이 멈추질 않아요😁 #ifeelgood #규소 #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 39705,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "qyBzTN0F2rA",
     "title": "'느좋남' 타이틀은 오늘부로 제 겁니다👍 #ifeelgood #윤수 #Yunsu",
     "covered_group": [
-      "ROSÉ"
+      "BOYNEXTDOOR"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -48383,25 +48902,31 @@
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 33923,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "rmhybp62dDY",
     "title": "날 따라 해봐요, 이렇게~~ #ifeelgood #다빈 #Dabin",
-    "covered_group": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
     "tagged_members": [
       "lee-dabin"
     ],
     "published_date": "2025-06-03",
     "content_type": "short",
     "view_count": 31758,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "F_QySRQGozI",
     "title": "누가 테토고 누가 에겐일까요?🧐 'tripleS - 깨어 (Are You Alive)' Dance Cover #성민 #하은 #Seongmin #Haeun",
     "covered_group": [
-      "IVE"
+      "tripleS"
     ],
     "tagged_members": [
       "park-seongmin",
@@ -48418,7 +48943,46 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
+    ],
     "published_date": "2025-06-02",
     "content_type": "video",
     "view_count": 24222,
@@ -48429,12 +48993,23 @@
   {
     "youtube_id": "cMkvW3ZolcI",
     "title": "누구보다 신나게~~ 누구보다 즐겁게!!👏 #ifeelgood #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-06-02",
     "content_type": "short",
     "view_count": 49942,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "CBV2I3gc0Zc",
@@ -48442,11 +49017,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-06-01",
     "content_type": "short",
     "view_count": 42018,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "EUW5tFTM-Mg",
@@ -48454,11 +49038,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-06-01",
     "content_type": "short",
     "view_count": 39252,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "W_aiCYjiBao",
@@ -48466,11 +49059,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-dabin",
+      "kang-taehyun",
+      "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
+      "cho-gyuso"
+    ],
     "published_date": "2025-06-01",
     "content_type": "short",
     "view_count": 38798,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "0Rgs5HolEEQ",
@@ -48479,16 +49081,51 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "lee-dabin",
       "kang-taehyun",
-      "do-hyeonsung",
       "yang-hwanhee",
+      "chae-yunsu",
+      "do-hyeonsung",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
     ],
     "published_date": "2025-06-01",
     "content_type": "video",
     "view_count": 268652,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "DjRPe4pHSkc",
@@ -49063,11 +49700,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "lim-donghun",
+      "jang-daehyeon",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-22",
     "content_type": "short",
     "view_count": 44444,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "aqvJi3qmb-k",
@@ -49075,11 +49721,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "lim-donghun",
+      "jang-daehyeon",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-22",
     "content_type": "short",
     "view_count": 37220,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "mbbaiYrdihs",
@@ -49087,11 +49742,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "lim-donghun",
+      "jang-daehyeon",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-22",
     "content_type": "short",
     "view_count": 37815,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "9-2GnO-G7DU",
@@ -49157,11 +49821,44 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "lim-donghun",
+      "kang-jaesin",
+      "jeong-hyeonchang",
       "park-seongmin",
-      "cho-gyuso",
+      "lim-donghun",
       "jang-daehyeon",
-      "jeong-hyeonchang"
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2025-05-22",
     "content_type": "video",
@@ -50684,11 +51381,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-15",
     "content_type": "short",
     "view_count": 44649,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "WfdI9yLXwy4",
@@ -50696,11 +51402,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-15",
     "content_type": "short",
     "view_count": 50787,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "7PbcDPZAYhM",
@@ -50708,11 +51423,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-15",
     "content_type": "short",
     "view_count": 38745,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "9SzrVea_sGw",
@@ -50790,12 +51514,44 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-youngjin",
-      "kang-taehyun",
+      "jeong-hyeonchang",
       "park-seongmin",
-      "cho-gyuso",
+      "kang-taehyun",
       "jang-daehyeon",
-      "jeong-hyeonchang"
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2025-05-15",
     "content_type": "video",
@@ -51167,74 +51923,98 @@
   {
     "youtube_id": "Puo0vOvVAK0",
     "title": "내 미소는 백만 불짜리 미소😁 #마음따라뛰는건멋지지않아 #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 38332,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "kS1vSVwOcis",
     "title": "키가 커서 춤이 더 잘 보이네요. 제 점수는요? 💯 #마음따라뛰는건멋지지않아 #현창 #Hyeonchang",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "jeong-hyeonchang"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 35798,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "6bGSMSDUloY",
     "title": "깔끔한 등장과 퇴장! 칭찬해~~👏#마음따라뛰는건멋지지않아 #대현 #Daehyeon",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "jang-daehyeon"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 28836,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "WQdTUZdTXrY",
     "title": "올블랙으로 입었지만 왠지 더 청량해 보이는 느낌?? #마음따라뛰는건멋지지않아 #성민 #Seongmin",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "park-seongmin"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 34570,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Z7e1XTUhMFM",
     "title": "사슴 같은 눈이 매력 포인트인가요?🦌 #마음따라뛰는건멋지지않아 #규소 #Gyuso",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 26399,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "0dBGCIfv0cs",
     "title": "저도 한 청량 한다구요~~👀 #마음따라뛰는건멋지지않아 #영진 #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
     "published_date": "2025-05-14",
     "content_type": "short",
     "view_count": 26947,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "kwvP4w2nkEc",
@@ -51242,7 +52022,46 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
+    ],
     "published_date": "2025-05-14",
     "content_type": "video",
     "view_count": 18456,
@@ -51256,11 +52075,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-suhwan",
+      "kim-youngjin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-taehwan",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-13",
     "content_type": "short",
     "view_count": 76747,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "QJgnWB1VMPE",
@@ -51268,11 +52096,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-suhwan",
+      "kim-youngjin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-taehwan",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-13",
     "content_type": "short",
     "view_count": 39433,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "cDnzv45lMC0",
@@ -51280,11 +52117,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-suhwan",
+      "kim-youngjin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-taehwan",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-13",
     "content_type": "short",
     "view_count": 43986,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "SFkZ-ElvvrE",
@@ -51377,17 +52223,50 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "kim-suhwan",
       "kim-youngjin",
+      "kang-jaesin",
       "lim-donghun",
+      "kim-taehwan",
       "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2025-05-13",
     "content_type": "video",
     "view_count": 156223,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2025y"
     ]
   },
   {
@@ -51565,12 +52444,23 @@
   {
     "youtube_id": "wnQngEheDR0",
     "title": "만화 속 청량한 남주들!! 근데 뒤에 충전기는 누구꺼지...❓ #마음따라뛰는건멋지지않아 #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-12",
     "content_type": "short",
     "view_count": 48891,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "ePkN1X0uJKk",
@@ -51644,11 +52534,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 34889,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "LRIMG-izzH0",
@@ -51656,11 +52555,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 32417,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "FcKWQTlY2Dc",
@@ -51668,11 +52576,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jeong-hyeonchang",
+      "park-seongmin",
+      "kang-taehyun",
+      "jang-daehyeon",
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 28201,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "F-LyIujoT8w",
@@ -51680,11 +52597,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
+      "kang-yejin",
+      "lee-gaeun"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 52174,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "ePxjg804SRA",
@@ -51692,11 +52617,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
+      "kang-yejin",
+      "lee-gaeun"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 40690,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "HYayRpYTxTk",
@@ -51704,11 +52637,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-seyoung",
+      "yun-haeun",
+      "kang-yejin",
+      "lee-gaeun"
+    ],
     "published_date": "2025-05-11",
     "content_type": "short",
     "view_count": 37486,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "FwpKcBlnAW0",
@@ -51717,17 +52658,51 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-youngjin",
-      "kang-taehyun",
+      "jeong-hyeonchang",
       "park-seongmin",
-      "cho-gyuso",
+      "kang-taehyun",
       "jang-daehyeon",
-      "jeong-hyeonchang"
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2025-05-11",
     "content_type": "video",
     "view_count": 202234,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "oo9AjvM18fE",
@@ -51949,7 +52924,15 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "kim-suhwan",
+      "kang-taehyun",
+      "kim-taehwan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-hyunmin"
+    ],
     "published_date": "2025-05-09",
     "content_type": "short",
     "view_count": 36196,
@@ -51963,7 +52946,15 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "kim-suhwan",
+      "kang-taehyun",
+      "kim-taehwan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-hyunmin"
+    ],
     "published_date": "2025-05-09",
     "content_type": "short",
     "view_count": 29704,
@@ -51977,7 +52968,15 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-jaesin",
+      "kim-suhwan",
+      "kang-taehyun",
+      "kim-taehwan",
+      "cho-gyuso",
+      "yang-hwanhee",
+      "park-hyunmin"
+    ],
     "published_date": "2025-05-09",
     "content_type": "short",
     "view_count": 32652,
@@ -52055,12 +53054,50 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "park-hyunmin",
+      "kang-jaesin",
       "kim-suhwan",
       "kang-taehyun",
+      "kim-taehwan",
+      "cho-gyuso",
       "yang-hwanhee",
-      "cho-gyuso"
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2025-05-09",
     "content_type": "video",
@@ -52397,17 +53434,52 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-youngjin",
-      "kang-taehyun",
+      "jeong-hyeonchang",
       "park-seongmin",
-      "cho-gyuso",
+      "kang-taehyun",
       "jang-daehyeon",
-      "jeong-hyeonchang"
+      "kim-youngjin",
+      "cho-gyuso"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2025-05-07",
     "content_type": "video",
     "view_count": 38540,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2025y",
+      "Dance Cover MV::Years::2025y"
+    ]
   },
   {
     "youtube_id": "3lVe2jhC9zU",
@@ -67089,6 +68161,7 @@
     ],
     "tagged_members": [
       "cho-gyuso"
+      ,"yang-hyejoo"
     ],
     "published_date": "2024-11-23",
     "content_type": "short",
@@ -68960,7 +70033,14 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-daehan",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-suhwan",
+      "cho-woohyeong"
+    ],
     "published_date": "2024-10-09",
     "content_type": "short",
     "view_count": 46876,
@@ -68974,7 +70054,14 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-daehan",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-suhwan",
+      "cho-woohyeong"
+    ],
     "published_date": "2024-10-09",
     "content_type": "short",
     "view_count": 171547,
@@ -69050,6 +70137,38 @@
       "park-seongmin",
       "kim-suhwan",
       "cho-woohyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2024-10-07",
     "content_type": "video",
@@ -71174,7 +72293,46 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kang-taehyun",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "cho-woohyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
+    ],
     "published_date": "2024-07-10",
     "content_type": "video",
     "view_count": 76001,
@@ -71188,11 +72346,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kang-taehyun",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "cho-woohyeong"
+    ],
     "published_date": "2024-07-10",
     "content_type": "short",
     "view_count": 64739,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "LJkctE6aTMw",
@@ -71200,11 +72367,20 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kang-taehyun",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "cho-woohyeong"
+    ],
     "published_date": "2024-07-10",
     "content_type": "short",
     "view_count": 104227,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "XiQzQvFnoxk",
@@ -71241,11 +72417,44 @@
       "kim-suhwan",
       "cho-woohyeong"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
+    ],
     "published_date": "2024-07-08",
     "content_type": "video",
     "view_count": 109453,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2024y"
     ]
   },
   {
