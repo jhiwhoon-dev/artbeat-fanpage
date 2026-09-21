@@ -64144,7 +64144,7 @@
     "youtube_id": "PhYjyYN1D3U",
     "title": "후반부 단체 칼군무 너무 짜릿한것✨ #ISTJ #ARTBEAT #댄스배틀 #DanceBattle",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [],
     "published_date": "2025-01-28",
@@ -73892,6 +73892,43 @@
       "won-jin",
       "lee-dabin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
+    ],
     "published_date": "2024-06-02",
     "content_type": "video",
     "view_count": 112563,
@@ -75707,7 +75744,7 @@
     "youtube_id": "3eOZIW-OaB0",
     "title": "[방구석 여기서요?] NCT DREAM - Smoothie | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -75715,12 +75752,52 @@
       "chae-yunsu",
       "kang-taehyun",
       "park-seongmin",
-      "shim-jiho"
+      "won-jin",
+      "lee-dabin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-05-10",
     "content_type": "video",
     "view_count": 168845,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "6aiJApiCfsk",
@@ -76937,34 +77014,41 @@
     "youtube_id": "zbPbZ0XkOzc",
     "title": "얼마든지 기다려도 괜찮아 #Smoothie #진 #Jin",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-jin"
+    ],
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 31651,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "RY9TSBzCbpk",
     "title": "춤선까진 바꿔서 커버하기 #Smoothie #지호 #Jiho",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 60439,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "GnSCYPbTyow",
     "title": "열심히 적응중인 신입입니다🙌🏻 #Smoothie #다빈 #Dabin",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "lee-dabin"
@@ -76972,13 +77056,16 @@
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 13599,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "Q2QM4WLCxV8",
     "title": "마지막 센터의 주인공이 나야 #Smoothie #태현 #Taehyun",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kang-taehyun"
@@ -76986,13 +77073,16 @@
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 12567,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "jYDU8bTf6Xg",
     "title": "스무디 맛있게 추는 법 #Smoothie #윤수 #Yunsu",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -77000,13 +77090,16 @@
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 10298,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "-7w-Y30NHHY",
     "title": "옷에 뭘 붙이고 하는거야😂 #Smoothie #성민 #Seongmin",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "park-seongmin"
@@ -77014,13 +77107,16 @@
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 11268,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "U5G47EyVtqQ",
     "title": "강약조절 미쳤다 #Smoothie #태환 #Taehwan",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan"
@@ -77028,7 +77124,11 @@
     "published_date": "2024-04-19",
     "content_type": "short",
     "view_count": 29158,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
+
   },
   {
     "youtube_id": "n_4kaCTgRUI",
@@ -77107,12 +77207,24 @@
   {
     "youtube_id": "qcOIM21tuP0",
     "title": "마지막에 총 맞는 사람이 범인이다🔫 #Smoothie #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kang-taehyun",
+      "park-seongmin",
+      "won-jin",
+      "lee-dabin"
+    ],
     "published_date": "2024-04-17",
     "content_type": "short",
     "view_count": 54874,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "Eu060kbBxQA",
@@ -77239,7 +77351,7 @@
     "youtube_id": "qAZZDQOX78A",
     "title": "NCT DREAM - Smoothie | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -77247,13 +77359,51 @@
       "chae-yunsu",
       "kang-taehyun",
       "park-seongmin",
-      "shim-jiho"
+      "won-jin",
+      "lee-dabin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-04-15",
     "content_type": "video",
     "view_count": 42093,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -77416,28 +77566,8 @@
   {
     "youtube_id": "zh5j6_1oFvI",
     "title": "인간 팽이가 튀어나오네ㅋㅋ #Smoothie #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
-    "published_date": "2024-04-13",
-    "content_type": "short",
-    "view_count": 55652,
-    "content_series": []
-  },
-  {
-    "youtube_id": "uYf62fOZgsA",
-    "title": "스무디 맛있게 커버하기🥤 #Smoothie #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
-    "published_date": "2024-04-13",
-    "content_type": "short",
-    "view_count": 51195,
-    "content_series": []
-  },
-  {
-    "youtube_id": "BSzM5BCmUtk",
-    "title": "[여기서요?] NCT DREAM - Smoothie | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -77445,13 +77575,95 @@
       "chae-yunsu",
       "kang-taehyun",
       "park-seongmin",
-      "shim-jiho"
+      "won-jin",
+      "lee-dabin"
+    ],
+    "published_date": "2024-04-13",
+    "content_type": "short",
+    "view_count": 55652,
+    "content_series": [
+      "여기서요?::2024y"
+    ]
+  },
+  {
+    "youtube_id": "uYf62fOZgsA",
+    "title": "스무디 맛있게 커버하기🥤 #Smoothie #ARTBEAT #여기서요",
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kang-taehyun",
+      "park-seongmin",
+      "won-jin",
+      "lee-dabin"
+    ],
+    "published_date": "2024-04-13",
+    "content_type": "short",
+    "view_count": 51195,
+    "content_series": [
+      "여기서요?::2024y"
+    ]
+  },
+  {
+    "youtube_id": "BSzM5BCmUtk",
+    "title": "[여기서요?] NCT DREAM - Smoothie | 커버댄스 Dance Cover",
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kang-taehyun",
+      "park-seongmin",
+      "won-jin",
+      "lee-dabin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-04-13",
     "content_type": "video",
     "view_count": 516213,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -77507,19 +77719,7 @@
     "youtube_id": "bz9AQ1cNlGY",
     "title": "가볍게 씹어 삼켜~ 스무디🥤 #Smoothie #NCTDREAM #ARTBEAT",
     "covered_group": [
-      "NCT DREAM"
-    ],
-    "tagged_members": [],
-    "published_date": "2024-04-11",
-    "content_type": "short",
-    "view_count": 57913,
-    "content_series": []
-  },
-  {
-    "youtube_id": "zEnzH0iEzDY",
-    "title": "[AB] NCT DREAM - Smoothie | 커버댄스 Dance Cover",
-    "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-taehwan",
@@ -77527,12 +77727,76 @@
       "chae-yunsu",
       "kang-taehyun",
       "park-seongmin",
-      "shim-jiho"
+      "won-jin",
+      "lee-dabin"
+    ],
+    "published_date": "2024-04-11",
+    "content_type": "short",
+    "view_count": 57913,
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
+  },
+  {
+    "youtube_id": "zEnzH0iEzDY",
+    "title": "[AB] NCT DREAM - Smoothie | 커버댄스 Dance Cover",
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kang-taehyun",
+      "park-seongmin",
+      "won-jin",
+      "lee-dabin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-04-11",
     "content_type": "video",
     "view_count": 92826,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "RnGVYjARQ9w",
@@ -77558,13 +77822,24 @@
     "youtube_id": "QH6NDCxZka8",
     "title": "(Teaser) NCT DREAM - Smoothie | Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kang-taehyun",
+      "park-seongmin",
+      "won-jin",
+      "lee-dabin"
+    ],
     "published_date": "2024-04-10",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 37230,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2024y",
+      "Dance Cover MV::Years::2024y"
+    ]
   },
   {
     "youtube_id": "13EtkKfTueU",
@@ -77632,7 +77907,7 @@
     "youtube_id": "QIZ3U_R42OU",
     "title": "#혜림 'NCT DREAM - Smoothie’ Dance Cover #hyerim",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-hyerim"
@@ -77817,7 +78092,7 @@
     "youtube_id": "9kxkLFi7eu8",
     "title": "06즈가 말아주는 딸기맛 스무디🍓 #윤수 #서아 'NCT DREAM - Smoothie’ Dance Cover #Yunsu #Seoa",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "chae-yunsu",
@@ -80321,13 +80596,25 @@
     "youtube_id": "SI3IfdFc5CY",
     "title": "팩트 체크부터 하자고! #FactCheck #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT 127"
+      "NCT::NCT 127"
     ],
-    "tagged_members": [],
+
+    "tagged_members": [
+      "kang-taehyun",
+      "hwang-jiho",
+      "chae-yunsu",
+      "kim-taehwan",
+      "lee-dabin",
+      "yang-hwanhee",
+      "hong-seokju",
+      "kwon-dohyun"
+    ],
     "published_date": "2024-01-26",
     "content_type": "short",
     "view_count": 86353,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "PBLVN-HdX58",
@@ -80430,22 +80717,67 @@
     "youtube_id": "guZNkNekytQ",
     "title": "[방구석 여기서요?] NCT 127 - Fact Check (불가사의; 不可思議) | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
+
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-taehwan",
+      "kang-taehyun",
       "hwang-jiho",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-taehwan",
+      "lee-dabin",
       "yang-hwanhee",
-      "shim-jiho"
+      "hong-seokju",
+      "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "hong-seokju",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
     ],
     "published_date": "2024-01-24",
     "content_type": "video",
     "view_count": 401604,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "2q8tVoAwSQk",
@@ -84471,22 +84803,23 @@
     "youtube_id": "8nM8XvZUoO4",
     "title": "주변 방해 뿌리치고 춤추기🤣 #ISTJ #지호 #Jiho #ab_jiho",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-10-14",
     "content_type": "short",
     "view_count": 96138,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "3TK2BdjoTyo",
     "title": "'ISTJ'면 이 춤 더 잘 추나요? #ISTJ #윤수 #Yunsu #ab_yunsu",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -84494,13 +84827,15 @@
     "published_date": "2023-10-14",
     "content_type": "short",
     "view_count": 43147,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "thY9wKKX5Wk",
     "title": "누구의 직캠일까요? 10초 전에 맞추면 인정🥴 #ISTJ",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "park-hyunmin"
@@ -84508,13 +84843,15 @@
     "published_date": "2023-10-14",
     "content_type": "short",
     "view_count": 50125,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "WH0grwFJ_iM",
     "title": "웃는게 예쁜 남자가 좋더라🫣 #ISTJ #수환 #Suhwan #ab_suhwan",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-suhwan"
@@ -84522,7 +84859,9 @@
     "published_date": "2023-10-14",
     "content_type": "short",
     "view_count": 61632,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "e8R4vKaWdp8",
@@ -85645,22 +85984,60 @@
     "youtube_id": "_7UqYjI0rGU",
     "title": "[방구석 여기서요?] NCT DREAM - ISTJ | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
-      "hwang-jiho",
       "chae-yunsu",
+      "hwang-jiho",
+      "kim-taehwan",
       "kang-taehyun",
-      "kim-daehan",
-      "shim-jiho"
+      "kim-daehan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-10-03",
     "content_type": "video",
     "view_count": 223887,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "jQ842v8dUKI",
@@ -88932,7 +89309,7 @@
     "youtube_id": "fh4h6R5ydMI",
     "title": "'Renjun - Streets' Dance Cover #영진 #Youngjin #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-youngjin"
@@ -88987,7 +89364,7 @@
     "youtube_id": "KsVfNnnw608",
     "title": "'NCT DREAM - Yogurt Shake' Dance Cover #세인 #Sein #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "jang-sein"
@@ -89015,7 +89392,7 @@
     "youtube_id": "4Kaj3919oJ0",
     "title": "'NCT DREAM - Yogurt Shake' Dance Cover #기현 #Gihyun #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "ahn-gihyun"
@@ -89152,7 +89529,7 @@
     "youtube_id": "BfyB6iOmbQg",
     "title": "'NCT DREAM - Yogurt Shake' Dance Cover #윤수 #Yunsu #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -90060,57 +90437,141 @@
     "youtube_id": "EQf5cTvMXQo",
     "title": "NCT DREAM - ISTJ | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
-      "hwang-jiho",
       "chae-yunsu",
+      "hwang-jiho",
+      "kim-taehwan",
       "kang-taehyun",
-      "kim-daehan",
-      "shim-jiho"
+      "kim-daehan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-07-30",
     "content_type": "video",
     "view_count": 75533,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
     "youtube_id": "zwM9ju0UuOY",
     "title": "여기 'ISTJ' 몇명이게?🤓 #ISTJ #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-hyunmin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "hwang-jiho",
+      "kim-taehwan",
+      "kang-taehyun",
+      "kim-daehan"
+    ],
     "published_date": "2023-07-30",
     "content_type": "short",
     "view_count": 77419,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "vfz9Ej0ypms",
     "title": "[여기서요?] NCT DREAM - ISTJ | 커버댄스 Dance Cover @홍대",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
-      "kim-taehwan",
       "park-hyunmin",
       "kim-suhwan",
-      "hwang-jiho",
       "chae-yunsu",
+      "hwang-jiho",
+      "kim-taehwan",
       "kang-taehyun",
-      "kim-daehan",
-      "shim-jiho"
+      "kim-daehan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2023-07-29",
     "content_type": "video",
     "view_count": 696297,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "WndIlzeAqXY",
@@ -90876,7 +91337,7 @@
     "youtube_id": "qir8-4G1h44",
     "title": "짙은 농도에 정신이 혼미해🤯 #Perfume #호준 #Hojun #shorts",
     "covered_group": [
-      "NCT DOJAEJUNG"
+      "NCT::NCT DOJAEJUNG"
     ],
     "tagged_members": [
       "kim-hojun"
@@ -90884,40 +91345,74 @@
     "published_date": "2023-07-11",
     "content_type": "short",
     "view_count": 89963,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "V1EJfFTQAnI",
     "title": "퍼퓸 그 잡채💐 #Perfume #shorts",
     "covered_group": [
-      "NCT DOJAEJUNG"
+      "NCT::NCT DOJAEJUNG"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "kim-hojun",
+      "kim-suhwan"
+    ],
+    "special_dancers": [
+      "kim-taehwan",
+      "lim-donghun",
+      "chae-yunsu",
+      "kim-youngjin"
+    ],
     "published_date": "2023-07-11",
     "content_type": "short",
     "view_count": 72829,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "c4EpRchcu40",
     "title": "[방구석 여기서요?] NCT DOJAEJUNG - Perfume | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT DOJAEJUNG"
+      "NCT::NCT DOJAEJUNG"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
       "hwang-jiho",
-      "kim-youngjin",
+      "kim-hojun",
+      "kim-suhwan"
+    ],
+    "special_dancers": [
+      "kim-taehwan",
       "lim-donghun",
       "chae-yunsu",
-      "shim-jiho"
+      "kim-youngjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DOJAEJUNG",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT DOJAEJUNG",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DOJAEJUNG",
+        "covered_member": "정우"
+      }
     ],
     "published_date": "2023-07-11",
     "content_type": "video",
     "view_count": 309889,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "yFcFBQTfwsY",
@@ -96810,7 +97305,7 @@
     "youtube_id": "ZssqsV7hbt8",
     "title": "이 남자 눈웃음 치인다🐶 말랑말랑해🍬 #Candy #동훈 #Donghun #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "lim-donghun"
@@ -96824,7 +97319,7 @@
     "youtube_id": "BXFHDeheei8",
     "title": "마주 보고 웃는거 너무 좋아~🦁 #Candy #담희 #Damhee #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "park-damhee"
@@ -98577,7 +99072,7 @@
     "youtube_id": "zo9fi-sHbXc",
     "title": "마지막까지 아주 찰떡호흡이네🤣 'NCT DREAM - Best Friend Ever' Dance Cover #태현 #민기 #Taehyun #Mingi #shorts",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "kim-mingi",
@@ -104877,37 +105372,37 @@
     "role_mapping": [
       {
         "member_id": "seo-danbi",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "jeong-jihye",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "jang-sein",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "lim-donghun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "cho-woohyeong",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -108234,37 +108729,37 @@
     "role_mapping": [
       {
         "member_id": "seo-danbi",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "마크"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "재민"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "해찬"
       },
       {
         "member_id": "jeong-jihye",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "제노"
       },
       {
         "member_id": "jang-sein",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "지성"
       },
       {
         "member_id": "lim-donghun",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "런쥔"
       },
       {
         "member_id": "cho-woohyeong",
-        "covered_group": "NCT DREAM",
+        "covered_group": "NCT::NCT DREAM",
         "covered_member": "천러"
       }
     ],
@@ -116313,21 +116808,77 @@
     "youtube_id": "5csq9ZgoEsk",
     "title": "[A2be | 방구석 여기서요?] NCT 127 - Lemonade | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
+      "jeong-hyungwoo",
+      "kim-hyoil",
       "chae-yunsu",
-      "shim-jiho"
+      "kim-mingi",
+      "nayoung",
+      "seo-danbi",
+      "lim-donghun",
+      "hwang-jiho",
+      "jeong-jihye"
+    ],
+    "support": [
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "nayoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      }
     ],
     "published_date": "2021-11-25",
     "content_type": "video",
     "view_count": 706401,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S08::A2Be"
     ]
   },
   {
@@ -117155,20 +117706,75 @@
     "youtube_id": "GaCw2HM1_WQ",
     "title": "[A2be] NCT 127 - Lemonade | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
+      "jeong-hyungwoo",
+      "kim-hyoil",
       "chae-yunsu",
-      "shim-jiho"
+      "kim-mingi",
+      "nayoung",
+      "seo-danbi",
+      "lim-donghun",
+      "hwang-jiho",
+      "jeong-jihye"
+    ],
+    "support": [
+      "SMALL WINGS PROJECT"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "nayoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      }
     ],
     "published_date": "2021-10-28",
     "content_type": "video",
     "view_count": 183050,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "Dance Cover MV::Dance Teams::A2Be::2021y",
+      "Dance Cover MV::Years::2021y"
     ]
   },
   {
@@ -135269,7 +135875,7 @@
     "youtube_id": "DzCuEOuUiUo",
     "title": "[방구석 여기서요?] NCT DREAM - RIDIN' | 커버댄스 DANCE COVER",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -136428,7 +137034,7 @@
     "youtube_id": "2EGYoFiGuYE",
     "title": "[AB] NCT DREAM - RIDIN' | 커버댄스 Dance Cover (with 울트라패션)",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -142141,7 +142747,7 @@
     "youtube_id": "7ThpZlt2gqo",
     "title": "[여기서요?] NCT DREAM 엔시티 드림 - BOOM (Black & White ver.) | 커버댄스 DANCE COVER @SBS슈퍼콘서트",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -143641,7 +144247,7 @@
     "youtube_id": "wlXaC2zNk3g",
     "title": "NCT DREAM 엔시티 드림 - BOOM | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -143750,7 +144356,7 @@
     "youtube_id": "ktwbcm6Xi_Y",
     "title": "[여기서요?] NCT DREAM 엔시티 드림 - BOOM | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -143818,7 +144424,7 @@
     "youtube_id": "d8SfgRFfwPs",
     "title": "[AB] NCT DREAM 엔시티 드림 - BOOM | 커버댄스 DANCE COVER",
     "covered_group": [
-      "NCT DREAM"
+      "NCT::NCT DREAM"
     ],
     "tagged_members": [
       "yun-jihong",
