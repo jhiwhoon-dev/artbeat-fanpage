@@ -75926,17 +75926,43 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "hwang-jiho",
-      "cho-woohyeong",
       "ahn-gihyun",
-      "shim-jiho"
+      "cho-woohyeong",
+      "won-jin",
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
     ],
     "published_date": "2024-05-09",
     "content_type": "video",
     "view_count": 115700,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16"
     ]
   },
   {
@@ -76690,7 +76716,9 @@
     "covered_group": [
       "ILLIT"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2024-04-27",
     "content_type": "short",
     "view_count": 72555,
@@ -76721,16 +76749,43 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "hwang-jiho",
-      "cho-woohyeong",
       "ahn-gihyun",
-      "shim-jiho"
+      "cho-woohyeong",
+      "won-jin",
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
     ],
     "published_date": "2024-04-25",
     "content_type": "video",
     "view_count": 65085,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -76741,13 +76796,14 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2024-04-24",
     "content_type": "short",
     "view_count": 62852,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "nKpBNsnIAQY",
@@ -76771,15 +76827,44 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "hwang-jiho",
-      "cho-woohyeong",
       "ahn-gihyun",
-      "shim-jiho"
+      "cho-woohyeong",
+      "won-jin",
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
     ],
     "published_date": "2024-04-24",
     "content_type": "video",
     "view_count": 369925,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "6rdGFW5JRWQ",
@@ -79513,18 +79598,23 @@
     "covered_group": [
       "VIVIZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yoon-taegyeong",
+      "bang-jooyeon",
+      "kim-minjin"
+    ],
     "published_date": "2024-02-10",
     "content_type": "short",
     "view_count": 176934,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "Iz7RZycWS7w",
     "title": "[방구석 여기서요?] 세븐틴 SEVENTEEN - 음악의 신 God of Music | 커버댄스 Dance Cover",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "ha-jeuki"
@@ -79554,11 +79644,17 @@
     "covered_group": [
       "VIVIZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yoon-taegyeong",
+      "bang-jooyeon",
+      "kim-minjin"
+    ],
     "published_date": "2024-02-10",
     "content_type": "short",
     "view_count": 141225,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "TQs6KJAkXgo",
@@ -79628,7 +79724,6 @@
     "youtube_id": "Y4nqqi8JtOM",
     "title": "[방구석 여기서요?] 정국 JungKook of BTS - 3D | 커버댄스 Dance Cover",
     "covered_group": [
-      "방탄소년단",
       "정국"
     ],
     "tagged_members": [
@@ -79637,7 +79732,9 @@
     "published_date": "2024-02-09",
     "content_type": "video",
     "view_count": 743675,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "7QkEZfezV_o",
@@ -79649,7 +79746,9 @@
     "published_date": "2024-02-08",
     "content_type": "short",
     "view_count": 312915,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "qY-rN4Ubjq8",
@@ -79661,14 +79760,15 @@
     "published_date": "2024-02-08",
     "content_type": "short",
     "view_count": 113471,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "I4n48yDNfdI",
     "title": "[방구석 여기서요?] 카이 KAI - 음 MMMH | 커버댄스 Dance Cover",
     "covered_group": [
-      "카이",
-      "EXO"
+      "카이"
     ],
     "tagged_members": [
       "kim-youngjin",
@@ -79681,7 +79781,9 @@
     "published_date": "2024-02-08",
     "content_type": "video",
     "view_count": 1037863,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "5XB-JOe21E4",
@@ -79693,7 +79795,9 @@
     "published_date": "2024-02-08",
     "content_type": "short",
     "view_count": 61994,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "7cilQZ1h8V8",
@@ -79705,7 +79809,9 @@
     "published_date": "2024-02-08",
     "content_type": "short",
     "view_count": 70746,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "Eb4_4a8rjFM",
@@ -79714,20 +79820,63 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
       "chae-yunsu",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "lee-dabin",
+      "kim-hojun",
+      "kim-mingi",
+      "hwang-jiho",
+      "lim-donghun",
+      "park-hyunmin",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2024-02-07",
     "content_type": "video",
     "view_count": 463470,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "RFe2zTglml8",
@@ -80094,16 +80243,16 @@
     "covered_group": [],
     "tagged_members": [
       "jeong-hyunjin",
+      "shin-yerin",
       "won-seoa",
       "kim-chan",
-      "shin-yerin",
       "kim-junseok"
     ],
     "published_date": "2024-02-02",
     "content_type": "live",
     "view_count": 48588,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -80127,13 +80276,33 @@
       "VIVIZ"
     ],
     "tagged_members": [
-      "kim-minjin",
-      "bang-jooyeon"
+      "yoon-taegyeong",
+      "bang-jooyeon",
+      "kim-minjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "VIVIZ",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "VIVIZ",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "VIVIZ",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2024-02-02",
     "content_type": "video",
     "view_count": 558004,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "Olw1LrvJZDw",
@@ -80150,7 +80319,7 @@
     "content_type": "live",
     "view_count": 34817,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -80161,17 +80330,50 @@
     ],
     "tagged_members": [
       "kim-taehwan",
+      "ahn-gihyun",
       "park-hyunmin",
-      "hwang-jiho",
       "lim-donghun",
       "kim-daehan",
-      "ahn-gihyun",
-      "shim-jiho"
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2024-02-01",
     "content_type": "video",
     "view_count": 234203,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "lwRC8OVbORE",
@@ -80274,12 +80476,43 @@
     ],
     "tagged_members": [
       "kim-taehwan",
+      "ahn-gihyun",
       "park-hyunmin",
-      "hwang-jiho",
       "lim-donghun",
       "kim-daehan",
-      "ahn-gihyun",
-      "shim-jiho"
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2024-01-29",
     "content_type": "video",
@@ -80449,12 +80682,23 @@
   {
     "youtube_id": "tia4cNSRkSw",
     "title": "자, 지금부터 학창시절 기억조작 들어갑니다🪄 #LOVE119 #릴레이댄스 #Relaydance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RIIZE"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "ahn-gihyun",
+      "park-hyunmin",
+      "lim-donghun",
+      "kim-daehan",
+      "hwang-jiho"
+    ],
     "published_date": "2024-01-27",
     "content_type": "short",
     "view_count": 161447,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "M-Kg25njcBE",
@@ -80614,23 +80858,55 @@
     ],
     "tagged_members": [
       "kim-taehwan",
+      "ahn-gihyun",
       "park-hyunmin",
-      "hwang-jiho",
       "lim-donghun",
       "kim-daehan",
-      "ahn-gihyun",
-      "shim-jiho"
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2024-01-26",
     "content_type": "video",
     "view_count": 470901,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "v5rpWcHB8VQ",
     "title": "처음부터 쎈 언니로 태어난거에요?🫢 #BornToBe #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -82576,12 +82852,16 @@
   {
     "youtube_id": "JGVsOOie334",
     "title": "연말엔 좋은 소식들만 가득하길~ #BadNews #RelayDance #릴레이댄스",
-    "covered_group": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
     "tagged_members": [],
     "published_date": "2023-12-08",
     "content_type": "short",
     "view_count": 243775,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2023y"
+    ]
   },
   {
     "youtube_id": "O3jRllX1FIM",
@@ -82610,7 +82890,7 @@
     "content_type": "short",
     "view_count": 110751,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -82626,7 +82906,7 @@
     "content_type": "short",
     "view_count": 173963,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -82641,7 +82921,9 @@
     "published_date": "2023-12-07",
     "content_type": "video",
     "view_count": 269322,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "8QIBOIc21uE",
@@ -82656,7 +82938,7 @@
     "content_type": "short",
     "view_count": 213491,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
@@ -82666,13 +82948,14 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-12-06",
     "content_type": "short",
     "view_count": 139453,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "XzJH9_eqi_M",
@@ -82686,7 +82969,9 @@
     "published_date": "2023-12-06",
     "content_type": "short",
     "view_count": 68584,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "Q63sg5DRJuY",
@@ -82700,7 +82985,9 @@
     "published_date": "2023-12-06",
     "content_type": "short",
     "view_count": 410497,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "t9KQtAm9ahY",
@@ -82714,7 +83001,9 @@
     "published_date": "2023-12-05",
     "content_type": "video",
     "view_count": 212753,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "V6AeblbGLOw",
@@ -82728,7 +83017,9 @@
     "published_date": "2023-12-04",
     "content_type": "short",
     "view_count": 167864,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "zBwE3RqSiBU",
@@ -82742,7 +83033,9 @@
     "published_date": "2023-12-04",
     "content_type": "short",
     "view_count": 136627,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "Q7UtWPs8kYw",
@@ -82751,13 +83044,14 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "jeong-hyunjin"
+      "kim-hojun"
     ],
     "published_date": "2023-12-04",
     "content_type": "short",
     "view_count": 2219877,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "i4PhRMJfpy4",
@@ -82766,21 +83060,62 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
       "chae-yunsu",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "lee-dabin",
+      "kim-hojun",
+      "kim-mingi",
+      "hwang-jiho",
+      "lim-donghun",
+      "park-hyunmin",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-12-04",
     "content_type": "video",
     "view_count": 114253,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -82924,12 +83259,25 @@
   {
     "youtube_id": "bP3Sha5idEs",
     "title": "Just feel the rock🤟🏻 #락 #LALALALA #RealyDance #릴레이댄스",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "lee-dabin",
+      "kim-hojun",
+      "kim-mingi",
+      "hwang-jiho",
+      "lim-donghun",
+      "park-hyunmin",
+      "kim-taehwan"
+    ],
     "published_date": "2023-12-01",
     "content_type": "short",
     "view_count": 188822,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2023y"
+    ]
   },
   {
     "youtube_id": "wvG_psPDomI",
@@ -83178,20 +83526,63 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "hwang-jiho",
-      "kim-mingi",
-      "lim-donghun",
       "chae-yunsu",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "lee-dabin",
+      "kim-hojun",
+      "kim-mingi",
+      "hwang-jiho",
+      "lim-donghun",
+      "park-hyunmin",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-11-30",
     "content_type": "video",
     "view_count": 1698743,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "-HkSzMb4NVU",
@@ -84302,6 +84693,43 @@
       "kim-hojun",
       "oh-yubin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "승한"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
+    ],
     "published_date": "2023-10-24",
     "content_type": "video",
     "view_count": 160768,
@@ -84526,7 +84954,6 @@
     "youtube_id": "QyjWUWbjjCs",
     "title": "'ITZY - Kill Shot' Dance Cover #유우나 #Yuna #ab_yuna",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
@@ -84548,7 +84975,7 @@
     "content_type": "video",
     "view_count": 138303,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -84580,7 +85007,7 @@
     "content_type": "video",
     "view_count": 120928,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -84590,13 +85017,80 @@
       "더보이즈"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "hwang-jiho",
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "더보이즈",
+        "covered_member": "주연"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "더보이즈",
+        "covered_member": "현재"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "더보이즈",
+        "covered_member": "주학년"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "더보이즈",
+        "covered_member": "영훈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "더보이즈",
+        "covered_member": "상연"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "더보이즈",
+        "covered_member": "제이콥"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "더보이즈",
+        "covered_member": "큐"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "더보이즈",
+        "covered_member": "뉴"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "더보이즈",
+        "covered_member": "케빈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "더보이즈",
+        "covered_member": "에릭"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "더보이즈",
+        "covered_member": "선우"
+      }
     ],
     "published_date": "2023-10-18",
     "content_type": "video",
     "view_count": 176996,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -84778,11 +85272,21 @@
     "covered_group": [
       "RIIZE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "park-hyunmin",
+      "kim-hojun",
+      "lee-gaeun",
+      "kim-suhwan",
+      "ahn-yoojin",
+      "oh-yubin"
+    ],
     "published_date": "2023-10-15",
     "content_type": "short",
     "view_count": 215470,
-    "content_series": []
+    "content_series": [
+      "행사::2023y"
+    ]
   },
   {
     "youtube_id": "yvvMbIv87_8",
@@ -85133,7 +85637,7 @@
     ],
     "song_group": "riize-getaguitar-2023",
     "published_date": "2023-10-14",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 156924,
     "content_series": [
       "AB STAGE::2023y",
@@ -85173,7 +85677,6 @@
     "youtube_id": "xc4-ks3jyKE",
     "title": "[버스킹 여기서요?] 있지 ITZY - None of My Business | 커버댄스 Dance Cover @20230923 신촌 버스킹",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -85293,7 +85796,9 @@
     "published_date": "2023-10-11",
     "content_type": "short",
     "view_count": 107509,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "caKVTdZpLL0",
@@ -85307,7 +85812,9 @@
     "published_date": "2023-10-11",
     "content_type": "short",
     "view_count": 73973,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "Waxh14BHGEc",
@@ -85321,7 +85828,9 @@
     "published_date": "2023-10-11",
     "content_type": "short",
     "view_count": 148910,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "-zronsQ-dHI",
@@ -85402,20 +85911,56 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
       "kang-taehyun",
-      "kim-daehan",
-      "shim-jiho"
+      "hwang-jiho",
+      "kim-daehan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "승한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2023-10-10",
     "content_type": "video",
     "view_count": 177006,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -85755,22 +86300,62 @@
       "Stray Kids"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
+      "cho-woohyeong",
       "hwang-jiho",
       "lim-donghun",
-      "chae-yunsu",
-      "cho-woohyeong",
-      "hwang-geumryul",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "hwang-geumryul",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-10-06",
     "content_type": "video",
     "view_count": 394312,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -85923,8 +86508,7 @@
     "youtube_id": "uRg9DjoEZHg",
     "title": "'Jennie - You and Me' (Dabin Choreography) Dance Cover #시은 #sieun #ab_sieun #shorts",
     "covered_group": [
-      "제니",
-      "BLACKPINK"
+      "제니"
     ],
     "tagged_members": [
       "lee-sieun"
@@ -85941,12 +86525,18 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "jeong-gyeolgyeong",
+      "jeon-minseo",
+      "ha-jeuki",
+      "kim-hyerim",
+      "kang-yejin"
     ],
     "published_date": "2023-10-04",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 659160,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "JIwMGSuCCb8",
@@ -86756,13 +87346,20 @@
       "RIIZE"
     ],
     "tagged_members": [
+      "ha-jeuki",
+      "jeong-gyeolgyeong",
+      "ha-seyoung",
       "lee-gaeun",
+      "kang-yejin",
+      "ahn-yoojin",
       "oh-yubin"
     ],
     "published_date": "2023-09-28",
     "content_type": "short",
     "view_count": 266051,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "zzAgnCVsdkc",
@@ -86771,12 +87368,81 @@
       "더보이즈"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "hwang-jiho",
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "더보이즈",
+        "covered_member": "주연"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "더보이즈",
+        "covered_member": "현재"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "더보이즈",
+        "covered_member": "주학년"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "더보이즈",
+        "covered_member": "영훈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "더보이즈",
+        "covered_member": "상연"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "더보이즈",
+        "covered_member": "제이콥"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "더보이즈",
+        "covered_member": "큐"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "더보이즈",
+        "covered_member": "뉴"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "더보이즈",
+        "covered_member": "케빈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "더보이즈",
+        "covered_member": "에릭"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "더보이즈",
+        "covered_member": "선우"
+      }
     ],
     "published_date": "2023-09-28",
     "content_type": "video",
     "view_count": 362534,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "4YUEX4mgjHg",
@@ -87307,13 +87973,61 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "kim-taehwan",
+      "park-hyunmin",
+      "ahn-gihyun",
+      "kim-youngjin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "hwang-jiho",
+      "jeong-gyeolgyeong",
+      "jeon-minseo",
+      "ha-jeuki",
+      "kim-hyerim",
+      "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "승한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2023-09-24",
     "content_type": "video",
     "view_count": 628512,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2023y"
     ]
   },
   {
@@ -87468,13 +88182,14 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 49026,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "ZDJMxximweY",
@@ -87488,7 +88203,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 32295,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "FxXEUadWMEg",
@@ -87502,7 +88219,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 38019,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "49wLch6pPko",
@@ -87516,7 +88235,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 24427,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "Lm6XZyr3YmU",
@@ -87530,7 +88251,9 @@
     "published_date": "2023-09-24",
     "content_type": "short",
     "view_count": 33178,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "0nGhP2Zn3sA",
@@ -87541,17 +88264,55 @@
     "tagged_members": [
       "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
-      "hwang-jiho",
-      "kim-youngjin",
-      "chae-yunsu",
       "ahn-gihyun",
-      "shim-jiho"
+      "kim-youngjin",
+      "kim-suhwan",
+      "chae-yunsu",
+      "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "승한"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2023-09-24",
     "content_type": "video",
     "view_count": 544157,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "A3pwREVXrqE",
@@ -88157,7 +88918,9 @@
     "published_date": "2023-09-21",
     "content_type": "short",
     "view_count": 30508,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "0uiMNP-Fyu8",
@@ -88166,13 +88929,14 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-09-21",
     "content_type": "short",
     "view_count": 47028,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "b2SSj4jw8hY",
@@ -88186,13 +88950,14 @@
     "published_date": "2023-09-21",
     "content_type": "short",
     "view_count": 35815,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "owIEJTjTFks",
     "title": "걸그룹 앞에서 춤 춰서 긴장함22😬 (feat. 케플러) #GetAGuitar #호준 #ab_hojun #hojun #shorts",
     "covered_group": [
-      "Kep1er",
       "RIIZE"
     ],
     "tagged_members": [
@@ -88201,13 +88966,14 @@
     "published_date": "2023-09-21",
     "content_type": "short",
     "view_count": 28975,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "I5WrTXsWV2I",
     "title": "걸그룹 앞에서 춤 춰서 긴장했네🤣 (feat. 케플러) #GetAGuitar @soomile #수환 #ab_suhwan #suhwan #shorts",
     "covered_group": [
-      "Kep1er",
       "RIIZE"
     ],
     "tagged_members": [
@@ -88216,7 +88982,9 @@
     "published_date": "2023-09-21",
     "content_type": "short",
     "view_count": 107475,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "nylPWNrx8aI",
@@ -88225,19 +88993,57 @@
       "RIIZE"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "park-hyunmin",
+      "kim-hojun",
       "kim-suhwan",
-      "hwang-jiho",
       "kang-taehyun",
-      "kim-daehan",
-      "shim-jiho"
+      "hwang-jiho",
+      "kim-daehan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "은석"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "RIIZE",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "원빈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "RIIZE",
+        "covered_member": "승한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "소희"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "RIIZE",
+        "covered_member": "앤톤"
+      }
     ],
     "published_date": "2023-09-21",
     "content_type": "video",
     "view_count": 357160,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S14"
+    ]
   },
   {
     "youtube_id": "jbta-TmDWtM",
@@ -88333,8 +89139,7 @@
     ],
     "tagged_members": [
       "kim-suhwan",
-      "hwang-jiho",
-      "shim-jiho"
+      "hwang-jiho"
     ],
     "published_date": "2023-09-12",
     "content_type": "short",
@@ -88780,18 +89585,26 @@
     "youtube_id": "YZRnmXiUBXA",
     "title": "이 집도 꿀노잼이었네🍯... 🤣 [AB VLOG] 더보이즈 THE BOYZ - LIP GLOSS | 전지적 지호 시점 | Jiho VLOG",
     "covered_group": [
-      "더보이즈",
-      "호시"
+      "더보이즈"
     ],
     "tagged_members": [
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
       "hwang-jiho",
-      "shim-jiho"
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
     ],
     "published_date": "2023-09-05",
     "content_type": "video",
     "view_count": 105022,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2023y"
     ]
   },
   {
@@ -89147,13 +89960,80 @@
       "더보이즈"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "hwang-jiho",
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "더보이즈",
+        "covered_member": "주연"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "더보이즈",
+        "covered_member": "현재"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "더보이즈",
+        "covered_member": "주학년"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "더보이즈",
+        "covered_member": "영훈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "더보이즈",
+        "covered_member": "상연"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "더보이즈",
+        "covered_member": "제이콥"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "더보이즈",
+        "covered_member": "큐"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "더보이즈",
+        "covered_member": "뉴"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "더보이즈",
+        "covered_member": "케빈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "더보이즈",
+        "covered_member": "에릭"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "더보이즈",
+        "covered_member": "선우"
+      }
     ],
     "published_date": "2023-08-30",
     "content_type": "video",
     "view_count": 82489,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2023y"
     ]
   },
   {
@@ -89187,12 +90067,28 @@
   {
     "youtube_id": "zhdBzaYbw6Q",
     "title": "재밌어 보여서 따라해봤는데 진짜 핵꿀잼😝 LIP GLOSS 어떤거 발라?💄 #LIPGLOSS #RelayDance #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "더보이즈"
+    ],
+    "tagged_members": [
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "hwang-jiho",
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
+    ],
     "published_date": "2023-08-29",
     "content_type": "short",
     "view_count": 226701,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2023y"
+    ]
   },
   {
     "youtube_id": "QQUx5NMdw7Q",
@@ -89239,21 +90135,91 @@
     "youtube_id": "8V6GBYFBDgM",
     "title": "[여기서요?] 더보이즈 THE BOYZ - LIP GLOSS | 커버댄스 Dance Cover @한강공원",
     "covered_group": [
-      "더보이즈",
-      "ARTBEAT v"
+      "더보이즈"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "kim-hojun",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "hwang-jiho",
+      "kim-daehan",
+      "chae-yunsu",
+      "kim-suhwan",
+      "ha-jeuki",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "더보이즈",
+        "covered_member": "주연"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "더보이즈",
+        "covered_member": "현재"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "더보이즈",
+        "covered_member": "주학년"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "더보이즈",
+        "covered_member": "영훈"
+      },
+      {
+        "member_id": "kim-daehan",
+        "covered_group": "더보이즈",
+        "covered_member": "상연"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "더보이즈",
+        "covered_member": "제이콥"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "더보이즈",
+        "covered_member": "큐"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "더보이즈",
+        "covered_member": "뉴"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "더보이즈",
+        "covered_member": "케빈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "더보이즈",
+        "covered_member": "에릭"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "더보이즈",
+        "covered_member": "선우"
+      }
     ],
     "published_date": "2023-08-28",
     "content_type": "video",
     "view_count": 160555,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "mw7bhBDbRDE",
     "title": "'THE BOYZ - LIP GLOSS' Dance Cover #수환 #Suhwan #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
       "kim-suhwan"
     ],
@@ -91926,7 +92892,16 @@
     "covered_group": [
       "TREASURE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
     "published_date": "2023-07-05",
     "content_type": "short",
     "view_count": 562097,
@@ -91938,11 +92913,22 @@
     "covered_group": [
       "Stray Kids"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
     "published_date": "2023-07-05",
     "content_type": "short",
     "view_count": 556072,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "SiqUf2qO4M0",
@@ -91954,7 +92940,9 @@
     "published_date": "2023-07-05",
     "content_type": "short",
     "view_count": 505566,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "Zon69aj_F_4",
@@ -91963,21 +92951,63 @@
       "Stray Kids"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
+      "cho-woohyeong",
       "hwang-jiho",
       "lim-donghun",
-      "chae-yunsu",
-      "cho-woohyeong",
-      "hwang-geumryul",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "hwang-geumryul",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-07-05",
     "content_type": "video",
     "view_count": 730336,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "5VGO-9D5o3M",
@@ -92015,7 +93045,9 @@
     "published_date": "2023-07-04",
     "content_type": "video",
     "view_count": 82900,
-    "content_series": []
+    "content_series": [
+      "AB CLIPS"
+    ]
   },
   {
     "youtube_id": "fX8sy6ODjSI",
@@ -92305,7 +93337,14 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "kim-hojun"
+      "chae-yunsu",
+      "hwang-geumryul",
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "kim-taehwan"
     ],
     "published_date": "2023-06-27",
     "content_type": "video",
@@ -92659,15 +93698,56 @@
       "Stray Kids"
     ],
     "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-suhwan",
+      "cho-woohyeong",
       "hwang-jiho",
       "lim-donghun",
-      "chae-yunsu",
-      "cho-woohyeong",
-      "hwang-geumryul",
-      "jeong-hyunjin"
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "hwang-geumryul",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-06-20",
     "content_type": "video",
@@ -92682,11 +93762,22 @@
     "covered_group": [
       "Stray Kids"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
     "published_date": "2023-06-20",
     "content_type": "short",
     "view_count": 569398,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "f0nOf2IyDjo",
@@ -92694,11 +93785,22 @@
     "covered_group": [
       "Stray Kids"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "hwang-geumryul",
+      "kim-hojun",
+      "cho-woohyeong",
+      "hwang-jiho",
+      "lim-donghun",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
     "published_date": "2023-06-20",
     "content_type": "short",
     "view_count": 114796,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "X43u6aScuLQ",
@@ -92715,6 +93817,48 @@
       "lim-donghun",
       "kim-suhwan",
       "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "hwang-geumryul",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "cho-woohyeong",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      }
     ],
     "published_date": "2023-06-19",
     "content_type": "video",
@@ -104026,21 +105170,49 @@
     "youtube_id": "IG8aQUy0Rcc",
     "title": "[AB 직캠] TXT - Good Boy Gone Bad | 커버댄스 Dance Cover | @진주교육대학교",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-taehwan",
+      "choi-sungjun",
       "park-hyunmin",
+      "yun-jihong",
       "kim-suhwan",
-      "kang-taehyun"
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-09-22",
     "content_type": "video",
     "view_count": 89444,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "uDzuwDj6xt4",
@@ -106338,6 +107510,33 @@
       "park-damhee",
       "ha-seyoung"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
+    ],
     "published_date": "2022-08-14",
     "content_type": "video",
     "view_count": 952911,
@@ -107055,8 +108254,6 @@
     "youtube_id": "FOnkn3erTC0",
     "title": "[AB  | 방구석 여기서요?] TXT - Opening Sequence | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
@@ -107068,7 +108265,9 @@
     "published_date": "2022-08-04",
     "content_type": "video",
     "view_count": 254630,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "1UIbI-Qx6WU",
@@ -107080,8 +108279,35 @@
       "hwang-jiho",
       "kim-mingi",
       "min",
-      "lim-donghun",
-      "kang-taehyun"
+      "kang-taehyun",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-08-03",
     "content_type": "video",
@@ -107682,13 +108908,18 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
+      "hwang-dagun",
+      "lee-sieun",
+      "park-soyoung",
+      "park-damhee",
       "ha-seyoung"
     ],
+
     "published_date": "2022-07-22",
     "content_type": "video",
     "view_count": 68389,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::2022y"
     ]
   },
   {
@@ -108998,12 +110229,28 @@
   {
     "youtube_id": "EiRkSrMjyB0",
     "title": "GBGB 킬링파트 남녀 온도 차이?? #GoodBoyGoneBad #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "tagged_members": [
+      "lee-moonkyu",
+      "park-hyunmin",
+      "kim-kyungju",
+      "kim-suhwan",
+      "kim-taehwan",
+      "hwang-dagun",
+      "lee-sieun",
+      "park-soyoung",
+      "park-damhee",
+      "ha-seyoung"
+    ],
     "published_date": "2022-06-22",
     "content_type": "short",
     "view_count": 239611,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "XCOzBoY1QsM",
@@ -109089,17 +110336,44 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
+      "lee-sieun",
+      "park-soyoung",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-06-17",
     "content_type": "video",
     "view_count": 130274,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -109109,16 +110383,46 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "park-soyoung",
-      "kwon-soyoung",
       "hwang-dagun",
+      "lee-sieun",
+      "park-soyoung",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-06-15",
     "content_type": "video",
     "view_count": 248028,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "_zA_xu4Qhso",
@@ -109645,11 +110949,38 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "kim-kyungju",
+      "lee-moonkyu",
       "park-hyunmin",
+      "kim-kyungju",
       "kim-suhwan",
-      "kang-taehyun"
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-06-06",
     "content_type": "video",
@@ -109680,21 +111011,49 @@
     "youtube_id": "XGmuUAJbC-I",
     "title": "[AB] TXT - Good Boy Gone Bad | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kim-taehwan",
-      "kim-kyungju",
+      "lee-moonkyu",
       "park-hyunmin",
+      "kim-kyungju",
       "kim-suhwan",
-      "kang-taehyun"
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-06-05",
     "content_type": "video",
     "view_count": 122960,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "fDP-5tme_Cg",
@@ -109711,6 +111070,48 @@
       "hwang-jiho",
       "lim-donghun",
       "kang-taehyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      }
     ],
     "published_date": "2022-06-04",
     "content_type": "video",
@@ -110080,22 +111481,47 @@
     "youtube_id": "PjqJzhaf5SU",
     "title": "[A2be 여기서요?] TXT - Good Boy Gone Bad | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
       "hwang-jiho",
       "kim-mingi",
-      "lim-donghun",
+      "min",
       "kang-taehyun",
-      "shim-jiho"
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-05-31",
     "content_type": "video",
     "view_count": 210458,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -110111,7 +111537,7 @@
     "content_type": "video",
     "view_count": 177585,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -110450,10 +111876,37 @@
     ],
     "tagged_members": [
       "lee-moonkyu",
-      "kim-taehwan",
-      "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-kyungju",
+      "kim-suhwan",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2022-05-24",
     "content_type": "video",
@@ -110578,14 +112031,56 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
-      "kim-hojun",
+      "lee-seohyeon",
       "kim-taehwan",
-      "kim-kyungju",
-      "park-soyoung",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-hojun",
+      "jeon-hyeonguk",
+      "park-soyoung",
+      "kim-kyungju",
+      "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      }
     ],
     "published_date": "2022-05-22",
     "content_type": "video",
@@ -111153,14 +112648,42 @@
     "youtube_id": "PZ7BTVlqrHM",
     "title": "[A2be | 방구석 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kim-mingi",
       "chae-yunsu",
       "jeong-hyungwoo",
+      "kim-mingi",
       "kim-leeyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-04-24",
     "content_type": "video",
@@ -111178,10 +112701,37 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-hojun",
       "kim-taehwan",
-      "kim-hyerim",
-      "lee-moonkyu"
+      "lee-moonkyu",
+      "kim-hojun",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-04-24",
     "content_type": "video",
@@ -112366,8 +113916,13 @@
   {
     "youtube_id": "WZ0tbbccCnE",
     "title": "핑핑 돌아버리겠지~🔩 #maniacchallenge #ARTBEAT #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-hojun"
+    ],
     "published_date": "2022-04-09",
     "content_type": "short",
     "view_count": 77363,
@@ -112792,29 +114347,57 @@
   {
     "youtube_id": "TEUJgC929Hs",
     "title": "크롭 X 하네스 X MANIAC⁉️ 이건 못참지 #MANIAC #Shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "min",
+      "kim-hyoil",
+      "kim-mingi",
+      "kim-youngjin",
+      "hwang-jiho",
+      "lim-donghun",
+      "kang-taehyun"
+    ],
     "published_date": "2022-04-04",
     "content_type": "short",
     "view_count": 73319,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "fAjXMwklOx4",
     "title": "이거 보고 나사 빠진 것 처럼 93140812시간째 웃는 중🤪 #MANIAC #Shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "min",
+      "kim-hyoil",
+      "kim-mingi",
+      "kim-youngjin",
+      "hwang-jiho",
+      "lim-donghun",
+      "kang-taehyun"
+    ],
     "published_date": "2022-04-04",
     "content_type": "short",
     "view_count": 46727,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "OQFt4Kq2Eq0",
     "title": "[에이투비 자기소개] 아영이와 단비, 그리고 이영 | 'A2be ACE'들을 소개합니다 | AYeong & DanBi & LeeYoung",
     "covered_group": [],
     "tagged_members": [
-      "ji-ayeong"
+      "ji-ayeong",
+      "seo-danbi",
+      "kim-leeyoung"
     ],
     "published_date": "2022-04-04",
     "content_type": "video",
@@ -112913,20 +114496,62 @@
       "Stray Kids"
     ],
     "tagged_members": [
-      "hwang-jiho",
+      "chae-yunsu",
+      "min",
+      "kim-hyoil",
       "kim-mingi",
       "kim-youngjin",
+      "hwang-jiho",
       "lim-donghun",
-      "chae-yunsu",
-      "kang-taehyun",
-      "shim-jiho",
-      "jeong-hyunjin"
+      "kang-taehyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      }
     ],
     "published_date": "2022-04-03",
     "content_type": "video",
     "view_count": 934226,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S09::A2Be"
     ]
   },
   {
@@ -112991,6 +114616,10 @@
       "NCT"
     ],
     "tagged_members": [
+      "yun-jihong",
+      "kim-taehwan",
+      "lee-moonkyu",
+      "kim-hojun",
       "kim-hyerim"
     ],
     "published_date": "2022-04-02",
@@ -113018,23 +114647,81 @@
     "youtube_id": "344Rx-CBnME",
     "title": "[방구석 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover | AB x A2be",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-hojun",
-      "kim-taehwan",
       "hwang-jiho",
-      "kim-mingi",
       "chae-yunsu",
-      "shim-jiho",
+      "jeong-hyungwoo",
+      "kim-mingi",
+      "kim-leeyoung",
+      "yun-jihong",
+      "kim-taehwan",
+      "lee-moonkyu",
+      "kim-hojun",
       "kim-hyerim"
+    ],
+    "sponsors":[
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-04-02",
     "content_type": "video",
     "view_count": 1336395,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S09::AB×A2Be"
     ]
   },
   {
@@ -113607,33 +115294,93 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-hojun",
       "kim-taehwan",
+      "lee-moonkyu",
+      "kim-hojun",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-03-03",
     "content_type": "video",
     "view_count": 590008,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
     "youtube_id": "jN6FjZ4uMPc",
     "title": "[AB] NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-hojun",
       "kim-taehwan",
+      "lee-moonkyu",
+      "kim-hojun",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-03-02",
     "content_type": "video",
     "view_count": 437883,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "RS1U6ee4_LY",
@@ -114097,19 +115844,49 @@
     "youtube_id": "_cGdCCv-Nt4",
     "title": "[A2be]  NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa"
+      "aespa",
+      "NCT"
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kim-mingi",
       "chae-yunsu",
-      "shim-jiho"
+      "jeong-hyungwoo",
+      "kim-mingi",
+      "kim-leeyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-02-05",
     "content_type": "video",
     "view_count": 6873969,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "Dance Cover MV::Dance Teams::A2Be::2022y",
+      "Dance Cover MV::Years::2022y"
     ]
   },
   {
