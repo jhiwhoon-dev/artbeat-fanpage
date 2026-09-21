@@ -3,15 +3,12 @@
     "youtube_id": "MMfr3lbvLNQ",
     "title": "#서한승 #오디션중 'NCT U - Baggy Jeans' Dance Cover #HanSeung",
     "covered_group": [
-      "NCT",
-      "NCT U"
+      "NCT::NCT U"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "ha-jeuki",
       "seo-hanseung"
     ],
     "ads": [],
@@ -26,22 +23,12 @@
   {
     "youtube_id": "3NuLFePV9H8",
     "title": "#정서 'D.O. - Guitarlist' Dance Cover #Jeongseo",
-    "covered_group": [],
+    "covered_group": [
+      "도경수"
+    ],
     "content_series": [],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kim-jeongseo",
-      "jeong-hyeonchang",
-      "jeong-gyeolgyeong",
-      "jeong-hyunjin",
-      "seo-hanseung",
-      "jeong-jihye",
-      "seo-jaemin",
-      "jeong-danbi",
-      "jeon-minseo",
-      "jeong-junho",
-      "seo-danbi",
-      "jeong-hyungwoo"
+      "kim-jeongseo"
     ],
     "ads": [],
     "sponsors": [],
@@ -129395,7 +129382,7 @@
     "youtube_id": "JJwr4ZKL4HY",
     "title": "[2배속 커버댄스] NCT U - 90's Love | 2x Speed Dance Cover",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "jeon-hyeonguk",
@@ -129474,7 +129461,7 @@
     "youtube_id": "CRAMm7xaXCw",
     "title": "[방구석 여기서요?] NCT U - 90's Love | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "jeon-hyeonguk",
@@ -129511,7 +129498,7 @@
     "youtube_id": "h1yt1nrUUwY",
     "title": "[ABehind] 'NCT U - Make A Wish' 촬영날 릴레이캠 | AB Relay VLOG",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [],
     "published_date": "2020-12-06",
@@ -129615,7 +129602,7 @@
     "youtube_id": "i5eEZaN58lo",
     "title": "NCT U - 90's Love | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "jeon-hyeonguk",
@@ -129634,7 +129621,7 @@
     "youtube_id": "-m5dckcwG_w",
     "title": "[AB] NCT U - 90's Love | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "jeon-hyeonguk",
@@ -129738,7 +129725,7 @@
     "youtube_id": "xZy8GTMvEAA",
     "title": "[방구석 여기서요?] NCT U - Make A Wish | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -130599,7 +130586,7 @@
     "title": "NCT U - Make A Wish (Birthday Song) | 커버댄스 Dance Cover | 거울모드 | 연습실 Practice ver.",
     "covered_group": [
       "태용",
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -130619,7 +130606,7 @@
     "title": "[AB] NCT U - Make A Wish | 커버댄스 Dance Cover",
     "covered_group": [
       "태용",
-      "NCT U"
+      "NCT::NCT U"
     ],
     "tagged_members": [
       "yun-jihong",

@@ -127,10 +127,12 @@ function nameCandidates(member) {
   } else if (member.name.length > 2) {
     candidates.push(member.name.slice(1));
   }
-  // 영문 이름(name_en)이 있으면, 제목에 "yuka"처럼 로마자로만 쓰인 경우도 잡을 수 있게 마지막 단어를 후보로 추가
+  // 영문 이름(name_en)이 있으면, 제목에 "yuka"처럼 로마자로만 쓰인 경우도 잡을 수 있게 이름 부분을 후보로 추가.
+  // name_en은 "이름 성"(Western) 순서로 자동 생성됨 (예: "Jeongseo Kim") — 그래서 "첫 단어"가 이름, "마지막 단어"가 성임.
+  // 성은 "Jeong", "Seo"처럼 여러 멤버가 공유해서, 마지막 단어를 후보로 쓰면 동성 멤버 전원이 오탐으로 같이 태깅됨.
   if (member.name_en && member.name_en.includes(' ')) {
     const enParts = member.name_en.split(' ').filter(Boolean);
-    if (enParts.length > 1) candidates.push(enParts[enParts.length - 1]);
+    if (enParts.length > 1) candidates.push(enParts[0]);
   } else if (member.name_en) {
     candidates.push(member.name_en);
   }
