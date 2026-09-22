@@ -14475,40 +14475,64 @@
     "youtube_id": "oC8Ha8wub4A",
     "title": "뒤에 환호성은 기본 옵션인 건가요!?🔥 #troublemaker #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "TROUBLE MAKER",
       "Kep1er"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yun-haeun",
+      "jang-sein"
+    ],
+    "special_dancers": [
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-17",
     "content_type": "short",
     "view_count": 74286,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "T2cmxnEB7YI",
     "title": "2026년에도 존재하는 트러블메이커 #troublemaker #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "TROUBLE MAKER",
       "Kep1er"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yun-haeun",
+      "jang-sein"
+    ],
+    "special_dancers": [
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-17",
     "content_type": "short",
     "view_count": 42771,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "o4rKIfVtves",
     "title": "이런 조합으로 구성해 줘서 감사합니다❤️ #troublemaker #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "TROUBLE MAKER",
       "Kep1er"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yun-haeun",
+      "jang-sein"
+    ],
+    "special_dancers": [
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-04-17",
     "content_type": "short",
     "view_count": 119860,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ]
   },
   {
     "youtube_id": "rui9RTvASm8",
@@ -35288,12 +35312,15 @@
       "Saja Boys"
     ],
     "tagged_members": [
-      "yang-hwanhee"
+      "yang-hwanhee",
+      "kim-chan"
     ],
     "published_date": "2025-10-06",
     "content_type": "short",
     "view_count": 42070,
-    "content_series": []
+    "content_series": [
+      "이곳이 K-POP의 나라입니다"
+    ]
   },
   {
     "youtube_id": "YsA2Ca_CcFw",
@@ -38181,6 +38208,33 @@
       "jeong-hyeonchang",
       "yang-hwanhee",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2025-09-13",
     "content_type": "video",
@@ -42489,6 +42543,33 @@
       "yang-hwanhee",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
+    ],
     "published_date": "2025-08-04",
     "content_type": "video",
     "view_count": 18014,
@@ -42616,6 +42697,33 @@
       "jeong-hyeonchang",
       "yang-hwanhee",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2025-08-03",
     "content_type": "video",
@@ -46391,7 +46499,7 @@
     "youtube_id": "mx_N05lOR78",
     "title": "#윤수 '호시X우지 (SEVENTEEN) - ECHO! (Prod. WOOZI)' Dance Cover #Yunsu",
     "covered_group": [
-      "세븐틴::호시X우지"
+      "세븐틴::호시 × 우지"
     ],
     "tagged_members": [
       "chae-yunsu"
@@ -47582,7 +47690,7 @@
     "youtube_id": "NzXbD-hNE9w",
     "title": "[AB STAGE] 세븐틴 SEVENTEEN - THUNDER | 커버댄스 Dance Cover",
     "covered_group": [
-      "세븐틴"
+      "세븐틴::호시 × 우지"
     ],
     "tagged_members": [
       "hwang-jiho",
@@ -53554,11 +53662,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "jang-daehyeon",
+      "hwang-jiho",
+      "kim-suhwan",
+      "do-hyeonsung",
+      "kim-taehwan"
+    ],
     "published_date": "2025-05-08",
     "content_type": "short",
     "view_count": 31807,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "zp7k0J_b2dw",
@@ -53566,11 +53683,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "jang-daehyeon",
+      "hwang-jiho",
+      "kim-suhwan",
+      "do-hyeonsung",
+      "kim-taehwan"
+    ],
     "published_date": "2025-05-08",
     "content_type": "short",
     "view_count": 27216,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "s38Ie_jwEyc",
@@ -53578,11 +53704,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "yang-hwanhee",
+      "jang-daehyeon",
+      "hwang-jiho",
+      "kim-suhwan",
+      "do-hyeonsung",
+      "kim-taehwan"
+    ],
     "published_date": "2025-05-08",
     "content_type": "short",
     "view_count": 31580,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "xTZgIMRg1xw",
@@ -54395,7 +54530,13 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-05-03",
     "content_type": "short",
     "view_count": 39949,
@@ -54409,7 +54550,13 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-05-03",
     "content_type": "short",
     "view_count": 28799,
@@ -54423,7 +54570,13 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-05-03",
     "content_type": "short",
     "view_count": 28099,
@@ -54509,6 +54662,33 @@
       "kim-taehwan",
       "yang-hwanhee",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
     ],
     "published_date": "2025-05-03",
     "content_type": "video",
@@ -57430,8 +57610,7 @@
     "youtube_id": "ST5CCucFvyo",
     "title": "#환희 #서아 '호시X우지 (SEVENTEEN) - STUPID IDIOT' Dance Cover #Hwanhee #Seoa",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴::호시 × 우지"
     ],
     "tagged_members": [
       "yang-hwanhee",
@@ -59279,26 +59458,34 @@
   {
     "youtube_id": "P4vtuvlkXT4",
     "title": "킬링 포인트 성공 후 마무리까지 ㅋㅋ #dash #태현 #Taehyun",
-    "covered_group": [],
+    "covered_group": [
+      "PLAVE"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
     "published_date": "2025-03-11",
     "content_type": "short",
     "view_count": 15705,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "mrTmlqUEauU",
     "title": "땅 짚을 때 카리스마 미친다…😮 #dash #민기 #Mingi",
-    "covered_group": [],
+    "covered_group": [
+      "PLAVE"
+    ],
     "tagged_members": [
       "kim-mingi"
     ],
     "published_date": "2025-03-11",
     "content_type": "short",
     "view_count": 15267,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "dQFh2niGejY",
@@ -59319,26 +59506,34 @@
   {
     "youtube_id": "pHN-UF5Ceac",
     "title": "언제나 레쓰고!! 🫡 #dash #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "PLAVE"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-03-11",
     "content_type": "short",
     "view_count": 17437,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "KAgiEgDOrx0",
     "title": "강약 조절은 이렇게 하는 거지!! 😎 #dash #태환 #Taehwan",
-    "covered_group": [],
+    "covered_group": [
+      "PLAVE"
+    ],
     "tagged_members": [
       "kim-taehwan"
     ],
     "published_date": "2025-03-11",
     "content_type": "short",
     "view_count": 17584,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "eUwc4bn4zJc",
@@ -59367,6 +59562,33 @@
       "kim-taehwan",
       "yang-hwanhee",
       "hwang-jiho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
     ],
     "published_date": "2025-03-11",
     "content_type": "video",
@@ -59525,12 +59747,22 @@
   {
     "youtube_id": "6j1Pzl9cWhY",
     "title": "1절만 하자니까.. 2절까지 신나버림ㅋㅋ😅 #dash #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "PLAVE"
+    ],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-10",
     "content_type": "short",
     "view_count": 61356,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "kqh5ylw0P10",
@@ -59553,11 +59785,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-09",
     "content_type": "short",
     "view_count": 30968,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Ed4wYnpKXVc",
@@ -59565,11 +59805,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-09",
     "content_type": "short",
     "view_count": 19909,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "HR8WutBGPuM",
@@ -59577,11 +59825,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-09",
     "content_type": "short",
     "view_count": 33213,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "Fm3xfM4W_EU",
@@ -59773,12 +60029,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-05",
     "content_type": "short",
     "view_count": 20988,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -59787,12 +60050,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-05",
     "content_type": "short",
     "view_count": 524254,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -59801,12 +60071,19 @@
     "covered_group": [
       "PLAVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kang-taehyun",
+      "kim-mingi",
+      "kim-taehwan",
+      "yang-hwanhee",
+      "hwang-jiho"
+    ],
     "published_date": "2025-03-05",
     "content_type": "short",
     "view_count": 86208,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -59836,11 +60113,39 @@
       "yang-hwanhee",
       "hwang-jiho"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "PLAVE",
+        "covered_member": "예준"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "PLAVE",
+        "covered_member": "노아"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "PLAVE",
+        "covered_member": "밤비"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "PLAVE",
+        "covered_member": "은호"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "PLAVE",
+        "covered_member": "하민"
+      }
+    ],
     "published_date": "2025-03-05",
     "content_type": "video",
     "view_count": 300972,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -74974,8 +75279,7 @@
     "youtube_id": "7yjdb2Ro1Uc",
     "title": "[버스킹 여기서요?] 카이 KAI - 음 MMMH | 커버댄스 Dance Cover @여의도한강공원",
     "covered_group": [
-      "카이",
-      "EXO"
+      "카이"
     ],
     "tagged_members": [
       "kim-youngjin",
@@ -74989,7 +75293,7 @@
     "content_type": "video",
     "view_count": 319335,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2024y"
     ]
   },
   {
@@ -75031,7 +75335,9 @@
     "published_date": "2024-05-27",
     "content_type": "short",
     "view_count": 321399,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "pXIPPbUPxgA",
@@ -75043,7 +75349,9 @@
     "published_date": "2024-05-27",
     "content_type": "short",
     "view_count": 369936,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "ysB-hkpOBEc",
@@ -75052,12 +75360,44 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "jang-sein",
       "jeong-hyunjin",
-      "won-seoa",
+      "jang-sein",
       "aoki-yuka",
-      "seol-heejeong"
+      "seol-heejeong",
+      "won-seoa",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "NMIXX",
+        "covered_member": "릴리"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "NMIXX",
+        "covered_member": "해원"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "NMIXX",
+        "covered_member": "설윤"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "NMIXX",
+        "covered_member": "배이"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NMIXX",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NMIXX",
+        "covered_member": "규진"
+      }
     ],
     "published_date": "2024-05-27",
     "content_type": "video",
@@ -75186,6 +75526,33 @@
       "yang-hwanhee",
       "lim-donghun",
       "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2024-05-25",
     "content_type": "video",
@@ -76078,12 +76445,16 @@
   {
     "youtube_id": "aLwuIv-3Y3Y",
     "title": "20초 보면 클라스 알잖아🧐 #easy #방구석여기서요",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [],
     "published_date": "2024-05-15",
     "content_type": "short",
     "view_count": 199342,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "CkIto0tXx9w",
@@ -76144,11 +76515,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hojun",
+      "park-seongmin",
+      "yun-haeun",
+      "jeong-hyunjin",
+      "yang-hwanhee",
+      "chae-yunsu"
+    ],
     "published_date": "2024-05-14",
     "content_type": "short",
     "view_count": 106420,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "Gc-Xypkq22M",
@@ -76189,8 +76569,7 @@
     "content_type": "video",
     "view_count": 421405,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16"
     ]
   },
   {
@@ -76209,8 +76588,7 @@
     "content_type": "video",
     "view_count": 654625,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16"
     ]
   },
   {
@@ -76246,16 +76624,50 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "chae-yunsu",
-      "yang-hwanhee",
       "park-seongmin",
       "yun-haeun",
-      "jeong-hyunjin"
+      "jeong-hyunjin",
+      "yang-hwanhee",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-05-12",
     "content_type": "video",
     "view_count": 168523,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "IqMRDtplz4A",
@@ -76270,7 +76682,9 @@
     "published_date": "2024-05-12",
     "content_type": "video",
     "view_count": 377854,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "wibSjgxrSro",
@@ -76521,7 +76935,9 @@
     "published_date": "2024-05-09",
     "content_type": "short",
     "view_count": 149245,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "Gl-_KVtcm5c",
@@ -76531,7 +76947,9 @@
     "published_date": "2024-05-09",
     "content_type": "short",
     "view_count": 66002,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "MysOar32cJA",
@@ -76618,24 +77036,36 @@
     "youtube_id": "P8VOpm7AvxQ",
     "title": "있지 커버 장인 #UNTOUCHABLE #방구석여기서요",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [],
     "published_date": "2024-05-07",
     "content_type": "short",
     "view_count": 197637,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "QBFBgLN8lxE",
     "title": "이 춤 박자 맞추기가 왜케 어려워요? #DASH #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NMIXX"
+    ],
+    "tagged_members": [
+      "jeong-hyunjin",
+      "jang-sein",
+      "park-jaehee",
+      "seol-heejeong",
+      "won-seoa",
+      "yun-haeun"
+    ],
     "published_date": "2024-05-07",
     "content_type": "short",
     "view_count": 82426,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "vThWOiSB-gI",
@@ -76692,7 +77122,9 @@
     "published_date": "2024-05-06",
     "content_type": "short",
     "view_count": 85610,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "c2l6AMkyX5E",
@@ -76702,13 +77134,14 @@
     "published_date": "2024-05-06",
     "content_type": "short",
     "view_count": 85236,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "E6aSawYHy2o",
     "title": "[방구석 여기서요?] 있지 ITZY - UNTOUCHABLE | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -76720,7 +77153,9 @@
     "published_date": "2024-05-06",
     "content_type": "video",
     "view_count": 412482,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "WYRCMP2b6xw",
@@ -76740,22 +77175,42 @@
   {
     "youtube_id": "KpwkSz8_nVI",
     "title": "카메라맨 한대 맞은거 같은데?ㅋㅋㅋㅋ #dejavu #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "tagged_members": [
+      "kang-taehyun",
+      "park-seongmin",
+      "yang-hwanhee",
+      "lim-donghun",
+      "park-hyunmin"
+    ],
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 54673,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "jRH5-1xzDxU",
     "title": "나의 미래는 너야 #dejavu #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "tagged_members": [
+      "kang-taehyun",
+      "park-seongmin",
+      "yang-hwanhee",
+      "lim-donghun",
+      "park-hyunmin"
+    ],
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 37887,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "JPptFbe9APU",
@@ -76822,7 +77277,9 @@
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 542693,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "wY7YYCrzvaE",
@@ -76852,7 +77309,9 @@
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 142019,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "bgH1VH4BB54",
@@ -76866,7 +77325,9 @@
     "published_date": "2024-05-05",
     "content_type": "short",
     "view_count": 332032,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "ntWwrNMlSuE",
@@ -76875,35 +77336,91 @@
       "NMIXX"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "jang-sein",
       "jeong-hyunjin",
-      "won-seoa"
+      "jang-sein",
+      "park-jaehee",
+      "seol-heejeong",
+      "won-seoa",
+      "yun-haeun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-hyunjin",
+        "covered_group": "NMIXX",
+        "covered_member": "릴리"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "NMIXX",
+        "covered_member": "해원"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "NMIXX",
+        "covered_member": "설윤"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "NMIXX",
+        "covered_member": "배이"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NMIXX",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "NMIXX",
+        "covered_member": "규진"
+      }
     ],
     "published_date": "2024-05-05",
     "content_type": "video",
     "view_count": 317487,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "FPugcYj3TrM",
     "title": "체육관에서도 미모의 축복이 끝이 없네✨ #smart #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-hyunjin",
+      "yun-haeun",
+      "kim-hyerim",
+      "lee-gaeun"
+    ],
     "published_date": "2024-05-04",
     "content_type": "short",
     "view_count": 258860,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "MjVQBDG7UY4",
     "title": "이런 사람 홀리는 fox들을 봤나🦊 #smart #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-hyunjin",
+      "yun-haeun",
+      "kim-hyerim",
+      "lee-gaeun"
+    ],
     "published_date": "2024-05-04",
     "content_type": "short",
     "view_count": 126221,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "DcJD5nYZmao",
@@ -76993,28 +77510,56 @@
     "youtube_id": "Hadn8moi5uI",
     "title": "[방구석 여기서요?] TXT - Deja Vu | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "lim-donghun",
       "kang-taehyun",
+      "park-seongmin",
       "yang-hwanhee",
-      "park-seongmin"
+      "lim-donghun",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2024-05-04",
     "content_type": "video",
     "view_count": 209061,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "HjhZeu0SFTo",
     "title": "가챠샵에 행운 가져왔어~🍀 #LuckyGirlSyndrome #하은 #유카 #haeun #yuka #오사카 #가챠",
     "covered_group": [],
     "tagged_members": [
-      "yun-haeun"
+      "yun-haeun",
+      "aoki-yuka"
     ],
     "published_date": "2024-05-04",
     "content_type": "short",
@@ -77060,7 +77605,8 @@
     "title": "훈내가 여기까지 나는거 같은데😏 #likeido #진 #경주 #jin #kj",
     "covered_group": [],
     "tagged_members": [
-      "kim-kyungju"
+      "kim-kyungju",
+      "won-jin"
     ],
     "published_date": "2024-05-03",
     "content_type": "short",
@@ -77073,7 +77619,8 @@
     "covered_group": [],
     "tagged_members": [
       "lee-gaeun",
-      "yun-haeun"
+      "yun-haeun",
+      "aoki-yuka"
     ],
     "published_date": "2024-05-02",
     "content_type": "short",
@@ -77084,7 +77631,10 @@
     "youtube_id": "dkFtKypme7I",
     "title": "꽁꽁 얼어붙은 체육관에 고양이가 걸어다닙니다",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-jaehee",
+      "lim-jiwoo"
+    ],
     "published_date": "2024-05-02",
     "content_type": "short",
     "view_count": 80503,
@@ -77152,22 +77702,46 @@
   {
     "youtube_id": "gBRW-Gb1CWQ",
     "title": "래퍼 라인이 다 너무 좋은데 어쩌죠? #sheesh #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-05-02",
     "content_type": "short",
     "view_count": 238056,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "A2Iw5wk0QQY",
     "title": "오프닝을 몇번째 돌려보는지 모르겠네🥹 #sheesh #방구석여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-05-02",
     "content_type": "short",
     "view_count": 1053265,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "X-gN0PN8vvE",
@@ -77975,63 +78549,123 @@
     "youtube_id": "Eu060kbBxQA",
     "title": "연습실에서 일어난 기괴한 일😱",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "yun-haeun",
+      "park-jaehee",
+      "lim-jiwoo",
+      "aoki-yuka",
+      "kim-chan"
+    ],
     "published_date": "2024-04-17",
     "content_type": "short",
     "view_count": 83305,
-    "content_series": []
+    "content_series": [
+      "이상한 연습실"
+    ]
   },
   {
     "youtube_id": "AzEYte9XJaU",
     "title": "아무도 믿을 수 없다? '마그네틱' 연습 중에 생긴 일 | 이상한 연습실 Ep.1",
     "covered_group": [],
     "tagged_members": [
-      "yun-haeun"
+      "yun-haeun",
+      "park-jaehee",
+      "lim-jiwoo",
+      "aoki-yuka",
+      "kim-chan"
     ],
     "published_date": "2024-04-17",
     "content_type": "video",
     "view_count": 93375,
-    "content_series": []
+    "content_series": [
+      "이상한 연습실"
+    ]
   },
   {
     "youtube_id": "W1POKsjUDlI",
     "title": "진짜 이건 예상 못 했다🙏🏻 #DejaVu #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "tagged_members": [
+      "kang-taehyun",
+      "park-seongmin",
+      "yang-hwanhee",
+      "lim-donghun",
+      "park-hyunmin"
+    ],
     "published_date": "2024-04-17",
     "content_type": "short",
     "view_count": 72566,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "qBXhDq6Bfzo",
     "title": "변주되는 구간 쾌감 미침ㅠ #SHEESH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-04-16",
     "content_type": "short",
     "view_count": 722644,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "227uXRfnyWg",
     "title": "'청순랩퍼'란 별명이 생긴 이유  #SHEESH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-04-16",
     "content_type": "short",
     "view_count": 451849,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "hlWfi3ODCng",
     "title": "눈을 뜬 순간 피어나🌷  #SHEESH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-04-16",
     "content_type": "short",
     "view_count": 933034,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "kjCrqOeV058",
@@ -78064,33 +78698,70 @@
     "youtube_id": "Bv9FHuAjYdo",
     "title": "[여기서요?] TXT - Deja Vu | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "park-hyunmin",
-      "lim-donghun",
       "kang-taehyun",
+      "park-seongmin",
       "yang-hwanhee",
-      "park-seongmin"
+      "lim-donghun",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2024-04-16",
     "content_type": "video",
     "view_count": 538366,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
     "youtube_id": "vtqsTb0FZe0",
     "title": "오늘은 우리가 힙합 몬스터~ 😈 #SHEESH #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "jeon-minseo",
+      "lee-gaeun",
+      "oh-yubin",
+      "seol-heejeong",
+      "aoki-yuka",
+      "ahn-yoojin"
+    ],
     "published_date": "2024-04-15",
     "content_type": "short",
     "view_count": 870851,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "qAZZDQOX78A",
@@ -80278,12 +80949,23 @@
   {
     "youtube_id": "TQs6KJAkXgo",
     "title": "첫 촬영은 너무 어려워😅 #첫만남은계획대로되지않아 #릴레이댄스  #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "hwang-jiho",
+      "kim-suhwan",
+      "ahn-gihyun",
+      "lim-donghun",
+      "yang-hwanhee",
+      "chae-yunsu"
+    ],
     "published_date": "2024-02-09",
     "content_type": "short",
     "view_count": 206877,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "c90gxi6JN6Y",
