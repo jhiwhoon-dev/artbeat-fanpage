@@ -12572,13 +12572,6 @@
     "view_count": 208208,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "kim-hojun",
-      "do-hyeonsung",
-      "ha-seyoung",
-      "ha-jeuki",
-      "sa-jinhyuk"
     ]
   },
   {
@@ -12611,14 +12604,6 @@
     "view_count": 92564,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "do-hyeonsung",
-      "ha-seyoung",
-      "ha-jeuki",
-      "kim-nakyeong",
-      "yeo-gawoo",
-      "sa-jinhyuk"
     ]
   },
   {
@@ -12635,14 +12620,6 @@
     "view_count": 62337,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "do-hyeonsung",
-      "ha-seyoung",
-      "ha-jeuki",
-      "won-hyegyeong",
-      "yeo-gawoo",
-      "sa-jinhyuk"
     ]
   },
   {
@@ -12659,14 +12636,6 @@
     "view_count": 127978,
     "content_series": [
       "AB PRACTICE::2026y"
-    ],
-    "tagged_members": [
-      "do-hyeonsung",
-      "ha-seyoung",
-      "ha-jeuki",
-      "aoki-yuka",
-      "yu-minhye",
-      "sa-jinhyuk"
     ]
   },
   {
@@ -20089,8 +20058,7 @@
     "youtube_id": "4WiFi9dBeGA",
     "title": "#결경 'NCT WISH - Hello Mellow' Dance Cover #Gyeolgyeong",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "jeong-gyeolgyeong"
@@ -21507,7 +21475,9 @@
   {
     "youtube_id": "QnFBEQj2feo",
     "title": "#소은 'Girls' Generation - Kissing You' Dance Cover #Soeun",
-    "covered_group": [],
+    "covered_group": [
+      "소녀시대"
+    ],
     "tagged_members": [
       "kim-soeun"
     ],
@@ -35153,8 +35123,7 @@
     "youtube_id": "evAXbqldM44",
     "title": "#현성 'NCT WISH - COLOR' Dance Cover #Hyeonsung",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "do-hyeonsung"
@@ -35197,7 +35166,9 @@
   {
     "youtube_id": "Vtdz8Wffu0g",
     "title": "#소은 'Love Is - Chains' Dance Cover #Soeun",
-    "covered_group": [],
+    "covered_group": [
+      "BOYS Ⅱ PLANET::Love Is"
+    ],
     "tagged_members": [
       "kim-soeun"
     ],
@@ -35812,8 +35783,7 @@
     "youtube_id": "7xueKrf1i98",
     "title": "#서아 'NCT WISH - COLOR' Dance Cover #Seoa",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "won-seoa"
@@ -39553,57 +39523,116 @@
     "youtube_id": "gbqzgj8Auy4",
     "title": "가까이 와달라고 하면 저는 감사합니다🫣 #poppop #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "ha-jeuki",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "won-seoa"
+    ],
     "published_date": "2025-09-04",
     "content_type": "short",
     "view_count": 30501,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "3STqjh0fFm0",
     "title": "춤도 춤인데 바지가 시강 아닌가요!?🔥 #poppop #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "ha-jeuki",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "won-seoa"
+    ],
     "published_date": "2025-09-04",
     "content_type": "short",
     "view_count": 26561,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "5qq_WcOUYIY",
     "title": "내 마음도 poppop🎉 #poppop #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "ha-jeuki",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "won-seoa"
+    ],
     "published_date": "2025-09-04",
     "content_type": "short",
     "view_count": 26099,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "6uF-sKfaEB4",
     "title": "[방구석 여기서요?] 엔시티 위시 NCT WISH - poppop | 커버댄스 Dance Cover",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "chae-yunsu",
+      "ha-jeuki",
+      "jeong-gyeolgyeong",
+      "jang-daehyeon",
+      "do-hyeonsung",
+      "won-seoa"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2025-09-04",
     "content_type": "video",
     "view_count": 130833,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -52637,7 +52666,13 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-05-12",
     "content_type": "short",
     "view_count": 142736,
@@ -52651,7 +52686,13 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-05-12",
     "content_type": "short",
     "view_count": 91011,
@@ -52665,7 +52706,13 @@
     "covered_group": [
       "투모로우바이투게더"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "hwang-jiho",
+      "do-hyeonsung",
+      "park-seongmin",
+      "kang-taehyun",
+      "yang-hwanhee"
+    ],
     "published_date": "2025-05-12",
     "content_type": "short",
     "view_count": 53046,
@@ -52748,6 +52795,33 @@
       "park-seongmin",
       "kang-taehyun",
       "yang-hwanhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2025-05-12",
     "content_type": "video",
@@ -62604,7 +62678,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kim-chan",
+      "do-hyeonsung",
+      "lim-donghun"
+    ],
     "published_date": "2025-02-08",
     "content_type": "short",
     "view_count": 36327,
@@ -62618,7 +62699,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kim-chan",
+      "do-hyeonsung",
+      "lim-donghun"
+    ],
     "published_date": "2025-02-08",
     "content_type": "short",
     "view_count": 19159,
@@ -62632,7 +62720,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "won-seoa",
+      "jeong-gyeolgyeong",
+      "kim-chan",
+      "do-hyeonsung",
+      "lim-donghun"
+    ],
     "published_date": "2025-02-08",
     "content_type": "short",
     "view_count": 17425,
@@ -62647,11 +62742,44 @@
       "NCT::NCT WISH"
     ],
     "tagged_members": [
-      "lim-donghun",
       "chae-yunsu",
-      "do-hyeonsung",
+      "won-seoa",
       "jeong-gyeolgyeong",
-      "won-seoa"
+      "kim-chan",
+      "do-hyeonsung",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      }
     ],
     "published_date": "2025-02-08",
     "content_type": "video",
@@ -62895,7 +63023,8 @@
     "content_type": "short",
     "view_count": 1218833,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -62923,7 +63052,8 @@
     "content_type": "short",
     "view_count": 119936,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -62937,7 +63067,8 @@
     "content_type": "short",
     "view_count": 147922,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2025y"
     ]
   },
   {
@@ -62946,11 +63077,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-donghun",
+      "do-hyeonsung",
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-02-05",
     "content_type": "short",
     "view_count": 17451,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "IV8UZuxKJ6g",
@@ -62958,11 +63098,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-donghun",
+      "do-hyeonsung",
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-02-05",
     "content_type": "short",
     "view_count": 12895,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "3O_9qC3AqXw",
@@ -62970,11 +63119,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-donghun",
+      "do-hyeonsung",
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
     "published_date": "2025-02-05",
     "content_type": "short",
     "view_count": 14135,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "mdt4iL3QG78",
@@ -63034,9 +63192,43 @@
     ],
     "tagged_members": [
       "lim-donghun",
-      "chae-yunsu",
       "do-hyeonsung",
-      "yang-hwanhee"
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2025-02-05",
     "content_type": "video",
@@ -65319,74 +65511,98 @@
   {
     "youtube_id": "pICzWyy_OWk",
     "title": "잠들기 전에 동훈 한 스푼 🥣 #마지막축제 #동훈 #Donghun",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "lim-donghun"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 30174,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "IomLpYqIS-o",
     "title": "엔딩 포즈에 늘 진심인걸..? #마지막축제 #환희 #Hwanhee",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "yang-hwanhee"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 14645,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "EE80Az4nA50",
     "title": "솔로 파트 간지 폭발!! 🤯 #마지막축제 #다빈 #Dabin",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "lee-dabin"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 8997,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "Js-LxsOQj8k",
     "title": "신발에 스프링 달려있나요? #마지막축제 #재신 #Jaeshin",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "kang-jaesin"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 15829,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "rFpyaotQpPk",
     "title": "헤어밴드 쓰고 신난 댕댕이 #마지막축제 #현성 #Hyeonsung",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "do-hyeonsung"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 10510,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "vFOH4TTkofc",
     "title": "이래도 윤수가 최애가 아니라고!?😏 #마지막축제 #윤수 #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "투어스"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
     "published_date": "2025-01-08",
     "content_type": "short",
     "view_count": 14638,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2025y"
+    ]
   },
   {
     "youtube_id": "A57T2T-3O-A",
@@ -65954,13 +66170,15 @@
     "youtube_id": "YItLZrrwrfs",
     "title": "[방구석 여기서요? S18] 아무리 싸우면서 큰다지만.. 얘들 또 싸워요🤦🏻‍♂️",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong"
+    ],
     "published_date": "2024-12-17",
     "content_type": "video",
     "view_count": 102145,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -65987,15 +66205,49 @@
     ],
     "tagged_members": [
       "lim-donghun",
-      "chae-yunsu",
       "do-hyeonsung",
-      "yang-hwanhee"
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-12-16",
     "content_type": "video",
     "view_count": 24399,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2024y"
     ]
   },
   {
@@ -66004,7 +66256,14 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-donghun",
+      "do-hyeonsung",
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
     "published_date": "2024-12-16",
     "content_type": "short",
     "view_count": 39833,
@@ -66144,15 +66403,49 @@
     ],
     "tagged_members": [
       "lim-donghun",
-      "chae-yunsu",
       "do-hyeonsung",
-      "yang-hwanhee"
+      "lee-dabin",
+      "yang-hwanhee",
+      "kang-jaesin",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "kang-jaesin",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-12-14",
     "content_type": "video",
     "view_count": 106997,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -69763,11 +70056,20 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-jin",
+      "jeong-gyeolgyeong",
+      "won-seoa",
+      "kim-chan",
+      "do-hyeonsung",
+      "chae-yunsu"
+    ],
     "published_date": "2024-10-23",
     "content_type": "short",
     "view_count": 28790,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S17"
+    ]
   },
   {
     "youtube_id": "_Qxqwt4LqHI",
@@ -70028,15 +70330,51 @@
       "투어스"
     ],
     "tagged_members": [
-      "chae-yunsu",
-      "do-hyeonsung",
+      "won-jin",
       "jeong-gyeolgyeong",
-      "won-seoa"
+      "won-seoa",
+      "kim-chan",
+      "do-hyeonsung",
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-jin",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-10-14",
     "content_type": "video",
     "view_count": 182412,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S17"
+    ]
   },
   {
     "youtube_id": "BpG4wAgGrjw",
@@ -70757,7 +71095,14 @@
     "covered_group": [
       "NCT::NCT WISH"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "do-hyeonsung",
+      "kang-yejin",
+      "won-jin",
+      "ha-jeuki",
+      "jeong-gyeolgyeong"
+    ],
     "published_date": "2024-10-04",
     "content_type": "short",
     "view_count": 29157,
@@ -70878,6 +71223,38 @@
       "won-jin",
       "ha-jeuki",
       "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "시온"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "재희"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "유우시"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "사쿠야"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "리쿠"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "NCT::NCT WISH",
+        "covered_member": "료"
+      }
     ],
     "published_date": "2024-10-02",
     "content_type": "video",
@@ -72207,12 +72584,16 @@
   {
     "youtube_id": "YMeag77Edas",
     "title": "스키즈 춤에 진심인... 할머니(?)👵🏻 #ChkChkBoom #릴레이댄스 #RelayDance",
-    "covered_group": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
     "tagged_members": [],
     "published_date": "2024-08-06",
     "content_type": "short",
     "view_count": 166807,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "N6cp4yCoqTg",
@@ -72249,7 +72630,9 @@
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 44346,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "6kF7T4N75ec",
@@ -72263,7 +72646,9 @@
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 22423,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "n_nh31HdHWg",
@@ -72271,11 +72656,15 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-chan"
+    ],
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 44335,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "WK1FY6NN0PI",
@@ -72289,7 +72678,9 @@
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 23764,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "F7zW3vQ1OAI",
@@ -72303,7 +72694,9 @@
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 11786,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "ysVJN1sHClg",
@@ -72311,11 +72704,15 @@
     "covered_group": [
       "투어스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-jin"
+    ],
     "published_date": "2024-08-03",
     "content_type": "short",
     "view_count": 11934,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "i3LHqwXpor4",
@@ -72324,10 +72721,44 @@
       "투어스"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "won-jin",
+      "jeong-gyeolgyeong",
       "kang-taehyun",
+      "kim-chan",
       "do-hyeonsung",
-      "jeong-gyeolgyeong"
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-jin",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-08-02",
     "content_type": "video",
@@ -72448,21 +72879,41 @@
     "youtube_id": "_nOgexyF21k",
     "title": "우리 간단하게 게임 한번 해볼까? | 이상한 연습실 Ep.6-1",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "won-seoa",
+      "kim-chan",
+      "yun-haeun",
+      "park-seongmin",
+      "do-hyeonsung",
+      "won-jin"
+    ],
     "published_date": "2024-07-28",
     "content_type": "video",
     "view_count": 67925,
-    "content_series": []
+    "content_series": [
+      "이상한 연습실"
+    ]
   },
   {
     "youtube_id": "FxZT7ytMcFo",
     "title": "내가 애쓰면 넌 나의 애인이 되어줘 #내가s면넌나의n이되어줘 #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투어스"
+    ],
+    "tagged_members": [
+      "won-jin",
+      "jeong-gyeolgyeong",
+      "kang-taehyun",
+      "kim-chan",
+      "do-hyeonsung",
+      "chae-yunsu"
+    ],
     "published_date": "2024-07-28",
     "content_type": "short",
     "view_count": 94907,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "e4mvlnyHhws",
@@ -72471,16 +72922,51 @@
       "투어스"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "won-jin",
+      "jeong-gyeolgyeong",
       "kang-taehyun",
+      "kim-chan",
       "do-hyeonsung",
-      "jeong-gyeolgyeong"
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-jin",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-07-28",
     "content_type": "video",
     "view_count": 49417,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2024y"
     ]
   },
   {
@@ -72553,15 +73039,51 @@
       "투어스"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "won-jin",
+      "jeong-gyeolgyeong",
       "kang-taehyun",
+      "kim-chan",
       "do-hyeonsung",
-      "jeong-gyeolgyeong"
+      "chae-yunsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-jin",
+        "covered_group": "투어스",
+        "covered_member": "신유"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "투어스",
+        "covered_member": "도훈"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "투어스",
+        "covered_member": "영재"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "한진"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "지훈"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "경민"
+      }
     ],
     "published_date": "2024-07-25",
     "content_type": "video",
     "view_count": 193461,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "OiD6lhUISI4",
@@ -78165,7 +78687,11 @@
     "title": "오랜만에 촬영 끝나고 라이브 먹방~ | 하은, 찬, 지우, 재희, 유카 | Haeun, Chan, Jiwoo, Jaehee, Yuka",
     "covered_group": [],
     "tagged_members": [
-      "yun-haeun"
+      "yun-haeun",
+      "kim-chan",
+      "lim-jiwoo",
+      "park-jaehee",
+      "aoki-yuka"
     ],
     "published_date": "2024-04-06",
     "content_type": "live",
@@ -78179,23 +78705,24 @@
       "투어스"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "chae-yunsu",
-      "ahn-gihyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin",
       "ahn-yoojin",
       "lim-jiwoo",
       "kim-chan",
-      "lee-dabin"
+      "chae-yunsu",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hojun",
+      "park-seongmin",
+      "lee-dabin",
+      "yang-hwanhee",
+      "do-hyeonsung"
     ],
     "published_date": "2024-04-05",
     "content_type": "video",
     "view_count": 101105,
     "content_series": [
-      "AB STAGE::2024y"
+      "AB STAGE::2024y",
+      "행사::2024y"
     ]
   },
   {
@@ -78205,23 +78732,24 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "chae-yunsu",
-      "ahn-gihyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin",
       "ahn-yoojin",
       "lim-jiwoo",
       "kim-chan",
-      "lee-dabin"
+      "chae-yunsu",
+      "ahn-gihyun",
+      "kim-taehwan",
+      "kim-hojun",
+      "park-seongmin",
+      "lee-dabin",
+      "yang-hwanhee",
+      "do-hyeonsung"
     ],
     "published_date": "2024-04-05",
     "content_type": "video",
     "view_count": 88683,
     "content_series": [
-      "AB STAGE::2024y"
+      "AB STAGE::2024y",
+      "행사::2024y"
     ]
   },
   {
@@ -78231,7 +78759,8 @@
       "ILLIT"
     ],
     "tagged_members": [
-      "park-seongmin"
+      "park-seongmin",
+      "lim-jiwoo"
     ],
     "published_date": "2024-04-01",
     "content_type": "short",
@@ -78479,8 +79008,7 @@
     "youtube_id": "h2p5Wb0_qVU",
     "title": "#다빈 'NCT WISH - WISH’ Dance Cover #dabin",
     "covered_group": [
-      "NCT WISH",
-      "NCT WISH"
+      "NCT::NCT WISH"
     ],
     "tagged_members": [
       "lee-dabin"
@@ -78495,6 +79023,7 @@
     "title": "#유카 #하즈키 'STUPID IN LOVE' Challlenge #Yuka #Hazuki #ゆか ＃はづき",
     "covered_group": [],
     "tagged_members": [
+      "aoki-yuka",
       "ha-jeuki"
     ],
     "published_date": "2024-03-14",
@@ -80766,22 +81295,48 @@
     "youtube_id": "VvUf7W6G4N4",
     "title": "[나는 신입 ep.4 | 방구석 여기서요?] TXT - Chasing That Feeling | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kang-taehyun",
+      "hong-seokju",
+      "lee-dabin",
       "do-hyeonsung",
-      "yang-hwanhee",
-      "park-seongmin"
+      "park-seongmin",
+      "yang-hwanhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hong-seokju",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2024-01-28",
     "content_type": "video",
     "view_count": 172097,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S15",
+      "나는 신입::2024y"
     ]
   },
   {
@@ -80790,11 +81345,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-jeuki",
+      "lee-gaeun",
+      "oh-yubin",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "ha-seyoung"
+    ],
     "published_date": "2024-01-27",
     "content_type": "short",
     "view_count": 192212,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "NxBvP7k-6B0",
@@ -80802,11 +81366,20 @@
     "covered_group": [
       "NMIXX"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-jeuki",
+      "lee-gaeun",
+      "oh-yubin",
+      "kang-yejin",
+      "jeong-gyeolgyeong",
+      "ha-seyoung"
+    ],
     "published_date": "2024-01-27",
     "content_type": "short",
     "view_count": 106245,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S15"
+    ]
   },
   {
     "youtube_id": "abapwmzOfr0",
@@ -117105,7 +117678,7 @@
     "content_type": "video",
     "view_count": 79401,
     "content_series": [
-      "AB 자기소개::2022y"
+      "자기소개::AB::2022y"
     ]
   },
   {
@@ -157703,12 +158276,7 @@
     "covered_group": [
       "BLACKPINK"
     ],
-    "tagged_members": [
-      "park-soyoung",
-      "yunsu",
-      "her-naeun",
-      "park-sunyoung"
-    ],
+    "tagged_members": [],
     "published_date": "2017-09-29",
     "content_type": "video",
     "view_count": 1228966,
