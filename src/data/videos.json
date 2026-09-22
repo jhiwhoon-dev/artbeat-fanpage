@@ -37945,7 +37945,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-minji",
+      "jang-sein",
+      "jeong-yoojin"
+    ],
+    "special_dancers": [
+      "park-hyunmin",
+      "park-seongmin",
+      "lee-garam",
+      "cho-gyuso"
+    ],
     "published_date": "2025-09-14",
     "content_type": "short",
     "view_count": 64857,
@@ -37967,7 +37978,7 @@
     ],
     "special_dancers": [
       "park-hyunmin",
-      "lim-donghun",
+      "park-seongmin",
       "lee-garam",
       "cho-gyuso"
     ],
@@ -37992,7 +38003,7 @@
     ],
     "special_dancers": [
       "park-hyunmin",
-      "lim-donghun",
+      "park-seongmin",
       "lee-garam",
       "cho-gyuso"
     ],
@@ -70557,7 +70568,15 @@
     "covered_group": [
       "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "chae-yunsu",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-mingi",
+      "won-jin"
+    ],
     "published_date": "2024-10-22",
     "content_type": "short",
     "view_count": 49033,
@@ -70571,7 +70590,15 @@
     "covered_group": [
       "NCT::NCT DREAM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "chae-yunsu",
+      "hwang-jiho",
+      "park-seongmin",
+      "kim-mingi",
+      "won-jin"
+    ],
     "published_date": "2024-10-22",
     "content_type": "short",
     "view_count": 18573,
@@ -70966,6 +70993,43 @@
       "park-seongmin",
       "kim-mingi",
       "won-jin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-10-12",
     "content_type": "video",
@@ -76731,6 +76795,43 @@
       "lim-donghun",
       "park-seongmin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
+    ],
     "published_date": "2024-05-18",
     "content_type": "video",
     "view_count": 205469,
@@ -79674,6 +79775,43 @@
       "park-seongmin",
       "won-jin",
       "lee-dabin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2024-04-10",
     "content_type": "video",
@@ -144346,17 +144484,61 @@
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "park-seongmin",
-      "park-sunyoung",
-      "park-soyoung",
+      "lee-jihoon",
+      "park-jaebum",
+      "park-sunwoo",
       "kwon-soyoung",
-      "jeong-hyunjin"
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "park-sunyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      }
     ],
     "published_date": "2020-01-25",
     "content_type": "video",
     "view_count": 68173,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -144467,21 +144649,66 @@
     "youtube_id": "Y6I5Lvf_MYk",
     "title": "[여기서요?] 스트레이키즈 Stray Kids - 바람 Levanter | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "KiiiKiii",
       "Stray Kids"
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "park-seongmin",
-      "park-sunyoung",
-      "park-soyoung",
+      "lee-jihoon",
+      "park-jaebum",
+      "park-sunwoo",
       "kwon-soyoung",
-      "jeong-hyunjin"
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "park-sunyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      }
     ],
     "published_date": "2020-01-21",
     "content_type": "video",
     "view_count": 241994,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2020y"
+    ]
   },
   {
     "youtube_id": "hLrC1RsMTeI",
@@ -144491,16 +144718,63 @@
     ],
     "tagged_members": [
       "kwon-dohyun",
-      "park-seongmin",
-      "park-sunyoung",
-      "park-soyoung",
+      "lee-jihoon",
+      "park-jaebum",
+      "park-sunwoo",
       "kwon-soyoung",
-      "jeong-hyunjin"
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "park-sunyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "Stray Kids",
+        "covered_member": "리노"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "Stray Kids",
+        "covered_member": "한"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "Stray Kids",
+        "covered_member": "필릭스"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "아이엔"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "Stray Kids",
+        "covered_member": "승민"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "Stray Kids",
+        "covered_member": "창빈"
+      }
     ],
     "published_date": "2020-01-20",
     "content_type": "video",
     "view_count": 126804,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Gm71sa8iHY4",
@@ -147255,19 +147529,96 @@
     "youtube_id": "NEmh2Hh3cEM",
     "title": "[여기서요?] SEVENTEEN 세븐틴 - HIT (Black & White ver.) | 커버댄스 DANCE COVER @SBS슈퍼콘서트",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-10-14",
     "content_type": "video",
     "view_count": 2619382,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "7ThpZlt2gqo",
@@ -147540,18 +147891,97 @@
     "youtube_id": "QSFkUCFs4IU",
     "title": "[AB 직캠] SEVENTEEN 세븐틴 - HIT | Dance Cover 커버댄스 @SBS슈퍼콘서트",
     "covered_group": [
-      "IVE"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-10-11",
     "content_type": "video",
     "view_count": 161832,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "boLEt9Qxw50",
@@ -148347,19 +148777,97 @@
     "youtube_id": "yKLxaQz6zyQ",
     "title": "음향사고에 대처하는 AB의 자세 | SEVENTEEN 세븐틴 - HIT | 커버댄스 Dance Cover @금호강 바람소리길 축제",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-09-28",
     "content_type": "video",
     "view_count": 415989,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "WKcJaY3otaY",
@@ -148753,20 +149261,95 @@
     "youtube_id": "8JSI3ZuAQWI",
     "title": "SEVENTEEN 세븐틴 - HIT | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-09-15",
     "content_type": "video",
     "view_count": 583802,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -148846,37 +149429,195 @@
     "youtube_id": "4VDxJVSBXJo",
     "title": "[AB] SEVENTEEN 세븐틴 - HIT | 커버댄스 DANCE COVER",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "support": [
+      "C.G BON"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-09-14",
     "content_type": "video",
     "view_count": 866896,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "wAibUrey37Q",
     "title": "[여기서요?] SEVENTEEN 세븐틴 - HIT | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "세븐틴",
-      "호시"
+      "세븐틴"
     ],
     "tagged_members": [
       "yun-jihong",
-      "kwon-dohyun",
       "park-munsu",
-      "park-seongmin"
+      "kim-jaewook",
+      "park-jaebum",
+      "lee-jihoon",
+      "park-sunwoo",
+      "kim-woonggyeom",
+      "kim-chanhee",
+      "kim-youngjae",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "gyungmin",
+      "lee-moonkyu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "park-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-youngjae",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2019-09-12",
     "content_type": "video",
     "view_count": 4723653,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "ktwbcm6Xi_Y",
