@@ -62336,7 +62336,9 @@
   {
     "youtube_id": "YfeFkMEVjdc",
     "title": "#위나 #예린 'GFRIEND - 우리의 다정한 계절 속에' Dance Cover #Yerin #Wina",
-    "covered_group": [],
+    "covered_group": [
+      "여자친구"
+    ],
     "tagged_members": [
       "lee-wina",
       "shin-yerin"
@@ -86072,7 +86074,13 @@
     "covered_group": [
       "Red Velvet"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
     "published_date": "2024-01-21",
     "content_type": "short",
     "view_count": 129598,
@@ -86086,7 +86094,13 @@
     "covered_group": [
       "Red Velvet"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
     "published_date": "2024-01-21",
     "content_type": "short",
     "view_count": 140640,
@@ -86937,7 +86951,9 @@
   {
     "youtube_id": "CAqh2Lg_xTE",
     "title": "[#나의멘토] 'NiziU - HEARTRIS' #예린 #하즈키 #Yerin #Hazuki #ab_newcomer",
-    "covered_group": [],
+    "covered_group": [
+      "NiziU"
+    ],
     "tagged_members": [
       "ha-jeuki",
       "shin-yerin"
@@ -87469,12 +87485,22 @@
   {
     "youtube_id": "zNGE6tpznho",
     "title": "칠킬의 등장 마치 Thunder⚡️ #ChillKill #RealyDance #릴레이댄스",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Red Velvet"
+    ],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "seol-heejeong",
+      "oh-yubin",
+      "shin-yerin"
+    ],
     "published_date": "2023-12-12",
     "content_type": "short",
     "view_count": 569938,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2023y"
+    ]
   },
   {
     "youtube_id": "L9vWwVpNqWo",
@@ -87537,7 +87563,7 @@
     "content_type": "short",
     "view_count": 126871,
     "content_series": [
-      "나는 신입"
+      "나는 신입::2024y"
     ]
   },
   {
