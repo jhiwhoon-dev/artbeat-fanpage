@@ -10630,6 +10630,83 @@
       "kim-nakyeong",
       "lee-jeonghee"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      }
+    ],
     "published_date": "2026-05-28",
     "content_type": "video",
     "view_count": 177966,
@@ -13633,6 +13710,83 @@
       "kim-nakyeong",
       "lee-jeonghee"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ATEEZ",
+        "covered_member": "ATEEZ"
+      }
+    ],
     "song_group": "ateez-adrenaline-2026",
     "published_date": "2026-04-24",
     "content_type": "video",
@@ -14319,7 +14473,14 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-chan",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2026-04-18",
     "content_type": "short",
     "view_count": 60106,
@@ -14333,7 +14494,14 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-chan",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2026-04-18",
     "content_type": "short",
     "view_count": 146195,
@@ -14347,7 +14515,14 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-chan",
+      "jang-sein",
+      "won-seoa"
+    ],
     "published_date": "2026-04-18",
     "content_type": "short",
     "view_count": 46905,
@@ -14362,11 +14537,44 @@
       "izna"
     ],
     "tagged_members": [
-      "yun-haeun",
       "ha-seyoung",
+      "yun-haeun",
       "oh-yubin",
+      "kim-chan",
       "jang-sein",
       "won-seoa"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "izna",
+        "covered_member": "방지민"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "izna",
+        "covered_member": "최정은"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "izna",
+        "covered_member": "정세비"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "izna",
+        "covered_member": "유사랑"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "izna",
+        "covered_member": "코코"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "izna",
+        "covered_member": "마이"
+      }
     ],
     "published_date": "2026-04-18",
     "content_type": "video",
@@ -18800,7 +19008,8 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "won-seoa"
+      "won-seoa",
+      "kim-chan"
     ],
     "published_date": "2026-02-24",
     "content_type": "short",
@@ -20875,7 +21084,7 @@
     "youtube_id": "EApFvl639pk",
     "title": "#서아 'ALPHA DRIVE ONE - FREAK ALARM' Dance Cover #Seoa",
     "covered_group": [
-      "IVE"
+      "ALPHA DRIVE ONE"
     ],
     "tagged_members": [
       "won-seoa"
@@ -34965,7 +35174,7 @@
     "youtube_id": "iWd5N9HIdQs",
     "title": "#서아 'TWS - OVERDRIVE' Dance Cover #Seoa",
     "covered_group": [
-      "IVE"
+      "투어스"
     ],
     "tagged_members": [
       "won-seoa"
@@ -39184,11 +39393,20 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "jang-sein",
+      "kim-chan",
+      "oh-yubin",
+      "won-seoa"
+    ],
     "published_date": "2025-09-09",
     "content_type": "short",
     "view_count": 62805,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "_KMf_-gmrbQ",
@@ -39196,11 +39414,20 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "jang-sein",
+      "kim-chan",
+      "oh-yubin",
+      "won-seoa"
+    ],
     "published_date": "2025-09-09",
     "content_type": "short",
     "view_count": 43404,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "6oC3KDxrytM",
@@ -39208,32 +39435,73 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "jang-sein",
+      "kim-chan",
+      "oh-yubin",
+      "won-seoa"
+    ],
     "published_date": "2025-09-09",
     "content_type": "short",
     "view_count": 62584,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "K9GT8THphL4",
     "title": "[방구석 여기서요?] 이즈나 izna - BEEP | 커버댄스 Dance Cover",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
-      "yun-haeun",
       "ha-seyoung",
-      "oh-yubin",
+      "yun-haeun",
       "jang-sein",
+      "kim-chan",
+      "oh-yubin",
       "won-seoa"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "izna",
+        "covered_member": "방지민"
+      },
+
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "izna",
+        "covered_member": "최정은"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "izna",
+        "covered_member": "정세비"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "izna",
+        "covered_member": "유사랑"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "izna",
+        "covered_member": "코코"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "izna",
+        "covered_member": "마이"
+      }
     ],
     "published_date": "2025-09-09",
     "content_type": "video",
     "view_count": 300492,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S20"
     ]
   },
   {
@@ -41439,11 +41707,18 @@
     "covered_group": [
       "BLACKPINK"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "won-seoa",
+      "jang-sein",
+      "ahn-yoojin"
+    ],
     "published_date": "2025-08-26",
     "content_type": "short",
     "view_count": 130449,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "GmmkERN86p0",
@@ -41451,11 +41726,18 @@
     "covered_group": [
       "BLACKPINK"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "won-seoa",
+      "jang-sein",
+      "ahn-yoojin"
+    ],
     "published_date": "2025-08-26",
     "content_type": "short",
     "view_count": 293844,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "eR524-Os7ug",
@@ -41463,11 +41745,18 @@
     "covered_group": [
       "BLACKPINK"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "won-seoa",
+      "jang-sein",
+      "ahn-yoojin"
+    ],
     "published_date": "2025-08-26",
     "content_type": "short",
     "view_count": 210711,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S20"
+    ]
   },
   {
     "youtube_id": "L4xa_mj4DgI",
@@ -65981,11 +66270,21 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-chan",
+      "jang-sein",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 128587,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "h5IZx7GPgH8",
@@ -65993,11 +66292,21 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-chan",
+      "jang-sein",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 113678,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "FpOzamkkdF0",
@@ -66005,33 +66314,80 @@
     "covered_group": [
       "izna"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-chan",
+      "jang-sein",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim",
+      "won-seoa"
+    ],
     "published_date": "2025-01-23",
     "content_type": "short",
     "view_count": 164081,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "HUKibo0su18",
     "title": "[방구석 여기서요?] 이즈나 izna - IZNA | Dance Cover",
     "covered_group": [
-      "지민",
       "izna"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "kim-hyerim",
       "ha-seyoung",
-      "oh-yubin",
+      "kim-chan",
       "jang-sein",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-hyerim",
       "won-seoa"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "izna",
+        "covered_member": "방지민"
+      },
+
+      {
+        "member_id": "kim-chan",
+        "covered_group": "izna",
+        "covered_member": "최정은"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "izna",
+        "covered_member": "정세비"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "izna",
+        "covered_member": "유사랑"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "izna",
+        "covered_member": "윤지윤"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "izna",
+        "covered_member": "코코"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "izna",
+        "covered_member": "마이"
+      }
     ],
     "published_date": "2025-01-23",
     "content_type": "video",
     "view_count": 1304325,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -72802,7 +73158,13 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2024-09-29",
     "content_type": "short",
     "view_count": 333219,
@@ -72816,7 +73178,13 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2024-09-29",
     "content_type": "short",
     "view_count": 378656,
@@ -72830,7 +73198,13 @@
     "covered_group": [
       "MEOVV"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "oh-yubin",
+      "ha-seyoung",
+      "lee-gaeun",
+      "won-seoa"
+    ],
     "published_date": "2024-09-29",
     "content_type": "short",
     "view_count": 850148,
@@ -77809,11 +78183,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ahn-yoojin",
+      "kim-hyerim",
+      "won-seoa",
+      "jang-sein"
+    ],
     "published_date": "2024-05-23",
     "content_type": "short",
     "view_count": 229204,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "4lbxDRAINpA",
@@ -78918,14 +79299,39 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "won-seoa",
       "ahn-gihyun",
-      "won-seoa"
+      "chae-yunsu",
+      "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      }
     ],
     "published_date": "2024-05-11",
     "content_type": "video",
     "view_count": 123388,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S16"
+    ]
   },
   {
     "youtube_id": "U7fvpGMwoGg",
@@ -79251,7 +79657,12 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "jang-sein",
+      "won-seoa",
+      "ha-seyoung",
+      "oh-yubin"
+    ],
     "published_date": "2024-05-07",
     "content_type": "short",
     "view_count": 197638,
@@ -79374,10 +79785,32 @@
       "ITZY"
     ],
     "tagged_members": [
-      "ha-seyoung",
-      "oh-yubin",
       "jang-sein",
-      "won-seoa"
+      "won-seoa",
+      "ha-seyoung",
+      "oh-yubin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2024-05-06",
     "content_type": "video",
@@ -80527,15 +80960,39 @@
       "BOYNEXTDOOR"
     ],
     "tagged_members": [
-      "chae-yunsu",
+      "won-seoa",
       "ahn-gihyun",
-      "won-seoa"
+      "chae-yunsu",
+      "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "won-seoa",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "BOYNEXTDOOR"
+      }
     ],
     "published_date": "2024-04-20",
     "content_type": "video",
     "view_count": 69805,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y",
+      "티어전쟁"
     ]
   },
   {
