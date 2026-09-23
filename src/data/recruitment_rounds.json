@@ -1,9 +1,95 @@
 [
   {
-    "title": "2020 A2Be 정기 모집",
-    "announced_date": "2020-02-01",
-    "accepted_date": "2020-03-15",
+    "title": "2021 AB PROJECT 정기 모집",
+    "announced_date": "2021-02-05",
     "description": "",
-    "accepted_members": ["kang-minji", "ha-seyoung"]
+    "acceptance_batches": [
+      {
+        "date": "2021-04-08",
+        "accepted_members": ["choi-sungjun", "kim-kyungju", "park-hyunmin", "kim-suhwan"]
+      },
+      {
+        "date": "2021-04-21",
+        "accepted_members": ["jung-hyein", "song-haeun", "kang-yejin"]
+      }
+    ]
+  },
+  {
+    "title": "2021 A2Be 신규 모집",
+    "announced_date": "2021-05-16",
+    "description": "",
+    "acceptance_batches": [
+      {
+        "date": "2022-02-05",
+        "accepted_members": ["jeong-gyeolgyeong", "min", "kang-taehyun"]
+      },
+      {
+        "date": "2022-02-20",
+        "accepted_members": ["jeong-danbi", "park-jaehee", "eunseo"]
+      },
+      {
+        "date": "2022-04-13",
+        "accepted_members": ["hyeokjin", "cho-woohyeong"]
+      },
+      {
+        "date": "2022-04-21",
+        "accepted_members": ["prim"]
+      }
+    ]
+  },
+  {
+    "title": "2022 AB PROJECT · A2Be 정기 모집",
+    "announced_date": "2021-12-10",
+    "description": "",
+    "acceptance_batches": [
+      {
+        "date": "2022-02-18",
+        "accepted_members": ["jeong-gyeolgyeong", "min", "kang-taehyun"]
+      },
+      {
+        "date": "2022-02-20",
+        "accepted_members": ["jeong-danbi", "park-jaehee", "eunseo"]
+      },
+      {
+        "date": "2022-04-13",
+        "accepted_members": ["hyeokjin", "cho-woohyeong"]
+      },
+      {
+        "date": "2022-04-21",
+        "accepted_members": ["prim"]
+      }
+    ]
+  },
+  {
+    "title": "2024 AB PROJECT 정기 모집",
+    "announced_date": "2023-12-31",
+    "description": "",
+    "acceptance_batches": [
+      {
+        "date": "2024-01-31",
+        "accepted_members": ["do-hyeonsung", "yang-hwanhee", "park-seongmin", "lee-dabin", "jeong-hyunjin", "kim-chan", "won-seoa", "shin-yerin"]
+      }
+    ]
+  },
+  {
+    "title": "2025 AB PROJECT 정기 모집",
+    "announced_date": "2024-09-26",
+    "description": "",
+    "acceptance_batches": [
+      {
+        "date": "2025-02-02",
+        "accepted_members": ["lee-garam", "yang-hwanhee", "jang-daehyeon", "jeong-hyeonchang", "kim-nakyeong", "jeong-yoojin", "kang-minji", "lee-wina", "lee-jeonghee", "won-hyegyeong"]
+      },
+      {
+        "date": "2025-05-01",
+        "accepted_members": ["baek-jina", "lee-yejin", "lee-yoonjae", "cho-yuna", "shim-jiho", "kim-soeun"]
+      }
+    ]
+  },
+  {
+    "title": "2026 AB PROJECT 정기 모집",
+    "announced_date": "2026-07-22",
+    "description": "",
+    "acceptance_batches": []
   }
 ]

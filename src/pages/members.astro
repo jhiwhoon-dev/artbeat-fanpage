@@ -103,12 +103,70 @@ function xForIndex(i, total) {
 // 시리즈별 실제 최댓값 (전체 공통 스케일 때문에 작은 유닛이 눌려 보일 수 있어서, 숫자로도 같이 보여줌)
 const seriesMax = Object.fromEntries(unitNames.map((u) => [u, Math.max(...chartSeries[u], 0)]));
 
+// ---------- 성비 변화 그래프용 데이터 계산 (인원 추이 그래프와 같은 월 타임라인을 그대로 재사용) ----------
+function isActiveAtMonth(member, month) {
+  const periods = member.membership_periods && member.membership_periods.length > 0
+    ? member.membership_periods
+    : (member.joined_date ? [{ joined: member.joined_date, left: member.left_date ?? null }] : []);
+  return periods.some((p) => {
+    const startKey = toMonthKey(p.joined);
+    if (!startKey || startKey > month) return false;
+    if (p.left) {
+      const endKey = toMonthKey(p.left);
+      if (endKey && endKey < month) return false;
+    }
+    return true;
+  });
+}
+
+const genderValues = [...new Set(members.map((m) => m.gender).filter(Boolean))];
+const genderSeries = {};
+if (chartMonths.length > 0) {
+  for (const g of genderValues) {
+    genderSeries[g] = chartMonths.map((month) =>
+      members.filter((m) => m.gender === g && isActiveAtMonth(m, month)).length
+    );
+  }
+}
+const genderMaxCount = Math.max(1, ...Object.values(genderSeries).flat(), 1);
+const genderSeriesMax = Object.fromEntries(genderValues.map((g) => [g, Math.max(...(genderSeries[g] ?? []), 0)]));
+
+// 물결(곡선) 모양 선을 그리기 위한 부드러운 SVG path 생성 — 인원 추이 그래프의 각진 폴리라인과 다르게 보이도록
+function smoothPath(counts, maxCount) {
+  const pts = counts.map((c, i) => {
+    const x = PAD_L + (chartMonths.length > 1 ? (i / (chartMonths.length - 1)) * (CHART_W - PAD_L - PAD_R) : 0);
+    const y = CHART_H - PAD_B - (c / maxCount) * (CHART_H - PAD_B - PAD_T);
+    return [x, y];
+  });
+  if (pts.length === 0) return '';
+  if (pts.length === 1) return `M ${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
+  let d = `M ${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const [x0, y0] = pts[i];
+    const [x1, y1] = pts[i + 1];
+    const cx = (x0 + x1) / 2;
+    d += ` C ${cx.toFixed(1)},${y0.toFixed(1)} ${cx.toFixed(1)},${y1.toFixed(1)} ${x1.toFixed(1)},${y1.toFixed(1)}`;
+  }
+  return d;
+}
+
+const GENDER_COLORS = ['#3b82f6', '#f472b6', '#a3e635']; // 인원 추이 그래프(CHART_COLORS)와 겹치지 않는 색상
+
 // ---------- History 탭: 모집 라운드(공고+합격) + 그 외 개별 합류/재합류를 합쳐서 연도별로 묶기 ----------
+
+// 라운드 하나에서 "합격 발표"를 여러 배치(날짜)로 나눠서 할 수 있음.
+// acceptance_batches(신규, 배열)가 있으면 그걸 쓰고, 없으면 accepted_date+accepted_members(기존 단일 형식)를
+// 배치 1개짜리 배열로 취급 — 예전 데이터도 그대로 작동함.
+function getBatches(r) {
+  if (r.acceptance_batches && r.acceptance_batches.length > 0) return r.acceptance_batches;
+  if (r.accepted_date) return [{ date: r.accepted_date, accepted_members: r.accepted_members ?? [] }];
+  return [];
+}
 
 // 모집 라운드로 이미 설명된 "멤버id + 합류일" 조합은 아래 자동 추출에서 제외 (중복 방지)
 const coveredJoins = new Set(
   recruitmentRounds.flatMap((r) =>
-    (r.accepted_members ?? []).map((mid) => `${mid}|${r.accepted_date}`)
+    getBatches(r).flatMap((b) => (b.accepted_members ?? []).map((mid) => `${mid}|${b.date}`))
   )
 );
 
@@ -134,13 +192,16 @@ function buildRoundEvents(rounds, memberList) {
     if (r.announced_date) {
       events.push({ date: r.announced_date, kind: 'announcement', title: r.title, description: r.description || null, joiners: [] });
     }
-    if (r.accepted_date) {
-      const joiners = (r.accepted_members ?? [])
+    // 배치가 여러 개면(2차 발표 등) 각 배치마다 날짜별로 따로 이벤트를 만듦
+    for (const b of getBatches(r)) {
+      if (!b.date) continue;
+      const joiners = (b.accepted_members ?? [])
         .map((mid) => memberList.find((m) => m.id === mid))
         .filter(Boolean)
         .map((m) => ({ id: m.id, name: m.name, isRejoin: false }));
-      events.push({ date: r.accepted_date, kind: 'acceptance', title: r.title, description: null, joiners });
+      events.push({ date: b.date, kind: 'acceptance', title: r.title, description: null, joiners });
     }
+
   }
   return events;
 }
@@ -194,6 +255,38 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     )}
 
+    {chartMonths.length > 0 && genderValues.length > 0 && (
+      <div class="unit-chart">
+        <p class="chart-title">남녀 성비 변화</p>
+        <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} class="chart-svg">
+          <line x1={PAD_L} y1={CHART_H - PAD_B} x2={CHART_W - PAD_R} y2={CHART_H - PAD_B} class="chart-axis" />
+          {genderValues.map((g, i) => (
+            <path d={smoothPath(genderSeries[g], genderMaxCount)} fill="none" stroke={GENDER_COLORS[i % GENDER_COLORS.length]} stroke-width="2.5" stroke-linecap="round" />
+          ))}
+          <text x={PAD_L} y={PAD_T + 8} class="chart-label">{genderMaxCount}명</text>
+          <text x={PAD_L} y={CHART_H - PAD_B - 4} class="chart-label">0명</text>
+          {labelIndexes.map((i) => (
+            <text
+              x={xForIndex(i, chartMonths.length)}
+              y={CHART_H - 6}
+              class="chart-label chart-xlabel"
+              text-anchor={i === 0 ? 'start' : i === chartMonths.length - 1 ? 'end' : 'middle'}
+            >
+              {chartMonths[i]}
+            </text>
+          ))}
+        </svg>
+        <div class="chart-legend">
+          {genderValues.map((g, i) => (
+            <span class="legend-item">
+              <span class="legend-dot" style={`background:${GENDER_COLORS[i % GENDER_COLORS.length]}`}></span>
+              {g} <span class="legend-max">(최대 {genderSeriesMax[g]}명)</span>
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
     <div class="filters" id="filters">
       <button class="filter-btn active" data-group="current">현재 멤버</button>
       {auditionMembers.length > 0 && (
@@ -237,10 +330,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
                 {e.joiners.length > 0 && (
                   <div class="event-joiners">
                     {e.joiners.map((j) => (
-                      <a class="joiner" href={`${base}/members/${j.id}`}>
-                        <MemberAvatar member={members.find((m) => m.id === j.id)} size={32} />
-                        <span>{j.name}{j.isRejoin && <em> (재합류)</em>}</span>
-                      </a>
+                      j.id ? (
+                        <a class="joiner" href={`${base}/members/${j.id}`}>
+                          <MemberAvatar member={members.find((m) => m.id === j.id)} size={32} />
+                          <span>{j.name}{j.isRejoin && <em> (재합류)</em>}</span>
+                        </a>
+                      ) : (
+                        <span class="joiner joiner-no-profile">
+                          <span>{j.name}</span>
+                        </span>
+                      )
                     ))}
                   </div>
                 )}
@@ -406,5 +505,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
   .joiner:hover { border-color: var(--muted); }
   .joiner em { color: var(--muted); font-style: normal; font-size: 11px; }
+  .joiner-no-profile { padding: 4px 12px; color: var(--muted); cursor: default; }
+  .joiner-no-profile:hover { border-color: var(--line); }
   .empty-note { color: var(--muted); font-size: 14px; }
 </style>
