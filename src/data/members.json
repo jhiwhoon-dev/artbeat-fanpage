@@ -1450,14 +1450,9 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": "2025-01-14",
+    "joined_date": null,
     "left_date": null,
-    "membership_periods": [
-      {
-        "joined": "2025-01-14",
-        "left": null
-      }
-    ],
+    "membership_periods": [],
     "photo_filename": null,
     "bio": null,
     "sns": {
@@ -1487,14 +1482,9 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": "2025-01-14",
+    "joined_date": null,
     "left_date": null,
-    "membership_periods": [
-      {
-        "joined": "2025-01-14",
-        "left": null
-      }
-    ],
+    "membership_periods": [],
     "photo_filename": null,
     "bio": null,
     "sns": {}
@@ -2288,11 +2278,11 @@
       }
     ],
     "status": "active",
-    "joined_date": "2022-01-30",
+    "joined_date": "2022-02-04",
     "left_date": null,
     "membership_periods": [
       {
-        "joined": "2022-01-30",
+        "joined": "2022-02-04",
         "left": null
       }
     ],

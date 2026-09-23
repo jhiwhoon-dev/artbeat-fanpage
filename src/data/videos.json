@@ -77235,6 +77235,7 @@
       "NewJeans"
     ],
     "tagged_members": [
+      "aoki-yuka",
       "yun-haeun"
     ],
     "published_date": "2024-06-05",
@@ -92585,7 +92586,7 @@
     ],
     "song_group": "newjeans-newjeans-2023",
     "published_date": "2023-09-30",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 472146,
     "content_series": [
       "방구석 여기서요?::S14"
@@ -95887,7 +95888,7 @@
     ],
     "tagged_members": [],
     "published_date": "2023-08-20",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 431213,
     "content_series": []
   },
@@ -97756,8 +97757,7 @@
     "youtube_id": "fnm6j-2NN1c",
     "title": "수상할 정도로 춤을 잘 추는 교생쌤의 로버! #ROVER #shorts",
     "covered_group": [
-      "카이",
-      "EXO"
+      "카이"
     ],
     "tagged_members": [],
     "published_date": "2023-07-15",
@@ -97771,11 +97771,18 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-yejin",
+      "ahn-yoojin",
+      "yuna"
+    ],
     "published_date": "2023-07-15",
     "content_type": "short",
     "view_count": 71260,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "5VNhpMMzeCE",
@@ -97783,11 +97790,18 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "kang-yejin",
+      "ahn-yoojin",
+      "yuna"
+    ],
     "published_date": "2023-07-15",
     "content_type": "short",
     "view_count": 93823,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "vWRXLp0ZF_s",
@@ -98086,11 +98100,20 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-jiwoo",
+      "oh-yubin",
+      "yuna",
+      "kang-yejin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
     "published_date": "2023-07-11",
     "content_type": "short",
     "view_count": 438773,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "Bl8ASvtWU-8",
@@ -98098,11 +98121,20 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-jiwoo",
+      "oh-yubin",
+      "yuna",
+      "kang-yejin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
     "published_date": "2023-07-11",
     "content_type": "short",
     "view_count": 149184,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "iG37QojFgn8",
@@ -99625,11 +99657,20 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-jiwoo",
+      "oh-yubin",
+      "yuna",
+      "kang-yejin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
     "published_date": "2023-06-18",
     "content_type": "short",
     "view_count": 167054,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "S6GjZC8JoAM",
@@ -99637,11 +99678,20 @@
     "covered_group": [
       "IVE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lim-jiwoo",
+      "oh-yubin",
+      "yuna",
+      "kang-yejin",
+      "lee-gaeun",
+      "ahn-yoojin"
+    ],
     "published_date": "2023-06-18",
     "content_type": "short",
     "view_count": 312163,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "u3cYVcj14cU",

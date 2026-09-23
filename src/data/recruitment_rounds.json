@@ -11,6 +11,10 @@
       {
         "date": "2021-04-21",
         "accepted_members": ["jung-hyein", "song-haeun", "kang-yejin"]
+      },
+      {
+        "date": "2022-02-04",
+        "accepted_members": ["bang-jooyeon"]
       }
     ]
   },
@@ -20,20 +24,24 @@
     "description": "",
     "acceptance_batches": [
       {
-        "date": "2022-02-05",
-        "accepted_members": ["jeong-gyeolgyeong", "min", "kang-taehyun"]
+        "date": "2021-07-29",
+        "accepted_members": ["kim-youngjin", "jeong-hyungwoo", "kim-mingi", "shingi", "kim-hyoil", "hwang-jiho", "won-jin"]
       },
       {
-        "date": "2022-02-20",
-        "accepted_members": ["jeong-danbi", "park-jaehee", "eunseo"]
+        "date": "2021-07-30",
+        "accepted_members": ["kim-leeyoung", "jeong-jihye", "ji-ayeong", "kim-minji"]
       },
       {
-        "date": "2022-04-13",
-        "accepted_members": ["hyeokjin", "cho-woohyeong"]
+        "date": "2021-08-03",
+        "accepted_members": ["lim-donghun", "jang-sein", "seo-danbi", "changheon", "chae-yunsu"]
       },
       {
-        "date": "2022-04-21",
-        "accepted_members": ["prim"]
+        "date": "2021-08-04",
+        "accepted_members": ["son-wonye", "bang-hayul", "nayoung"]
+      },
+      {
+        "date": "2021-08-07",
+        "accepted_members": ["park-sojeong"]
       }
     ]
   },
@@ -57,6 +65,29 @@
       {
         "date": "2022-04-21",
         "accepted_members": ["prim"]
+      },
+      {
+        "date": "2023-02-27",
+        "accepted_members": ["ha-jeuki"]
+      }
+    ]
+  },
+  {
+    "title": "2023 AB PROJECT 정기 모집",
+    "announced_date": "2023-03-29",
+    "description": "",
+    "acceptance_batches": [
+      {
+        "date": "2023-05-22",
+        "accepted_members": ["hwang-geumryul", "ahn-gihyun"]
+      },
+      {
+        "date": "2023-05-24",
+        "accepted_members": ["lim-jiwoo", "aoki-yuka", "seol-heejeong", "jeon-minseo"]
+      },
+      {
+        "date": "2023-06-19",
+        "accepted_members": ["yuna"]
       }
     ]
   },
@@ -78,7 +109,7 @@
     "acceptance_batches": [
       {
         "date": "2025-02-02",
-        "accepted_members": ["lee-garam", "yang-hwanhee", "jang-daehyeon", "jeong-hyeonchang", "kim-nakyeong", "jeong-yoojin", "kang-minji", "lee-wina", "lee-jeonghee", "won-hyegyeong"]
+        "accepted_members": ["lee-garam", "cho-gyuso", "jang-daehyeon", "jeong-hyeonchang", "kim-nakyeong", "jeong-yoojin", "kang-minji", "lee-wina", "lee-jeonghee", "won-hyegyeong"]
       },
       {
         "date": "2025-05-01",

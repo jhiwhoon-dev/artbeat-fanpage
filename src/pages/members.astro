@@ -306,7 +306,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div class="grid-item" data-group="audition" hidden><MemberCard member={m} /></div>
       ))}
       {withdrawnMembers.map((m) => (
-        <div class="grid-item" data-group="withdrawn" hidden><MemberCard member={m} /></div>
+        <div class="grid-item grid-item-faded" data-group="withdrawn" hidden><MemberCard member={m} /></div>
       ))}
     </div>
 
@@ -329,18 +329,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
                 {e.description && <p class="event-desc">{e.description}</p>}
                 {e.joiners.length > 0 && (
                   <div class="event-joiners">
-                    {e.joiners.map((j) => (
-                      j.id ? (
-                        <a class="joiner" href={`${base}/members/${j.id}`}>
-                          <MemberAvatar member={members.find((m) => m.id === j.id)} size={32} />
+                    {e.joiners.map((j) => {
+                      const jm = j.id ? members.find((m) => m.id === j.id) : null;
+                      const isWithdrawn = jm?.status === 'withdrawn';
+                      return j.id ? (
+                        <a class={`joiner ${isWithdrawn ? 'grid-item-faded' : ''}`} href={`${base}/members/${j.id}`}>
+                          <MemberAvatar member={jm} size={32} />
                           <span>{j.name}{j.isRejoin && <em> (재합류)</em>}</span>
                         </a>
                       ) : (
                         <span class="joiner joiner-no-profile">
                           <span>{j.name}</span>
                         </span>
-                      )
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </li>
@@ -452,6 +454,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 20px;
   }
+  /* 더 이상 활동하지 않는(탈퇴) 멤버는 흐리게 처리해서 현역 멤버와 시각적으로 구분함 */
+  .grid-item-faded { opacity: 0.2; filter: grayscale(0.6); transition: opacity 0.15s, filter 0.15s; }
+  .grid-item-faded:hover { opacity: 0.85; filter: grayscale(0.2); }
   footer {
     margin-top: 40px;
     font-size: 13px;
@@ -488,7 +493,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-radius: 999px;
   }
   .tag-announce { background: var(--line); color: var(--muted); }
-  .tag-accept { background: var(--accent); color: #0e0e10; }
+  .tag-accept { background: #3B7A57; color: #ffffff; }
   .event-title { font-size: 16px; margin: 0 0 6px; }
   .event-desc { font-size: 13px; color: var(--muted); line-height: 1.6; margin: 0 0 8px; }
   .event-joiners { display: flex; flex-wrap: wrap; gap: 12px; }
