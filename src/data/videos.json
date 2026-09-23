@@ -49513,12 +49513,22 @@
   {
     "youtube_id": "w_sHjco3FSQ",
     "title": "네 생각만 하면, 한숨도 못 자도 안 졸려!! #gross #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "힛지스"
+    ],
+    "tagged_members": [
+      "aoki-yuka",
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin",
+      "cho-yuna"
+    ],
     "published_date": "2025-06-08",
     "content_type": "short",
     "view_count": 60549,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ]
   },
   {
     "youtube_id": "liK7v-4nQRE",
@@ -49526,11 +49536,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin",
+      "cho-yuna"
+    ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 49859,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "2r7ceEdjZrw",
@@ -49538,11 +49556,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin",
+      "cho-yuna"
+    ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 35103,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "7Bg9aP1N6cs",
@@ -49550,11 +49576,19 @@
     "covered_group": [
       "힛지스"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka",
+      "yun-haeun",
+      "lee-gaeun",
+      "kang-yejin",
+      "cho-yuna"
+    ],
     "published_date": "2025-06-07",
     "content_type": "short",
     "view_count": 38500,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "EajzGwn_9rM",
@@ -71226,7 +71260,14 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-hyerim",
+      "ha-seyoung",
+      "aoki-yuka"
+    ],
+
     "published_date": "2024-10-26",
     "content_type": "short",
     "view_count": 190052,
@@ -71240,7 +71281,14 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-hyerim",
+      "ha-seyoung",
+      "aoki-yuka"
+    ],
+
     "published_date": "2024-10-26",
     "content_type": "short",
     "view_count": 197356,
@@ -71677,6 +71725,33 @@
       "kim-hyerim",
       "ha-seyoung",
       "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2024-10-18",
     "content_type": "video",
@@ -72241,7 +72316,12 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "seol-heejeong",
+      "kim-hyerim",
+      "aoki-yuka",
+      "ji-ayeong"
+    ],
     "published_date": "2024-10-10",
     "content_type": "short",
     "view_count": 153431,
@@ -72255,7 +72335,12 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "seol-heejeong",
+      "kim-hyerim",
+      "aoki-yuka",
+      "ji-ayeong"
+    ],
     "published_date": "2024-10-10",
     "content_type": "short",
     "view_count": 298482,
@@ -72269,7 +72354,12 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "seol-heejeong",
+      "kim-hyerim",
+      "aoki-yuka",
+      "ji-ayeong"
+    ],
     "published_date": "2024-10-10",
     "content_type": "short",
     "view_count": 104827,
@@ -72288,6 +72378,28 @@
       "kim-hyerim",
       "aoki-yuka",
       "ji-ayeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      }
     ],
     "published_date": "2024-10-09",
     "content_type": "video",
@@ -73314,7 +73426,9 @@
     "published_date": "2024-09-21",
     "content_type": "short",
     "view_count": 365998,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "P4yquIo-n1A",
@@ -73322,11 +73436,15 @@
     "covered_group": [
       "LE SSERAFIM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2024-09-21",
     "content_type": "short",
     "view_count": 893478,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "Al-VgiQJiJo",
@@ -73340,7 +73458,9 @@
     "published_date": "2024-09-21",
     "content_type": "short",
     "view_count": 422001,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "a13mPD2UQ30",
@@ -73354,7 +73474,9 @@
     "published_date": "2024-09-21",
     "content_type": "short",
     "view_count": 86928,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "Pz9CaX6iqPw",
@@ -73368,7 +73490,9 @@
     "published_date": "2024-09-21",
     "content_type": "short",
     "view_count": 210330,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "X7NNno_GzQw",
@@ -73383,6 +73507,33 @@
       "ha-seyoung",
       "aoki-yuka"
     ],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
+    ],
     "published_date": "2024-09-18",
     "content_type": "video",
     "view_count": 165088,
@@ -73393,12 +73544,22 @@
   {
     "youtube_id": "_xyHM6jJoas",
     "title": "추석이니까 다이어트 자극😜 #Crazy #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-hyerim",
+      "ha-seyoung",
+      "aoki-yuka"
+    ],
     "published_date": "2024-09-17",
     "content_type": "short",
     "view_count": 259334,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "-Txk8l69FQM",
@@ -73407,13 +73568,44 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
-      "ha-jeuki"
+      "oh-yubin",
+      "ha-jeuki",
+      "kim-hyerim",
+      "ha-seyoung",
+      "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "ha-jeuki",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2024-09-15",
     "content_type": "video",
     "view_count": 1092653,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y"
     ]
   },
   {
@@ -75041,7 +75233,9 @@
     "published_date": "2024-07-30",
     "content_type": "short",
     "view_count": 150971,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "VgseIsxHSrA",
@@ -75049,11 +75243,15 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2024-07-30",
     "content_type": "short",
     "view_count": 91322,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "tkdlcet2pg4",
@@ -75067,7 +75265,9 @@
     "published_date": "2024-07-30",
     "content_type": "short",
     "view_count": 101377,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "jcT0sRlnG6Q",
@@ -75081,17 +75281,43 @@
     "published_date": "2024-07-30",
     "content_type": "short",
     "view_count": 73539,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "rTCpfHswWiY",
     "title": "KISS OF LIFE - STICKY | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "aespa"
+      "KISS OF LIFE"
     ],
     "tagged_members": [
+      "seol-heejeong",
       "kim-hyerim",
+      "aoki-yuka",
       "jang-sein"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      }
     ],
     "published_date": "2024-07-30",
     "content_type": "video",
@@ -75103,12 +75329,21 @@
   {
     "youtube_id": "mUuRx-ajYhg",
     "title": "이 중에 네 취향의 춤선이 한명쯤은 있겠지 #sticky #춤선",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "seol-heejeong",
+      "kim-hyerim",
+      "aoki-yuka",
+      "jang-sein"
+    ],
     "published_date": "2024-07-30",
     "content_type": "short",
     "view_count": 144488,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2024y"
+    ]
   },
   {
     "youtube_id": "_zleHRso880",
@@ -75129,13 +75364,39 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
+      "seol-heejeong",
       "kim-hyerim",
+      "aoki-yuka",
       "jang-sein"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      }
     ],
     "published_date": "2024-07-29",
     "content_type": "video",
     "view_count": 816330,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2024y"
+    ]
   },
   {
     "youtube_id": "_nOgexyF21k",
@@ -75234,12 +75495,21 @@
   {
     "youtube_id": "Me1bDJ3o9S0",
     "title": "연습실이 여름이 되어버려🏖️ #STICKY #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KISS OF LIFE"
+    ],
+    "tagged_members": [
+      "seol-heejeong",
+      "kim-hyerim",
+      "aoki-yuka",
+      "jang-sein"
+    ],
     "published_date": "2024-07-27",
     "content_type": "short",
     "view_count": 1140193,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2024y"
+    ]
   },
   {
     "youtube_id": "HLxonp_0UWc",
@@ -75364,14 +75634,39 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
+      "seol-heejeong",
       "kim-hyerim",
+      "aoki-yuka",
       "jang-sein"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      }
     ],
     "published_date": "2024-07-24",
     "content_type": "video",
     "view_count": 321499,
     "content_series": [
-      "Dance Cover MV::bEAT1"
+      "Dance Cover MV::bEAT1",
+      "Dance Cover MV::Years::2024y"
     ]
   },
   {
@@ -97526,11 +97821,19 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "aoki-yuka",
+      "ahn-yoojin",
+      "kim-soyeon",
+      "yun-haeun"
+    ],
     "published_date": "2023-07-09",
     "content_type": "short",
     "view_count": 160451,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "LPFBNtD2Ils",
@@ -97538,11 +97841,19 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "aoki-yuka",
+      "ahn-yoojin",
+      "kim-soyeon",
+      "yun-haeun"
+    ],
     "published_date": "2023-07-09",
     "content_type": "short",
     "view_count": 356766,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S13"
+    ]
   },
   {
     "youtube_id": "lutzhnIfy3s",
@@ -99483,11 +99794,15 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "aoki-yuka"
+    ],
     "published_date": "2023-06-09",
     "content_type": "short",
     "view_count": 149799,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "3_s9sk48RAU",
@@ -99501,7 +99816,9 @@
     "published_date": "2023-06-08",
     "content_type": "short",
     "view_count": 181991,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "CG1zEZ9-xh4",
@@ -99515,7 +99832,9 @@
     "published_date": "2023-06-08",
     "content_type": "short",
     "view_count": 188679,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "ByxPfj1IMNE",
@@ -99558,7 +99877,9 @@
     "published_date": "2023-06-07",
     "content_type": "short",
     "view_count": 4651877,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "iMNqejri1Uk",
@@ -99670,11 +99991,19 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "aoki-yuka",
+      "ahn-yoojin",
+      "kim-soyeon",
+      "yun-haeun"
+    ],
     "published_date": "2023-06-04",
     "content_type": "short",
     "view_count": 264611,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "3Fqyx2_JrZU",
@@ -99682,11 +100011,19 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "aoki-yuka",
+      "ahn-yoojin",
+      "kim-soyeon",
+      "yun-haeun"
+    ],
     "published_date": "2023-06-04",
     "content_type": "short",
     "view_count": 3343038,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "5AJees7TVm0",
