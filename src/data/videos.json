@@ -9057,7 +9057,8 @@
     "title": "진, 기현이가 군생활을 마쳤습니다!!",
     "covered_group": [],
     "tagged_members": [
-      "ahn-gihyun"
+      "ahn-gihyun",
+      "won-jin"
     ],
     "published_date": "2026-06-23",
     "content_type": "short",
@@ -82684,6 +82685,63 @@
       "yang-hwanhee",
       "do-hyeonsung"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "lim-jiwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      }
+    ],
     "published_date": "2024-04-05",
     "content_type": "video",
     "view_count": 88698,
@@ -83121,7 +83179,9 @@
   {
     "youtube_id": "jBzIIDlsAtg",
     "title": "#기현 #현민 'THE BOYZ - Honey’ Dance Cover #gihyun #hyunmin",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
       "park-hyunmin",
       "ahn-gihyun"
@@ -86417,7 +86477,12 @@
     "covered_group": [
       "카드"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-hyunmin",
+      "ahn-gihyun",
+      "seol-heejeong",
+      "park-seoyeon"
+    ],
     "published_date": "2024-01-22",
     "content_type": "short",
     "view_count": 129972,
@@ -86559,7 +86624,31 @@
     ],
     "tagged_members": [
       "park-hyunmin",
-      "ahn-gihyun"
+      "ahn-gihyun",
+      "seol-heejeong",
+      "park-seoyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "seol-heejeong",
+        "covered_group": "카드",
+        "covered_member": "전소민"
+      },
+      {
+        "member_id": "park-seoyeon",
+        "covered_group": "카드",
+        "covered_member": "전지우"
+      }
     ],
     "published_date": "2024-01-21",
     "content_type": "video",
@@ -101115,7 +101204,9 @@
   {
     "youtube_id": "l_zNpicMQ4Y",
     "title": "신입의 파워💪🏻 'THE BOYZ - MAVERICK' Dance Cover #기현 #Gihyun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
       "ahn-gihyun"
     ],
@@ -110125,18 +110216,54 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-hojun",
-      "kim-taehwan",
       "park-hyunmin",
-      "ahn-gihyun"
+      "kwon-dohyun",
+      "jeon-hyeonguk",
+      "yun-jihong",
+      "kim-taehwan"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "셔누"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-12-04",
     "content_type": "video",
     "view_count": 257216,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "ytsjPQoHxR8",
@@ -110642,16 +110769,48 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-mingi",
-      "kim-youngjin",
+      "min",
       "chae-yunsu",
       "kang-taehyun",
-      "ahn-gihyun"
+      "kim-youngjin",
+      "kim-mingi"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "min",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-11-24",
     "content_type": "video",
     "view_count": 132179,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "_8Qzrzi0MCk",
@@ -111841,16 +112000,46 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "kim-suhwan",
       "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan",
-      "ahn-gihyun"
+      "yun-jihong",
+      "choi-sungjun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-09-22",
     "content_type": "video",
     "view_count": 54677,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "FVTdzXrdMEY",
@@ -119411,18 +119600,47 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-taehwan",
+      "park-pilho",
+      "lee-moonkyu",
       "kim-kyungju",
-      "ahn-gihyun",
-      "park-pilho"
+      "kim-taehwan",
+      "yun-jihong"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-pilho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-04-23",
     "content_type": "video",
     "view_count": 481762,
     "content_series": [
-      "Dance Cover MV::Years::2022y",
-      "Dance Cover MV::Dance Teams::AB::2022y"
+      "방구석 여기서요?::S09::AB"
     ]
   },
   {
@@ -119432,12 +119650,47 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-youngjin",
+      "kim-leeyoung",
       "chae-yunsu",
-      "kang-taehyun",
+      "kim-youngjin",
       "min",
-      "jeong-gyeolgyeong",
-      "kim-leeyoung"
+      "kang-taehyun",
+      "jeong-gyeolgyeong"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "셔누"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-04-23",
     "content_type": "video",
@@ -122245,17 +122498,50 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-youngjin",
+      "kim-leeyoung",
       "chae-yunsu",
+      "kim-youngjin",
+      "min",
       "kang-taehyun",
-      "ahn-gihyun",
       "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "셔누"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-02-21",
     "content_type": "video",
     "view_count": 52058,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y::A2Be"
     ]
   },
   {
@@ -122421,18 +122707,52 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "kim-youngjin",
+      "kim-leeyoung",
       "chae-yunsu",
+      "kim-youngjin",
+      "min",
       "kang-taehyun",
-      "ahn-gihyun",
       "jeong-gyeolgyeong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "min",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "셔누"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2022-02-18",
     "content_type": "video",
     "view_count": 121850,
     "content_series": [
-      "나는 신입",
-      "Dance Cover MV::A2Be"
+      "나는 신입::2022y",
+      "Dance Cover MV::Dance Teams::A2Be::2022",
+      "Dance Cover MV::Years::2022y"
     ]
   },
   {
@@ -123482,16 +123802,44 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-taehwan",
+      "park-pilho",
+      "lee-moonkyu",
       "kim-kyungju",
-      "ahn-gihyun"
+      "kim-taehwan",
+      "yun-jihong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-pilho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2021-12-20",
     "content_type": "video",
     "view_count": 63957,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -123514,15 +123862,46 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kim-taehwan",
+      "park-pilho",
+      "lee-moonkyu",
       "kim-kyungju",
-      "ahn-gihyun"
+      "kim-taehwan",
+      "yun-jihong"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-pilho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2021-12-19",
     "content_type": "video",
     "view_count": 120606,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "tPC6cpY5kl8",
@@ -130889,16 +131268,44 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "kim-woonggyeom",
       "kim-suhwan",
-      "ahn-gihyun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "yun-jihong",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2021-07-05",
     "content_type": "video",
     "view_count": 134245,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -130930,15 +131337,46 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "kim-woonggyeom",
       "kim-suhwan",
-      "ahn-gihyun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "yun-jihong",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2021-07-03",
     "content_type": "video",
     "view_count": 108116,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "jkOcEBHLfiw",
@@ -132182,15 +132620,51 @@
       "몬스타엑스"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "kim-woonggyeom",
       "kim-suhwan",
-      "ahn-gihyun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "yun-jihong",
+      "lee-sieun"
+    ],
+    "support": [
+      "마운틴듀"
+    ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2021-06-15",
     "content_type": "video",
     "view_count": 848241,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "Gv75gzCRTlQ",
