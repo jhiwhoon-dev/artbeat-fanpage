@@ -137,16 +137,12 @@ const snsLabels = { instagram: 'Instagram', youtube: 'YouTube', tiktok: 'TikTok'
   .stagger-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 28px;
+    justify-content: center; /* 위 줄(2명), 아래 줄(3명) 둘 다 전체 페이지 폭 기준으로 가운데 정렬 */
+    gap: 88px;
   }
   /* MemberCard가 aspect-ratio로 세로 비율을 잡는데, flex 안에서는 grid와 달리 폭을 자동으로 안 늘려줘서
      명시적으로 폭을 안 주면 카드가 0 크기로 찌그러짐(사진이 absolute라 내용으로도 크기가 안 잡힘). */
-  .stagger-row .lineup-card { width: 180px; flex-shrink: 0; }
-  /* 카드폭(180px) + 카드 사이 간격(28px)의 정확히 절반만큼 오른쪽으로 밀어서, 위 줄 카드 "사이사이"에 오게 함.
-     세로로는 안 당기고(겹침 방지), 순수하게 가로로만 지그재그 배치. */
-  .stagger-row.offset {
-    transform: translateX(calc((180px + 28px) / 2));
-  }
+  .stagger-row .lineup-card { width: 250px; flex-shrink: 0; }
 
   /* 탈퇴 멤버 등 그냥 나란히 배치할 때 쓰는 일반 그리드 (기존 방식 유지) */
   .lineup-grid {
