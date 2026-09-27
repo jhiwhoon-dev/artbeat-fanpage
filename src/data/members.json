@@ -1949,14 +1949,9 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": "2022-04",
+    "joined_date": null,
     "left_date": null,
-    "membership_periods": [
-      {
-        "joined": "2022-04",
-        "left": null
-      }
-    ],
+    "membership_periods": [],
     "photo_filename": null,
     "bio": null,
     "sns": {}
@@ -6718,9 +6713,9 @@
     }
   },
   {
-    "id": "eunseo",
-    "name": "은서",
-    "name_en": "Eunseo",
+    "id": "kim-eunseo",
+    "name": "김은서",
+    "name_en": "Eunseo Kim",
     "nickname": null,
     "birth_date": null,
     "gender": "F",
@@ -6770,9 +6765,17 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "AB PROJECT"
+      "auditionee"
     ],
-    "unit_periods": [],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "202306",
+        "end": "202306"
+      }
+    ],
     "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
