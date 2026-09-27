@@ -107495,22 +107495,79 @@
       "B.I"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
       "park-hyunmin",
+      "kang-taehyun",
+      "chae-yunsu",
       "kim-mingi",
       "kim-youngjin",
-      "chae-yunsu",
-      "kang-taehyun",
-      "kim-hyerim",
       "ji-ayeong",
-      "jang-sein",
-      "kim-soyeon"
+      "kim-soyeon",
+      "jeong-jihye",
+      "kim-hyerim",
+      "jang-sein"
+    ],
+    "special_dancers": [
+      "kim-hojun",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "B.I",
+        "covered_member": "B.I"
+      }
     ],
     "published_date": "2023-04-08",
     "content_type": "video",
     "view_count": 706724,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "_OvwtxPmyS4",
@@ -107748,18 +107805,48 @@
     "youtube_id": "cu1Gu0pHq5E",
     "title": "[방구석 여기서요?] 있지 ITZY - CHESHIRE | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
       "kim-hyerim",
       "jang-sein",
+      "park-jaehee",
+      "bang-hayul",
       "kim-soyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2023-04-04",
     "content_type": "video",
     "view_count": 625974,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "gosrPbVTDrk",
@@ -108858,7 +108945,8 @@
     "title": "이 노래 한번 들어볼래?🎧 #문규 #유빈 #Moonkyu #Yubin @wooyubin #shorts",
     "covered_group": [],
     "tagged_members": [
-      "oh-yubin"
+      "oh-yubin",
+      "lee-moonkyu"
     ],
     "published_date": "2023-03-21",
     "content_type": "short",
@@ -108890,10 +108978,34 @@
       "ji-ayeong",
       "kim-soyeon"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MAVE:",
+        "covered_member": "타이라"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "MAVE:",
+        "covered_member": "마티"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "MAVE:",
+        "covered_member": "제나"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "MAVE:",
+        "covered_member": "시우"
+      }
+    ],
     "published_date": "2023-03-21",
     "content_type": "video",
     "view_count": 977017,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "a5bFxpYZHmM",
@@ -109470,10 +109582,34 @@
       "ji-ayeong",
       "kim-soyeon"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "MAVE:",
+        "covered_member": "타이라"
+      },
+      {
+        "member_id": "bang-jooyeon",
+        "covered_group": "MAVE:",
+        "covered_member": "마티"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "MAVE:",
+        "covered_member": "제나"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "MAVE:",
+        "covered_member": "시우"
+      }
+    ],
     "published_date": "2023-03-05",
     "content_type": "video",
     "view_count": 555843,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "8NGCJOLnFSI",
@@ -109530,7 +109666,9 @@
   {
     "youtube_id": "I2-eoncQWa0",
     "title": "'The Boyz - Roar' Dance Cover #영진 #현민 #Youngjin #Hyunmin #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
       "park-hyunmin",
       "kim-youngjin"
@@ -109543,7 +109681,9 @@
   {
     "youtube_id": "0Ry5oZyPQI8",
     "title": "'MAVE - PANDORA' Dance Cover #단비 #Danbi #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "seo-danbi"
     ],
@@ -110125,7 +110265,9 @@
   {
     "youtube_id": "q1oQvAngzXs",
     "title": "'MAVE - PANDORA' Dance Cover #주연 #Jooyeon #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "bang-jooyeon"
     ],
@@ -110137,7 +110279,9 @@
   {
     "youtube_id": "0XDJIWOKVQ0",
     "title": "'MAVE - PANDORA' Dance Cover #소연 #Soyeon #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "kim-soyeon"
     ],
@@ -110245,7 +110389,9 @@
   {
     "youtube_id": "GvjVwGuxiVE",
     "title": "'부석순 - 파이팅 해야지' Dance Cover #유진 #호준 #가은 #Yoojin #Hojun #Gaeun #Shorts",
-    "covered_group": [],
+    "covered_group": [
+      "세븐틴::부석순"
+    ],
     "tagged_members": [
       "kim-hojun",
       "lee-gaeun",
@@ -110274,8 +110420,8 @@
     "youtube_id": "VaLDbo8Dh2Y",
     "title": "'부석순 - 파이팅 해야지' Dance Cover #수환 #태환 #호준 #Suhwan #Taehwan #Hojun #Shorts",
     "covered_group": [
-      "세븐틴"
-    ],
+      "세븐틴::부석순"
+    ],  
     "tagged_members": [
       "kim-hojun",
       "kim-taehwan",
@@ -110488,14 +110634,18 @@
   {
     "youtube_id": "TYj-icClWUk",
     "title": "'Stamp On It' 연습 #가은 #gaeun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 107448,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "wYXl6Iec7aY",
@@ -110610,17 +110760,31 @@
   {
     "youtube_id": "T7_-bqH5-_c",
     "title": "'Stamp On It' 댄브 칼군무 쾌감!! #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
+    "tagged_members": [
+      "jeong-gyeolgyeong",
+      "lee-gaeun",
+      "kim-hyerim",
+      "yein",
+      "ji-ayeong",
+      "ha-seyoung",
+      "yun-haeun"
+    ],
     "published_date": "2023-02-09",
     "content_type": "short",
     "view_count": 58981,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "NdfOmTt3WoU",
     "title": "'MAVE - PANDORA' Dance Cover #하은 #Haeun @HATOPIA #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
@@ -110632,7 +110796,9 @@
   {
     "youtube_id": "ErRwVRaPldc",
     "title": "'MAVE - PANDORA' Dance Cover #가은 #Gaeun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "MAVE:"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
@@ -112044,6 +112210,33 @@
       "bang-hayul",
       "kim-soyeon"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
+    ],
     "published_date": "2023-01-06",
     "content_type": "video",
     "view_count": 107592,
@@ -112089,6 +112282,33 @@
       "park-jaehee",
       "bang-hayul",
       "kim-soyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2023-01-04",
     "content_type": "video",
@@ -113733,13 +113953,45 @@
       "LE SSERAFIM"
     ],
     "tagged_members": [
+      "kim-soyeon",
+      "ramu",
       "jang-sein",
-      "kim-soyeon"
+      "park-jaehee",
+      "bang-hayul"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "카즈하"
+      },
+      {
+        "member_id": "ramu",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "홍은채"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "김채원"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "허윤진"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "LE SSERAFIM",
+        "covered_member": "사쿠라"
+      }
     ],
     "published_date": "2022-11-23",
     "content_type": "video",
     "view_count": 496452,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "KWihV2U9ysE",
@@ -113948,16 +114200,56 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "kim-hyerim",
-      "lee-seohyeon",
       "ji-ayeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "lee-seohyeon",
+      "park-jaehee",
+      "seo-danbi",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NMIXX:",
+        "covered_member": "릴리"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "NMIXX:",
+        "covered_member": "해원"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "설윤"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "지니"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "NMIXX:",
+        "covered_member": "배이"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NMIXX:",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NMIXX:",
+        "covered_member": "규진"
+      }
     ],
     "published_date": "2022-11-18",
     "content_type": "video",
     "view_count": 805735,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "NWmRYfdMoxY",
@@ -114040,7 +114332,7 @@
     ],
     "tagged_members": [
       "ji-ayeong",
-      "kim-min-ji",
+      "kim-minji",
       "hwang-dagun",
       "kim-soyeon",
       "bang-hayul"
@@ -114055,7 +114347,7 @@
         "covered_member": "소연"
       },
       {
-        "member_id": "kim-min-ji",
+        "member_id": "kim-minji",
         "covered_group": "i-dle",
         "covered_member": "슈화"
       },
@@ -114270,7 +114562,7 @@
     ],
     "tagged_members": [
       "ji-ayeong",
-      "kim-min-ji",
+      "kim-minji",
       "hwang-dagun",
       "kim-soyeon",
       "bang-hayul"
@@ -114283,7 +114575,7 @@
         "covered_member": "소연"
       },
       {
-        "member_id": "kim-min-ji",
+        "member_id": "kim-minji",
         "covered_group": "i-dle",
         "covered_member": "슈화"
       },
@@ -114354,7 +114646,7 @@
     ],
     "tagged_members": [
       "ji-ayeong",
-      "kim-min-ji",
+      "kim-minji",
       "hwang-dagun",
       "kim-soyeon",
       "bang-hayul"
@@ -114367,7 +114659,7 @@
         "covered_member": "소연"
       },
       {
-        "member_id": "kim-min-ji",
+        "member_id": "kim-minji",
         "covered_group": "i-dle",
         "covered_member": "슈화"
       },
@@ -114838,11 +115130,49 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "kim-hyerim",
-      "lee-seohyeon",
       "ji-ayeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "lee-seohyeon",
+      "park-jaehee",
+      "seo-danbi",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NMIXX:",
+        "covered_member": "릴리"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "NMIXX:",
+        "covered_member": "해원"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "설윤"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "지니"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "NMIXX:",
+        "covered_member": "배이"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NMIXX:",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NMIXX:",
+        "covered_member": "규진"
+      }
     ],
     "published_date": "2022-10-14",
     "content_type": "video",
@@ -114859,16 +115189,57 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kwon-soyoung",
-      "kim-hyerim",
-      "lee-seohyeon",
       "ji-ayeong",
-      "kim-soyeon"
+      "kim-soyeon",
+      "lee-seohyeon",
+      "park-jaehee",
+      "seo-danbi",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NMIXX:",
+        "covered_member": "릴리"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "NMIXX:",
+        "covered_member": "해원"
+      },
+      {
+        "member_id": "kim-soyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "설윤"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "NMIXX:",
+        "covered_member": "지니"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "NMIXX:",
+        "covered_member": "배이"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NMIXX:",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NMIXX:",
+        "covered_member": "규진"
+      }
     ],
     "published_date": "2022-10-13",
     "content_type": "video",
     "view_count": 266418,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "xJPUM4BkCfM",
@@ -117264,6 +117635,33 @@
       "oh-yubin",
       "ha-seyoung"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
+    ],
     "published_date": "2022-08-15",
     "content_type": "video",
     "view_count": 648575,
@@ -117351,6 +117749,33 @@
       "kim-leeyoung",
       "park-jaehee",
       "prim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "Fifth Harmony",
+        "covered_member": "Fifth Harmony"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Fifth Harmony",
+        "covered_member": "Fifth Harmony"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "Fifth Harmony",
+        "covered_member": "Fifth Harmony"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "Fifth Harmony",
+        "covered_member": "Fifth Harmony"
+      },
+      {
+        "member_id": "prim",
+        "covered_group": "Fifth Harmony",
+        "covered_member": "Fifth Harmony"
+      }
     ],
     "published_date": "2022-08-14",
     "content_type": "video",
@@ -119374,17 +119799,46 @@
       "i-dle"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "lee-sieun",
       "kwon-soyoung",
       "hwang-dagun",
-      "ha-seyoung",
       "oh-yubin",
-      "kim-soyeon"
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-07-10",
     "content_type": "video",
     "view_count": 105886,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2022y",
+      "행사::2022y"
+    ]
   },
   {
     "youtube_id": "1sFfMcUEL7U",
@@ -120698,18 +121152,50 @@
     "youtube_id": "ktJ-62NwbQM",
     "title": "[A2be 여기서요?] (여자)아이들 (G)I-DLE - TOMBOY | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
+      "kim-leeyoung",
+      "nayoung",
       "ji-ayeong",
-      "kim-soyeon"
+      "jeong-danbi",
+      "jeong-jihye"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "nayoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "jeong-danbi",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-06-08",
     "content_type": "video",
     "view_count": 213262,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -121246,14 +121732,47 @@
       "i-dle"
     ],
     "tagged_members": [
+      "kim-leeyoung",
+      "son-wonye",
+      "prim",
       "jang-sein",
-      "kim-soyeon"
+      "seo-danbi"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "son-wonye",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "prim",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-06-01",
     "content_type": "video",
     "view_count": 963167,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::A2Be"
     ]
   },
   {
@@ -121500,8 +122019,35 @@
       "lee-sieun",
       "kwon-soyoung",
       "hwang-dagun",
-      "ha-seyoung",
-      "oh-yubin"
+      "oh-yubin",
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-05-28",
     "content_type": "video",
@@ -122155,17 +122701,20 @@
     "youtube_id": "EAUkeKH3IQE",
     "title": "일단 소풍부터 가볼까~🧺 [AB VLOG] (여자)아이들 (G)I-DLE - TOMBOY | 전지적 다건 시점 | DaGun VLOG",
     "covered_group": [
-      "i-dle",
       "i-dle"
     ],
     "tagged_members": [
-      "hwang-dagun"
+      "lee-sieun",
+      "kim-hayeon",
+      "hwang-dagun",
+      "oh-yubin",
+      "ha-seyoung"
     ],
     "published_date": "2022-05-19",
     "content_type": "video",
     "view_count": 103310,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::Years::2022y"
     ]
   },
   {
@@ -122181,7 +122730,7 @@
     "content_type": "video",
     "view_count": 101309,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::Years::2022y"
     ]
   },
   {
@@ -122195,7 +122744,7 @@
     "content_series": [
       "방구석 여기서요?::S09",
       "AB VLOG::방구석 여기서요?::S09",
-      "AB VLOG::2022y"
+      "AB VLOG::years::2022y"
     ]
   },
   {
@@ -122445,11 +122994,41 @@
       "i-dle"
     ],
     "tagged_members": [
-      "ji-ayeong",
       "kim-leeyoung",
-      "seo-danbi",
-      "jeong-jihye",
-      "nayoung"
+      "nayoung",
+      "ji-ayeong",
+      "jeong-danbi",
+      "jeong-jihye"
+    ],
+    "support": [
+      "SMALL WINGS PROJECT"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "nayoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "jeong-danbi",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-04-25",
     "content_type": "video",
@@ -122616,6 +123195,33 @@
       "hwang-dagun",
       "oh-yubin",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-04-24",
     "content_type": "video",
@@ -122870,11 +123476,41 @@
       "i-dle"
     ],
     "tagged_members": [
+      "lee-sieun",
       "kim-hayeon",
       "hwang-dagun",
-      "ha-seyoung",
       "oh-yubin",
-      "lee-sieun"
+      "ha-seyoung"
+    ],
+    "sponsors": [
+      "영남대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-04-22",
     "content_type": "video",
@@ -122893,7 +123529,7 @@
     "tagged_members": [
       "ji-ayeong",
       "jang-sein",
-      "kim-min-ji",
+      "kim-minji",
       "jeong-jihye",
       "bang-hayul"
     ],
@@ -123429,7 +124065,7 @@
     ],
     "tagged_members": [
       "ji-ayeong",
-      "kim-min-ji",
+      "kim-minji",
       "bang-hayul",
       "jeong-jihye"
     ],
@@ -124655,22 +125291,42 @@
   {
     "youtube_id": "oDDH3Abii1c",
     "title": "헤메스에 빨간 👅까지 완벽 커버? #Tomboy #Shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "i-dle"
+    ],
+    "tagged_members": [
+      "kim-leeyoung",
+      "nayoung",
+      "ji-ayeong",
+      "jeong-danbi",
+      "jeong-jihye"
+    ],
     "published_date": "2022-04-02",
     "content_type": "short",
     "view_count": 89749,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "bwK9m4c9flA",
     "title": "Loving Tomboy 골반튕기기 맛집 여기있었네🤭 #Tomboy #Shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "i-dle"
+    ],
+    "tagged_members": [
+      "kim-leeyoung",
+      "nayoung",
+      "ji-ayeong",
+      "jeong-danbi",
+      "jeong-jihye"
+    ],
     "published_date": "2022-04-02",
     "content_type": "short",
     "view_count": 52524,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "X2LpOMCBXww",
@@ -124679,14 +125335,47 @@
       "i-dle"
     ],
     "tagged_members": [
+      "kim-leeyoung",
+      "nayoung",
       "ji-ayeong",
-      "kim-soyeon"
+      "jeong-danbi",
+      "jeong-jihye"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "nayoung",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      },
+      {
+        "member_id": "jeong-danbi",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      }
     ],
     "published_date": "2022-04-01",
     "content_type": "video",
     "view_count": 1453617,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S09::A2Be"
     ]
   },
   {
@@ -128833,7 +129522,7 @@
       "kim-youngjin",
       "changheon",
       "kim-hyoil",
-      "kim-min-ji",
+      "kim-minji",
       "jang-sein",
       "sojeong"
     ],
@@ -138097,22 +138786,56 @@
     "youtube_id": "KATfif7haiQ",
     "title": "[방구석 여기서요?] 수진&소연 X 유리&민주 X 예지&류진 - Reflection | 커버댄스 Dance Cover",
     "covered_group": [
-      "수진"
+      "수진·소연 × 조유리·김민주 × 예지·류진"
     ],
     "tagged_members": [
-      "kim-hayeon",
       "hwang-dagun",
       "ha-seyoung",
-      "oh-yubin",
+      "kim-hayeon",
       "lee-seohyeon",
-      "kim-soyeon"
+      "lee-heejin",
+      "oh-yubin"
+    ],
+    "sponsors": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "조유리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "김민주"
+      }
     ],
     "published_date": "2021-04-01",
     "content_type": "video",
     "view_count": 980608,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S05"
     ]
   },
   {
@@ -140097,39 +140820,112 @@
     "youtube_id": "2yfc0CzHW8U",
     "title": "수진&소연 X 유리&민주 X 예지&류진 - Reflection | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "수진"
+      "수진·소연 × 조유리·김민주 × 예지·류진"
     ],
     "tagged_members": [
       "hwang-dagun",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-sieun",
       "lee-seohyeon",
-      "kim-soyeon"
+      "lee-heejin",
+      "oh-yubin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "조유리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "김민주"
+      }
     ],
     "published_date": "2021-02-07",
     "content_type": "video",
     "view_count": 437072,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "g2bT5-rDlNg",
     "title": "[AB] 수진&소연 X 유리&민주 X 예지&류진 - Reflection | 커버댄스 Dance Cover",
     "covered_group": [
-      "수진"
+      "수진·소연 × 조유리·김민주 × 예지·류진"
     ],
     "tagged_members": [
       "hwang-dagun",
       "ha-seyoung",
-      "oh-yubin",
+      "lee-sieun",
       "lee-seohyeon",
-      "kim-soyeon"
+      "lee-heejin",
+      "oh-yubin"
+    ],
+    "sponsors": [
+      "MISSRIGHT",
+      "SECOND"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "lee-heejin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "조유리"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "IZ*ONE",
+        "covered_member": "김민주"
+      }
     ],
     "published_date": "2021-02-06",
     "content_type": "video",
     "view_count": 418969,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "jdyCZt0TlNs",
@@ -167378,12 +168174,51 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "lee-sieun",
+      "kwon-soyoung",
+      "her-naeun",
+      "park-damhee",
+      "kim-eunbin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      }
+    ],
     "published_date": "2018-09-07",
     "content_type": "video",
     "view_count": 203465,
     "content_series": [
-      "DANCE ASMR"
+      "DANCE ASMR::2018y"
     ]
   },
   {
@@ -167392,11 +168227,52 @@
     "covered_group": [
       "i-dle"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hayeon",
+      "lee-sieun",
+      "kwon-soyoung",
+      "her-naeun",
+      "park-damhee",
+      "kim-eunbin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      }
+    ],
     "published_date": "2018-09-07",
     "content_type": "video",
     "view_count": 53318,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2018y"
+    ]
   },
   {
     "youtube_id": "2zmckJaS_Mw",
@@ -167405,15 +168281,55 @@
       "i-dle"
     ],
     "tagged_members": [
-      "park-soyoung",
       "kim-hayeon",
+      "lee-sieun",
       "kwon-soyoung",
-      "kim-soyeon"
+      "her-naeun",
+      "park-damhee",
+      "kim-eunbin"
+    ],
+    "support": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "i-dle",
+        "covered_member": "수진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "i-dle",
+        "covered_member": "소연"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "i-dle",
+        "covered_member": "우기"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "i-dle",
+        "covered_member": "미연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "i-dle",
+        "covered_member": "슈화"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "i-dle",
+        "covered_member": "민니"
+      }
     ],
     "published_date": "2018-09-06",
     "content_type": "video",
     "view_count": 350105,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "tG2wwZq1WFg",
