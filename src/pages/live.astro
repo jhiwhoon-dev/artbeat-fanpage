@@ -28,6 +28,7 @@ const videosData = videos.map((v) => ({
   sponsors: v.sponsors ?? [], // 협찬
   ads: v.ads ?? [], // 광고
   support: v.support ?? [], // 지원
+  choreography: v.choreography ?? [], // 안무가
   date: v.published_date,
   views: v.view_count ?? 0,
 }));
@@ -102,6 +103,7 @@ function safeJson(obj) {
     sponsors: string[];
     ads: string[];
     support: string[];
+    choreography: string[];
     date: string;
     views: number;
   }
@@ -309,6 +311,10 @@ function safeJson(obj) {
 
   function cardHTML(v: VideoItem): string {
     const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(displayTagPath(g))}</span>`).join('');
+    const choreoTags = v.choreography
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-choreo" href="${BASE}/members/${id}">안무: ${escapeHtml(MEMBER_MAP[id])}</a>`)
+      .join('');
     const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displayTagPath(s))}</span>`).join('');
     const memberTags = v.members
       .filter((id) => MEMBER_MAP[id])
@@ -346,7 +352,7 @@ function safeJson(obj) {
           </div>
           <p class="title">${escapeHtml(v.title)}</p>
         </a>
-        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}</div>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}${choreoTags}</div>
       </div>`;
   }
 
@@ -704,6 +710,13 @@ function safeJson(obj) {
   .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
+  .tag-choreo {
+    border: 1px dashed var(--muted);
+    background: transparent;
+    color: var(--muted);
+    border-radius: 4px;
+  }
+  .tag-choreo:hover { border-color: var(--ink); color: var(--ink); }
   .tag-special { color: var(--muted); border: 1px solid var(--line); background: transparent; opacity: 0.8; }
   .tag-special em { font-style: normal; font-size: 10px; margin-left: 2px; opacity: 0.8; }
   .tag-special:hover { border-color: var(--muted); opacity: 1; }

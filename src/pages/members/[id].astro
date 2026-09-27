@@ -72,6 +72,7 @@ const taggedVideosData = taggedVideos.map((v) => ({
   sponsors: v.sponsors ?? [], // 협찬
   ads: v.ads ?? [], // 광고
   support: v.support ?? [], // 지원
+  choreography: v.choreography ?? [], // 안무가
   contentType: getType(v), // 'video' | 'short' | 'live' — 타입별 숨기기 필터용
   myRoles: (v.role_mapping ?? []).filter((rm) => rm.member_id === member.id).map((rm) => ({ group: rm.covered_group, member: rm.covered_member })), // 본인이 이 영상에서 맡은 역할 전부(그룹별로)
   date: v.published_date,
@@ -414,6 +415,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     sponsors: string[];
     ads: string[];
     support: string[];
+    choreography: string[];
     contentType: 'video' | 'short' | 'live';
     myRoles: { group: string; member: string }[];
     date: string;
@@ -680,6 +682,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   function cardHTML(v: VideoItem): string {
     const groupTags = v.groups.map((g) => `<span class="tag tag-group">${escapeHtml(displayTagPath(g))}</span>`).join('');
+    const choreoTags = v.choreography
+      .filter((id) => MEMBER_MAP[id])
+      .map((id) => `<a class="tag tag-choreo" href="${BASE}/members/${id}">안무: ${escapeHtml(MEMBER_MAP[id])}</a>`)
+      .join('');
     const seriesTags = v.series.map((s) => `<span class="tag tag-series">${escapeHtml(displayTagPath(s))}</span>`).join('');
     const memberTags = v.members
       .filter((id) => MEMBER_MAP[id])
@@ -720,7 +726,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           </div>
           <p class="title">${escapeHtml(v.title)}</p>
         </a>
-        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}</div>
+        <div class="tags">${groupTags}${seriesTags}${memberTags}${specialTags}${choreoTags}</div>
       </div>`;
   }
 
@@ -1573,6 +1579,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .tag-group { color: var(--muted); border: 1px solid var(--line); }
   .tag-series { color: var(--ink); border: 1px solid var(--ink); }
   .tag-member { color: var(--ink); background: var(--line); }
+  .tag-choreo {
+    border: 1px dashed var(--muted);
+    background: transparent;
+    color: var(--muted);
+  }
+  .tag-choreo:hover { border-color: var(--ink); color: var(--ink); }
   .tag-member:hover { background: var(--accent); color: #0e0e10; }
   .tag-special { color: var(--muted); border: 1px solid var(--line); background: transparent; opacity: 0.8; }
   .tag-special em { font-style: normal; font-size: 10px; margin-left: 2px; opacity: 0.8; }

@@ -5034,9 +5034,14 @@
       }
     ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2023-06-19",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2023-06-19",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {
@@ -6755,5 +6760,29 @@
     "photo_filename": null,
     "bio": null,
     "sns": {}
+  },
+  {
+    "id": "kim-jihwan",
+    "name": "김지환",
+    "name_en": "Jihwan Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "M",
+    "role": "Dancer",
+    "unit": [
+      "AB PROJECT"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "3차 오디션: bite me",
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hwani.o6/"
+      ]
+    }
   }
 ]
