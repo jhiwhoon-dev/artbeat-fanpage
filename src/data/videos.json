@@ -19796,6 +19796,53 @@
       "jeong-hyeonchang",
       "kim-hojun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "jang-daehyeon",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "jeong-hyeonchang",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단",
+        "covered_member": "방탄소년단"
+      }
+    ],
     "published_date": "2026-02-17",
     "content_type": "video",
     "view_count": 77844,
@@ -41193,7 +41240,9 @@
   {
     "youtube_id": "jPax_0ALnFM",
     "title": "#영진 'P1Harmony - 때깔 (Killin' It)' Dance Cover #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "P1Harmony"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
@@ -43806,7 +43855,9 @@
   {
     "youtube_id": "WVB9UlB7nS0",
     "title": "#영진 'P1Harmony - DUH!' Dance Cover #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "P1Harmony"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
@@ -58663,7 +58714,9 @@
   {
     "youtube_id": "h6b7jC6pk5s",
     "title": "'Samuel - 2 Tone Rose Gold (WE DEM BOYZ Choreography) Dance Cover #영진 #Youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "Samuel"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],
@@ -93664,7 +93717,9 @@
   {
     "youtube_id": "oFOVC3K6jro",
     "title": "'Justin Bieber - Honest' (BADA LEE Choreography) Dance Cover #영진 #Youngjin #ab_youngjin",
-    "covered_group": [],
+    "covered_group": [
+      "Justin Bieber"
+    ],
     "tagged_members": [
       "kim-youngjin"
     ],

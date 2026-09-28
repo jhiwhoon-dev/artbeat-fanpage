@@ -213,6 +213,9 @@ function safeJson(obj) {
   let activeMode: 'group' | 'series' = 'group';
   let activeGroupPath: string[] = [];
   let activeSeriesPath: string[] = [];
+  // 선택 카테고리 그래프에서 점을 클릭해 고른 연도 (예: '2023'). null이면 연도 필터 없음.
+  let activeYear: string | null = null;
+  const currentPath = () => (activeMode === 'group' ? activeGroupPath : activeSeriesPath);
   let sortMode = 'newest';
   let titleQuery = '';
 
@@ -223,6 +226,7 @@ function safeJson(obj) {
     if (activeMode === 'series') p.set('mode', 'series'); else p.delete('mode');
     if (activeGroupPath.length) p.set('gpath', activeGroupPath.join('|')); else p.delete('gpath');
     if (activeSeriesPath.length) p.set('spath', activeSeriesPath.join('|')); else p.delete('spath');
+    if (activeYear) p.set('year', activeYear); else p.delete('year');
     if (sortMode !== 'newest') p.set('sort', sortMode); else p.delete('sort');
     if (titleQuery) p.set('q', titleQuery); else p.delete('q');
     return url;
@@ -238,6 +242,7 @@ function safeJson(obj) {
       mode: (params.get('mode') === 'series' ? 'series' : 'group') as 'group' | 'series',
       gpath: params.get('gpath') ? params.get('gpath')!.split('|') : [],
       spath: params.get('spath') ? params.get('spath')!.split('|') : [],
+      year: params.get('year') || '',
       sort: params.get('sort') || 'newest',
       q: (params.get('q') || '').normalize('NFC'),
     };
@@ -372,6 +377,7 @@ function safeJson(obj) {
   function renderGroupLevels() {
     renderLevels(groupLevelsEl, groupTree, activeGroupPath, (newPath) => {
       activeGroupPath = newPath;
+      activeYear = null;
       currentPage = 1;
       renderGroupLevels();
       render();
@@ -382,6 +388,7 @@ function safeJson(obj) {
   function renderSeriesLevels() {
     renderLevels(seriesLevelsEl, seriesTree, activeSeriesPath, (newPath) => {
       activeSeriesPath = newPath;
+      activeYear = null;
       currentPage = 1;
       updateSeriesStatus();
       renderSeriesLevels();
@@ -477,6 +484,8 @@ function safeJson(obj) {
   function getFiltered(): VideoItem[] {
     return DATA.filter((v) => {
       if (titleQuery && !v.title.normalize('NFC').toLowerCase().includes(titleQuery)) return false;
+      // 그래프에서 연도를 골랐으면(카테고리가 선택된 상태일 때만) 그 연도에 올라온 영상만 통과
+      if (activeYear && currentPath().length > 0 && String(v.date ?? '').slice(0, 4) !== activeYear) return false;
       if (activeMode === 'group') {
         // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
         // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
@@ -504,6 +513,22 @@ function safeJson(obj) {
   const selectionChartEl = document.getElementById('selection-year-chart');
   const SEL = { W: 900, H: 220, PAD_L: 32, PAD_B: 24, PAD_T: 24, PAD_R: 12, INSET: 24, COLOR: '#a78bfa' };
   const FOUNDED_YEAR: number = JSON.parse(document.getElementById('founded-year-data')?.textContent ?? 'null') ?? new Date().getFullYear();
+
+  // 그래프의 점(또는 "해제" 버튼)을 클릭하면 연도 필터를 켜고/끄고 목록을 다시 그림. 같은 점을 다시 누르면 해제됨.
+  selectionChartEl?.addEventListener('click', (e) => {
+    const target = e.target as Element;
+    if (target.closest('.year-clear')) {
+      activeYear = null;
+    } else {
+      const pt = target.closest('.year-point.clickable');
+      const y = pt?.getAttribute('data-year');
+      if (!y) return;
+      activeYear = activeYear === y ? null : y;
+    }
+    currentPage = 1;
+    render();
+    pushUrlState();
+  });
 
   function renderSelectionChart() {
     if (!selectionChartEl) return;
@@ -562,16 +587,25 @@ function safeJson(obj) {
         <line x1="${SEL.PAD_L}" y1="${SEL.H - SEL.PAD_B}" x2="${SEL.W - SEL.PAD_R}" y2="${SEL.H - SEL.PAD_B}" class="chart-axis" />
         <polyline points="${pts}" fill="none" stroke="${SEL.COLOR}" stroke-width="2.5" />
         ${coords
-          .map(
-            (p, i) =>
-              `<g><circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="${SEL.COLOR}" />` +
-              `<text x="${p.x.toFixed(1)}" y="${(p.y - 9).toFixed(1)}" class="chart-label chart-value" text-anchor="middle">${series[i]}</text></g>`
-          )
+          .map((p, i) => {
+            const yr = years[i];
+            const clickable = series[i] > 0; // 영상이 0개인 해는 눌러도 목록이 비니까 클릭 불가
+            const selected = activeYear === yr;
+            const cx = p.x.toFixed(1);
+            const cy = p.y.toFixed(1);
+            return (
+              `<g class="year-point${clickable ? ' clickable' : ''}${selected ? ' selected' : ''}" data-year="${yr}">` +
+              (clickable ? `<title>${yr}년 · ${series[i]}개 (클릭하면 ${selected ? '연도 필터 해제' : '이 연도 영상만 보기'})</title>` : '') +
+              `<circle class="pt-dot" cx="${cx}" cy="${cy}" r="${selected ? 5.5 : 3.5}" fill="${SEL.COLOR}" />` +
+              (clickable ? `<circle cx="${cx}" cy="${cy}" r="12" fill="transparent" pointer-events="all" />` : '') +
+              `<text x="${cx}" y="${(p.y - 9).toFixed(1)}" class="chart-label chart-value${selected ? ' chart-value-selected' : ''}" text-anchor="middle">${series[i]}</text></g>`
+            );
+          })
           .join('')}
         <text x="${SEL.PAD_L}" y="${SEL.PAD_T + 8}" class="chart-label">${max}개</text>
         <text x="${SEL.PAD_L}" y="${SEL.H - SEL.PAD_B - 4}" class="chart-label">0개</text>
         ${labelIdx
-          .map((i) => `<text x="${xAt(i).toFixed(1)}" y="${SEL.H - 6}" class="chart-label" text-anchor="middle">${years[i]}</text>`)
+          .map((i) => `<text x="${xAt(i).toFixed(1)}" y="${SEL.H - 6}" class="chart-label${years[i] === activeYear ? ' chart-year-selected' : ''}" text-anchor="middle">${years[i]}</text>`)
           .join('')}
       </svg>
       <div class="chart-legend">
@@ -579,6 +613,11 @@ function safeJson(obj) {
           <span class="legend-dot" style="background:${SEL.COLOR}"></span>
           ${escapeHtml(label)} <span class="legend-max">(최대 ${max}개 · 총 ${total}개)</span>
         </span>
+        ${
+          activeYear
+            ? `<button type="button" class="year-clear">${activeYear}년만 보는 중 · 해제 ✕</button>`
+            : `<span class="legend-item legend-max">※ 점을 클릭하면 그 연도 영상만 볼 수 있어요</span>`
+        }
         ${inProgress ? `<span class="legend-item legend-max">※ ${currentYear}년은 집계 진행 중</span>` : ''}
       </div>`;
     selectionChartEl.style.display = '';
@@ -605,6 +644,7 @@ function safeJson(obj) {
       modeButtons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
       activeMode = (btn.dataset.mode as 'group' | 'series') ?? 'group';
+      activeYear = null;
       currentPage = 1;
 
       if (panelGroup) panelGroup.style.display = activeMode === 'group' ? '' : 'none';
@@ -635,6 +675,8 @@ function safeJson(obj) {
     activeMode = state.mode;
     activeGroupPath = state.gpath;
     activeSeriesPath = state.spath;
+    // 연도 필터는 그룹/콘텐츠가 하나 선택돼 있을 때만 의미가 있음
+    activeYear = /^\d{4}$/.test(state.year) && currentPath().length > 0 ? state.year : null;
     sortMode = state.sort;
     titleQuery = state.q;
     currentPage = 1;
@@ -672,6 +714,14 @@ function safeJson(obj) {
   .legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
   .legend-max { color: var(--muted); opacity: 0.7; }
   .selection-year-chart { margin: 8px 0 24px; } /* 필터 선택 영역과 영상 목록 사이에 놓이는 그래프 */
+  .year-point.clickable { cursor: pointer; }
+  .year-point.clickable:hover .pt-dot, .year-point.selected .pt-dot { stroke: #ffffff; stroke-width: 2; }
+  .chart-value-selected, .chart-year-selected { fill: var(--ink); font-weight: 700; }
+  .year-clear {
+    font-family: inherit; font-size: 12px; padding: 2px 10px; border-radius: 999px;
+    border: 1px solid var(--muted); background: transparent; color: var(--ink); cursor: pointer;
+  }
+  .year-clear:hover { background: var(--line); }
 
   .live-banner {
     display: flex;
