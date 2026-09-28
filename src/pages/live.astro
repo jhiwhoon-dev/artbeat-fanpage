@@ -33,6 +33,53 @@ const videosData = videos.map((v) => ({
   views: v.view_count ?? 0,
 }));
 
+// ---------- 연간 업로드 수 변화 그래프 (members 페이지 그래프와 같은 디자인) ----------
+// 이 페이지의 타입(위에서 걸러진 videos)만 대상으로, 연도별 업로드 개수를 셈. 업로드가 0건인 해도 축에는 포함.
+const YEARLY_LABEL = 'Live';
+const YEARLY_COLOR = '#ff3b30';
+const yearlyCounts = {};
+for (const v of videos) {
+  const y = String(v.published_date ?? '').slice(0, 4);
+  if (/^\d{4}$/.test(y)) yearlyCounts[y] = (yearlyCounts[y] ?? 0) + 1;
+}
+const yearNums = Object.keys(yearlyCounts).map(Number).sort((a, b) => a - b);
+const chartYears = yearNums.length > 0
+  ? Array.from({ length: yearNums[yearNums.length - 1] - yearNums[0] + 1 }, (_, i) => String(yearNums[0] + i))
+  : [];
+const yearlySeries = chartYears.map((y) => yearlyCounts[y] ?? 0);
+const yearlyMax = Math.max(1, ...yearlySeries);
+const currentYear = String(new Date().getFullYear());
+const lastYearInProgress = chartYears.length > 0 && chartYears[chartYears.length - 1] === currentYear;
+
+const CHART_W = 900;
+const CHART_H = 220;
+const PAD_L = 32;
+const PAD_B = 24;
+const PAD_T = 24; // 점 위에 개수 숫자를 표시할 여유 공간
+const PAD_R = 12;
+const X_INSET = 24; // 첫/끝 점이 왼쪽 눈금 라벨이나 오른쪽 끝에 붙지 않도록 안쪽으로 살짝 들임
+
+function xForYear(i, total) {
+  const inner = CHART_W - PAD_L - PAD_R - X_INSET * 2;
+  return PAD_L + X_INSET + (total > 1 ? (i / (total - 1)) * inner : inner / 2);
+}
+const yearlyCoords = yearlySeries.map((c, i) => ({
+  x: xForYear(i, chartYears.length),
+  y: CHART_H - PAD_B - (c / yearlyMax) * (CHART_H - PAD_B - PAD_T),
+}));
+const yearlyPoints = yearlyCoords.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+
+// 가로축에 표시할 연도 라벨 인덱스 (너무 촘촘하면 간격을 두고 표시)
+function pickYearLabelIndexes(count) {
+  if (count <= 1) return [0];
+  const step = Math.max(1, Math.ceil(count / 10));
+  const idx = [];
+  for (let i = 0; i < count; i += step) idx.push(i);
+  if (idx[idx.length - 1] !== count - 1) idx.push(count - 1);
+  return idx;
+}
+const yearLabelIndexes = pickYearLabelIndexes(chartYears.length);
+
 function safeJson(obj) {
   return JSON.stringify(obj).replace(/</g, '\\u003c');
 }
@@ -53,6 +100,36 @@ function safeJson(obj) {
         <span class="live-banner-label">LIVE NOW</span>
         <span class="live-banner-title">{liveStatus.title}</span>
       </a>
+    )}
+
+    {chartYears.length > 0 && (
+      <div class="year-chart">
+        <p class="chart-title">연간 {YEARLY_LABEL} 업로드 수 변화</p>
+        <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} class="chart-svg">
+          <line x1={PAD_L} y1={CHART_H - PAD_B} x2={CHART_W - PAD_R} y2={CHART_H - PAD_B} class="chart-axis" />
+          <polyline points={yearlyPoints} fill="none" stroke={YEARLY_COLOR} stroke-width="2.5" />
+          {yearlyCoords.map((p, i) => (
+            <g>
+              <circle cx={p.x} cy={p.y} r="3.5" fill={YEARLY_COLOR} />
+              <text x={p.x} y={p.y - 9} class="chart-label chart-value" text-anchor="middle">{yearlySeries[i]}</text>
+            </g>
+          ))}
+          <text x={PAD_L} y={PAD_T + 8} class="chart-label">{yearlyMax}개</text>
+          <text x={PAD_L} y={CHART_H - PAD_B - 4} class="chart-label">0개</text>
+          {yearLabelIndexes.map((i) => (
+            <text x={xForYear(i, chartYears.length)} y={CHART_H - 6} class="chart-label" text-anchor="middle">
+              {chartYears[i]}
+            </text>
+          ))}
+        </svg>
+        <div class="chart-legend">
+          <span class="legend-item">
+            <span class="legend-dot" style={`background:${YEARLY_COLOR}`}></span>
+            {YEARLY_LABEL} <span class="legend-max">(최대 {yearlyMax}개)</span>
+          </span>
+          {lastYearInProgress && <span class="legend-item legend-max">※ {currentYear}년은 집계 진행 중</span>}
+        </div>
+      </div>
     )}
 
     <div class="controls-top">
@@ -192,24 +269,47 @@ function safeJson(obj) {
   const groupTree = buildTree(DATA.map((v) => v.groups));
   const seriesTree = buildTree(DATA.map((v) => v.series));
 
+  // "기타": 탭마다 따로 판단함. 그룹별 탭의 기타 = 그룹이 비어있는 영상, 콘텐츠별 탭의 기타 = 콘텐츠가 비어있는 영상.
+  // (둘 다 비어있는 영상은 두 탭의 기타에 모두 나옴.) 해당하는 영상이 하나도 없으면 그 탭의 기타 버튼은 안 보여줌.
+  const ETC_VALUE = '__etc__';
+  const isEtcGroup = (v: VideoItem) => v.groups.length === 0;
+  const isEtcSeries = (v: VideoItem) => v.series.length === 0;
+  const groupEtcButtons = DATA.some(isEtcGroup) ? [{ label: '기타', value: ETC_VALUE }] : [];
+  const seriesEtcButtons = DATA.some(isEtcSeries) ? [{ label: '기타', value: ETC_VALUE }] : [];
+
   // 트리 + 현재 선택 경로를 받아서, 선택할 때마다 하위 단계 버튼 행이 자동으로 늘어나는 UI를 그려줌.
   // 그룹/콘텐츠 둘 다 이 함수 하나를 공유해서 씀.
-  function renderLevels(container: HTMLElement, tree: TreeNode, path: string[], onChange: (newPath: string[]) => void) {
+  // extraButtons: 첫 단계(depth 0)에서 트리에 없는 특수 버튼(예: "기타")을 맨 끝에 추가하고 싶을 때 씀.
+  function renderLevels(
+    container: HTMLElement,
+    tree: TreeNode,
+    path: string[],
+    onChange: (newPath: string[]) => void,
+    extraButtons: { label: string; value: string }[] = []
+  ) {
     let rowsHtml = '';
     let node = tree;
 
     for (let depth = 0; ; depth++) {
       const keys = [...node.keys()].sort();
-      if (keys.length === 0) break;
+      const extras = depth === 0 ? extraButtons : [];
+      if (keys.length === 0 && extras.length === 0) break;
 
       const activeKeyAtDepth = path[depth];
+      const extraHtml = extras
+        .map((eb) => `<button class="filter-btn etc-btn ${eb.value === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(eb.value)}">${escapeHtml(eb.label)}</button>`)
+        .join('');
       const buttons =
         `<button class="filter-btn ${activeKeyAtDepth === undefined ? 'active' : ''}" data-depth="${depth}" data-value="__all__">전체</button>` +
-        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('');
+        keys.map((k) => `<button class="filter-btn ${k === activeKeyAtDepth ? 'active' : ''}" data-depth="${depth}" data-value="${escapeHtml(k)}">${escapeHtml(k)}</button>`).join('') +
+        extraHtml;
       rowsHtml += `<div class="filters series-level" data-depth="${depth}">${buttons}</div>`;
 
-      if (!activeKeyAtDepth) break;
-      node = node.get(activeKeyAtDepth)!;
+      // "기타"처럼 트리에 없는 특수 값이 선택됐거나, 주소창에 트리에 없는 값이 들어있으면 하위 단계가 없으니 여기서 멈춤
+      if (!activeKeyAtDepth || extras.some((eb) => eb.value === activeKeyAtDepth)) break;
+      const next = node.get(activeKeyAtDepth);
+      if (!next) break;
+      node = next;
     }
 
     container.innerHTML = rowsHtml;
@@ -258,7 +358,7 @@ function safeJson(obj) {
       renderGroupLevels();
       render();
       pushUrlState();
-    });
+    }, groupEtcButtons);
   }
 
   function renderSeriesLevels() {
@@ -269,7 +369,7 @@ function safeJson(obj) {
       renderSeriesLevels();
       render();
       pushUrlState();
-    });
+    }, seriesEtcButtons);
   }
 
   function displayTagPath(tag: string): string {
@@ -363,9 +463,11 @@ function safeJson(obj) {
         // 경로가 비어있으면(= "전체" 선택 상태) 태그가 하나도 없는 영상도 전부 통과시켜야 함.
         // v.groups.some(...)만 쓰면 배열이 비어있을 때 무조건 false가 나와서 "전체"인데도 걸러지는 버그가 생김.
         if (activeGroupPath.length === 0) return true;
+        if (activeGroupPath[0] === ETC_VALUE) return isEtcGroup(v);
         return v.groups.some((tag) => matchesPath(tag, activeGroupPath));
       }
       if (activeSeriesPath.length === 0) return true;
+      if (activeSeriesPath[0] === ETC_VALUE) return isEtcSeries(v);
       return v.series.some((tag) => matchesPath(tag, activeSeriesPath));
     });
   }
@@ -453,6 +555,18 @@ function safeJson(obj) {
 </script>
 
 <style is:global>
+  /* 연간 업로드 수 변화 그래프 (members 페이지 그래프와 같은 디자인) */
+  .year-chart { margin: 24px 0 40px; padding: 24px; border: 1px solid var(--line); border-radius: 12px; }
+  .chart-title { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+  .chart-svg { width: 100%; height: auto; display: block; }
+  .chart-axis { stroke: var(--line); stroke-width: 1; }
+  .chart-label { font-size: 10px; fill: var(--muted); font-family: 'Archivo', sans-serif; }
+  .chart-value { fill: var(--ink); }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .legend-max { color: var(--muted); opacity: 0.7; }
+
   .live-banner {
     display: flex;
     align-items: center;
