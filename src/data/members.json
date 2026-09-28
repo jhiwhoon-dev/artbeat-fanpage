@@ -4986,13 +4986,18 @@
           "A2Be"
         ],
         "start": "2021-07",
-        "end": null
+        "end": "2023-09"
       }
     ],
     "status": "withdrawn",
-    "joined_date": null,
+    "joined_date": "2021-02-01",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2021-02-01",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": null,
     "sns": {

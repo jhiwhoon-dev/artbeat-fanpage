@@ -110796,7 +110796,9 @@
   {
     "youtube_id": "zDJy7f9OCRM",
     "title": "Hey, pretty girls~ #소연 #아영 #Soyeon #Ayeong #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "Big Boss Vette"
+    ],
     "tagged_members": [
       "ji-ayeong",
       "kim-soyeon"
@@ -111633,14 +111635,18 @@
   {
     "youtube_id": "sM7AR2QG9bE",
     "title": "연습은 실전처럼!! #stamp_on_it #하은 #haeun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 123249,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "TYj-icClWUk",
@@ -111661,44 +111667,56 @@
   {
     "youtube_id": "wYXl6Iec7aY",
     "title": "유난히 예쁜 춤선💃🏻 #Stamp_On_It #아영 #Ayeong #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
       "ji-ayeong"
     ],
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 57687,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "NPE6SrCK-Sw",
     "title": "보아 파트를 하는 막내.. 댄브 미쳤다 #Stamp_On_It #결경 #Gyeolgyeong #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
       "jeong-gyeolgyeong"
     ],
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 63051,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "4XeGAtAy8tQ",
     "title": "혜림이는 댄브를 찢어 #stamp_on_it #혜림 #Hyerim #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "GOT the beat"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 54977,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "O_lqNKAQocE",
     "title": "카리나 춤선까지 커버하기 가능? #Stamp_On_It #세영 #Seyoung #shorts",
     "covered_group": [
-      "KARINA"
+      "GOT the beat"
     ],
     "tagged_members": [
       "ha-seyoung"
@@ -111706,7 +111724,9 @@
     "published_date": "2023-02-11",
     "content_type": "short",
     "view_count": 62586,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "yjEwJW7QsS8",
@@ -131568,18 +131588,51 @@
   {
     "youtube_id": "DCq4PtSbx_I",
     "title": "LEEBADA - DRUG | LeeYoung Choreography | 거울모드 Mirror mode | 연습실 Practice ver.",
-    "covered_group": [],
+    "covered_group": [
+      "이바다"
+    ],
     "tagged_members": [
+      "kim-leeyoung",
+      "ji-ayeong",
+      "park-sojeong",
       "park-soyoung",
-      "kwon-soyoung",
-      "ha-seyoung",
-      "ji-ayeong"
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "park-sojeong",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      }
+    ],
+    "choreography": [
+      "kim-leeyoung"
     ],
     "published_date": "2021-12-09",
     "content_type": "video",
     "view_count": 89495,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -131615,18 +131668,57 @@
   {
     "youtube_id": "JWLplpGyB_M",
     "title": "[AB x A2be | 방구석 여기서요?] LEEBADA - Drug | Leeyoung Choreography",
-    "covered_group": [],
+    "covered_group": [
+      "이바다"
+    ],
     "tagged_members": [
+      "kim-leeyoung",
+      "ji-ayeong",
+      "park-sojeong",
       "park-soyoung",
-      "kwon-soyoung",
-      "ha-seyoung",
-      "ji-ayeong"
+      "ha-seyoung"
+    ],
+    "support": [
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "park-sojeong",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "이바다",
+        "covered_member": "이바다"
+      }
+    ],
+    "choreography": [
+      "kim-leeyoung"
     ],
     "published_date": "2021-12-07",
     "content_type": "video",
     "view_count": 823117,
     "content_series": [
-      "Dance Cover MV::A2Be"
+      "방구석 여기서요?::S08::AB × A2Be"
     ]
   },
   {
