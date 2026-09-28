@@ -113822,7 +113822,7 @@
     "youtube_id": "LMsU-v0wJnM",
     "title": "[방구석 여기서요?] Ariana Grande - No Tears Left to Cry | 커버댄스 Dance Cover",
     "covered_group": [
-      "펜타곤"
+      "Ariana Grande"
     ],
     "tagged_members": [
       "ji-ayeong",
@@ -113831,6 +113831,41 @@
       "seo-danbi",
       "kim-minji",
       "jang-sein"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      },
+      {
+        "member_id": "park-jaehee",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      },
+      {
+        "member_id": "kim-minji",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "Ariana Grande",
+        "covered_member": "Ariana Grande"
+      }
     ],
     "published_date": "2022-12-07",
     "content_type": "video",
@@ -125171,22 +125206,42 @@
   {
     "youtube_id": "hCQ-RZCs2HY",
     "title": "어 초면에 죄송한데 제 첫사랑 아니세요? 첫사랑 기억조작 완료💗 #첫사랑니 #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "f(x)"
+    ],
+    "tagged_members": [
+      "jang-sein",
+      "bang-hayul",
+      "jeong-jihye",
+      "kim-minji",
+      "ji-ayeong"
+    ],
     "published_date": "2022-04-23",
     "content_type": "short",
     "view_count": 128510,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "rFSTdPvrjSQ",
     "title": "이게 바로 K-고딩의 고백법?💚 명찰주는 거.. 그거 사랑이라던데🙄 #첫사랑니 #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "f(x)"
+    ],
+    "tagged_members": [
+      "jang-sein",
+      "bang-hayul",
+      "jeong-jihye",
+      "kim-minji",
+      "ji-ayeong"
+    ],
     "published_date": "2022-04-23",
     "content_type": "short",
     "view_count": 119701,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "G48LzAOJE0A",
@@ -125256,11 +125311,41 @@
       "f(x)"
     ],
     "tagged_members": [
-      "ji-ayeong",
       "jang-sein",
-      "kim-minji",
+      "bang-hayul",
       "jeong-jihye",
-      "bang-hayul"
+      "kim-minji",
+      "ji-ayeong"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jang-sein",
+        "covered_group": "f(x)",
+        "covered_member": "크리스탈"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "f(x)",
+        "covered_member": "설리"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "f(x)",
+        "covered_member": "빅토리아"
+      },
+      {
+        "member_id": "kim-minji",
+        "covered_group": "f(x)",
+        "covered_member": "루나"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "f(x)",
+        "covered_member": "엠버"
+      }
     ],
     "published_date": "2022-04-22",
     "content_type": "video",
@@ -125819,12 +125904,21 @@
   {
     "youtube_id": "kbJRPio3chQ",
     "title": "인간솜사탕 아니세요? 퓨어함 끝판왕☁️✨ #DreamsComeTrue #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "ji-ayeong",
+      "bang-hayul",
+      "jeong-jihye",
+      "kim-minji"
+    ],
     "published_date": "2022-04-16",
     "content_type": "short",
     "view_count": 53718,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "RSKJr631zic",
@@ -125931,9 +126025,34 @@
     ],
     "tagged_members": [
       "ji-ayeong",
-      "kim-minji",
       "bang-hayul",
-      "jeong-jihye"
+      "jeong-jihye",
+      "kim-minji"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "kim-minji",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-04-14",
     "content_type": "video",
@@ -129663,7 +129782,21 @@
     "covered_group": [
       "aespa"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "seo-jaemin",
+      "lee-gaeun",
+      "kim-suhwan",
+      "kang-yejin",
+      "lee-sieun",
+      "her-naeun",
+      "park-sunyoung",
+      "kim-hyerim",
+      "lee-seohyeon",
+      "yoon-taegyeong",
+      "park-damhee",
+      "kim-hojun"
+    ],
     "published_date": "2021-12-27",
     "content_type": "short",
     "view_count": 335802,
