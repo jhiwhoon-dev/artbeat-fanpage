@@ -20208,11 +20208,7 @@
   {
     "youtube_id": "UP4gLd67iFA",
     "title": "DE LA MAMA🔥 #DELAMAMA #DELAMAMA챌린지 #지호 #Jiho",
-    "covered_group": [
-      "El Alfa",
-      "El Cherry Scom",
-      "CJ"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "hwang-jiho"
     ],
@@ -93292,7 +93288,33 @@
       "hwang-jiho"
     ],
     "sponsors": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "RIIZE",
+        "covered_member": "RIIZE"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "RIIZE",
+        "covered_member": "RIIZE"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "RIIZE",
+        "covered_member": "RIIZE"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "RIIZE",
+        "covered_member": "RIIZE"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "RIIZE",
+        "covered_member": "RIIZE"
+      }
+    ],
     "song_group": "riize-siren-2023",
     "published_date": "2023-10-14",
     "content_type": "video",
@@ -110143,6 +110165,33 @@
       "hwang-jiho",
       "kim-taehwan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
+    ],
     "published_date": "2023-03-20",
     "content_type": "video",
     "view_count": 417885,
@@ -111661,6 +111710,33 @@
       "hwang-jiho",
       "kim-taehwan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
+    ],
     "published_date": "2023-02-18",
     "content_type": "video",
     "view_count": 64446,
@@ -112176,6 +112252,33 @@
       "kim-suhwan",
       "hwang-jiho",
       "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
     ],
     "published_date": "2023-02-04",
     "content_type": "video",
