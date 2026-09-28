@@ -100143,6 +100143,7 @@
       "NewJeans"
     ],
     "tagged_members": [
+      "lim-jiwoo",
       "park-hyunmin",
       "chae-yunsu"
     ],
@@ -106744,6 +106745,43 @@
       "chae-yunsu",
       "kim-hojun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
+    ],
     "published_date": "2023-04-28",
     "content_type": "video",
     "view_count": 231706,
@@ -107990,9 +108028,7 @@
   {
     "youtube_id": "OyxgQfMEmhs",
     "title": "[야망소년 비긴즈] 왜지? 옷이 별로인가? #ABuniverse #윤수 #Yunsu #shorts",
-    "covered_group": [
-      "IVE"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "chae-yunsu"
     ],
@@ -108449,7 +108485,9 @@
     "published_date": "2023-04-07",
     "content_type": "short",
     "view_count": 84248,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "isfdq5wt2Hs",
@@ -109258,6 +109296,33 @@
       "kim-suhwan",
       "kim-taehwan",
       "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2023-03-25",
     "content_type": "video",
@@ -110592,7 +110657,9 @@
   {
     "youtube_id": "GZSXd8FkY5c",
     "title": "'The Boyz - Roar' Dance Cover #윤수 #Yunsu #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "더보이즈"
+    ],
     "tagged_members": [
       "chae-yunsu"
     ],
@@ -112136,6 +112203,33 @@
       "kim-taehwan",
       "kim-hojun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
+    ],
     "published_date": "2023-01-29",
     "content_type": "video",
     "view_count": 43329,
@@ -112272,6 +112366,33 @@
       "kim-suhwan",
       "kim-taehwan",
       "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2023-01-28",
     "content_type": "video",
@@ -112838,6 +112959,33 @@
       "kim-suhwan",
       "kim-taehwan",
       "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
     ],
     "published_date": "2023-01-20",
     "content_type": "video",
@@ -123123,6 +123271,33 @@
       "jeong-hyungwoo",
       "kim-mingi",
       "kim-leeyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-06-10",
     "content_type": "video",
