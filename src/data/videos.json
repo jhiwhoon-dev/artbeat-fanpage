@@ -118376,12 +118376,36 @@
       "jeong-jihye",
       "ji-ayeong",
       "bang-hayul",
-      "son-wonye",
+      "son-wonye"
+    ],
+    "special_dancers": [
       "lim-donghun",
       "chae-yunsu",
       "hwang-jiho",
       "jeong-hyungwoo",
-      "kim-taehwan"
+      "kang-taehyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeong-jihye",
+        "covered_group": "마마무",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "ji-ayeong",
+        "covered_group": "마마무",
+        "covered_member": "솔라"
+      },
+      {
+        "member_id": "bang-hayul",
+        "covered_group": "마마무",
+        "covered_member": "휘인"
+      },
+      {
+        "member_id": "son-wonye",
+        "covered_group": "마마무",
+        "covered_member": "문별"
+      }
     ],
     "published_date": "2022-08-19",
     "content_type": "video",
@@ -130329,7 +130353,7 @@
       "jeong-jihye",
       "seo-danbi",
       "jang-sein",
-      "sojeong",
+      "park-sojeong",
       "jeong-hyungwoo",
       "kim-youngjin",
       "hwang-jiho",
@@ -130400,6 +130424,12 @@
       "nayoung",
       "kim-minji",
       "son-wonye"
+    ],
+    "support":[
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
     ],
     "role_mapping": [
       {
@@ -131774,7 +131804,7 @@
       "kim-hyoil",
       "kim-minji",
       "jang-sein",
-      "sojeong"
+      "park-sojeong"
     ],
     "support": [
       "GoPro"
@@ -135870,7 +135900,7 @@
       "hwang-jiho",
       "kim-woonggyeom",
       "kim-youngjin",
-      "sojeong",
+      "park-sojeong",
       "won-jin"
     ],
     "role_mapping": [
@@ -135900,7 +135930,7 @@
         "covered_member": "성훈"
       },
       {
-        "member_id": "sojeong",
+        "member_id": "park-sojeong",
         "covered_group": "ENHYPEN",
         "covered_member": "선우"
       },
@@ -136020,7 +136050,7 @@
       "hwang-jiho",
       "kim-woonggyeom",
       "kim-youngjin",
-      "sojeong",
+      "park-sojeong",
       "won-jin"
     ],
     "role_mapping": [
@@ -136050,7 +136080,7 @@
         "covered_member": "성훈"
       },
       {
-        "member_id": "sojeong",
+        "member_id": "park-sojeong",
         "covered_group": "ENHYPEN",
         "covered_member": "선우"
       },
@@ -144571,11 +144601,38 @@
     "youtube_id": "lqsLSalP9Z8",
     "title": "[방구석 여기서요?] 마마무 MAMAMOO - AYA | 커버댄스 Dance Cover",
     "covered_group": [
-      "화사"
+      "마마무"
     ],
     "tagged_members": [
+      "lee-sieun",
       "yun-haeun",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "마마무",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "마마무",
+        "covered_member": "솔라"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "마마무",
+        "covered_member": "휘인"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "마마무",
+        "covered_member": "문별"
+      }
     ],
     "published_date": "2020-12-11",
     "content_type": "video",
@@ -145046,13 +145103,35 @@
     "youtube_id": "M6HPRfVwxE0",
     "title": "[2배속 커버댄스] 마마무 MAMAMOO - AYA | 2x Speed Dance Cover",
     "covered_group": [
-      "화사"
+      "마마무"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung",
       "lee-sieun",
-      "park-damhee"
+      "yun-haeun",
+      "park-damhee",
+      "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "마마무",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "마마무",
+        "covered_member": "솔라"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "마마무",
+        "covered_member": "휘인"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "마마무",
+        "covered_member": "문별"
+      }
     ],
     "published_date": "2020-12-01",
     "content_type": "video",
@@ -145275,17 +145354,41 @@
     "youtube_id": "6Fdl3-choMw",
     "title": "마마무 MAMAMOO - 아야 AYA | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "화사"
+      "마마무"
     ],
     "tagged_members": [
+      "lee-sieun",
       "yun-haeun",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "마마무",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "마마무",
+        "covered_member": "솔라"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "마마무",
+        "covered_member": "휘인"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "마마무",
+        "covered_member": "문별"
+      }
     ],
     "published_date": "2020-11-26",
     "content_type": "video",
     "view_count": 261687,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -145335,16 +145438,47 @@
     "youtube_id": "rzBJF6rEWQU",
     "title": "[AB] 마마무 MAMAMOO - 아야 AYA | 커버댄스 Dance Cover",
     "covered_group": [
-      "화사"
+      "마마무"
     ],
     "tagged_members": [
+      "lee-sieun",
       "yun-haeun",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "support": [
+      "대구지식발전소",
+      "미스라이트"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "마마무",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "마마무",
+        "covered_member": "솔라"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "마마무",
+        "covered_member": "휘인"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "마마무",
+        "covered_member": "문별"
+      }
     ],
     "published_date": "2020-11-24",
     "content_type": "video",
     "view_count": 888824,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "SA7qXbrHA_w",
@@ -166782,11 +166916,11 @@
   {
     "youtube_id": "QzcX5FgE5Qs",
     "title": "[ARTBEAT] 구독자 애칭을 정해주세요 | Please make Subscriber Nickname!!",
-    "covered_group": [
-      "IVE"
-    ],
+    "covered_group": [],
     "tagged_members": [
-      "sojeong"
+      "lee-sieun",
+      "lee-gaeun",
+      "kim-eunbin"
     ],
     "published_date": "2019-03-15",
     "content_type": "short",
