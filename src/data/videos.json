@@ -80,7 +80,9 @@
   {
     "youtube_id": "ejCmuOMDIUs",
     "title": "#진 'D.O. - Guitarlist' Dance Cover #Jin",
-    "covered_group": [],
+    "covered_group": [
+      "도경수"
+    ],
     "content_series": [],
     "tagged_members": [
       "won-jin"
@@ -90765,9 +90767,6 @@
     "view_count": 170913,
     "content_series": [
       "AB PRACTICE::2023y"
-    ],
-    "tagged_members": [
-      "lim-jiwoo"
     ]
   },
   {
@@ -90784,9 +90783,6 @@
     "view_count": 86740,
     "content_series": [
       "AB PRACTICE::2023y"
-    ],
-    "tagged_members": [
-      "joo-hyunseo"
     ]
   },
   {
@@ -90803,9 +90799,6 @@
     "view_count": 141218,
     "content_series": [
       "AB PRACTICE::2023y"
-    ],
-    "tagged_members": [
-      "kim-chan"
     ]
   },
   {
@@ -90822,10 +90815,6 @@
     "view_count": 121280,
     "content_series": [
       "AB PRACTICE::2023y"
-    ],
-    "tagged_members": [
-      "won-jin",
-      "jeong-hyunjin"
     ]
   },
   {
@@ -162612,15 +162601,54 @@
     "youtube_id": "UaTNjBiIC6U",
     "title": "[여기서요?] PRODUCE X 101 - 이뻐 이뻐 Pretty Girl (Black & White ver.) | 크레파스 | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::크레파스"
     ],
     "tagged_members": [
-      "won-jin"
+      "kim-chanhee",
+      "yun-haeun",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "동표"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "형준"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "민희"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "원진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "정모"
+      }
     ],
     "published_date": "2019-10-10",
     "content_type": "video",
     "view_count": 1123881,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "axsV_RI95mo",
@@ -165727,31 +165755,111 @@
     "youtube_id": "8nZlPswld6U",
     "title": "PRODUCE X 101 - 이뻐 이뻐 Pretty Girl | 커버댄스 DANCE COVER  | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::크레파스"
     ],
     "tagged_members": [
-      "won-jin"
+      "kim-chanhee",
+      "yun-haeun",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "동표"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "형준"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "민희"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "원진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "정모"
+      }
     ],
     "published_date": "2019-07-27",
     "content_type": "video",
     "view_count": 1679349,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "3Dd9uQ_iD1w",
     "title": "[AB] PRODUCE X 101 - 이뻐 이뻐 Pretty Girl | 크레파스 | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::크레파스"
     ],
     "tagged_members": [
-      "won-jin"
+      "kim-chanhee",
+      "yun-haeun",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "support": [
+      "IVY SPORTS"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "동표"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "형준"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "민희"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "원진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "정모"
+      }
     ],
     "published_date": "2019-07-26",
     "content_type": "video",
     "view_count": 512359,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "fMaLIHFwzRc",
@@ -165795,16 +165903,53 @@
     "youtube_id": "6ctoolX_n0k",
     "title": "[여기서요?] PRODUCE X 101 - 이뻐 이뻐 Pretty Girl | 크레파스 | 커버댄스 DANCE COVER @AB콘서트 로비",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::크레파스"
     ],
     "tagged_members": [
-      "won-jin"
+      "kim-chanhee",
+      "yun-haeun",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "동표"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "형준"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "민희"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "원진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "PRODUCE 101",
+        "covered_member": "정모"
+      }
     ],
     "published_date": "2019-07-23",
     "content_type": "video",
     "view_count": 1914490,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
