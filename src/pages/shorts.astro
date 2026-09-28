@@ -42,8 +42,22 @@ for (const v of videos) {
   if (/^\d{4}$/.test(y)) yearlyCounts[y] = (yearlyCounts[y] ?? 0) + 1;
 }
 const yearNums = Object.keys(yearlyCounts).map(Number).sort((a, b) => a - b);
+
+// 가로축은 "ARTBEAT 설립 연도 ~ 현재 연도"를 항상 전부 보여줌 (영상이 없는 해는 0으로 표시).
+// ARTBEAT_START_YEAR에 설립 연도를 숫자로 직접 넣으면(예: 2017) 그 해부터 시작하고,
+// null로 두면 전체 영상(영상/쇼츠/라이브 통틀어) 중 가장 이른 업로드 연도를 설립 연도로 씀.
+const ARTBEAT_START_YEAR = null;
+const allUploadYears = allVideos
+  .map((v) => String(v.published_date ?? '').slice(0, 4))
+  .filter((y) => /^\d{4}$/.test(y))
+  .map(Number);
+const nowYear = new Date().getFullYear();
+const foundedYear = ARTBEAT_START_YEAR ?? (allUploadYears.length > 0 ? Math.min(...allUploadYears) : nowYear);
+// 혹시 설립 연도보다 이른 영상이나 미래 날짜 영상이 있어도 데이터가 잘리지 않게 범위를 넓혀줌
+const rangeStartYear = Math.min(foundedYear, yearNums.length > 0 ? yearNums[0] : foundedYear);
+const rangeEndYear = Math.max(nowYear, yearNums.length > 0 ? yearNums[yearNums.length - 1] : nowYear);
 const chartYears = yearNums.length > 0
-  ? Array.from({ length: yearNums[yearNums.length - 1] - yearNums[0] + 1 }, (_, i) => String(yearNums[0] + i))
+  ? Array.from({ length: rangeEndYear - rangeStartYear + 1 }, (_, i) => String(rangeStartYear + i))
   : [];
 const yearlySeries = chartYears.map((y) => yearlyCounts[y] ?? 0);
 const yearlyMax = Math.max(1, ...yearlySeries);
@@ -143,6 +157,9 @@ function safeJson(obj) {
       <div id="series-levels"></div>
     </div>
 
+    <!-- 그룹/콘텐츠를 하나 선택하면, 선택한 카테고리의 연도별 업로드 수 그래프가 여기(필터와 영상 목록 사이)에 나옴. JS가 채움 -->
+    <div class="year-chart selection-year-chart" id="selection-year-chart" style="display:none"></div>
+
     <p class="count-label" id="count-label"></p>
     <div class="grid" id="grid"></div>
     <button class="load-more" id="load-more" hidden>더 보기</button>
@@ -153,6 +170,7 @@ function safeJson(obj) {
   <script type="application/json" id="member-map-data" set:html={safeJson(memberMap)} />
   <script type="application/json" id="base-data" set:html={safeJson(base)} />
   <script type="application/json" id="series-status-data" set:html={safeJson(seriesStatusMap)} />
+  <script type="application/json" id="founded-year-data" set:html={safeJson(foundedYear)} />
 </Layout>
 
 <script>
@@ -466,7 +484,94 @@ function safeJson(obj) {
     return arr;
   }
 
+  // ---- 선택한 그룹/콘텐츠의 연도별 업로드 수 그래프 (필터 선택 영역과 영상 목록 사이) ----
+  // 현재 탭(그룹별/콘텐츠별)에서 고른 경로에 해당하는 영상만 세서 연도별로 그림. (제목 검색·정렬과는 무관하게 카테고리 기준)
+  // 가로축은 그 카테고리에 영상이 있는 첫 해 ~ 마지막 해이고, 중간에 영상이 없는 해도 0으로 포함함.
+  const selectionChartEl = document.getElementById('selection-year-chart');
+  const SEL = { W: 900, H: 220, PAD_L: 32, PAD_B: 24, PAD_T: 24, PAD_R: 12, INSET: 24, COLOR: '#a78bfa' };
+  const FOUNDED_YEAR: number = JSON.parse(document.getElementById('founded-year-data')?.textContent ?? 'null') ?? new Date().getFullYear();
+
+  function renderSelectionChart() {
+    if (!selectionChartEl) return;
+    const hide = () => {
+      selectionChartEl.style.display = 'none';
+      selectionChartEl.innerHTML = '';
+    };
+
+    const path = activeMode === 'group' ? activeGroupPath : activeSeriesPath;
+    if (path.length === 0) return hide();
+
+    const isEtc = path[0] === ETC_VALUE;
+    const matched = DATA.filter((v) => {
+      if (isEtc) return activeMode === 'group' ? isEtcGroup(v) : isEtcSeries(v);
+      const tags = activeMode === 'group' ? v.groups : v.series;
+      return tags.some((tag) => matchesPath(tag, path));
+    });
+
+    const counts: Record<string, number> = {};
+    for (const v of matched) {
+      const y = String(v.date ?? '').slice(0, 4);
+      if (/^\d{4}$/.test(y)) counts[y] = (counts[y] ?? 0) + 1;
+    }
+    const yearNums = Object.keys(counts).map(Number).sort((a, b) => a - b);
+    if (yearNums.length === 0) return hide();
+
+    // 가로축은 ARTBEAT 설립 연도 ~ 현재 연도를 항상 전부 보여줌 (선택한 카테고리에 영상이 없는 해는 0)
+    const first = Math.min(FOUNDED_YEAR, yearNums[0]);
+    const last = Math.max(new Date().getFullYear(), yearNums[yearNums.length - 1]);
+    const years = Array.from({ length: last - first + 1 }, (_, i) => String(first + i));
+    const series = years.map((y) => counts[y] ?? 0);
+    const max = Math.max(1, ...series);
+    const total = series.reduce((a, b) => a + b, 0);
+
+    const inner = SEL.W - SEL.PAD_L - SEL.PAD_R - SEL.INSET * 2;
+    const xAt = (i: number) => SEL.PAD_L + SEL.INSET + (years.length > 1 ? (i / (years.length - 1)) * inner : inner / 2);
+    const coords = series.map((c, i) => ({
+      x: xAt(i),
+      y: SEL.H - SEL.PAD_B - (c / max) * (SEL.H - SEL.PAD_B - SEL.PAD_T),
+    }));
+    const pts = coords.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+
+    // 가로축 연도 라벨 (너무 촘촘하면 간격을 두고 표시)
+    const step = Math.max(1, Math.ceil(years.length / 10));
+    const labelIdx: number[] = [];
+    for (let i = 0; i < years.length; i += step) labelIdx.push(i);
+    if (labelIdx[labelIdx.length - 1] !== years.length - 1) labelIdx.push(years.length - 1);
+
+    const label = isEtc ? '기타' : path.join(' · ');
+    const currentYear = String(new Date().getFullYear());
+    const inProgress = years[years.length - 1] === currentYear;
+
+    selectionChartEl.innerHTML = `
+      <p class="chart-title">"${escapeHtml(label)}" 연간 업로드 수 변화</p>
+      <svg viewBox="0 0 ${SEL.W} ${SEL.H}" class="chart-svg">
+        <line x1="${SEL.PAD_L}" y1="${SEL.H - SEL.PAD_B}" x2="${SEL.W - SEL.PAD_R}" y2="${SEL.H - SEL.PAD_B}" class="chart-axis" />
+        <polyline points="${pts}" fill="none" stroke="${SEL.COLOR}" stroke-width="2.5" />
+        ${coords
+          .map(
+            (p, i) =>
+              `<g><circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="${SEL.COLOR}" />` +
+              `<text x="${p.x.toFixed(1)}" y="${(p.y - 9).toFixed(1)}" class="chart-label chart-value" text-anchor="middle">${series[i]}</text></g>`
+          )
+          .join('')}
+        <text x="${SEL.PAD_L}" y="${SEL.PAD_T + 8}" class="chart-label">${max}개</text>
+        <text x="${SEL.PAD_L}" y="${SEL.H - SEL.PAD_B - 4}" class="chart-label">0개</text>
+        ${labelIdx
+          .map((i) => `<text x="${xAt(i).toFixed(1)}" y="${SEL.H - 6}" class="chart-label" text-anchor="middle">${years[i]}</text>`)
+          .join('')}
+      </svg>
+      <div class="chart-legend">
+        <span class="legend-item">
+          <span class="legend-dot" style="background:${SEL.COLOR}"></span>
+          ${escapeHtml(label)} <span class="legend-max">(최대 ${max}개 · 총 ${total}개)</span>
+        </span>
+        ${inProgress ? `<span class="legend-item legend-max">※ ${currentYear}년은 집계 진행 중</span>` : ''}
+      </div>`;
+    selectionChartEl.style.display = '';
+  }
+
   function render() {
+    renderSelectionChart();
     const filtered = getSorted(getFiltered());
     const slice = filtered.slice(0, currentPage * PAGE_SIZE);
 
@@ -552,6 +657,7 @@ function safeJson(obj) {
   .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
   .legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
   .legend-max { color: var(--muted); opacity: 0.7; }
+  .selection-year-chart { margin: 8px 0 24px; } /* 필터 선택 영역과 영상 목록 사이에 놓이는 그래프 */
 
   .controls-top {
     display: flex;
