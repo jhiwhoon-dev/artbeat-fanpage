@@ -80180,14 +80180,38 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "lim-donghun",
-      "jang-sein"
+      "jang-sein",
+      "jeon-minseo",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2024-05-14",
     "content_type": "video",
     "view_count": 422262,
     "content_series": [
-      "방구석 여기서요?::S16"
+      "방구석 여기서요?::S16",
+      "티어전쟁"
     ]
   },
   {
@@ -82062,14 +82086,38 @@
     ],
     "tagged_members": [
       "kim-kyungju",
-      "lim-donghun",
-      "jang-sein"
+      "jang-sein",
+      "jeon-minseo",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
     ],
     "published_date": "2024-04-20",
     "content_type": "video",
     "view_count": 425638,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2024y",
+      "티어전쟁"
     ]
   },
   {
@@ -107755,9 +107803,10 @@
     "youtube_id": "i2w37k-jppk",
     "title": "바보야, 다시 찍자고 하면 되지😁 #ABuniverse #CANDY #문규 #유빈 @wooyubin #Moonkyu #Yubin #shorts",
     "covered_group": [
-      "IVE"
+      "백현"
     ],
     "tagged_members": [
+      "lee-moonkyu",
       "oh-yubin"
     ],
     "published_date": "2023-04-14",
@@ -108407,7 +108456,9 @@
     "published_date": "2023-04-01",
     "content_type": "short",
     "view_count": 100073,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "BXFHDeheei8",
@@ -108421,7 +108472,9 @@
     "published_date": "2023-04-01",
     "content_type": "short",
     "view_count": 202471,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "w7Yj3REYjn0",
@@ -110985,7 +111038,9 @@
   {
     "youtube_id": "oYa7x9ipdBE",
     "title": "'부석순 - 파이팅 해야지' Dance Cover #동훈 #수환 #지호 #Donghun #Suhwan #Jiho #Shorts",
-    "covered_group": [],
+    "covered_group": [
+      "세븐틴::부석순"
+    ],
     "tagged_members": [
       "kim-suhwan",
       "hwang-jiho",
@@ -111078,28 +111133,6 @@
       "park-hyunmin",
       "hwang-jiho",
       "lim-donghun"
-    ],
-    "role_mapping": [
-      {
-        "member_id": "kim-taehwan",
-        "covered_group": "세븐틴::부석순",
-        "covered_member": "호시"
-      },
-      {
-        "member_id": "kim-hojun",
-        "covered_group": "세븐틴::부석순",
-        "covered_member": "도겸"
-      },
-      {
-        "member_id": "kim-suhwan",
-        "covered_group": "세븐틴::부석순",
-        "covered_member": "승관"
-      },
-      {
-        "member_id": "seo-danbi",
-        "covered_group": "이영지",
-        "covered_member": "이영지"
-      }
     ],
     "published_date": "2023-02-22",
     "content_type": "video",
@@ -112996,52 +113029,115 @@
   {
     "youtube_id": "CyCZq-vFgPs",
     "title": "🐰🐶 인간 캔디들 등장🍬 #candy",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "park-damhee",
+      "kang-yejin",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
     "published_date": "2023-01-04",
     "content_type": "short",
     "view_count": 101408,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "sikihyyeNl4",
     "title": "🐶🦁 이렇게 약속을 하겠어~ #candy",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "park-damhee",
+      "kang-yejin",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
     "published_date": "2023-01-04",
     "content_type": "short",
     "view_count": 106072,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "aVZv2CUzYpM",
     "title": "캔디🍬 뿌셔 뿌셔~ #candy",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "park-damhee",
+      "kang-yejin",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
     "published_date": "2023-01-04",
     "content_type": "short",
     "view_count": 59696,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2023",
+      "Dance Cover MV::Years::2023y"
+    ]
   },
   {
     "youtube_id": "slGyyWinglw",
     "title": "뭐지? 이 귀여운 생명체들이 추는 캔디는🍬 #Candy",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "park-damhee",
+      "kang-yejin",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
     "published_date": "2023-01-03",
     "content_type": "short",
     "view_count": 55841,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "uO5mdm1WarA",
     "title": "캔디 도입부 장인 #Candy",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "NCT::NCT DREAM"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-suhwan",
+      "park-damhee",
+      "kang-yejin",
+      "yun-haeun",
+      "ahn-yoojin",
+      "lim-donghun"
+    ],
     "published_date": "2023-01-03",
     "content_type": "short",
     "view_count": 711645,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "9wLH8G7lVyU",
@@ -120200,22 +120296,40 @@
   {
     "youtube_id": "sVBexrEWDrU",
     "title": "이렇게 가까이 찍으시면 어떡해요😂 #girls #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
     "published_date": "2022-07-30",
     "content_type": "short",
     "view_count": 219843,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "TIIJsF1qW-E",
     "title": "'Girls' 댄브 부숴버리기👊🏻 이 조합 진심 ㄹㅈㄷ #girls #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "aespa"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
     "published_date": "2022-07-30",
     "content_type": "short",
     "view_count": 273452,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S10::AB"
+    ]
   },
   {
     "youtube_id": "cCwYi5Cxwxo",
@@ -122713,6 +122827,53 @@
       "kim-youngjin",
       "chae-yunsu",
       "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "샤오쥔"
+      }
     ],
     "published_date": "2022-06-09",
     "content_type": "video",
@@ -125477,12 +125638,24 @@
   {
     "youtube_id": "5RiqJmlWFuU",
     "title": "남자는 등으로 말한다🖤 #RUN #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "방탄소년단"
+    ],
+    "tagged_members": [
+      "hwang-jiho",
+      "kim-youngjin",
+      "kim-mingi",
+      "jeong-hyungwoo",
+      "lim-donghun",
+      "chae-yunsu",
+      "kim-hyoil"
+    ],
     "published_date": "2022-04-20",
     "content_type": "short",
     "view_count": 87849,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::A2Be"
+    ]
   },
   {
     "youtube_id": "0JaJZ0ozMvg",
@@ -125512,12 +125685,49 @@
     ],
     "tagged_members": [
       "hwang-jiho",
-      "kim-mingi",
       "kim-youngjin",
+      "kim-mingi",
+      "jeong-hyungwoo",
       "lim-donghun",
       "chae-yunsu",
-      "jeong-hyungwoo",
       "kim-hyoil"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "jeong-hyungwoo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2022-04-19",
     "content_type": "video",
@@ -126404,29 +126614,88 @@
   {
     "youtube_id": "v5ELxlO1lJU",
     "title": "체육관도 그리스 로마로 만들어버리는 인간 아르테미스✨ #INVU #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "태연"
+    ],
+    "tagged_members": [
+      "lee-gaeun",
+      "ahn-yoojin",
+      "kim-minjin"
+    ],
+    "special_dancers": [
+      "kang-yejin",
+      "bang-jooyeon"
+    ],
     "published_date": "2022-04-10",
     "content_type": "short",
     "view_count": 301183,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "VzVaunKaVEA",
     "title": "[A2be | 방구석 여기서요?] NCT U - Universe (Let's Play Ball) | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "NCT::NCT U"
     ],
     "tagged_members": [
-      "hwang-jiho",
       "kim-mingi",
-      "kim-youngjin",
-      "lim-donghun",
-      "chae-yunsu",
+      "kim-leeyoung",
+      "seo-danbi",
+      "hwang-jiho",
       "kim-hyoil",
       "jang-sein",
-      "seo-danbi",
-      "kim-leeyoung"
+      "kim-youngjin",
+      "chae-yunsu",
+      "lim-donghun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "kim-leeyoung",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "seo-danbi",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "쇼타로"
+      },
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hyoil",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "lim-donghun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "샤오쥔"
+      }
     ],
     "published_date": "2022-04-09",
     "content_type": "video",
@@ -129610,12 +129879,22 @@
   {
     "youtube_id": "4rRGtdEraJE",
     "title": "한발짝 늦은 타이밍의 캐롤 릴레이댄스 #소리꾼 #Thunderous #Shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Stray Kids"
+    ],
+    "tagged_members": [
+      "kim-hojun",
+      "kim-hyerim",
+      "kim-taehwan",
+      "ha-seyoung",
+      "seo-jaemin"
+    ],
     "published_date": "2022-01-03",
     "content_type": "short",
     "view_count": 258869,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2022y"
+    ]
   },
   {
     "youtube_id": "DCbedD9jVKw",
@@ -129720,6 +129999,9 @@
       "kim-youngjin",
       "chae-yunsu",
       "lim-donghun"
+    ],
+    "support": [
+      "SMALL WINGS PROJECT"
     ],
     "role_mapping": [
       {
@@ -140731,62 +141013,87 @@
   {
     "youtube_id": "Tqiz24-Kdz4",
     "title": "사실 이런 컨셉 좋아해 #AB '담희' 라일락 (아이컨택 ver.) #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "아이유"
+    ],
     "tagged_members": [
       "park-damhee"
     ],
     "published_date": "2021-04-17",
     "content_type": "short",
     "view_count": 163030,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "TGDzIk96ifM",
     "title": "이정도면 핑크머리 성공!? #AB '하은' 라일락 (아이컨택 ver.) #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "아이유"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
     "published_date": "2021-04-17",
     "content_type": "short",
     "view_count": 117922,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "d2pi8yd8Zlw",
     "title": "몰랐는데 나 이거 기다렸었네.. #AB '유빈' 라일락 (아이컨택 ver.) #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "아이유"
+    ],
     "tagged_members": [
       "oh-yubin"
     ],
     "published_date": "2021-04-17",
     "content_type": "short",
     "view_count": 334203,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "bWg0BPu81I8",
     "title": "표정이 제법 다양한 곰돌🐻 #AB '민진' 라일락 (아이컨택 ver.) #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "아이유"
+    ],
     "tagged_members": [
       "kim-minjin"
     ],
     "published_date": "2021-04-17",
     "content_type": "short",
     "view_count": 96792,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "Gqy8Hdum_dE",
     "title": "인간 라일락이야? #AB '가은' 라일락 (아이컨택 ver.) #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "아이유"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
     "published_date": "2021-04-17",
     "content_type": "short",
     "view_count": 201427,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "lk1YD88Fo_w",
@@ -174070,7 +174377,7 @@
     ],
     "tagged_members": [],
     "published_date": "2016-11-10",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 58943,
     "content_series": [
       "Dance Cover MV::Years::2016y",
