@@ -109915,8 +109915,7 @@
     "youtube_id": "GJ2D8lYERGc",
     "title": "최애 #지민 님 파트에 임하는 자세!! #민기 #Mingi #shorts",
     "covered_group": [
-      "방탄소년단",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
       "kim-mingi"
@@ -114096,8 +114095,14 @@
   {
     "youtube_id": "YiQ1RUx9vpM",
     "title": "형제의 광기ㄷㄷㄷㄷ 게릴라 #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "chae-yunsu",
+      "park-hyunmin",
+      "kim-taehwan"
+    ],
     "published_date": "2022-12-22",
     "content_type": "short",
     "view_count": 80498,
@@ -114582,20 +114587,62 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kwon-dohyun",
       "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
-      "kim-mingi",
+      "lee-sieun",
+      "choi-sungjun",
+      "park-hyunmin",
       "park-soyoung",
-      "kwon-soyoung",
+      "kwon-dohyun",
       "lee-seohyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-12-06",
     "content_type": "video",
     "view_count": 38389,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -114687,20 +114734,66 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
-      "kim-mingi",
+      "lee-sieun",
+      "jeon-hyeonguk",
+      "park-hyunmin",
       "park-soyoung",
-      "kwon-soyoung",
+      "kwon-dohyun",
       "lee-seohyeon"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-12-03",
     "content_type": "video",
     "view_count": 404459,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "f2jTT6-JfNs",
@@ -117560,20 +117653,62 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kwon-dohyun",
       "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
-      "kim-mingi",
+      "lee-sieun",
+      "choi-sungjun",
+      "park-hyunmin",
       "park-soyoung",
-      "kwon-soyoung",
+      "kwon-dohyun",
       "lee-seohyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-09-09",
     "content_type": "video",
     "view_count": 299268,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -118456,6 +118591,48 @@
       "kwon-dohyun",
       "lee-seohyeon"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
+    ],
     "published_date": "2022-09-02",
     "content_type": "video",
     "view_count": 398048,
@@ -118588,19 +118765,67 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kwon-dohyun",
       "kim-taehwan",
-      "park-hyunmin",
       "kim-suhwan",
-      "kim-mingi",
+      "lee-sieun",
+      "choi-sungjun",
+      "park-hyunmin",
       "park-soyoung",
-      "kwon-soyoung",
+      "kwon-dohyun",
       "lee-seohyeon"
+    ],
+    "sponsors": [
+      "nicethat"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-08-31",
     "content_type": "video",
     "view_count": 92935,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "ahuFRYmWBfs",
@@ -127574,22 +127799,48 @@
   {
     "youtube_id": "g4TErpD32ig",
     "title": "이런게 바로 멋입니다 😊✌🏻🍎 #멋 #TheReal #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
+      "kim-suhwan",
+      "kim-hyerim",
+      "ha-seyoung",
+      "kim-hojun"
+    ],
     "published_date": "2022-04-08",
     "content_type": "short",
     "view_count": 93069,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "Q47cXGqvMhg",
     "title": "뭔진 모르겠지만 제가 다 잘못했습니다🥶#멋 #TheReal #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "tagged_members": [
+      "kim-taehwan",
+      "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
+      "kim-suhwan",
+      "kim-hyerim",
+      "ha-seyoung",
+      "kim-hojun"
+    ],
     "published_date": "2022-04-08",
     "content_type": "short",
     "view_count": 309162,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "kUhYV0c5r3g",
@@ -127598,13 +127849,56 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
       "kim-suhwan",
-      "kim-mingi",
       "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-04-07",
     "content_type": "video",
@@ -130357,18 +130651,63 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
       "kim-suhwan",
-      "kim-mingi",
       "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-01-17",
     "content_type": "video",
     "view_count": 909226,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2022y::AB"
+    ]
   },
   {
     "youtube_id": "lRLSJLg7HX4",
@@ -130377,19 +130716,62 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
       "kim-suhwan",
-      "kim-mingi",
       "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-01-16",
     "content_type": "video",
     "view_count": 205769,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -130399,18 +130781,64 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
       "kim-kyungju",
+      "seo-jaemin",
+      "lee-sieun",
       "kim-suhwan",
-      "kim-mingi",
       "kim-hyerim",
-      "ha-seyoung"
+      "ha-seyoung",
+      "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2022-01-16",
     "content_type": "video",
     "view_count": 244486,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ]
   },
   {
     "youtube_id": "OnDT6crmaCo",
@@ -135214,17 +135642,66 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kim-hojun",
       "kim-taehwan",
       "kim-kyungju",
+      "jeon-hyeonguk",
+      "seo-jaemin",
       "kim-suhwan",
-      "kim-mingi"
+      "kim-hojun",
+      "park-pilho",
+      "kim-jaewook"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      }
     ],
     "published_date": "2021-09-23",
     "content_type": "video",
     "view_count": 392556,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "DXlkFr8-kyQ",
@@ -143348,17 +143825,66 @@
       "ATEEZ"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "park-sunyoung",
+      "seo-jaemin",
       "jeon-hyeonguk",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-mingi",
-      "park-sunyoung",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-jaewook",
+      "jin-hyunwoo"
+    ],
+    "sponsors": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2021-03-17",
     "content_type": "video",
     "view_count": 479949,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "jlUpN9pLPy4",
@@ -144572,18 +145098,62 @@
       "ATEEZ"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "park-sunyoung",
+      "seo-jaemin",
       "jeon-hyeonguk",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-mingi",
-      "park-sunyoung",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-jaewook",
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2021-02-05",
     "content_type": "video",
     "view_count": 85868,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -144593,17 +145163,64 @@
       "ATEEZ"
     ],
     "tagged_members": [
+      "kim-taehwan",
+      "park-sunyoung",
+      "seo-jaemin",
       "jeon-hyeonguk",
       "kim-hojun",
-      "kim-taehwan",
-      "kim-mingi",
-      "park-sunyoung",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-jaewook",
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2021-02-04",
     "content_type": "video",
     "view_count": 188131,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "svvqbsrJUHY",
@@ -157346,9 +157963,56 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-mingi",
+      "park-jaebum",
+      "kim-woonggyeom",
+      "seo-jaemin",
       "park-sunyoung",
-      "kim-hyerim"
+      "gyungmin",
+      "kim-hyerim",
+      "park-damhee",
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2020-02-08",
     "content_type": "video",
@@ -157727,15 +158391,65 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-mingi",
+      "park-jaebum",
+      "kim-woonggyeom",
+      "seo-jaemin",
       "park-sunyoung",
-      "kim-hyerim"
+      "gyungmin",
+      "kim-hyerim",
+      "park-damhee",
+      "jin-hyunwoo"
+    ],
+    "support": [
+      "ABLY"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2020-01-31",
     "content_type": "video",
     "view_count": 343546,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2020y"
     ]
   },
   {
@@ -157745,14 +158459,64 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-mingi",
+      "park-jaebum",
+      "kim-woonggyeom",
+      "seo-jaemin",
       "park-sunyoung",
-      "kim-hyerim"
+      "gyungmin",
+      "kim-hyerim",
+      "park-damhee",
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      }
     ],
     "published_date": "2020-01-30",
     "content_type": "video",
     "view_count": 337074,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "69Gj7gbvxUc",
@@ -168752,12 +169516,63 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-moonkyu",
+      "kim-woonggyeom",
+      "jeon-hyeonguk",
+      "kwon-dohyun",
+      "jin-hyunwoo",
+      "yun-jihong",
+      "kim-jaewook",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      }
+    ],
     "published_date": "2019-02-13",
     "content_type": "video",
     "view_count": 51800,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -168774,7 +169589,6 @@
     "youtube_id": "lSiZcnKyzOs",
     "title": "ITZY - 달라달라 DALLA DALLA | 커버댄스 Dance Cover / Cover by 혜림 HyeRim (Mirror Mode)",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
@@ -168792,16 +169606,62 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "lee-moonkyu",
+      "kim-woonggyeom",
       "jeon-hyeonguk",
       "kwon-dohyun",
-      "kim-mingi"
+      "jin-hyunwoo",
+      "yun-jihong",
+      "kim-jaewook",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      }
     ],
     "published_date": "2019-02-12",
     "content_type": "video",
     "view_count": 1002723,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -168811,15 +169671,67 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "yun-jihong",
+      "lee-moonkyu",
+      "kim-woonggyeom",
       "jeon-hyeonguk",
       "kwon-dohyun",
-      "kim-mingi"
+      "jin-hyunwoo",
+      "yun-jihong",
+      "kim-jaewook",
+      "seo-jaemin"
+    ],
+    "support": [
+      "THE DIFFER"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      }
     ],
     "published_date": "2019-02-11",
     "content_type": "video",
     "view_count": 277808,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "YB9PFfUDA9E",
