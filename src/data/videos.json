@@ -121546,13 +121546,21 @@
       "Kep1er"
     ],
     "tagged_members": [
-      "song-haeun"
+      "song-haeun",
+      "yun-bogyeong",
+      "yoon-taegyeong",
+      "yun-haeun",
+      "park-damhee",
+      "park-soyoung",
+      "kang-yejin",
+      "park-sunyoung",
+      "lee-gaeun"
     ],
     "published_date": "2022-07-19",
     "content_type": "video",
     "view_count": 71954,
     "content_series": [
-      "AB VLOG"
+      "AB VLOG::Years::2022y"
     ]
   },
   {
@@ -122587,8 +122595,14 @@
   {
     "youtube_id": "pjkJXYgBhfI",
     "title": "🏖물놀이 와서 POP POP POP!! #POP #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "나연"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "lee-seohyeon",
+      "park-soyoung"
+    ],
     "published_date": "2022-07-02",
     "content_type": "short",
     "view_count": 545451,
@@ -122597,7 +122611,9 @@
   {
     "youtube_id": "KNxyxEKKN7I",
     "title": "바로 지금이야😜 #UP #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "Kep1er"
+    ],
     "tagged_members": [
       "kang-yejin",
       "song-haeun"
@@ -134364,7 +134380,7 @@
       "kim-minjin",
       "song-haeun",
       "kang-yejin",
-      "hye-in"
+      "jung-hyein"
     ],
     "published_date": "2021-10-27",
     "content_type": "video",
@@ -134971,7 +134987,7 @@
       "park-sunyoung",
       "kim-hyerim",
       "lee-sieun",
-      "hye-in",
+      "jung-hyein",
       "yun-haeun",
       "lee-gaeun",
       "song-haeun"
@@ -135488,10 +135504,48 @@
       "kang-yejin",
       "kim-kyungju",
       "kim-suhwan",
-      "choi-sungjun"
+      "choi-sungjun",
+      "jung-hyein"
     ],
     "sponsors": [
       "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "song-haeun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      }
     ],
     "published_date": "2021-09-27",
     "content_type": "video",
@@ -136293,7 +136347,7 @@
       "oh-yubin",
       "park-soyoung",
       "ahn-yoojin",
-      "hye-in",
+      "jung-hyein",
       "lee-sieun",
       "kim-hayeon"
     ],
@@ -137542,7 +137596,44 @@
       "kim-kyungju",
       "kim-suhwan",
       "choi-sungjun",
-      "hye-in"
+      "jung-hyein"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "song-haeun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      }
     ],
     "published_date": "2021-08-16",
     "content_type": "video",
@@ -137676,15 +137767,53 @@
       "kim-kyungju",
       "kim-suhwan",
       "choi-sungjun",
-      "hye-in"
+      "jung-hyein"
     ],
     "sponsors": [
       "위드컴퍼니"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "song-haeun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      }
     ],
     "published_date": "2021-08-13",
     "content_type": "video",
     "view_count": 241913,
     "content_series": [
+      "나는 신입::2021y",
       "Dance Cover MV::Dance Teams::AB::2021y",
       "Dance Cover MV::Years::2021y"
     ]
@@ -138467,7 +138596,7 @@
       "kim-minjin",
       "song-haeun",
       "kang-yejin",
-      "hye-in"
+      "jung-hyein"
     ],
     "role_mapping": [
       {
@@ -138509,7 +138638,7 @@
       "kim-minjin",
       "song-haeun",
       "kang-yejin",
-      "hye-in"
+      "jung-hyein"
     ],
     "sponsors": [
       "SAN57"
@@ -138610,7 +138739,7 @@
       "park-sunyoung",
       "kim-hyerim",
       "lee-sieun",
-      "hye-in",
+      "jung-hyein",
       "yun-haeun",
       "lee-gaeun",
       "song-haeun"
@@ -138643,7 +138772,7 @@
         "covered_member": "이채영"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "프로미스나인",
         "covered_member": "박지원"
       },
@@ -138682,7 +138811,7 @@
       "park-sunyoung",
       "kim-hyerim",
       "lee-sieun",
-      "hye-in",
+      "jung-hyein",
       "yun-haeun",
       "lee-gaeun",
       "song-haeun"
@@ -138717,7 +138846,7 @@
         "covered_member": "이채영"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "프로미스나인",
         "covered_member": "박지원"
       },
@@ -139472,7 +139601,7 @@
       "oh-yubin",
       "park-soyoung",
       "ahn-yoojin",
-      "hye-in",
+      "jung-hyein",
       "lee-sieun",
       "kim-hayeon"
     ],
@@ -139508,7 +139637,7 @@
         "covered_member": "미나"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "TWICE",
         "covered_member": "채영"
       },
@@ -139671,7 +139800,7 @@
       "oh-yubin",
       "park-soyoung",
       "ahn-yoojin",
-      "hye-in",
+      "jung-hyein",
       "lee-sieun",
       "kim-hayeon"
     ],
@@ -139707,7 +139836,7 @@
         "covered_member": "미나"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "TWICE",
         "covered_member": "채영"
       },
@@ -139742,7 +139871,7 @@
       "oh-yubin",
       "park-soyoung",
       "ahn-yoojin",
-      "hye-in",
+      "jung-hyein",
       "lee-sieun",
       "kim-hayeon"
     ],
@@ -139781,7 +139910,7 @@
         "covered_member": "미나"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "TWICE",
         "covered_member": "채영"
       },
@@ -142327,7 +142456,7 @@
       "park-sunyoung",
       "yoon-taegyeong",
       "lee-seohyeon",
-      "hye-in"
+      "jung-hyein"
     ],
     "role_mapping": [
       {
@@ -142361,7 +142490,7 @@
         "covered_member": "박지은"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "퍼플키스",
         "covered_member": "유키"
       }
@@ -142529,7 +142658,7 @@
       "park-sunyoung",
       "yoon-taegyeong",
       "lee-seohyeon",
-      "hye-in"
+      "jung-hyein"
     ],
     "role_mapping": [
       {
@@ -142563,7 +142692,7 @@
         "covered_member": "박지은"
       },
       {
-        "member_id": "hye-in",
+        "member_id": "jung-hyein",
         "covered_group": "퍼플키스",
         "covered_member": "유키"
       }
