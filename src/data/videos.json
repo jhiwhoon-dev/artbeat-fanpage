@@ -115191,25 +115191,63 @@
     "youtube_id": "olZJWZq72fU",
     "title": "[방구석 여기서요?] SuperM - 호랑이 Tiger Inside | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kwon-dohyun",
-      "kim-hojun",
       "kim-taehwan",
-      "park-hyunmin",
+      "kim-hojun",
+      "yun-jihong",
+      "lee-seohyeon",
       "park-sunyoung",
-      "lee-seohyeon"
+      "park-hyunmin",
+      "kwon-dohyun"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2022-12-01",
     "content_type": "video",
     "view_count": 294026,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "rnKi8Clxf8I",
@@ -151130,13 +151168,57 @@
     ],
     "tagged_members": [
       "yun-jihong",
+      "lee-moonkyu",
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
       "kwon-dohyun",
       "park-munsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-10-09",
     "content_type": "video",
     "view_count": 179664,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "Vw2UkOJbOoc",
@@ -151643,20 +151725,59 @@
       "SuperM"
     ],
     "tagged_members": [
-      "park-sunyoung",
+      "park-damhee",
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-hayeon",
+      "kim-hyerim",
+      "lee-seohyeon",
+      "park-sunyoung"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-09-30",
     "content_type": "video",
     "view_count": 2019093,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S07"
     ]
   },
   {
@@ -152592,26 +152713,59 @@
     "youtube_id": "SmCUARb7vYg",
     "title": "SuperM - 호랑이 Tiger Inside (Girls ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
-      "park-sunyoung",
+      "park-damhee",
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-hayeon",
+      "kim-hyerim",
+      "lee-seohyeon",
+      "park-sunyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-09-19",
     "content_type": "video",
     "view_count": 160179,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -152946,14 +153100,55 @@
     ],
     "tagged_members": [
       "yun-jihong",
+      "lee-moonkyu",
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
       "kwon-dohyun",
       "park-munsu"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-09-17",
     "content_type": "video",
     "view_count": 335393,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -152963,18 +153158,62 @@
       "SuperM"
     ],
     "tagged_members": [
-      "park-sunyoung",
+      "park-damhee",
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-hayeon",
+      "kim-hyerim",
+      "lee-seohyeon",
+      "park-sunyoung"
+    ],
+    "support": [
+      "ABLY",
+      "stay550"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-09-16",
     "content_type": "video",
     "view_count": 253791,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "mghusqAYoek",
