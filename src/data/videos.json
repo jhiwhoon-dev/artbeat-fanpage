@@ -116073,15 +116073,41 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
+      "lee-seohyeon",
       "hwang-dagun",
-      "lee-seohyeon"
+      "kim-hayeon"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2022-11-20",
     "content_type": "video",
     "view_count": 1594853,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "Dwir0S7MUUc",
@@ -117519,16 +117545,37 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
+      "lee-seohyeon",
       "hwang-dagun",
-      "lee-seohyeon"
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2022-10-01",
     "content_type": "video",
     "view_count": 3509504,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -117539,16 +117586,37 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
+      "lee-seohyeon",
       "hwang-dagun",
-      "lee-seohyeon"
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2022-09-30",
     "content_type": "video",
     "view_count": 861569,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
@@ -117559,15 +117627,39 @@
     ],
     "tagged_members": [
       "park-soyoung",
-      "kim-hayeon",
-      "kwon-soyoung",
+      "lee-seohyeon",
       "hwang-dagun",
-      "lee-seohyeon"
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2022-09-29",
     "content_type": "video",
     "view_count": 344467,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "IG8aQUy0Rcc",
@@ -121182,9 +121274,47 @@
       "oh-yubin",
       "park-soyoung"
     ],
-    "sponsors": [
-      "선비세상",
-      "영주시"
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      }
     ],
     "published_date": "2022-08-06",
     "content_type": "video",
@@ -121398,6 +121528,48 @@
     "sponsors": [
       "선비세상",
       "영주시"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      }
     ],
     "published_date": "2022-08-05",
     "content_type": "video",
@@ -156625,18 +156797,27 @@
       "2PM"
     ],
     "tagged_members": [
+      "lee-moonkyu",
       "yun-jihong",
-      "park-munsu",
       "park-soyoung",
       "kwon-soyoung",
-      "hwang-dagun",
+      "kim-woonggyeom",
+      "park-damhee",
+      "jin-hyunwoo",
+      "park-munsu",
       "kim-hyerim",
-      "lee-seohyeon"
+      "lee-seohyeon",
+      "kim-chanhee",
+      "hwang-dagun",
+      "kim-jeongseo",
+      "lee-jihoon"
     ],
     "published_date": "2020-06-23",
     "content_type": "video",
     "view_count": 377980,
-    "content_series": []
+    "content_series": [
+      "챌린지::2020y"
+    ]
   },
   {
     "youtube_id": "BtXG4X4XYQE",
@@ -157012,21 +157193,42 @@
     "youtube_id": "Y82ehoffuJA",
     "title": "[방구석 여기서요?] 블랙핑크 BLACKPINK - 휘파람 WHISTLE | 커버댄스 DANCE COVER",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "ha-seyoung",
+      "park-soyoung",
       "oh-yubin",
       "lee-seohyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-06-18",
     "content_type": "video",
     "view_count": 8257220,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "dqf26fMOTSs",
@@ -157390,17 +157592,38 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "ha-seyoung",
+      "park-soyoung",
       "oh-yubin",
       "lee-seohyeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-06-12",
     "content_type": "video",
     "view_count": 3944067,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -157460,16 +157683,44 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung",
       "ha-seyoung",
+      "park-soyoung",
       "oh-yubin",
       "lee-seohyeon"
+    ],
+    "support": [
+      "ABLY",
+      "ANOBLIO"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-06-11",
     "content_type": "video",
     "view_count": 735565,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "iCG-FrG6tBI",
