@@ -120259,6 +120259,43 @@
       "kwon-dohyun",
       "choi-sungjun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
+    ],
     "published_date": "2022-08-12",
     "content_type": "video",
     "view_count": 359569,
@@ -121858,16 +121895,56 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan"
+      "lee-moonkyu",
+      "kim-hojun",
+      "kim-chanhee",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "choi-sungjun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2022-07-22",
     "content_type": "video",
     "view_count": 59166,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ]
   },
   {
@@ -121941,12 +122018,49 @@
     ],
     "tagged_members": [
       "kim-taehwan",
-      "kim-suhwan",
-      "choi-sungjun",
-      "kwon-dohyun",
       "lee-moonkyu",
       "kim-hojun",
-      "kim-chanhee"
+      "kim-chanhee",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "choi-sungjun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2022-07-18",
     "content_type": "video",
@@ -122250,16 +122364,56 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan"
+      "lee-moonkyu",
+      "kim-hojun",
+      "kim-chanhee",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "choi-sungjun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2022-07-15",
     "content_type": "video",
     "view_count": 227405,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ]
   },
   {
