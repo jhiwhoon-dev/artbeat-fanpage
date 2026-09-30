@@ -19726,6 +19726,58 @@
       "baek-jina",
       "kim-chan"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "lee-yoonjae",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "baek-jina",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "소녀시대",
+        "covered_member": "소녀시대"
+      }
+    ],
     "published_date": "2026-02-18",
     "content_type": "video",
     "view_count": 101695,
@@ -51239,11 +51291,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-23",
     "content_type": "short",
     "view_count": 170864,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "DOzomZXSalw",
@@ -51251,11 +51322,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-23",
     "content_type": "short",
     "view_count": 62353,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "n9IuMrZuy2M",
@@ -51263,11 +51353,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "park-seongmin",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lim-donghun",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-23",
     "content_type": "short",
     "view_count": 111948,
-    "content_series": []
+    "content_series": [
+      "버스킹 여기서요?::2025y"
+    ]
   },
   {
     "youtube_id": "KMUQb-yGr6M",
@@ -54641,11 +54750,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "chae-yunsu",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lee-garam",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-10",
     "content_type": "short",
     "view_count": 115400,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "J8kEwZSwfuQ",
@@ -54653,11 +54781,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "chae-yunsu",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lee-garam",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-10",
     "content_type": "short",
     "view_count": 118850,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "rijrvW0gERc",
@@ -54665,11 +54812,30 @@
     "covered_group": [
       "ATEEZ"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "hwang-jiho",
+      "kim-youngjin",
+      "chae-yunsu",
+      "kang-taehyun",
+      "kim-suhwan",
+      "park-hyunmin",
+      "kang-jaesin",
+      "lee-garam",
+      "kim-hyerim",
+      "kang-yejin",
+      "lee-gaeun",
+      "ha-seyoung",
+      "kim-nakyeong",
+      "ahn-yoojin",
+      "lee-jeonghee"
+    ],
     "published_date": "2025-05-10",
     "content_type": "short",
     "view_count": 215207,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S19"
+    ]
   },
   {
     "youtube_id": "wyef97t8uMg",
@@ -65951,13 +66117,13 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "kang-yejin",
+      "won-hyegyeong",
       "aoki-yuka",
-      "won-seoa",
+      "ha-seyoung",
       "jung-siyun",
       "lee-wina",
-      "won-hyegyeong"
+      "won-seoa"
     ],
     "published_date": "2025-01-30",
     "content_type": "short",
@@ -65973,13 +66139,13 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "kang-yejin",
+      "won-hyegyeong",
       "aoki-yuka",
-      "won-seoa",
+      "ha-seyoung",
       "jung-siyun",
       "lee-wina",
-      "won-hyegyeong"
+      "won-seoa"
     ],
     "published_date": "2025-01-30",
     "content_type": "short",
@@ -65995,13 +66161,13 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "kang-yejin",
+      "won-hyegyeong",
       "aoki-yuka",
-      "won-seoa",
+      "ha-seyoung",
       "jung-siyun",
       "lee-wina",
-      "won-hyegyeong"
+      "won-seoa"
     ],
     "published_date": "2025-01-30",
     "content_type": "short",
@@ -66109,24 +66275,24 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "ha-seyoung",
       "kang-yejin",
+      "won-hyegyeong",
       "aoki-yuka",
-      "won-seoa",
+      "ha-seyoung",
       "jung-siyun",
       "lee-wina",
-      "won-hyegyeong"
+      "won-seoa"
     ],
     "role_mapping": [
       {
-        "member_id": "ha-seyoung",
-        "covered_group": "BABYMONSTER",
-        "covered_member": "아현"
-      },
-      {
-        "member_id": "lee-yoonjae",
+        "member_id": "kang-yejin",
         "covered_group": "BABYMONSTER",
         "covered_member": "루카"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "파리타"
       },
       {
         "member_id": "aoki-yuka",
@@ -66134,9 +66300,9 @@
         "covered_member": "아사"
       },
       {
-        "member_id": "won-seoa",
+        "member_id": "ha-seyoung",
         "covered_group": "BABYMONSTER",
-        "covered_member": "치키타"
+        "covered_member": "아현"
       },
       {
         "member_id": "jung-siyun",
@@ -66149,9 +66315,9 @@
         "covered_member": "로라"
       },
       {
-        "member_id": "won-hyegyeong",
+        "member_id": "won-seoa",
         "covered_group": "BABYMONSTER",
-        "covered_member": "파리타"
+        "covered_member": "치키타"
       }
     ],
     "published_date": "2025-01-29",
@@ -70460,7 +70626,7 @@
         "covered_member": "아현"
       },
       {
-        "member_id": "lee-yoonjae",
+        "member_id": "kang-yejin",
         "covered_group": "BABYMONSTER",
         "covered_member": "루카"
       },
@@ -70826,7 +70992,7 @@
         "covered_member": "아현"
       },
       {
-        "member_id": "lee-yoonjae",
+        "member_id": "kang-yejin",
         "covered_group": "BABYMONSTER",
         "covered_member": "루카"
       },
@@ -71037,7 +71203,7 @@
         "covered_member": "아현"
       },
       {
-        "member_id": "lee-yoonjae",
+        "member_id": "kang-yejin",
         "covered_group": "BABYMONSTER",
         "covered_member": "루카"
       },
@@ -72103,7 +72269,7 @@
       "kim-hyerim",
       "ha-jeuki",
       "jeong-gyeolgyeong",
-      "kang-yejin"
+      "aoki-yuka"
     ],
     "published_date": "2024-10-29",
     "content_type": "short",
@@ -72601,7 +72767,7 @@
       "kim-hyerim",
       "ha-jeuki",
       "jeong-gyeolgyeong",
-      "kang-yejin"
+      "aoki-yuka"
     ],
     "role_mapping": [
       {
@@ -73969,9 +74135,7 @@
   {
     "youtube_id": "dZrfuSH_XX0",
     "title": "사람이 어떻게 강쥐임?🐶 #예진 #yejin #마루는강쥐챌린지 #제작비지원",
-    "covered_group": [
-      "HAEWON"
-    ],
+    "covered_group": [],
     "tagged_members": [
       "kang-yejin"
     ],
@@ -83950,7 +84114,9 @@
   {
     "youtube_id": "f_YYKtcDzIE",
     "title": "LOOK AT ME~🤖 #예진 #yejin",
-    "covered_group": [],
+    "covered_group": [
+      "TWICE"
+    ],
     "tagged_members": [
       "kang-yejin"
     ],
@@ -115662,6 +115828,43 @@
     "support": [
       "대전대학교"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      }
+    ],
     "published_date": "2022-11-21",
     "content_type": "video",
     "view_count": 585629,
@@ -118312,6 +118515,43 @@
       "lee-seohyeon",
       "kang-yejin"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "세븐틴::리더즈",
+        "covered_member": "세븐틴::리더즈"
+      }
+    ],
     "published_date": "2022-09-05",
     "content_type": "video",
     "view_count": 477320,
@@ -119163,7 +119403,9 @@
     "covered_group": [
       "BLACKPINK"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung"
+    ],
     "published_date": "2022-08-24",
     "content_type": "short",
     "view_count": 698708,
@@ -119372,6 +119614,43 @@
       "ha-seyoung",
       "lee-seohyeon",
       "kang-yejin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "Billlie",
+        "covered_member": "수현"
+      },
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "Billlie",
+        "covered_member": "션"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "Billlie",
+        "covered_member": "하루나"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "Billlie",
+        "covered_member": "츠키"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Billlie",
+        "covered_member": "하람"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "Billlie",
+        "covered_member": "문수아"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "Billlie",
+        "covered_member": "시윤"
+      }
     ],
     "published_date": "2022-08-20",
     "content_type": "video",
@@ -124807,7 +125086,26 @@
       "VIVIZ"
     ],
     "tagged_members": [
+      "song-haeun",
+      "park-damhee",
       "kim-minjin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "song-haeun",
+        "covered_group": "VIVIZ",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "VIVIZ",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "VIVIZ",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2022-05-31",
     "content_type": "video",
@@ -126566,12 +126864,47 @@
       "ITZY"
     ],
     "tagged_members": [
+      "lee-sieun",
       "kim-hayeon",
       "hwang-dagun",
-      "kim-hyerim",
+      "park-damhee",
       "kang-yejin",
-      "lee-sieun",
-      "park-damhee"
+      "kim-hyerim"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      },
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "SGF"
+      }
     ],
     "published_date": "2022-04-21",
     "content_type": "video",
@@ -128216,12 +128549,22 @@
   {
     "youtube_id": "xlhQx0TGs-A",
     "title": "솔직히 나 진짜 AB 없이 안돼🖤 #Dilemma #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Apink"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-sieun",
+      "kang-yejin",
+      "kim-minjin",
+      "yun-haeun"
+    ],
     "published_date": "2022-04-06",
     "content_type": "short",
     "view_count": 71868,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "_S0kXrjs2fo",
@@ -128247,22 +128590,40 @@
   {
     "youtube_id": "xMyW0m0JPqo",
     "title": "에쁜 애💙 귀여운 애❤️ 사랑스러운 애💜 #bopbop #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "VIVIZ"
+    ],
+    "tagged_members": [
+      "song-haeun",
+      "park-damhee",
+      "kim-minjin"
+    ],
     "published_date": "2022-04-06",
     "content_type": "short",
     "view_count": 75281,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "4Yb4ANmKsEo",
     "title": "인간 블랙스완이 따로 없네..🦢 #Dilemma #shorts",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "Apink"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "lee-sieun",
+      "kang-yejin",
+      "kim-minjin",
+      "yun-haeun"
+    ],
     "published_date": "2022-04-06",
     "content_type": "short",
     "view_count": 53161,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "YzS4aBmI3vo",
@@ -128812,12 +129173,36 @@
       "VIVIZ"
     ],
     "tagged_members": [
+      "song-haeun",
+      "park-damhee",
       "kim-minjin"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "song-haeun",
+        "covered_group": "VIVIZ",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "VIVIZ",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "VIVIZ",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2022-04-02",
     "content_type": "video",
     "view_count": 792851,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S09::AB"
+    ]
   },
   {
     "youtube_id": "344Rx-CBnME",
@@ -128897,7 +129282,7 @@
     "content_type": "video",
     "view_count": 1337550,
     "content_series": [
-      "방구석 여기서요?::S09::AB×A2Be"
+      "방구석 여기서요?::S09::AB × A2Be"
     ]
   },
   {
@@ -129371,7 +129756,7 @@
     "content_type": "video",
     "view_count": 2064297,
     "content_series": [
-      "방구석 여기서요?::S09::AB×A2Be"
+      "방구석 여기서요?::S09::AB × A2Be"
     ]
   },
   {
