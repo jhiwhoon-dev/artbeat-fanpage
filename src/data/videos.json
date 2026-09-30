@@ -92595,13 +92595,50 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
-      "park-hyunmin",
-      "kim-suhwan",
       "kim-mingi",
+      "kang-taehyun",
+      "kim-hojun",
       "chae-yunsu",
-      "kang-taehyun"
+      "kim-suhwan",
+      "park-hyunmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-mingi",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "세븐틴",
+        "covered_member": "세븐틴"
+      }
     ],
     "published_date": "2023-10-21",
     "content_type": "video",
@@ -108589,7 +108626,7 @@
     "youtube_id": "NctyEWbNZxk",
     "title": "(쿠키영상 있음🍪) '아무노래' 챌린지 #수환 #가은 @수마일_soomile #Suhwan #Gaeun #shorts",
     "covered_group": [
-      "Soomile"
+      "지코"
     ],
     "tagged_members": [
       "kim-suhwan",
@@ -108598,7 +108635,9 @@
     "published_date": "2023-04-10",
     "content_type": "short",
     "view_count": 229910,
-    "content_series": []
+    "content_series": [
+      "챌린지::2023y"
+    ]
   },
   {
     "youtube_id": "iyXXRXPbjmA",
@@ -115553,18 +115592,66 @@
       "지코"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-taehwan",
-      "park-hyunmin",
-      "kim-suhwan",
-      "park-sunyoung",
+      "lee-moonkyu",
       "hwang-dagun",
+      "kim-taehwan",
+      "park-sunyoung",
+      "park-hyunmin",
+      "kwon-dohyun",
+      "kim-suhwan",
       "lee-seohyeon"
     ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "지코",
+        "covered_member": "지코"
+      }
+    ],
     "published_date": "2022-11-26",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 327900,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "BObV-h5NN1Y",
@@ -133330,18 +133417,64 @@
   {
     "youtube_id": "ZpIKUoRxCFQ",
     "title": "[AB | 방구석 여기서요?] 이무진 Lee Mujin - 신호등 Traffic Light | HyeRim Choreography",
-    "covered_group": [],
+    "covered_group": [
+      "이무진"
+    ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
+      "seo-jaemin",
+      "ha-seyoung",
       "kim-suhwan",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "lee-sieun",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      }
+    ],
+    "choreography": [
+      "kim-hyerim"
     ],
     "published_date": "2021-12-08",
     "content_type": "video",
     "view_count": 989500,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "7X3lPowgGgg",
@@ -133349,12 +133482,18 @@
     "covered_group": [
       "SHINee"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-jaewook",
+      "yun-haeun",
+      "kim-hyerim",
+      "kim-chanhee",
+      "kim-hojun"
+    ],
     "published_date": "2021-12-08",
     "content_type": "video",
     "view_count": 82345,
     "content_series": [
-      "ABehind"
+      "AB VLOG::2021y"
     ]
   },
   {
@@ -136421,13 +136560,57 @@
   {
     "youtube_id": "W25FeWR1Y0k",
     "title": "이무진 Lee Mujin  - 신호등 Traffic Light | HyeRim Choreography | 연습실 Practice ver.",
-    "covered_group": [],
+    "covered_group": [
+      "이무진"
+    ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
+      "seo-jaemin",
+      "ha-seyoung",
       "kim-suhwan",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "lee-sieun",
+      "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      }
+    ],
+    "choreography": [
+      "kim-hyerim"
     ],
     "published_date": "2021-10-08",
     "content_type": "video",
@@ -136440,19 +136623,67 @@
     "youtube_id": "Nmn8VX0p6eU",
     "title": "[AB x GANGDONG] 이무진 Lee Mujin  - 신호등 Traffic Light | HyeRim Choreography",
     "covered_group": [
-      "ROSÉ"
+      "이무진"
     ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
+      "seo-jaemin",
+      "ha-seyoung",
       "kim-suhwan",
       "yun-haeun",
-      "kim-hyerim",
-      "ha-seyoung"
+      "lee-sieun",
+      "kim-taehwan"
+    ],
+    "support": [
+      "강동구청"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "이무진",
+        "covered_member": "이무진"
+      }
+    ],
+    "choreography": [
+      "kim-hyerim"
     ],
     "published_date": "2021-10-08",
     "content_type": "video",
     "view_count": 225715,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "myBdknptAFo",
@@ -136847,17 +137078,51 @@
     "youtube_id": "NFuj6tHJPaI",
     "title": "[방구석 여기서요?] 샤이니 SHINee - VIEW | 커버댄스 Dance Cover",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "kim-jaewook",
       "yun-haeun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-chanhee",
+      "kim-hojun"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "종현"
+      }
     ],
     "published_date": "2021-09-28",
     "content_type": "video",
     "view_count": 350576,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "DBp_lCvGLEY",
@@ -137096,21 +137361,28 @@
     "youtube_id": "cNiCjMQik6g",
     "title": "현아&던 - 핑퐁' 챌린지 | HyunA&DAWN  - 'PING PONG' Challenge",
     "covered_group": [
-      "현아"
+      "HyunA × DAWN"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-suhwan",
-      "kim-hayeon",
-      "hwang-dagun",
-      "kim-hyerim",
+      "seo-jaemin",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-suhwan",
+      "lee-sieun",
+      "kim-hyerim",
+      "yoon-taegyeong",
+      "kwon-dohyun",
+      "hwang-dagun",
+      "park-pilho",
+      "kim-hayeon",
+      "lee-seohyeon",
+      "her-naeun"
     ],
     "published_date": "2021-09-25",
     "content_type": "video",
     "view_count": 517897,
-    "content_series": []
+    "content_series": [
+      "챌린지::2021y"
+    ]
   },
   {
     "youtube_id": "LYg5P1mtRHo",
@@ -138073,18 +138345,47 @@
     "youtube_id": "L-dJ_yojMAM",
     "title": "샤이니 SHINee - 뷰 View | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "kim-jaewook",
       "yun-haeun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-chanhee",
+      "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "종현"
+      }
     ],
     "published_date": "2021-09-14",
     "content_type": "video",
     "view_count": 133559,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -138362,17 +138663,22 @@
     "youtube_id": "FPt1yV5IztQ",
     "title": "현아&던 'PING PONG' 뮤비를 보는 남녀 댄서의 반응 차이 | HyunA&DAWN 'PING PONG'' MV REACTION",
     "covered_group": [
-      "현아"
+      "HyunA × DAWN"
     ],
     "tagged_members": [
+      "seo-jaemin",
       "kim-suhwan",
-      "hwang-dagun",
-      "kim-hyerim"
+      "lee-moonkyu",
+      "kim-hyerim",
+      "lee-sieun",
+      "hwang-dagun"
     ],
     "published_date": "2021-09-10",
     "content_type": "video",
     "view_count": 564324,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "nHmk3jNBVCE",
@@ -138471,17 +138777,52 @@
     "youtube_id": "XDGPdd7ftzg",
     "title": "[AB 02's] 샤이니 SHINee - 뷰 View | 커버댄스 Dance Cover",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
-      "kim-hojun",
+      "kim-jaewook",
       "yun-haeun",
-      "kim-hyerim"
+      "kim-hyerim",
+      "kim-chanhee",
+      "kim-hojun"
+    ],
+    "sponsors": [
+      "대새목장"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "종현"
+      }
     ],
     "published_date": "2021-09-07",
     "content_type": "video",
     "view_count": 146018,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "iLRFeeQTLK0",
@@ -139486,15 +139827,21 @@
       "선미"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-suhwan",
+      "lee-seohyeon",
+      "lee-sieun",
       "ha-seyoung",
-      "lee-seohyeon"
+      "park-damhee",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "seo-jaemin",
+      "kim-woonggyeom"
     ],
     "published_date": "2021-08-06",
     "content_type": "video",
     "view_count": 125579,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "BVgKI9BG0u4",
