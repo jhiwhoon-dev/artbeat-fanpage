@@ -25,8 +25,7 @@
     "covered_group": [],
     "content_series": [],
     "tagged_members": [
-      "chae-yunsu",
-      "yunsu"
+      "chae-yunsu"
     ],
     "ads": [],
     "sponsors": [],
@@ -153097,23 +153096,62 @@
     "youtube_id": "DvxTQRXyOJ8",
     "title": "[방구석 여기서요?] SuperM - 호랑이 Tiger Inside (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "백현",
-      "카이",
-      "태민",
-      "태용",
       "SuperM"
     ],
     "tagged_members": [
       "yun-jihong",
+      "lee-moonkyu",
+      "seo-jaemin",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
       "kwon-dohyun",
       "park-munsu"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "SuperM",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "SuperM",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SuperM",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "SuperM",
+        "covered_member": "백현"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SuperM",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "SuperM",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "SuperM",
+        "covered_member": "텐"
+      }
     ],
     "published_date": "2020-09-13",
     "content_type": "video",
     "view_count": 972920,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S03"
     ]
   },
   {
