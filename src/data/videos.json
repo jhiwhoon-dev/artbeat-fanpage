@@ -78202,8 +78202,8 @@
     "content_type": "video",
     "view_count": 46173,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S16",
+      "티어전쟁"
     ]
   },
   {
@@ -122423,7 +122423,11 @@
       "투모로우바이투게더"
     ],
     "tagged_members": [
-      "kim-kyungju"
+      "lee-moonkyu",
+      "park-hyunmin",
+      "kim-kyungju",
+      "kim-suhwan",
+      "kim-taehwan"
     ],
     "published_date": "2022-07-14",
     "content_type": "video",
@@ -124649,6 +124653,9 @@
       "kim-suhwan",
       "kim-taehwan"
     ],
+    "sponsors": [
+      "VERDANT × 그초록"
+    ],
     "role_mapping": [
       {
         "member_id": "lee-moonkyu",
@@ -125827,7 +125834,7 @@
         "covered_member": "필릭스"
       },
       {
-        "member_id": "lim-donghun",
+        "member_id": "kim-kyungju",
         "covered_group": "Stray Kids",
         "covered_member": "승민"
       },
@@ -127074,13 +127081,53 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
-      "kim-kyungju",
-      "kim-suhwan",
       "lee-jihoon",
       "seo-jaemin",
-      "kim-chanhee"
+      "kim-kyungju",
+      "kim-suhwan",
+      "kim-chanhee",
+      "kim-taehwan",
+      "kim-hojun"
+    ],
+    "sponsors": [
+      "배재대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2022-04-20",
     "content_type": "video",
@@ -129020,6 +129067,7 @@
     "title": "[에이투비 자기소개] 형우와 원예 | A2be 능력자들을 소개합니다 | HyungWoo & WonYe",
     "covered_group": [],
     "tagged_members": [
+      "jeong-hyungwoo",
       "son-wonye"
     ],
     "published_date": "2022-04-04",
@@ -133256,15 +133304,74 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "kim-taehwan",
-      "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
+      "choi-sungjun",
+      "kim-kyungju",
+      "park-pilho",
+      "kim-chanhee"
+    ],
+    "support": [
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      }
     ],
     "published_date": "2021-12-03",
     "content_type": "video",
     "view_count": 628084,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "IdZjSqq5QPg",
@@ -133388,7 +133495,15 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kwon-dohyun",
+      "kim-taehwan",
+      "kim-kyungju",
+      "park-hyunmin",
+      "kim-suhwan",
+      "seo-jaemin",
+      "jeon-hyeonguk"
+    ],
     "published_date": "2021-12-01",
     "content_type": "video",
     "view_count": 89945,
@@ -133403,15 +133518,19 @@
       "청하"
     ],
     "tagged_members": [
-      "kim-kyungju",
+      "lee-seohyeon",
       "park-sunyoung",
       "ha-seyoung",
-      "lee-seohyeon"
+      "kim-kyungju",
+      "kim-chanhee",
+      "seo-jaemin"
     ],
     "published_date": "2021-11-30",
     "content_type": "video",
     "view_count": 71288,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "ECh2ggRnl2I",
@@ -133617,12 +133736,56 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
       "kwon-dohyun",
       "kim-taehwan",
       "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-suhwan",
+      "seo-jaemin",
+      "jeon-hyeonguk"
+    ],
+    "support": [
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-11-28",
     "content_type": "video",
@@ -134341,17 +134504,23 @@
   {
     "youtube_id": "qs1vVJrFgnM",
     "title": "티아라 'TIKI TAKA' 뮤비를 보는 남녀 댄서의 반응 차이 | T-ARA ‘TIKI TAKA' MV REACTION",
-    "covered_group": [],
+    "covered_group": [
+      "티아라"
+    ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-kyungju",
+      "yoon-taegyeong",
+      "yun-haeun",
       "park-sunyoung",
-      "yun-haeun"
+      "kim-kyungju",
+      "kwon-dohyun",
+      "seo-jaemin"
     ],
     "published_date": "2021-11-16",
     "content_type": "video",
     "view_count": 83299,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "AamAlrGnasE",
@@ -134614,12 +134783,50 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
       "kwon-dohyun",
       "kim-taehwan",
       "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-suhwan",
+      "seo-jaemin",
+      "jeon-hyeonguk"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-11-08",
     "content_type": "video",
@@ -134987,13 +135194,53 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "kim-suhwan",
-      "kim-kyungju",
-      "seo-jaemin",
-      "jeon-hyeonguk",
+      "kwon-dohyun",
       "kim-taehwan",
+      "kim-kyungju",
       "park-hyunmin",
-      "kwon-dohyun"
+      "kim-suhwan",
+      "seo-jaemin",
+      "jeon-hyeonguk"
+    ],
+    "sponsors": [
+      "경운대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-10-26",
     "content_type": "video",
@@ -135202,7 +135449,14 @@
     "covered_group": [
       "2PM"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-woonggyeom",
+      "kim-hojun",
+      "lee-jihoon",
+      "kim-kyungju",
+      "lee-moonkyu",
+      "jeon-hyeonguk"
+    ],
     "published_date": "2021-10-21",
     "content_type": "video",
     "view_count": 50941,
@@ -135488,16 +135742,67 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "kim-taehwan",
-      "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
+      "choi-sungjun",
+      "kim-kyungju",
+      "park-pilho",
+      "kim-chanhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      }
     ],
     "published_date": "2021-10-11",
     "content_type": "video",
     "view_count": 73032,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -135508,15 +135813,72 @@
     ],
     "tagged_members": [
       "kim-hojun",
-      "kim-taehwan",
-      "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-taehwan",
+      "seo-jaemin",
+      "kim-suhwan",
+      "choi-sungjun",
+      "kim-kyungju",
+      "park-pilho",
+      "kim-chanhee"
+    ],
+    "sponsors": [
+      "STABLE MOMENT"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      }
     ],
     "published_date": "2021-10-10",
     "content_type": "video",
     "view_count": 188068,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "31FpzHj48cc",
@@ -136546,22 +136908,22 @@
     "support": [],
     "role_mapping": [
       {
-        "member_id": "yun-haeun",
+        "member_id": "lee-moonkyu",
         "covered_group": "세븐틴",
         "covered_member": "조슈아"
       },
       {
-        "member_id": "park-jaebum",
+        "member_id": "ahn-yoojin",
         "covered_group": "세븐틴",
         "covered_member": "원우"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "kim-hojun",
         "covered_group": "세븐틴",
         "covered_member": "민규"
       },
       {
-        "member_id": "park-munsu",
+        "member_id": "kim-taehwan",
         "covered_group": "세븐틴",
         "covered_member": "호시"
       },
@@ -136571,17 +136933,17 @@
         "covered_member": "에스쿱스"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "kim-woonggyeom",
         "covered_group": "세븐틴",
         "covered_member": "도겸"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "her-naeun",
         "covered_group": "세븐틴",
         "covered_member": "승관"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "kim-hyerim",
         "covered_group": "세븐틴",
         "covered_member": "준"
       },
@@ -136591,22 +136953,22 @@
         "covered_member": "우지"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "kim-kyungju",
         "covered_group": "세븐틴",
         "covered_member": "디노"
       },
       {
-        "member_id": "park-sunwoo",
+        "member_id": "park-pilho",
         "covered_group": "세븐틴",
         "covered_member": "디에잇"
       },
       {
-        "member_id": "gyungmin",
+        "member_id": "kwon-dohyun",
         "covered_group": "세븐틴",
         "covered_member": "버논"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "yun-haeun",
         "covered_group": "세븐틴",
         "covered_member": "정한"
       }
@@ -136741,14 +137103,54 @@
       "2PM"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-kyungju"
+      "lee-jihoon",
+      "kim-kyungju",
+      "lee-moonkyu",
+      "jeon-hyeonguk"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "2PM",
+        "covered_member": "준호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "2PM",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "2PM",
+        "covered_member": "택연"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "2PM",
+        "covered_member": "준케이"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "2PM",
+        "covered_member": "닉쿤"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "2PM",
+        "covered_member": "찬성"
+      }
     ],
     "published_date": "2021-09-20",
     "content_type": "video",
     "view_count": 361491,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "MyEb8sG7KDw",
@@ -136914,16 +137316,60 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-taehwan",
       "kim-kyungju",
+      "kim-taehwan",
+      "kim-suhwan",
+      "lee-jihoon",
       "park-hyunmin",
-      "kim-suhwan"
+      "kim-jaewook",
+      "kim-hojun"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2021-09-17",
     "content_type": "video",
     "view_count": 1119248,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "7drBFyjKai0",
@@ -139008,15 +139454,50 @@
       "2PM"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-kyungju"
+      "lee-jihoon",
+      "kim-kyungju",
+      "lee-moonkyu",
+      "jeon-hyeonguk"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "2PM",
+        "covered_member": "준호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "2PM",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "2PM",
+        "covered_member": "택연"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "2PM",
+        "covered_member": "준케이"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "2PM",
+        "covered_member": "닉쿤"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "2PM",
+        "covered_member": "찬성"
+      }
     ],
     "published_date": "2021-07-31",
     "content_type": "video",
     "view_count": 63489,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -139150,14 +139631,55 @@
       "2PM"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-kyungju"
+      "lee-jihoon",
+      "kim-kyungju",
+      "lee-moonkyu",
+      "jeon-hyeonguk"
+    ],
+    "sponsors": [
+      "BOSTON COFFEE"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "2PM",
+        "covered_member": "준호"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "2PM",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "2PM",
+        "covered_member": "택연"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "2PM",
+        "covered_member": "준케이"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "2PM",
+        "covered_member": "닉쿤"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "2PM",
+        "covered_member": "찬성"
+      }
     ],
     "published_date": "2021-07-28",
     "content_type": "video",
     "view_count": 195142,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "jOxTmQ8du0k",
@@ -139634,22 +140156,22 @@
     ],
     "role_mapping": [
       {
-        "member_id": "yun-haeun",
+        "member_id": "lee-moonkyu",
         "covered_group": "세븐틴",
         "covered_member": "조슈아"
       },
       {
-        "member_id": "park-jaebum",
+        "member_id": "ahn-yoojin",
         "covered_group": "세븐틴",
         "covered_member": "원우"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "kim-hojun",
         "covered_group": "세븐틴",
         "covered_member": "민규"
       },
       {
-        "member_id": "park-munsu",
+        "member_id": "kim-taehwan",
         "covered_group": "세븐틴",
         "covered_member": "호시"
       },
@@ -139659,17 +140181,17 @@
         "covered_member": "에스쿱스"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "kim-woonggyeom",
         "covered_group": "세븐틴",
         "covered_member": "도겸"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "her-naeun",
         "covered_group": "세븐틴",
         "covered_member": "승관"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "kim-hyerim",
         "covered_group": "세븐틴",
         "covered_member": "준"
       },
@@ -139679,22 +140201,22 @@
         "covered_member": "우지"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "kim-kyungju",
         "covered_group": "세븐틴",
         "covered_member": "디노"
       },
       {
-        "member_id": "park-sunwoo",
+        "member_id": "park-pilho",
         "covered_group": "세븐틴",
         "covered_member": "디에잇"
       },
       {
-        "member_id": "gyungmin",
+        "member_id": "kwon-dohyun",
         "covered_group": "세븐틴",
         "covered_member": "버논"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "yun-haeun",
         "covered_group": "세븐틴",
         "covered_member": "정한"
       }
@@ -139733,22 +140255,22 @@
     "support": [],
     "role_mapping": [
       {
-        "member_id": "yun-haeun",
+        "member_id": "lee-moonkyu",
         "covered_group": "세븐틴",
         "covered_member": "조슈아"
       },
       {
-        "member_id": "park-jaebum",
+        "member_id": "ahn-yoojin",
         "covered_group": "세븐틴",
         "covered_member": "원우"
       },
       {
-        "member_id": "her-naeun",
+        "member_id": "kim-hojun",
         "covered_group": "세븐틴",
         "covered_member": "민규"
       },
       {
-        "member_id": "park-munsu",
+        "member_id": "kim-taehwan",
         "covered_group": "세븐틴",
         "covered_member": "호시"
       },
@@ -139758,17 +140280,17 @@
         "covered_member": "에스쿱스"
       },
       {
-        "member_id": "park-sunyoung",
+        "member_id": "kim-woonggyeom",
         "covered_group": "세븐틴",
         "covered_member": "도겸"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "her-naeun",
         "covered_group": "세븐틴",
         "covered_member": "승관"
       },
       {
-        "member_id": "kwon-soyoung",
+        "member_id": "kim-hyerim",
         "covered_group": "세븐틴",
         "covered_member": "준"
       },
@@ -139778,22 +140300,22 @@
         "covered_member": "우지"
       },
       {
-        "member_id": "lee-gaeun",
+        "member_id": "kim-kyungju",
         "covered_group": "세븐틴",
         "covered_member": "디노"
       },
       {
-        "member_id": "park-sunwoo",
+        "member_id": "park-pilho",
         "covered_group": "세븐틴",
         "covered_member": "디에잇"
       },
       {
-        "member_id": "gyungmin",
+        "member_id": "kwon-dohyun",
         "covered_group": "세븐틴",
         "covered_member": "버논"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "yun-haeun",
         "covered_group": "세븐틴",
         "covered_member": "정한"
       }
@@ -140651,16 +141173,63 @@
       "ATEEZ"
     ],
     "tagged_members": [
-      "kim-hojun",
       "kim-taehwan",
-      "kim-kyungju",
       "park-hyunmin",
-      "kim-suhwan"
+      "seo-jaemin",
+      "kim-hojun",
+      "kim-suhwan",
+      "lee-jihoon",
+      "kim-kyungju"
+    ],
+    "support": [
+      "펩시"
+    ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      }
     ],
     "published_date": "2021-06-24",
     "content_type": "video",
     "view_count": 504883,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "Z2Lv_DeiPaw",
@@ -140924,13 +141493,57 @@
       "iKON"
     ],
     "tagged_members": [
+      "kim-jaewook",
       "kim-hojun",
-      "kim-kyungju"
+      "kim-woonggyeom",
+      "kim-kyungju",
+      "jin-hyunwoo",
+      "choi-sungjun"
+    ],
+    "support": [
+      "마운틴듀"
+    ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준희"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2021-06-20",
     "content_type": "video",
     "view_count": 241472,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "KhxBhEIIGOA",
@@ -141028,7 +141641,7 @@
     "content_type": "video",
     "view_count": 1142248,
     "content_series": [
-      "방구석 여기서요?::S05"
+      "방구석 여기서요?::S06"
     ]
   },
   {
@@ -141038,17 +141651,62 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-taehwan",
+      "jeon-hyeonguk",
       "kim-kyungju",
-      "kim-suhwan"
+      "kim-woonggyeom",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "seo-jaemin"
+    ],
+    "support": [
+      "마운틴듀"
+    ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-06-19",
     "content_type": "video",
     "view_count": 647993,
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S06"
     ]
   },
   {
@@ -141790,7 +142448,15 @@
     "covered_group": [
       "ENHYPEN"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-taehwan",
+      "jeon-hyeonguk",
+      "kim-kyungju",
+      "kim-woonggyeom",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "seo-jaemin"
+    ],
     "published_date": "2021-06-04",
     "content_type": "video",
     "view_count": 106550,
@@ -142487,17 +143153,56 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-taehwan",
+      "jeon-hyeonguk",
       "kim-kyungju",
-      "kim-suhwan"
+      "kim-woonggyeom",
+      "kim-suhwan",
+      "kwon-dohyun",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-05-20",
     "content_type": "video",
     "view_count": 156116,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -142555,13 +143260,53 @@
       "ENHYPEN"
     ],
     "tagged_members": [
-      "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-taehwan",
+      "jeon-hyeonguk",
       "kim-kyungju",
+      "kim-woonggyeom",
       "kim-suhwan",
-      "seo-jaemin",
-      "kim-woonggyeom"
+      "kwon-dohyun",
+      "seo-jaemin"
+    ],
+    "sponsors": [
+      "SAN57"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "정원"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "ENHYPEN",
+        "covered_member": "희승"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "ENHYPEN",
+        "covered_member": "제이크"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ENHYPEN",
+        "covered_member": "성훈"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "ENHYPEN",
+        "covered_member": "선우"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ENHYPEN",
+        "covered_member": "니키"
+      }
     ],
     "published_date": "2021-05-19",
     "content_type": "video",
@@ -143497,13 +144242,54 @@
     "tagged_members": [
       "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan"
+      "seo-jaemin",
+      "junsung",
+      "kim-suhwan",
+      "lee-jihoon",
+      "yungi"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "junsung",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "yungi",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      }
     ],
     "published_date": "2021-04-11",
     "content_type": "video",
     "view_count": 110872,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -143619,44 +144405,171 @@
       "iKON"
     ],
     "tagged_members": [
-      "kim-kyungju"
+      "kim-jaewook",
+      "lee-moonkyu",
+      "kim-woonggyeom",
+      "kim-kyungju",
+      "jin-hyunwoo",
+      "choi-sungjun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준희"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2021-04-08",
     "content_type": "video",
     "view_count": 77119,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "1uIoOeX2cKg",
     "title": "[AB] 에이티즈 ATEEZ - 불놀이야 Fireworks (I'm The One) | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "ATEEZ"
     ],
     "tagged_members": [
       "kim-taehwan",
       "park-hyunmin",
-      "kim-suhwan"
+      "seo-jaemin",
+      "junsung",
+      "kim-suhwan",
+      "lee-jihoon",
+      "yungi"
+    ],
+    "sponsors": [
+      "가산수피아"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "junsung",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "kim-suhwan",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "yungi",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      }
     ],
     "published_date": "2021-04-07",
     "content_type": "video",
     "view_count": 236572,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "J_-yNJ238Dc",
     "title": "[AB] 아이콘 iKON - 왜왜왜 Why Why Why | 커버댄스 Dance Cover",
     "covered_group": [
-      "IVE"
+      "iKON"
     ],
     "tagged_members": [
-      "kim-kyungju"
+      "kim-jaewook",
+      "lee-moonkyu",
+      "kim-woonggyeom",
+      "kim-kyungju",
+      "jin-hyunwoo",
+      "choi-sungjun"
+    ],
+    "sponsors": [
+      "BOSQUE"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "BOBBY"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준희"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "choi-sungjun",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2021-04-06",
     "content_type": "video",
     "view_count": 196941,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "lHmdZghLmfM",
@@ -172753,18 +173666,60 @@
     "youtube_id": "B-d3VvLVDeY",
     "title": "[AB CON] BTS 방탄소년단 - I'm Fine | 커버댄스 DANCE COVER | ARTBEAT 콘서트 영상 | AB PROJECT",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kwon-dohyun"
+      "seo-jaemin",
+      "kim-jaewook",
+      "park-jaebum",
+      "jin-hyunwoo",
+      "kwon-dohyun",
+      "lee-moonkyu",
+      "kim-woonggyeom"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2018-12-20",
     "content_type": "video",
     "view_count": 129922,
-    "content_series": []
+    "content_series": [
+      "ARTBEAT 콘서트"
+    ]
   },
   {
     "youtube_id": "hNj54kCZjYY",
@@ -172872,19 +173827,41 @@
     "youtube_id": "MRX3EIyBxss",
     "title": "[여기서요?] 방탄소년단 BTS - I'm Fine | 커버댄스 DANCE COVER | KPOP IN PUBLIC @첨성대",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "kwon-dohyun",
-      "kim-kyungju"
+      "seo-jaemin",
+      "kim-jaewook",
+      "jin-hyunwoo",
+      "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      }
     ],
     "published_date": "2018-11-28",
     "content_type": "video",
     "view_count": 821533,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
@@ -173570,6 +174547,33 @@
       "jin-hyunwoo",
       "kwon-dohyun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      }
+    ],
     "published_date": "2018-10-23",
     "content_type": "video",
     "view_count": 97781,
@@ -173587,7 +174591,10 @@
     "published_date": "2018-10-23",
     "content_type": "video",
     "view_count": 199702,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::5150 CREW::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "wZu4UHWaGAc",
@@ -173658,18 +174665,49 @@
     "youtube_id": "b2PTVVnHVT0",
     "title": "[AB] 방탄소년단 BTS - I'm Fine | 커버댄스 DANCE COVER (with DONGKIZ)",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "kim-jaewook",
+      "park-jaebum",
+      "jin-hyunwoo",
       "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      }
     ],
     "published_date": "2018-10-18",
     "content_type": "video",
     "view_count": 803929,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "cFe04s5uMno",
