@@ -83982,6 +83982,63 @@
       "yang-hwanhee",
       "do-hyeonsung"
     ],
+    "role_mapping": [
+      {
+        "member_id": "ahn-yoojin",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "lim-jiwoo",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "kim-chan",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "park-seongmin",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "lee-dabin",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "투어스",
+        "covered_member": "투어스"
+      }
+    ],
     "published_date": "2024-04-05",
     "content_type": "video",
     "view_count": 101133,
@@ -102610,11 +102667,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "kim-suhwan",
+      "lim-donghun",
+      "kang-yejin"
+    ],
     "published_date": "2023-06-29",
     "content_type": "short",
     "view_count": 129139,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2023y"
+    ]
   },
   {
     "youtube_id": "nsbM-tpE324",
@@ -102622,11 +102688,20 @@
     "covered_group": [
       "BOYNEXTDOOR"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "chae-yunsu",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "kim-suhwan",
+      "lim-donghun",
+      "kang-yejin"
+    ],
     "published_date": "2023-06-28",
     "content_type": "short",
     "view_count": 486338,
-    "content_series": []
+    "content_series": [
+      "릴레이 댄스::2023y"
+    ]
   },
   {
     "youtube_id": "5fNxrp5iKdc",
@@ -102792,7 +102867,9 @@
     "published_date": "2023-06-25",
     "content_type": "short",
     "view_count": 128135,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "jwB82vf7lC4",
@@ -102806,7 +102883,9 @@
     "published_date": "2023-06-25",
     "content_type": "short",
     "view_count": 60984,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "p2IsMnIy1XU",
@@ -102820,7 +102899,9 @@
     "published_date": "2023-06-25",
     "content_type": "short",
     "view_count": 76680,
-    "content_series": []
+    "content_series": [
+      "AB PRACTICE::2023y"
+    ]
   },
   {
     "youtube_id": "rSTxnFxtedk",
@@ -111834,7 +111915,9 @@
   {
     "youtube_id": "efL6mGhsSNU",
     "title": "'부석순 - 파이팅 해야지' Dance Cover #도현 #태환 #현민 #Dohyun #Taehwan #Hyunmin #Shorts",
-    "covered_group": [],
+    "covered_group": [
+      "세븐틴::부석순"
+    ],
     "tagged_members": [
       "kwon-dohyun",
       "kim-taehwan",
@@ -126081,10 +126164,37 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-hojun",
       "kim-taehwan",
       "lee-moonkyu",
+      "kim-hojun",
       "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "NCT",
+        "covered_member": "핸드리"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-05-29",
     "content_type": "video",
@@ -133134,10 +133244,30 @@
       "kim-hojun",
       "kim-taehwan"
     ],
+    "support": [
+      "GoPro"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "Stray Kids",
+        "covered_member": "현진"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Stray Kids",
+        "covered_member": "방찬"
+      }
+    ],
     "published_date": "2021-12-14",
     "content_type": "video",
     "view_count": 921810,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S08::AB"
+    ]
   },
   {
     "youtube_id": "KLN7KFNBZIc",
@@ -138226,13 +138356,22 @@
   {
     "youtube_id": "WjT2y8eN7G4",
     "title": "아트비트 메인댄서 선발전!? 스우파 'Hey Mama' 챌린지",
-    "covered_group": [],
+    "covered_group": [
+      "스트릿 우먼 파이터"
+    ],
     "tagged_members": [
       "kim-hojun",
+      "kim-hyerim",
       "kim-taehwan",
-      "park-sunyoung",
+      "lee-sieun",
+      "seo-danbi",
+      "kim-leeyoung",
+      "yoon-taegyeong",
       "yun-haeun",
-      "kim-hyerim"
+      "park-sunyoung",
+      "her-naeun",
+      "nayoung",
+      "hyunji"
     ],
     "published_date": "2021-09-18",
     "content_type": "video",
@@ -138306,15 +138445,19 @@
       "NCT::NCT 127"
     ],
     "tagged_members": [
+      "kim-suhwan",
       "kim-hojun",
       "kim-taehwan",
-      "kim-suhwan",
-      "park-sunyoung"
+      "park-sunyoung",
+      "lee-sieun",
+      "her-naeun"
     ],
     "published_date": "2021-09-17",
     "content_type": "video",
     "view_count": 311820,
-    "content_series": []
+    "content_series": [
+      "MV 리액션::2021y"
+    ]
   },
   {
     "youtube_id": "5uqrMT022Bs",
@@ -142477,16 +142620,48 @@
     "youtube_id": "0ih-QVOrbVo",
     "title": "[방구석 여기서요?] 샤이니 SHINee - 아틀란티스 Atlantis | 커버댄스 Dance Cover",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "kim-taehwan",
       "kim-hojun",
-      "kim-taehwan"
+      "jin-hyunwoo"
+    ],
+    "support": [
+      "펩시"
+    ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      }
     ],
     "published_date": "2021-06-23",
     "content_type": "video",
     "view_count": 145520,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S05"
+    ]
   },
   {
     "youtube_id": "J5sa3lWJUmg",
@@ -144644,7 +144819,9 @@
     "published_date": "2021-05-04",
     "content_type": "video",
     "view_count": 52881,
-    "content_series": []
+    "content_series": [
+      "모음.zip"
+    ]
   },
   {
     "youtube_id": "9LMLNYnYs5o",
@@ -144875,7 +145052,7 @@
     "content_type": "video",
     "view_count": 41154,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -144904,33 +145081,87 @@
     "youtube_id": "aQnMVwPJkrc",
     "title": "샤이니 SHINee - 아틀란티스 Atlantis | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "kim-taehwan",
       "kim-hojun",
-      "kim-taehwan"
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      }
     ],
     "published_date": "2021-04-30",
     "content_type": "video",
     "view_count": 54452,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
     "youtube_id": "9220aDeSWTQ",
     "title": "[AB] 샤이니 SHINee - 아틀란티스 Atlantis | 커버댄스 Dance Cover",
     "covered_group": [
-      "태민"
+      "SHINee"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "kim-taehwan",
       "kim-hojun",
-      "kim-taehwan"
+      "jin-hyunwoo"
+    ],
+    "sponsors": [
+      "대구 아쿠아리움"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SHINee",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "SHINee",
+        "covered_member": "키"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "SHINee",
+        "covered_member": "온유"
+      }
     ],
     "published_date": "2021-04-29",
     "content_type": "video",
     "view_count": 70060,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "1czFuSwj6Y4",
@@ -145478,7 +145709,7 @@
     "content_type": "video",
     "view_count": 179878,
     "content_series": [
-      "A vs B 토론왕"
+      "A 🆚 B 토론왕"
     ]
   },
   {
@@ -150554,16 +150785,56 @@
       "NCT::NCT U"
     ],
     "tagged_members": [
+      "lee-seunghyun",
+      "kim-chanhee",
       "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-hojun",
-      "kim-taehwan"
+      "seo-jaemin",
+      "kim-taehwan",
+      "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "윈윈"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "텐"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      }
     ],
     "published_date": "2020-12-10",
     "content_type": "video",
     "view_count": 232810,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2020y"
     ]
   },
   {
@@ -150653,6 +150924,9 @@
       "her-naeun",
       "kim-minjin"
     ],
+    "support": [
+      "수성대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "yun-haeun",
@@ -150699,10 +150973,53 @@
       "NCT::NCT U"
     ],
     "tagged_members": [
+      "lee-seunghyun",
+      "kim-chanhee",
       "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-hojun",
-      "kim-taehwan"
+      "seo-jaemin",
+      "kim-taehwan",
+      "kwon-dohyun"
+    ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "윈윈"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "텐"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      }
     ],
     "published_date": "2020-12-08",
     "content_type": "video",
@@ -150888,16 +151205,56 @@
       "NCT::NCT U"
     ],
     "tagged_members": [
+      "lee-seunghyun",
+      "kim-chanhee",
       "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-hojun",
-      "kim-taehwan"
+      "seo-jaemin",
+      "kim-taehwan",
+      "kwon-dohyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "윈윈"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "텐"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      }
     ],
     "published_date": "2020-12-05",
     "content_type": "video",
     "view_count": 174764,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -150907,21 +151264,66 @@
       "NCT::NCT U"
     ],
     "tagged_members": [
+      "lee-seunghyun",
+      "kim-chanhee",
       "jeon-hyeonguk",
-      "kwon-dohyun",
       "kim-hojun",
-      "kim-taehwan"
+      "seo-jaemin",
+      "kim-taehwan",
+      "kwon-dohyun"
+    ],
+    "support": [
+      "FIRST SKILL SPORTS"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "윈윈"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "양양"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "성찬"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "텐"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "해찬"
+      }
     ],
     "published_date": "2020-12-04",
     "content_type": "video",
     "view_count": 201094,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "ymQEYNln5Qc",
     "title": "[방구석 여기서요?] 마마무 MAMAMOO - 딩가딩가 Dingga | 커버댄스 Dance Cover",
     "covered_group": [
-      "화사",
       "화사"
     ],
     "tagged_members": [
@@ -150932,7 +151334,6 @@
     "content_type": "video",
     "view_count": 2347228,
     "content_series": [
-      "여기서요?",
       "방구석 여기서요?"
     ]
   },
@@ -151012,9 +151413,52 @@
     ],
     "tagged_members": [
       "yun-jihong",
+      "kim-jeongseo",
       "jeon-hyeonguk",
       "kim-hojun",
+      "seo-jaemin",
+      "lee-jihoon",
       "kim-taehwan"
+    ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "샤오쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "쇼타로"
+      }
     ],
     "published_date": "2020-12-01",
     "content_type": "video",
@@ -152154,39 +152598,123 @@
     "youtube_id": "JLecSSEPCqY",
     "title": "NCT U - Make A Wish (Birthday Song) | 커버댄스 Dance Cover | 거울모드 | 연습실 Practice ver.",
     "covered_group": [
-      "태용",
       "NCT::NCT U"
     ],
     "tagged_members": [
       "yun-jihong",
+      "kim-jeongseo",
       "jeon-hyeonguk",
       "kim-hojun",
+      "seo-jaemin",
+      "lee-jihoon",
       "kim-taehwan"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "샤오쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "쇼타로"
+      }
     ],
     "published_date": "2020-10-28",
     "content_type": "video",
     "view_count": 773232,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
     "youtube_id": "WCYul8TU-EI",
     "title": "[AB] NCT U - Make A Wish | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
       "NCT::NCT U"
     ],
     "tagged_members": [
       "yun-jihong",
+      "kim-jeongseo",
       "jeon-hyeonguk",
       "kim-hojun",
+      "seo-jaemin",
+      "lee-jihoon",
       "kim-taehwan"
+    ],
+    "support": [
+      "밀양 189"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "루카스"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "샤오쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT U",
+        "covered_member": "쇼타로"
+      }
     ],
     "published_date": "2020-10-27",
     "content_type": "video",
     "view_count": 427123,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "UjVQDdqNh4g",
@@ -152200,7 +152728,9 @@
     "published_date": "2020-10-26",
     "content_type": "video",
     "view_count": 200699,
-    "content_series": []
+    "content_series": [
+      "자기소개::AB::2020y"
+    ]
   },
   {
     "youtube_id": "vZB8FD22j5k",
@@ -154060,15 +154590,33 @@
     "youtube_id": "fRekCqiDODY",
     "title": "[방구석 여기서요?] Red Velvet (IRENE & SEULGI) - Monster (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "Red Velvet"
+      "Red Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "kim-taehwan"
+      "kim-taehwan",
+      "seo-jaemin"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Red Velvet::아이린&슬기",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "Red Velvet::아이린&슬기",
+        "covered_member": "슬기"
+      }
     ],
     "published_date": "2020-09-24",
     "content_type": "video",
     "view_count": 551560,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "FwXf9GomaHI",
@@ -154311,15 +154859,38 @@
       "태민"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "lee-moonkyu",
+      "kim-hojun"
+    ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "kim-taehwan",
       "yun-jihong",
-      "kim-hojun",
-      "kim-taehwan"
+      "lee-seunghyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-09-21",
     "content_type": "video",
     "view_count": 72514,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -154549,6 +155120,9 @@
       "park-sunyoung",
       "kim-minjin"
     ],
+    "support": [
+      "계명문화대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "ahn-yoojin",
@@ -154595,14 +155169,42 @@
       "태민"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "lee-moonkyu",
+      "kim-hojun"
+    ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "kim-taehwan",
       "yun-jihong",
-      "kim-hojun",
-      "kim-taehwan"
+      "lee-seunghyun"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-09-19",
     "content_type": "video",
     "view_count": 764458,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "2-h0QLf2zfs",
@@ -154674,14 +155276,43 @@
       "태민"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "lee-moonkyu",
+      "kim-hojun"
+    ],
+    "special_dancers": [
+      "kim-woonggyeom",
+      "kim-taehwan",
       "yun-jihong",
-      "kim-hojun",
-      "kim-taehwan"
+      "lee-seunghyun"
+    ],
+    "support": [
+      "stay550"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "lee-moonkyu",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
     ],
     "published_date": "2020-09-18",
     "content_type": "video",
     "view_count": 224744,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "g4YFMFWaStg",
@@ -155640,14 +156271,62 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "yun-jihong",
       "park-munsu",
-      "kim-taehwan"
+      "yun-jihong",
+      "kim-jeongseo",
+      "seo-jaemin",
+      "kim-taehwan",
+      "lee-jihoon",
+      "kim-jaewook"
+    ],
+    "support": [
+      "수성 호텔"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2020-08-29",
     "content_type": "video",
     "view_count": 220100,
-    "content_series": []
+    "content_series": [
+      "Again By AB",
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "feGivrIRNKU",
@@ -156279,22 +156958,36 @@
     "youtube_id": "Qeoi7K-hfmQ",
     "title": "[AB] Red Velvet (IRENE & SEULGI) - Monster (Boys ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "Red Velvet"
+      "Red Velvet::아이린&슬기"
     ],
     "tagged_members": [
-      "kim-taehwan"
+      "kim-taehwan",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "Red Velvet::아이린&슬기",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "Red Velvet::아이린&슬기",
+        "covered_member": "슬기"
+      }
     ],
     "published_date": "2020-08-05",
     "content_type": "video",
     "view_count": 840975,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "JbkJ1zajAxQ",
     "title": "[AB] 화사 Hwa Sa - 마리아 Maria | 커버댄스 Dance Cover",
     "covered_group": [
-      "화사",
       "화사"
     ],
     "tagged_members": [
@@ -156906,20 +157599,63 @@
     "youtube_id": "GkqAKbuuRQY",
     "title": "[방구석 여기서요?] 방탄소년단 BTS - Not Today | 커버댄스 DANCE COVER",
     "covered_group": [
-      "방탄소년단",
-      "정국",
-      "j-hope",
-      "지민"
+      "방탄소년단"
     ],
     "tagged_members": [
-      "yun-jihong",
       "park-munsu",
-      "kim-taehwan"
+      "yun-jihong",
+      "kim-jeongseo",
+      "seo-jaemin",
+      "kim-taehwan",
+      "lee-jihoon",
+      "kim-jaewook"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "방탄소년단",
+        "covered_member": "정국"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "RM"
+      }
     ],
     "published_date": "2020-07-21",
     "content_type": "video",
     "view_count": 1926780,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "f8HlJwxyM4Q",
@@ -156941,7 +157677,9 @@
       "park-sunyoung",
       "yoon-taegyeong"
     ],
-    "sponsors": [],
+    "support": [
+      "계명문화대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "lee-seohyeon",
@@ -157223,16 +157961,96 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kwon-dohyun",
+      "kim-taehwan",
       "park-munsu",
+      "yun-jihong",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-jaewook",
+      "lee-seunghyun",
+      "kim-jeongseo",
       "kim-hojun",
-      "kim-taehwan"
+      "kwon-dohyun",
+      "kim-chanhee",
+      "gyungmin",
+      "kim-woonggyeom"
+    ],
+    "support": [
+        "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2020-07-16",
     "content_type": "video",
     "view_count": 1308918,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "7LwkNC2W1rU",
@@ -157333,7 +158151,9 @@
       "park-damhee",
       "ha-seyoung"
     ],
-    "sponsors": [],
+    "support": [
+        "계명문화대학교"
+    ],
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
@@ -157632,11 +158452,86 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kwon-dohyun",
+      "kim-taehwan",
       "park-munsu",
+      "yun-jihong",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-jaewook",
+      "lee-seunghyun",
+      "kim-jeongseo",
       "kim-hojun",
-      "kim-taehwan"
+      "kwon-dohyun",
+      "kim-chanhee",
+      "gyungmin",
+      "kim-woonggyeom"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2020-07-06",
     "content_type": "video",
@@ -157652,16 +158547,97 @@
       "세븐틴"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "kwon-dohyun",
+      "kim-taehwan",
       "park-munsu",
+      "yun-jihong",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-jaewook",
+      "lee-seunghyun",
+      "kim-jeongseo",
       "kim-hojun",
-      "kim-taehwan"
+      "kwon-dohyun",
+      "kim-chanhee",
+      "gyungmin",
+      "kim-woonggyeom"
+    ],
+    "support": [
+      "MLB"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "세븐틴",
+        "covered_member": "우지"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "세븐틴",
+        "covered_member": "디노"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "정한"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "에스쿱스"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "세븐틴",
+        "covered_member": "디에잇"
+      },
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "세븐틴",
+        "covered_member": "원우"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "세븐틴",
+        "covered_member": "조슈아"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "세븐틴",
+        "covered_member": "준"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "세븐틴",
+        "covered_member": "버논"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "세븐틴",
+        "covered_member": "민규"
+      }
     ],
     "published_date": "2020-07-05",
     "content_type": "video",
     "view_count": 472963,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "wD9HQB4oBgw",
@@ -158328,14 +159304,39 @@
       "카드"
     ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
       "hwang-dagun",
-      "kim-hyerim"
+      "kim-taehwan",
+      "gyungmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      }
     ],
     "published_date": "2020-06-22",
     "content_type": "video",
     "view_count": 2166324,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "HXxw5rUaIq8",
@@ -158403,14 +159404,51 @@
       "NCT::NCT DREAM"
     ],
     "tagged_members": [
+      "kim-jaewook",
       "yun-jihong",
+      "kim-taehwan",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-taehwan"
+      "lee-jihoon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2020-06-21",
     "content_type": "video",
     "view_count": 729357,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S01"
+    ]
   },
   {
     "youtube_id": "lhl5gDFP0v0",
@@ -159029,19 +160067,67 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
-      "park-sunyoung",
+      "kim-hyerim",
       "park-soyoung",
+      "kim-jeongseo",
       "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung",
+      "kim-taehwan",
+      "seo-jaemin",
+      "gyungmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
     ],
     "published_date": "2020-06-15",
     "content_type": "video",
     "view_count": 3526725,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S01"
     ]
   },
   {
@@ -159701,9 +160787,44 @@
       "NCT::NCT DREAM"
     ],
     "tagged_members": [
+      "kim-jaewook",
       "yun-jihong",
+      "kim-taehwan",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-taehwan"
+      "lee-jihoon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2020-05-15",
     "content_type": "video",
@@ -159911,14 +161032,55 @@
       "NCT::NCT DREAM"
     ],
     "tagged_members": [
+      "kim-jaewook",
       "yun-jihong",
+      "kim-taehwan",
+      "kim-woonggyeom",
       "kim-hojun",
-      "kim-taehwan"
+      "lee-jihoon"
+    ],
+    "support": [
+      "울트라 패션"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "재민"
+      },
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "제노"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "지성"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "런쥔"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "NCT::NCT DREAM",
+        "covered_member": "천러"
+      }
     ],
     "published_date": "2020-05-12",
     "content_type": "video",
     "view_count": 252101,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "AlcUPmdfP_4",
@@ -160815,7 +161977,7 @@
     "content_type": "video",
     "view_count": 49991,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160829,7 +161991,7 @@
     "content_type": "video",
     "view_count": 81021,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160843,7 +162005,7 @@
     "content_type": "video",
     "view_count": 62184,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160854,18 +162016,67 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
-      "park-sunyoung",
+      "kim-hyerim",
       "park-soyoung",
+      "kim-jeongseo",
       "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung",
+      "kim-taehwan",
+      "seo-jaemin",
+      "gyungmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
     ],
     "published_date": "2020-04-03",
     "content_type": "video",
     "view_count": 1821765,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2020y"
     ]
   },
   {
@@ -160876,18 +162087,67 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
-      "park-sunyoung",
+      "kim-hyerim",
       "park-soyoung",
+      "kim-jeongseo",
       "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung",
+      "kim-taehwan",
+      "seo-jaemin",
+      "gyungmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
     ],
     "published_date": "2020-04-03",
     "content_type": "video",
     "view_count": 540056,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -160898,12 +162158,67 @@
     ],
     "tagged_members": [
       "yun-jihong",
-      "kim-taehwan",
-      "park-sunyoung",
+      "kim-hyerim",
       "park-soyoung",
+      "kim-jeongseo",
       "kim-hayeon",
-      "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung",
+      "kim-taehwan",
+      "seo-jaemin",
+      "gyungmin"
+    ],
+    "support": [
+      "가야테마파크"
+    ],
+    "sponsors": [
+      "울트라패션"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "마크"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "도영"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태일"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "정우"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
     ],
     "published_date": "2020-04-02",
     "content_type": "video",
@@ -160924,7 +162239,7 @@
     "content_type": "video",
     "view_count": 214746,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160938,7 +162253,7 @@
     "content_type": "video",
     "view_count": 35137,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160952,7 +162267,7 @@
     "content_type": "video",
     "view_count": 42849,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160966,7 +162281,7 @@
     "content_type": "video",
     "view_count": 24304,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160980,7 +162295,7 @@
     "content_type": "video",
     "view_count": 134242,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -160994,7 +162309,7 @@
     "content_type": "video",
     "view_count": 200182,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161008,7 +162323,7 @@
     "content_type": "video",
     "view_count": 116586,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161022,7 +162337,7 @@
     "content_type": "video",
     "view_count": 219268,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161036,7 +162351,7 @@
     "content_type": "video",
     "view_count": 35607,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161050,7 +162365,7 @@
     "content_type": "video",
     "view_count": 65103,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161064,7 +162379,7 @@
     "content_type": "video",
     "view_count": 40122,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161078,7 +162393,7 @@
     "content_type": "video",
     "view_count": 91463,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161092,7 +162407,7 @@
     "content_type": "video",
     "view_count": 34448,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161522,7 +162837,7 @@
     "content_type": "video",
     "view_count": 143292,
     "content_series": [
-      "멤버.zip"
+      "모음.zip"
     ]
   },
   {
@@ -161733,15 +163048,38 @@
       "카드"
     ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
       "hwang-dagun",
-      "kim-hyerim"
+      "kim-taehwan",
+      "gyungmin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      }
     ],
     "published_date": "2020-03-12",
     "content_type": "video",
     "view_count": 154683,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ]
   },
   {
@@ -161917,14 +163255,45 @@
       "카드"
     ],
     "tagged_members": [
-      "kim-taehwan",
+      "kim-hyerim",
       "hwang-dagun",
-      "kim-hyerim"
+      "kim-taehwan",
+      "gyungmin"
+    ],
+    "support": [
+      "ABLY",
+      "CAPELLA"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-taehwan",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "gyungmin",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      }
     ],
     "published_date": "2020-03-08",
     "content_type": "video",
     "view_count": 266563,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
+
   },
   {
     "youtube_id": "DNeTitiu5UQ",

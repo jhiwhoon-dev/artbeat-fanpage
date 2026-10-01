@@ -326,6 +326,70 @@
     "sns": {}
   },
   {
+    "id": "junsung",
+    "name": "준성",
+    "name_en": "Junsung",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [
+      "auditionee"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "2021-03",
+        "end": "2021-04"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "Jun_sung_97"
+      ]
+    }
+  },
+  {
+    "id": "yungi",
+    "name": "윤기",
+    "name_en": "Yungi",
+    "nickname": null,
+    "birth_date": null,
+    "gender": null,
+    "role": null,
+    "unit": [
+      "auditionee"
+    ],
+    "unit_periods": [
+      {
+        "unit": [
+          "auditionee"
+        ],
+        "start": "2021-03",
+        "end": "2021-04"
+      }
+    ],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "j._.yungi"
+      ]
+    }
+  },
+  {
     "id": "kim-kyungju",
     "name": "김경주",
     "name_en": "Kyungju Kim",
@@ -366,6 +430,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/kyungjupiter/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCd2AMukEwoOfw2N9FCkY9uA"
       ]
     }
   },
@@ -6790,6 +6857,30 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/hwani.o6/"
+      ]
+    }
+  },
+  {
+    "id": "kim-hyunji",
+    "name": "김현지",
+    "name_en": "Hyunji Kim",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [
+      "A2Be"
+    ],
+    "unit_periods": [],
+    "status": "withdrawn",
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": null,
+    "sns": {
+      "instagram": [
+        "https://www.instagram.com/hyxn_zi/"
       ]
     }
   }
