@@ -119787,9 +119787,7 @@
     "tagged_members": [
       "lee-gaeun",
       "oh-yubin",
-      "ha-seyoung"
-    ],
-    "special_dancers": [
+      "ha-seyoung",
       "hwang-dagun",
       "yoon-taegyeong"
     ],
@@ -140074,6 +140072,41 @@
       "oh-yubin",
       "yoon-taegyeong",
       "yun-haeun"
+    ],
+    "sponsors": [
+      "아르떼 수성랜드"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      },
+      {
+        "member_id": "kim-minjin",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "여자친구",
+        "covered_member": "여자친구"
+      }
     ],
     "published_date": "2021-08-08",
     "content_type": "video",
