@@ -66086,11 +66086,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-02-01",
     "content_type": "short",
     "view_count": 43821,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "bOSLWJgfRO8",
@@ -66098,11 +66105,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-02-01",
     "content_type": "short",
     "view_count": 38018,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "kwEV3ZR5RHw",
@@ -66110,11 +66124,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-02-01",
     "content_type": "short",
     "view_count": 25722,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "3Dge3CAvEmY",
@@ -66122,11 +66143,18 @@
     "covered_group": [
       "KISS OF LIFE"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-hyerim",
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
     "published_date": "2025-02-01",
     "content_type": "short",
     "view_count": 19975,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S18"
+    ]
   },
   {
     "youtube_id": "qyi1k7xi2CM",
@@ -66135,15 +66163,38 @@
       "KISS OF LIFE"
     ],
     "tagged_members": [
+      "ha-seyoung",
       "kim-hyerim",
-      "ha-seyoung"
+      "jeong-yoojin",
+      "aoki-yuka"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "쥴리"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "나띠"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "벨"
+      },
+      {
+        "member_id": "aoki-yuka",
+        "covered_group": "KISS OF LIFE",
+        "covered_member": "하늘"
+      }
     ],
     "published_date": "2025-02-01",
     "content_type": "video",
     "view_count": 612922,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S18"
     ]
   },
   {
@@ -99548,22 +99599,6 @@
     ]
   },
   {
-    "youtube_id": "5rAXy-rov_w",
-    "title": "🆅 🎧케플러 채현, 다연 선배님과 두비두비둡둡~🎧 찐친 만나 신난 토끼들이야 뭐야🐰🐿😻 @Kep1er_Offcl #케플러 #김채현 #김다연 #하은 #세영",
-    "covered_group": [
-      "ARTBEAT v",
-      "Kep1er"
-    ],
-    "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung"
-    ],
-    "published_date": "2023-08-12",
-    "content_type": "short",
-    "view_count": 597429,
-    "content_series": []
-  },
-  {
     "youtube_id": "xbGqMsG6AKM",
     "title": "07년생이 추는 '전소미 - Fast Forward' Dance Cover #지우 #Jiwoo #shorts",
     "covered_group": [
@@ -119683,7 +119718,11 @@
       "ITZY"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "oh-yubin",
+      "song-haeun",
+      "ha-seyoung",
+      "lee-gaeun",
+      "yun-haeun"
     ],
     "published_date": "2022-09-01",
     "content_type": "video",
@@ -133756,6 +133795,7 @@
     "youtube_id": "P-hOdjBc5Js",
     "title": "[방구석 여기서요?] 스우파 YGX 4대천왕 미션 + BLACKPINK remix medley | AB KINGDOM",
     "covered_group": [
+      "스트릿 우먼 파이터",
       "BLACKPINK"
     ],
     "tagged_members": [
@@ -133765,11 +133805,63 @@
       "ha-seyoung",
       "lee-seohyeon"
     ],
-    "support": [
+    "sponsors": [
       "한밭대학교"
     ],
-    "ads": [
+    "support": [
       "GoPro"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "스트릿 우먼 파이터",
+        "covered_member": "스트릿 우먼 파이터"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "스트릿 우먼 파이터",
+        "covered_member": "스트릿 우먼 파이터"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "스트릿 우먼 파이터",
+        "covered_member": "스트릿 우먼 파이터"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "스트릿 우먼 파이터",
+        "covered_member": "스트릿 우먼 파이터"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "스트릿 우먼 파이터",
+        "covered_member": "스트릿 우먼 파이터"
+      },
+      {
+        "member_id": "kim-kyungju",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      },
+      {
+        "member_id": "lee-seohyeon",
+        "covered_group": "BLACKPINK",
+        "covered_member": "BLACKPINK"
+      }
     ],
     "published_date": "2021-12-12",
     "content_type": "video",
@@ -133787,7 +133879,9 @@
     "published_date": "2021-12-11",
     "content_type": "video",
     "view_count": 477324,
-    "content_series": []
+    "content_series": [
+      "처음엔 다 그래"
+    ]
   },
   {
     "youtube_id": "-qsxOJxQIRM",
@@ -142200,7 +142294,13 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
     "published_date": "2021-07-02",
     "content_type": "video",
     "view_count": 94002,
@@ -144201,7 +144301,13 @@
     "covered_group": [
       "ITZY"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-hyerim",
+      "lee-gaeun",
+      "kim-hayeon",
+      "kim-minjin",
+      "oh-yubin"
+    ],
     "published_date": "2021-06-03",
     "content_type": "video",
     "view_count": 132806,
@@ -144578,18 +144684,48 @@
     "youtube_id": "im9LlthbMAU",
     "title": "[2배속 커버댄스] 있지 ITZY - 마.피.아. In the Morning | 2x Speed Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung"
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2021-05-25",
     "content_type": "video",
     "view_count": 676788,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2021y"
     ]
   },
   {
@@ -144721,14 +144857,45 @@
       "ITZY"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung"
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2021-05-22",
     "content_type": "video",
     "view_count": 277312,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2021y"
     ]
   },
   {
@@ -144771,17 +144938,52 @@
     "youtube_id": "m6nv4Rwbr9U",
     "title": "[AB] 있지 ITZY - 마.피.아. In the Morning (B Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "ITZY",
       "ITZY"
     ],
     "tagged_members": [
-      "yun-haeun",
-      "ha-seyoung"
+      "park-damhee",
+      "lee-sieun",
+      "ha-seyoung",
+      "jung-hyein",
+      "yun-haeun"
+    ],
+    "sponsors": [
+      "키자니아 부산"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "jung-hyein",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2021-05-20",
     "content_type": "video",
     "view_count": 494590,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "QAxgUqBNcSg",
@@ -170859,7 +171061,7 @@
     "tagged_members": [
       "hwang-dagun",
       "park-soyoung",
-      "suvin",
+      "kim-suvin",
       "minju"
     ],
     "sponsors": [],
@@ -170875,7 +171077,7 @@
         "covered_member": "리사"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "BLACKPINK",
         "covered_member": "로제"
       },
@@ -172288,7 +172490,10 @@
       "BLACKPINK"
     ],
     "tagged_members": [
-      "park-damhee"
+      "hwang-dagun",
+      "kim-suvin",
+      "park-damhee",
+      "ha-seyoung"
     ],
     "published_date": "2019-08-14",
     "content_type": "video",
@@ -174205,7 +174410,7 @@
     "tagged_members": [
       "hwang-dagun",
       "park-soyoung",
-      "suvin",
+      "kim-suvin",
       "minju",
       "kim-hayeon",
       "lee-gaeun",
@@ -174229,7 +174434,7 @@
         "covered_member": "리사"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "BLACKPINK",
         "covered_member": "로제"
       },
@@ -174284,7 +174489,7 @@
         "covered_member": "지효"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "미나"
       },
@@ -174338,7 +174543,7 @@
       "choi-nara",
       "jinhee",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "lee-sieun",
       "kim-eunbin",
       "her-naeun"
@@ -174370,7 +174575,7 @@
         "covered_member": "지효"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "미나"
       },
@@ -174421,7 +174626,7 @@
     "tagged_members": [
       "hwang-dagun",
       "park-soyoung",
-      "suvin",
+      "kim-suvin",
       "minju",
       "lee-gaeun",
       "lee-sieun",
@@ -174441,7 +174646,7 @@
         "covered_member": "리사"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "BLACKPINK",
         "covered_member": "로제"
       },
@@ -174569,14 +174774,53 @@
       "EVERGLOW"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "her-naeun",
       "kwon-soyoung",
-      "ha-seyoung"
+      "kim-eunbin",
+      "jinhee",
+      "ha-seyoung",
+      "minju"
+    ],
+    "sponsors": [],
+    "role_mapping": [
+      {
+        "member_id": "her-naeun",
+        "covered_group": "EVERGLOW",
+        "covered_member": "온다"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "EVERGLOW",
+        "covered_member": "이런"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "EVERGLOW",
+        "covered_member": "미아"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "EVERGLOW",
+        "covered_member": "아샤"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "EVERGLOW",
+        "covered_member": "이유"
+      },
+      {
+        "member_id": "minju",
+        "covered_group": "EVERGLOW",
+        "covered_member": "시현"
+      }
     ],
     "published_date": "2019-05-12",
     "content_type": "video",
     "view_count": 140128,
-    "content_series": []
+    "content_series": [
+      "AB STAGE::2019y",
+      "행사::2019y"
+    ]
   },
   {
     "youtube_id": "NGum0HfbmEI",
@@ -174669,20 +174913,46 @@
     ],
     "tagged_members": [
       "hwang-dagun",
+      "kim-suvin",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      }
     ],
     "published_date": "2019-05-10",
     "content_type": "video",
     "view_count": 255667,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
     "youtube_id": "7AwITVG_DXM",
     "title": "ARTBEAT 100만 구독 기념 QnA ep.1 | AB PROJECT | Q&A | 전지적 감독 시점 | Directorlog",
     "covered_group": [],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-junseok"
+    ],
     "published_date": "2019-05-09",
     "content_type": "video",
     "view_count": 325368,
@@ -174700,7 +174970,7 @@
       "jinhee",
       "her-naeun",
       "choi-nara",
-      "suvin",
+      "kim-suvin",
       "kwon-soyoung",
       "kim-eunbin",
       "lee-sieun"
@@ -174732,7 +175002,7 @@
         "covered_member": "모모"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "미나"
       },
@@ -174771,7 +175041,7 @@
       "jinhee",
       "her-naeun",
       "choi-nara",
-      "suvin",
+      "kim-suvin",
       "kwon-soyoung",
       "kim-eunbin",
       "lee-sieun"
@@ -174803,7 +175073,7 @@
         "covered_member": "모모"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "미나"
       },
@@ -174838,19 +175108,41 @@
     "youtube_id": "FHRJZ6-v9Hs",
     "title": "[여기서요?] BLACKPINK - Don't Know What To Do | 커버댄스 DANCE COVER | KPOP IN PUBLIC @야구장",
     "covered_group": [
-      "LISA",
-      "제니",
       "BLACKPINK"
     ],
     "tagged_members": [
       "hwang-dagun",
+      "kim-suvin",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      }
     ],
     "published_date": "2019-05-06",
     "content_type": "video",
     "view_count": 2185070,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ]
   },
   {
@@ -174865,7 +175157,7 @@
       "choi-nara",
       "jinhee",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "lee-sieun",
       "kim-eunbin",
       "her-naeun"
@@ -174897,7 +175189,7 @@
         "covered_member": "지효"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "미나"
       },
@@ -174933,12 +175225,42 @@
     ],
     "tagged_members": [
       "hwang-dagun",
+      "kim-suvin",
+      "park-damhee",
       "ha-seyoung"
+    ],
+    "support": [
+      "지중해"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "kim-suvin",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      }
     ],
     "published_date": "2019-05-04",
     "content_type": "video",
     "view_count": 926563,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "CaAHtyy_Ivk",
@@ -175318,7 +175640,7 @@
     "tagged_members": [
       "hwang-dagun",
       "park-soyoung",
-      "suvin",
+      "kim-suvin",
       "minju"
     ],
     "sponsors": [],
@@ -175334,7 +175656,7 @@
         "covered_member": "리사"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "BLACKPINK",
         "covered_member": "로제"
       },
@@ -175361,7 +175683,7 @@
     "tagged_members": [
       "hwang-dagun",
       "park-soyoung",
-      "suvin",
+      "kim-suvin",
       "minju",
       "lee-gaeun",
       "lee-sieun",
@@ -175381,7 +175703,7 @@
         "covered_member": "리사"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "BLACKPINK",
         "covered_member": "로제"
       },
@@ -177396,7 +177718,7 @@
       "kim-eunbin",
       "yun-haeun",
       "yun-bogyeong",
-      "suvin"
+      "kim-suvin"
     ],
     "role_mapping": [
       {
@@ -177425,7 +177747,7 @@
         "covered_member": "엄지"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "여자친구",
         "covered_member": "소원"
       }
@@ -177449,7 +177771,7 @@
       "kim-eunbin",
       "yun-haeun",
       "yun-bogyeong",
-      "suvin"
+      "kim-suvin"
     ],
     "role_mapping": [
       {
@@ -177478,7 +177800,7 @@
         "covered_member": "엄지"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "여자친구",
         "covered_member": "소원"
       }
@@ -177502,7 +177824,7 @@
       "kwon-soyoung",
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "park-damhee",
       "kim-eunbin",
       "yun-haeun",
@@ -177531,7 +177853,7 @@
         "covered_member": "수빈"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "우주소녀",
         "covered_member": "다원"
       },
@@ -177579,7 +177901,7 @@
       "kwon-soyoung",
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "park-damhee",
       "kim-eunbin",
       "yun-haeun",
@@ -177608,7 +177930,7 @@
         "covered_member": "수빈"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "우주소녀",
         "covered_member": "다원"
       },
@@ -177656,7 +177978,7 @@
       "kwon-soyoung",
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "park-damhee",
       "kim-eunbin",
       "yun-haeun",
@@ -177688,7 +178010,7 @@
         "covered_member": "수빈"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "우주소녀",
         "covered_member": "다원"
       },
@@ -177734,7 +178056,7 @@
       "kwon-dohyun",
       "lee-sieun",
       "kim-eunbin",
-      "suvin"
+      "kim-suvin"
     ],
     "published_date": "2019-01-24",
     "content_type": "video",
@@ -177790,7 +178112,7 @@
     "tagged_members": [
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin"
     ],
     "special_dancers": [
@@ -177812,7 +178134,7 @@
         "covered_member": "진우"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "WINNER",
         "covered_member": "승윤"
       },
@@ -177838,7 +178160,7 @@
     "tagged_members": [
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin"
     ],
     "special_dancers": [
@@ -177860,7 +178182,7 @@
         "covered_member": "진우"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "WINNER",
         "covered_member": "승윤"
       },
@@ -177913,7 +178235,7 @@
     "tagged_members": [
       "lee-sieun",
       "lee-gaeun",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin"
     ],
     "special_dancers": [
@@ -177937,7 +178259,7 @@
         "covered_member": "진우"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "WINNER",
         "covered_member": "승윤"
       },
@@ -177995,7 +178317,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "choi-nara",
       "park-damhee"
@@ -178022,7 +178344,7 @@
         "covered_member": "시우민"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "EXO",
         "covered_member": "수호"
       },
@@ -178060,7 +178382,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "choi-nara",
       "park-damhee"
@@ -178087,7 +178409,7 @@
         "covered_member": "시우민"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "EXO",
         "covered_member": "수호"
       },
@@ -178125,7 +178447,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "choi-nara",
       "park-damhee"
@@ -178152,7 +178474,7 @@
         "covered_member": "시우민"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "EXO",
         "covered_member": "수호"
       },
@@ -178191,7 +178513,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "minju"
     ],
@@ -178213,7 +178535,7 @@
         "covered_member": "하영"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Apink",
         "covered_member": "보미"
       },
@@ -178260,7 +178582,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "minju"
     ],
@@ -178282,7 +178604,7 @@
         "covered_member": "하영"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Apink",
         "covered_member": "보미"
       },
@@ -178314,7 +178636,7 @@
       "lee-sieun",
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "minju"
     ],
@@ -178336,7 +178658,7 @@
         "covered_member": "하영"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Apink",
         "covered_member": "보미"
       },
@@ -178777,17 +179099,47 @@
     "youtube_id": "qaGkNRbVDwk",
     "title": "[여기서요?] 레드벨벳 RED VELVET - RBB | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "슬기",
       "Red Velvet"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "park-damhee",
+      "jinhee",
+      "ha-seyoung",
+      "yun-bogyeong",
+      "garin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "조이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Red Velvet",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "Red Velvet",
+        "covered_member": "웬디"
+      },
+      {
+        "member_id": "garin",
+        "covered_group": "Red Velvet",
+        "covered_member": "예리"
+      }
     ],
     "published_date": "2018-12-25",
     "content_type": "video",
     "view_count": 7342178,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ]
   },
   {
@@ -178796,28 +179148,97 @@
     "covered_group": [
       "Red Velvet"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "park-damhee",
+      "jinhee",
+      "ha-seyoung",
+      "yun-bogyeong",
+      "garin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "조이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Red Velvet",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "Red Velvet",
+        "covered_member": "웬디"
+      },
+      {
+        "member_id": "garin",
+        "covered_group": "Red Velvet",
+        "covered_member": "예리"
+      }
+    ],
     "published_date": "2018-12-25",
     "content_type": "video",
     "view_count": 70611,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2018y"
     ]
   },
   {
     "youtube_id": "_8ifKao9NVI",
     "title": "[AB] 레드벨벳 RED VELVET - RBB (Really Bad Boy) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "슬기",
       "Red Velvet"
     ],
     "tagged_members": [
-      "ha-seyoung"
+      "park-damhee",
+      "jinhee",
+      "ha-seyoung",
+      "yun-bogyeong",
+      "garin"
+    ],
+    "support": [
+      "김진수 로스터리카페 대봉점"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "아이린"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "Red Velvet",
+        "covered_member": "조이"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "Red Velvet",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "Red Velvet",
+        "covered_member": "웬디"
+      },
+      {
+        "member_id": "garin",
+        "covered_group": "Red Velvet",
+        "covered_member": "예리"
+      }
     ],
     "published_date": "2018-12-24",
     "content_type": "video",
     "view_count": 337995,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ]
   },
   {
     "youtube_id": "vI6sQHa4Bgk",
@@ -180755,7 +181176,7 @@
     "tagged_members": [
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "ahn-yoojin",
       "kim-eunbin"
     ],
@@ -180772,7 +181193,7 @@
         "covered_member": "슬기"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Red Velvet",
         "covered_member": "조이"
       },
@@ -181048,7 +181469,7 @@
     "tagged_members": [
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "ahn-yoojin",
       "kim-eunbin"
     ],
@@ -181065,7 +181486,7 @@
         "covered_member": "슬기"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Red Velvet",
         "covered_member": "조이"
       },
@@ -181162,7 +181583,7 @@
     "tagged_members": [
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "ahn-yoojin",
       "kim-eunbin"
     ],
@@ -181179,7 +181600,7 @@
         "covered_member": "슬기"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Red Velvet",
         "covered_member": "조이"
       },
@@ -181210,7 +181631,7 @@
     "tagged_members": [
       "lee-gaeun",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "ahn-yoojin",
       "kim-eunbin"
     ],
@@ -181229,7 +181650,7 @@
         "covered_member": "슬기"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "Red Velvet",
         "covered_member": "조이"
       },
@@ -181632,7 +182053,7 @@
       "lee-sieun",
       "park-damhee",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "her-naeun",
       "lee-gaeun",
@@ -181659,7 +182080,7 @@
         "covered_member": "정연"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "쯔위"
       },
@@ -181706,7 +182127,7 @@
       "lee-sieun",
       "park-damhee",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "her-naeun",
       "lee-gaeun",
@@ -181731,7 +182152,7 @@
         "covered_member": "정연"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "쯔위"
       },
@@ -181778,7 +182199,7 @@
       "lee-sieun",
       "park-damhee",
       "kim-hayeon",
-      "suvin",
+      "kim-suvin",
       "kim-eunbin",
       "her-naeun",
       "lee-gaeun",
@@ -181805,7 +182226,7 @@
         "covered_member": "정연"
       },
       {
-        "member_id": "suvin",
+        "member_id": "kim-suvin",
         "covered_group": "TWICE",
         "covered_member": "쯔위"
       },
