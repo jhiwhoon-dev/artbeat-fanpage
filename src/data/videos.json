@@ -3,11 +3,10 @@
     "youtube_id": "ko8zHZcIphs",
     "title": "#이주강 #오디션중 'NCT U - UNIVERSE' Dance Cover #JooKhang",
     "covered_group": [
-      "NCT",
-      "NCT U"
+      "NCT::NCT U"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
       "lee-jookhang"
@@ -45,7 +44,9 @@
   {
     "youtube_id": "GeP7x8IKEPM",
     "title": "#윤수 'Royalty SDF(INGYOO) ver.' Dance cover #Yunsu",
-    "covered_group": [],
+    "covered_group": [
+      "스트릿 월드 파이터::디렉터스 워"
+    ],
     "content_series": [],
     "tagged_members": [
       "chae-yunsu"
