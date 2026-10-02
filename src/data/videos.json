@@ -21552,7 +21552,9 @@
   {
     "youtube_id": "76Ce8DImIAw",
     "title": "#호준 'AHOF - 피노키오는 거짓말을 싫어해' Dance Cover #Hojun",
-    "covered_group": [],
+    "covered_group": [
+      "AHOF"
+    ],
     "tagged_members": [
       "kim-hojun"
     ],
@@ -98576,8 +98578,7 @@
     "youtube_id": "hmRlCC930fM",
     "title": "'BTS JIMIN - Serendipity' Dance Cover #호준 #Hojun #shorts",
     "covered_group": [
-      "방탄소년단",
-      "지민"
+      "방탄소년단::지민"
     ],
     "tagged_members": [
       "kim-hojun"
@@ -109330,14 +109331,31 @@
   {
     "youtube_id": "OBQrs-Noplc",
     "title": "[방구석 여기서요?] ASTRO 아스트로 문빈&산하 - MADNESS  | 커버댄스 Dance Cover",
-    "covered_group": [],
+    "covered_group": [
+      "ASTRO::문빈 × 산하"
+    ],
     "tagged_members": [
+      "park-hyunmin",
       "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "문빈"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "산하"
+      }
     ],
     "published_date": "2023-04-01",
     "content_type": "video",
     "view_count": 139477,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S12"
+    ]
   },
   {
     "youtube_id": "iXsRT7lYtWQ",
@@ -111104,7 +111122,9 @@
   {
     "youtube_id": "2YldF_CxCFY",
     "title": "02즈 친구를 길에서 만나면?😜 #하은 #호준 @HATOPIA #Haeun #Hojun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "j-hope"
+    ],
     "tagged_members": [
       "kim-hojun",
       "yun-haeun"
@@ -115163,14 +115183,34 @@
   {
     "youtube_id": "X7jeGYpmQxs",
     "title": "[방구석 여기서요?] ASTRO 아스트로 문빈&산하 - WHO  | 커버댄스 Dance Cover",
-    "covered_group": [],
+    "covered_group": [
+      "ASTRO::문빈 × 산하"
+    ],
     "tagged_members": [
+      "park-hyunmin",
       "kim-hojun"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "문빈"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "산하"
+      }
     ],
     "published_date": "2022-12-05",
     "content_type": "video",
     "view_count": 278780,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ]
   },
   {
     "youtube_id": "58jXjWc6S4s",
@@ -118862,15 +118902,30 @@
   {
     "youtube_id": "amaoD8KVJ0E",
     "title": "[여기서요?] ASTRO 문빈&산하 - WHO (SCHOOL LOOK ver.) | 커버댄스 Dance Cover @20220903 신촌 버스킹",
-    "covered_group": [],
+    "covered_group": [
+      "ASTRO::문빈 × 산하"
+    ],
     "tagged_members": [
+      "park-hyunmin",
       "kim-hojun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "문빈"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "ASTRO::문빈 × 산하",
+        "covered_member": "산하"
+      }
     ],
     "published_date": "2022-09-06",
     "content_type": "video",
     "view_count": 196362,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ]
   },
   {
@@ -142057,10 +142112,25 @@
     "tagged_members": [
       "kim-hojun"
     ],
+    "sponsors": [
+      "대구한의대학교"
+    ],
+    "support": [
+      "마운틴듀"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "태민",
+        "covered_member": "태민"
+      }
+    ],
     "published_date": "2021-06-30",
     "content_type": "video",
     "view_count": 232346,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S06"
+    ]
   },
   {
     "youtube_id": "NgThYAemFko",
@@ -146262,17 +146332,27 @@
     "youtube_id": "lHmdZghLmfM",
     "title": "[AB x NEPA] SM 남돌 메들리 '셜록 Sherlock - Call Me Baby - 영웅 Kick It' | 커버댄스 Dance Cover",
     "covered_group": [
+      "SHINee",
+      "EXO",
       "NCT::NCT 127"
     ],
     "tagged_members": [
+      "seo-jaemin",
+      "kim-woonggyeom",
       "kim-hojun",
       "kim-hayeon",
       "kim-hyerim"
     ],
+    "ads": [
+      "NEPA"
+    ],
     "published_date": "2021-04-03",
     "content_type": "video",
     "view_count": 222144,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2021y",
+      "Dance Cover MV::Years::2021y"
+    ]
   },
   {
     "youtube_id": "RXs0SfoA0tg",
@@ -150666,6 +150746,19 @@
     "tagged_members": [
       "kim-hojun"
     ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "이하이",
+        "covered_member": "이하이"
+      }
+    ],
+    "choreography": [
+      "kim-hojun"
+    ],
     "published_date": "2020-12-12",
     "content_type": "video",
     "view_count": 287736,
@@ -154027,16 +154120,27 @@
     "youtube_id": "hnYHv8nntO8",
     "title": "[방구석 여기서요?] BTS Jimin - Serendipity (방탄소년단 지민 - Serendipity) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "방탄소년단",
-      "지민"
+      "방탄소년단::지민"
     ],
     "tagged_members": [
       "kim-hojun"
     ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "방탄소년단::지민",
+        "covered_member": "지민"
+      }
+    ],
     "published_date": "2020-09-30",
     "content_type": "video",
     "view_count": 559964,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S07"
+    ]
   },
   {
     "youtube_id": "1CmHnWDHM-o",
