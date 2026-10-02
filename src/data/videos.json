@@ -154213,25 +154213,53 @@
   {
     "youtube_id": "bGxaGJ2b8Q4",
     "title": "XUM - 'DDALALA' Choreography Video (Zombie ver.) | produced by ARTBEAT",
-    "covered_group": [],
+    "covered_group": [
+      "XUM"
+    ],
     "tagged_members": [],
     "published_date": "2020-09-29",
     "content_type": "video",
     "view_count": 179190,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::XUM::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "QfKddcF7qdo",
     "title": "[방구석 여기서요?] Johnny Stimson - FLOWER | MunSu & JiHong Choreography",
-    "covered_group": [],
+    "covered_group": [
+      "Johnny Stimson"
+    ],
     "tagged_members": [
+      "yun-jihong",
+      "park-munsu"
+    ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-jihong",
+        "covered_group": "Johnny Stimson",
+        "covered_member": "Johnny Stimson"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "Johnny Stimson",
+        "covered_member": "Johnny Stimson"
+      }
+    ],
+    "choreography": [
       "yun-jihong",
       "park-munsu"
     ],
     "published_date": "2020-09-28",
     "content_type": "video",
     "view_count": 189262,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ]
   },
   {
     "youtube_id": "kIjfjFE7YVA",
@@ -154295,12 +154323,17 @@
   {
     "youtube_id": "U2xz34QLHvE",
     "title": "XUM - 'DDALALA' Choreography Video (School Look ver.) | produced by ARTBEAT",
-    "covered_group": [],
+    "covered_group": [
+      "XUM"
+    ],
     "tagged_members": [],
     "published_date": "2020-09-27",
     "content_type": "video",
     "view_count": 155467,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::XUM::2020y",
+      "Dance Cover MV::Years::2020y"
+    ]
   },
   {
     "youtube_id": "kF02VKeqGAY",
@@ -157502,15 +157535,27 @@
     "youtube_id": "Ek43NoHLkl8",
     "title": "[방구석 여기서요?] BTS Jimin - Lie (방탄소년단 지민 - Lie) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "지민"
+      "방탄소년단::지민"
     ],
     "tagged_members": [
       "park-munsu"
     ],
+    "support": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-munsu",
+        "covered_group": "방탄소년단::지민",
+        "covered_member": "지민"
+      }
+    ],
     "published_date": "2020-07-25",
     "content_type": "video",
     "view_count": 2309244,
-    "content_series": []
+    "content_series": [
+      "방구석 여기서요?::S02"
+    ]
   },
   {
     "youtube_id": "YaD4iPxPEBg",
@@ -166158,15 +166203,39 @@
       "카드"
     ],
     "tagged_members": [
-      "yun-jihong",
-      "park-soyoung",
-      "kwon-soyoung",
-      "ha-seyoung"
+      "seo-jaemin",
+      "park-munsu",
+      "kim-hayeon",
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      }
     ],
     "published_date": "2019-12-18",
     "content_type": "video",
     "view_count": 1488159,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "GHE4OyVjmlA",
@@ -166175,14 +166244,39 @@
       "카드"
     ],
     "tagged_members": [
+      "seo-jaemin",
       "park-munsu",
       "kim-hayeon",
       "kim-hyerim"
     ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      }
+    ],
     "published_date": "2019-12-17",
     "content_type": "video",
     "view_count": 1459594,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "F9kBNmWdMG0",
@@ -167380,15 +167474,38 @@
       "카드"
     ],
     "tagged_members": [
+      "seo-jaemin",
       "park-munsu",
       "kim-hayeon",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      }
     ],
     "published_date": "2019-11-17",
     "content_type": "video",
     "view_count": 173714,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ]
   },
   {
@@ -167623,14 +167740,42 @@
       "카드"
     ],
     "tagged_members": [
+      "seo-jaemin",
       "park-munsu",
       "kim-hayeon",
       "kim-hyerim"
     ],
+    "support": [
+      "ITDANCER"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      }
+    ],
     "published_date": "2019-11-13",
     "content_type": "video",
     "view_count": 3552573,
-    "content_series": []
+    "content_series": [
+      "여기서요?::2019y"
+    ]
   },
   {
     "youtube_id": "guLO-pkWuHw",
@@ -167639,14 +167784,46 @@
       "카드"
     ],
     "tagged_members": [
+      "seo-jaemin",
       "park-munsu",
       "kim-hayeon",
       "kim-hyerim"
     ],
+    "support": [
+      "ITDANCER",
+      "퍼스텝",
+      "티떠블유엔",
+      "푸나왈라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "카드",
+        "covered_member": "제이셉"
+      },
+      {
+        "member_id": "park-munsu",
+        "covered_group": "카드",
+        "covered_member": "비엠"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "카드",
+        "covered_member": "소민"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "카드",
+        "covered_member": "지우"
+      }
+    ],
     "published_date": "2019-11-12",
     "content_type": "video",
     "view_count": 318491,
-    "content_series": []
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ]
   },
   {
     "youtube_id": "X8poG1MVe1E",
@@ -182960,25 +183137,13 @@
       "방탄소년단",
       "Red Velvet"
     ],
-    "tagged_members": [
-      "jihun",
-      "kim-harim",
-      "kim-jeongseo",
-      "hansol",
-      "eungjun",
-      "jihye",
-      "youngbeom",
-      "hong-dageum",
-      "nahyun",
-      "park-munsu"
-    ],
+    "tagged_members": [],
     "published_date": "2017-09-21",
     "content_type": "video",
     "view_count": 1601361,
     "content_series": [
       "Dance Cover MV::Years::2017y",
-      "Dance Cover MV::Dance Teams::VARIOUS::2017y",
-      "Dance Cover MV::Dance Teams::METSUBOU::2017y"
+      "Dance Cover MV::Dance Teams::VARIOUS × METSUBOU::2017y"
     ]
   },
   {
@@ -182987,25 +183152,13 @@
     "covered_group": [
       "신현희와김루트"
     ],
-    "tagged_members": [
-      "hansol",
-      "kim-jeongseo",
-      "lee-jeongmin",
-      "minhyuk",
-      "jihye",
-      "park-sunwoo",
-      "hong-dageum",
-      "lee-re",
-      "park-munsu",
-      "nahyun"
-    ],
+    "tagged_members": [],
     "published_date": "2017-09-20",
     "content_type": "video",
     "view_count": 41105,
     "content_series": [
       "Dance Cover MV::Years::2017y",
-      "Dance Cover MV::Dance Teams::VARIOUS::2017y",
-      "Dance Cover MV::Dance Teams::METSUBOU::2017y"
+      "Dance Cover MV::Dance Teams::VARIOUS × METSUBOU::2017y"
     ]
   },
   {
