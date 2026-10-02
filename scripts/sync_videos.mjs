@@ -217,11 +217,23 @@ async function fetchDetailsForIds(ids) {
 
       details[item.id] = {
         view_count: Number(item.statistics?.viewCount ?? 0),
+        like_count: Number(item.statistics?.likeCount ?? 0), // 유튜브에서 '좋아요 수 비공개'로 해두면 이 필드 자체가 없어서 0으로 들어옴
         content_type: contentType,
       };
     }
   }
   return details;
+}
+
+// 오늘 날짜로 조회수/좋아요 스냅샷을 1개 추가(이미 오늘 걸로 기록된 게 있으면 그 값만 갱신 — 하루에 여러 번 돌려도 중복 안 쌓임).
+// 이렇게 매일 쌓이는 기록이 영상 상세 페이지의 "조회수/좋아요 추이" 그래프의 재료가 됨.
+function appendSnapshot(prevHistory, views, likes) {
+  const history = prevHistory ?? [];
+  const today = new Date().toISOString().slice(0, 10);
+  if (history.length > 0 && history[history.length - 1].date === today) {
+    return [...history.slice(0, -1), { date: today, views, likes }];
+  }
+  return [...history, { date: today, views, likes }];
 }
 
 async function main() {
@@ -294,6 +306,8 @@ async function main() {
         content_series: series,
         tagged_members: taggedMembers,
         view_count: d ? d.view_count : prev.view_count ?? 0,
+        like_count: d ? d.like_count : prev.like_count ?? 0,
+        view_history: appendSnapshot(prev.view_history, d ? d.view_count : prev.view_count ?? 0, d ? d.like_count : prev.like_count ?? 0),
         content_type: prev.content_type ?? (d ? d.content_type : "video"),
       };
     }
@@ -325,6 +339,8 @@ async function main() {
       published_date: item.snippet.publishedAt.slice(0, 10),
       content_type: d ? d.content_type : "video",
       view_count: d ? d.view_count : 0,
+      like_count: d ? d.like_count : 0,
+      view_history: appendSnapshot(undefined, d ? d.view_count : 0, d ? d.like_count : 0),
     };
   });
 

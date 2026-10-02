@@ -756,7 +756,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const hotBadge = glow ? `<span class="hot-badge">🔥 인기 (${glow.tier} M)</span>` : '';
     return `
       <div class="card">
-        <a class="thumb-link" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">
+        <a class="thumb-link" href="${BASE}/videos/${v.id}">
           <div class="thumb-wrap ${glowClass}" style="${glowStyle}">
             <div class="badge-stack-tl">${adBadge}${supportBadge}</div>
             ${sponsorshipBadge}
