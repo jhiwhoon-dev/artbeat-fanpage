@@ -18798,13 +18798,20 @@
     "youtube_id": "F1AO6A2HHZQ",
     "title": "매일 수백 번 상상하며, 기다려왔던 츄~✨ #chu #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "아이린 × 슬기 × KARINA × 윈터"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung"
+    ],
     "published_date": "2026-04-20",
     "content_type": "short",
     "view_count": 83684,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ],
     "like_count": 3052,
     "view_history": [
       {
@@ -18818,13 +18825,20 @@
     "youtube_id": "0yciXCwlU54",
     "title": "보면 볼수록 빠져드는걸요~ #chu #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "아이린 × 슬기 × KARINA × 윈터"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung"
+    ],
     "published_date": "2026-04-20",
     "content_type": "short",
     "view_count": 60459,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ],
     "like_count": 1337,
     "view_history": [
       {
@@ -18838,13 +18852,20 @@
     "youtube_id": "h7cWSaD0jDw",
     "title": "귀여운 소녀들의 설렘 가득 Chu~❤️ #chu #ARTBEAT #방구석여기서요",
     "covered_group": [
-      "aespa"
+      "아이린 × 슬기 × KARINA × 윈터"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "lee-gaeun",
+      "kang-yejin",
+      "yun-haeun",
+      "ha-seyoung"
+    ],
     "published_date": "2026-04-20",
     "content_type": "short",
     "view_count": 98374,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S22"
+    ],
     "like_count": 2305,
     "view_history": [
       {
@@ -18858,10 +18879,7 @@
     "youtube_id": "-dWZ4K9ZaY4",
     "title": "[방구석 여기서요?] IRENE, SEULGI, KARINA, WINTER - Chu~♡ | 커버댄스 Dance Cover",
     "covered_group": [
-      "아이린",
-      "슬기",
-      "KARINA",
-      "윈터"
+      "아이린 × 슬기 × KARINA × 윈터"
     ],
     "tagged_members": [
       "lee-gaeun",
@@ -18874,22 +18892,22 @@
     "role_mapping": [
       {
         "member_id": "lee-gaeun",
-        "covered_group": "Red Velvet",
+        "covered_group": "아이린 × 슬기 × KARINA × 윈터",
         "covered_member": "아이린"
       },
       {
         "member_id": "kang-yejin",
-        "covered_group": "Red Velvet",
+        "covered_group": "아이린 × 슬기 × KARINA × 윈터",
         "covered_member": "슬기"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "aespa",
+        "covered_group": "아이린 × 슬기 × KARINA × 윈터",
         "covered_member": "윈터"
       },
       {
         "member_id": "ha-seyoung",
-        "covered_group": "aespa",
+        "covered_group": "아이린 × 슬기 × KARINA × 윈터",
         "covered_member": "카리나"
       }
     ],
@@ -52710,9 +52728,7 @@
     "youtube_id": "lw3GazwbfSg",
     "title": "YEJI X GISELLE X JULIE - Toxic | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "YEZI",
-      "GISELLE",
-      "JULIE"
+      "YEZI × GISELLE × JULIE"
     ],
     "tagged_members": [
       "yun-haeun",
@@ -52722,17 +52738,17 @@
     "role_mapping": [
       {
         "member_id": "yun-haeun",
-        "covered_group": "YEZI",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "YEZI"
       },
       {
         "member_id": "aoki-yuka",
-        "covered_group": "GISELLE",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "GISELLE"
       },
       {
         "member_id": "lee-yoonjae",
-        "covered_group": "JULIE",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "JULIE"
       }
     ],
@@ -52984,9 +53000,7 @@
     "youtube_id": "wJmbLz-YOqo",
     "title": "[AB PRODUCER] YEJI X GISELLE X JULIE - Toxic | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEZI",
-      "GISELLE",
-      "JULIE"
+      "YEZI × GISELLE × JULIE"
     ],
     "tagged_members": [
       "yun-haeun",
@@ -52996,17 +53010,17 @@
     "role_mapping": [
       {
         "member_id": "yun-haeun",
-        "covered_group": "YEZI",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "YEZI"
       },
       {
         "member_id": "aoki-yuka",
-        "covered_group": "GISELLE",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "GISELLE"
       },
       {
         "member_id": "lee-yoonjae",
-        "covered_group": "JULIE",
+        "covered_group": "YEZI × GISELLE × JULIE",
         "covered_member": "JULIE"
       }
     ],
@@ -95658,7 +95672,8 @@
       "VIVIZ"
     ],
     "tagged_members": [
-      "yun-haeun"
+      "yun-haeun",
+      "kim-chan"
     ],
     "published_date": "2024-11-22",
     "content_type": "short",
@@ -108290,46 +108305,37 @@
       "BABYMONSTER"
     ],
     "tagged_members": [
-      "lee-gaeun",
+      "oh-yubin",
+      "aoki-yuka",
       "yun-haeun",
       "ha-seyoung",
-      "oh-yubin"
+      "lee-gaeun"
     ],
     "role_mapping": [
       {
-        "member_id": "ha-seyoung",
-        "covered_group": "BABYMONSTER",
-        "covered_member": "아현"
-      },
-      {
-        "member_id": "jeon-minseo",
-        "covered_group": "BABYMONSTER",
-        "covered_member": "루카"
-      },
-      {
-        "member_id": "lee-gaeun",
-        "covered_group": "BABYMONSTER",
-        "covered_member": "파리타"
-      },
-      {
         "member_id": "oh-yubin",
         "covered_group": "BABYMONSTER",
-        "covered_member": "아사"
-      },
-      {
-        "member_id": "seol-heejeong",
-        "covered_group": "BABYMONSTER",
-        "covered_member": "라미"
+        "covered_member": "BABYMONSTER"
       },
       {
         "member_id": "aoki-yuka",
         "covered_group": "BABYMONSTER",
-        "covered_member": "로라"
+        "covered_member": "BABYMONSTER"
       },
       {
-        "member_id": "ahn-yoojin",
+        "member_id": "yun-haeun",
         "covered_group": "BABYMONSTER",
-        "covered_member": "치키타"
+        "covered_member": "BABYMONSTER"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "BABYMONSTER"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "BABYMONSTER",
+        "covered_member": "BABYMONSTER"
       }
     ],
     "published_date": "2024-05-11",
@@ -114238,14 +114244,23 @@
     "youtube_id": "s3hkXSv17l0",
     "title": "[일본까지 와서.. 여기서요?]  KAI, SEULGI, JENO, KARINA - Hot & Cold | 커버댄스 Dance Cover @오타루",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "yun-haeun",
       "oh-yubin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "슬기 × KARINA × 카이 × JENO"
+      },
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "슬기 × KARINA × 카이 × JENO"
+      }
     ],
     "published_date": "2024-02-15",
     "content_type": "video",
@@ -132630,29 +132645,6 @@
     ]
   },
   {
-    "youtube_id": "6gnK5PDbus4",
-    "title": "🆅 이번 노래는 중독성이 하나도 없두비두비두비두비둡둡빠운스 #ARTBEAT_v #아트비트브이 #가은 #gaeun #하은 #haeun #DubiDubiChallenge",
-    "covered_group": [
-      "ARTBEAT v"
-    ],
-    "tagged_members": [
-      "lee-gaeun",
-      "yun-haeun"
-    ],
-    "published_date": "2023-08-12",
-    "content_type": "short",
-    "view_count": 245924,
-    "content_series": [],
-    "like_count": 14387,
-    "view_history": [
-      {
-        "date": "2026-10-02",
-        "views": 245924,
-        "likes": 14387
-      }
-    ]
-  },
-  {
     "youtube_id": "1GpQX8KY9jY",
     "title": "[여기서요?] 엑소 EXO - Cream Soda | 커버댄스 Dance Cover",
     "covered_group": [
@@ -145709,16 +145701,35 @@
     "youtube_id": "mdn5jwH4Q0c",
     "title": "[방구석 여기서요?] KAI, SEULGI, JENO, KARINA - Hot & Cold (A Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
       "kim-hyerim",
       "kang-taehyun",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "JENO"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "KARINA"
+      }
     ],
     "published_date": "2023-03-28",
     "content_type": "video",
@@ -146424,10 +146435,7 @@
     "youtube_id": "CMwNCDzLY7I",
     "title": "[방구석 여기서요?] KAI, SEULGI, JENO, KARINA - Hot & Cold (B Team ver.) | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "lee-moonkyu",
@@ -146438,22 +146446,22 @@
     "role_mapping": [
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "카이",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "카이"
       },
       {
         "member_id": "oh-yubin",
-        "covered_group": "슬기",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "JENO",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "JENO"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "KARINA",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "KARINA"
       }
     ],
@@ -150709,10 +150717,7 @@
     "youtube_id": "aIrZt-87IZI",
     "title": "KAI, SEULGI, JENO, KARINA - Hot & Cold (B Team ver.) | 커버댄스 Dance Cover | 연습실 Practice ver.",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "lee-moonkyu",
@@ -150723,22 +150728,22 @@
     "role_mapping": [
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "카이",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "카이"
       },
       {
         "member_id": "oh-yubin",
-        "covered_group": "슬기",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "JENO",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "JENO"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "KARINA",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "KARINA"
       }
     ],
@@ -150817,10 +150822,7 @@
     "youtube_id": "si-Vnw_O71c",
     "title": "[여기서요?] KAI, SEULGI, JENO, KARINA - Hot & Cold (B Team ver.) | 커버댄스 Dance Cover @동성로",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "lee-moonkyu",
@@ -150831,22 +150833,22 @@
     "role_mapping": [
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "카이",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "카이"
       },
       {
         "member_id": "oh-yubin",
-        "covered_group": "슬기",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "슬기"
       },
       {
         "member_id": "kim-suhwan",
-        "covered_group": "JENO",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "JENO"
       },
       {
         "member_id": "lee-gaeun",
-        "covered_group": "KARINA",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
         "covered_member": "KARINA"
       }
     ],
@@ -150946,7 +150948,9 @@
   {
     "youtube_id": "Y7WY3V5vFjo",
     "title": "서로 코디해 준 의상으로 Hot & Cold 추기 #가은 #수환 #Gaeun #Suhwan #hotandcold",
-    "covered_group": [],
+    "covered_group": [
+      "슬기 × KARINA × 카이 × JENO"
+    ],
     "tagged_members": [
       "kim-suhwan",
       "lee-gaeun"
@@ -151249,16 +151253,35 @@
     "youtube_id": "L8QG3sDo0Ac",
     "title": "[AB] KAI, SEULGI, JENO, KARINA - Hot & Cold (온도차) | 커버댄스 Dance Cover",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
       "kim-hyerim",
       "kang-taehyun",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "JENO"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "KARINA"
+      }
     ],
     "published_date": "2023-01-14",
     "content_type": "video",
@@ -151347,16 +151370,35 @@
     "youtube_id": "A8r4LgOtcyI",
     "title": "[여기서요?] KAI, SEULGI, JENO, KARINA - Hot & Cold (온도차) | 커버댄스 Dance Cover @신촌",
     "covered_group": [
-      "슬기",
-      "KARINA",
-      "카이",
-      "JENO"
+      "슬기 × KARINA × 카이 × JENO"
     ],
     "tagged_members": [
       "hwang-jiho",
       "kim-hyerim",
       "kang-taehyun",
       "ha-seyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-jiho",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "슬기"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "JENO"
+      },
+      {
+        "member_id": "ha-seyoung",
+        "covered_group": "슬기 × KARINA × 카이 × JENO",
+        "covered_member": "KARINA"
+      }
     ],
     "published_date": "2023-01-12",
     "content_type": "video",
@@ -153090,12 +153132,42 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun"
+      "yun-bogyeong",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-12-04",
     "content_type": "video",
     "view_count": 545328,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ],
     "like_count": 13349,
     "view_history": [
       {
@@ -157422,14 +157494,38 @@
       "aespa"
     ],
     "tagged_members": [
+      "kim-hyerim",
       "yun-haeun",
-      "kim-hyerim"
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-09-05",
     "content_type": "video",
     "view_count": 485849,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ],
     "like_count": 16350,
     "view_history": [
@@ -158272,13 +158368,38 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun"
+      "yun-bogyeong",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-30",
     "content_type": "video",
     "view_count": 151956,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2022y"
     ],
     "like_count": 4193,
     "view_history": [
@@ -158377,13 +158498,38 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun"
+      "yun-bogyeong",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-29",
     "content_type": "video",
     "view_count": 275018,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2022y"
     ],
     "like_count": 11680,
     "view_history": [
@@ -158456,12 +158602,43 @@
       "aespa"
     ],
     "tagged_members": [
-      "yun-haeun"
+      "yun-bogyeong",
+      "yun-haeun",
+      "lee-sieun",
+      "park-damhee"
+    ],
+    "sponsors": [
+      "가야테마파크"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "yun-bogyeong",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      }
     ],
     "published_date": "2022-08-27",
     "content_type": "video",
     "view_count": 189015,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2022y",
+      "Dance Cover MV::Years::2022y"
+    ],
     "like_count": 8492,
     "view_history": [
       {
@@ -222376,19 +222553,65 @@
     "youtube_id": "64fLQaCdxzE",
     "title": "WINNER 위너 - AH YEAH 아예 | 커버댄스 DANCE COVER | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun",
       "park-sunyoung",
+      "yun-haeun",
       "hwang-dagun",
-      "yun-haeun"
+      "kim-eunbin",
+      "kwon-dohyun",
+      "jin-hyunwoo",
+      "lee-jihoon",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      }
     ],
     "published_date": "2019-06-05",
     "content_type": "video",
     "view_count": 153597,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2019y"
     ],
     "like_count": 3288,
     "view_history": [
@@ -222403,17 +222626,46 @@
     "youtube_id": "0zC6kjndCUE",
     "title": "[AB] WINNER 위너 - AH YEAH 아예 (Girls ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
       "park-sunyoung",
+      "yun-haeun",
       "hwang-dagun",
-      "yun-haeun"
+      "kim-eunbin"
+    ],
+    "sponsors": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      }
     ],
     "published_date": "2019-06-04",
     "content_type": "video",
     "view_count": 335862,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ],
     "like_count": 8002,
     "view_history": [
       {
@@ -222427,15 +222679,46 @@
     "youtube_id": "4lcAa9fz97Y",
     "title": "[AB] WINNER 위너 - AH YEAH 아예 (Boys ver.) | 커버댄스 DANCE COVER",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun"
+      "kwon-dohyun",
+      "jin-hyunwoo",
+      "lee-jihoon",
+      "seo-jaemin"
+    ],
+    "sponsors": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      }
     ],
     "published_date": "2019-06-03",
     "content_type": "video",
     "view_count": 222265,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
+    ],
     "like_count": 8727,
     "view_history": [
       {
@@ -222449,19 +222732,65 @@
     "youtube_id": "o43C5SF95UQ",
     "title": "[여기서요?] WINNER 위너 - AH YEAH 아예 | 커버댄스 DANCE COVER | KPOP IN PUBLIC @동성로",
     "covered_group": [
-      "MINO"
+      "WINNER"
     ],
     "tagged_members": [
-      "kwon-dohyun",
       "park-sunyoung",
+      "yun-haeun",
       "hwang-dagun",
-      "yun-haeun"
+      "kim-eunbin",
+      "kwon-dohyun",
+      "jin-hyunwoo",
+      "lee-jihoon",
+      "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "WINNER",
+        "covered_member": "승훈"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "WINNER",
+        "covered_member": "진우"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "WINNER",
+        "covered_member": "승윤"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "WINNER",
+        "covered_member": "민호"
+      }
     ],
     "published_date": "2019-06-02",
     "content_type": "video",
     "view_count": 1327081,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ],
     "like_count": 26883,
     "view_history": [
