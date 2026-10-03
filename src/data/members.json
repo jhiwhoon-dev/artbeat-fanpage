@@ -26,6 +26,9 @@
       ],
       "threads": [
         "https://www.threads.com/@ab.junseok"
+      ],
+      "youtube": [
+        "https://www.youtube.com/@loveholic288"
       ]
     }
   },
@@ -5225,12 +5228,16 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": "rin_0725",
-    "sns": {}
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/channel/UCI5ruO6QhAABQmA3iGqH_0g"
+      ]
+    }
   },
   {
-    "id": "gyungmin",
-    "name": "경민",
-    "name_en": "Gyungmin",
+    "id": "oh-gyungmin",
+    "name": "오경민",
+    "name_en": "Gyungmin Oh",
     "nickname": null,
     "birth_date": null,
     "gender": "M",
@@ -5245,7 +5252,11 @@
     "membership_periods": [],
     "photo_filename": null,
     "bio": null,
-    "sns": {}
+    "sns": {
+      "youtube": [
+        "https://www.youtube.com/channel/UC_HMMnEgbwMk_y5ZZ1a4vGw"
+      ]
+    }
   },
   {
     "id": "park-pilho",
@@ -6883,5 +6894,23 @@
         "https://www.instagram.com/hyxn_zi/"
       ]
     }
+  },
+  {
+    "id": "hayul",
+    "name": "하율",
+    "name_en": "Hayul",
+    "nickname": null,
+    "birth_date": null,
+    "gender": "F",
+    "role": "Dancer",
+    "unit": [],
+    "unit_periods": [],
+    "status": null,
+    "joined_date": null,
+    "left_date": null,
+    "membership_periods": [],
+    "photo_filename": null,
+    "bio": "2018쯤 활동",
+    "sns": {}
   }
 ]
