@@ -12,6 +12,28 @@ import announcements from '../data/announcements.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
+// 구독자 수 추이 — 아직 한 번도 동기화가 안 돌았으면 파일 자체가 없을 수 있어서 존재 여부부터 확인.
+const SUBSCRIBER_HISTORY_PATH = path.join(process.cwd(), 'src', 'data', 'subscriber_history.json');
+const subscriberHistory: { date: string; subscribers: number }[] = fs.existsSync(SUBSCRIBER_HISTORY_PATH)
+  ? JSON.parse(fs.readFileSync(SUBSCRIBER_HISTORY_PATH, 'utf-8'))
+  : [];
+const hasSubscriberTrend = subscriberHistory.length >= 2;
+
+const SUB_CHART_W = 900, SUB_CHART_H = 160, SUB_PAD_L = 48, SUB_PAD_B = 20, SUB_PAD_T = 16, SUB_PAD_R = 12;
+let subPathD = '';
+if (hasSubscriberTrend) {
+  const vals = subscriberHistory.map((h) => h.subscribers);
+  const max = Math.max(...vals);
+  const min = Math.min(...vals);
+  const range = Math.max(1, max - min);
+  const pts = subscriberHistory.map((h, i) => {
+    const x = SUB_PAD_L + (subscriberHistory.length > 1 ? (i / (subscriberHistory.length - 1)) * (SUB_CHART_W - SUB_PAD_L - SUB_PAD_R) : 0);
+    const y = SUB_CHART_H - SUB_PAD_B - ((h.subscribers - min) / range) * (SUB_CHART_H - SUB_PAD_B - SUB_PAD_T);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  });
+  subPathD = pts.join(' ');
+}
+
 // public/images/ 안에서 확장자 상관없이 파일을 찾아주는 헬퍼
 // (jpg로 저장하든 png로 저장하든 알아서 찾음)
 function findImage(basename) {
@@ -256,6 +278,24 @@ const aboutStyle = aboutFile
           <div><strong>{channel.total_views}</strong><span>TOTAL VIEWS</span></div>
           <div><strong>{channel.videos_uploaded}</strong><span>VIDEOS UPLOADED</span></div>
         </div>
+
+        <div class="sub-trend">
+          <p class="sub-trend-title">구독자 수 추이</p>
+          {hasSubscriberTrend ? (
+            <>
+              <svg viewBox={`0 0 ${SUB_CHART_W} ${SUB_CHART_H}`} class="sub-trend-svg">
+                <polyline points={subPathD} fill="none" stroke="#22d3ee" stroke-width="2.5" />
+                <text x={SUB_PAD_L} y={SUB_CHART_H - 4} class="sub-trend-label">{subscriberHistory[0].date}</text>
+                <text x={SUB_CHART_W - SUB_PAD_R} y={SUB_CHART_H - 4} class="sub-trend-label" text-anchor="end">
+                  {subscriberHistory[subscriberHistory.length - 1].date}
+                </text>
+              </svg>
+              <p class="sub-trend-current">현재 {subscriberHistory[subscriberHistory.length - 1].subscribers.toLocaleString()}명</p>
+            </>
+          ) : (
+            <p class="sub-trend-empty">아직 추이를 그릴 만큼 데이터가 쌓이지 않았어요. 매일 자동으로 기록되니, 며칠 뒤에 다시 확인해주세요.</p>
+          )}
+        </div>
       </div>
     </div>
   </section>
@@ -490,6 +530,13 @@ const aboutStyle = aboutFile
   .stats { display: flex; gap: 32px; flex-wrap: wrap; }
   .stats strong { display: block; font-family: 'Archivo Black', sans-serif; font-size: 28px; }
   .stats span { font-size: 11px; color: var(--muted); letter-spacing: 0.05em; }
+
+  .sub-trend { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .sub-trend-title { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+  .sub-trend-svg { width: 100%; height: auto; display: block; }
+  .sub-trend-label { font-size: 10px; fill: var(--muted); font-family: 'Archivo', sans-serif; }
+  .sub-trend-current { font-size: 12px; color: var(--ink); margin: 8px 0 0; }
+  .sub-trend-empty { font-size: 12px; color: var(--muted); margin: 0; }
 
   .social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
   .social-card {

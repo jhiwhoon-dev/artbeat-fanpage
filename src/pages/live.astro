@@ -21,6 +21,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const videosData = videos.map((v) => ({
   id: v.youtube_id,
   title: v.title,
+  thumbnailUrl: v.thumbnail_url ?? null,
   groups: v.covered_group ?? [],
   series: v.content_series ?? [],
   members: v.tagged_members ?? [],
@@ -191,6 +192,7 @@ function safeJson(obj) {
   interface VideoItem {
     id: string;
     title: string;
+    thumbnailUrl: string | null;
     groups: string[];
     series: string[];
     members: string[];
@@ -511,7 +513,7 @@ function safeJson(obj) {
             <div class="badge-stack-tl">${adBadge}${supportBadge}</div>
             ${sponsorshipBadge}
             ${hotBadge}
-            <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
+            <img class="thumb" src="${v.thumbnailUrl || `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`}" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
           </div>
           <p class="title">${escapeHtml(v.title)}</p>

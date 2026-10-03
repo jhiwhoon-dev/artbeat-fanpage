@@ -199,7 +199,7 @@ async function fetchDetailsForIds(ids) {
   const details = {};
   for (const group of chunk(ids, 50)) {
     const url = new URL("https://www.googleapis.com/youtube/v3/videos");
-    url.searchParams.set("part", "contentDetails,statistics,liveStreamingDetails");
+    url.searchParams.set("part", "snippet,contentDetails,statistics,liveStreamingDetails,status");
     url.searchParams.set("id", group.join(","));
     url.searchParams.set("key", API_KEY);
 
@@ -216,10 +216,19 @@ async function fetchDetailsForIds(ids) {
       if (item.liveStreamingDetails) contentType = "live";
       else if (seconds <= SHORTS_MAX_SECONDS) contentType = "short";
 
+      // 썸네일은 maxres > standard > high > medium > default 순으로, 그 영상에서 구할 수 있는 가장 고화질을 고름
+      const thumbs = item.snippet?.thumbnails ?? {};
+      const thumbnailUrl =
+        thumbs.maxres?.url ?? thumbs.standard?.url ?? thumbs.high?.url ?? thumbs.medium?.url ?? thumbs.default?.url ?? null;
+
       details[item.id] = {
         view_count: Number(item.statistics?.viewCount ?? 0),
         like_count: Number(item.statistics?.likeCount ?? 0), // 유튜브에서 '좋아요 수 비공개'로 해두면 이 필드 자체가 없어서 0으로 들어옴
         content_type: contentType,
+        duration_seconds: seconds,
+        has_captions: item.contentDetails?.caption === "true",
+        thumbnail_url: thumbnailUrl,
+        privacy_status: item.status?.privacyStatus ?? "public", // "public" | "unlisted" | "private"
       };
     }
   }
@@ -286,6 +295,7 @@ async function main() {
   let addedCount = 0;
   let updatedCount = 0;
   let backfilledCount = 0;
+  const privacyAlerts = []; // 이번 실행에서 공개 -> 비공개로 막 전환된 걸로 감지된 영상 목록
 
   const merged = playlistItems.map((item) => {
     const id = item.snippet.resourceId.videoId;
@@ -325,7 +335,13 @@ async function main() {
       const { view_history: _legacyHistory, ...prevWithoutHistory } = prev; // 예전 버전에 videos.json 안에 남아있던 view_history는 제거(연도별 파일로 이전됨)
       const newViewCount = d ? d.view_count : prev.view_count ?? 0;
       const newLikeCount = d ? d.like_count : prev.like_count ?? 0;
+      const newPrivacyStatus = d ? d.privacy_status : prev.privacy_status ?? "public";
       queueSnapshot(id, newViewCount, newLikeCount);
+
+      // 직전까지는 공개/일부공개였다가 이번에 처음 "비공개"로 바뀐 걸 감지해서 로그로 알림
+      if (newPrivacyStatus === "private" && prev.privacy_status !== "private") {
+        privacyAlerts.push({ id, title: prev.title });
+      }
 
       return {
         ...prevWithoutHistory, // title, published_date 등 나머지는 그대로 유지
@@ -335,6 +351,10 @@ async function main() {
         view_count: newViewCount,
         like_count: newLikeCount,
         content_type: prev.content_type ?? (d ? d.content_type : "video"),
+        duration_seconds: d ? d.duration_seconds : prev.duration_seconds ?? 0,
+        has_captions: d ? d.has_captions : prev.has_captions ?? false,
+        thumbnail_url: d && d.thumbnail_url ? d.thumbnail_url : prev.thumbnail_url ?? null,
+        privacy_status: newPrivacyStatus,
       };
     }
 
@@ -367,12 +387,24 @@ async function main() {
       content_type: d ? d.content_type : "video",
       view_count: d ? d.view_count : 0,
       like_count: d ? d.like_count : 0,
+      duration_seconds: d ? d.duration_seconds : 0,
+      has_captions: d ? d.has_captions : false,
+      thumbnail_url: d ? d.thumbnail_url : null,
+      privacy_status: d ? d.privacy_status : "public",
     };
   });
 
   flushSnapshots(); // 이번 실행에서 모아둔 연도별 조회수/좋아요 스냅샷을 파일로 저장
   fs.writeFileSync(VIDEOS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf-8");
   console.log(`\n완료: 신규 ${addedCount}개, 기존 갱신 ${updatedCount}개(그중 자동 보완 ${backfilledCount}개), 총 ${merged.length}개`);
+
+  if (privacyAlerts.length > 0) {
+    console.log(`\n⚠️  방금 "비공개"로 전환된 것으로 감지된 영상 ${privacyAlerts.length}개:`);
+    for (const a of privacyAlerts) {
+      console.log(`  - [${a.id}] ${a.title}`);
+    }
+    console.log(`  (videos.json에는 그대로 남아있고 privacy_status 필드만 "private"로 바뀜 — 필요하면 직접 삭제해주세요)`);
+  }
 }
 
 main().catch((err) => {

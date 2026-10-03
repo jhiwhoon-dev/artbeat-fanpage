@@ -64,6 +64,7 @@ const memberMap = Object.fromEntries(members.map((m) => [m.id, m.nickname || m.n
 const taggedVideosData = taggedVideos.map((v) => ({
   id: v.youtube_id,
   title: v.title,
+  thumbnailUrl: v.thumbnail_url ?? null,
   groups: v.covered_group ?? [],
   series: v.content_series ?? [],
   members: (v.tagged_members ?? []).filter((id) => id !== member.id), // 본인 태그는 빼고 "같이 출연한 멤버(메인)"만
@@ -407,6 +408,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   interface VideoItem {
     id: string;
     title: string;
+    thumbnailUrl: string | null;
     groups: string[];
     series: string[];
     members: string[];
@@ -762,7 +764,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             ${sponsorshipBadge}
             ${hotBadge}
             ${selfSpecialBadge}
-            <img class="thumb" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${escapeHtml(v.title)}" loading="lazy" />
+            <img class="thumb" src="${v.thumbnailUrl || `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`}" alt="${escapeHtml(v.title)}" loading="lazy" />
             <span class="play">▶</span>
           </div>
           <p class="title">${escapeHtml(v.title)}</p>

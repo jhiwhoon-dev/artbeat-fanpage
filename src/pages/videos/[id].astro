@@ -39,6 +39,10 @@ interface VideoEntry {
   content_type?: string;
   view_count?: number;
   like_count?: number;
+  duration_seconds?: number;
+  has_captions?: boolean;
+  thumbnail_url?: string | null;
+  privacy_status?: string;
 }
 
 const { video } = Astro.props as { video: VideoEntry };
@@ -111,6 +115,17 @@ const likePts = hasTrend ? buildTrendPath('likes') : [];
 const viewPathD = viewPts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
 const likePathD = likePts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
 
+function formatDuration(seconds?: number) {
+  if (!seconds || seconds <= 0) return null;
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  const mm = h > 0 ? String(m).padStart(2, '0') : String(m);
+  const ss = String(s).padStart(2, '0');
+  return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
+}
+const durationLabel = formatDuration(video.duration_seconds);
+
 function displayTagPath(tag: string) {
   return tag.includes('::') ? tag.split('::').join(' · ') : tag;
 }
@@ -136,6 +151,11 @@ function displayTagPath(tag: string) {
       <span>{video.published_date}</span>
       <span>조회수 {(video.view_count ?? 0).toLocaleString()}회</span>
       {video.like_count ? <span>좋아요 {video.like_count.toLocaleString()}개</span> : null}
+      {durationLabel && <span>길이 {durationLabel}</span>}
+      <span class={video.has_captions ? 'caption-yes' : 'caption-no'}>
+        {video.has_captions ? '자막 있음' : '자막 없음'}
+      </span>
+      {video.privacy_status === 'private' && <span class="privacy-warning">⚠️ 비공개 전환됨</span>}
       <a class="yt-link" href={`https://www.youtube.com/watch?v=${video.youtube_id}`} target="_blank" rel="noopener noreferrer">
         YouTube에서 보기 ↗
       </a>
@@ -218,7 +238,12 @@ function displayTagPath(tag: string) {
           {related.map((v) => (
             <a class="related-card" href={`${base}/videos/${v.youtube_id}`}>
               <div class="related-thumb-wrap">
-                <img class="related-thumb" src={`https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`} alt={v.title} loading="lazy" />
+                <img
+                  class="related-thumb"
+                  src={v.thumbnail_url || `https://img.youtube.com/vi/${v.youtube_id}/hqdefault.jpg`}
+                  alt={v.title}
+                  loading="lazy"
+                />
               </div>
               <p class="related-title">{v.title}</p>
               <p class="related-meta">{(v.view_count ?? 0).toLocaleString()}회 · {v.published_date}</p>
@@ -265,6 +290,9 @@ function displayTagPath(tag: string) {
     font-weight: 700;
   }
   .yt-link { color: var(--muted); text-decoration: underline; margin-left: auto; }
+  .caption-yes { color: #22c55e; }
+  .caption-no { color: var(--muted); }
+  .privacy-warning { color: #f59e0b; font-weight: 700; }
   .yt-link:hover { color: var(--ink); }
 
   .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }

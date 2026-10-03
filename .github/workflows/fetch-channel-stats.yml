@@ -1,0 +1,32 @@
+name: Fetch Channel Stats
+
+on:
+  schedule:
+    - cron: "10 15 * * *" # 매일 UTC 15:10 = KST 00:10 — 다른 동기화(15:00)와 겹치지 않게 10분 늦춤
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync channel stats
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/sync_channel_stats.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/channel.json src/data/subscriber_history.json
+          git diff --cached --quiet || git commit -m "chore: 채널 통계 자동 동기화"
+          git pull --rebase origin main
+          git push
