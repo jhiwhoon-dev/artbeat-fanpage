@@ -13,7 +13,8 @@ import path from "node:path";
 const CHANNEL_ID = "UCgZlBRLRB1-0l-qL9BkecLQ"; // ARTBEAT (@artbeat.official)
 const UPLOADS_PLAYLIST_ID = CHANNEL_ID.replace(/^UC/, "UU");
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const VIDEOS_PATH = path.join(process.cwd(), "src", "data", "videos.json");
+const DATA_DIR = path.join(process.cwd(), "src", "data");
+const VIDEOS_PATH = path.join(DATA_DIR, "videos.json");
 const MEMBERS_PATH = path.join(process.cwd(), "src", "data", "members.json");
 const ARTBEAT_V_VIDEOS_PATH = path.join(process.cwd(), "src", "data", "artbeat_v_videos.json"); // 이쪽에 있는 영상은 여기(videos.json)에서 제외함
 const GROUPS_PATH = path.join(process.cwd(), "src", "data", "covered_groups.json");
@@ -227,13 +228,33 @@ async function fetchDetailsForIds(ids) {
 
 // 오늘 날짜로 조회수/좋아요 스냅샷을 1개 추가(이미 오늘 걸로 기록된 게 있으면 그 값만 갱신 — 하루에 여러 번 돌려도 중복 안 쌓임).
 // 이렇게 매일 쌓이는 기록이 영상 상세 페이지의 "조회수/좋아요 추이" 그래프의 재료가 됨.
-function appendSnapshot(prevHistory, views, likes) {
-  const history = prevHistory ?? [];
+// 조회수/좋아요 기록은 videos.json에 안 넣고, 연도별 파일(view_history_2026.json 등)에 따로 저장함.
+// 이렇게 하면 videos.json은 계속 가볍게 유지되고, 지난 연도 파일은 그 해가 지나면 다시는 안 바뀌어서
+// 매일 커밋되는 git diff도 "오늘 연도 파일" 하나로만 작게 유지됨.
+const snapshotsByYear = {}; // { "2026": { youtube_id: [{date,views,likes}, ...] } } — 이번 실행 동안 메모리에 모아뒀다가 한 번에 저장
+
+function queueSnapshot(youtubeId, views, likes) {
   const today = new Date().toISOString().slice(0, 10);
-  if (history.length > 0 && history[history.length - 1].date === today) {
-    return [...history.slice(0, -1), { date: today, views, likes }];
+  const year = today.slice(0, 4);
+  if (!snapshotsByYear[year]) {
+    const p = path.join(DATA_DIR, `view_history_${year}.json`);
+    snapshotsByYear[year] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : {};
   }
-  return [...history, { date: today, views, likes }];
+  const yearData = snapshotsByYear[year];
+  const history = yearData[youtubeId] ?? [];
+  if (history.length > 0 && history[history.length - 1].date === today) {
+    history[history.length - 1] = { date: today, views, likes };
+  } else {
+    history.push({ date: today, views, likes });
+  }
+  yearData[youtubeId] = history;
+}
+
+function flushSnapshots() {
+  for (const [year, yearData] of Object.entries(snapshotsByYear)) {
+    const p = path.join(DATA_DIR, `view_history_${year}.json`);
+    fs.writeFileSync(p, JSON.stringify(yearData, null, 2) + "\n", "utf-8");
+  }
 }
 
 async function main() {
@@ -300,19 +321,25 @@ async function main() {
         if (hadEmptyMembers && taggedMembers.length > 0) console.log(`    멤버: ${taggedMembers.join(', ')}`);
       }
 
+      // eslint-disable-next-line no-unused-vars
+      const { view_history: _legacyHistory, ...prevWithoutHistory } = prev; // 예전 버전에 videos.json 안에 남아있던 view_history는 제거(연도별 파일로 이전됨)
+      const newViewCount = d ? d.view_count : prev.view_count ?? 0;
+      const newLikeCount = d ? d.like_count : prev.like_count ?? 0;
+      queueSnapshot(id, newViewCount, newLikeCount);
+
       return {
-        ...prev, // title, published_date 등 나머지는 그대로 유지
+        ...prevWithoutHistory, // title, published_date 등 나머지는 그대로 유지
         covered_group: coveredGroup,
         content_series: series,
         tagged_members: taggedMembers,
-        view_count: d ? d.view_count : prev.view_count ?? 0,
-        like_count: d ? d.like_count : prev.like_count ?? 0,
-        view_history: appendSnapshot(prev.view_history, d ? d.view_count : prev.view_count ?? 0, d ? d.like_count : prev.like_count ?? 0),
+        view_count: newViewCount,
+        like_count: newLikeCount,
         content_type: prev.content_type ?? (d ? d.content_type : "video"),
       };
     }
 
     addedCount++;
+    queueSnapshot(id, d ? d.view_count : 0, d ? d.like_count : 0);
     const suggestedGroups = suggestTags(text, groupMatchers);
     const suggestedSeries = suggestContentSeries(item.snippet.title);
     const suggestedMembers = suggestTaggedMembers(text);
@@ -340,10 +367,10 @@ async function main() {
       content_type: d ? d.content_type : "video",
       view_count: d ? d.view_count : 0,
       like_count: d ? d.like_count : 0,
-      view_history: appendSnapshot(undefined, d ? d.view_count : 0, d ? d.like_count : 0),
     };
   });
 
+  flushSnapshots(); // 이번 실행에서 모아둔 연도별 조회수/좋아요 스냅샷을 파일로 저장
   fs.writeFileSync(VIDEOS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf-8");
   console.log(`\n완료: 신규 ${addedCount}개, 기존 갱신 ${updatedCount}개(그중 자동 보완 ${backfilledCount}개), 총 ${merged.length}개`);
 }

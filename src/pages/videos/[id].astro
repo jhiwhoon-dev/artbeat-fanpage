@@ -2,6 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import MemberCard from '../../components/MemberCard.astro';
 import allVideos from '../../data/videos.json';
+import fs from 'node:fs';
+import path from 'node:path';
 import members from '../../data/members.json';
 
 export function getStaticPaths() {
@@ -37,7 +39,6 @@ interface VideoEntry {
   content_type?: string;
   view_count?: number;
   like_count?: number;
-  view_history?: ViewSnapshot[];
 }
 
 const { video } = Astro.props as { video: VideoEntry };
@@ -77,7 +78,19 @@ const related = (allVideos as VideoEntry[])
   .slice(0, 8)
   .map((x) => x.v);
 
-const history = video.view_history ?? [];
+// 조회수/좋아요 기록은 videos.json이 아니라 연도별 파일(view_history_2024.json, view_history_2025.json, ...)에
+// 따로 저장되어 있음(ARTBEAT v 영상은 이 기록 대상이 아님 — allVideos에 애초에 안 들어있음). 디렉터리를 뒤져서
+// "view_history_"로 시작하는 파일을 전부 찾아 읽은 뒤, 이 영상 기록만 뽑아 날짜순으로 합침.
+const DATA_DIR = path.join(process.cwd(), 'src', 'data');
+const historyFiles = fs.existsSync(DATA_DIR)
+  ? fs.readdirSync(DATA_DIR).filter((f) => /^view_history_\d{4}\.json$/.test(f))
+  : [];
+const history: ViewSnapshot[] = historyFiles
+  .flatMap((f) => {
+    const yearData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf-8'));
+    return yearData[video.youtube_id] ?? [];
+  })
+  .sort((a, b) => a.date.localeCompare(b.date));
 const hasTrend = history.length >= 2;
 
 // 추이 그래프 좌표 계산 (members 페이지 그래프와 같은 방식)

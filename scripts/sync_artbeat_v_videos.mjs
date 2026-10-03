@@ -82,6 +82,7 @@ async function fetchAllPlaylistItems() {
 }
 
 // 영상 id 목록의 조회수를 50개씩 나눠서 조회
+// ARTBEAT v는 좋아요/조회수 추이를 따로 기록하지 않음(메인 채널 영상만 추이를 남김) — 조회수만 갱신.
 async function fetchViewCounts(ids) {
   const views = {};
   for (const group of chunk(ids, 50)) {
@@ -133,7 +134,7 @@ async function main() {
 
   const merged = playlistItems.map((item) => {
     const id = item.snippet.resourceId.videoId;
-    const viewCount = viewCounts[id];
+    const d = viewCounts[id];
     const prev = existingMap[id];
     const description = item.snippet.description ?? "";
     const text = `${item.snippet.title}\n${description}`;
@@ -155,7 +156,7 @@ async function main() {
       return {
         ...prev, // title, published_date, category 등 나머지는 그대로 유지
         tagged_members: taggedMembers,
-        view_count: viewCount !== undefined ? viewCount : prev.view_count ?? 0,
+        view_count: d !== undefined ? d : prev.view_count ?? 0,
       };
     }
 
@@ -172,7 +173,7 @@ async function main() {
       category: null, // 자동 분류 기준이 없어서 항상 비움 — mv/teaser/trailer/behind/stage/vlog/live 중 직접 선택 필요
       tagged_members: suggestedMembers, // 자동 추천됨 — 꼭 검수 필요
       published_date: item.snippet.publishedAt.slice(0, 10),
-      view_count: viewCount !== undefined ? viewCount : 0,
+      view_count: d !== undefined ? d : 0,
     };
   });
 
