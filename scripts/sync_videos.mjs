@@ -237,32 +237,35 @@ async function fetchDetailsForIds(ids) {
 
 // 오늘 날짜로 조회수/좋아요 스냅샷을 1개 추가(이미 오늘 걸로 기록된 게 있으면 그 값만 갱신 — 하루에 여러 번 돌려도 중복 안 쌓임).
 // 이렇게 매일 쌓이는 기록이 영상 상세 페이지의 "조회수/좋아요 추이" 그래프의 재료가 됨.
-// 조회수/좋아요 기록은 videos.json에 안 넣고, 연도별 파일(view_history_2026.json 등)에 따로 저장함.
-// 이렇게 하면 videos.json은 계속 가볍게 유지되고, 지난 연도 파일은 그 해가 지나면 다시는 안 바뀌어서
-// 매일 커밋되는 git diff도 "오늘 연도 파일" 하나로만 작게 유지됨.
-const snapshotsByYear = {}; // { "2026": { youtube_id: [{date,views,likes}, ...] } } — 이번 실행 동안 메모리에 모아뒀다가 한 번에 저장
+//
+// 기록은 videos.json에 안 넣고, src/data/view_history/ 폴더 안에 월별 파일(2026-10.json 등)로 따로 저장함.
+//  - 파일 하나가 GitHub 한도(50MB 경고 / 100MB push 차단)를 넘지 않도록 월 단위로 쪼갠 것
+//  - 지난 달 파일은 그 달이 지나면 다시는 안 바뀌어서, 매일 커밋되는 git diff도 "이번 달 파일" 하나로만 작게 유지됨
+// 날짜/월은 UTC 기준(toISOString). 영상 상세 페이지 쪽 파일명 규칙(src/lib/viewHistory.mjs: YYYY-MM.json)과 맞춰야 함.
+const HISTORY_DIR = path.join(DATA_DIR, "view_history");
+const snapshotsByMonth = {}; // { "2026-10": { youtube_id: [{date,views,likes}, ...] } } — 이번 실행 동안 메모리에 모아뒀다가 한 번에 저장
 
 function queueSnapshot(youtubeId, views, likes) {
   const today = new Date().toISOString().slice(0, 10);
-  const year = today.slice(0, 4);
-  if (!snapshotsByYear[year]) {
-    const p = path.join(DATA_DIR, `view_history_${year}.json`);
-    snapshotsByYear[year] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : {};
+  const month = today.slice(0, 7);
+  if (!snapshotsByMonth[month]) {
+    const p = path.join(HISTORY_DIR, `${month}.json`);
+    snapshotsByMonth[month] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : {};
   }
-  const yearData = snapshotsByYear[year];
-  const history = yearData[youtubeId] ?? [];
+  const monthData = snapshotsByMonth[month];
+  const history = monthData[youtubeId] ?? [];
   if (history.length > 0 && history[history.length - 1].date === today) {
     history[history.length - 1] = { date: today, views, likes };
   } else {
     history.push({ date: today, views, likes });
   }
-  yearData[youtubeId] = history;
+  monthData[youtubeId] = history;
 }
 
 function flushSnapshots() {
-  for (const [year, yearData] of Object.entries(snapshotsByYear)) {
-    const p = path.join(DATA_DIR, `view_history_${year}.json`);
-    fs.writeFileSync(p, JSON.stringify(yearData, null, 2) + "\n", "utf-8");
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+  for (const [month, monthData] of Object.entries(snapshotsByMonth)) {
+    fs.writeFileSync(path.join(HISTORY_DIR, `${month}.json`), JSON.stringify(monthData, null, 2) + "\n", "utf-8");
   }
 }
 
