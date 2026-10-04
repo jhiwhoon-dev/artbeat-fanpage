@@ -6903,9 +6903,11 @@
     "birth_date": null,
     "gender": "F",
     "role": "Dancer",
-    "unit": [],
+    "unit": [
+      "AB PROJECT"
+    ],
     "unit_periods": [],
-    "status": null,
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
