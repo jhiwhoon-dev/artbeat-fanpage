@@ -216849,7 +216849,40 @@
     "covered_group": [
       "방탄소년단"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-jaewook",
+      "lee-sieun",
+      "son-dongpyo",
+      "kim-eunbin",
+      "lee-seunghyun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "son-dongpyo",
+        "covered_group": "방탄소년단",
+        "covered_member": "뷔"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "방탄소년단",
+        "covered_member": "제이홉"
+      },
+      {
+        "member_id": "lee-seunghyun",
+        "covered_group": "방탄소년단",
+        "covered_member": "슈가"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "방탄소년단",
+        "covered_member": "진"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "방탄소년단",
+        "covered_member": "지민"
+      }
+    ],
     "published_date": "2018-06-15",
     "content_type": "video",
     "view_count": 5017246,
@@ -217447,7 +217480,7 @@
     "title": "[ABehind] 2배속 커버댄스 + NG컷 | 벚꽃특집 | 봄날 | 같은 곳에서 | 2x SPEED DANCE COVER [AB Project]",
     "covered_group": [
       "방탄소년단",
-      "소녀온탑"
+      "PRODUCE 101::소녀온탑"
     ],
     "tagged_members": [],
     "published_date": "2018-04-17",
@@ -217535,17 +217568,17 @@
       "방탄소년단"
     ],
     "tagged_members": [
-      "lee-moonkyu",
-      "seo-jaemin",
-      "kim-eunbin",
       "kim-woonggyeom",
-      "kwon-dohyun",
-      "lee-sieun",
-      "kim-jaewook"
+      "kim-eunbin",
+      "jeon-hyeonguk",
+      "seo-jaemin",
+      "son-dongpyo",
+      "kim-jaewook",
+      "lee-sieun"
     ],
     "role_mapping": [
       {
-        "member_id": "lee-moonkyu",
+        "member_id": "jeon-hyeonguk",
         "covered_group": "방탄소년단",
         "covered_member": "정국"
       },
@@ -217565,7 +217598,7 @@
         "covered_member": "뷔"
       },
       {
-        "member_id": "kwon-dohyun",
+        "member_id": "kim-jaewook",
         "covered_group": "방탄소년단",
         "covered_member": "슈가"
       },
@@ -217575,7 +217608,7 @@
         "covered_member": "진"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "son-dongpyo",
         "covered_group": "방탄소년단",
         "covered_member": "RM"
       }
