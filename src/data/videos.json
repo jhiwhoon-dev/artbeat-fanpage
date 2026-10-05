@@ -204377,7 +204377,14 @@
       "Red Velvet"
     ],
     "tagged_members": [
-      "choi-nara"
+      "lee-gaeun",
+      "ha-seyoung",
+      "lee-sieun",
+      "park-damhee",
+      "park-soyoung"
+    ],
+    "ads": [
+      "소녀나라"
     ],
     "published_date": "2019-07-17",
     "content_type": "video",
@@ -207610,13 +207617,57 @@
       "펜타곤"
     ],
     "tagged_members": [
+      "choi-nara",
+      "lee-jihoon",
+      "kim-chanhee",
+      "park-jaebum",
+      "kim-jaewook",
       "lee-sieun",
-      "choi-nara"
+      "park-pilho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "펜타곤",
+        "covered_member": "후이"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "펜타곤",
+        "covered_member": "옌안"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "펜타곤",
+        "covered_member": "진호"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "펜타곤",
+        "covered_member": "신원"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "펜타곤",
+        "covered_member": "홍석"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "펜타곤",
+        "covered_member": "여원"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "펜타곤",
+        "covered_member": "유토"
+      }
     ],
     "published_date": "2019-04-18",
     "content_type": "video",
     "view_count": 122229,
-    "content_series": [],
+    "content_series": [
+      "AB PRACTICE::2019y"
+    ],
     "like_count": 4583,
     "duration_seconds": 243,
     "has_captions": false,
@@ -207838,14 +207889,56 @@
       "펜타곤"
     ],
     "tagged_members": [
+      "choi-nara",
+      "lee-jihoon",
+      "kim-chanhee",
+      "park-jaebum",
+      "kim-jaewook",
       "lee-sieun",
-      "choi-nara"
+      "park-pilho"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "펜타곤",
+        "covered_member": "후이"
+      },
+      {
+        "member_id": "lee-jihoon",
+        "covered_group": "펜타곤",
+        "covered_member": "옌안"
+      },
+      {
+        "member_id": "kim-chanhee",
+        "covered_group": "펜타곤",
+        "covered_member": "진호"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "펜타곤",
+        "covered_member": "신원"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "펜타곤",
+        "covered_member": "홍석"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "펜타곤",
+        "covered_member": "여원"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "펜타곤",
+        "covered_member": "유토"
+      }
     ],
     "published_date": "2019-04-13",
     "content_type": "video",
     "view_count": 1074202,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2019y"
     ],
     "like_count": 25216,
     "duration_seconds": 271,
@@ -215639,19 +215732,59 @@
     "youtube_id": "3FCMyqqpiDY",
     "title": "[여기서요?] 아이콘iKON - 죽겠다 KILLING ME | 커버댄스 DANCE COVER | KPOP IN PUBLIC @중앙로지하상가",
     "covered_group": [
-      "B.I"
+      "iKON"
     ],
     "tagged_members": [
-      "lee-sieun",
       "kim-eunbin",
+      "lee-sieun",
+      "choi-nara",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
       "seo-jaemin",
-      "choi-nara"
+      "kim-jaewook"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "iKON",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "iKON",
+        "covered_member": "바비"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2018-08-27",
     "content_type": "video",
     "view_count": 1206467,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ],
     "like_count": 23098,
     "duration_seconds": 256,
@@ -215792,11 +215925,58 @@
     "covered_group": [
       "iKON"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-eunbin",
+      "lee-sieun",
+      "choi-nara",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
+      "seo-jaemin",
+      "kim-jaewook"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "iKON",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "iKON",
+        "covered_member": "바비"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
+    ],
     "published_date": "2018-08-22",
     "content_type": "video",
     "view_count": 55320,
-    "content_series": [],
+    "content_series": [
+      "AB PRACTICE::2018y"
+    ],
     "like_count": 1863,
     "duration_seconds": 201,
     "has_captions": false,
@@ -215807,18 +215987,61 @@
     "youtube_id": "I8CrLKGWso8",
     "title": "[AB] 아이콘 iKON - 죽겠다 KILLING ME | 커버댄스 DANCE COVER",
     "covered_group": [
-      "B.I"
+      "iKON"
     ],
     "tagged_members": [
-      "lee-sieun",
       "kim-eunbin",
+      "lee-sieun",
+      "choi-nara",
+      "kim-woonggyeom",
+      "jin-hyunwoo",
       "seo-jaemin",
-      "choi-nara"
+      "kim-jaewook"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "iKON",
+        "covered_member": "B.I"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "iKON",
+        "covered_member": "바비"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "iKON",
+        "covered_member": "김진환"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "iKON",
+        "covered_member": "구준회"
+      },
+      {
+        "member_id": "jin-hyunwoo",
+        "covered_group": "iKON",
+        "covered_member": "송윤형"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "iKON",
+        "covered_member": "김동혁"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "iKON",
+        "covered_member": "정찬우"
+      }
     ],
     "published_date": "2018-08-21",
     "content_type": "video",
     "view_count": 294500,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ],
     "like_count": 10686,
     "duration_seconds": 245,
     "has_captions": false,
@@ -217041,7 +217264,55 @@
       "seo-jaemin",
       "choi-nara",
       "choi-sunwoo",
+      "lee-seongmin",
       "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "choi-sunwoo",
+        "covered_group": "세븐틴",
+        "covered_member": "호시"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "lee-seongmin",
+        "covered_group": "세븐틴",
+        "covered_member": "승관"
+      },
+      {
+        "member_id": "choi-nara",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      },
+      {
+        "member_id": "kwon-dohyun",
+        "covered_group": "세븐틴",
+        "covered_member": "도겸"
+      }
     ],
     "published_date": "2018-04-30",
     "content_type": "video",
