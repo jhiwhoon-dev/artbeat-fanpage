@@ -74222,12 +74222,19 @@
   {
     "youtube_id": "5D0EmEIwaMk",
     "title": "긴 머리와 중 단발의 조합=😍 #killer #릴레이댄스 #RelayDance",
-    "covered_group": [],
-    "tagged_members": [],
+    "covered_group": [
+      "KARINA × 안유진"
+    ],
+    "tagged_members": [
+      "ha-seyoung",
+      "kim-hyerim"
+    ],
     "published_date": "2025-03-13",
     "content_type": "short",
     "view_count": 84525,
-    "content_series": [],
+    "content_series": [
+      "릴레이 댄스::2025y"
+    ],
     "like_count": 6886,
     "duration_seconds": 32,
     "has_captions": false,
@@ -74957,10 +74964,11 @@
     "youtube_id": "DVVejAcpkBs",
     "title": "aka. Hottest Duo🔥 #KILLER #beat1 #artbeat",
     "covered_group": [
-      "KARINA"
+      "KARINA × 안유진"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "ha-seyoung",
+      "kim-hyerim"
     ],
     "published_date": "2025-03-07",
     "content_type": "short",
@@ -74978,10 +74986,11 @@
     "youtube_id": "Nq73ANeX26w",
     "title": "뭐야 나 꼬시지 마세요🙈 #KILLER #beat1 #artbeat",
     "covered_group": [
-      "KARINA"
+      "KARINA × 안유진"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "ha-seyoung",
+      "kim-hyerim"
     ],
     "published_date": "2025-03-07",
     "content_type": "short",
@@ -74999,10 +75008,11 @@
     "youtube_id": "KA5rOdqI49M",
     "title": "뒤돌아볼때 숨참았다🫢 #KILLER #beat1 #artbeat",
     "covered_group": [
-      "KARINA"
+      "KARINA × 안유진"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "ha-seyoung",
+      "kim-hyerim"
     ],
     "published_date": "2025-03-07",
     "content_type": "short",
@@ -75039,14 +75049,14 @@
     "youtube_id": "ge4uEVrh9ws",
     "title": "[bEAT1] 카리나×안유진(aespa×IVE) 'Killer' Dance Cover Performance Video | #ABPROJECT",
     "covered_group": [
-      "aespa",
-      "IVE"
+      "KARINA × 안유진"
     ],
     "tagged_members": [
-      "ahn-yoojin"
+      "ha-seyoung",
+      "kim-hyerim"
     ],
     "published_date": "2025-03-07",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 177289,
     "content_series": [
       "Dance Cover MV::bEAT1"
@@ -133866,7 +133876,7 @@
         "covered_member": "해린"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "ahn-yoojin",
         "covered_group": "NewJeans",
         "covered_member": "혜인"
       },
@@ -136218,7 +136228,7 @@
         "covered_member": "해린"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "ahn-yoojin",
         "covered_group": "NewJeans",
         "covered_member": "혜인"
       },
@@ -136397,7 +136407,7 @@
         "covered_member": "해린"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "ahn-yoojin",
         "covered_group": "NewJeans",
         "covered_member": "혜인"
       },
@@ -136675,7 +136685,9 @@
       "oh-yubin",
       "lee-gaeun"
     ],
-    "sponsors": [],
+    "sponsors": [
+      "HELLO 72th"
+    ],
     "role_mapping": [
       {
         "member_id": "ha-seyoung",
@@ -136683,7 +136695,7 @@
         "covered_member": "해린"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "ahn-yoojin",
         "covered_group": "NewJeans",
         "covered_member": "혜인"
       },
@@ -137171,7 +137183,7 @@
         "covered_member": "해린"
       },
       {
-        "member_id": "park-damhee",
+        "member_id": "ahn-yoojin",
         "covered_group": "NewJeans",
         "covered_member": "혜인"
       },
@@ -183781,7 +183793,7 @@
     "role_mapping": [
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "Selena Gomez",
+        "covered_group": "BLACKPINK",
         "covered_member": "Selena Gomez"
       },
       {
@@ -183837,7 +183849,7 @@
     "role_mapping": [
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "Selena Gomez",
+        "covered_group": "BLACKPINK",
         "covered_member": "Selena Gomez"
       },
       {
@@ -183857,7 +183869,7 @@
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "ITBLACKPINKZY",
+        "covered_group": "BLACKPINK",
         "covered_member": "리아"
       }
     ],
@@ -185235,7 +185247,7 @@
     "role_mapping": [
       {
         "member_id": "kwon-soyoung",
-        "covered_group": "Selena Gomez",
+        "covered_group": "BLACKPINK",
         "covered_member": "Selena Gomez"
       },
       {
@@ -185255,7 +185267,7 @@
       },
       {
         "member_id": "ahn-yoojin",
-        "covered_group": "ITBLACKPINKZY",
+        "covered_group": "BLACKPINK",
         "covered_member": "리아"
       }
     ],
