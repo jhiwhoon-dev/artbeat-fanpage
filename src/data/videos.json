@@ -7,7 +7,6 @@
     ],
     "content_series": [],
     "tagged_members": [
-      "won-jin",
       "baek-jina",
       "lee-yoonjae",
       "cho-yuna"
@@ -20513,7 +20512,9 @@
   {
     "youtube_id": "vcBSMAjgLr0",
     "title": "중간에 의상 체인지 나만 설레? ‘SOYEON - ice blue rabbit' Dance Cover #ootd #옷체인지 #혜림 #Hyerim",
-    "covered_group": [],
+    "covered_group": [
+      "소연"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
@@ -33972,7 +33973,7 @@
     "youtube_id": "3gn1iRpMYaA",
     "title": "#혜림 ‘MIYEON (미연) - Say My Name' Dance Cover #Hyerim",
     "covered_group": [
-      "Say My Name"
+      "미연"
     ],
     "tagged_members": [
       "kim-hyerim"
@@ -72440,7 +72441,9 @@
   {
     "youtube_id": "ZiDwJGEI9fg",
     "title": "#혜림 ‘Tobii - Bad Girls Like You' Dance Cover #Hyerim",
-    "covered_group": [],
+    "covered_group": [
+      "Tobii"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
@@ -78427,7 +78430,9 @@
   {
     "youtube_id": "kireoS7-jHU",
     "title": "#혜림 '민니(MINNIE) - HER' Dance Cover #Hyerim",
-    "covered_group": [],
+    "covered_group": [
+      "민니"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
@@ -91059,9 +91064,14 @@
   {
     "youtube_id": "H8-vzFJk0xA",
     "title": "Crazy Dadada🎶 #혜림 #Hyerim #LE_SSERAFIM_CRAZY #제작비지원",
-    "covered_group": [],
+    "covered_group": [
+      "LE SSERAFIM"
+    ],
     "tagged_members": [
       "kim-hyerim"
+    ],
+    "support": [
+      "Youtube Shorts"
     ],
     "published_date": "2024-09-11",
     "content_type": "short",
@@ -98002,6 +98012,54 @@
       "park-seongmin",
       "won-seoa"
     ],
+    "special_dancers": [
+      "kim-hyerim",
+      "jang-sein",
+      "jeon-minseo",
+      "won-seoa"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "aespa",
+        "covered_member": "카리나"
+      },
+      {
+        "member_id": "jang-sein",
+        "covered_group": "aespa",
+        "covered_member": "윈터"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "aespa",
+        "covered_member": "닝닝"
+      },
+      {
+        "member_id": "jeon-minseo",
+        "covered_group": "aespa",
+        "covered_member": "지젤"
+      },
+      {
+        "member_id": "park-hyunmin",
+        "covered_group": "카이",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "kim-youngjin",
+        "covered_group": "카이",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "카이",
+        "covered_member": "카이"
+      },
+      {
+        "member_id": "won-seoa",
+        "covered_group": "카이",
+        "covered_member": "카이"
+      }
+    ],
     "published_date": "2024-05-13",
     "content_type": "video",
     "view_count": 182681,
@@ -99621,8 +99679,11 @@
   {
     "youtube_id": "_HnQyYV-e4Y",
     "title": "그러다 체육관 바닥 무너지겠어🫢 #sheesh #희정 #현민 #혜림 #heejeong #hyunmin #hyerim",
-    "covered_group": [],
+    "covered_group": [
+      "BABYMONSTER"
+    ],
     "tagged_members": [
+      "seol-heejeong",
       "park-hyunmin",
       "kim-hyerim"
     ],
@@ -129103,7 +129164,9 @@
   {
     "youtube_id": "_rLqiqrKs2A",
     "title": "연습실 문단속을 해야 하는 이유 #knockchallenge #혜림 #Hyerim  #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "이채연"
+    ],
     "tagged_members": [
       "kim-hyerim"
     ],
@@ -139380,15 +139443,30 @@
     "youtube_id": "rnKi8Clxf8I",
     "title": "[방구석 여기서요?] Marian Hill - Eat You Alive | HyeRim Choreography",
     "covered_group": [
-      "IVE"
+      "Marian Hill"
     ],
     "tagged_members": [
+      "kim-hyerim"
+    ],
+    "support": [
+      "대전대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "Marian Hill",
+        "covered_member": "Marian Hill"
+      }
+    ],
+    "choreography": [
       "kim-hyerim"
     ],
     "published_date": "2022-12-01",
     "content_type": "video",
     "view_count": 925392,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S11"
+    ],
     "like_count": 22800,
     "duration_seconds": 204,
     "has_captions": false,
@@ -142846,15 +142924,27 @@
   {
     "youtube_id": "siDmuicmRJs",
     "title": "[여기서요?] DeeWuun - Mek it bunx up | HyeRim Choreography @20220903 신촌 버스킹",
-    "covered_group": [],
+    "covered_group": [
+      "DeeWunn"
+    ],
     "tagged_members": [
+      "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "DeeWunn",
+        "covered_member": "DeeWunn"
+      }
+    ],
+    "choreography": [
       "kim-hyerim"
     ],
     "published_date": "2022-09-08",
     "content_type": "video",
     "view_count": 420230,
     "content_series": [
-      "여기서요?"
+      "버스킹 여기서요?::2022y::AB"
     ],
     "like_count": 14780,
     "duration_seconds": 189,
@@ -149975,8 +150065,7 @@
     "youtube_id": "G9d0nKGJDf0",
     "title": "[A2be 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover @20220529 Busking",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "hwang-jiho",
@@ -149988,27 +150077,27 @@
     "role_mapping": [
       {
         "member_id": "hwang-jiho",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-mingi",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-leeyoung",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -151263,8 +151352,7 @@
     "youtube_id": "wezT7oCWVic",
     "title": "[AB 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover @20220521 Busking",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -151276,27 +151364,27 @@
     "role_mapping": [
       {
         "member_id": "yun-jihong",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "lee-sieun",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -152552,8 +152640,7 @@
     "youtube_id": "PZ7BTVlqrHM",
     "title": "[A2be | 방구석 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "hwang-jiho",
@@ -152565,27 +152652,27 @@
     "role_mapping": [
       {
         "member_id": "hwang-jiho",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-mingi",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-leeyoung",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -152605,8 +152692,7 @@
     "youtube_id": "K7Xrr3Y_ZjQ",
     "title": "[AB | 방구석 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -152618,27 +152704,27 @@
     "role_mapping": [
       {
         "member_id": "yun-jihong",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -156006,8 +156092,7 @@
     "youtube_id": "_gwANrAjS9E",
     "title": "AB 공주 등장!? [AB VLOG] 'NCT x aespa - ZOO' 브이로그 | 전지적 혜림 시점 | HyeRim VLOG",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -156075,8 +156160,7 @@
     "youtube_id": "344Rx-CBnME",
     "title": "[방구석 여기서요?] NCT x aespa - ZOO | 커버댄스 Dance Cover | AB x A2be",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "hwang-jiho",
@@ -156096,52 +156180,52 @@
     "role_mapping": [
       {
         "member_id": "hwang-jiho",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-mingi",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-leeyoung",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       },
       {
         "member_id": "yun-jihong",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -157086,7 +157170,7 @@
     "youtube_id": "nmgR3rsP0L8",
     "title": "[AB] NCT x aespa - ZOO | 커버댄스 Dance Cover | 거울모드 Mirror mode | 연습실 Practice ver.",
     "covered_group": [
-      "aespa"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -157098,27 +157182,27 @@
     "role_mapping": [
       {
         "member_id": "yun-jihong",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -157138,8 +157222,7 @@
     "youtube_id": "jN6FjZ4uMPc",
     "title": "[AB] NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "yun-jihong",
@@ -157151,27 +157234,27 @@
     "role_mapping": [
       {
         "member_id": "yun-jihong",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "kim-taehwan",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "lee-moonkyu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-hojun",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-hyerim",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -157791,8 +157874,7 @@
     "youtube_id": "_cGdCCv-Nt4",
     "title": "[A2be]  NCT x aespa - ZOO | 커버댄스 Dance Cover",
     "covered_group": [
-      "aespa",
-      "NCT"
+      "NCT × aespa"
     ],
     "tagged_members": [
       "hwang-jiho",
@@ -157804,27 +157886,27 @@
     "role_mapping": [
       {
         "member_id": "hwang-jiho",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "태용"
       },
       {
         "member_id": "chae-yunsu",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "제노"
       },
       {
         "member_id": "jeong-hyungwoo",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "핸드리"
       },
       {
         "member_id": "kim-mingi",
-        "covered_group": "NCT",
+        "covered_group": "NCT × aespa",
         "covered_member": "양양"
       },
       {
         "member_id": "kim-leeyoung",
-        "covered_group": "aespa",
+        "covered_group": "NCT × aespa",
         "covered_member": "지젤"
       }
     ],
@@ -165263,15 +165345,40 @@
     ],
     "tagged_members": [
       "kim-hayeon",
+      "lee-sieun",
       "hwang-dagun",
       "kim-hyerim"
+    ],
+    "sponsors": [
+      "한밭대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "씨스타",
+        "covered_member": "효린"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "씨스타",
+        "covered_member": "보라"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "씨스타",
+        "covered_member": "소유"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "씨스타",
+        "covered_member": "다솜"
+      }
     ],
     "published_date": "2021-09-19",
     "content_type": "video",
     "view_count": 1146493,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S07"
     ],
     "like_count": 25688,
     "duration_seconds": 288,
@@ -174158,6 +174265,83 @@
     "ads": [
       "NEPA"
     ],
+    "role_mapping": [
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "SHINee",
+        "covered_member": "SHINee"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "SHINee",
+        "covered_member": "SHINee"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "SHINee",
+        "covered_member": "SHINee"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "SHINee",
+        "covered_member": "SHINee"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "SHINee",
+        "covered_member": "SHINee"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "EXO",
+        "covered_member": "EXO"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "EXO",
+        "covered_member": "EXO"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "EXO",
+        "covered_member": "EXO"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "EXO",
+        "covered_member": "EXO"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "EXO",
+        "covered_member": "EXO"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "NCT::NCT 127"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "NCT::NCT 127"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "NCT::NCT 127"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "NCT::NCT 127"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "NCT::NCT 127"
+      }
+    ],
     "published_date": "2021-04-03",
     "content_type": "video",
     "view_count": 222146,
@@ -174336,12 +174520,24 @@
     "tagged_members": [
       "kim-hyerim"
     ],
+    "sponsors": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "Britney Spears",
+        "covered_member": "Britney Spears"
+      }
+    ],
+    "choreography": [
+      "kim-hyerim"
+    ],
     "published_date": "2021-03-31",
     "content_type": "video",
     "view_count": 1689891,
     "content_series": [
-      "여기서요?",
-      "방구석 여기서요?"
+      "방구석 여기서요?::S05"
     ],
     "like_count": 60189,
     "duration_seconds": 181,
@@ -174968,6 +175164,23 @@
       "kim-hyerim",
       "lee-sieun",
       "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "청하",
+        "covered_member": "청하"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "청하",
+        "covered_member": "청하"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "청하",
+        "covered_member": "청하"
+      }
     ],
     "special_dancers": [
       "lee-seohyeon",
@@ -179054,6 +179267,19 @@
     "tagged_members": [
       "kim-hyerim"
     ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "Stefflon Don",
+        "covered_member": "Stefflon Don"
+      }
+    ],
+    "choreography": [
+      "kim-hyerim"
+    ],
     "published_date": "2020-12-12",
     "content_type": "video",
     "view_count": 5602073,
@@ -179259,11 +179485,41 @@
       "제시"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "hwang-dagun",
+      "kim-hyerim",
       "kim-hayeon",
       "kwon-soyoung",
-      "hwang-dagun",
-      "kim-hyerim"
+      "park-soyoung"
+    ],
+    "support": [
+      "수성대학교"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      }
     ],
     "published_date": "2020-12-09",
     "content_type": "video",
@@ -181097,13 +181353,37 @@
     ],
     "tagged_members": [
       "hwang-dagun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-11-01",
     "content_type": "video",
     "view_count": 6559993,
     "content_series": [
-      "2배속 커버댄스"
+      "2배속 커버댄스::2020y"
     ],
     "like_count": 299085,
     "duration_seconds": 189,
@@ -181139,13 +181419,37 @@
     ],
     "tagged_members": [
       "hwang-dagun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-hyerim"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-10-31",
     "content_type": "video",
     "view_count": 1364316,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ],
     "like_count": 49359,
     "duration_seconds": 400,
@@ -181161,7 +181465,35 @@
     ],
     "tagged_members": [
       "hwang-dagun",
+      "park-damhee",
+      "yoon-taegyeong",
       "kim-hyerim"
+    ],
+    "support": [
+      "FF COFFEE",
+      "MAYME"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "BLACKPINK",
+        "covered_member": "제니"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "BLACKPINK",
+        "covered_member": "리사"
+      },
+      {
+        "member_id": "yoon-taegyeong",
+        "covered_group": "BLACKPINK",
+        "covered_member": "지수"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "BLACKPINK",
+        "covered_member": "로제"
+      }
     ],
     "published_date": "2020-10-30",
     "content_type": "video",
@@ -181912,17 +182244,44 @@
       "제시"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "hwang-dagun",
+      "kim-hyerim",
       "kim-hayeon",
       "kwon-soyoung",
-      "hwang-dagun",
-      "kim-hyerim"
+      "park-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      }
     ],
     "published_date": "2020-10-15",
     "content_type": "video",
     "view_count": 5364674,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ],
     "like_count": 105823,
     "duration_seconds": 394,
@@ -181937,11 +182296,38 @@
       "제시"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "hwang-dagun",
+      "kim-hyerim",
       "kim-hayeon",
       "kwon-soyoung",
-      "hwang-dagun",
-      "kim-hyerim"
+      "park-soyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "제시",
+        "covered_member": "제시"
+      }
     ],
     "published_date": "2020-10-14",
     "content_type": "video",
@@ -183783,13 +184169,35 @@
       "화사"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "kim-hyerim"
+      "park-damhee",
+      "kim-hyerim",
+      "kim-hayeon"
+    ],
+    "sponsors": [
+      "계명문화대학교"
+    ],
+    "role_mapping": [
+      {        "member_id": "park-damhee",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2020-09-21",
     "content_type": "video",
     "view_count": 9761363,
-    "content_series": [],
+    "content_series": [
+      "방구석 여기서요?::S03"
+    ],
     "like_count": 285734,
     "duration_seconds": 255,
     "has_captions": true,
@@ -186036,18 +186444,35 @@
     "youtube_id": "J5lJ58WjVf4",
     "title": "화사 Hwa Sa - 마리아 Maria | 커버댄스 Dance Cover | 거울모드 MIRROR MODE | 연습실 Practice ver.",
     "covered_group": [
-      "화사",
       "화사"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "kim-hyerim"
+      "park-damhee",
+      "kim-hyerim",
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2020-08-07",
     "content_type": "video",
     "view_count": 1068587,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ],
     "like_count": 42744,
     "duration_seconds": 405,
@@ -186150,8 +186575,26 @@
       "화사"
     ],
     "tagged_members": [
-      "kim-hayeon",
-      "kim-hyerim"
+      "park-damhee",
+      "kim-hyerim",
+      "kim-hayeon"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "화사",
+        "covered_member": "화사"
+      }
     ],
     "published_date": "2020-08-02",
     "content_type": "video",
@@ -187184,7 +187627,10 @@
       "hwang-dagun",
       "park-damhee"
     ],
-    "sponsors": [],
+    "support": [
+      "VERCANT × 그초록",
+      "ABLY"
+    ],
     "role_mapping": [
       {
         "member_id": "ha-seyoung",
@@ -191581,17 +192027,44 @@
       "ITZY"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "kim-hyerim",
       "kim-hayeon",
+      "her-naeun",
       "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2020-04-07",
     "content_type": "video",
     "view_count": 766278,
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2020y"
     ],
     "like_count": 29385,
     "duration_seconds": 394,
@@ -191606,16 +192079,55 @@
       "ITZY"
     ],
     "tagged_members": [
-      "park-sunyoung",
-      "park-soyoung",
+      "kim-hyerim",
       "kim-hayeon",
+      "her-naeun",
       "kwon-soyoung",
-      "kim-hyerim"
+      "park-sunyoung"
+    ],
+    "support": [
+      "울트라 패션",
+      "595b",
+      "뭄뭄 JAPANESE KITCHEN BAR",
+      "CHOM CHOM",
+      "그라스꼬레",
+      "VOCAL STAGE",
+      "THE BANA"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "류진"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "ITZY",
+        "covered_member": "예지"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "ITZY",
+        "covered_member": "유나"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "ITZY",
+        "covered_member": "리아"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "ITZY",
+        "covered_member": "채령"
+      }
     ],
     "published_date": "2020-04-05",
     "content_type": "video",
     "view_count": 981182,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2020y",
+      "Dance Cover MV::Years::2020y"
+    ],
     "like_count": 41153,
     "duration_seconds": 232,
     "has_captions": false,
@@ -194529,7 +195041,7 @@
     ],
     "role_mapping": [
       {
-        "member_id": "jeon-hyeonguk",
+        "member_id": "park-jaebum",
         "covered_group": "ATEEZ",
         "covered_member": "산"
       },
@@ -194544,27 +195056,27 @@
         "covered_member": "홍중"
       },
       {
-        "member_id": "jin-hyunwoo",
+        "member_id": "park-sunyoung",
         "covered_group": "ATEEZ",
         "covered_member": "여상"
       },
       {
-        "member_id": "yun-jihong",
+        "member_id": "oh-gyungmin",
         "covered_group": "ATEEZ",
         "covered_member": "윤호"
       },
       {
-        "member_id": "lee-moonkyu",
+        "member_id": "kim-hyerim",
         "covered_group": "ATEEZ",
         "covered_member": "성화"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "park-damhee",
         "covered_group": "ATEEZ",
         "covered_member": "종호"
       },
       {
-        "member_id": "kwon-dohyun",
+        "member_id": "jin-hyunwoo",
         "covered_group": "ATEEZ",
         "covered_member": "민기"
       }
@@ -194995,7 +195507,7 @@
     ],
     "role_mapping": [
       {
-        "member_id": "jeon-hyeonguk",
+        "member_id": "park-jaebum",
         "covered_group": "ATEEZ",
         "covered_member": "산"
       },
@@ -195010,27 +195522,27 @@
         "covered_member": "홍중"
       },
       {
-        "member_id": "jin-hyunwoo",
+        "member_id": "park-sunyoung",
         "covered_group": "ATEEZ",
         "covered_member": "여상"
       },
       {
-        "member_id": "yun-jihong",
+        "member_id": "oh-gyungmin",
         "covered_group": "ATEEZ",
         "covered_member": "윤호"
       },
       {
-        "member_id": "lee-moonkyu",
+        "member_id": "kim-hyerim",
         "covered_group": "ATEEZ",
         "covered_member": "성화"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "park-damhee",
         "covered_group": "ATEEZ",
         "covered_member": "종호"
       },
       {
-        "member_id": "kwon-dohyun",
+        "member_id": "jin-hyunwoo",
         "covered_group": "ATEEZ",
         "covered_member": "민기"
       }
@@ -195059,13 +195571,16 @@
       "seo-jaemin",
       "park-sunyoung",
       "oh-gyungmin",
-      "kim-hyerim",
+      "kim-hyerim", 
       "park-damhee",
       "jin-hyunwoo"
     ],
+    "support": [
+      "ABLY"
+    ],
     "role_mapping": [
       {
-        "member_id": "jeon-hyeonguk",
+        "member_id": "park-jaebum",
         "covered_group": "ATEEZ",
         "covered_member": "산"
       },
@@ -195080,27 +195595,27 @@
         "covered_member": "홍중"
       },
       {
-        "member_id": "jin-hyunwoo",
+        "member_id": "park-sunyoung",
         "covered_group": "ATEEZ",
         "covered_member": "여상"
       },
       {
-        "member_id": "yun-jihong",
+        "member_id": "oh-gyungmin",
         "covered_group": "ATEEZ",
         "covered_member": "윤호"
       },
       {
-        "member_id": "lee-moonkyu",
+        "member_id": "kim-hyerim",
         "covered_group": "ATEEZ",
         "covered_member": "성화"
       },
       {
-        "member_id": "kim-jaewook",
+        "member_id": "park-damhee",
         "covered_group": "ATEEZ",
         "covered_member": "종호"
       },
       {
-        "member_id": "kwon-dohyun",
+        "member_id": "jin-hyunwoo",
         "covered_group": "ATEEZ",
         "covered_member": "민기"
       }
@@ -208637,10 +209152,19 @@
     "tagged_members": [
       "kim-hyerim"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-hyerim",
+        "covered_group": "ITZY",
+        "covered_member": "ITZY"
+      }
+    ],
     "published_date": "2019-02-13",
     "content_type": "video",
     "view_count": 146659,
-    "content_series": [],
+    "content_series": [
+      "AB PRACTICE::2019y"
+    ],
     "like_count": 4203,
     "duration_seconds": 197,
     "has_captions": false,
