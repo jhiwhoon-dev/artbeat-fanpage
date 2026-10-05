@@ -181276,7 +181276,9 @@
     "published_date": "2020-11-04",
     "content_type": "video",
     "view_count": 47214,
-    "content_series": [],
+    "content_series": [
+      "자기소개::AB::2020y"
+    ],
     "like_count": 2008,
     "duration_seconds": 480,
     "has_captions": true,
