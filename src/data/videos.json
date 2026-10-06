@@ -169641,32 +169641,32 @@
       {
         "member_id": "her-naeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "신비"
       },
       {
         "member_id": "yun-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "예린"
       },
       {
         "member_id": "oh-yubin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "은하"
       },
       {
         "member_id": "park-damhee",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "유주"
       },
       {
         "member_id": "song-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "소원"
       },
       {
         "member_id": "kang-yejin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "엄지"
       }
     ],
     "published_date": "2021-06-29",
@@ -173171,32 +173171,32 @@
       {
         "member_id": "her-naeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "신비"
       },
       {
         "member_id": "yun-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "예린"
       },
       {
         "member_id": "oh-yubin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "은하"
       },
       {
         "member_id": "park-damhee",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "유주"
       },
       {
         "member_id": "song-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "소원"
       },
       {
         "member_id": "kang-yejin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "엄지"
       }
     ],
     "published_date": "2021-04-20",
@@ -173287,32 +173287,32 @@
       {
         "member_id": "her-naeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "신비"
       },
       {
         "member_id": "yun-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "예린"
       },
       {
         "member_id": "oh-yubin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "은하"
       },
       {
         "member_id": "park-damhee",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "유주"
       },
       {
         "member_id": "song-haeun",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "소원"
       },
       {
         "member_id": "kang-yejin",
         "covered_group": "여자친구",
-        "covered_member": "화사"
+        "covered_member": "엄지"
       }
     ],
     "published_date": "2021-04-19",
@@ -192964,7 +192964,9 @@
     "published_date": "2020-03-22",
     "content_type": "video",
     "view_count": 260876,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 5914,
     "duration_seconds": 227,
     "has_captions": false,
@@ -192981,7 +192983,9 @@
     "published_date": "2020-03-22",
     "content_type": "video",
     "view_count": 42800,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 1846,
     "duration_seconds": 197,
     "has_captions": false,
@@ -193093,7 +193097,9 @@
     "published_date": "2020-03-21",
     "content_type": "video",
     "view_count": 222851,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 9173,
     "duration_seconds": 254,
     "has_captions": false,
@@ -193209,7 +193215,9 @@
     "published_date": "2020-03-20",
     "content_type": "video",
     "view_count": 77283,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 2503,
     "duration_seconds": 231,
     "has_captions": false,
@@ -193245,7 +193253,9 @@
     "published_date": "2020-03-20",
     "content_type": "video",
     "view_count": 53257,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 2692,
     "duration_seconds": 203,
     "has_captions": false,
@@ -193262,7 +193272,9 @@
     "published_date": "2020-03-19",
     "content_type": "video",
     "view_count": 167244,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 9431,
     "duration_seconds": 226,
     "has_captions": false,
@@ -193279,7 +193291,9 @@
     "published_date": "2020-03-19",
     "content_type": "video",
     "view_count": 60815,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 3048,
     "duration_seconds": 218,
     "has_captions": false,
@@ -193296,7 +193310,9 @@
     "published_date": "2020-03-19",
     "content_type": "video",
     "view_count": 657026,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 16026,
     "duration_seconds": 254,
     "has_captions": false,
@@ -193308,13 +193324,14 @@
     "title": "[큰소영.zip] AB 멤버별 하이라이트 몰아보기! 퍼포대장👑 큰소영 모음.zip",
     "covered_group": [],
     "tagged_members": [
-      "park-soyoung",
-      "kwon-soyoung"
+      "park-soyoung"
     ],
     "published_date": "2020-03-18",
     "content_type": "video",
     "view_count": 199614,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 6858,
     "duration_seconds": 240,
     "has_captions": false,
@@ -193331,7 +193348,9 @@
     "published_date": "2020-03-18",
     "content_type": "video",
     "view_count": 77510,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 2872,
     "duration_seconds": 203,
     "has_captions": false,
@@ -208620,7 +208639,7 @@
       {
         "member_id": "kim-eunbin",
         "covered_group": "모모랜드",
-        "covered_member": "나연"
+        "covered_member": "나윤"
       }
     ],
     "published_date": "2019-04-02",
@@ -208704,7 +208723,7 @@
       {
         "member_id": "kim-eunbin",
         "covered_group": "모모랜드",
-        "covered_member": "나연"
+        "covered_member": "나윤"
       }
     ],
     "published_date": "2019-04-01",
@@ -208771,7 +208790,7 @@
       {
         "member_id": "kim-eunbin",
         "covered_group": "모모랜드",
-        "covered_member": "나연"
+        "covered_member": "나윤"
       }
     ],
     "song_group": "momoland-imsohot-2019",
@@ -216536,16 +216555,50 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "lee-sieun",
+      "park-damhee",
       "kim-hayeon",
-      "kwon-soyoung",
+      "her-naeun",
+      "park-soyoung",
       "hwang-dagun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "Apink",
+        "covered_member": "나은"
+      }
     ],
     "published_date": "2018-08-07",
     "content_type": "video",
     "view_count": 1446443,
     "content_series": [
-      "여기서요?"
+      "여기서요?::2018y"
     ],
     "like_count": 23063,
     "duration_seconds": 256,
@@ -216582,15 +216635,52 @@
       "Apink"
     ],
     "tagged_members": [
-      "park-soyoung",
+      "lee-sieun",
+      "park-damhee",
       "kim-hayeon",
-      "kwon-soyoung",
+      "her-naeun",
+      "park-soyoung",
       "hwang-dagun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "Apink",
+        "covered_member": "은지"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "Apink",
+        "covered_member": "남주"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "Apink",
+        "covered_member": "초롱"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "Apink",
+        "covered_member": "하영"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "Apink",
+        "covered_member": "보미"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "Apink",
+        "covered_member": "나은"
+      }
     ],
     "published_date": "2018-08-04",
     "content_type": "video",
     "view_count": 223409,
-    "content_series": [],
+    "content_series": [
+      "Dance Cover MV::Dance Teams::AB::2018y",
+      "Dance Cover MV::Years::2018y"
+    ],
     "like_count": 5496,
     "duration_seconds": 253,
     "has_captions": false,
@@ -217377,7 +217467,46 @@
     "covered_group": [
       "여자친구"
     ],
-    "tagged_members": [],
+    "tagged_members": [
+      "kim-eunbin",
+      "her-naeun",
+      "kim-hayeon",
+      "hwang-dagun",
+      "park-damhee",
+      "lee-sieun"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "여자친구",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "여자친구",
+        "covered_member": "유주"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "여자친구",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "여자친구",
+        "covered_member": "예린"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "소원"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "여자친구",
+        "covered_member": "엄지"
+      }
+    ],
     "published_date": "2018-05-17",
     "content_type": "video",
     "view_count": 290781,
@@ -217403,6 +217532,41 @@
       "hwang-dagun",
       "park-damhee",
       "lee-sieun"
+    ],
+    "support": [
+      "소녀나라"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "여자친구",
+        "covered_member": "은하"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "여자친구",
+        "covered_member": "유주"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "여자친구",
+        "covered_member": "신비"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "여자친구",
+        "covered_member": "예린"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "여자친구",
+        "covered_member": "소원"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "여자친구",
+        "covered_member": "엄지"
+      }
     ],
     "published_date": "2018-05-16",
     "content_type": "video",
@@ -218264,6 +218428,53 @@
       "park-damhee",
       "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "모모랜드",
+        "covered_member": "주이"
+      },
+      {
+        "member_id": "kim-hayeon",
+        "covered_group": "모모랜드",
+        "covered_member": "연우"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "모모랜드",
+        "covered_member": "낸시"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "모모랜드",
+        "covered_member": "제인"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "모모랜드",
+        "covered_member": "아인"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "모모랜드",
+        "covered_member": "혜빈"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "모모랜드",
+        "covered_member": "나윤"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "모모랜드",
+        "covered_member": "데이지"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "모모랜드",
+        "covered_member": "태하"
+      }
+    ],
     "published_date": "2018-01-26",
     "content_type": "video",
     "view_count": 2026881,
@@ -218488,6 +218699,53 @@
       "hwang-dagun",
       "lee-sieun"
     ],
+    "role_mapping": [
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "jinhee",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-sunyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
+    ],
     "published_date": "2017-12-25",
     "content_type": "video",
     "view_count": 3806896,
@@ -218636,6 +218894,53 @@
       "hwang-dagun",
       "lee-sieun",
       "kim-eunbin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "park-damhee",
+        "covered_group": "TWICE",
+        "covered_member": "나연"
+      },
+      {
+        "member_id": "yunsu",
+        "covered_group": "TWICE",
+        "covered_member": "지효"
+      },
+      {
+        "member_id": "her-naeun",
+        "covered_group": "TWICE",
+        "covered_member": "사나"
+      },
+      {
+        "member_id": "soobin",
+        "covered_group": "TWICE",
+        "covered_member": "쯔위"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "모모"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "TWICE",
+        "covered_member": "미나"
+      },
+      {
+        "member_id": "kim-eunbin",
+        "covered_group": "TWICE",
+        "covered_member": "정연"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "TWICE",
+        "covered_member": "채영"
+      },
+      {
+        "member_id": "lee-sieun",
+        "covered_group": "TWICE",
+        "covered_member": "다현"
+      }
     ],
     "published_date": "2017-11-15",
     "content_type": "video",
@@ -218841,13 +219146,42 @@
       "선미"
     ],
     "tagged_members": [
-      "lee-seunghyun",
-      "jin-hyunwoo",
       "dabin",
       "park-soyoung",
       "kwon-soyoung",
       "park-damhee",
       "hwang-dagun"
+    ],
+    "special_dancers": [
+      "lee-seunghyun",
+      "jin-hyunwoo"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "dabin",
+        "covered_group": "선미",
+        "covered_member": "선미"
+      },
+      {
+        "member_id": "park-soyoung",
+        "covered_group": "선미",
+        "covered_member": "선미"
+      },
+      {
+        "member_id": "kwon-soyoung",
+        "covered_group": "선미",
+        "covered_member": "선미"
+      },
+      {
+        "member_id": "park-damhee",
+        "covered_group": "선미",
+        "covered_member": "선미"
+      },
+      {
+        "member_id": "hwang-dagun",
+        "covered_group": "선미",
+        "covered_member": "선미"
+      }
     ],
     "published_date": "2017-09-13",
     "content_type": "video",
