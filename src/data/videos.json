@@ -93809,6 +93809,9 @@
       "lee-gaeun",
       "ahn-yoojin"
     ],
+    "support": [
+      "Youtube Shorts"
+    ],
     "published_date": "2024-06-29",
     "content_type": "short",
     "view_count": 285542,
@@ -131828,7 +131831,9 @@
   {
     "youtube_id": "K1gsQ2Crnco",
     "title": "'JISOO - 꽃 FLOWER' Dance Cover #가은 #Gaeun #short",
-    "covered_group": [],
+    "covered_group": [
+      "지수"
+    ],
     "tagged_members": [
       "lee-gaeun"
     ],
@@ -133460,7 +133465,9 @@
   {
     "youtube_id": "OxgslkKoiUM",
     "title": "진짜 캔디 안 받아줄 거야?🍭👀  #수환 #가은 #Suhwan #Gaeun #shorts",
-    "covered_group": [],
+    "covered_group": [
+      "백현"
+    ],
     "tagged_members": [
       "kim-suhwan",
       "lee-gaeun"
@@ -192864,7 +192871,9 @@
     "published_date": "2020-03-24",
     "content_type": "video",
     "view_count": 336475,
-    "content_series": [],
+    "content_series": [
+      "모음.zip"
+    ],
     "like_count": 10671,
     "duration_seconds": 255,
     "has_captions": false,

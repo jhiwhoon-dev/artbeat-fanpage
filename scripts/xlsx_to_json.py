@@ -128,6 +128,10 @@ artbeat_v_side = {}
 if V_SIDE_FILE.exists():
     with open(V_SIDE_FILE, encoding="utf-8") as f:
         artbeat_v_side = {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+    print(f"[ARTBEAT v] {V_SIDE_FILE.name} 읽음: {len(artbeat_v_side)}명")
+else:
+    print(f"⚠ [ARTBEAT v] 파일을 찾지 못했어요 → {V_SIDE_FILE}")
+    print("  파일 이름이 정확히 artbeat_v_members.json 이고 src/data/ 안에 있는지 확인하세요.")
 
 df = pd.read_excel(SRC, sheet_name="artbeat_member", header=1)
 df = df.drop(columns=[c for c in df.columns if str(c).startswith("Unnamed")])
@@ -185,11 +189,13 @@ for _, row in df.iterrows():
         "sns": sns,
     }
 
-    # 프로필 배경 사진 (엑셀에 컬럼이 없거나 칸이 비어 있으면 JSON에도 안 넣음 → 사이트는 배경 없이 표시)
-    #   bg_filename : public/photos/ 안의 파일명
-    #   bg_fit      : cover(꽉 채움) / contain(전체 보임) — 비우면 사진 비율 보고 자동
-    #   bg_position : 보여줄 부분 (예: "50% 20%") — 비워도 됨
-    for key in ("bg_filename", "bg_fit", "bg_position"):
+    # 배경 사진/GIF/영상 (엑셀에 컬럼이 없거나 칸이 비어 있으면 JSON에도 안 넣음 → 사이트는 배경 없이 표시)
+    #   프로필 영역: bg_filename / bg_fit / bg_position
+    #   페이지 전체: page_bg_filename / page_bg_fit / page_bg_position
+    #   *_filename : public/photos/ 안의 파일명 (jpg·png·webp·gif·mp4·webm)
+    #   *_fit      : cover(꽉 채움) / contain(전체 보임) — 비우면 사진 비율 보고 자동
+    #   *_position : 보여줄 부분 (예: "50% 20%") — 비워도 됨
+    for key in ("bg_filename", "bg_fit", "bg_position", "page_bg_filename", "page_bg_fit", "page_bg_position"):
         val = clean(row.get(key))
         if val is not None:
             member[key] = str(val).strip()

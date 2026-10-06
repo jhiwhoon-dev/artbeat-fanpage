@@ -253,22 +253,24 @@ const isCurrentlyActive = periods.length > 0 && periods[periods.length - 1].left
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// ───────── 프로필 배경 사진 ─────────
-// members.json 멤버 항목에 넣는 선택 항목 (모두 생략 가능, 사진 파일은 public/photos/ 안에 둠)
-//   "bg_filename": "xxx.jpg"          배경 사진 파일명
-//   "bg_fit":      "cover" | "contain" 생략하면 사진 비율을 보고 자동 선택 (세로로 긴 사진 → contain)
-//   "bg_position": "50% 20%"          cover일 때 보여줄 부분 / contain일 때 사진을 놓을 위치(기본 right center)
-// 두 가지 배경 방식 비교용: 아래 값을 'hero'(프로필 영역만) 또는 'page'(페이지 전체)로 바꿔서 빌드.
-// 빌드 없이 보려면 주소 뒤에 ?bg=hero / ?bg=page 를 붙이면 즉시 바뀜.
-const BG_MODE: 'page' | 'page' = 'page';
+// ───────── 배경 사진/GIF/영상 ─────────
+// 두 영역에 각각 다른 파일을 넣을 수 있음 (파일은 모두 public/photos/ 안에 둠, 둘 중 하나만 써도 되고 둘 다 생략해도 됨)
+//   프로필 영역(사진~소속일): bg_filename / bg_fit / bg_position
+//   페이지 전체(고정 배경)  : page_bg_filename / page_bg_fit / page_bg_position
+//   파일 형식: 사진(jpg·png·webp·avif) · 움직이는 GIF · 영상(mp4·webm, 소리 없이 반복 재생)
+//   *_fit  : "cover"(꽉 채움) | "contain"(전체 보임, 빈 곳은 흐리게 채움). 생략하면 사진 비율을 보고 자동(영상은 항상 cover)
+//   *_position : "50% 20%" 처럼 보여줄 부분(contain일 땐 사진 놓을 위치, 기본 right center)
+const VIDEO_EXT = /\.(mp4|webm)$/i;
+const IMAGE_EXT = /\.(jpe?g|png|webp|gif|avif)$/i;
 
-// jpg/png/webp 파일 머리글만 읽어서 가로·세로 크기를 구함(실패하면 null → cover로 처리)
+// jpg/png/webp/gif 파일 머리글만 읽어서 가로·세로 크기를 구함(실패하면 null → cover로 처리)
 function readImageSize(file: string): { w: number; h: number } | null {
   try {
     const fd = fs.openSync(file, 'r');
     const buf = Buffer.alloc(65536);
     const n = fs.readSync(fd, buf, 0, buf.length, 0);
     fs.closeSync(fd);
+    if (n > 10 && buf.toString('ascii', 0, 3) === 'GIF') return { w: buf.readUInt16LE(6), h: buf.readUInt16LE(8) };
     if (n > 24 && buf.readUInt32BE(0) === 0x89504e47) return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
     if (n > 30 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') {
       const t = buf.toString('ascii', 12, 16);
@@ -289,32 +291,45 @@ function readImageSize(file: string): { w: number; h: number } | null {
   return null;
 }
 
-const bgFile = (member as any).bg_filename as string | undefined;
-const bgPath = bgFile && !/[\\/]|\.\./.test(bgFile) ? path.join(process.cwd(), 'public', 'photos', bgFile) : '';
-const hasBg = !!bgPath && fs.existsSync(bgPath);
-const bgUrl = hasBg ? `${base}/photos/${encodeURIComponent(bgFile as string)}` : '';
-const bgSize = hasBg ? readImageSize(bgPath) : null;
-const bgFitRaw = (member as any).bg_fit;
-const bgFit: 'cover' | 'contain' =
-  bgFitRaw === 'cover' || bgFitRaw === 'contain' ? bgFitRaw : bgSize && bgSize.w / bgSize.h < 1.2 ? 'contain' : 'cover';
-const bgPosRaw = (member as any).bg_position;
-const bgPos = typeof bgPosRaw === 'string' && /^[a-z0-9% .-]{1,30}$/i.test(bgPosRaw) ? bgPosRaw : '';
-const bgStyle = hasBg
-  ? `--bg-url: url('${bgUrl}'); --bg-pos: ${bgPos || (bgFit === 'contain' ? 'right center' : 'center 30%')};`
-  : undefined;
+
+function resolveBg(file: unknown, fitRaw: unknown, posRaw: unknown) {
+  if (typeof file !== 'string' || !file || /[\\/]|\.\./.test(file)) return null;
+  const isVideo = VIDEO_EXT.test(file);
+  if (!isVideo && !IMAGE_EXT.test(file)) return null;
+  const filePath = path.join(process.cwd(), 'public', 'photos', file);
+  if (!fs.existsSync(filePath)) return null;
+  const url = `${base}/photos/${encodeURIComponent(file)}`;
+  const size = isVideo ? null : readImageSize(filePath);
+  const fit: 'cover' | 'contain' = isVideo
+    ? 'cover'
+    : fitRaw === 'cover' || fitRaw === 'contain'
+      ? fitRaw
+      : size && size.w / size.h < 1.2 ? 'contain' : 'cover';
+  const pos = typeof posRaw === 'string' && /^[a-z0-9% .-]{1,30}$/i.test(posRaw) ? posRaw : fit === 'contain' ? 'right center' : 'center 30%';
+  return { url, isVideo, fit, style: `--bg-url: url('${url}'); --bg-pos: ${pos};` };
+}
+const m: any = member;
+const heroBg = resolveBg(m.bg_filename, m.bg_fit, m.bg_position);
+const pageBg = resolveBg(m.page_bg_filename, m.page_bg_fit, m.page_bg_position);
 ---
 <Layout title={member.name}>
-  <div class="wrap" data-bgmode={BG_MODE}>
+  <div class="wrap">
     <a class="back" href={`${base}/members`}>← 멤버 목록</a>
-    {hasBg && (
-      <div class="bg-page" aria-hidden="true" data-fit={bgFit} style={bgStyle}>
-        <div class="bg-blur"></div><div class="bg-main"></div><div class="bg-shade"></div>
+    {pageBg && (
+      <div class="bg-page" aria-hidden="true" data-fit={pageBg.fit} style={pageBg.style}>
+        {pageBg.isVideo
+          ? <video class="bg-video" src={pageBg.url} autoplay muted loop playsinline preload="metadata"></video>
+          : <><div class="bg-blur"></div><div class="bg-main"></div></>}
+        <div class="bg-shade"></div>
       </div>
     )}
-    <section class={`profile-hero ${hasBg ? 'has-bg' : ''}`}>
-    {hasBg && (
-      <div class="bg-hero" aria-hidden="true" data-fit={bgFit} style={bgStyle}>
-        <div class="bg-blur"></div><div class="bg-main"></div><div class="bg-shade"></div>
+    <section class={`profile-hero ${heroBg ? 'has-bg' : ''}`}>
+    {heroBg && (
+      <div class="bg-hero" aria-hidden="true" data-fit={heroBg.fit} style={heroBg.style}>
+        {heroBg.isVideo
+          ? <video class="bg-video" src={heroBg.url} autoplay muted loop playsinline preload="metadata"></video>
+          : <><div class="bg-blur"></div><div class="bg-main"></div></>}
+        <div class="bg-shade"></div>
       </div>
     )}
     <div class="avatar-wrap"><MemberAvatar member={member} size={128} /></div>
@@ -547,14 +562,6 @@ const bgStyle = hasBg
   <script type="application/json" id="cohort-meta-data" set:html={safeJson({ hasCohort, cohortDivisor, overallDivisor, cohortLabel })} />
   <script type="application/json" id="membership-milestones-data" set:html={safeJson(membershipMilestones)} />
 </Layout>
-<script>
-  // 비교용: 주소 뒤에 ?bg=hero 또는 ?bg=page 를 붙이면 배경 방식이 바로 바뀜
-  {
-    const q = new URLSearchParams(location.search).get('bg');
-    if (q === 'hero' || q === 'page') document.querySelector('.wrap')?.setAttribute('data-bgmode', q);
-  }
-</script>
-
 <script>
   interface VideoItem {
     id: string;
@@ -1962,35 +1969,32 @@ const bgStyle = hasBg
     text-decoration: none;
   }
   .back:hover { color: var(--accent); }
-  /* ───── 프로필 배경 사진 (hero: 프로필 영역만 / page: 페이지 전체) ───── */
+  /* ───── 배경 (프로필 영역 .bg-hero / 페이지 전체 .bg-page) — 서로 다른 파일을 동시에 쓸 수 있음 ───── */
   .profile-hero { position: relative; }
-  .bg-page, .bg-hero { display: none; }
-  .bg-blur, .bg-main, .bg-shade { position: absolute; inset: 0; }
+  .bg-blur, .bg-main, .bg-shade, .bg-video { position: absolute; inset: 0; }
   .bg-blur { background: var(--bg-url) center / cover no-repeat; filter: blur(28px) brightness(0.9); transform: scale(1.15); }
   .bg-main { background: var(--bg-url) var(--bg-pos) / cover no-repeat; }
+  .bg-video { width: 100%; height: 100%; object-fit: cover; object-position: var(--bg-pos); }
   .bg-shade { background: linear-gradient(180deg, rgba(14,14,16,0.55) 0%, rgba(14,14,16,0.82) 100%); }
   /* 세로로 긴 사진: 자르지 않고 전체를 보여줌(빈 곳은 같은 사진을 흐리게 깔아 채움) */
   [data-fit="contain"] .bg-main { background-size: contain; }
   [data-fit="cover"] .bg-blur { display: none; }
 
-  .wrap[data-bgmode="hero"] .bg-hero { display: block; position: absolute; inset: 0; z-index: -1; overflow: hidden; border-radius: 24px; }
-  .wrap[data-bgmode="hero"] .profile-hero.has-bg {
-    padding: 40px 36px 8px;
-    margin-bottom: 8px;
-    isolation: isolate;
-  }
-  .wrap[data-bgmode="page"] .bg-page { display: block; position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
-  .wrap[data-bgmode="page"] .bg-shade { background: rgba(14,14,16,0.72); }
+  .bg-hero { position: absolute; inset: 0; z-index: -1; overflow: hidden; border-radius: 24px; }
+  .profile-hero.has-bg { padding: 40px 36px 8px; margin-bottom: 8px; isolation: isolate; }
+  .bg-page { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+  .bg-page .bg-shade { background: rgba(14,14,16,0.72); }
 
   .profile-hero.has-bg .units,
   .profile-hero.has-bg .meta dt { color: rgba(244,242,238,0.75); }
   .profile-hero.has-bg .tenure { background: rgba(14,14,16,0.6); backdrop-filter: blur(4px); }
+  /* 움직임을 줄이도록 설정한 사용자에게는 영상 숨김(어두운 막만 보임) */
+  @media (prefers-reduced-motion: reduce) { .bg-video { display: none; } }
   @media (max-width: 720px) {
-    .wrap[data-bgmode="hero"] .profile-hero.has-bg { padding: 28px 20px 4px; }
-    .wrap[data-bgmode="hero"] .bg-hero { border-radius: 18px; }
-    /* 좁은 화면에선 글씨와 겹치지 않게 사진을 가운데 두고 막을 더 진하게 */
+    .profile-hero.has-bg { padding: 28px 20px 4px; }
+    .bg-hero { border-radius: 18px; }
     [data-fit="contain"] .bg-main { background-position: center; }
-    .bg-shade { background: linear-gradient(180deg, rgba(14,14,16,0.7) 0%, rgba(14,14,16,0.88) 100%); }
+    .bg-hero .bg-shade { background: linear-gradient(180deg, rgba(14,14,16,0.7) 0%, rgba(14,14,16,0.88) 100%); }
   }
   .avatar-wrap { margin-bottom: 24px; }
   .units {
