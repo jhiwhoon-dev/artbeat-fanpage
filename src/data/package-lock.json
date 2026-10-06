@@ -1,0 +1,33 @@
+{
+  "_설명": "ARTBEAT v 멤버. 키=멤버 id. position/debut_date/left_date(탈퇴한 경우만). xlsx_to_json.py 실행 때 members.json의 artbeat_v로 합쳐짐.",
+  "lee-gaeun": {
+    "position": null,
+    "debut_date": "2022-11-16"
+  },
+  "ahn-yoojin": {
+    "position": null,
+    "debut_date": "2022-11-16"
+  },
+  "yun-haeun": {
+    "position": null,
+    "debut_date": "2022-11-16"
+  },
+  "ha-seyoung": {
+    "position": null,
+    "debut_date": "2022-11-16"
+  },
+  "oh-yubin": {
+    "position": null,
+    "debut_date": "2022-11-16"
+  },
+  "lee-sieun": {
+    "position": null,
+    "debut_date": "2022-11-16",
+    "left_date": "2024-06-30"
+  },
+  "park-damhee": {
+    "position": null,
+    "debut_date": "2022-11-16",
+    "left_date": "2023-05"
+  }
+}

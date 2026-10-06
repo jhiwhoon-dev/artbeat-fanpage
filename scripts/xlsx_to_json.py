@@ -9,6 +9,8 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent  # scripts/ 의 부모 = 프로젝트 루트
 SRC = PROJECT_ROOT.parent / "artbeat_claude.xlsx"       # 프로젝트 루트 바로 위(d:/ARTBEAT/)에 엑셀이 있다고 가정
 OUT = PROJECT_ROOT / "src" / "data" / "members.json"
+# ARTBEAT v 멤버 정보 보관용 파일 (엑셀에 컬럼이 없어도 이 파일에서 읽어 members.json에 합쳐 넣음)
+V_SIDE_FILE = PROJECT_ROOT / "src" / "data" / "artbeat_v_members.json"
 
 # ---------- 한글 -> 로마자 (id 자동 생성용) ----------
 CHO = ['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h']
@@ -122,6 +124,11 @@ def build_unit_periods(row, columns):
     return periods
 
 # ---------- 변환 ----------
+artbeat_v_side = {}
+if V_SIDE_FILE.exists():
+    with open(V_SIDE_FILE, encoding="utf-8") as f:
+        artbeat_v_side = {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+
 df = pd.read_excel(SRC, sheet_name="artbeat_member", header=1)
 df = df.drop(columns=[c for c in df.columns if str(c).startswith("Unnamed")])
 
@@ -187,6 +194,18 @@ for _, row in df.iterrows():
         if val is not None:
             member[key] = str(val).strip()
 
+    # ARTBEAT v 소속 정보 (이 항목이 있는 멤버만 artbeat-v 페이지에 나옴)
+    #  1) src/data/artbeat_v_members.json 의 멤버 id 항목을 바탕으로 하고
+    #  2) 엑셀에 artbeat_v_position / artbeat_v_debut / artbeat_v_left 컬럼이 있고 값이 있으면 그 값으로 덮어씀
+    v_info = dict(artbeat_v_side.get(member_id) or {})
+    for key, col in (("position", "artbeat_v_position"), ("debut_date", "artbeat_v_debut"), ("left_date", "artbeat_v_left")):
+        val = parse_date(row.get(col)) if "date" in key else clean(row.get(col))
+        if val is not None:
+            v_info[key] = val
+    if v_info or member_id in artbeat_v_side:
+        v_info.setdefault("position", None)
+        member["artbeat_v"] = v_info
+
     members.append(member)
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -194,6 +213,11 @@ with open(OUT, "w", encoding="utf-8") as f:
     json.dump(members, f, ensure_ascii=False, indent=2)
 
 print(f"{len(members)}명 변환 완료 -> {OUT}")
+v_count = sum(1 for m in members if "artbeat_v" in m)
+print(f"ARTBEAT v 멤버: {v_count}명")
+_missing = [k for k in artbeat_v_side if k not in {m['id'] for m in members}]
+if _missing:
+    print(f"⚠ artbeat_v_members.json에 있지만 엑셀에 없는 id: {_missing}")
 print(f"\n자동 생성된 id: {len(generated_ids)}개 (검수 권장)")
 for gid, name in generated_ids:
     print(f"  {name} -> {gid}")
