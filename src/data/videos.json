@@ -200402,32 +200402,32 @@
     "role_mapping": [
       {
         "member_id": "kim-chanhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "동표"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "형준"
       },
       {
         "member_id": "kim-woonggyeom",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "민희"
       },
       {
         "member_id": "jin-hyunwoo",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "원진"
       },
       {
         "member_id": "lee-sieun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "진우"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "정모"
       }
     ],
@@ -204145,7 +204145,7 @@
     "youtube_id": "uh8W5LHHSKc",
     "title": "PRODUCE X 101 - U Got It | 커버댄스 DANCE COVER  | 안무 거울모드 MIRRORED | 연습실 PRACTICE ver.",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::갓츄"
     ],
     "tagged_members": [
       "choi-nara",
@@ -204154,6 +204154,38 @@
       "kim-jaewook",
       "park-pilho",
       "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김우석"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김요한"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "한승우"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "차준호"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "이은상"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "황윤성"
+      }
     ],
     "published_date": "2019-08-02",
     "content_type": "video",
@@ -204171,7 +204203,7 @@
     "youtube_id": "4vOE-t49PlY",
     "title": "[여기서요?] PRODUCE X 101 - U GOT IT  | 갓츄 | 커버댄스 DANCE COVER @동성로",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::갓츄"
     ],
     "tagged_members": [
       "choi-nara",
@@ -204180,6 +204212,38 @@
       "kim-jaewook",
       "park-pilho",
       "seo-jaemin"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김우석"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김요한"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "한승우"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "차준호"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "이은상"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "황윤성"
+      }
     ],
     "published_date": "2019-08-02",
     "content_type": "video",
@@ -204197,7 +204261,7 @@
     "youtube_id": "oMX9oU06qN8",
     "title": "[AB] PRODUCE X 101 - U GOT IT | 갓츄 GOT U | 커버댄스 DANCE COVER",
     "covered_group": [
-      "PRODUCE 101"
+      "PRODUCE 101::갓츄"
     ],
     "tagged_members": [
       "choi-nara",
@@ -204207,11 +204271,47 @@
       "park-pilho",
       "seo-jaemin"
     ],
+    "support": [
+      "stay550"
+    ],
+    "role_mapping": [
+      {
+        "member_id": "choi-nara",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김우석"
+      },
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "김요한"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "한승우"
+      },
+      {
+        "member_id": "kim-jaewook",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "차준호"
+      },
+      {
+        "member_id": "park-pilho",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "이은상"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "PRODUCE 101::갓츄",
+        "covered_member": "황윤성"
+      }
+    ],
     "published_date": "2019-08-01",
     "content_type": "video",
     "view_count": 436431,
     "content_series": [
-      "Dance Cover MV::Dance Teams::AB::2019y"
+      "Dance Cover MV::Dance Teams::AB::2019y",
+      "Dance Cover MV::Years::2019y"
     ],
     "like_count": 16493,
     "duration_seconds": 243,
@@ -204236,32 +204336,32 @@
     "role_mapping": [
       {
         "member_id": "kim-chanhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "동표"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "형준"
       },
       {
         "member_id": "kim-woonggyeom",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "민희"
       },
       {
         "member_id": "jin-hyunwoo",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "원진"
       },
       {
         "member_id": "lee-sieun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "진우"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "정모"
       }
     ],
@@ -204297,32 +204397,32 @@
     "role_mapping": [
       {
         "member_id": "kim-chanhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "동표"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "형준"
       },
       {
         "member_id": "kim-woonggyeom",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "민희"
       },
       {
         "member_id": "jin-hyunwoo",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "원진"
       },
       {
         "member_id": "lee-sieun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "진우"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "정모"
       }
     ],
@@ -204399,32 +204499,32 @@
     "role_mapping": [
       {
         "member_id": "kim-chanhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "동표"
       },
       {
         "member_id": "yun-haeun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "형준"
       },
       {
         "member_id": "kim-woonggyeom",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "민희"
       },
       {
         "member_id": "jin-hyunwoo",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "원진"
       },
       {
         "member_id": "lee-sieun",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "진우"
       },
       {
         "member_id": "park-damhee",
-        "covered_group": "PRODUCE 101",
+        "covered_group": "PRODUCE 101::크레파스",
         "covered_member": "정모"
       }
     ],
@@ -218088,6 +218188,43 @@
       "jeon-hyeonguk",
       "choi-sunwoo"
     ],
+    "role_mapping": [
+      {
+        "member_id": "kim-woonggyeom",
+        "covered_group": "몬스타엑스",
+        "covered_member": "원호"
+      },
+      {
+        "member_id": "park-jaebum",
+        "covered_group": "몬스타엑스",
+        "covered_member": "민혁"
+      },
+      {
+        "member_id": "lee-seongmin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "셔누"
+      },
+      {
+        "member_id": "seo-jaemin",
+        "covered_group": "몬스타엑스",
+        "covered_member": "기현"
+      },
+      {
+        "member_id": "mihyang",
+        "covered_group": "몬스타엑스",
+        "covered_member": "형원"
+      },
+      {
+        "member_id": "choi-sunwoo",
+        "covered_group": "몬스타엑스",
+        "covered_member": "주헌"
+      },
+      {
+        "member_id": "jeon-hyeonguk",
+        "covered_group": "몬스타엑스",
+        "covered_member": "아이엠"
+      }
+    ], 
     "published_date": "2018-02-02",
     "content_type": "video",
     "view_count": 107425,

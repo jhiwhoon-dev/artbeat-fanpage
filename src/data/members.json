@@ -1854,10 +1854,6 @@
         "https://www.youtube.com/@%EC%9D%B4%EC%9C%A0_eyu",
         "https://www.youtube.com/@sugar_su_ga"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16"
     }
   },
   {
@@ -1901,10 +1897,6 @@
       "tiktok": [
         "https://www.tiktok.com/@yj__2.29"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16"
     }
   },
   {
@@ -1948,10 +1940,6 @@
       "tiktok": [
         "https://www.tiktok.com/@_undereun"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16"
     }
   },
   {
@@ -1983,7 +1971,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "kim-hyerim.jpg",
     "bio": "대한민국의 댄서다. ARTBEAT에서 활동 중이다.",
     "sns": {
       "instagram": [
@@ -1996,7 +1984,9 @@
         "https://www.youtube.com/channel/UCHsoEpylfxFUV8Fxu9Sy1QQ",
         "https://www.youtube.com/@SE-HY"
       ]
-    }
+    },
+    "bg_filename": "kim-hyerim-bg.jpg",
+    "bg_position": "50% 20%"
   },
   {
     "id": "prim",
@@ -2067,10 +2057,6 @@
         "https://www.youtube.com/@%ED%95%AB%ED%88%AC%EB%8D%B0%EC%9D%B4_H2_day",
         "https://www.youtube.com/@SE-HY"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16"
     }
   },
   {
@@ -2111,10 +2097,6 @@
       "youtube": [
         "https://www.youtube.com/@wooyubin"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16"
     }
   },
   {
@@ -2652,7 +2634,9 @@
       "tiktok": [
         "https://www.tiktok.com/@yukaoki1019"
       ]
-    }
+    },
+    "bg_filename": "aoki-yuka-bg.jpg",
+    "bg_position": "50% 20%"
   },
   {
     "id": "hong-seokju",
@@ -4130,11 +4114,6 @@
       "soop": [
         "https://www.sooplive.com/station/mydy529"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16",
-      "left_date": "2024-06-30"
     }
   },
   {
@@ -4175,11 +4154,6 @@
       "youtube": [
         "https://www.youtube.com/@damhee0621"
       ]
-    },
-    "artbeat_v": {
-      "position": null,
-      "debut_date": "2022-11-16",
-      "left_date": "2023-05"
     }
   },
   {
@@ -4333,6 +4307,9 @@
       ],
       "threads": [
         "https://www.threads.com/@eden_crush?xmt=AQG0byObBwhR_2AV6Er5fOJIu8ebZK4yEsAVYV6-kItKQC0"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCA_5iJI5lD2UWZ7COJQMGQg"
       ]
     }
   },
@@ -5183,6 +5160,9 @@
       ],
       "threads": [
         "https://www.threads.com/@seanlee_16"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UC499xUswf5a1TaZeJVtLOOg"
       ]
     }
   },
@@ -5279,6 +5259,9 @@
     "sns": {
       "instagram": [
         "https://www.instagram.com/_00_09_09/"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCoPa80B-JIoO4Dw9xAPwHgw"
       ]
     }
   },
@@ -5668,6 +5651,9 @@
     "sns": {
       "instagram": [
         "sungmin_lee_00"
+      ],
+      "youtube": [
+        "https://www.youtube.com/channel/UCPFFdARrXgzPxjEvltuUWiw"
       ]
     }
   },

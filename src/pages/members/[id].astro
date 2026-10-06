@@ -5,6 +5,8 @@ import PlatformIcon from '../../components/PlatformIcon.astro';
 import members from '../../data/members.json';
 import allVideos from '../../data/videos.json';
 import contentSeriesDict from '../../data/content_series.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 // 빌드 타임에 members.json을 순회하며 멤버 수만큼 정적 페이지를 미리 생성합니다.
 // 멤버가 3명이든 66명이든 이 코드는 그대로 두면 됩니다.
@@ -250,10 +252,71 @@ const anniversaryYears = Math.floor(activeDays / 365);
 const isCurrentlyActive = periods.length > 0 && periods[periods.length - 1].left === null;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// ───────── 프로필 배경 사진 ─────────
+// members.json 멤버 항목에 넣는 선택 항목 (모두 생략 가능, 사진 파일은 public/photos/ 안에 둠)
+//   "bg_filename": "xxx.jpg"          배경 사진 파일명
+//   "bg_fit":      "cover" | "contain" 생략하면 사진 비율을 보고 자동 선택 (세로로 긴 사진 → contain)
+//   "bg_position": "50% 20%"          cover일 때 보여줄 부분 / contain일 때 사진을 놓을 위치(기본 right center)
+// 두 가지 배경 방식 비교용: 아래 값을 'hero'(프로필 영역만) 또는 'page'(페이지 전체)로 바꿔서 빌드.
+// 빌드 없이 보려면 주소 뒤에 ?bg=hero / ?bg=page 를 붙이면 즉시 바뀜.
+const BG_MODE: 'page' | 'page' = 'page';
+
+// jpg/png/webp 파일 머리글만 읽어서 가로·세로 크기를 구함(실패하면 null → cover로 처리)
+function readImageSize(file: string): { w: number; h: number } | null {
+  try {
+    const fd = fs.openSync(file, 'r');
+    const buf = Buffer.alloc(65536);
+    const n = fs.readSync(fd, buf, 0, buf.length, 0);
+    fs.closeSync(fd);
+    if (n > 24 && buf.readUInt32BE(0) === 0x89504e47) return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+    if (n > 30 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') {
+      const t = buf.toString('ascii', 12, 16);
+      if (t === 'VP8X') return { w: 1 + buf.readUIntLE(24, 3), h: 1 + buf.readUIntLE(27, 3) };
+      if (t === 'VP8 ') return { w: buf.readUInt16LE(26) & 0x3fff, h: buf.readUInt16LE(28) & 0x3fff };
+      if (t === 'VP8L') { const v = buf.readUInt32LE(21); return { w: (v & 0x3fff) + 1, h: ((v >> 14) & 0x3fff) + 1 }; }
+    }
+    if (n > 4 && buf[0] === 0xff && buf[1] === 0xd8) {
+      let i = 2;
+      while (i + 9 < n) {
+        if (buf[i] !== 0xff) { i++; continue; }
+        const m = buf[i + 1];
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+        i += 2 + buf.readUInt16BE(i + 2);
+      }
+    }
+  } catch {}
+  return null;
+}
+
+const bgFile = (member as any).bg_filename as string | undefined;
+const bgPath = bgFile && !/[\\/]|\.\./.test(bgFile) ? path.join(process.cwd(), 'public', 'photos', bgFile) : '';
+const hasBg = !!bgPath && fs.existsSync(bgPath);
+const bgUrl = hasBg ? `${base}/photos/${encodeURIComponent(bgFile as string)}` : '';
+const bgSize = hasBg ? readImageSize(bgPath) : null;
+const bgFitRaw = (member as any).bg_fit;
+const bgFit: 'cover' | 'contain' =
+  bgFitRaw === 'cover' || bgFitRaw === 'contain' ? bgFitRaw : bgSize && bgSize.w / bgSize.h < 1.2 ? 'contain' : 'cover';
+const bgPosRaw = (member as any).bg_position;
+const bgPos = typeof bgPosRaw === 'string' && /^[a-z0-9% .-]{1,30}$/i.test(bgPosRaw) ? bgPosRaw : '';
+const bgStyle = hasBg
+  ? `--bg-url: url('${bgUrl}'); --bg-pos: ${bgPos || (bgFit === 'contain' ? 'right center' : 'center 30%')};`
+  : undefined;
 ---
 <Layout title={member.name}>
-  <div class="wrap">
+  <div class="wrap" data-bgmode={BG_MODE}>
     <a class="back" href={`${base}/members`}>← 멤버 목록</a>
+    {hasBg && (
+      <div class="bg-page" aria-hidden="true" data-fit={bgFit} style={bgStyle}>
+        <div class="bg-blur"></div><div class="bg-main"></div><div class="bg-shade"></div>
+      </div>
+    )}
+    <section class={`profile-hero ${hasBg ? 'has-bg' : ''}`}>
+    {hasBg && (
+      <div class="bg-hero" aria-hidden="true" data-fit={bgFit} style={bgStyle}>
+        <div class="bg-blur"></div><div class="bg-main"></div><div class="bg-shade"></div>
+      </div>
+    )}
     <div class="avatar-wrap"><MemberAvatar member={member} size={128} /></div>
     <p class="eyebrow">{member.role} · {member.status === 'active' ? '활동 중' : member.status}</p>
     <h1>{member.name}</h1>
@@ -284,6 +347,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         }
       </p>
     )}
+    </section>
 
     {Object.keys(member.sns).length > 0 && (
       <div class="social-grid">
@@ -483,6 +547,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <script type="application/json" id="cohort-meta-data" set:html={safeJson({ hasCohort, cohortDivisor, overallDivisor, cohortLabel })} />
   <script type="application/json" id="membership-milestones-data" set:html={safeJson(membershipMilestones)} />
 </Layout>
+<script>
+  // 비교용: 주소 뒤에 ?bg=hero 또는 ?bg=page 를 붙이면 배경 방식이 바로 바뀜
+  {
+    const q = new URLSearchParams(location.search).get('bg');
+    if (q === 'hero' || q === 'page') document.querySelector('.wrap')?.setAttribute('data-bgmode', q);
+  }
+</script>
+
 <script>
   interface VideoItem {
     id: string;
@@ -1890,6 +1962,36 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     text-decoration: none;
   }
   .back:hover { color: var(--accent); }
+  /* ───── 프로필 배경 사진 (hero: 프로필 영역만 / page: 페이지 전체) ───── */
+  .profile-hero { position: relative; }
+  .bg-page, .bg-hero { display: none; }
+  .bg-blur, .bg-main, .bg-shade { position: absolute; inset: 0; }
+  .bg-blur { background: var(--bg-url) center / cover no-repeat; filter: blur(28px) brightness(0.9); transform: scale(1.15); }
+  .bg-main { background: var(--bg-url) var(--bg-pos) / cover no-repeat; }
+  .bg-shade { background: linear-gradient(180deg, rgba(14,14,16,0.55) 0%, rgba(14,14,16,0.82) 100%); }
+  /* 세로로 긴 사진: 자르지 않고 전체를 보여줌(빈 곳은 같은 사진을 흐리게 깔아 채움) */
+  [data-fit="contain"] .bg-main { background-size: contain; }
+  [data-fit="cover"] .bg-blur { display: none; }
+
+  .wrap[data-bgmode="hero"] .bg-hero { display: block; position: absolute; inset: 0; z-index: -1; overflow: hidden; border-radius: 24px; }
+  .wrap[data-bgmode="hero"] .profile-hero.has-bg {
+    padding: 40px 36px 8px;
+    margin-bottom: 8px;
+    isolation: isolate;
+  }
+  .wrap[data-bgmode="page"] .bg-page { display: block; position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+  .wrap[data-bgmode="page"] .bg-shade { background: rgba(14,14,16,0.72); }
+
+  .profile-hero.has-bg .units,
+  .profile-hero.has-bg .meta dt { color: rgba(244,242,238,0.75); }
+  .profile-hero.has-bg .tenure { background: rgba(14,14,16,0.6); backdrop-filter: blur(4px); }
+  @media (max-width: 720px) {
+    .wrap[data-bgmode="hero"] .profile-hero.has-bg { padding: 28px 20px 4px; }
+    .wrap[data-bgmode="hero"] .bg-hero { border-radius: 18px; }
+    /* 좁은 화면에선 글씨와 겹치지 않게 사진을 가운데 두고 막을 더 진하게 */
+    [data-fit="contain"] .bg-main { background-position: center; }
+    .bg-shade { background: linear-gradient(180deg, rgba(14,14,16,0.7) 0%, rgba(14,14,16,0.88) 100%); }
+  }
   .avatar-wrap { margin-bottom: 24px; }
   .units {
     font-size: 15px;
@@ -1974,7 +2076,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .letter-frame {
     --edge: 28px; /* 이모지 테두리 띠 두께 */
     position: relative;
-    max-width: 960px;
     padding: calc(var(--edge) + 14px);
     border-radius: 28px;
     background: linear-gradient(135deg, #ffe3ec 0%, #fff0d9 100%);

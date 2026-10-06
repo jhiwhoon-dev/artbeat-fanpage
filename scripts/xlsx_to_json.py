@@ -100,26 +100,6 @@ def build_periods(row, columns):
 
     return periods
 
-def build_artbeat_v(row, columns):
-    """artbeat_v_position / artbeat_v_debut_date / artbeat_v_left_date를 묶어서 artbeat_v 객체로 변환.
-    position/debut_date가 둘 다 비어있으면(해당 없는 멤버) None을 반환 -> JSON에 artbeat_v 필드 자체를 안 넣음.
-    left_date가 있으면 "탈퇴한 ARTBEAT v 멤버", 없으면 "현재 활동 중"으로 페이지에서 구분됨."""
-    target_cols = {"artbeat_v_position", "artbeat_v_debut_date", "artbeat_v_left_date"}
-    if not target_cols & set(columns):
-        return None
-
-    position = clean(row.get("artbeat_v_position"))
-    debut_date = parse_date(row.get("artbeat_v_debut_date"))
-    left_date = parse_date(row.get("artbeat_v_left_date"))
-
-    if position is None and debut_date is None:
-        return None
-
-    result = {"position": position, "debut_date": debut_date}
-    if left_date is not None:
-        result["left_date"] = left_date
-    return result
-
 def build_unit_periods(row, columns):
     """unit1/unit1_start/unit1_end (번호 붙은 것 포함)를 묶어서 유닛 소속 기간 배열로 변환.
     예: unit1=A2Be, unit1_start=2020-03, unit1_end=2021-08, unit2=AB PROJECT, unit2_start=2021-09
@@ -175,7 +155,6 @@ for _, row in df.iterrows():
 
     periods = build_periods(row, df.columns)
     unit_periods = build_unit_periods(row, df.columns)
-    artbeat_v = build_artbeat_v(row, df.columns)
 
     # 현재 소속 유닛: unit1~N 컬럼이 있으면 그중 가장 최근(마지막) 기간, 없으면 기존 unit 컬럼 사용 (하위호환)
     current_unit = unit_periods[-1]["unit"] if unit_periods else split_list(row.get("unit"))
@@ -198,8 +177,16 @@ for _, row in df.iterrows():
         "bio": clean(row.get("bio")),
         "sns": sns,
     }
-    if artbeat_v is not None:
-        member["artbeat_v"] = artbeat_v
+
+    # 프로필 배경 사진 (엑셀에 컬럼이 없거나 칸이 비어 있으면 JSON에도 안 넣음 → 사이트는 배경 없이 표시)
+    #   bg_filename : public/photos/ 안의 파일명
+    #   bg_fit      : cover(꽉 채움) / contain(전체 보임) — 비우면 사진 비율 보고 자동
+    #   bg_position : 보여줄 부분 (예: "50% 20%") — 비워도 됨
+    for key in ("bg_filename", "bg_fit", "bg_position"):
+        val = clean(row.get(key))
+        if val is not None:
+            member[key] = str(val).strip()
+
     members.append(member)
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
