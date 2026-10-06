@@ -1985,8 +1985,7 @@
         "https://www.youtube.com/@SE-HY"
       ]
     },
-    "bg_filename": "kim-hyerim-bg.jpg",
-    "bg_position": "50% 20%"
+    "bg_filename": "kim-hyerim-bg.jpg"
   },
   {
     "id": "prim",
@@ -2635,8 +2634,7 @@
         "https://www.tiktok.com/@yukaoki1019"
       ]
     },
-    "bg_filename": "aoki-yuka-bg.jpg",
-    "bg_position": "50% 20%"
+    "bg_filename": "aoki-yuka-bg.jpg"
   },
   {
     "id": "hong-seokju",
@@ -4096,7 +4094,7 @@
         "left": null
       }
     ],
-    "photo_filename": null,
+    "photo_filename": "lee-sieun.jpg",
     "bio": "ARTBEAT 소속 댄서이다.",
     "sns": {
       "instagram": [
@@ -4114,7 +4112,8 @@
       "soop": [
         "https://www.sooplive.com/station/mydy529"
       ]
-    }
+    },
+    "bg_filename": "lee-sieun-bg.jpg"
   },
   {
     "id": "park-damhee",
