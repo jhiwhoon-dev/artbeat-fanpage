@@ -2,11 +2,14 @@
   {
     "youtube_id": "kcUgDw1vRUQ",
     "title": "신발 바닥 색깔 뭔지 맞춰보세요🤣 #TALK #유빈 #Yubin",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
-      "oh-yubin",
-      "lee-yoobin"
+      "oh-yubin"
     ],
     "ads": [],
     "sponsors": [],
@@ -26,8 +29,12 @@
   {
     "youtube_id": "r-ZKJutluy4",
     "title": "멋이 늘어난 공대생 #TALK #규소 #Gyuso",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "cho-gyuso"
     ],
@@ -49,8 +56,12 @@
   {
     "youtube_id": "Ms6BNbsTljo",
     "title": "진짜 말 안 되는 간지임 #TALK #결경 #Gyeolgyeong",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "jeong-gyeolgyeong"
     ],
@@ -72,8 +83,12 @@
   {
     "youtube_id": "WO4ySGe1ZIg",
     "title": "냉미녀 포니테일 컨셉은 어떤가요?🐰 #TALK #하은 #Haeun",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "yun-haeun"
     ],
@@ -95,8 +110,12 @@
   {
     "youtube_id": "fGxD3cCkogA",
     "title": "시작부터 모두 빵 터진 이유는?ㅋㅋㅋ #TALK #태현 #Taehyun",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "kang-taehyun"
     ],
@@ -122,24 +141,50 @@
       "ALLDAY PROJECT"
     ],
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ],
     "tagged_members": [
-      "kang-taehyun",
-      "cho-gyuso",
-      "yun-haeun",
       "oh-yubin",
       "jeong-gyeolgyeong",
-      "kim-chan",
-      "lee-yoobin",
-      "yeongseo"
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "chae-yunsu",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-10-16",
     "content_type": "video",
     "view_count": 17269,
@@ -152,9 +197,19 @@
   {
     "youtube_id": "gmxXjhRdBC4",
     "title": "댄브 끝나고 누가 더 신났을까? #TALK #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -173,9 +228,19 @@
   {
     "youtube_id": "Y5FkQlgNLYo",
     "title": "남자 래퍼 vs 여자 래퍼 (춤보다 랩 제스처 연습이 더 어려웠,,😂) #TALK #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -194,9 +259,19 @@
   {
     "youtube_id": "f0aG85y1HeE",
     "title": "리틀 베일리 여기 있어요👆🏻 #TALK #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -218,26 +293,51 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
-      "chae-yunsu",
-      "kang-taehyun",
-      "yang-hwanhee",
-      "cho-gyuso",
-      "yun-haeun",
       "oh-yubin",
       "jeong-gyeolgyeong",
-      "kim-chan",
-      "lee-yoobin",
-      "yunsu",
-      "yeongseo"
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "oh-yubin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "cho-gyuso",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "chae-yunsu",
+      "yang-hwanhee"
+    ],
     "published_date": "2026-10-15",
     "content_type": "video",
     "view_count": 103038,
@@ -250,9 +350,19 @@
   {
     "youtube_id": "tlbSBMTZO4Y",
     "title": "아니 이렇게 뽀짝한 댄브였냐고ㅋㅋㅋ #TALK #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "oh-yubin",
+      "jeong-gyeolgyeong",
+      "yun-haeun",
+      "cho-gyuso",
+      "kang-taehyun"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -281,7 +391,9 @@
     "ads": [],
     "sponsors": [],
     "support": [],
-    "choreography": [],
+    "choreography": [
+      "yang-hwanhee"
+    ],
     "role_mapping": [],
     "special_dancers": [],
     "published_date": "2026-10-12",
@@ -296,13 +408,13 @@
   {
     "youtube_id": "Ll4Z8J1KzNY",
     "title": "#결경 'BAILEY - CAN'T KILL ME(정민준 & 캐스퍼 ver.)' Dance cover #Gyeolgyeong",
-    "covered_group": [],
+    "covered_group": [
+      "ALLDAY PROJECT::BAILEY",
+      "스트릿 월드 파이터::디렉터스 워"
+    ],
     "content_series": [],
     "tagged_members": [
-      "jeong-gyeolgyeong",
-      "jungmin",
-      "lee-jeongmin",
-      "min"
+      "jeong-gyeolgyeong"
     ],
     "ads": [],
     "sponsors": [],
@@ -327,8 +439,7 @@
     ],
     "content_series": [],
     "tagged_members": [
-      "kim-hojun",
-      "min"
+      "kim-hojun"
     ],
     "ads": [],
     "sponsors": [],
@@ -403,7 +514,6 @@
     ],
     "content_series": [],
     "tagged_members": [
-      "won-jin",
       "ahn-yoojin"
     ],
     "ads": [],
@@ -425,12 +535,10 @@
     "youtube_id": "PpilKeP2HrU",
     "title": "#예진 'NCT 127 - Blingy' Dance cover #Yejin",
     "covered_group": [
-      "NCT",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "content_series": [],
     "tagged_members": [
-      "won-jin",
       "kang-yejin"
     ],
     "ads": [],
@@ -455,7 +563,7 @@
       "방탄소년단"
     ],
     "content_series": [
-      "나는 신입"
+      "나는 신입::2026y"
     ],
     "tagged_members": [
       "seo-hanseung",
