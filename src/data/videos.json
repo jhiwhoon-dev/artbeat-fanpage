@@ -3,8 +3,42 @@
     "youtube_id": "-umxxaPzxFA",
     "title": "[보고드립니다] 방구석 S24 점검 #03 | D-14",
     "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "kim-junseok",
+      "lee-jeonghee",
+      "cho-gyuso",
+      "kim-chan",
+      "jeong-gyeolgyeong",
+      "kim-hojun",
+      "kang-taehyun",
+      "won-seoa",
+      "yun-haeun",
+      "oh-yubin",
+      "kim-jeongseo",
+      "won-jin",
+      "baek-jina",
+      "cho-yuna",
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "yamamoto-leno",
+      "do-hyeonsung",
+      "kang-yejin",
+      "ahn-gihyun",
+      "yang-hwanhee",
+      "lee-yejin",
+      "chae-yunsu",
+      "ahn-yoojin",
+      "jang-daehyeon",
+      "yu-minhye",
+      "lee-seonu",
+      "yeo-gawoo",
+      "kang-seongwoon",
+      "seo-hanseung",
+      "yang-jimo"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -23,8 +57,12 @@
   {
     "youtube_id": "HSZoJAOc0mw",
     "title": "10초 만에 홀려드립니다 #CRASH #유화 #Yuwha",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "jeong-yoojin"
     ],
@@ -46,8 +84,12 @@
   {
     "youtube_id": "r9eUbdqWygg",
     "title": "마지막에 쏟아부어버리기 #CRASH #백서윤 #Seoyoon",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "baek-seoyoon"
     ],
@@ -69,8 +111,12 @@
   {
     "youtube_id": "L3q3IferTA8",
     "title": "테토남 같나요? 에겐남 같나요? #CRASH #서한승 #Hanseung",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "seo-hanseung"
     ],
@@ -92,8 +138,12 @@
   {
     "youtube_id": "lsTsyN3qmR8",
     "title": "열심히 네일 했는데 손이 안 보임🤣 #CRASH #정희 #Jeonghee",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "lee-jeonghee"
     ],
@@ -115,8 +165,12 @@
   {
     "youtube_id": "FSHxtWs_GVc",
     "title": "마지막에 쏟아부어버리기 #CRASH #가람 #Garam",
-    "covered_group": [],
-    "content_series": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "AB PRACTICE::2026y"
+    ],
     "tagged_members": [
       "lee-garam"
     ],
@@ -142,25 +196,52 @@
       "ALLDAY PROJECT"
     ],
     "content_series": [
-      "AB PRACTICE"
+      "AB PRACTICE::2026y"
     ],
     "tagged_members": [
-      "lee-garam",
-      "kim-chan",
-      "jeong-yoojin",
       "lee-jeonghee",
-      "seo-hanseung",
+      "jeong-yoojin",
       "baek-seoyoon",
-      "yeongseo"
+      "lee-garam",
+      "seo-hanseung"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-19",
-    "content_type": "short",
+    "content_type": "video",
     "view_count": 18574,
     "like_count": 606,
     "duration_seconds": 177,
@@ -171,15 +252,28 @@
   {
     "youtube_id": "Vr2IWR1aTiY",
     "title": "페어 안무에서 댄브 작두까지🔥 #CRASH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "baek-seoyoon",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
     "role_mapping": [],
-    "special_dancers": [],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-18",
     "content_type": "short",
     "view_count": 55347,
@@ -192,15 +286,28 @@
   {
     "youtube_id": "kqKBwh0QjMw",
     "title": "I don't need your lo-lo-lo-lo-lo-lo-love #CRASH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "baek-seoyoon",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
     "role_mapping": [],
-    "special_dancers": [],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-18",
     "content_type": "short",
     "view_count": 38464,
@@ -213,15 +320,28 @@
   {
     "youtube_id": "otR3_daH-QI",
     "title": "다섯명이 차례대로 등장하는 것도 괜찮은데?🤔 #CRASH #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "baek-seoyoon",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
     "role_mapping": [],
-    "special_dancers": [],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-18",
     "content_type": "short",
     "view_count": 23501,
@@ -237,25 +357,51 @@
     "covered_group": [
       "ALLDAY PROJECT"
     ],
-    "content_series": [],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
     "tagged_members": [
-      "lee-garam",
-      "kim-chan",
-      "jeong-yoojin",
       "lee-jeonghee",
-      "lee-jongmin",
-      "seo-hanseung",
+      "jeong-yoojin",
       "baek-seoyoon",
-      "yang-jimo",
-      "min",
-      "yeongseo"
+      "lee-garam",
+      "seo-hanseung"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-18",
     "content_type": "video",
     "view_count": 133735,
@@ -268,15 +414,28 @@
   {
     "youtube_id": "hd0ZYYx-IC0",
     "title": "시작하고서야 뭔가 잘못된 걸 알았다 #CRASH #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "jeong-yoojin",
+      "baek-seoyoon",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
     "role_mapping": [],
-    "special_dancers": [],
+    "special_dancers": [
+      "yang-jimo",
+      "lee-jongmin"
+    ],
     "published_date": "2026-10-18",
     "content_type": "short",
     "view_count": 73339,
