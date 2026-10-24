@@ -2,9 +2,20 @@
   {
     "youtube_id": "XbyAJZRNp-k",
     "title": "목부상의 원인 = ANIMAL? #ANIMAL #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "yamamoto-leno",
+      "kim-jeongseo",
+      "yang-jimo",
+      "kim-hojun",
+      "do-hyeonsung",
+      "won-jin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -23,9 +34,20 @@
   {
     "youtube_id": "_vn300w780M",
     "title": "사마귀 춤이라고? #ANIMAL #ARTBEAT #여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
+    "content_series": [
+      "여기서요?::2026y"
+    ],
+    "tagged_members": [
+      "yamamoto-leno",
+      "kim-jeongseo",
+      "yang-jimo",
+      "kim-hojun",
+      "do-hyeonsung",
+      "won-jin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -48,22 +70,52 @@
       "BOYNEXTDOOR"
     ],
     "content_series": [
-      "여기서요?"
+      "여기서요?::2026y"
     ],
     "tagged_members": [
-      "kim-hojun",
-      "kim-jeongseo",
-      "won-jin",
-      "do-hyeonsung",
       "yamamoto-leno",
-      "kim-chan",
-      "yang-jimo"
+      "kim-jeongseo",
+      "yang-jimo",
+      "kim-hojun",
+      "do-hyeonsung",
+      "won-jin"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "yamamoto-leno",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "리우"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "태산"
+      },
+      {
+        "member_id": "yang-jimo",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "이한"
+      },
+      {
+        "member_id": "kim-hojun",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "운학"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "명재현"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "BOYNEXTDOOR",
+        "covered_member": "성호"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-10-23",
     "content_type": "video",
@@ -77,9 +129,20 @@
   {
     "youtube_id": "0CtDlSVBuAU",
     "title": "어떤 동물인지 맞출 수 있어? #ANIMAL #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "BOYNEXTDOOR"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "yamamoto-leno",
+      "kim-jeongseo",
+      "yang-jimo",
+      "kim-hojun",
+      "do-hyeonsung",
+      "won-jin"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
