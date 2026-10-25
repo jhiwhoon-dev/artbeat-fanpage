@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import schedule from '../data/schedule.json';
+import social from '../data/social.json';
 
 // 날짜 있는 일정은 날짜순, 날짜 없는(null) 일정은 맨 뒤로
 const sorted = [...schedule].sort((a, b) => {
@@ -8,8 +9,42 @@ const sorted = [...schedule].sort((a, b) => {
   if (!b.date) return -1;
   return a.date.localeCompare(b.date);
 });
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const statusLabel = { coming_soon: 'COMING SOON', live: 'LIVE', in_progress: 'IN PROGRESS', done: 'DONE' };
 const highlightedStatuses = ['live', 'in_progress'];
+
+// 팝업의 ARTBEAT 프로필/이름을 누르면 갈 인스타그램 주소 (src/data/social.json에서 가져옴)
+// 인스타그램 항목 중 계정명에 artbeat가 들어간 것을 우선 쓰고, 없으면 첫 번째 인스타그램 항목을 씀
+const instagramUrl =
+  (social.find((s) => s.platform === 'Instagram' && /artbeat/i.test(s.handle)) ?? social.find((s) => s.platform === 'Instagram'))?.url ?? '';
+
+// ───────── 팝업(인스타 게시물 스타일) ─────────
+// schedule.json 항목에 "poster"(public/images 안 파일명)나 "post"(글)가 있으면 사진/제목을 눌렀을 때 팝업이 뜸.
+//   post : 팝업 오른쪽에 보일 글. 문자열 하나로 써도 되고, 한 줄씩 나눈 배열로 써도 됨(빈 문자열 "" = 빈 줄).
+//          없으면 description을 대신 보여줌.
+function escapeHtml(s: string) {
+  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+}
+// 글 속의 http(s) 주소를 눌러 갈 수 있는 링크로 바꿈 (HTML은 먼저 무력화해서 안전함)
+function linkify(text: string) {
+  return escapeHtml(text).replace(/https?:\/\/[^\s<]+/g, (u) => {
+    const tail = (u.match(/[.,)!?]+$/) ?? [''])[0];
+    const url = tail ? u.slice(0, -tail.length) : u;
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>${tail}`;
+  });
+}
+function postText(e: any): string {
+  const raw = Array.isArray(e.post) ? e.post.map((l: any) => (l == null ? '' : String(l))).join('\n') : e.post;
+  return (typeof raw === 'string' && raw.trim() ? raw : e.description ?? '').trim();
+}
+const items = sorted.map((e: any, i) => ({
+  e,
+  id: `ev-${i}`,
+  hasModal: !!(e.poster || (typeof e.post !== 'undefined' && postText(e))),
+  shortTitle: String(e.title ?? '').split('\n')[0],
+  when: [e.date ? e.date.replaceAll('-', '.') : '날짜 미정', e.time].filter(Boolean).join(' · '),
+  html: linkify(postText(e)),
+}));
 ---
 <Layout title="Schedule">
   <div class="wrap">
@@ -17,7 +52,7 @@ const highlightedStatuses = ['live', 'in_progress'];
     <h1>Schedule</h1>
 
     <ul class="list">
-      {sorted.map((event) => {
+      {items.map(({ e: event, id, hasModal, shortTitle }) => {
         const d = event.date ? new Date(event.date) : null;
         const day = d ? String(d.getDate()).padStart(2, '0') : 'TBD';
         const month = d ? d.toLocaleString('en-US', { month: 'short' }).toUpperCase() : '';
@@ -28,9 +63,19 @@ const highlightedStatuses = ['live', 'in_progress'];
               {month && <span class="month">{month}</span>}
             </div>
             <div class="content">
-              <h2>{event.title}</h2>
+              <h2>
+                {hasModal
+                  ? <button type="button" class="title-btn" data-open={id}>{event.title}</button>
+                  : event.title}
+              </h2>
+              {event.time && <p class="time">🕚 {event.time}</p>}
               {event.description && <p>{event.description}</p>}
             </div>
+            {event.poster && (
+              <button type="button" class="poster" data-open={id} aria-label={`${shortTitle} 포스터 크게 보기`}>
+                <img src={`${base}/images/${event.poster}`} alt={`${shortTitle} 포스터`} loading="lazy" />
+              </button>
+            )}
             <span class={`badge ${highlightedStatuses.includes(event.status) ? 'badge-live' : ''}`}>
               {statusLabel[event.status] ?? event.status}
             </span>
@@ -38,8 +83,62 @@ const highlightedStatuses = ['live', 'in_progress'];
         );
       })}
     </ul>
+
+    {items.filter((it) => it.hasModal).map(({ e: event, id, shortTitle, when, html }) => (
+      <dialog class="post-dialog" id={id} aria-label={shortTitle}>
+        <button type="button" class="dlg-close" data-close aria-label="닫기">✕</button>
+        <div class={`dlg-body ${event.poster ? '' : 'no-media'}`}>
+          {event.poster && (
+            <div class="dlg-media">
+              <img src={`${base}/images/${event.poster}`} alt={`${shortTitle} 포스터`} />
+            </div>
+          )}
+          <div class="dlg-side">
+            <div class="dlg-head">
+              {instagramUrl
+                ? <a class="dlg-avatar-link" href={instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="ARTBEAT 인스타그램으로 이동" title="ARTBEAT 인스타그램"><img class="dlg-avatar" src={`${base}/favicon.png`} alt="" /></a>
+                : <img class="dlg-avatar" src={`${base}/favicon.png`} alt="" />}
+              <div>
+                {instagramUrl
+                  ? <strong><a class="dlg-name" href={instagramUrl} target="_blank" rel="noopener noreferrer" title="ARTBEAT 인스타그램">ARTBEAT</a></strong>
+                  : <strong>ARTBEAT</strong>}
+                <span>{when}</span>
+              </div>
+              <span class={`badge ${highlightedStatuses.includes(event.status) ? 'badge-live' : ''}`}>
+                {statusLabel[event.status] ?? event.status}
+              </span>
+            </div>
+            <div class="dlg-scroll">
+              <h3>{event.title}</h3>
+              <div class="post-text" set:html={html} />
+            </div>
+          </div>
+        </div>
+      </dialog>
+    ))}
   </div>
 </Layout>
+
+<script>
+  // 사진/제목을 누르면 팝업 열기, ✕ · 바깥 어두운 곳 · ESC로 닫기
+  document.querySelectorAll<HTMLElement>('[data-open]').forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      const dlg = document.getElementById(trigger.dataset.open!) as HTMLDialogElement | null;
+      if (!dlg) return;
+      dlg.showModal();
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  document.querySelectorAll<HTMLDialogElement>('dialog.post-dialog').forEach((dlg) => {
+    dlg.addEventListener('click', (ev) => {
+      if (ev.target === dlg) dlg.close(); // 팝업 바깥(배경)을 누른 경우
+    });
+    dlg.querySelector('[data-close]')?.addEventListener('click', () => dlg.close());
+    dlg.addEventListener('close', () => {
+      document.body.style.overflow = '';
+    });
+  });
+</script>
 
 <style>
   .list { list-style: none; margin: 0; padding: 0; }
@@ -61,6 +160,18 @@ const highlightedStatuses = ['live', 'in_progress'];
   .content { flex: 1; }
   .content h2 { font-size: 16px; margin: 0 0 4px; white-space: pre-line; }
   .content p { font-size: 13px; color: var(--muted); margin: 0; white-space: pre-line; }
+  .content p.time { color: var(--ink); font-weight: 700; margin: 0 0 6px; }
+  .title-btn {
+    all: unset;
+    cursor: pointer;
+    white-space: pre-line;
+    text-align: left;
+  }
+  .title-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .title-btn:focus-visible, .poster:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 6px; }
+  .poster { all: unset; flex-shrink: 0; width: 72px; cursor: pointer; }
+  .poster img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+  .poster:hover img { border-color: var(--muted); }
   .badge {
     font-size: 11px;
     font-weight: 700;
@@ -71,4 +182,71 @@ const highlightedStatuses = ['live', 'in_progress'];
     white-space: nowrap;
   }
   .badge-live { background: var(--accent); border-color: var(--accent); color: #0e0e10; }
+
+  /* ───── 팝업 (왼쪽 사진 / 오른쪽 글) ───── */
+  .post-dialog {
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #17171a;
+    color: var(--ink);
+    width: min(1000px, 94vw);
+    height: min(88vh, 760px);
+    overflow: hidden;
+  }
+  .post-dialog[open] { display: block; }
+  .post-dialog::backdrop { background: rgba(0, 0, 0, 0.72); }
+  .dlg-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .dlg-close:hover { background: rgba(0, 0, 0, 0.8); }
+  .dlg-body { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); height: 100%; }
+  .dlg-body.no-media { grid-template-columns: minmax(0, 1fr); }
+  .dlg-media { background: #000; display: flex; align-items: center; justify-content: center; min-height: 0; }
+  .dlg-media img { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+  .dlg-side { display: flex; flex-direction: column; min-width: 0; min-height: 0; border-left: 1px solid var(--line); }
+  .dlg-body.no-media .dlg-side { border-left: 0; }
+  .dlg-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 56px 14px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .dlg-head > div { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.3; }
+  .dlg-head strong { font-size: 14px; }
+  .dlg-head span { font-size: 12px; color: var(--muted); }
+  .dlg-head .badge { flex: 0 0 auto; color: var(--muted); }
+  .dlg-head .badge-live { color: #0e0e10; }
+  .dlg-avatar-link { display: block; flex: 0 0 auto; border-radius: 50%; }
+  .dlg-name { color: inherit; text-decoration: none; }
+  .dlg-name:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .dlg-avatar { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; background: var(--line); }
+  .dlg-scroll { flex: 1; overflow-y: auto; padding: 18px 20px 24px; }
+  .dlg-scroll h3 { font-size: 16px; margin: 0 0 14px; white-space: pre-line; line-height: 1.4; }
+  .post-text { font-size: 14px; line-height: 1.75; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .post-text :global(a) { color: #8ab4ff; text-decoration: underline; text-underline-offset: 2px; }
+
+  @media (max-width: 760px) {
+    .post-dialog { height: 92vh; }
+    .dlg-body { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); overflow-y: auto; }
+    .dlg-media { max-height: 46vh; }
+    .dlg-media img { max-height: 46vh; }
+    .dlg-side { border-left: 0; border-top: 1px solid var(--line); }
+    .dlg-scroll { overflow-y: visible; }
+    .poster { width: 56px; }
+    .list li { gap: 12px; flex-wrap: wrap; }
+    .content { flex: 1 1 160px; }
+  }
 </style>
