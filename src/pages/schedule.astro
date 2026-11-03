@@ -57,7 +57,7 @@ const items = sorted.map((e: any, i) => ({
         const day = d ? String(d.getDate()).padStart(2, '0') : 'TBD';
         const month = d ? d.toLocaleString('en-US', { month: 'short' }).toUpperCase() : '';
         return (
-          <li>
+          <li class={hasModal ? 'clickable' : ''} data-card={hasModal ? id : undefined}>
             <div class="date-block">
               <span class="day">{day}</span>
               {month && <span class="month">{month}</span>}
@@ -69,7 +69,8 @@ const items = sorted.map((e: any, i) => ({
                   : event.title}
               </h2>
               {event.time && <p class="time">🕚 {event.time}</p>}
-              {event.description && <p>{event.description}</p>}
+              {event.description && <p class="desc">{event.description}</p>}
+              {hasModal && <span class="more" aria-hidden="true">자세히 보기 →</span>}
             </div>
             {event.poster && (
               <button type="button" class="poster" data-open={id} aria-label={`${shortTitle} 포스터 크게 보기`}>
@@ -129,6 +130,16 @@ const items = sorted.map((e: any, i) => ({
       document.body.style.overflow = 'hidden';
     });
   });
+  // 카드 아무 곳이나 눌러도 팝업 열기 (제목·포스터 버튼은 위에서 이미 처리하므로 제외)
+  document.querySelectorAll<HTMLElement>('[data-card]').forEach((card) => {
+    card.addEventListener('click', (ev) => {
+      if ((ev.target as HTMLElement).closest('button, a')) return;
+      const dlg = document.getElementById(card.dataset.card!) as HTMLDialogElement | null;
+      if (!dlg || dlg.open) return;
+      dlg.showModal();
+      document.body.style.overflow = 'hidden';
+    });
+  });
   document.querySelectorAll<HTMLDialogElement>('dialog.post-dialog').forEach((dlg) => {
     dlg.addEventListener('click', (ev) => {
       if (ev.target === dlg) dlg.close(); // 팝업 바깥(배경)을 누른 경우
@@ -161,6 +172,18 @@ const items = sorted.map((e: any, i) => ({
   .content h2 { font-size: 16px; margin: 0 0 4px; white-space: pre-line; }
   .content p { font-size: 13px; color: var(--muted); margin: 0; white-space: pre-line; }
   .content p.time { color: var(--ink); font-weight: 700; margin: 0 0 6px; }
+  /* 목록에서는 설명을 최대 2줄까지만 보여주고, 전체 글은 팝업에서 확인 */
+  .content p.desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+  .more { display: inline-block; margin-top: 6px; font-size: 12px; color: var(--muted); }
+  .list li.clickable { cursor: pointer; transition: background 0.15s; }
+  .list li.clickable:hover { background: rgba(255, 255, 255, 0.03); }
+  .list li.clickable:hover .more { color: var(--ink); }
   .title-btn {
     all: unset;
     cursor: pointer;
