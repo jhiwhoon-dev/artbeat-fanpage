@@ -3456,7 +3456,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3464,13 +3464,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": null,
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3496,10 +3508,10 @@
           "auditionee"
         ],
         "start": "2026-08",
-        "end": null
+        "end": "2026-10-27"
       }
     ],
-    "status": "audition",
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
@@ -3520,7 +3532,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3528,13 +3540,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3552,7 +3576,7 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3560,13 +3584,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3584,7 +3620,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3592,13 +3628,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3624,10 +3672,10 @@
           "auditionee"
         ],
         "start": "2026-08",
-        "end": null
+        "end": "2026-10-27"
       }
     ],
-    "status": "audition",
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
@@ -3648,7 +3696,7 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3656,13 +3704,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3680,7 +3740,7 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3688,13 +3748,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3712,7 +3784,7 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3720,13 +3792,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3744,7 +3828,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3752,13 +3836,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3776,7 +3872,7 @@
     "gender": "F",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3784,13 +3880,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3808,7 +3916,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3816,13 +3924,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
@@ -3848,10 +3968,10 @@
           "auditionee"
         ],
         "start": "2026-08",
-        "end": null
+        "end": "2026-10-27"
       }
     ],
-    "status": "audition",
+    "status": "withdrawn",
     "joined_date": null,
     "left_date": null,
     "membership_periods": [],
@@ -3872,7 +3992,7 @@
     "gender": "M",
     "role": "Dancer",
     "unit": [
-      "auditionee"
+      "AB PROJECT"
     ],
     "unit_periods": [
       {
@@ -3880,13 +4000,25 @@
           "auditionee"
         ],
         "start": "2026-08",
+        "end": "2026-10-27"
+      },
+      {
+        "unit": [
+          "AB PROJECT"
+        ],
+        "start": "2026-10-27",
         "end": null
       }
     ],
-    "status": "audition",
-    "joined_date": null,
+    "status": "active",
+    "joined_date": "2026-10-27",
     "left_date": null,
-    "membership_periods": [],
+    "membership_periods": [
+      {
+        "joined": "2026-10-27",
+        "left": null
+      }
+    ],
     "photo_filename": null,
     "bio": "ARTBEAT '2026 AB PROJECT 최종 오디션' 참가자이다.",
     "sns": {
