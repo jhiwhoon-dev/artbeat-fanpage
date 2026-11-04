@@ -2,15 +2,54 @@
   {
     "youtube_id": "ABWs_ryvUc8",
     "title": "이 댄브 때 이상하게 숨참고 보게 돼🫢 #CRASH #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "baek-seoyoon",
+      "jeong-yoojin",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "lee-jongmin",
+      "yang-jimo"
+    ],
     "published_date": "2026-11-03",
     "content_type": "short",
     "view_count": 11746,
@@ -23,15 +62,54 @@
   {
     "youtube_id": "K_5aoKsJ70I",
     "title": "여자의 악마가 되..😈 #CRASH #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "baek-seoyoon",
+      "jeong-yoojin",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "lee-jongmin",
+      "yang-jimo"
+    ],
     "published_date": "2026-11-03",
     "content_type": "short",
     "view_count": 18602,
@@ -44,15 +122,54 @@
   {
     "youtube_id": "vR5XQkne3SQ",
     "title": "Q.오늘 체육관에 처음 온 2명은 누구? #CRASH #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ALLDAY PROJECT"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "baek-seoyoon",
+      "jeong-yoojin",
+      "lee-garam",
+      "seo-hanseung"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "lee-jongmin",
+      "yang-jimo"
+    ],
     "published_date": "2026-11-03",
     "content_type": "short",
     "view_count": 10080,
@@ -69,26 +186,50 @@
       "ALLDAY PROJECT"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "lee-garam",
-      "kim-chan",
-      "jeong-yoojin",
       "lee-jeonghee",
-      "lee-jongmin",
-      "seo-hanseung",
       "baek-seoyoon",
-      "yang-jimo",
-      "min",
-      "yeongseo"
+      "jeong-yoojin",
+      "lee-garam",
+      "seo-hanseung"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "베일리"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "영서"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "애니"
+      },
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "우찬"
+      },
+      {
+        "member_id": "seo-hanseung",
+        "covered_group": "ALLDAY PROJECT",
+        "covered_member": "타잔"
+      }
+    ],
+    "special_dancers": [
+      "lee-jongmin",
+      "yang-jimo"
+    ],
     "published_date": "2026-11-03",
     "content_type": "video",
     "view_count": 59658,
