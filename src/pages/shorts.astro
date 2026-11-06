@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import StatsPanel from '../components/StatsPanel.astro';
+import { buildStats } from '../lib/stats.mjs';
+import { getViewHistory } from '../lib/viewHistory.mjs';
 import allVideos from '../data/videos.json';
 import members from '../data/members.json';
 import contentSeriesDict from '../data/content_series.json';
@@ -57,6 +60,9 @@ const foundedYear = ARTBEAT_START_YEAR ?? (allUploadYears.length > 0 ? Math.min(
 // 혹시 설립 연도보다 이른 영상이나 미래 날짜 영상이 있어도 데이터가 잘리지 않게 범위를 넓혀줌
 const rangeStartYear = Math.min(foundedYear, yearNums.length > 0 ? yearNums[0] : foundedYear);
 const rangeEndYear = Math.max(nowYear, yearNums.length > 0 ? yearNums[yearNums.length - 1] : nowYear);
+
+// 상단 통계 그래프 묶음용 집계 (오늘 증가분, 일별 업로드, 연간 업로드/조회수/좋아요)
+const stats = buildStats(videos, getViewHistory, { foundedYear });
 const chartYears = yearNums.length > 0
   ? Array.from({ length: rangeEndYear - rangeStartYear + 1 }, (_, i) => String(rangeStartYear + i))
   : [];
@@ -103,35 +109,7 @@ function safeJson(obj) {
     <p class="eyebrow">ARTBEAT</p>
     <h1>Short<span>s</span></h1>
 
-    {chartYears.length > 0 && (
-      <div class="year-chart">
-        <p class="chart-title">연간 {YEARLY_LABEL} 업로드 수 변화</p>
-        <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} class="chart-svg">
-          <line x1={PAD_L} y1={CHART_H - PAD_B} x2={CHART_W - PAD_R} y2={CHART_H - PAD_B} class="chart-axis" />
-          <polyline points={yearlyPoints} fill="none" stroke={YEARLY_COLOR} stroke-width="2.5" />
-          {yearlyCoords.map((p, i) => (
-            <g>
-              <circle cx={p.x} cy={p.y} r="3.5" fill={YEARLY_COLOR} />
-              <text x={p.x} y={p.y - 9} class="chart-label chart-value" text-anchor="middle">{yearlySeries[i]}</text>
-            </g>
-          ))}
-          <text x={PAD_L} y={PAD_T + 8} class="chart-label">{yearlyMax}개</text>
-          <text x={PAD_L} y={CHART_H - PAD_B - 4} class="chart-label">0개</text>
-          {yearLabelIndexes.map((i) => (
-            <text x={xForYear(i, chartYears.length)} y={CHART_H - 6} class="chart-label" text-anchor="middle">
-              {chartYears[i]}
-            </text>
-          ))}
-        </svg>
-        <div class="chart-legend">
-          <span class="legend-item">
-            <span class="legend-dot" style={`background:${YEARLY_COLOR}`}></span>
-            {YEARLY_LABEL} <span class="legend-max">(최대 {yearlyMax}개)</span>
-          </span>
-          {lastYearInProgress && <span class="legend-item legend-max">※ {currentYear}년은 집계 진행 중</span>}
-        </div>
-      </div>
-    )}
+    <StatsPanel stats={stats} label={YEARLY_LABEL} uid="shorts" />
 
     <div class="controls-top">
       <div class="mode-tabs" id="mode-tabs">
@@ -730,7 +708,7 @@ function safeJson(obj) {
 
 <style is:global>
   /* 연간 업로드 수 변화 그래프 (members 페이지 그래프와 같은 디자인) */
-  .year-chart { margin: 24px 0 40px; padding: 24px; border: 1px solid var(--line); border-radius: 12px; }
+  .year-chart { margin: 24px 0 40px; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: #131318; }
   .chart-title { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
   .chart-svg { width: 100%; height: auto; display: block; }
   .chart-axis { stroke: var(--line); stroke-width: 1; }
