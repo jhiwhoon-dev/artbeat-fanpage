@@ -3,14 +3,14 @@
     "youtube_id": "iRZ7vGtXK4Q",
     "title": "[🛜AB:CONNECT] 신입 이유빈 성운 종민 주강 연결중 | Yoobin Seongwoon Jongmin Jookhang LIVE",
     "covered_group": [],
-    "content_series": [],
+    "content_series": [
+      "AB:CONNECT"
+    ],
     "tagged_members": [
-      "oh-yubin",
       "lee-jongmin",
       "lee-yoobin",
       "lee-jookhang",
-      "kang-seongwoon",
-      "min"
+      "kang-seongwoon"
     ],
     "ads": [],
     "sponsors": [],
@@ -31,14 +31,14 @@
     "youtube_id": "YE87Qn_urzs",
     "title": "[🛜AB:CONNECT] 신입 이유빈 성운 종민 주강 연결중 | Yoobin Seongwoon Jongmin Jookhang LIVE",
     "covered_group": [],
-    "content_series": [],
+    "content_series": [
+      "AB:CONNECT"
+    ],
     "tagged_members": [
-      "oh-yubin",
       "lee-jongmin",
       "lee-yoobin",
       "lee-jookhang",
-      "kang-seongwoon",
-      "min"
+      "kang-seongwoon"
     ],
     "ads": [],
     "sponsors": [],
@@ -58,9 +58,22 @@
   {
     "youtube_id": "LpfRM7tCPLk",
     "title": "진짜 찐찐막 배드임😎 #BAD #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "won-jin",
+      "chae-yunsu",
+      "lee-garam",
+      "yamamoto-leno",
+      "do-hyeonsung",
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "yang-hwanhee"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -79,9 +92,22 @@
   {
     "youtube_id": "25nG9T-diXE",
     "title": "한국의 청양고추 Vibe🌶️ #BAD #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ATEEZ"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "won-jin",
+      "chae-yunsu",
+      "lee-garam",
+      "yamamoto-leno",
+      "do-hyeonsung",
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "yang-hwanhee"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -104,27 +130,64 @@
       "ATEEZ"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "kim-jeongseo",
       "won-jin",
-      "kim-mingi",
       "chae-yunsu",
-      "ahn-gihyun",
-      "do-hyeonsung",
-      "yang-hwanhee",
       "lee-garam",
       "yamamoto-leno",
-      "kim-chan",
-      "yunsu",
-      "min"
+      "do-hyeonsung",
+      "ahn-gihyun",
+      "kim-jeongseo",
+      "yang-hwanhee"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "ATEEZ",
+        "covered_member": "성화"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "ATEEZ",
+        "covered_member": "홍중"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "ATEEZ",
+        "covered_member": "윤호"
+      },
+      {
+        "member_id": "yamamoto-leno",
+        "covered_group": "ATEEZ",
+        "covered_member": "여상"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "ATEEZ",
+        "covered_member": "산"
+      },
+      {
+        "member_id": "won-jin",
+        "covered_group": "ATEEZ",
+        "covered_member": "민기"
+      },
+      {
+        "member_id": "do-hyeonsung",
+        "covered_group": "ATEEZ",
+        "covered_member": "우영"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "ATEEZ",
+        "covered_member": "종호"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-11-05",
     "content_type": "video",
@@ -138,7 +201,9 @@
   {
     "youtube_id": "5YZVAkFDzbo",
     "title": "내가 연애 못하는 이유? #유화 '베스티 - 연애의 조건' Dance Cover #Yuwha",
-    "covered_group": [],
+    "covered_group": [
+      "베스티"
+    ],
     "content_series": [],
     "tagged_members": [
       "jeong-yoojin"
@@ -161,9 +226,19 @@
   {
     "youtube_id": "el7IOv_QdUI",
     "title": "우리 체육관은 아직 여름이야~ #VitamineMe #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "lee-gaeun",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -182,9 +257,19 @@
   {
     "youtube_id": "Oa4nfJcEiRo",
     "title": "마지막에 삼촌 비명소리 나만 들음?🤣 #VitamineMe #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "프로미스나인"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-jeonghee",
+      "lee-gaeun",
+      "yun-haeun",
+      "kim-chan",
+      "won-hyegyeong"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -207,22 +292,46 @@
       "프로미스나인"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
+      "lee-jeonghee",
       "lee-gaeun",
       "yun-haeun",
-      "song-haeun",
       "kim-chan",
-      "kim-nakyeong",
-      "lee-jeonghee",
       "won-hyegyeong"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "kim-chan",
+        "covered_group": "프로미스나인",
+        "covered_member": "이나경"
+      },
+      {
+        "member_id": "yun-haeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "송하영"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "프로미스나인",
+        "covered_member": "이채영"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "프로미스나인",
+        "covered_member": "박지원"
+      },
+      {
+        "member_id": "lee-gaeun",
+        "covered_group": "프로미스나인",
+        "covered_member": "백지헌"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-11-04",
     "content_type": "video",
