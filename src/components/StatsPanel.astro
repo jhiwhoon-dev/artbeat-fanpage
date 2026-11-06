@@ -1,0 +1,225 @@
+---
+// videos / shorts 탭 상단 통계 그래프 묶음. 카테고리별로 칸을 나눠 표시함.
+//   오늘: 오늘 누적 조회수 / 좋아요 (오늘 이전 마지막 스냅샷 대비 증가분) + 최근 14일 일별 증가분
+//   업로드: 일별 업로드 추이(최근 30일), 연간 업로드 수
+//   연간: 왼쪽 = 업로드 연도 기준, 오른쪽 = 연간 증가분 기준. 각 차트는 이중 y축(왼쪽 조회수, 오른쪽 좋아요)
+// 그래프는 빌드 때 SVG 문자열로 만들어져서(src/lib/chartSvg.mjs) 자바스크립트 없이도 보이고,
+// 아래 스크립트는 호버 툴팁만 담당함.
+import { areaChart, barChart, dualAreaChart, fmtNum } from '../lib/chartSvg.mjs';
+
+const { stats, label = 'Video', uid = 'v' } = Astro.props;
+
+const C_VIEWS = '#4cc2ff';
+const C_LIKES = '#ff6fa5';
+const C_UP = '#ff9a3c';
+
+const t = stats.today;
+const trend = stats.trend;
+const yr = stats.yearly;
+
+const trendViews = areaChart({ id: `${uid}-tv`, labels: trend.labels, values: trend.views, color: C_VIEWS, unit: '회', maxLabels: 5 });
+const trendLikes = areaChart({ id: `${uid}-tl`, labels: trend.labels, values: trend.likes, color: C_LIKES, unit: '개', maxLabels: 5 });
+const daily = barChart({ id: `${uid}-dl`, labels: stats.daily.labels, values: stats.daily.values, color: C_UP, unit: '개', maxLabels: 8 });
+const yearlyUploads = barChart({ id: `${uid}-yu`, labels: yr.labels, values: yr.uploads, color: C_UP, unit: '개', maxLabels: 12, showValues: yr.labels.length <= 12 });
+const dualUpload = dualAreaChart({
+  id: `${uid}-du`, labels: yr.labels,
+  left: { values: yr.byUpload.views, color: C_VIEWS, unit: '회', name: '조회수' },
+  right: { values: yr.byUpload.likes, color: C_LIKES, unit: '개', name: '좋아요' },
+});
+const dualGain = dualAreaChart({
+  id: `${uid}-dg`, labels: yr.labels,
+  left: { values: yr.byGain.views, color: C_VIEWS, unit: '회', name: '조회수' },
+  right: { values: yr.byGain.likes, color: C_LIKES, unit: '개', name: '좋아요' },
+});
+
+const sum = (a) => a.reduce((x, y) => x + (y ?? 0), 0);
+const totalUploads = sum(yr.uploads);
+const totalViews = sum(yr.byUpload.views);
+const totalLikes = sum(yr.byUpload.likes);
+const lastGain = (arr) => {
+  for (let i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return { y: yr.labels[i], v: arr[i] };
+  return null;
+};
+const gainV = lastGain(yr.byGain.views);
+const gainL = lastGain(yr.byGain.likes);
+const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') : null;
+---
+
+<section class="stats" data-stats aria-label={`${label} 통계`}>
+  <div class="stats-group">
+    <h2 class="stats-h">오늘 <span class="stats-sub">{t.date.replace(/-/g, '.')} 0시(KST) 이후 증가분</span></h2>
+    <div class="stats-grid two">
+      <article class="stat-card">
+        <header><span class="dot" style={`background:${C_VIEWS}`}></span>오늘 누적 조회수</header>
+        <div class="kpi"><b style={`color:${C_VIEWS}`}>+{fmtNum(t.views)}</b><span>회</span></div>
+        <p class="kpi-note">{t.yesterdayViews != null ? `어제 하루 +${fmtNum(t.yesterdayViews)}회` : '어제 기록 없음'}</p>
+        <div class="chart-wrap" set:html={trendViews} />
+        <p class="chart-cap">최근 14일 일별 증가분</p>
+      </article>
+      <article class="stat-card">
+        <header><span class="dot" style={`background:${C_LIKES}`}></span>오늘 누적 좋아요</header>
+        <div class="kpi"><b style={`color:${C_LIKES}`}>+{fmtNum(t.likes)}</b><span>개</span></div>
+        <p class="kpi-note">{t.yesterdayLikes != null ? `어제 하루 +${fmtNum(t.yesterdayLikes)}개` : '어제 기록 없음'}</p>
+        <div class="chart-wrap" set:html={trendLikes} />
+        <p class="chart-cap">최근 14일 일별 증가분</p>
+      </article>
+    </div>
+  </div>
+
+  <div class="stats-group">
+    <h2 class="stats-h">업로드</h2>
+    <div class="stats-grid two">
+      <article class="stat-card">
+        <header><span class="dot" style={`background:${C_UP}`}></span>일별 {label} 업로드 추이</header>
+        <div class="chart-wrap" set:html={daily} />
+        <p class="chart-cap">최근 30일</p>
+      </article>
+      <article class="stat-card">
+        <header><span class="dot" style={`background:${C_UP}`}></span>연간 {label} 업로드 수 변화</header>
+        <div class="chart-wrap" set:html={yearlyUploads} />
+        <p class="chart-cap">전체 {fmtNum(totalUploads)}개 · {yr.labels[yr.labels.length - 1]}년은 집계 진행 중</p>
+      </article>
+    </div>
+  </div>
+
+  <div class="stats-group">
+    <h2 class="stats-h">연간 조회수 · 좋아요</h2>
+    <div class="stats-grid two">
+      <article class="stat-card">
+        <header>업로드 연도 기준</header>
+        <p class="card-desc">그 해에 올라온 {label}들의 현재 누적 합계</p>
+        <div class="chart-wrap" set:html={dualUpload} />
+        <div class="dual-legend">
+          <span><i style={`background:${C_VIEWS}`}></i>조회수 · 전체 {fmtNum(totalViews)}회</span>
+          <span><i style={`background:${C_LIKES}`}></i>좋아요 · 전체 {fmtNum(totalLikes)}개</span>
+        </div>
+      </article>
+      <article class="stat-card">
+        <header>연간 증가분 기준</header>
+        <p class="card-desc">그 해에 실제로 늘어난 수치 · 기록은 {sinceLabel ?? '아직 없음'}부터 쌓여 이전 연도는 '집계 전'</p>
+        <div class="chart-wrap" set:html={dualGain} />
+        <div class="dual-legend">
+          <span><i style={`background:${C_VIEWS}`}></i>조회수{gainV ? ` · ${gainV.y}년 +${fmtNum(gainV.v)}회` : ''}</span>
+          <span><i style={`background:${C_LIKES}`}></i>좋아요{gainL ? ` · ${gainL.y}년 +${fmtNum(gainL.v)}개` : ''}</span>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="stat-tip" aria-hidden="true"><div class="tip-in"></div></div>
+</section>
+
+<script>
+  // 호버 툴팁: 그래프 안의 .hit 영역이 가진 data-tip 텍스트를 보여줌 ("|" 로 줄 구분).
+  // 나타나고 사라지는 것과 위치 이동은 CSS transition 이 부드럽게 처리함.
+  document.querySelectorAll<HTMLElement>('[data-stats]').forEach((root) => {
+    const tip = root.querySelector<HTMLElement>('.stat-tip');
+    const inner = tip?.querySelector<HTMLElement>('.tip-in');
+    if (!tip || !inner) return;
+    let lastText = '';
+    root.addEventListener('pointermove', (e) => {
+      const hit = (e.target as Element).closest?.('.hit');
+      if (!hit) {
+        tip.classList.remove('on');
+        return;
+      }
+      const text = hit.getAttribute('data-tip') ?? '';
+      if (text !== lastText) {
+        inner.replaceChildren(
+          ...text.split('|').map((line, i) => {
+            const d = document.createElement('div');
+            d.textContent = line;
+            if (i === 0) d.className = 'tip-title';
+            return d;
+          }),
+        );
+        lastText = text;
+      }
+      tip.classList.add('on');
+      const r = root.getBoundingClientRect();
+      const w = tip.offsetWidth;
+      const h = tip.offsetHeight;
+      const x = Math.max(4, Math.min(e.clientX - r.left + 14, r.width - w - 4));
+      const y = Math.max(0, e.clientY - r.top - h - 12);
+      tip.style.transform = `translate(${x}px, ${y}px)`;
+    });
+    root.addEventListener('pointerleave', () => tip.classList.remove('on'));
+  });
+</script>
+
+<style is:global>
+  .stats {
+    --stat-card: #131318;
+    --stat-grid: #26262c;
+    position: relative;
+    margin: 24px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .stats-h { font-size: 15px; font-weight: 700; margin: 0 0 12px; color: var(--ink); }
+  .stats-sub { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+  .stats-head-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+  .stats-head-row .stats-h { margin: 0; }
+  .stats-grid { display: grid; gap: 14px; }
+  .stats-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat-card {
+    background: var(--stat-card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px 18px 14px;
+    min-width: 0;
+  }
+  .stat-card header { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .stat-card .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .kpi { display: flex; align-items: baseline; gap: 6px; }
+  .kpi b { font-size: 32px; line-height: 1.1; font-variant-numeric: tabular-nums; font-family: 'Archivo', sans-serif; }
+  .kpi span { font-size: 13px; color: var(--muted); }
+  .kpi-note { font-size: 12px; color: var(--muted); margin: 4px 0 10px; }
+  .chart-wrap { margin-top: 4px; }
+    .chart-cap { font-size: 11px; color: var(--muted); margin: 6px 0 0; opacity: .85; }
+
+  .card-desc { font-size: 12px; color: var(--muted); margin: -4px 0 8px; line-height: 1.5; }
+  .dual-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; font-size: 12px; color: var(--muted); }
+  .dual-legend span { display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
+  .dual-legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+
+  /* SVG 내부 */
+  .stats svg.chart { width: 100%; height: auto; display: block; overflow: visible; }
+  .stats .grid { stroke: var(--stat-grid); stroke-width: 1; stroke-dasharray: 3 5; }
+  .stats .grid.solid { stroke-dasharray: none; stroke: var(--line); }
+  .stats .line { fill: none; stroke-width: 2.4; stroke-linejoin: round; stroke-linecap: round; }
+  .stats .xl, .stats .axis-max { font-size: 13px; fill: var(--muted); font-family: 'Archivo', sans-serif; }
+  .stats .axis-max { text-anchor: start; }
+  .stats .bv { font-size: 13px; fill: var(--ink); font-family: 'Archivo', sans-serif; font-variant-numeric: tabular-nums; }
+  .stats .empty { font-size: 13px; fill: var(--muted); }
+  .stats .hit { fill: transparent; cursor: crosshair; }
+  .stats .guide { stroke: var(--muted); stroke-width: 1; opacity: 0; pointer-events: none; transition: opacity .16s ease; }
+  .stats .hover-dot { opacity: 0; pointer-events: none; r: 3px; transition: opacity .16s ease, r .16s ease; }
+  .stats .hit-g:hover .hover-dot { r: 5.5px; }
+  .stats .bar-hl { fill: #fff; opacity: 0; pointer-events: none; transition: opacity .16s ease; }
+  .stats .hit-g:hover .bar-hl { opacity: .22; }
+  .stats .tick { font-size: 12px; font-family: 'Archivo', sans-serif; font-variant-numeric: tabular-nums; opacity: .9; }
+  .stats .hit-g:hover .guide, .stats .hit-g:hover .hover-dot { opacity: 1; }
+
+  .stat-tip {
+    position: absolute; top: 0; left: 0; z-index: 5; pointer-events: none; white-space: nowrap;
+    background: #1c1c22; color: var(--ink); border: 1px solid var(--line); border-radius: 10px;
+    padding: 6px 10px; font-size: 12px; line-height: 1.5; font-variant-numeric: tabular-nums;
+    box-shadow: 0 8px 22px rgba(0,0,0,.5);
+    opacity: 0; transition: opacity .16s ease, transform .09s ease-out;
+  }
+  .stat-tip.on { opacity: 1; }
+  .stat-tip .tip-in { transform: translateY(6px); transition: transform .18s ease; }
+  .stat-tip.on .tip-in { transform: translateY(0); }
+  .stat-tip .tip-title { color: var(--muted); font-size: 11px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .stat-tip, .stat-tip .tip-in, .stats .guide, .stats .hover-dot, .stats .bar-hl { transition: none; }
+  }
+
+  @media (max-width: 760px) {
+    .stats-grid.two { grid-template-columns: 1fr; }
+    .kpi b { font-size: 28px; }
+  }
+</style>

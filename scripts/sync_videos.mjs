@@ -241,12 +241,13 @@ async function fetchDetailsForIds(ids) {
 // 기록은 videos.json에 안 넣고, src/data/view_history/ 폴더 안에 월별 파일(2026-10.json 등)로 따로 저장함.
 //  - 파일 하나가 GitHub 한도(50MB 경고 / 100MB push 차단)를 넘지 않도록 월 단위로 쪼갠 것
 //  - 지난 달 파일은 그 달이 지나면 다시는 안 바뀌어서, 매일 커밋되는 git diff도 "이번 달 파일" 하나로만 작게 유지됨
-// 날짜/월은 UTC 기준(toISOString). 영상 상세 페이지 쪽 파일명 규칙(src/lib/viewHistory.mjs: YYYY-MM.json)과 맞춰야 함.
+// 날짜/월은 KST(UTC+9) 기준. (2026-11-05 이전 기록은 UTC 날짜 기준으로 저장되어 있음) 영상 상세 페이지 쪽 파일명 규칙(src/lib/viewHistory.mjs: YYYY-MM.json)과 맞춰야 함.
 const HISTORY_DIR = path.join(DATA_DIR, "view_history");
 const snapshotsByMonth = {}; // { "2026-10": { youtube_id: [{date,views,likes}, ...] } } — 이번 실행 동안 메모리에 모아뒀다가 한 번에 저장
 
 function queueSnapshot(youtubeId, views, likes) {
-  const today = new Date().toISOString().slice(0, 10);
+  // KST(한국 시간) 날짜 기준으로 하루를 나눔 → 사이트의 '오늘 0시 이후 증가분'과 같은 경계
+  const today = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const month = today.slice(0, 7);
   if (!snapshotsByMonth[month]) {
     const p = path.join(HISTORY_DIR, `${month}.json`);
