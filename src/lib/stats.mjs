@@ -7,6 +7,11 @@
 
 const KST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
+// 기록이 비어 있는 날의 사유. 그래프에서 해당 날짜에 마우스를 올리면 툴팁에 함께 표시됨. (날짜는 KST, YYYY-MM-DD)
+export const KNOWN_GAPS = {
+  '2026-11-06': '페이지 대규모 업데이트로 인한 집계 오류로 기록이 없습니다',
+};
+
 export function kstDateString(date = new Date()) {
   return new Date(date.getTime() + KST_OFFSET_MS).toISOString().slice(0, 10);
 }
@@ -142,7 +147,7 @@ export function buildStats(videos, getHistory, opts = {}) {
   return {
     firstSnapshot,
     today: { date: today, views: todayViews, likes: todayLikes, yesterdayViews: dayViews[yesterday] ?? null, yesterdayLikes: dayLikes[yesterday] ?? null },
-    trend: { labels: trendDates.map(shortLabel), views: trendViews, likes: trendLikes },
+    trend: { labels: trendDates.map(shortLabel), views: trendViews, likes: trendLikes, notes: trendDates.map((d) => KNOWN_GAPS[d] ?? null) },
     daily: { labels: dailyDates.map(shortLabel), values: dailyDates.map((d) => dailyCount[d]) },
     yearly: {
       labels: yearLabels,

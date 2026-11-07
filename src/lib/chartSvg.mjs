@@ -47,7 +47,7 @@ function xLabels(labels, xOf, maxLabels) {
 }
 
 /** 영역(선) 차트. values 에 null 이 있으면 그 구간은 비워 둠. */
-export function areaChart({ id, labels, values, color, unit = '', maxLabels = 7 }) {
+export function areaChart({ id, labels, values, color, unit = '', maxLabels = 7, notes = [] }) {
   const n = values.length;
   const real = values.filter((v) => v != null);
   const max = Math.max(1, ...real) * 1.12;
@@ -91,9 +91,11 @@ export function areaChart({ id, labels, values, color, unit = '', maxLabels = 7 
   const slot = n > 1 ? (W - PAD.l - PAD.r - inset * 2) / (n - 1) : W;
   let hits = '';
   values.forEach((v, i) => {
-    const tip = v == null ? `${labels[i]} · 집계 전` : `${labels[i]} · ${fmtNum(v)}${unit}`;
+    const note = notes[i];
+    const tip = v == null ? (note ? `${labels[i]}|집계 오류|${note}` : `${labels[i]} · 집계 전`) : `${labels[i]} · ${fmtNum(v)}${unit}`;
     const x = xOf(i);
     hits += `<g class="hit-g"><rect x="${(x - slot / 2).toFixed(1)}" y="0" width="${slot.toFixed(1)}" height="${H}" class="hit" data-tip="${esc(tip)}"/>`;
+    if (v == null && note) hits += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${PAD.t}" y2="${base}" class="note-mark"/>`;
     if (v != null) {
       hits += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${PAD.t}" y2="${base}" class="guide"/><circle cx="${x.toFixed(1)}" cy="${yOf(v).toFixed(1)}" r="4" fill="${color}" class="hover-dot"/>`;
     }
