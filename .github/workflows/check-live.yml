@@ -1,8 +1,8 @@
 name: Check Live Status
 
+# 자동 예약 실행은 중지함(search.list가 호출당 100유닛이라 API 할당량 부담이 큼).
+# 필요할 때 GitHub 저장소의 Actions 탭 > Check Live Status > Run workflow 로 직접 실행.
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # 30분마다
   workflow_dispatch:
 
 permissions:
