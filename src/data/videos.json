@@ -5,8 +5,16 @@
     "covered_group": [
       "RESCENE"
     ],
-    "content_series": [],
-    "tagged_members": [],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "baek-jina",
+      "cho-yuna",
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -25,9 +33,19 @@
   {
     "youtube_id": "0oWKqEkOFQ4",
     "title": "노랫말도 너무 좋은거🥹 #DejaVu #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "baek-jina",
+      "cho-yuna",
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -46,9 +64,19 @@
   {
     "youtube_id": "NDUhp03K0Ug",
     "title": "아련~ 몽환~ 이런 컨셉 좋아해요? #DejaVu #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "RESCENE"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "baek-jina",
+      "cho-yuna",
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -71,22 +99,46 @@
       "RESCENE"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "won-jin",
-      "kim-chan",
-      "kim-nakyeong",
-      "lee-jeonghee",
-      "won-hyegyeong",
       "baek-jina",
-      "cho-yuna"
+      "cho-yuna",
+      "kim-nakyeong",
+      "won-hyegyeong",
+      "lee-jeonghee"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "baek-jina",
+        "covered_group": "RESCENE",
+        "covered_member": "리브"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "RESCENE",
+        "covered_member": "메이"
+      },
+      {
+        "member_id": "kim-nakyeong",
+        "covered_group": "RESCENE",
+        "covered_member": "미나미"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "RESCENE",
+        "covered_member": "원이"
+      },
+      {
+        "member_id": "lee-jeonghee",
+        "covered_group": "RESCENE",
+        "covered_member": "제나"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-11-06",
     "content_type": "video",
@@ -101,14 +153,14 @@
     "youtube_id": "Vh-0x-fNl_E",
     "title": "🛜 Q.어떤 멤버가 되고 싶나요? #이유빈 #성운 #주강 #종민 #Yoobin #Seongwoon #Jookhang #Jongmin",
     "covered_group": [],
-    "content_series": [],
+    "content_series": [
+      "AB:CONNECT"
+    ],
     "tagged_members": [
-      "oh-yubin",
       "lee-jongmin",
       "lee-yoobin",
       "lee-jookhang",
-      "kang-seongwoon",
-      "min"
+      "kang-seongwoon"
     ],
     "ads": [],
     "sponsors": [],
