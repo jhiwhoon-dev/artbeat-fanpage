@@ -17,8 +17,8 @@ const t = stats.today;
 const trend = stats.trend;
 const yr = stats.yearly;
 
-const trendViews = areaChart({ id: `${uid}-tv`, labels: trend.labels, values: trend.views, color: C_VIEWS, unit: '회', maxLabels: 5 });
-const trendLikes = areaChart({ id: `${uid}-tl`, labels: trend.labels, values: trend.likes, color: C_LIKES, unit: '개', maxLabels: 5 });
+const trendViews = areaChart({ id: `${uid}-tv`, labels: trend.labels, values: trend.views, notes: trend.notes, color: C_VIEWS, unit: '회', maxLabels: 5 });
+const trendLikes = areaChart({ id: `${uid}-tl`, labels: trend.labels, values: trend.likes, notes: trend.notes, color: C_LIKES, unit: '개', maxLabels: 5 });
 const daily = barChart({ id: `${uid}-dl`, labels: stats.daily.labels, values: stats.daily.values, color: C_UP, unit: '개', maxLabels: 8 });
 const yearlyUploads = barChart({ id: `${uid}-yu`, labels: yr.labels, values: yr.uploads, color: C_UP, unit: '개', maxLabels: 12, showValues: yr.labels.length <= 12 });
 const dualUpload = dualAreaChart({
@@ -194,6 +194,7 @@ const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') 
   .stats .bv { font-size: 13px; fill: var(--ink); font-family: 'Archivo', sans-serif; font-variant-numeric: tabular-nums; }
   .stats .empty { font-size: 13px; fill: var(--muted); }
   .stats .hit { fill: transparent; cursor: crosshair; }
+  .stats .note-mark { stroke: #ffb020; stroke-width: 1.5; stroke-dasharray: 3 4; opacity: .7; pointer-events: none; }
   .stats .guide { stroke: var(--muted); stroke-width: 1; opacity: 0; pointer-events: none; transition: opacity .16s ease; }
   .stats .hover-dot { opacity: 0; pointer-events: none; r: 3px; transition: opacity .16s ease, r .16s ease; }
   .stats .hit-g:hover .hover-dot { r: 5.5px; }
