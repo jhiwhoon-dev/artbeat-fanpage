@@ -1,6 +1,7 @@
 name: Fetch ARTBEAT v videos
 
 on:
+  # 2026-11-09: 예약 실행이 시작되지 않아 스케줄 재등록을 위해 수정
   schedule:
     - cron: "23 14 * * *" # 매일 UTC 14:23 = KST 23:23 (정각을 피해 지연을 줄이려는 시각)
   workflow_dispatch: {} # 필요할 때 수동으로도 실행 가능
