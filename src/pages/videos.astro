@@ -818,7 +818,7 @@ function safeJson(obj) {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 20px;
   }
-  .card { display: flex; flex-direction: column; }
+  .card { display: flex; flex-direction: column; min-width: 0; }
   .thumb-link { display: block; text-decoration: none; color: var(--ink); }
   .thumb-wrap {
     position: relative;
@@ -939,6 +939,9 @@ function safeJson(obj) {
     font-weight: 500;
     line-height: 1.4;
     margin: 10px 0 8px;
+    /* 공백 없이 긴 해시태그가 옆 카드까지 넘치지 않도록 줄바꿈 */
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag {

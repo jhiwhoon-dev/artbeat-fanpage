@@ -51,6 +51,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 function getType(v: VideoEntry) {
   return v.content_type ?? 'video';
 }
+// 쇼츠는 세로 영상이라 재생 화면과 추천 카드를 세로 비율(9:16)로 보여줌 (16:9 틀에 넣으면 과하게 확대돼 잘림)
+const isShort = getType(video) === 'short';
 const TYPE_LABEL: Record<string, string> = { video: '영상', short: '쇼츠', live: '라이브' };
 const TYPE_PAGE: Record<string, string> = { video: 'videos', short: 'shorts', live: 'live' };
 
@@ -107,7 +109,7 @@ function displayTagPath(tag: string) {
   <div class="wrap">
     <a class="back-link" href={`${base}/${TYPE_PAGE[getType(video)] ?? 'videos'}`}>← {TYPE_LABEL[getType(video)] ?? '영상'} 목록으로</a>
 
-    <div class="player-wrap">
+    <div class={`player-wrap${isShort ? ' is-short' : ''}`}>
       <iframe
         src={`https://www.youtube.com/embed/${video.youtube_id}`}
         title={video.title}
@@ -189,7 +191,7 @@ function displayTagPath(tag: string) {
         <h2>추천 영상</h2>
         <div class="related-grid">
           {related.map((v) => (
-            <a class="related-card" href={`${base}/videos/${v.youtube_id}`}>
+            <a class={`related-card${v.content_type === 'short' ? ' short' : ''}`} href={`${base}/videos/${v.youtube_id}`}>
               <div class="related-thumb-wrap">
                 <img
                   class="related-thumb"
@@ -222,9 +224,10 @@ function displayTagPath(tag: string) {
     overflow: hidden;
     margin: 20px 0;
   }
+  .player-wrap.is-short { aspect-ratio: 9 / 16; width: min(100%, 360px, calc(80vh * 9 / 16)); margin: 20px auto; }
   .player-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
-  h1 { font-size: 22px; margin: 0 0 12px; line-height: 1.4; }
+  h1 { font-size: 22px; margin: 0 0 12px; line-height: 1.4; overflow-wrap: anywhere; }
   .meta-row {
     display: flex;
     flex-wrap: wrap;
@@ -280,6 +283,8 @@ function displayTagPath(tag: string) {
   }
   .related-card { text-decoration: none; color: inherit; display: block; }
   .related-thumb-wrap { aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; background: #1a1a1c; }
+  .related-card.short { max-width: 160px; }
+  .related-card.short .related-thumb-wrap { aspect-ratio: 9/16; }
   .related-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
   .related-title {
     font-size: 12px;
@@ -289,6 +294,7 @@ function displayTagPath(tag: string) {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    overflow-wrap: anywhere;
   }
   .related-meta { font-size: 11px; color: var(--muted); margin: 0; }
 </style>
