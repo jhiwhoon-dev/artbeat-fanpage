@@ -2,7 +2,8 @@ name: Sync Videos
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 매일 UTC 15:00 = 한국 시간 00:00
+    # 정각/30분은 GitHub 예약 실행이 몰려 지연되기 쉬워 어중간한 분으로 지정. 시각은 UTC(= KST - 9시간)
+    - cron: '33 14,21,3,9 * * *'  # KST 23:33, 06:33, 12:33, 18:33
   workflow_dispatch:       # Actions 탭에서 수동 실행 버튼도 생김
 
 permissions:
@@ -29,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/videos.json src/data/view_history
+          git add src/data/videos.json src/data/view_history src/data/sync_meta.json
           git diff --cached --quiet || git commit -m "chore: 영상 목록/조회수 자동 동기화"
           git pull --rebase origin main
           git push

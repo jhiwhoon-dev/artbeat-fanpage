@@ -2,7 +2,7 @@ name: Fetch ARTBEAT v videos
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 매일 UTC 15:00 = KST 00:00, 기존 fetch-videos.yml과 같은 시간
+    - cron: "23 14 * * *" # 매일 UTC 14:23 = KST 23:23 (정각을 피해 지연을 줄이려는 시각)
   workflow_dispatch: {} # 필요할 때 수동으로도 실행 가능
 
 jobs:
