@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import MemberCard from '../../components/MemberCard.astro';
+import VideoTrend from '../../components/VideoTrend.astro';
 import allVideos from '../../data/videos.json';
 import { getViewHistory } from '../../lib/viewHistory.mjs';
 import members from '../../data/members.json';
@@ -85,25 +86,6 @@ const related = (allVideos as VideoEntry[])
 // 영상 페이지가 수천 개라서, 파일 읽기는 페이지마다 하지 않고 src/lib/viewHistory.mjs가 빌드 한 번에 딱 한 번만 읽어 둠.
 // (ARTBEAT v 영상은 이 기록 대상이 아님 — allVideos에 애초에 안 들어있음)
 const history: ViewSnapshot[] = getViewHistory(video.youtube_id);
-const hasTrend = history.length >= 2;
-
-// 추이 그래프 좌표 계산 (members 페이지 그래프와 같은 방식)
-const CHART_W = 900, CHART_H = 200, PAD_L = 44, PAD_B = 24, PAD_T = 20, PAD_R = 12;
-function buildTrendPath(key: 'views' | 'likes') {
-  const vals = history.map((h) => h[key]);
-  const max = Math.max(1, ...vals);
-  const min = Math.min(...vals);
-  const range = Math.max(1, max - min);
-  return history.map((h, i) => {
-    const x = PAD_L + (history.length > 1 ? (i / (history.length - 1)) * (CHART_W - PAD_L - PAD_R) : 0);
-    const y = CHART_H - PAD_B - ((h[key] - min) / range) * (CHART_H - PAD_B - PAD_T);
-    return { x, y, v: h[key], date: h.date };
-  });
-}
-const viewPts = hasTrend ? buildTrendPath('views') : [];
-const likePts = hasTrend ? buildTrendPath('likes') : [];
-const viewPathD = viewPts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
-const likePathD = likePts.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
 
 function formatDuration(seconds?: number) {
   if (!seconds || seconds <= 0) return null;
@@ -164,26 +146,7 @@ function displayTagPath(tag: string) {
       {(video.support ?? []).length > 0 && <span class="tag tag-support">지원 · {(video.support ?? []).join(', ')}</span>}
     </div>
 
-    <section class="block">
-      <h2>조회수 · 좋아요 추이</h2>
-      {hasTrend ? (
-        <>
-          <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} class="chart-svg">
-            <line x1={PAD_L} y1={CHART_H - PAD_B} x2={CHART_W - PAD_R} y2={CHART_H - PAD_B} class="chart-axis" />
-            <polyline points={viewPathD} fill="none" stroke="#22d3ee" stroke-width="2.5" />
-            <polyline points={likePathD} fill="none" stroke="#f472b6" stroke-width="2.5" />
-            <text x={PAD_L} y={CHART_H - 6} class="chart-label">{history[0]?.date}</text>
-            <text x={CHART_W - PAD_R} y={CHART_H - 6} class="chart-label" text-anchor="end">{history[history.length - 1]?.date}</text>
-          </svg>
-          <div class="chart-legend">
-            <span class="legend-item"><span class="legend-dot" style="background:#22d3ee"></span>조회수 (최근 {history[history.length-1]?.views.toLocaleString()}회)</span>
-            <span class="legend-item"><span class="legend-dot" style="background:#f472b6"></span>좋아요 (최근 {history[history.length-1]?.likes.toLocaleString()}개)</span>
-          </div>
-        </>
-      ) : (
-        <p class="empty">아직 추이를 그릴 만큼 데이터가 쌓이지 않았어요. 매일 자동으로 기록되니, 며칠 뒤에 다시 확인해주세요.</p>
-      )}
-    </section>
+    <VideoTrend history={history} />
 
     {(roleEntries.length > 0 || plainMainMembers.length > 0 || specialMembers.length > 0) && (
       <section class="block">
@@ -299,12 +262,6 @@ function displayTagPath(tag: string) {
   .block h2 { font-size: 15px; margin: 0 0 16px; }
   .empty { color: var(--muted); font-size: 13px; }
 
-  .chart-svg { width: 100%; height: auto; display: block; }
-  .chart-axis { stroke: var(--line); stroke-width: 1; }
-  .chart-label { font-size: 10px; fill: var(--muted); font-family: 'Archivo', sans-serif; }
-  .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
-  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
-  .legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
 
   .sub-label { font-size: 12px; color: var(--muted); margin: 20px 0 10px; }
   .role-grid {

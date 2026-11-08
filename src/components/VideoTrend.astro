@@ -1,0 +1,223 @@
+---
+// 영상 상세 페이지의 "조회수 · 좋아요 추이" 구역.
+//  - 요약 카드: 현재 값 + 전일 대비 증가율(옆에 증가 개수)
+//  - 전체 기간 누적 그래프 (왼쪽 축 조회수 / 오른쪽 축 좋아요) + 가장 가파른 시기(최고 증가율)
+//  - 최근 일별 증가량/증가율 그래프 (꺾은선/막대, 7/14/30일 전환)
+// 계산과 SVG 생성은 src/lib/trendChart.mjs, 디자인은 videos/shorts 탭의 StatsPanel과 같은 톤.
+// 기본 상태는 전부 빌드 때 그려져 있고, 아래 스크립트는 툴팁과 일별 그래프 전환만 담당 (그래서 페이지당 데이터가 가벼움).
+import { buildModel, summaryCard, peakBanner, areaSvg, dailySvg, dailyCaption, lab } from '../lib/trendChart.mjs';
+
+interface Props {
+  history: { date: string; views: number; likes: number }[];
+}
+const { history } = Astro.props as Props;
+
+const DEFAULT_WIN = 14;
+const m = history.length >= 1 ? buildModel(history.map((h) => h.date), history.map((h) => h.views), history.map((h) => h.likes)) : null;
+const hasTrend = history.length >= 2 && m !== null;
+const N = m ? m.days.length : 0;
+const w = Math.min(DEFAULT_WIN, N);
+const s0 = N - w;
+const payload = hasTrend ? JSON.stringify({ d: history.map((h) => h.date), v: history.map((h) => h.views), l: history.map((h) => h.likes) }) : '';
+const rangeText = hasTrend && m ? `기록 기간 ${m.dates[0].replaceAll('-', '.')} ~ ${m.dates[m.n - 1].replaceAll('-', '.')}` : '';
+const seg = (name: string, items: [string | number, string][], cur: string | number) =>
+  items.map(([v, t]) => `<button type="button" data-${name}="${v}" class="${String(cur) === String(v) ? 'on' : ''}">${t}</button>`).join('');
+---
+
+<section class="block vt" data-vt={payload}>
+  <h2>조회수 · 좋아요 추이{rangeText && <span class="vt-sub">{rangeText}</span>}</h2>
+
+  {m && (
+    <div class="vt-grid2">
+      <Fragment set:html={summaryCard(m, 'v')} />
+      <Fragment set:html={summaryCard(m, 'l')} />
+    </div>
+  )}
+
+  {hasTrend && m ? (
+    <>
+      <article class="vt-card vt-wide">
+        <header><span class="l">전체 기간 누적 조회수 · 좋아요</span></header>
+        <Fragment set:html={peakBanner(m)} />
+        <Fragment set:html={areaSvg(m)} />
+        <div class="vt-legend">
+          <span><i style={`background:#4cc2ff`}></i>조회수</span>
+          <span><i style={`background:#ff6fa5`}></i>좋아요</span>
+          {(m.peakV >= 0 || m.peakL >= 0) && <span><i class="band" style={`background:${m.peakV >= 0 ? '#4cc2ff' : '#ff6fa5'}`}></i>최고 증가율 구간</span>}
+        </div>
+      </article>
+
+      <div class="vt-row">
+        <h3><span class="vt-t-kind">최근 일별 증가량</span><span class="vt-sub vt-t-win">최근 {w}일</span></h3>
+        <div class="vt-ctl">
+          <div class="vt-seg" data-ctl="m" set:html={seg('m', [['count', '증가량'], ['rate', '증가율']], 'count')} />
+          <div class="vt-seg" data-ctl="s" set:html={seg('s', [['line', '꺾은선'], ['bar', '막대']], 'line')} />
+          <div class="vt-seg" data-ctl="w" set:html={seg('w', [[7, '7일'], [14, '14일'], [30, '30일']], DEFAULT_WIN)} />
+        </div>
+      </div>
+      <div class="vt-grid2">
+        <article class="vt-card"><header><span class="l"><span class="dot" style="background:#4cc2ff"></span><span class="vt-t-dv">일별 조회수 증가량</span></span></header><div data-slot="dv" set:html={dailySvg(m, 'dv', 'count', s0, 'line')} /></article>
+        <article class="vt-card"><header><span class="l"><span class="dot" style="background:#ff6fa5"></span><span class="vt-t-dl">일별 좋아요 증가량</span></span></header><div data-slot="dl" set:html={dailySvg(m, 'dl', 'count', s0, 'line')} /></article>
+      </div>
+      <p class="vt-cap">{dailyCaption(m, s0)}</p>
+    </>
+  ) : (
+    <p class="vt-empty">아직 추이를 그릴 만큼 데이터가 쌓이지 않았어요. 하루에 여러 번 자동으로 기록되니, 며칠 뒤에 다시 확인해주세요.</p>
+  )}
+
+  <div class="vt-tip" aria-hidden="true"><div class="tip-in"></div></div>
+</section>
+
+<script>
+  import { buildModel, dailySvg, areaTip, dailyTip, dailyCaption } from '../lib/trendChart.mjs';
+
+  document.querySelectorAll<HTMLElement>('.vt[data-vt]').forEach((root) => {
+    if (!root.dataset.vt) return;
+    const data = JSON.parse(root.dataset.vt) as { d: string[]; v: number[]; l: number[] };
+    const m = buildModel(data.d, data.v, data.l);
+    const tip = root.querySelector<HTMLElement>('.vt-tip')!;
+    const inner = tip.querySelector<HTMLElement>('.tip-in')!;
+    let mode = 'count';
+    let shape = 'line';
+    let win = 14;
+
+    const hide = () => {
+      tip.classList.remove('on');
+      root.querySelectorAll('.guide.on, .hdot.on').forEach((el) => el.classList.remove('on'));
+    };
+    const show = (e: PointerEvent, html: string) => {
+      inner.innerHTML = html;
+      tip.classList.add('on');
+      const tw = tip.offsetWidth;
+      const th = tip.offsetHeight;
+      const x = Math.max(6, Math.min(e.clientX + 14, window.innerWidth - tw - 6));
+      const y = Math.max(6, e.clientY - th - 14);
+      tip.style.transform = `translate(${x}px, ${y}px)`;
+    };
+
+    const draw = () => {
+      const w = Math.min(win, m.days.length);
+      const s0 = m.days.length - w;
+      const kind = mode === 'rate' ? '증가율' : '증가량';
+      (root.querySelector('[data-slot="dv"]') as HTMLElement).innerHTML = dailySvg(m, 'dv', mode, s0, shape);
+      (root.querySelector('[data-slot="dl"]') as HTMLElement).innerHTML = dailySvg(m, 'dl', mode, s0, shape);
+      root.querySelector('.vt-t-kind')!.textContent = `최근 일별 ${kind}`;
+      root.querySelector('.vt-t-win')!.textContent = `최근 ${w}일`;
+      root.querySelector('.vt-t-dv')!.textContent = `일별 조회수 ${kind}`;
+      root.querySelector('.vt-t-dl')!.textContent = `일별 좋아요 ${kind}`;
+      root.querySelector('.vt-cap')!.textContent = dailyCaption(m, s0);
+      hide();
+    };
+
+    root.addEventListener('click', (e) => {
+      const b = (e.target as Element).closest<HTMLButtonElement>('.vt-seg button');
+      if (!b) return;
+      if (b.dataset.m) mode = b.dataset.m;
+      if (b.dataset.s) shape = b.dataset.s;
+      if (b.dataset.w) win = Number(b.dataset.w);
+      b.parentElement!.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
+      draw();
+    });
+
+    root.addEventListener('pointermove', (e) => {
+      const hit = (e.target as Element).closest?.('.hit') as SVGElement | null;
+      if (!hit) return hide();
+      const svg = hit.closest('svg') as SVGElement;
+      const guide = svg.querySelector('.guide') as SVGElement;
+      root.querySelectorAll('.guide.on, .hdot.on').forEach((el) => el.classList.remove('on'));
+      if (svg.classList.contains('vt-area')) {
+        const i = Number(hit.dataset.i);
+        const has = hit.dataset.yv !== '';
+        if (has) {
+          guide.setAttribute('x1', hit.dataset.x!);
+          guide.setAttribute('x2', hit.dataset.x!);
+          guide.classList.add('on');
+          (['dv', 'dl'] as const).forEach((c) => {
+            const dot = svg.querySelector('.hdot.' + c) as SVGElement;
+            dot.setAttribute('cx', hit.dataset.x!);
+            dot.setAttribute('cy', c === 'dv' ? hit.dataset.yv! : hit.dataset.yl!);
+            dot.classList.add('on');
+          });
+        }
+        show(e as PointerEvent, areaTip(m, i));
+      } else {
+        guide.setAttribute('x1', hit.dataset.x!);
+        guide.setAttribute('x2', hit.dataset.x!);
+        guide.classList.add('on');
+        show(e as PointerEvent, dailyTip(m, svg.dataset.key!, Number(hit.dataset.b)));
+      }
+    });
+    root.addEventListener('pointerleave', hide);
+  });
+</script>
+
+<style is:global>
+  .vt { --vt-views: #4cc2ff; --vt-likes: #ff6fa5; --vt-up: #4ade80; --vt-down: #ff6b6b; --vt-warn: #ffb020; --vt-grid: #26262c; }
+  .vt h2 .vt-sub, .vt h3 .vt-sub { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+  .vt-grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .vt-card { background: #131318; border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 14px; min-width: 0; }
+  .vt-wide { margin-top: 14px; }
+  .vt-card header { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .vt-card header .l { display: flex; align-items: center; gap: 8px; }
+  .vt .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .vt-kpi { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+  .vt-kpi b { font-size: 30px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .vt-kpi span { font-size: 13px; color: var(--muted); }
+  .vt-delta { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-top: 6px; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .vt-delta b { font-weight: 700; }
+  .vt-delta .cnt { color: var(--muted); font-size: 13px; }
+  .vt-delta .base { color: var(--muted); font-size: 11px; }
+  .vt .up { color: var(--vt-up); } .vt .down { color: var(--vt-down); } .vt .flat { color: var(--muted); }
+
+  .vt-peaks { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 12px; }
+  .vt-pk { display: flex; flex-direction: column; gap: 2px; padding: 10px 14px; border-radius: 12px; background: #17171d; border-left: 3px solid var(--c, var(--line)); }
+  .vt-pk span { font-size: 11px; color: var(--muted); }
+  .vt-pk b { font-size: 20px; color: var(--c); font-variant-numeric: tabular-nums; }
+  .vt-pk em { font-style: normal; font-size: 12px; color: var(--muted); line-height: 1.45; }
+
+  .vt-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; font-size: 12px; color: var(--muted); }
+  .vt-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .vt-legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .vt-legend i.band { height: 10px; opacity: .35; }
+  .vt-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 26px 0 12px; }
+  .vt-row h3 { font-size: 15px; margin: 0; }
+  .vt-ctl { display: flex; flex-wrap: wrap; gap: 8px; }
+  .vt-seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; background: #131318; }
+  .vt-seg button { font: inherit; font-size: 12px; padding: 4px 12px; border-radius: 999px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+  .vt-seg button.on { background: var(--ink); color: #0e0e10; font-weight: 600; }
+  .vt-seg button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .vt-cap { font-size: 11px; color: var(--muted); margin: 8px 0 0; opacity: .85; line-height: 1.5; }
+  .vt-empty { color: var(--muted); font-size: 13px; padding: 14px 4px 0; margin: 0; }
+
+  .vt svg { width: 100%; height: auto; display: block; overflow: visible; }
+  .vt .gridl { stroke: var(--vt-grid); stroke-width: 1; stroke-dasharray: 3 5; }
+  .vt .gridl.solid { stroke: var(--line); stroke-dasharray: none; }
+  .vt .vt-line { fill: none; stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+  .vt .xl { font-size: 10px; fill: var(--muted); }
+  .vt .tick { font-size: 10px; font-variant-numeric: tabular-nums; }
+  .vt .vt-area .tick, .vt .vt-area .xl { font-size: 7px; }
+  .vt .callout { font-size: 10px; font-weight: 700; }
+  .vt .hit { fill: transparent; cursor: crosshair; }
+  .vt .note-mark { stroke: var(--vt-warn); stroke-width: 1.5; stroke-dasharray: 3 4; opacity: .7; }
+  .vt .guide { stroke: var(--muted); stroke-width: 1; opacity: 0; transition: opacity .16s; }
+  .vt .guide.on { opacity: 1; }
+  .vt .hdot { opacity: 0; transition: opacity .16s; }
+  .vt .hdot.on { opacity: 1; }
+
+  .vt-tip { position: fixed; left: 0; top: 0; z-index: 30; pointer-events: none; white-space: nowrap; background: #1c1c22; border: 1px solid var(--line); border-radius: 10px;
+    padding: 7px 11px; font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; box-shadow: 0 8px 22px rgba(0,0,0,.5); opacity: 0; transition: opacity .16s ease; }
+  .vt-tip.on { opacity: 1; }
+  .vt-tip .tip-in { transform: translateY(6px); transition: transform .18s ease; }
+  .vt-tip.on .tip-in { transform: translateY(0); }
+  .vt-tip .t { color: var(--muted); font-size: 11px; }
+  .vt-tip .w { color: var(--vt-warn); }
+
+  @media (max-width: 760px) {
+    .vt-grid2, .vt-peaks { grid-template-columns: 1fr; }
+    .vt-kpi b { font-size: 26px; }
+    .vt .xl, .vt .tick, .vt .vt-area .tick, .vt .vt-area .xl { font-size: 15px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .vt-tip, .vt-tip .tip-in, .vt .guide, .vt .hdot { transition: none; }
+  }
+</style>
