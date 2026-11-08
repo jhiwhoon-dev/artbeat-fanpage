@@ -6,8 +6,14 @@
 // 그래프는 빌드 때 SVG 문자열로 만들어져서(src/lib/chartSvg.mjs) 자바스크립트 없이도 보이고,
 // 아래 스크립트는 호버 툴팁만 담당함.
 import { areaChart, barChart, dualAreaChart, fmtNum } from '../lib/chartSvg.mjs';
+import syncMeta from '../data/sync_meta.json';
 
 const { stats, label = 'Video', uid = 'v' } = Astro.props;
+
+// 마지막 수집 시각(KST). src/data/sync_meta.json은 sync_videos.mjs가 수집할 때마다 갱신함.
+const syncedAt = syncMeta?.videos_synced_at
+  ? new Date(new Date(syncMeta.videos_synced_at).getTime() + 9 * 60 * 60 * 1000).toISOString().slice(5, 16).replace('T', ' ').replace('-', '.')
+  : null;
 
 const C_VIEWS = '#4cc2ff';
 const C_LIKES = '#ff6fa5';
@@ -47,7 +53,7 @@ const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') 
 
 <section class="stats" data-stats aria-label={`${label} 통계`}>
   <div class="stats-group">
-    <h2 class="stats-h">오늘 <span class="stats-sub">{t.date.replace(/-/g, '.')} 0시(KST) 이후 증가분</span></h2>
+    <h2 class="stats-h">오늘 <span class="stats-sub">{t.date.replace(/-/g, '.')} 0시(KST) 이후 증가분</span>{syncedAt && <span class="stats-sub">마지막 수집 {syncedAt} KST</span>}</h2>
     <div class="stats-grid two">
       <article class="stat-card">
         <header><span class="dot" style={`background:${C_VIEWS}`}></span>오늘 누적 조회수</header>

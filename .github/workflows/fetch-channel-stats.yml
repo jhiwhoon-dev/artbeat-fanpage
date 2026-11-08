@@ -2,7 +2,7 @@ name: Fetch Channel Stats
 
 on:
   schedule:
-    - cron: "10 15 * * *" # 매일 UTC 15:10 = KST 00:10 — 다른 동기화(15:00)와 겹치지 않게 10분 늦춤
+    - cron: "13 14 * * *" # 매일 UTC 14:13 = KST 23:13 (정각을 피해 지연을 줄이려는 시각, 다른 동기화와 10분 간격)
   workflow_dispatch: {}
 
 jobs:

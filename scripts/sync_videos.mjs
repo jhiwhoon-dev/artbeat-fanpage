@@ -9,6 +9,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { snapshotDate } from "./snapshot_date.mjs";
 
 const CHANNEL_ID = "UCgZlBRLRB1-0l-qL9BkecLQ"; // ARTBEAT (@artbeat.official)
 const UPLOADS_PLAYLIST_ID = CHANNEL_ID.replace(/^UC/, "UU");
@@ -247,7 +248,8 @@ const snapshotsByMonth = {}; // { "2026-10": { youtube_id: [{date,views,likes}, 
 
 function queueSnapshot(youtubeId, views, likes) {
   // KST(한국 시간) 날짜 기준으로 하루를 나눔 → 사이트의 '오늘 0시 이후 증가분'과 같은 경계
-  const today = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  // 예약 실행이 자정을 넘겨 늦게 돌면(00:00~06:00 KST) 전날 최종 수집으로 취급함 (scripts/snapshot_date.mjs)
+  const today = snapshotDate();
   const month = today.slice(0, 7);
   if (!snapshotsByMonth[month]) {
     const p = path.join(HISTORY_DIR, `${month}.json`);
@@ -400,6 +402,8 @@ async function main() {
 
   flushSnapshots(); // 이번 실행에서 모아둔 연도별 조회수/좋아요 스냅샷을 파일로 저장
   fs.writeFileSync(VIDEOS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf-8");
+  // 사이트의 "마지막 수집 시각" 표시용 (src/data/sync_meta.json)
+  fs.writeFileSync(path.join(DATA_DIR, "sync_meta.json"), JSON.stringify({ videos_synced_at: new Date().toISOString() }, null, 2) + "\n", "utf-8");
   console.log(`\n완료: 신규 ${addedCount}개, 기존 갱신 ${updatedCount}개(그중 자동 보완 ${backfilledCount}개), 총 ${merged.length}개`);
 
   if (privacyAlerts.length > 0) {
