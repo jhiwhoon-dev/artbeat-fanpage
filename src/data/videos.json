@@ -6,30 +6,46 @@
       "ILLIT"
     ],
     "content_series": [
-      "여기서요?"
+      "여기서요?::2026y"
     ],
     "tagged_members": [
-      "won-jin",
-      "kim-minju",
-      "oh-yubin",
       "kang-yejin",
-      "kim-chan",
-      "won-hyegyeong",
       "cho-yuna",
-      "lee-jongmin",
-      "lee-yoobin",
       "baek-seoyoon",
-      "lee-jookhang",
-      "kang-seongwoon",
-      "minju",
-      "min"
+      "won-hyegyeong"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "kang-yejin",
+        "covered_group": "ILLIT",
+        "covered_member": "민주"
+      },
+      {
+        "member_id": "cho-yuna",
+        "covered_group": "ILLIT",
+        "covered_member": "원희"
+      },
+      {
+        "member_id": "baek-seoyoon",
+        "covered_group": "ILLIT",
+        "covered_member": "윤아"
+      },
+      {
+        "member_id": "won-hyegyeong",
+        "covered_group": "ILLIT",
+        "covered_member": "이로하"
+      }
+    ],
+    "special_dancers": [
+      "lee-jongmin",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kang-seongwoon"
+    ],
     "published_date": "2026-11-08",
     "content_type": "video",
     "view_count": 1738,
@@ -42,15 +58,63 @@
   {
     "youtube_id": "M4sD8gMLQPE",
     "title": "뭔가 자연스러워진 막내 듀오 #FLIRTY #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-wina",
+      "yang-hwanhee",
+      "jeong-yoojin",
+      "ahn-gihyun",
+      "jeong-gyeolgyeong",
+      "chae-yunsu"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
+    ],
+    "special_dancers": [
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
+    ],
     "published_date": "2026-11-08",
     "content_type": "short",
     "view_count": 6103,
@@ -63,15 +127,63 @@
   {
     "youtube_id": "FsY61G02Q2I",
     "title": "마지막 비명 찐이네ㅋㅋㅋㅋ #FLIRTY #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-wina",
+      "yang-hwanhee",
+      "jeong-yoojin",
+      "ahn-gihyun",
+      "jeong-gyeolgyeong",
+      "chae-yunsu"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
+    ],
+    "special_dancers": [
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
+    ],
     "published_date": "2026-11-08",
     "content_type": "short",
     "view_count": 6875,
@@ -84,9 +196,18 @@
   {
     "youtube_id": "11sLdtE2tzY",
     "title": "놔.. 이 언니들이 먼저 꼬셨어 #FLIRTY #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "DAYOUNG",
+      "박재범"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "lee-wina",
+      "jeong-yoojin",
+      "jeong-gyeolgyeong"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -105,9 +226,19 @@
   {
     "youtube_id": "xdcfz-41dNs",
     "title": "이런 명곡은 한국에도 내달라구요 #세츠나하나비 #ARTBEAT #방구석여기서요",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "투모로우바이투게더"
+    ],
+    "content_series": [
+      "방구석 여기서요?::S24"
+    ],
+    "tagged_members": [
+      "yamamoto-leno",
+      "jung-siyun",
+      "lee-yejin",
+      "kim-yonghyeon",
+      "kang-seongwoon"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
@@ -127,27 +258,49 @@
     "youtube_id": "DucNp_mlMds",
     "title": "[방구석 여기서요?] NCT 127 - Blingy | 커버댄스 Dance Cover",
     "covered_group": [
-      "태용",
-      "NCT",
-      "NCT 127"
+      "NCT::NCT 127"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "kang-taehyun",
-      "lee-garam",
-      "oh-yubin",
-      "kim-chan",
       "lee-yoobin",
+      "kang-taehyun",
+      "kim-jeongseo",
+      "lee-garam",
       "lee-jookhang"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-garam",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "태용"
+      },
+      {
+        "member_id": "kang-taehyun",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "재현"
+      },
+      {
+        "member_id": "lee-jookhang",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "해찬"
+      },
+      {
+        "member_id": "lee-yoobin",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "유타"
+      },
+      {
+        "member_id": "kim-jeongseo",
+        "covered_group": "NCT::NCT 127",
+        "covered_member": "쟈니"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-11-08",
     "content_type": "video",
@@ -161,15 +314,29 @@
   {
     "youtube_id": "Uy2jA1pvxrc",
     "title": "체포를 시작하겠습니다👮🏻 #체포하겠어 #릴레이댄스 #relaydance",
-    "covered_group": [],
-    "content_series": [],
-    "tagged_members": [],
+    "covered_group": [
+      "ILLIT"
+    ],
+    "content_series": [
+      "릴레이 댄스::2026y"
+    ],
+    "tagged_members": [
+      "kang-yejin",
+      "cho-yuna",
+      "baek-seoyoon",
+      "won-hyegyeong"
+    ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
     "role_mapping": [],
-    "special_dancers": [],
+    "special_dancers": [
+      "lee-jongmin",
+      "lee-jookhang",
+      "lee-yoobin",
+      "kang-seongwoon"
+    ],
     "published_date": "2026-11-07",
     "content_type": "short",
     "view_count": 72102,
@@ -183,31 +350,62 @@
     "youtube_id": "OoNztbCXxPA",
     "title": "[방구석 여기서요?] DAYOUNG X JAY PARK - FLIRTY | 커버댄스 Dance Cover",
     "covered_group": [
-      "DAYOUNG"
+      "DAYOUNG",
+      "박재범"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "kim-jeongseo",
-      "chae-yunsu",
-      "ahn-gihyun",
-      "yang-hwanhee",
-      "cho-gyuso",
-      "jeong-gyeolgyeong",
-      "kim-chan",
-      "won-seoa",
-      "jeong-yoojin",
       "lee-wina",
-      "won-hyegyeong",
-      "yunsu"
+      "yang-hwanhee",
+      "jeong-yoojin",
+      "ahn-gihyun",
+      "jeong-gyeolgyeong",
+      "chae-yunsu"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
-    "special_dancers": [],
+    "role_mapping": [
+      {
+        "member_id": "lee-wina",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "yang-hwanhee",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-yoojin",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "ahn-gihyun",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      },
+      {
+        "member_id": "jeong-gyeolgyeong",
+        "covered_group": "DAYOUNG",
+        "covered_member": "DAYOUNG"
+      },
+      {
+        "member_id": "chae-yunsu",
+        "covered_group": "박재범",
+        "covered_member": "박재범"
+      }
+    ],
+    "special_dancers": [
+      "won-seoa",
+      "kim-jeongseo",
+      "won-hyegyeong",
+      "cho-gyuso"
+    ],
     "published_date": "2026-11-07",
     "content_type": "video",
     "view_count": 90942,
@@ -221,30 +419,49 @@
     "youtube_id": "TIO9gsGh9cE",
     "title": "[방구석 여기서요?] TXT - セツナハナビ | 커버댄스 Dance Cover",
     "covered_group": [
-      "YEONJUN",
-      "카이",
       "투모로우바이투게더"
     ],
     "content_series": [
-      "방구석 여기서요?"
+      "방구석 여기서요?::S24"
     ],
     "tagged_members": [
-      "kang-taehyun",
       "yamamoto-leno",
-      "kim-chan",
-      "lee-yejin",
       "jung-siyun",
+      "lee-yejin",
       "kim-yonghyeon",
-      "kang-seongwoon",
-      "kim-suvin",
-      "soobin",
-      "park-subin"
+      "kang-seongwoon"
     ],
     "ads": [],
     "sponsors": [],
     "support": [],
     "choreography": [],
-    "role_mapping": [],
+    "role_mapping": [
+      {
+        "member_id": "jung-siyun",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "수빈"
+      },
+      {
+        "member_id": "kang-seongwoon",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "휴닝카이"
+      },
+      {
+        "member_id": "kim-yonghyeon",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "태현"
+      },
+      {
+        "member_id": "yamamoto-leno",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "범규"
+      },
+      {
+        "member_id": "lee-yejin",
+        "covered_group": "투모로우바이투게더",
+        "covered_member": "연준"
+      }
+    ],
     "special_dancers": [],
     "published_date": "2026-11-07",
     "content_type": "video",
