@@ -117,7 +117,7 @@ export function peakBanner(m) {
     const to = m[key][m.dates.indexOf(m.days[i])];
     return (
       `<div class="vt-pk" style="--c:${COL[k]}"><span>${nm} 최고 증가율</span><b>▲ ${pct(st[rk])}</b>` +
-      `<em>${lab(m.days[i])} · +${fmt(st[dk])}${u} (${fmt(from)} → ${fmt(to)})</em></div>`
+      `<em title="${lab(m.days[i])} · +${fmt(st[dk])}${u} (${fmt(from)} → ${fmt(to)})">${lab(m.days[i])} · +${fmt(st[dk])}${u} (${fmt(from)} → ${fmt(to)})</em></div>`
     );
   };
   return `<div class="vt-peaks">${mk('v', m.peakV, 'rv', 'dv', 'views', '조회수', '회')}${mk('l', m.peakL, 'rl', 'dl', 'likes', '좋아요', '개')}</div>`;
