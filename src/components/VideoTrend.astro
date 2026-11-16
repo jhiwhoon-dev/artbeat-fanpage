@@ -170,7 +170,21 @@ const seg = (name: string, items: [string | number, string][], cur: string | num
   .vt .up { color: var(--vt-up); } .vt .down { color: var(--vt-down); } .vt .flat { color: var(--muted); }
 
   .vt-peaks { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 12px; }
-  .vt-pk { display: flex; flex-direction: column; gap: 2px; padding: 10px 14px; border-radius: 12px; background: #17171d; border-left: 3px solid var(--c, var(--line)); }
+  /* 최고 증가율 칸: ARTBEAT 로고(B) 모양. 왼쪽 사선·오른쪽 B 곡선은 칸 높이에 맞춰 비율 그대로 크기만 바뀌고,
+     위·아래 직선 구간만 가로로 늘어남. 로고 이미지 외곽선을 추출해 만든 마스크(원본 대비 오차 0.04%).
+     --pk-l: 왼쪽 사선 바깥 삼각형, --pk-r: 오른쪽 B 곡선 바깥 영역(오른쪽 끝에 머리카락 선이 생기지 않게 높이의 2.5%만큼 칸 바깥까지 덮음) → 전체에서 두 영역을 빼서(exclude) 모양을 만듦 */
+  .vt-pk {
+    --pk-l: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='37.82' height='100' viewBox='0 0 37.82 100'%3E%3Cpath d='M0 0H37.82L0 100Z'/%3E%3C/svg%3E");
+    --pk-r: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='37.57' height='100' viewBox='0 0 37.57 100'%3E%3Cpath d='M0.72 0C1.73 0.09 5.07 0.36 6.80 0.57C8.53 0.77 9.70 0.94 11.11 1.24C12.52 1.55 14.00 1.96 15.24 2.38C16.47 2.79 17.48 3.21 18.54 3.73C19.60 4.26 20.58 4.79 21.61 5.54C22.64 6.30 23.85 7.35 24.72 8.26C25.59 9.16 26.26 10.11 26.83 10.97C27.41 11.84 27.73 12.37 28.18 13.46C28.63 14.56 29.24 16.37 29.56 17.53C29.87 18.70 29.93 19.34 30.06 20.48C30.18 21.61 30.31 22.96 30.31 24.32C30.31 25.68 30.19 27.45 30.07 28.62C29.94 29.79 29.76 30.54 29.57 31.33C29.38 32.13 29.32 32.47 28.94 33.37C28.57 34.28 28.03 35.63 27.33 36.76C26.62 37.90 25.65 39.14 24.69 40.16C23.72 41.18 22.81 41.97 21.53 42.87C20.25 43.78 17.77 45.14 17.02 45.59C17.82 45.93 20.57 47.02 21.83 47.62C23.09 48.23 23.56 48.49 24.58 49.21C25.60 49.92 27.04 51.06 27.96 51.92C28.88 52.79 29.38 53.39 30.10 54.41C30.82 55.43 31.66 56.75 32.29 58.03C32.91 59.31 33.47 60.86 33.86 62.10C34.25 63.35 34.42 64.06 34.62 65.50C34.82 66.93 35.06 68.85 35.06 70.70C35.06 72.55 34.82 75.04 34.62 76.58C34.41 78.13 34.10 79.03 33.84 79.98C33.57 80.92 33.37 81.41 33.01 82.24C32.65 83.07 32.16 84.09 31.67 84.95C31.17 85.82 30.86 86.43 30.05 87.44C29.24 88.46 27.76 90.12 26.80 91.06C25.84 92.01 25.06 92.53 24.30 93.10C23.54 93.67 23.08 93.97 22.24 94.46C21.41 94.95 20.32 95.55 19.27 96.04C18.22 96.53 17.48 96.91 15.96 97.40C14.45 97.89 12.29 98.55 10.17 98.98C8.05 99.42 4.41 99.83 3.26 100.00L37.57 100L37.57 0Z'/%3E%3C/svg%3E");
+    display: flex; flex-direction: column; justify-content: center; gap: 2px; min-width: 0;
+    --pk-h: 80px; height: var(--pk-h); padding: 0 30px 0 34px;
+    background: linear-gradient(90deg, color-mix(in srgb, var(--c, #3a3a44) 28%, #17171d), #17171d 72%);
+    -webkit-mask: var(--pk-l) left / auto 100% no-repeat, var(--pk-r) right calc(var(--pk-h) * -0.025) top 0 / auto 100% no-repeat, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask: var(--pk-l) left / auto 100% no-repeat, var(--pk-r) right calc(var(--pk-h) * -0.025) top 0 / auto 100% no-repeat, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+  }
+  .vt-pk > * { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .vt-pk span { font-size: 11px; color: var(--muted); }
   .vt-pk b { font-size: 20px; color: var(--c); font-variant-numeric: tabular-nums; }
   .vt-pk em { font-style: normal; font-size: 12px; color: var(--muted); line-height: 1.45; }
