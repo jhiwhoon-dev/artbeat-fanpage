@@ -151,7 +151,7 @@ function niceMax(v) {
  * 두 축의 눈금(0, 1/2, 최대)은 같은 높이에 놓여 가로 격자선이 하나로 이어짐.
  * 값이 null 인 칸은 "집계 전"으로 비우고, 툴팁에는 두 값을 함께 보여줌.
  */
-export function dualAreaChart({ id, labels, left, right, maxLabels = 8 }) {
+export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = [] }) {
   const DP = { l: 46, r: 46, t: 22, b: 24 };
   const n = labels.length;
   const inset = n > 1 ? 14 : 0;
@@ -205,12 +205,17 @@ export function dualAreaChart({ id, labels, left, right, maxLabels = 8 }) {
     const a = left.values[i];
     const b = right.values[i];
     const lines = [lab];
-    if (a == null && b == null) lines.push('집계 전');
+    const note = notes[i];
+    if (a == null && b == null) {
+      if (note) lines.push('집계 오류', note);
+      else lines.push('집계 전');
+    }
     else {
       lines.push(`${left.name} ${a == null ? '-' : fmtNum(a) + left.unit}`);
       lines.push(`${right.name} ${b == null ? '-' : fmtNum(b) + right.unit}`);
     }
     hits += `<g class="hit-g"><rect x="${(x - slot / 2).toFixed(1)}" y="0" width="${slot.toFixed(1)}" height="${H}" class="hit" data-tip="${esc(lines.join('|'))}"/>`;
+    if (a == null && b == null && note) hits += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${DP.t}" y2="${base}" class="note-mark"/>`;
     if (a != null || b != null) hits += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${DP.t}" y2="${base}" class="guide"/>`;
     if (a != null) hits += `<circle cx="${x.toFixed(1)}" cy="${L.yOf(a).toFixed(1)}" r="4" fill="${L.color}" class="hover-dot"/>`;
     if (b != null) hits += `<circle cx="${x.toFixed(1)}" cy="${R.yOf(b).toFixed(1)}" r="4" fill="${R.color}" class="hover-dot"/>`;

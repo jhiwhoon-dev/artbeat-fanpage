@@ -1,7 +1,7 @@
 // videos / shorts 탭 통계 그래프용 집계 (빌드 시점에 한 번 계산되고, 브라우저로는 완성된 SVG만 전달됨).
 //
 // 입력: 해당 탭에 해당하는 영상 목록(videos.json 항목), 영상별 스냅샷 조회 함수(getViewHistory)
-// 출력: 오늘 증가분, 일별 업로드, 연간 업로드/조회수/좋아요(업로드 연도 기준 + 연간 증가분 기준)
+// 출력: 오늘 증가분, 일별 업로드, 연간 업로드/조회수/좋아요(업로드 연도 기준 + 연간/월간 증가분 기준)
 //
 // 날짜 기준은 모두 KST(한국 시간). 스냅샷 날짜는 sync_videos.mjs가 저장한 값을 그대로 씀.
 
@@ -20,6 +20,15 @@ function addDays(dateStr, n) {
   const d = new Date(dateStr + 'T00:00:00Z');
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
+}
+
+// 월간 증가분 그래프에 보여줄 개월 수 (이번 달 포함)
+export const GAIN_MONTHS = 12;
+
+function addMonths(ym, n) {
+  const d = new Date(ym + '-01T00:00:00Z');
+  d.setUTCMonth(d.getUTCMonth() + n);
+  return d.toISOString().slice(0, 7);
 }
 
 function shortLabel(dateStr) {
@@ -61,6 +70,8 @@ export function buildStats(videos, getHistory, opts = {}) {
   // ---------- 스냅샷 기반: 연간 증가분 / 일별 증가분 / 오늘 증가분 ----------
   const gainViewsByYear = Object.fromEntries(yearLabels.map((y) => [y, 0]));
   const gainLikesByYear = { ...gainViewsByYear };
+  const gainViewsByMonth = {}; // { 'YYYY-MM': 해당 월에 늘어난 조회수 }
+  const gainLikesByMonth = {};
   const dayViews = {}; // { 'YYYY-MM-DD': 해당 날짜에 늘어난 조회수 } (오늘 제외)
   const dayLikes = {};
   let firstSnapshot = null; // 기록이 시작된 날짜
@@ -92,6 +103,9 @@ export function buildStats(videos, getHistory, opts = {}) {
           gainViewsByYear[y] += dv;
           gainLikesByYear[y] += dl;
         }
+        const ym = cur.date.slice(0, 7);
+        gainViewsByMonth[ym] = (gainViewsByMonth[ym] ?? 0) + dv;
+        gainLikesByMonth[ym] = (gainLikesByMonth[ym] ?? 0) + dl;
         dayViews[cur.date] = (dayViews[cur.date] ?? 0) + dv;
         dayLikes[cur.date] = (dayLikes[cur.date] ?? 0) + dl;
       }
@@ -116,6 +130,15 @@ export function buildStats(videos, getHistory, opts = {}) {
     gainViewsByYear[today.slice(0, 4)] += todayViews;
     gainLikesByYear[today.slice(0, 4)] += todayLikes;
   }
+  const thisMonth = today.slice(0, 7);
+  gainViewsByMonth[thisMonth] = (gainViewsByMonth[thisMonth] ?? 0) + todayViews;
+  gainLikesByMonth[thisMonth] = (gainLikesByMonth[thisMonth] ?? 0) + todayLikes;
+
+  // 월간 증가분: 최근 GAIN_MONTHS개월 (마지막 칸은 이번 달). 기록 시작 전 달은 "집계 전"(null)
+  const monthKeys = [];
+  for (let i = GAIN_MONTHS - 1; i >= 0; i--) monthKeys.push(addMonths(thisMonth, -i));
+  const firstSnapshotMonth = firstSnapshot ? firstSnapshot.slice(0, 7) : thisMonth;
+  const gainMonths = (obj) => monthKeys.map((m) => (m >= firstSnapshotMonth ? obj[m] ?? 0 : null));
   // 스냅샷이 시작되기 전 연도는 "집계 전"(null)
   const gainYears = (obj) =>
     yearLabels.map((y) => (firstSnapshotYear && y >= firstSnapshotYear ? obj[y] : null));
@@ -154,6 +177,11 @@ export function buildStats(videos, getHistory, opts = {}) {
       uploads: yearLabels.map((y) => uploadsByYear[y]),
       byUpload: { views: yearLabels.map((y) => viewsByYear[y]), likes: yearLabels.map((y) => likesByYear[y]) },
       byGain: { views: gainYears(gainViewsByYear), likes: gainYears(gainLikesByYear) },
+    },
+    monthly: {
+      keys: monthKeys,
+      labels: monthKeys.map((m) => m.replace('-', '.')),
+      byGain: { views: gainMonths(gainViewsByMonth), likes: gainMonths(gainLikesByMonth) },
     },
   };
 }
