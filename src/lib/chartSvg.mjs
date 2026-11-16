@@ -26,8 +26,8 @@ function pickLabelIdx(n, maxLabels) {
   return idx;
 }
 
-function frame(inner, defs, cls = '') {
-  return `<svg viewBox="0 0 ${W} ${H}" class="chart ${cls}" role="img">${defs ? `<defs>${defs}</defs>` : ''}${inner}</svg>`;
+function frame(inner, defs, cls = '', w = W) {
+  return `<svg viewBox="0 0 ${w} ${H}" class="chart ${cls}" role="img">${defs ? `<defs>${defs}</defs>` : ''}${inner}</svg>`;
 }
 
 function gridLines(max, unit, showMax = true) {
@@ -150,12 +150,14 @@ function niceMax(v) {
  * 이중 y축 영역 차트. 왼쪽 축 = left 시리즈, 오른쪽 축 = right 시리즈.
  * 두 축의 눈금(0, 1/2, 최대)은 같은 높이에 놓여 가로 격자선이 하나로 이어짐.
  * 값이 null 인 칸은 "집계 전"으로 비우고, 툴팁에는 두 값을 함께 보여줌.
+ * width 로 viewBox 가로 폭을 바꿀 수 있음(높이는 그대로) — 넓은 칸에 넣을 때 글자·선 크기를 다른 차트와 맞추는 용도.
  */
-export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = [] }) {
+export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = [], width = W }) {
+  const CW = width; // viewBox 가로 폭. 넓은 칸에서도 글자·선이 기본 차트와 같은 크기로 보이도록 넓혀서 씀
   const DP = { l: 46, r: 46, t: 22, b: 24 };
   const n = labels.length;
   const inset = n > 1 ? 14 : 0;
-  const xOf = (i) => DP.l + inset + (n > 1 ? (i / (n - 1)) * (W - DP.l - DP.r - inset * 2) : (W - DP.l - DP.r) / 2);
+  const xOf = (i) => DP.l + inset + (n > 1 ? (i / (n - 1)) * (CW - DP.l - DP.r - inset * 2) : (CW - DP.l - DP.r) / 2);
   const base = H - DP.b;
   const mk = (series) => {
     const max = niceMax(Math.max(0, ...series.values.filter((v) => v != null)) * 1.04);
@@ -168,11 +170,11 @@ export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = 
   let axes = '';
   [0, 0.5, 1].forEach((f) => {
     const y = DP.t + (base - DP.t) * (1 - f);
-    if (f > 0) axes += `<line x1="${DP.l}" x2="${W - DP.r}" y1="${y}" y2="${y}" class="grid"/>`;
+    if (f > 0) axes += `<line x1="${DP.l}" x2="${CW - DP.r}" y1="${y}" y2="${y}" class="grid"/>`;
     axes += `<text x="${DP.l - 8}" y="${y + 4}" text-anchor="end" class="tick" fill="${L.color}">${f === 0 ? '0' : fmtCompact(L.max * f)}</text>`;
-    axes += `<text x="${W - DP.r + 8}" y="${y + 4}" text-anchor="start" class="tick" fill="${R.color}">${f === 0 ? '0' : fmtCompact(R.max * f)}</text>`;
+    axes += `<text x="${CW - DP.r + 8}" y="${y + 4}" text-anchor="start" class="tick" fill="${R.color}">${f === 0 ? '0' : fmtCompact(R.max * f)}</text>`;
   });
-  axes += `<line x1="${DP.l}" x2="${W - DP.r}" y1="${base}" y2="${base}" class="grid solid"/>`;
+  axes += `<line x1="${DP.l}" x2="${CW - DP.r}" y1="${base}" y2="${base}" class="grid solid"/>`;
 
   const lastIdx = (vals) => vals.map((v) => v != null).lastIndexOf(true);
   const series = (S, sid) => {
@@ -198,7 +200,7 @@ export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = 
     return m;
   };
 
-  const slot = n > 1 ? (W - DP.l - DP.r - inset * 2) / (n - 1) : W;
+  const slot = n > 1 ? (CW - DP.l - DP.r - inset * 2) / (n - 1) : CW;
   let hits = '';
   labels.forEach((lab, i) => {
     const x = xOf(i);
@@ -226,7 +228,7 @@ export function dualAreaChart({ id, labels, left, right, maxLabels = 8, notes = 
   const defs = grad('l', L.color) + grad('r', R.color) +
     `<filter id="gl-${id}" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>`;
   const empty = left.values.every((v) => v == null) && right.values.every((v) => v == null)
-    ? `<text x="${W / 2}" y="${H / 2}" text-anchor="middle" class="empty">집계 전</text>` : '';
+    ? `<text x="${CW / 2}" y="${H / 2}" text-anchor="middle" class="empty">집계 전</text>` : '';
   const inner = axes + series(L, 'l') + series(R, 'r') + empty + xLabels(labels, xOf, maxLabels) + hits;
-  return frame(inner, defs, 'area dual');
+  return frame(inner, defs, 'area dual', CW);
 }

@@ -24,11 +24,18 @@ const t = stats.today;
 const trend = stats.trend;
 const yr = stats.yearly;
 
-const trendDual = dualAreaChart({
-  id: `${uid}-td`, labels: trend.labels, notes: trend.notes, maxLabels: 7,
+// 오늘 칸은 가로 전체를 쓰는데, 차트는 viewBox 비율대로 늘어나므로 기본 폭(560)이면 글자·선이 두 배 가까이 커짐.
+// 그래서 넓은 화면용은 viewBox 폭을 넓혀(높이는 그대로) 아래 '연간 조회수 · 좋아요' 차트와 같은 배율로 보이게 하고,
+// 칸이 한 줄에 하나씩 쌓이는 좁은 화면(760px 이하)에서는 다른 차트와 같은 기본 폭 버전을 보여줌.
+// TODAY_WIDE_W = 560 × (전체 칸 안쪽 폭 ÷ 반쪽 칸 안쪽 폭). 콘텐츠 폭 1300px 기준 약 2.09배.
+const TODAY_WIDE_W = 1170;
+const trendSeries = {
+  labels: trend.labels, notes: trend.notes,
   left: { values: trend.views, color: C_VIEWS, unit: '회', name: '조회수' },
   right: { values: trend.likes, color: C_LIKES, unit: '개', name: '좋아요' },
-});
+};
+const trendDualWide = dualAreaChart({ ...trendSeries, id: `${uid}-tdw`, width: TODAY_WIDE_W, maxLabels: 14 });
+const trendDualNarrow = dualAreaChart({ ...trendSeries, id: `${uid}-tdn`, maxLabels: 7 });
 const daily = barChart({ id: `${uid}-dl`, labels: stats.daily.labels, values: stats.daily.values, color: C_UP, unit: '개', maxLabels: 8 });
 const yearlyUploads = barChart({ id: `${uid}-yu`, labels: yr.labels, values: yr.uploads, color: C_UP, unit: '개', maxLabels: 12, showValues: yr.labels.length <= 12 });
 const dualUpload = dualAreaChart({
@@ -79,7 +86,8 @@ const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') 
           <p class="kpi-note">{t.yesterdayLikes != null ? `어제 하루 +${fmtNum(t.yesterdayLikes)}개` : '어제 기록 없음'}</p>
         </div>
       </div>
-      <div class="chart-wrap" set:html={trendDual} />
+      <div class="chart-wrap only-wide" set:html={trendDualWide} />
+      <div class="chart-wrap only-narrow" set:html={trendDualNarrow} />
       <div class="dual-legend">
         <span><i style={`background:${C_VIEWS}`}></i>조회수 (왼쪽 축)</span>
         <span><i style={`background:${C_LIKES}`}></i>좋아요 (오른쪽 축)</span>
@@ -232,6 +240,7 @@ const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') 
     .chart-cap { font-size: 11px; color: var(--muted); margin: 6px 0 0; opacity: .85; }
 
   .kpi-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .only-narrow { display: none; }
   .legend-cap { margin-left: auto; font-size: 11px; opacity: .85; }
   .stat-card .card-head { justify-content: space-between; }
   .seg { display: inline-flex; padding: 3px; gap: 2px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.03); }
@@ -286,6 +295,8 @@ const sinceLabel = stats.firstSnapshot ? stats.firstSnapshot.replace(/-/g, '.') 
 
   @media (max-width: 760px) {
     .stats-grid.two { grid-template-columns: 1fr; }
+    .only-wide { display: none; }
+    .only-narrow { display: block; }
     .kpi b { font-size: 28px; }
   }
 </style>
