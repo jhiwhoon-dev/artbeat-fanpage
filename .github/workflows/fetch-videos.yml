@@ -6,6 +6,11 @@ on:
     # 정각/30분은 GitHub 예약 실행이 몰려 지연되기 쉬워 어중간한 분으로 지정. 시각은 UTC(= KST - 9시간)
     - cron: '33 14,21,3,9 * * *'  # KST 23:33, 06:33, 12:33, 18:33
   workflow_dispatch:       # Actions 탭에서 수동 실행 버튼도 생김
+    inputs:
+      as_previous_day:
+        description: '전날 최종 데이터로 저장 (KST 00:00~06:00 실행일 때만 적용)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,6 +30,8 @@ jobs:
       - name: Sync full video catalog
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # 수동 실행 때 '전날 최종 데이터로 저장'을 체크하면 true (예약 실행에서는 빈 값)
+          SNAPSHOT_AS_PREVIOUS_DAY: ${{ inputs.as_previous_day }}
         run: node scripts/sync_videos.mjs
 
       - name: Commit changes if any
