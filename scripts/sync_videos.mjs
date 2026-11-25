@@ -245,6 +245,7 @@ async function fetchDetailsForIds(ids) {
 // 날짜/월은 KST(UTC+9) 기준. (2026-11-05 이전 기록은 UTC 날짜 기준으로 저장되어 있음) 영상 상세 페이지 쪽 파일명 규칙(src/lib/viewHistory.mjs: YYYY-MM.json)과 맞춰야 함.
 const HISTORY_DIR = path.join(DATA_DIR, "view_history");
 const snapshotsByMonth = {}; // { "2026-10": { youtube_id: [{date,views,likes}, ...] } } — 이번 실행 동안 메모리에 모아뒀다가 한 번에 저장
+let skippedOlderSnapshots = 0; // 이미 더 늦은 날짜 기록이 있어서 건너뛴 수 (아래 queueSnapshot 설명 참고)
 
 function queueSnapshot(youtubeId, views, likes) {
   // KST(한국 시간) 날짜 기준으로 하루를 나눔 → 사이트의 '오늘 0시 이후 증가분'과 같은 경계
@@ -257,15 +258,24 @@ function queueSnapshot(youtubeId, views, likes) {
   }
   const monthData = snapshotsByMonth[month];
   const history = monthData[youtubeId] ?? [];
-  if (history.length > 0 && history[history.length - 1].date === today) {
-    history[history.length - 1] = { date: today, views, likes };
+  // 같은 날짜 기록이 있으면 그 자리를 덮어쓰고, 없으면 날짜순 맨 뒤에 추가 (날짜당 기록은 항상 1개)
+  // 예외: 전날로 저장하려는 늦은 예약 실행(00:00~06:00)보다 먼저, 이미 "오늘" 날짜 기록이 생겨 있으면
+  //       (예: 자정 직후 수동 실행) 이번 값은 건너뜀. 전날 날짜에 이번 값을 넣으면 다음 날 기록보다 값이 커져 증가량이 음수가 되고,
+  //       예전 코드는 마지막 기록만 비교해서 2026-11-21·22 기록이 중복으로 쌓인 적이 있음.
+  if (history.some((e) => e.date > today)) {
+    skippedOlderSnapshots += 1;
   } else {
-    history.push({ date: today, views, likes });
+    const idx = history.findIndex((e) => e.date === today);
+    if (idx >= 0) history[idx] = { date: today, views, likes };
+    else history.push({ date: today, views, likes });
   }
   monthData[youtubeId] = history;
 }
 
 function flushSnapshots() {
+  if (skippedOlderSnapshots > 0) {
+    console.log(`이미 더 늦은 날짜 기록이 있는 영상 ${skippedOlderSnapshots}개는 이번 스냅샷 저장을 건너뜀 (날짜 역전·중복 방지)`);
+  }
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
   for (const [month, monthData] of Object.entries(snapshotsByMonth)) {
     fs.writeFileSync(path.join(HISTORY_DIR, `${month}.json`), JSON.stringify(monthData, null, 2) + "\n", "utf-8");
